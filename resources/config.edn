@@ -1,0 +1,6 @@
+{:redis-uri #profile {:dev  "redis://localhost:6379/"
+                      :prod #env REDIS_URL}
+ :host      #profile {:dev  "localhost"
+                      :prod "www.clojuriststogether.org"}
+ :port      #profile {:dev  8080
+                      :prod #long #or [#env PORT "8081"]}}
