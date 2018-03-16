@@ -1,4 +1,4 @@
-(defproject co.deps/versions "0.7.1-SNAPSHOT"
+(defproject org.clojurists-together/site "0.7.1-SNAPSHOT"
   :description "Identify outdated dependencies in your Clojure project."
   :url "https://versions.deps.co"
   :license {:name "Eclipse Public License"
@@ -16,6 +16,7 @@
                  [ring/ring-json "0.4.0"]
                  [slingshot/slingshot "0.12.2"]
                  [ring.middleware.conditional "0.2.0"]
+                 [markdown-clj "1.0.2"]
                  [clj-http "3.7.0"]
                  [io.sentry/sentry-clj "0.6.0"]
                  [com.taoensso/carmine "2.16.0"]

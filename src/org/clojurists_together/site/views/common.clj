@@ -36,34 +36,40 @@
     (favicon "16x16")
     ))
 
+(defn add-spaces [list]
+  (vec (cons (first list)
+             (interpose "\n" (rest list)))))
+
 (defn header []
   [:header
    [:a {:href "/"}
     [:h1.logo "Clojurists Together"]]
-   [:ul
-    [:li [:a {:href "/open-source/"} "OSS Projects "]]
-    [:li [:a {:href "/companies/"} "Companies "]]
-    [:li [:a {:href "/developers/"} "Developers "]]
-    [:li [:a {:href "/members/"} "Members "]]
-    [:li [:a {:href "/news/"} "News "]]
-    [:li [:a {:href "/transparency/"} "Transparency "]]
+   (add-spaces
+     [:ul
+      [:li [:a {:href "/open-source/"} "OSS Projects"]]
+      [:li [:a {:href "/companies/"} "Companies"]]
+      [:li [:a {:href "/developers/"} "Developers"]]
+      [:li [:a {:href "/members/"} "Members"]]
+      [:li [:a {:href "/news/"} "News"]]
+      [:li [:a {:href "/transparency/"} "Transparency"]]
 
-    ]])
+      ])])
 
 (defn common-footer []
   [:footer
    [:hr]
-   [:ul
-    [:li [:a {:href "/open-source/"} "Open Source Projects "]]
-    [:li [:a {:href "/companies/"} "Companies "]]
-    [:li [:a {:href "/developers/"} "Developers "]]
-    [:li [:a {:href "/members/"} "Members "]]
-    [:li [:a {:href "/news/"} "News "]]
-    [:li [:a {:href "/transparency/"} "Transparency "]]
-    [:li [:a {:href "/faq/"} "FAQ "]]
-    [:li [:a {:href "/team/"} "Team "]]
-    [:li [:a {:href "/contact/"} "Contact "]]
-    ]])
+   (add-spaces
+     [:ul
+      [:li [:a {:href "/open-source/"} "Open Source Projects"]]
+      [:li [:a {:href "/companies/"} "Companies"]]
+      [:li [:a {:href "/developers/"} "Developers"]]
+      [:li [:a {:href "/members/"} "Members"]]
+      [:li [:a {:href "/news/"} "News"]]
+      [:li [:a {:href "/transparency/"} "Transparency"]]
+      [:li [:a {:href "/faq/"} "FAQ"]]
+      [:li [:a {:href "/team/"} "Team"]]
+      [:li [:a {:href "/contact/"} "Contact"]]
+      ])])
 
 
 
@@ -75,4 +81,4 @@
          [:body
           (header)
           body
-          (common-footer)])  )
+          (common-footer)]))
