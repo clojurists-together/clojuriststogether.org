@@ -5,6 +5,7 @@
             [compojure.core :refer [GET HEAD POST routes]]
             [hiccup.middleware :refer [wrap-base-url]]
             [org.clojurists-together.site.views.index :as index-view]
+            [org.clojurists-together.site.views.markdown :as md]
             [ring.adapter.jetty :refer [run-jetty]]
             [ring.middleware.conditional :as cond]
             [ring.middleware.defaults :refer :all]
@@ -12,6 +13,7 @@
             [ring.middleware.resource :refer [wrap-resource]]
             [ring.middleware.ssl :as ssl]
             [ring.util.response :as resp]
+            [compojure.route :as route]
             [sentry-clj.core :as sentry]
             [sentry-clj.ring :as sentry-ring])
   (:import java.text.SimpleDateFormat
@@ -34,7 +36,19 @@
 (defn app-routes
   [redis]
   (routes
-   (GET "/" [] (index-view/index))))
+   (GET "/" [] (index-view/index))
+   (GET "/companies/" [] (md/markdown-view "companies.md"))
+   (GET "/contact/" [] (md/markdown-view "companies.md"))
+   (GET "/developers/" [] (md/markdown-view "developers.md"))
+   (GET "/faq/" [] (md/markdown-view "faq.md"))
+   (GET "/members/" [] (md/markdown-view "members.md"))
+   (GET "/open-source/" [] (md/markdown-view "open-source.md"))
+   (GET "/team/" [] (md/markdown-view "team.md"))
+   (GET "/transparency/" [] (md/markdown-view "transparency.md"))
+   (GET "/news/" [] (md/markdown-view "news.md"))
+
+   (route/resources "public")
+   (route/not-found "404")))
 
 (defn production? [req]
   (= (:server-name req) "www.clojuriststogether.org"))
@@ -56,6 +70,12 @@
     (let [response (handler request)]
       (assoc-in response [:headers "Content-Security-Policy"] csp))))
 
+(defn wrap-redirect-slash [handler]
+  (fn [{:keys [uri] :as req}]
+    (if (.endsWith uri "/")
+      (handler req)
+      (resp/redirect (str uri "/")))))
+
 (defn- default-error
   "A very bare-bones error message. Ignores the request and exception."
   [req e]
@@ -73,6 +93,7 @@
       (wrap-resource "public")
       (wrap-base-url)
       (wrap-referrer-policy)
+      (wrap-redirect-slash)
       #_(wrap-content-security-policy)
       (wrap-defaults (assoc-in site-defaults [:security :anti-forgery] false))
       (cond/if production? ssl/wrap-ssl-redirect)

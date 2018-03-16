@@ -1,5 +1,6 @@
 (ns org.clojurists-together.site.views.common
   (:require [clojure.string :as string]
+            [org.clojurists-together.site.utils :refer [html5]]
             [hiccup.page :refer [include-css]]))
 
 (defn apple-touch-icon [size]
@@ -16,7 +17,7 @@
     [:meta {:http-equiv "X-UA-Compatible" :content "IE=edge,chrome=1"}]
     [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0, user-scalable=no"}]
     [:meta {:name "author" :content "Deps"}]
-    (include-css "https://fonts.googleapis.com/css?family=Karla:400,700" "/app.css")
+    (include-css "/app.css")
     [:link {:rel "shortcut icon" :href "/favicon.ico"}]
 
     (apple-touch-icon "57x57")
@@ -35,18 +36,43 @@
     (favicon "16x16")
     ))
 
-(defn common-footer []
-  [:footer.footer.row
-   [:div.small-12.columns
-    [:p "Brought to you by "
-     [:a {:href "https://www.deps.co/"} "Deps - Private Hosted Maven Repositories"] "."]
-    [:p
-     [:a {:href "http://github.com/deps-app/versions"} "Versions"]
-     " is an open source project hosted on GitHub."]]])
-
 (defn header []
-  [:header.header.row
-   [:div.logo-collection
-    [:a {:href "/"}
-     [:div.logo]
-     [:h1 "Deps Versions"]]]])
+  [:header
+   [:a {:href "/"}
+    [:h1.logo "Clojurists Together"]]
+   [:ul
+    [:li [:a {:href "/open-source/"} "OSS Projects "]]
+    [:li [:a {:href "/companies/"} "Companies "]]
+    [:li [:a {:href "/developers/"} "Developers "]]
+    [:li [:a {:href "/members/"} "Members "]]
+    [:li [:a {:href "/news/"} "News "]]
+    [:li [:a {:href "/transparency/"} "Transparency "]]
+
+    ]])
+
+(defn common-footer []
+  [:footer
+   [:hr]
+   [:ul
+    [:li [:a {:href "/open-source/"} "Open Source Projects "]]
+    [:li [:a {:href "/companies/"} "Companies "]]
+    [:li [:a {:href "/developers/"} "Developers "]]
+    [:li [:a {:href "/members/"} "Members "]]
+    [:li [:a {:href "/news/"} "News "]]
+    [:li [:a {:href "/transparency/"} "Transparency "]]
+    [:li [:a {:href "/faq/"} "FAQ "]]
+    [:li [:a {:href "/team/"} "Team "]]
+    [:li [:a {:href "/contact/"} "Contact "]]
+    ]])
+
+
+
+(defn template [body]
+  (html5 {:lang "en"}
+         [:head
+          [:title "Deps Versions: identify out of date dependencies"]
+          (common-head)]
+         [:body
+          (header)
+          body
+          (common-footer)])  )
