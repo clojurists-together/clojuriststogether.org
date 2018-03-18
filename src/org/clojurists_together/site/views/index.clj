@@ -7,7 +7,7 @@
 (defn index []
   (html5 {:lang "en"}
     [:head
-     [:title "Deps Versions: identify out of date dependencies"]
+     [:title "Clojurists Together"]
      (common-views/common-head)]
     [:body
      (common-views/header)

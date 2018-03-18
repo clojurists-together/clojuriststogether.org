@@ -76,7 +76,7 @@
 (defn template [body]
   (html5 {:lang "en"}
          [:head
-          [:title "Deps Versions: identify out of date dependencies"]
+          [:title "Clojurists Together"]
           (common-head)]
          [:body
           (header)
