@@ -9,7 +9,8 @@
   (when-let [md (some-> (io/resource (str "markdown/" filename))
                         (slurp)
                         (md/md-to-html-string-with-meta
-                          :inhibit-separator "%"))]
+                          :inhibit-separator "%"
+                          :heading-anchors true))]
     (common/template
       [:main [:h1 (str/trim (first (:title (:metadata md))))]
        (hiccup.util/raw-string (:html md))])))

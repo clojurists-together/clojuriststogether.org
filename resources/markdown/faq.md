@@ -27,22 +27,22 @@ Clojurists Together is run by Clojars, and is not associated with the fine folks
 
 Clojurists Together takes feedback for every funding round on which projects and areas to focus on. If you're not happy with how Clojurists Together spends your money, you're free to cancel your membership at any time. We take [transparency](/transparency) very seriously, and want you to have full confidence in how your money is being spent.
 
-## I can't commit to a monthly membership, can I make a one-off donation? {#one-off-donation}
+## I can't commit to a monthly membership, can I make a one-off donation?
 
 Absolutely, you can make a donation via PayPal or Credit Card here:
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="CXEQ6V4DH9NNW">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+%<input type="hidden" name="cmd" value="_s-xclick">%
+%<input type="hidden" name="hosted_button_id" value="CXEQ6V4DH9NNW">%
+<input type="image" %src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"% border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" %src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"% width="1" height="1">
 </form>
 
 If PayPal/Credit Card doesn't work for you, then please get in touch, as there are other payment options we can use.
 
-## I can't use PayPal, do you have other payment options? {#other-payment-options}
+## I can't use PayPal, do you have other payment options?
 
-The only way we can currently setup recurring subscriptions is through PayPal. The Software Freedom Conservancy does have [other options](https://sfconservancy.org/donate/) for one-off payments though. You can also make a one-off credit card payment through the link in the [section above](#one-off-donation). If you'd prefer to use one of those options, we're happy to process your payment as an annual subscription. This helps us minimise the paperwork and admin time involved for everyone. In all cases, please [get in touch](/contact/) with us and we'll work something out and make sure that your payment is marked for Clojurists Together and you get signed up for a subscription.
+The only way we can currently setup recurring subscriptions is through PayPal. The Software Freedom Conservancy does have [other options](https://sfconservancy.org/donate/) for one-off payments though. You can also make a one-off credit card payment through the link in the section above. If you'd prefer to use one of those options, instead of using PayPal for a recurring subscription, we're happy to process your payment as an annual subscription. This helps us minimise the paperwork and admin time involved for everyone. In all cases, please [get in touch](/contact/) with us and we'll work something out and make sure that your payment is marked for Clojurists Together and you get signed up for a subscription.
 
 ## I still have questions?
 
