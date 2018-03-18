@@ -12,7 +12,7 @@
 (defn common-head []
   (list
     [:meta {:charset "utf-8"}]
-    [:meta {:name "description" :content "Identifies out of date dependencies for Clojure projects hosted on GitHub"}]
+    [:meta {:name "description" :content "Funding critical Clojure open source software"}]
     [:meta {:name "keywords" :content "clojure, dependencies, version, up to date version, out of date version"}]
     [:meta {:http-equiv "X-UA-Compatible" :content "IE=edge,chrome=1"}]
     [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0, user-scalable=no"}]
