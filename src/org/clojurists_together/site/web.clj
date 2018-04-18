@@ -37,16 +37,7 @@
   [redis]
   (routes
    (GET "/" [] (index-view/index))
-   (GET "/companies/" [] (md/markdown-view "companies.md"))
-   (GET "/contact/" [] (md/markdown-view "companies.md"))
-   (GET "/developers/" [] (md/markdown-view "developers.md"))
-   (GET "/faq/" [] (md/markdown-view "faq.md"))
-   (GET "/members/" [] (md/markdown-view "members.md"))
-   (GET "/open-source/" [] (md/markdown-view "open-source.md"))
-   (GET "/team/" [] (md/markdown-view "team.md"))
-   (GET "/transparency/" [] (md/markdown-view "transparency.md"))
-   (GET "/news/:id/" [id] (md/markdown-view (str "news/" id ".md")))
-   (GET "/news/" [] (md/markdown-view "news.md"))
+   (md/routes)
 
    (route/resources "public")
    (route/not-found "404")))
