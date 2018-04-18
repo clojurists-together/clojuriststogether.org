@@ -42,7 +42,7 @@ If PayPal/Credit Card doesn't work for you, then please get in touch, as there a
 
 ## I can't use PayPal, do you have other payment options?
 
-The only way we can currently setup recurring subscriptions is through PayPal. The Software Freedom Conservancy does have [other options](https://sfconservancy.org/donate/) for one-off payments though. You can also make a one-off credit card payment through the link in the section above. If you'd prefer to use one of those options, instead of using PayPal for a recurring subscription, we're happy to process your payment as an annual subscription. This helps us minimise the paperwork and admin time involved for everyone. In all cases, please [get in touch](/contact/) with us and we'll work something out and make sure that your payment is marked for Clojurists Together and you get signed up for a subscription.
+The only way we can currently setup recurring subscriptions is through PayPal. The Software Freedom Conservancy does have [other options](https://sfconservancy.org/donate/) for one-off payments though. You can also make a one-off credit card payment through the link in the [section above](#one-off-donation). If you'd prefer to use one of those options, we're happy to process your payment as an annual subscription. This helps us minimise the paperwork and admin time involved for everyone. In all cases, please [get in touch](/contact/) with us and we'll work something out and make sure that your payment is marked for Clojurists Together and you get signed up for a subscription.
 
 ## I still have questions?
 

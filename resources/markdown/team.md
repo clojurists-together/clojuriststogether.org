@@ -3,13 +3,13 @@ Title: Team
 
 The Clojurists Together Committee is made up of:
 
-* Toby Crawley
+* Toby Crawley - Toby is a maintainer of [Clojars](https://clojars.org).
 * Bridget Hillyer
 * Maria Geller
 * Devin Walters
 * Daniel Solano Gómez
-* Larry Staton Jr.
-* Daniel Compton (project leader)
+* Larry Staton Jr
+* [Daniel Compton](https://danielcompton.net) (project leader) - Daniel is a maintainer of [Clojars](https://clojars.org) and runs [Deps](https://www.deps.co), a private Maven repository service.
 
 The Committee is responsible for governing the project, selecting which projects are sponsored, administering the project, and interacting with sponsors.
 

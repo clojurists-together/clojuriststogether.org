@@ -23,10 +23,12 @@ These questions are to get an understanding of your project and plans for the fu
 * Who is applying? How are you related to the project?
 * What are you wanting to achieve with the funding?
 * Why is this project important to the Clojure community?
-* Do you receive any other funding to work on this project? **N.B.** Receiving other funding *does not* disqualify you from receiving Clojurists Together funding. Funding sources might be:
+* Do you receive any other funding to work on this project? Funding sources might be:
   * Explicit funding through things like Patreon or Gratipay
   * Implicit funding by an employer allowing or requesting for you to work on this open source project
   * A commercial business model alongside the open source project.
+
+**N.B.** Receiving other funding *does not* disqualify you from receiving Clojurists Together funding. However you cannot accept multiple streams of money for the same work, i.e. you cannot double bill the work you do in your day job on your OSS project as also going towards the work that you do in your Clojurists Together funding.
 
 ***
 
@@ -74,6 +76,8 @@ The Clojurists Together committee evaluates projects based on the following crit
 2. Each committee member reviews the projects and weighs them against the criteria above.
 3. Each committee member ranks the projects in order of preference
 4. The winning projects are selected by [Multi-Winner Ranked Choice Voting](http://www.fairvote.org/multi_winner_rcv_example)
+
+We will then publish a list of all the projects that applied, along with the voting results. The voting results redact all but the top 5 projects.
 
 ## Project Reports
 
