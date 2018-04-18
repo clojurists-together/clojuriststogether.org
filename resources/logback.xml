@@ -11,6 +11,8 @@
         </filter>
     </appender>
 
+    <logger name="org.eclipse.jetty" level="WARN"/>
+
     <root level="INFO">
         <appender-ref ref="CONSOLE"/>
     </root>

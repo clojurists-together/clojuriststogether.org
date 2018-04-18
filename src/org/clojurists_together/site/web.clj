@@ -45,6 +45,7 @@
    (GET "/open-source/" [] (md/markdown-view "open-source.md"))
    (GET "/team/" [] (md/markdown-view "team.md"))
    (GET "/transparency/" [] (md/markdown-view "transparency.md"))
+   (GET "/news/:id/" [id] (md/markdown-view (str "news/" id ".md")))
    (GET "/news/" [] (md/markdown-view "news.md"))
 
    (route/resources "public")

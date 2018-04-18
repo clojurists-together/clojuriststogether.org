@@ -73,10 +73,10 @@
 
 
 
-(defn template [body]
+(defn template [title body]
   (html5 {:lang "en"}
          [:head
-          [:title "Clojurists Together"]
+          [:title (str title " - Clojurists Together")]
           (common-head)]
          [:body
           (header)

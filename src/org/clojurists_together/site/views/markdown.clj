@@ -11,6 +11,7 @@
                         (md/md-to-html-string-with-meta
                           :inhibit-separator "%"
                           :heading-anchors true))]
-    (common/template
-      [:main [:h1 (str/trim (first (:title (:metadata md))))]
-       (hiccup.util/raw-string (:html md))])))
+    (let [title (str/trim (first (:title (:metadata md))))]
+      (common/template title
+        [:main [:h1 title]
+         (hiccup.util/raw-string (:html md))]))))
