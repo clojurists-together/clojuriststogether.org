@@ -20,7 +20,7 @@
 (defn routes []
   (compojure/routes
     (GET "/companies/" [] (markdown-view "companies.md"))
-    (GET "/contact/" [] (markdown-view "companies.md"))
+    (GET "/contact/" [] (markdown-view "contact.md"))
     (GET "/developers/" [] (markdown-view "developers.md"))
     (GET "/faq/" [] (markdown-view "faq.md"))
     (GET "/members/" [] (markdown-view "members.md"))
