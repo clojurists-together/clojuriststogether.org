@@ -6,6 +6,7 @@
             [hiccup.middleware :refer [wrap-base-url]]
             [org.clojurists-together.site.views.index :as index-view]
             [org.clojurists-together.site.views.markdown :as md]
+            [org.clojurists-together.site.signup :as signup]
             [ring.adapter.jetty :refer [run-jetty]]
             [ring.middleware.conditional :as cond]
             [ring.middleware.defaults :refer :all]
@@ -37,6 +38,8 @@
   [redis]
   (routes
    (GET "/" [] (index-view/index))
+   (GET "/thanks/" [] (signup/thanks))
+
    (md/routes)
 
    (route/resources "public")
