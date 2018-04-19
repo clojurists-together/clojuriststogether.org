@@ -17,7 +17,7 @@ Every three months, Clojurists Together takes applications from open source deve
 
 ### Questions:
 
-These questions are to get an understanding of your project and plans for the funding. We would expect most application would be filled out within five minutes. We don't want you spending hours crafting the perfect application; you have enough work to do already.
+These questions are to get an understanding of your project and plans for the funding. We would expect most applications would be filled out in five minutes or less. We don't want you spending hours crafting the perfect application; you have enough work to do already.
 
 * What project are you applying for?
 * Who is applying? How are you related to the project?
