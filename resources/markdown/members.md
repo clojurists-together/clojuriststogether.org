@@ -7,6 +7,7 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 
 * [JUXT](https://juxt.pro) ⭐️
 * [Metosin](http://www.metosin.fi) ⭐️
+* [Status](https://status.im)
 
 ### Into Members ($200/mo):
 
