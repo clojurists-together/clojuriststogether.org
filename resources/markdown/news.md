@@ -1,5 +1,9 @@
 Title: News
 
+## [Q2 2018 Funding Announcement](/news/q2-2018-funding-announcement)
+
+Clojurists Together is happy to announce that for Q2 of 2018 (May-July) we are funding two projects: CIDER and ClojureScript. CIDER is the most widely adopted Clojure development environment. In the most recent Clojure survey CIDER was the primary development environment for 50% of survey respondents. 
+
 ## [Q2 2018 Survey Results and Call For Proposals](/news/q2-2018-survey-results/)
 
 Posted on April 11, 2018
