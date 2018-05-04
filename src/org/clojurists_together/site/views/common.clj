@@ -69,6 +69,7 @@
       [:li [:a {:href "/faq/"} "FAQ"]]
       [:li [:a {:href "/team/"} "Team"]]
       [:li [:a {:href "/contact/"} "Contact"]]
+      [:li [:a {:href "https://github.com/clojurists-together/clojuriststogether.org"} "Source"]]
       ])])
 
 
