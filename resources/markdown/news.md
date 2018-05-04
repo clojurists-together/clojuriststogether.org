@@ -1,5 +1,9 @@
 Title: News
 
+## [April 2018 Monthly Update](/news/april-2018-monthly-update/)
+
+This is the third and final update from clj-http and Figwheel. Both projects finished their work at the end of April. Both projects have done great work, and we are really impressed with what they've been able to achieve. We recently announced that we are funding CIDER and ClojureScript for our Q2 funding round. Those two projects have just started, we'll have more details on what they're working on next month.
+
 ## [Q2 2018 Funding Announcement](/news/q2-2018-funding-announcement)
 
 Clojurists Together is happy to announce that for Q2 of 2018 (May-July) we are funding two projects: CIDER and ClojureScript. CIDER is the most widely adopted Clojure development environment. In the most recent Clojure survey CIDER was the primary development environment for 50% of survey respondents. 
