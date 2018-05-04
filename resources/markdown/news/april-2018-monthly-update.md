@@ -5,7 +5,7 @@ type: post
 
 ## Clojurists Together news
 
-This is the third and final update from clj-http and Figwheel. Both projects finished their work at the end of April. Both projects have done great work, and we are really impressed with what they've been able to achieve. We recently [announced](/news/q2-2018-funding-announcement/) that we are funding CIDER and ClojureScript for our Q2 funding round. Those two projects have just started, we'll have more details on what they're working on next month.
+This is the third and final update from clj-http and Figwheel. Both projects finished their work at the end of April. Both projects have done great work, and we are really impressed with what they've been able to achieve. We recently [announced](/news/q2-2018-funding-announcement/) that we are funding CIDER and ClojureScript for our Q2 funding round. Those two projects have just started, we'll have more details on what they're working on next month. If you'd like to follow along with Mike Fike's work on ClojureScript, he has a [public work log](https://gist.github.com/mfikes/e6673df98da49b8a87ffadbf3dea8cf4) up.
 
 We continue to work on automating the sign-ups on the website, to make a faster and smoother flow for people who'd like to join. If you'd like to help out on that, or other issues, our site is now up on [GitHub](https://github.com/clojurists-together/clojuriststogether.org).
 
