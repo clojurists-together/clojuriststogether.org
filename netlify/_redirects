@@ -1,0 +1,2 @@
+# Exclamation mark forces redirect even when path exists
+/* https://www.clojuriststogether.org/:splat 301!
