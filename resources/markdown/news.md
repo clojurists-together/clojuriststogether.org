@@ -1,5 +1,11 @@
 Title: News
 
+## [Q3 2018 Survey Results and Call For Proposals](/news/q3-2018-survey-results/)
+
+Posted on July 13, 2018
+
+We have recently run our third survey on our members to better understand them and their needs. We're publishing these results so that they can see the aggregate results, and to give open source projects more information when applying for the Q3 2018 Clojurists Together funding round (closing 20 July).
+
 ## [May 2018 Monthly Update](/news/may-2018-monthly-update/)
 
 Not much to report from Clojurists Together this month, things have been pretty quiet with lots of other things going on. This is the first month of work from the second round of funding. Bozhidar Batsov is working on CIDER + related projects and Mike Fikes is working on ClojureScript. If you like the work that they're doing and would like to support it further, consider joining yourself or your company as a member.
@@ -10,7 +16,7 @@ This is the third and final update from clj-http and Figwheel. Both projects fin
 
 ## [Q2 2018 Funding Announcement](/news/q2-2018-funding-announcement)
 
-Clojurists Together is happy to announce that for Q2 of 2018 (May-July) we are funding two projects: CIDER and ClojureScript. CIDER is the most widely adopted Clojure development environment. In the most recent Clojure survey CIDER was the primary development environment for 50% of survey respondents. 
+Clojurists Together is happy to announce that for Q2 of 2018 (May-July) we are funding two projects: CIDER and ClojureScript. CIDER is the most widely adopted Clojure development environment. In the most recent Clojure survey CIDER was the primary development environment for 50% of survey respondents.
 
 ## [Q2 2018 Survey Results and Call For Proposals](/news/q2-2018-survey-results/)
 
