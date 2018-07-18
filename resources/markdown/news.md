@@ -1,5 +1,9 @@
 Title: News
 
+## [June 2018 Monthly Update](/news/june-2018-monthly-update/)
+
+Posted on July 18, 2018
+
 ## [Q3 2018 Survey Results and Call For Proposals](/news/q3-2018-survey-results/)
 
 Posted on July 13, 2018
