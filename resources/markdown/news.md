@@ -4,6 +4,8 @@ Title: News
 
 Posted on July 18, 2018
 
+This has been another productive month for CIDER and ClojureScript. There is one more month left in this funding cycle and then we're starting our next round.
+
 ## [Q3 2018 Survey Results and Call For Proposals](/news/q3-2018-survey-results/)
 
 Posted on July 13, 2018
