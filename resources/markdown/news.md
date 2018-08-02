@@ -1,5 +1,11 @@
 Title: News
 
+## [Q3 2018 Funding Announcement](/news/q3-2018-funding-announcement/)
+
+Posted on August 3, 2018
+
+Clojurists Together is happy to announce that for Q3 of 2018 (August-October) we are funding two projects: cljdoc and Shadow CLJS.
+
 ## [June 2018 Monthly Update](/news/june-2018-monthly-update/)
 
 Posted on July 18, 2018
