@@ -1,36 +1,35 @@
 Title: Open Source
 
-
 ## Applications
 
 Every three months, Clojurists Together takes applications from open source developers for funding to work on open source projects. The Clojurists Together [committee](/team) then evaluates the proposals, makes their selection, and then funds projects with a fellowship for the next three months. You can apply at any time for the next funding cycle, and you can make multiple applications for different projects.
 
 <a href="https://docs.google.com/forms/d/1JD5OAbA0A8d0GFAGjY73Z2oKmmcQ-NZBrngBlqXdHnQ/viewform" class="become-a-member">Apply for funding</a>
-</section>
 
+</section>
 
 ### Application Requirements:
 
-* You are a maintainer of the project, i.e. you have commit access to the project, or the others that work on the project recognise you as a maintainer.
-* Project is open source, with a recognised open source license
-* Project benefits the Clojure/ClojureScript community
+- You are a maintainer of the project, i.e. you have commit access to the project, or the others that work on the project recognise you as a maintainer.
+- Project is open source, with a recognised open source license
+- Project benefits the Clojure/ClojureScript community
 
 ### Questions:
 
 These questions are to get an understanding of your project and plans for the funding. We would expect most applications would be filled out in five minutes or less. We don't want you spending hours crafting the perfect application; you have enough work to do already.
 
-* What project are you applying for?
-* Who is applying? How are you related to the project?
-* What are you wanting to achieve with the funding?
-* Why is this project important to the Clojure community?
-* Do you receive any other funding to work on this project? Funding sources might be:
-  * Explicit funding through things like Patreon or Gratipay
-  * Implicit funding by an employer allowing or requesting for you to work on this open source project
-  * A commercial business model alongside the open source project.
+- What project are you applying for?
+- Who is applying? How are you related to the project?
+- What are you wanting to achieve with the funding?
+- Why is this project important to the Clojure community?
+- Do you receive any other funding to work on this project? Funding sources might be:
+  - Explicit funding through things like Patreon or Gratipay
+  - Implicit funding by an employer allowing or requesting for you to work on this open source project
+  - A commercial business model alongside the open source project.
 
-**N.B.** Receiving other funding *does not* disqualify you from receiving Clojurists Together funding. However you cannot accept multiple streams of money for the same work, i.e. you cannot double bill the work you do in your day job on your OSS project as also going towards the work that you do in your Clojurists Together funding.
+**N.B.** Receiving other funding _does not_ disqualify you from receiving Clojurists Together funding. However you cannot accept multiple streams of money for the same work, i.e. you cannot double bill the work you do in your day job on your OSS project as also going towards the work that you do in your Clojurists Together funding.
 
-***
+---
 
 ### Example Application
 
@@ -54,7 +53,7 @@ REPLicator has been around for several years and is used by many developers. The
 
 No.
 
-***
+---
 
 ## Funding amounts
 
@@ -64,18 +63,19 @@ Successful projects are awarded a fellowship for three months. The number of pro
 
 The Clojurists Together committee evaluates projects based on the following criteria:
 
-* Project needs - What is the project wanting to do with the money? A clear plan for the money's usage is more compelling than 'Bugfixes and improvements'.
-* Community usage - An open source project that has 10,000 users is more likely to be funded than one with 10.
-* Current funding - Clojurists Together wants to fund open source projects that are important to the ecosystem, and may be underfunded. If you're making seven figures/year from your project then it may not make the cut.
-* Member comments - Each funding cycle, we solicit comments and preferences from members on what they see as priorities. Comments from higher tier members get more weight.
-* Track record of the person applying - Are they established in the community, have they got a history of contributing to the community? This doesn't mean you need five years of contributions before you're considered, but if you have one week of history then it may weigh against you.
+- Project needs - What is the project wanting to do with the money? A clear plan for the money's usage is more compelling than 'Bugfixes and improvements'.
+- Community usage - An open source project that has 10,000 users is more likely to be funded than one with 10.
+- Current funding - Clojurists Together wants to fund open source projects that are important to the ecosystem, and may be underfunded. If you're making seven figures/year from your project then it may not make the cut.
+- Previous funding - If Clojurists Together has recently funded your project then it may be weighted slightly lower than it would have otherwise, so that we fund a variety of projects. Please don't let this discourage you from applying though, we don't disallow projects from being funded again.
+- Member comments - Each funding cycle, we solicit comments and preferences from members on what they see as priorities. Comments from higher tier members get more weight.
+- Track record of the person applying - Are they established in the community, have they got a history of contributing to the community? This doesn't mean you need five years of contributions before you're considered, but if you have one week of history then it may weigh against you.
 
 ## Selecting Projects
 
-1. In every funding cycle, we look at the funds that we have available, and decide how many projects we will be able to fund for that cycle.
-2. Each committee member reviews the projects and weighs them against the criteria above.
-3. Each committee member ranks the projects in order of preference
-4. The winning projects are selected by [Multi-Winner Ranked Choice Voting](http://www.fairvote.org/multi_winner_rcv_example)
+1.  In every funding cycle, we look at the funds that we have available, and decide how many projects we will be able to fund for that cycle.
+2.  Each committee member reviews the projects and weighs them against the criteria above.
+3.  Each committee member ranks the projects in order of preference
+4.  The winning projects are selected by [Multi-Winner Ranked Choice Voting](http://www.fairvote.org/multi_winner_rcv_example)
 
 We will then publish a list of all the projects that applied, along with the voting results. The voting results redact all but the top 5 projects.
 
@@ -95,13 +95,13 @@ Project applications may be submitted at any time. They are evaluated quarterly.
 
 An example timeline for the February-April funding cycle:
 
-* Anytime: submit an application
-* January 20: Applications for February-April funding cycle close
-* January 27: Funding decisions are returned
-* February 1: February-April funding cycle begins
-* February 15: Projects submit first project report
-* February 30: Payment for first month of work is made to projects. Projects submit second project report
-* March 15: Projects submit third project report
-* March 30: Payment for second month of work is made to projects. Projects submit fourth project report
-* April 15: Projects submit forth project report
-* April 30: Final payment for third month of work is made to projects. Projects submit final project report
+- Anytime: submit an application
+- January 20: Applications for February-April funding cycle close
+- January 27: Funding decisions are returned
+- February 1: February-April funding cycle begins
+- February 15: Projects submit first project report
+- February 30: Payment for first month of work is made to projects. Projects submit second project report
+- March 15: Projects submit third project report
+- March 30: Payment for second month of work is made to projects. Projects submit fourth project report
+- April 15: Projects submit forth project report
+- April 30: Final payment for third month of work is made to projects. Projects submit final project report
