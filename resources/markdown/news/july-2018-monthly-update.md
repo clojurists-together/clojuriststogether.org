@@ -11,17 +11,18 @@ This was the final month for CIDER and ClojureScript. Our next two projects that
 
 This months updates were all around getting nREPL 0.4 into the hands of everyone.
 
-- Released nREPL 0.4.2 (https://github.com/nrepl/nREPL/releases/tag/0.4.2)
-- Released nREPL 0.4.3 (https://github.com/nrepl/nREPL/releases/tag/0.4.3)
-- Released nREPL 0.4.4 (https://github.com/nrepl/nREPL/releases/tag/0.4.4)
-- Created a nice manual for nREPL (http://nrepl.readthedocs.io/)
-- Released cider-nrepl 0.18.0 (with support for nREPL 0.4) (https://github.com/clojure-emacs/cider-nrepl/blob/master/CHANGELOG.md#0180-2018-08-06)
+- I've also opened PRs for [lein](https://github.com/technomancy/leiningen/pull/2444) and [boot](https://github.com/boot-clj/boot/pull/703) for the new nREPL.
+- Released [nREPL 0.4.2](https://github.com/nrepl/nREPL/releases/tag/0.4.2)
+- Released [nREPL 0.4.3](https://github.com/nrepl/nREPL/releases/tag/0.4.3)
+- Released [nREPL 0.4.4](https://github.com/nrepl/nREPL/releases/tag/0.4.4)
+- Created a [nice manual](http://nrepl.readthedocs.io/) for nREPL
+- Released [cider-nrepl 0.18.0](https://github.com/clojure-emacs/cider-nrepl/blob/master/CHANGELOG.md#0180-2018-08-06) (with support for nREPL 0.4)
 - Removed the lockstep between CIDER and CIDER nREPL versions, now cider-nrepl releases are going to happen independently from CIDER's (mostly because several editors now rely on cider-nrepl)
 - Updated refactor-nrepl to support nREPL 0.4
 - Updated piggieback to support nREPL 0.4 (released with 0.3.8)
-- Created a lein plugin to start an nREPL 0.4 server easily (https://github.com/nrepl/lein-nrepl)
-- Send a PR to sayid adding nREPL 0.4 support (https://github.com/bpiel/sayid/pull/40)
-- Released drawbridge 0.1.1 which added back support for tools.nrepl
+- Created a [lein plugin](https://github.com/nrepl/lein-nrepl) to start an nREPL 0.4 server easily
+- Send a PR to sayid [adding nREPL 0.4 support](https://github.com/bpiel/sayid/pull/40)
+- Released [drawbridge](https://github.com/nrepl/drawbridge) 0.1.3 which added back support for tools.nrepl
 
 ## ClojureScript updates
 
