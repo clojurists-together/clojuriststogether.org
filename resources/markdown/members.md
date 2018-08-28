@@ -19,6 +19,7 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 - [PurelyFunctional.tv](https://purelyfunctional.tv)
 - [Deep Impact](https://www.deep-impact.ch)
 - [PKC Security](https://www.pkc.io)
+- [Kasta](https://kasta.ua)
 
 ### Assoc Members ($50/mo):
 
