@@ -1,6 +1,6 @@
 Title: News
 
-## [August 2018 Monthly Update](/news/august-2018-monthly-update)
+## [August 2018 Monthly Update](/news/august-2018-monthly-update.md)
 
 August was the first month of funding for the quarter, so today we present the initial round of updates on new projects, cljdoc and Shadow CLJS.
 
