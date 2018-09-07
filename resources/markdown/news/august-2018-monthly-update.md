@@ -5,7 +5,7 @@ type: post
 
 ## Clojurists Together news
 
-August was the first month of funding for the quarter, so today we present the first round of updates on new projects, cljdoc and Shadow CLJS. 
+August was the first month of funding for the quarter, so today we present the initial round of updates on new projects, cljdoc and Shadow CLJS. 
 
 
 Thanks to all of our members who support Clojurists Together. It's thanks to your generous support that we can do this.
