@@ -7,6 +7,7 @@ type: post
 
 August was the first month of funding for the quarter, so today we present the initial round of updates on new projects, cljdoc and Shadow CLJS. 
 
+This month we have hired Rachel Magruder part-time to help out with the day-to-day running of Clojurists Together. If you send us an email you may get a response from her. She is also helping out with the backend processing of contracts, grant reports, payments, e.t.c.
 
 Thanks to all of our members who support Clojurists Together. It's thanks to your generous support that we can do this.
 
