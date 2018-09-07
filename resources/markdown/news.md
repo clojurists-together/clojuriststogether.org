@@ -1,5 +1,11 @@
 Title: News
 
+## [August 2018 Monthly Update](/news/august-2018-monthly-update)
+
+August was the first month of funding for the quarter, so today we present the initial round of updates on new projects, cljdoc and Shadow CLJS.
+
+Thanks to all of our members who support Clojurists Together. It's thanks to your generous support that we can do this.
+
 ## [July 2018 Monthly Update](/news/july-2018-monthly-update)
 
 This was the final month for CIDER and ClojureScript. Our next two projects that we are funding are cljdoc and Shadow CLJS. Thanks to all of our members who support Clojurists Together. It's thanks to your generous support that we can do this.
