@@ -1,13 +1,6 @@
 (ns org.clojurists-together.site.views.common
-  (:require [clojure.string :as string]
-            [org.clojurists-together.site.utils :refer [html5]]
+  (:require [org.clojurists-together.site.utils :refer [html5]]
             [hiccup.page :refer [include-css]]))
-
-(defn apple-touch-icon [size]
-  [:link {:rel "apple-touch-icon-precomposed" :sizes size :href (format "/images/logos/apple-touch-icon-%s.png" size)}])
-
-(defn favicon [size]
-  [:link {:rel "icon" :type "image/png" :sizes size :href (format "/images/logos/favicon-%s.png" size)}])
 
 (defn common-head []
   (list
@@ -31,8 +24,8 @@
 (defn header []
   [:header
    [:a {:href "/"}
-
-    [:h1.logo "Clojurists Together"]]
+    [:img.header-logo {:src "/header-logo.png"}]
+    #_[:h1.logo "Clojurists Together"]]
    (add-spaces
      [:ul
       [:li [:a {:href "/open-source/"} "OSS Projects"]]

@@ -92,3 +92,10 @@ header a {
     text-align: center;
     border-radius: 5px;
 }
+
+.header-logo {
+    max-width: 100%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
