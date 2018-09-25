@@ -19,22 +19,10 @@
     [:meta {:name "author" :content "Deps"}]
     (include-css "/app.css")
     [:link {:rel "shortcut icon" :href "/favicon.ico"}]
-
-    (apple-touch-icon "57x57")
-    (apple-touch-icon "114x114")
-    (apple-touch-icon "72x72")
-    (apple-touch-icon "144x144")
-    (apple-touch-icon "60x60")
-    (apple-touch-icon "120x120")
-    (apple-touch-icon "76x76")
-    (apple-touch-icon "152x152")
-
-    (favicon "196x196")
-    (favicon "128x128")
-    (favicon "96x96")
-    (favicon "32x32")
-    (favicon "16x16")
-    ))
+    [:link {:rel "apple-touch-icon" :sizes "180x180" :href "/apple-touch-icon.png"}]
+    [:link {:rel "icon" :type "image/png" :sizes "32x32" :href "/favicon-32x32.png"}]
+    [:link {:rel "icon" :type "image/png" :sizes "16x16" :href "/favicon-16x16.png"}]
+    [:link {:rel "mask-icon" :href "/safari-pinned-tab.svg":color "#5bbad5"}]))
 
 (defn add-spaces [list]
   (vec (cons (first list)
@@ -43,6 +31,7 @@
 (defn header []
   [:header
    [:a {:href "/"}
+
     [:h1.logo "Clojurists Together"]]
    (add-spaces
      [:ul
