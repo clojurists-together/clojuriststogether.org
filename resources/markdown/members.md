@@ -4,13 +4,13 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 
 ### Filter Members ($500/mo):
 
-#### JUXT ⭐
+#### [JUXT](https://juxt.pro) ⭐
 
 <a href="https://juxt.pro"><img class="member-logo" src="/logos/juxt.svg"></a>
 
 JUXT delivers secure and compliant bespoke software applications and platforms: from the world's busiest websites to complex financial systems.
 
-#### Metosin ⭐️
+#### [Metosin](https://www.metosin.fi) ⭐️
 
 <a href="https://www.metosin.fi"><img class="member-logo" src="/logos/metosin.svg"></a>
 
