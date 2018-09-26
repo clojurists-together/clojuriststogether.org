@@ -104,7 +104,7 @@ Clojurists Together is a member project of the [Software Freedom Conservancy](ht
 
 <p>Influence which projects are selected</p>
 
-<p>Prominent position in the Clojurists Together member list</p>
+<p>Prominent position in the Clojurists Together member list, including your logo and a company blurb</p>
 
 <p>Recognition as a new member in a Clojurists Together blog post</p>
 
@@ -136,7 +136,7 @@ Clojurists Together is a member project of the [Software Freedom Conservancy](ht
 
 <p>Influence on which projects are selected</p>
 
-<p>Prominent position in the Clojurists Together member list</p>
+<p>Prominent position in the Clojurists Together member list, including your logo and a company blurb</p>
 
 <p>Recognition as a new member in a Clojurists Together blog post</p>
 
@@ -170,7 +170,7 @@ Clojurists Together is a member project of the [Software Freedom Conservancy](ht
 
 <p>Influence on which projects are selected</p>
 
-<p>Prominent position in the Clojurists Together member list</p>
+<p>Prominent position in the Clojurists Together member list, including your logo and a company blurb</p>
 
 <p>Recognition as a new member in a Clojurists Together blog post</p>
 
@@ -206,7 +206,7 @@ Clojurists Together is a member project of the [Software Freedom Conservancy](ht
 
 <p>Influence on which projects are selected</p>
 
-<p>Prominent position in the Clojurists Together member list</p>
+<p>Prominent position in the Clojurists Together member list, including your logo and a company blurb</p>
 
 <p>Recognition as a new member in a Clojurists Together blog post</p>
 

@@ -99,3 +99,7 @@ header a {
     -moz-border-radius: 20px;
     border-radius: 20px;
 }
+
+.member-logo {
+    max-width: 300px;
+}
