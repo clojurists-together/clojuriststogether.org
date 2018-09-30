@@ -1,5 +1,11 @@
 Title: News
 
+## [Q4 2018 Survey Results and Call For Proposals](/news/q4-2018-survey-results)
+
+Posted on October 1, 2018
+
+We've recently finished our fourth round of surveys on our members to better understand the community's needs. We're posting this feedback so that they can see the aggregate results, and to give open source projects more information when applying for the Q4 2018 Clojurists Together funding round (closing on the 9th of October).
+
 ## [August 2018 Monthly Update](/news/august-2018-monthly-update)
 
 August was the first month of funding for the quarter, so today we present the initial round of updates on new projects, cljdoc and Shadow CLJS.
