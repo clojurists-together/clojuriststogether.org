@@ -14,7 +14,7 @@
                           :heading-anchors true))]
     (let [title (str/trim (first (:title (:metadata md))))]
       (common/template title
-                       [:main [:h1 title]
+                       [:main.markdown-page [:h1 title]
                         (hiccup.util/raw-string (:html md))]))))
 
 (defn routes []
@@ -23,10 +23,10 @@
     (GET "/contact/" [] (markdown-view "contact.md"))
     (GET "/developers/" [] (markdown-view "developers.md"))
     (GET "/faq/" [] (markdown-view "faq.md"))
+    (GET "/docs/paypal-update/" [] (markdown-view "docs/paypal-update.md"))
     (GET "/members/" [] (markdown-view "members.md"))
     (GET "/open-source/" [] (markdown-view "open-source.md"))
     (GET "/team/" [] (markdown-view "team.md"))
     (GET "/transparency/" [] (markdown-view "transparency.md"))
     (GET "/news/:id/" [id] (markdown-view (str "news/" id ".md")))
     (GET "/news/" [] (markdown-view "news.md"))))
-

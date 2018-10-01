@@ -103,3 +103,7 @@ header a {
 .member-logo {
     max-width: 300px;
 }
+
+main.markdown-page img {
+    max-width: 100%;
+}
