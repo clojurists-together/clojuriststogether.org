@@ -27,7 +27,7 @@ Currently the grant structure is:
 * Fund two projects
 * $1,800/mo ($5,400/quarter)
 
-The paperwork required to administer the grants stays roughly the same even if the funding length or funding amount changes. At our current levels of support, funding more projects, or doing more frequent funding rounds would add more administrative overhead. However we are still interested in alternative funding models, if you have any ideas, please let us know.
+The paperwork required to administer the grants stays roughly the same even if the funding length or funding amount changes. At our current levels of support, funding more projects for less money, or doing more frequent funding rounds would add more administrative overhead. However we are still interested in alternative funding models. If you have any ideas, please let us know.
 
 ## How can I upgrade or downgrade my membership?
 
