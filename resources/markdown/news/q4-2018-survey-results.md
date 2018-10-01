@@ -30,7 +30,7 @@ The main things people were interested in: error messages (58%), documentation (
 
 <!-- pbpaste | tr '[:upper:]' '[:lower:]' | sort | uniq -c | sort -->
 
-Shadow CLJS, Figwheel, CIDER, Rum, Datascript, Reagent, Protorepl, Neanderthal, LightTable, Leiningne, Fulcro, Expound, and Eastwood were all mentioned several times.
+Shadow CLJS, Figwheel, CIDER, Rum, Datascript, Reagent, Protorepl, Neanderthal, LightTable, Leiningen, Fulcro, Expound, and Eastwood were all mentioned several times.
 
 ### Have you seen any direct benefits from improvements to the projects we have funded?
 
