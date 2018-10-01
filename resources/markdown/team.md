@@ -13,6 +13,8 @@ The Clojurists Together Committee is made up of:
 
 The Committee is responsible for governing the project, selecting which projects are sponsored, administering the project, and interacting with sponsors.
 
+Clojurists Together has also hired Rachel Magruder as a part-time administrative assistant to help run the program.
+
 Legally, Clojurists Together is run by [Clojars](https://clojars.org), as a member project of the [Software Freedom Conservancy](https://sfconservancy.org).
 
 Annual elections are held to elect the committee for the following year.

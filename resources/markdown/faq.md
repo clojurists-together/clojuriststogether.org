@@ -5,7 +5,7 @@ Title: FAQ
 
 Clojurists Together is a member project of the [Software Freedom Conservancy](https://sfconservancy.org). This means that we are able to accept 501\(c)3 donations. While we can't provide members with country-specific tax advice, we're not aware of any non-US country that that recognizes donations to a US public charity as tax-deductible in their jurisdiction. If you have any questions, please [get in touch](/contact) or talk to your accountant.
 
-When we receive a donation or sponsorship payment, we send a standard acknowledgment which includes information about Conservancy's status as a US 501(c)(3) charity.  
+When we receive a donation or sponsorship payment, we send a standard acknowledgment which includes information about Conservancy's status as a US 501(c)(3) charity. 
 
 ## Who are you?
 
@@ -14,6 +14,20 @@ Clojurists Together is run by a board made up of developers in the Clojure Commu
 ## How do members help influence project selections?
 
 Every quarter before we select projects for a funding round, we send all our members a survey, asking for their feedback on what projects, tools, and areas of the Clojure ecosystem they think would benefit from being sponsored.
+
+## Who picks the winners?
+
+The Clojurists Together [board members](/team) look at the projects that applied for that quarter and each vote on which projects they think will be the best fit for what our members are looking for. You can see more about the process on our [open-source](/open-source) application page.
+
+## How do you decide on the structure of the grants?
+
+Currently the grant structure is:
+
+* Every three months
+* Fund two projects
+* $1,800/mo ($5,400/quarter)
+
+The paperwork required to administer the grants stays roughly the same even if the funding length or funding amount changes. At our current levels of support, funding more projects, or doing more frequent funding rounds would add more administrative overhead. However we are still interested in alternative funding models, if you have any ideas, please let us know.
 
 ## How can I upgrade or downgrade my membership?
 

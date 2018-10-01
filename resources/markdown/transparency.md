@@ -14,5 +14,4 @@ Clojurists Together takes the responsibility of spending and allocating your don
 * We have hired a part-time administration assistant to help us with preparing grant reports, contracts, monthly updates, responding to member queries, e.t.c.
 * Minutes from Committee meetings are published.
 
-
 If you have any questions or concerns about how Clojurists Together is organised or run, you can [contact us](/contact), or [Software Freedom Conservancy](https://sfconservancy.org/about/contact/) if you don't feel comfortable contacting us directly.
