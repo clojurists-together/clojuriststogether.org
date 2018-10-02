@@ -1,5 +1,6 @@
 Title: Updating your PayPal details
-type: "post"
+Date:
+Type: "post"
 
 ![Click the settings gear from your Paypal Homepage](/images/docs/paypal/paypal-update-1.png)
 Find  and click the small gear icon in the top right corner of your PayPal Homepage, it will provide you a secondary menu. 
