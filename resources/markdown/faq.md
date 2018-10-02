@@ -31,6 +31,8 @@ The paperwork required to administer the grants stays roughly the same even if t
 
 ## How can I manage my PayPal payments and membership level?
 
+[Updating your PayPal account](/docs/paypal-update) steps can be found here.
+
 Log in to your PayPal account, go to your Profile page, and click My Preapproved Payments. From there you can cancel your subscription. After you have cancelled, you can go through the signup process again at your new membership level. Send us a note if you run into trouble and we'll help sort it out.
 
 ## Is this related to Clojure/Core?
