@@ -29,7 +29,7 @@ Currently the grant structure is:
 
 The paperwork required to administer the grants stays roughly the same even if the funding length or funding amount changes. At our current levels of support, funding more projects for less money, or doing more frequent funding rounds would add more administrative overhead. However we are still interested in alternative funding models. If you have any ideas, please let us know.
 
-## How can I upgrade or downgrade my membership?
+## How can I manage my PayPal payments and membership level?
 
 Log in to your PayPal account, go to your Profile page, and click My Preapproved Payments. From there you can cancel your subscription. After you have cancelled, you can go through the signup process again at your new membership level. Send us a note if you run into trouble and we'll help sort it out.
 
