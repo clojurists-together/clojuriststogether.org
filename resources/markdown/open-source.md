@@ -2,6 +2,8 @@ Title: Open Source
 
 ## Applications
 
+**APPLICATIONS FOR Q4 FUNDING ROUND CLOSE ON OCTOBER 9th**
+
 Every three months, Clojurists Together takes applications from open source developers for funding to work on open source projects. The Clojurists Together [committee](/team) then evaluates the proposals, makes their selection, and then funds projects with a fellowship for the next three months. You can apply at any time for the next funding cycle, and you can make multiple applications for different projects.
 
 <a href="https://docs.google.com/forms/d/1JD5OAbA0A8d0GFAGjY73Z2oKmmcQ-NZBrngBlqXdHnQ/viewform" class="become-a-member">Apply for funding</a>
@@ -96,8 +98,8 @@ Project applications may be submitted at any time. They are evaluated quarterly.
 An example timeline for the February-April funding cycle:
 
 - Anytime: submit an application
-- January 20: Applications for February-April funding cycle close
-- January 27: Funding decisions are returned
+- January 9: Applications for February-April funding cycle close
+- January 12: Funding decisions are returned
 - February 1: February-April funding cycle begins
 - February 15: Projects submit first project report
 - February 30: Payment for first month of work is made to projects. Projects submit second project report
