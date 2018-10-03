@@ -24,7 +24,7 @@ There were 56 respondents to the survey, up from 49 in the last survey. The high
 
 ### What areas of Clojure would you like to see improvement in?
 
-The main things people were interested in: error messages (58%), documentation (47%), building tool (42%), developer experience tools (33%), IDE support (31%), test tooling (26%), and linters (26%). Tools and documentation targeting beginners to Clojure or to programming in general were mentioned by quite a few people.
+The main things people were interested in: error messages (58%), documentation (47%), build tools (42%), developer experience tools (33%), IDE support (31%), test tooling (26%), and linters (26%). Tools and documentation targeting beginners to Clojure or to programming in general were mentioned by quite a few people.
 
 ### Are there any particular libraries, tools, or projects that are important to you that you would like to see supported?
 
