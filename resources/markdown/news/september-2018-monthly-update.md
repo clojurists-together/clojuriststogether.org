@@ -20,7 +20,7 @@ preparing my ClojuTRE talk about cljdoc the first half of September
 and was mostly offline — on a sailboat — the second half of
 September. You can watch [the talk on YouTube](https://www.youtube.com/watch?v=mWrvd6SE7Vg). I'm also thanking all of you at the end of the talk.
 
-![Presentation](/images/<Presentation.png>)
+![Presentation](/images/Presentation.png)
 
 Despite me being absent
 [some](https://github.com/cljdoc/cljdoc/pull/116)
