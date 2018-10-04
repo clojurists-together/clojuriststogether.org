@@ -22,7 +22,7 @@ September. You can watch [the talk on
 YouTube](https://www.youtube.com/watch?v=mWrvd6SE7Vg). I'm also
 thanking all of you at the end of the talk.
 
-![presentation](https://clojars.slack.com/files/U1Y12TXPW/FD6FUL37B/screenshot_of_safari__2-10-18__10-08-25_am_.png)
+![](https://files.slack.com/files-pri/T1XQMJMHB-FD6FUL37B/screenshot_of_safari__2-10-18__10-08-25_am_.png)
 
 Despite me being absent
 [some](https://github.com/cljdoc/cljdoc/pull/116)
