@@ -60,16 +60,16 @@ Thanks for your support <3
 
 ## Shadow CLJS updates
 
-Released shadow-cljs versions to 2.6.7 to 2.6.8
+Release of shadow-cljs versions to 2.6.7 to 2.6.8
 
 ### UI Work
-Created a [preview video](https://clojureverse.org/t/shadow-cljs-ui-preview/2826) of the shadow-cljs UI. Tweaked the UI to display warnings better.
+Here's a [preview video](https://clojureverse.org/t/shadow-cljs-ui-preview/2826) of the shadow-cljs UI. I've also tweaked the UI to display warnings better.
 
 ### Minor changes
 - Added support for [:parallel-build false](https://github.com/thheller/shadow-cljs/commit/99741e3edd07ef8ba8a20e5fc3e2e0cad14051ad), `true` by default but wasn't configurable before.
 - Copied [clojure.core.specs.alpha](https://github.com/thheller/shadow-cljs/commit/0416ea27e9a031c4a39c49df820855aa4b72575c) and adjusted them for CLJS. Clojure 1.10 alpha renamed a few specs and broke the direct use that was previously used.
 
-Released shadow-cljs versions to 2.6.9 to 2.6.10
+Release of shadow-cljs versions to 2.6.9 to 2.6.10
 
 ### UI Work
 - [WIP] Implemented basic REPL support in the UI
