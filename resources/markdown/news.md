@@ -1,5 +1,9 @@
 Title: News
 
+## [September 2018 Monthly Update](/news/september-2018-monthly-update)
+
+September was a successful month. We have new project updates and results from our quarterly survey. Don't forget, CT is currently accepting applications for our 4th Quarter Call to Proposals.
+
 ## [Q4 2018 Survey Results and Call For Proposals](/news/q4-2018-survey-results)
 
 Posted on October 1, 2018
