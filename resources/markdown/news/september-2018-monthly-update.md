@@ -18,9 +18,7 @@ Hey dear ClojuristsTogether crew! This is [Martin](https://twitter.com/martinkle
 September has been a somewhat slow month. I've been focused on
 preparing my ClojuTRE talk about cljdoc the first half of September
 and was mostly offline — on a sailboat — the second half of
-September. You can watch [the talk on
-YouTube](https://www.youtube.com/watch?v=mWrvd6SE7Vg). I'm also
-thanking all of you at the end of the talk.
+September. You can watch [the talk on YouTube](https://www.youtube.com/watch?v=mWrvd6SE7Vg). I'm also thanking all of you at the end of the talk.
 
 ![](https://files.slack.com/files-pri/T1XQMJMHB-FD6FUL37B/screenshot_of_safari__2-10-18__10-08-25_am_.png)
 
@@ -49,11 +47,7 @@ Things that have have been shipped in September:
 After ClojuTRE and my vacation I'm feeling energized to work on cljdoc
 again in October. Priorities will be the integration of examples and community building.
 
-**If you want to help cljdoc with 5 minutes of your time:** [add a
-badge](https://github.com/cljdoc/cljdoc/blob/master/doc/userguide/for-library-authors.adoc#basic-setup)
-to your project's Readme. In order to achieve the vision I outlined in
-my [ClojuTRE talk](https://www.youtube.com/watch?v=mWrvd6SE7Vg) the community needs to be aware this thing exists —
-and that's not something I'll ever be able to achieve on my own.
+**If you want to help cljdoc with 5 minutes of your time:** [add a badge](https://github.com/cljdoc/cljdoc/blob/master/doc/userguide/for-library-authors.adoc#basic-setup) to your project's Readme. In order to achieve the vision I outlined in my [ClojuTRE talk](https://www.youtube.com/watch?v=mWrvd6SE7Vg) the community needs to be aware this thing exists — and that's not something I'll ever be able to achieve on my own.
 
 So point people to cljdoc and — if you're feeling particularly excited — tweet
 or write a blogpost about it.
