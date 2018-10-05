@@ -16,6 +16,12 @@ JUXT delivers secure and compliant bespoke software applications and platforms: 
 
 Metosin is the first Finnish software house specializing in Clojure. We arrange annually the biggest North-European Clojure conference called [ClojuTRE](https://www.metosin.fi/en/metosin/#events).
 
+#### [AdGoji](http://www.adgoji.com)
+
+![adgoji_logo](/images/adgoji_logo.svg)
+
+Adgoji is a media agency. We have built a Clojure based real-time bidding platform that buys targeted mobile advertising space from the largest market places in the world.
+
 ### Into Members ($200/mo):
 
 - [Zenius Education](http://www.zeniuseducation.com/) ⭐️
