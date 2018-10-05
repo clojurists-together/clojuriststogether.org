@@ -53,7 +53,7 @@ Val Waeselynck, Juraj Martinka, Jean Niklas L'orange, Reid McKenzie, Nick Mudge,
 
 ### Developer Members
 
-Bruce Hauman, Johnny Eradus, Stephen Lester, Kazunori Kajihiro, Terje Sten Bjerkseth, Albrecht Schmidt, David Arenas, Allen Rohner, Tiago Luchini, Bahadir Cambel, Andrew Monks, John Newman, Magnar Sveen, Zach Tellman, Lucas Cavalcanti dos Santos, Ronen Narkis, Alexander ter Weele, Yiu Ming Huynh, Nola Stowe, Phillips Wolr, Norman Richards.
+Bruce Hauman, Johnny Eradus, Stephen Lester, Kazunori Kajihiro, Terje Sten Bjerkseth, Albrecht Schmidt, David Arenas, Allen Rohner, Tiago Luchini, Bahadir Cambel, Andrew Monks, John Newman, Magnar Sveen, Zach Tellman, Lucas Cavalcanti dos Santos, Ronen Narkis, Alexander ter Weele, Yiu Ming Huynh, Nola Stowe, Phillips Wolr, Norman Richards, Radford Smith.
 
 ### Founding Contributing Members ⭐️
 
