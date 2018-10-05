@@ -5,9 +5,9 @@ type: post
 
 ## Clojurists Together news
 
-September was a successful month. We have new [project updates and results](https://www.clojuriststogether.org/news/q4-2018-survey-results/) from our quarterly survey. Don't forget, CT is currently accepting applications for our 4th Quarter [Call to Proposals](https://www.clojuriststogether.org/open-source/). 
+September was a successful month. We have new [project updates and results](https://www.clojuriststogether.org/news/q4-2018-survey-results/) from our quarterly survey. Don't forget, CT is currently accepting applications for our 4th Quarter [Call for Proposals](https://www.clojuriststogether.org/open-source/).
 
-Check out this great video presentation from Martin Klepsch on [_Documenting the Clojure/Script Ecosystem._](https://www.youtube.com/watch?v=mWrvd6SE7Vg)
+Check out this great video presentation from Martin Klepsch on [_Documenting the Clojure/Script Ecosystem_](https://www.youtube.com/watch?v=mWrvd6SE7Vg).
 
 Thanks to all of our members who support Clojurists Together. It's thanks to your generous support that we can do this.
 
