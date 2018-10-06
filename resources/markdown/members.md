@@ -45,7 +45,7 @@ Adgoji is a media agency. We have built a Clojure based real-time bidding platfo
 - [Sattvik Software & Technology Resources](http://www.deepbluelambda.org)
 - [Mastodon C](http://www.mastodonc.com)
 - [Reify Health](https://reifyhealth.com)
-- [Functional Works](https://www.clojuriststogether.org/members/)
+- [Functional Works](https://functional.works-hub.com/)
 
 ### Founding Developer Members ⭐️
 
