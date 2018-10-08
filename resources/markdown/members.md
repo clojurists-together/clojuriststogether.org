@@ -22,6 +22,8 @@ Metosin is the first Finnish software house specializing in Clojure. We arrange 
 
 Adgoji is a media agency. We have built a Clojure based real-time bidding platform that buys targeted mobile advertising space from the largest market places in the world.
 
+#### [Funding Circle](https://www.fundingcircle.com/de/)
+
 ### Into Members ($200/mo):
 
 - [Zenius Education](http://www.zeniuseducation.com/) ⭐️
@@ -53,7 +55,7 @@ Val Waeselynck, Juraj Martinka, Jean Niklas L'orange, Reid McKenzie, Nick Mudge,
 
 ### Developer Members
 
-Bruce Hauman, Johnny Eradus, Stephen Lester, Kazunori Kajihiro, Terje Sten Bjerkseth, Albrecht Schmidt, David Arenas, Allen Rohner, Tiago Luchini, Bahadir Cambel, Andrew Monks, John Newman, Magnar Sveen, Zach Tellman, Lucas Cavalcanti dos Santos, Ronen Narkis, Alexander ter Weele, Yiu Ming Huynh, Nola Stowe, Phillips Wolr, Norman Richards, Radford Smith.
+Bruce Hauman, Johnny Eradus, Stephen Lester, Kazunori Kajihiro, Terje Sten Bjerkseth, Albrecht Schmidt, David Arenas, Allen Rohner, Tiago Luchini, Bahadir Cambel, Andrew Monks, John Newman, Magnar Sveen, Zach Tellman, Lucas Cavalcanti dos Santos, Ronen Narkis, Alexander ter Weele, Yiu Ming Huynh, Nola Stowe, Phillips Wolr, Norman Richards, Radford Smith, Michael Glaesemann, Joshua Miller.
 
 ### Founding Contributing Members ⭐️
 
@@ -61,4 +63,4 @@ Ben Brinckerhoff, Alan Thompson, Martin Klepsch, Chris Kolodin, Liam Falconer, M
 
 ### Contributing Members
 
-Didier Arslanian, Michiel Borkent, Bridget Hillyer, Arne Brasseur, Andrew Dixon, Alex Miller, Robert Medeiros, Dennis Schridde, Wilker Lucio, Jason Whitlark, Chancy Kennedy, Thomas Heller, Alexander Solovyov, Jarrod Taylor, Leon Talbot, James McElwain, Thomas Connors, Kyle Grierson, Igor Bondarenko, Steven Harms, Divers High, Conan Cook, Aleksander Simic, Dmytro Morozov, Carin Meier, Nuttanart Pornprasitsakul, Andrew Oberstar, Erik Assum, Popov Alexey, Roman Liutikov, Timothy Myrtle, Justin Tirrell, Rune Juhl Jacobsen, Ryan McCuaig, Anna Pawlicka, Nicolas Berger, Ethan Sherbondy, Arturas Kveslis, 伊藤 大, Steve Buikhuizen, 大橋 賢人, Dieter Komendera, Constant Manteau, Christian Johansen, Dorab Patel, Alberto Brealey-Guzman, Jeffrey Simon, August Lilleaas, Paulus Esterhazy, Drew Verlee, Odin Hole Standal, David Bernal, Donald Ball, David Liepmann, Jakub Holy, Mike Fun, Daniil Boykis, Raymond Huang, Antony Woods, Andre Richards, Roman Stoffel, Mark Stuart, Christina Lewis, Cesar Castillo Bardalez, Fed Reggiardo, Etienne Spillemaeker, Uday Verma, Nikolas Göbel, Daniel Crouch, Joshua Headapohl, Ayron Wohletz, Robert Gersak, Inge Solvoll, Brandon Adams, Michael Glaesemann, Vincent Heuken, Christopher Brown, Alain Lafon, Robert Culliton, Josef Erben, Sebastian Bensuasan, Nick Jones, Jelmer de Ronde, Amarjeet, Jacob Harris Cryer Kragh, Victor F P G Arias, Arthur Boyer, Sasha Savchenko, Kinley D. Dorji, Yair Elder Altamirano Albañil, Orestis Markou, Tom Marble.
+Didier Arslanian, Michiel Borkent, Bridget Hillyer, Arne Brasseur, Andrew Dixon, Alex Miller, Robert Medeiros, Dennis Schridde, Wilker Lucio, Jason Whitlark, Chancy Kennedy, Thomas Heller, Alexander Solovyov, Jarrod Taylor, Leon Talbot, James McElwain, Thomas Connors, Kyle Grierson, Igor Bondarenko, Steven Harms, Divers High, Conan Cook, Aleksander Simic, Dmytro Morozov, Carin Meier, Nuttanart Pornprasitsakul, Andrew Oberstar, Erik Assum, Popov Alexey, Roman Liutikov, Timothy Myrtle, Justin Tirrell, Rune Juhl Jacobsen, Ryan McCuaig, Anna Pawlicka, Nicolas Berger, Ethan Sherbondy, Arturas Kveslis, 伊藤 大, Steve Buikhuizen, 大橋 賢人, Dieter Komendera, Constant Manteau, Christian Johansen, Dorab Patel, Alberto Brealey-Guzman, Jeffrey Simon, August Lilleaas, Paulus Esterhazy, Drew Verlee, Odin Hole Standal, David Bernal, Donald Ball, David Liepmann, Jakub Holy, Mike Fun, Daniil Boykis, Raymond Huang, Antony Woods, Andre Richards, Roman Stoffel, Mark Stuart, Christina Lewis, Cesar Castillo Bardalez, Fed Reggiardo, Etienne Spillemaeker, Uday Verma, Nikolas Göbel, Daniel Crouch, Joshua Headapohl, Ayron Wohletz, Robert Gersak, Inge Solvoll, Brandon Adams, Vincent Heuken, Christopher Brown, Alain Lafon, Robert Culliton, Josef Erben, Sebastian Bensuasan, Nick Jones, Jelmer de Ronde, Amarjeet, Jacob Harris Cryer Kragh, Victor F P G Arias, Arthur Boyer, Sasha Savchenko, Kinley D. Dorji, Yair Elder Altamirano Albañil, Orestis Markou, Tom Marble.
