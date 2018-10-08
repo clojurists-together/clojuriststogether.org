@@ -18,8 +18,6 @@ Metosin is the first Finnish software house specializing in Clojure. We arrange 
 
 #### [AdGoji](http://www.adgoji.com)
 
-![adgoji_logo](/images/adgoji_logo.svg)
-
 <a href="https://www.adgoji.com"><img class="member-logo" src="/images/adgoji_logo.svg"></a>
 
 Adgoji is a media agency. We have built a Clojure based real-time bidding platform that buys targeted mobile advertising space from the largest market places in the world.
