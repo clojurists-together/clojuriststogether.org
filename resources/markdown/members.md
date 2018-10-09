@@ -24,9 +24,9 @@ Adgoji is a media agency. We have built a Clojure based real-time bidding platfo
 
 #### [Funding Circle](https://www.fundingcircle.com/)
 
-<a href="https://www.fundingcircle.com/"><img class="member-logo" src="/logos/funding-circle.jpg"></a>
+<a href="https://www.fundingcircle.com/"><img class="member-logo" src="/logos/funding-circle.svg"></a>
 
-We ignite opportunities for businesses and investors by providing a better deal for everyone.
+Funding Circle connects small businesses who want to borrow with investors who want to lend in the UK, US, Germany and the Netherlands. We use Clojure to build our platform.
 
 ### Into Members ($200/mo):
 
