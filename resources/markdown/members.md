@@ -18,11 +18,15 @@ Metosin is the first Finnish software house specializing in Clojure. We arrange 
 
 #### [AdGoji](http://www.adgoji.com)
 
-<a href="https://www.adgoji.com"><img class="member-logo" src="/images/adgoji_logo.svg"></a>
+<a href="https://www.adgoji.com"><img class="member-logo" src="/logos/adgoji_logo.svg"></a>
 
 Adgoji is a media agency. We have built a Clojure based real-time bidding platform that buys targeted mobile advertising space from the largest market places in the world.
 
-#### [Funding Circle](https://www.fundingcircle.com/de/)
+#### [Funding Circle](https://www.fundingcircle.com/)
+
+<a href="https://www.fundingcircle.com/"><img class="member-logo" src="/logos/funding-circle.jpg"></a>
+
+We ignite opportunities for businesses and investors by providing a better deal for everyone.
 
 ### Into Members ($200/mo):
 
