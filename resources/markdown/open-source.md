@@ -2,8 +2,6 @@ Title: Open Source
 
 ## Applications
 
-**APPLICATIONS FOR Q4 FUNDING ROUND CLOSE ON OCTOBER 9th**
-
 Every three months, Clojurists Together takes applications from open source developers for funding to work on open source projects. The Clojurists Together [committee](/team) then evaluates the proposals, makes their selection, and then funds projects with a fellowship for the next three months. You can apply at any time for the next funding cycle, and you can make multiple applications for different projects.
 
 <a href="https://docs.google.com/forms/d/1JD5OAbA0A8d0GFAGjY73Z2oKmmcQ-NZBrngBlqXdHnQ/viewform" class="become-a-member">Apply for funding</a>
@@ -57,9 +55,19 @@ No.
 
 ---
 
+## Clojurists Together Work Expectations
+
+A common question we get from people looking to apply is "How many hours do you expect me to work, and how much output do you expect?". Our answer is:
+
+We don’t have a set number of hours required to put into the project. Based on current sponsorship rates of USD 1,800/mo, something like 10 hours/month would be a bit light, but we also don’t expect you to do 60 hours/month either, so somewhere in between.
+
+However the raw number of hours is not so important as the results that you’re able to achieve in them. The most important thing to keep in mind is whether you think that in the time that you would be able to work on the project, you can achieve meaningful results.
+
+One of the things Clojurists Together was designed to support is the work that isn't fun to do. These are things like tracking down hard to reproduce bugs, maintenance to follow upstream dependencies, reviewing large pull-requests, thinking about/tackling large thorny problems, and the other slog work which is important but not fun. If you've got a project with work like that that you've been putting off, we want to fund you to work on it. Of course we also want to fund projects to implement new features, but please don't think that just because your work isn't exciting that you shouldn't apply.
+
 ## Funding amounts
 
-Successful projects are awarded a fellowship for three months. The number of projects funded in each cycle and the amount paid for each fellowship will vary depending on member support, and project requirements. Successful projects will know in advance of starting how much they will be paid. As Clojurists Together funds more projects and gets more experience, we will be able to give a clearer answer. For the [first funding cycle](https://clojuriststogether.org/news/q1-2018-funding-announcement/), two projects were funded and each received $1800 USD/mo for three months.
+Successful projects are awarded a fellowship for three months. The number of projects funded in each cycle and the amount paid for each fellowship will vary depending on member support, and project requirements. Successful projects will know in advance of starting how much they will be paid. As Clojurists Together funds more projects and gets more experience, we will be able to give a clearer answer. For each quarter of the first year we have funded two projects $1,800 USD/mo for three months.
 
 ## Considerations
 
