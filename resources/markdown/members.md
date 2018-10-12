@@ -2,6 +2,14 @@ Title: Members
 
 Companies and Individuals that support Clojurists Together will be listed on this page. Founding sponsors are people who joined Clojurists Together early, and are marked with a ⭐️.
 
+### Transduce Members ($1000/mo):
+
+#### [Pitch](https://pitch.com)
+
+<a href="https://pitch.com"><img class="member-logo" src="/logos/pitch.svg"></a>
+
+Pitch is building the next generation presentation software for individuals and teams.
+
 ### Filter Members ($500/mo):
 
 #### [JUXT](https://juxt.pro) ⭐
