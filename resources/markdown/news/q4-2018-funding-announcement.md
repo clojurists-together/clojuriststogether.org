@@ -11,18 +11,20 @@ For those who are new to Clojurists Together, our goal is simple: Fund critical 
 
 ## Datascript
 
-[Datascript](https://github.com/tonsky/datascript) is a Clojure and ClojureScript database. DataScript has been around for 3+ years, has gotten massive interest from the community, is used in a couple of production projects (listed on GitHub page), and has been starred on GitHub 3000+ times. If optimized sufficiently, it could become the de-facto, default go-to database for small and middle Clojure projects, both on server-side and client-side. Nikita Prokotov is the project creator, and currently maintains Datascript.
+[Datascript](https://github.com/tonsky/datascript) is a Clojure and ClojureScript database. DataScript has been around for 3+ years, has gotten massive interest from the community, is used in in several production projects (listed on GitHub page), and has been starred on GitHub 3000+ times. Nikita Prokotov is the project creator, and currently maintains Datascript.
 
 Nikita's plans for the next three months are:
 
-- Extend query language to achieve parity with Datomic (OR, NOT predicates) 
-- Optimizing query execution speed (work on both has started, but not finished) 
-- Faster bulk transactions with transient implementation of BTree Set 
-- After that experiment with adopting DataScript for more interesting UI development: reactive entities and queries, subscriptions, efficient disk persistence (for server-side and client-side via localStorage)
+- Extend query language to achieve parity with Datomic (OR, NOT predicates)
+- Optimizing query execution speed (work on both has started, but not finished)
+- Faster bulk transactions with transient implementation of BTree Set
+- After that, experiment with adopting DataScript for more interesting UI development: reactive entities and queries, subscriptions, efficient disk persistence (for server-side and client-side via localStorage)
+
+If optimized sufficiently, DataScript could become the de-facto, default go-to database for small and middle sized Clojure projects, both on the server-side and client-side.
 
 ## Kaocha
 
-[Kaocha](https://github.com/lambdaisland/kaocha) is a Clojure test tool. Test tooling is limited and fragmented, Kaocha raises the bar for what to expect from tools and provides a platform for innovation and collaboration. Clojure does not have a strongest testing culture, it also does not have particularly strong test tooling. Better tooling would encourage better testing practices, a better testing culture would encourage investing in tooling. Arne Brasseur is the main (and sole) developer of Kaocha.
+[Kaocha](https://github.com/lambdaisland/kaocha) is a Clojure test tool. Kaocha raises the bar for what to expect from tools and provides a platform for innovation and collaboration. Clojure does not have the strongest testing culture, and has not had as much investment into test tooling as other communities. Better tooling would encourage better testing practices, a better testing culture would encourage investing in tooling. Arne Brasseur is the main (and sole) developer of Kaocha.
 
 Arne's plans for the next three months are:
 
@@ -31,7 +33,7 @@ Arne's plans for the next three months are:
 - Improved Midje support
 - Cloverage support
 - Boot support
-- Prettier diffing of (is (= ...)) (WIP, similar but different from what eftest does)
+- Prettier diffing of `(is (= ...))`
 - TAP reporter
 - Junit.xml reporter
 - Run tests in parallel
@@ -42,11 +44,11 @@ Each project receives a grant of $1,800USD/mo for three months.
 
 ## Voting details
 
-This quarter proved to be a close race between Kaocha and Neanderthal, who tied for the place of the second funded project. You can find out more about the Q4 applications here.
+This quarter proved to be a close race between Kaocha and Neanderthal, who tied for the place of the second funded project. We broke the tie using [random.org](https://www.random.org) to pick the winner.
 
-The projects that applied were:
+The other projects that applied were:
 
-- [Neanderthal](_______)
+- [Neanderthal](https://github.com/uncomplicate/neanderthal)
 - [Klipse](https://github.com/viebel/klipse)
 - [clj-debugger](https://github.com/razum2um/clj-debugger)
 - [Doo](https://github.com/bensu/doo)
@@ -58,6 +60,6 @@ The projects that applied were:
 
 ## Q4 Funding
 
-We had a bunch of great applications from great projects; we would have liked to fund several more projects if we had the money. If you'd like to see more projects get funded, then please join. If you applied for the last funding cycle, you can re-use that application to [apply](/open-source/) for Q5. If you maintain a Clojure/ClojureScript project that is important to the community, consider applying for funding so we can help you keep it sustainable.
+We had a bunch of great applications from great projects; we would have liked to fund several more projects if we had the money. If you'd like to see more projects get funded, then please join. If you applied for the last funding cycle, you can re-use that application to [apply](/open-source/) for next years Q1 funding round. If you maintain a Clojure/ClojureScript project that is important to the community, consider applying for funding so we can help you keep it sustainable.
 
 Lastly, a big thank you to all of our [members](/members/). We couldn't have done it without your support.
