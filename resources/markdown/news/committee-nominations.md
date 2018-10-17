@@ -14,7 +14,7 @@ As we near the close of our first year at Clojurists Together, we are opening up
 
 Of the 7 original committee members, only 4 will stay on for the next year. We are now implementing 2-year staggered terms.
 
-If you are interested in joining the Committee this year, please fill out this [form](...) by November 1, 2018. Elections will be held for our community once the electees are announced, and any Clojurists Together members are invited to participate and vote. 
+If you are interested in joining the Committee this year, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSeW9P_4Z5jon792l_63fAUzbAocG4D3tDIDWp30TCgobIduEg/viewform?usp=sf_link) by November 1, 2018. Elections will be held for our community once the electees are announced, and any Clojurists Together members are invited to participate and vote. 
 
 The new Clojurists Together Committee will be announced just prior to the Clojure Conference in ___ at the end of November. 
 
