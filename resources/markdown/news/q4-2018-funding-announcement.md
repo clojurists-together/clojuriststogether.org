@@ -1,4 +1,4 @@
-title: Q3 2018 Funding Announcement
+title: Q4 2018 Funding Announcement
 date: 2018-08-03T16:41:59+13:00
 type: "post"
 draft: true
