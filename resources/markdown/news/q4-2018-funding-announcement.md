@@ -44,7 +44,7 @@ Each project receives a grant of $1,800USD/mo for three months.
 
 ## Voting details
 
-This quarter proved to be a close race between Kaocha and Neanderthal, who tied for the place of the second funded project. We broke the tie using [random.org](https://www.random.org) to pick the winner.
+This quarter proved to be a close race between Kaocha and Neanderthal, who tied for the place of the second funded project. We broke the tie using [random.org](https://www.random.org) to pick the winner. For the first time we used the [CIVS](https://civs.cs.cornell.edu) online voting service fron Cornell.
 
 The other projects that applied were:
 
