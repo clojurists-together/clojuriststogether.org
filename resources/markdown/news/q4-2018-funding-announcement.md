@@ -1,7 +1,7 @@
 title: Q4 2018 Funding Announcement
 date: 2018-08-03T16:41:59+13:00
 type: "post"
-draft: true
+draft: false
 
 Clojurists Together is happy to announce that for Q4 of 2018/19 (November-January) we are funding two projects: Datascript and Kaocha.
 
