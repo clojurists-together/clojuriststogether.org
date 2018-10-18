@@ -12,6 +12,6 @@ Clojurists Together takes the responsibility of spending and allocating your don
 * Only one person from any company/organisation can be on the committee so as to reduce the influence of any one organisation.
 * Committee members serve on a voluntary basis. The project leader may be (but isn't currently) paid for time spent running the project. Project expenses including travel may be reimbursed.
 * We have hired a part-time administration assistant to help us with preparing grant reports, contracts, monthly updates, responding to member queries, e.t.c.
-* Minutes from Committee meetings are published.
+* Minutes from Committee meetings are published in our [monthly updates](/news/).
 
 If you have any questions or concerns about how Clojurists Together is organised or run, you can [contact us](/contact), or [Software Freedom Conservancy](https://sfconservancy.org/about/contact/) if you don't feel comfortable contacting us directly.
