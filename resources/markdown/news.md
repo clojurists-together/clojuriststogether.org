@@ -1,5 +1,11 @@
 Title: News
 
+## [Q4 2018 Funding Announcement](/news/q4-2018-funding-announcement/)
+
+Posted on October 18, 2018
+
+Clojurists Together is happy to announce that for Q4 of 2018/19 (November-January) we are funding two projects: Datascript and Kaocha.
+
 ## [September 2018 Monthly Update](/news/september-2018-monthly-update)
 
 September was a successful month. We have new project updates and results from our quarterly survey. Don't forget, CT is currently accepting applications for our 4th Quarter Call to Proposals.
