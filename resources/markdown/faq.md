@@ -60,6 +60,10 @@ If PayPal/Credit Card doesn't work for you, then please get in touch, as there a
 
 The only way we can currently setup recurring subscriptions is through PayPal. The Software Freedom Conservancy does have [other options](https://sfconservancy.org/donate/) for one-off payments though. You can also make a one-off credit card payment through the link in the [section above](#one-off-donation). If you'd prefer to use one of those options, we're happy to process your payment as an annual subscription. This helps us minimise the paperwork and admin time involved for everyone. **In all cases, please [get in touch](/contact/) with us and we'll work something out.** We'll make sure that your payment is marked for Clojurists Together and you get signed up for a subscription.
 
+### Using Benevity
+
+There is a way to add a note with your donation. Just add that the money is for Clojurists Together and SFC will make sure it gets to the right place. There can be quite a delay between the money being given and it getting to SFC, so just send us a copy of your receipt when you’re done and we’ll make sure you get on the website and send it to SFC so they can reconcile it.
+
 ## I still have questions?
 
 No problem, get in [contact](/contact) and we'll try and answer your questions.
