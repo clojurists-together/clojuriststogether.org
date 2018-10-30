@@ -26,6 +26,7 @@
     (GET "/docs/paypal-update/" [] (markdown-view "docs/paypal-update.md"))
     (GET "/members/" [] (markdown-view "members.md"))
     (GET "/open-source/" [] (markdown-view "open-source.md"))
+    (GET "/projects/" [] (markdown-view "projects.md"))
     (GET "/team/" [] (markdown-view "team.md"))
     (GET "/transparency/" [] (markdown-view "transparency.md"))
     (GET "/news/:id/" [id] (markdown-view (str "news/" id ".md")))

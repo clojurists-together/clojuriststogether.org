@@ -3,7 +3,7 @@ date:
 type: "post"
 draft: true
 
-# Current Clojurists Together Projects
+# Currently Funded Projects
 
 ## Q4 2018
 

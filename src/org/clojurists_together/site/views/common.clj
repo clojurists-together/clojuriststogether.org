@@ -33,9 +33,7 @@
       [:li [:a {:href "/developers/"} "Developers"]]
       [:li [:a {:href "/members/"} "Members"]]
       [:li [:a {:href "/news/"} "News"]]
-      [:li [:a {:href "/transparency/"} "Transparency"]]
-
-      ])])
+      [:li [:a {:href "/projects/"} "Projects"]]])])
 
 (defn common-footer []
   [:footer
@@ -47,6 +45,7 @@
       [:li [:a {:href "/developers/"} "Developers"]]
       [:li [:a {:href "/members/"} "Members"]]
       [:li [:a {:href "/news/"} "News"]]
+      [:li [:a {:href "/projects/"} "Projects"]]
       [:li [:a {:href "/transparency/"} "Transparency"]]
       [:li [:a {:href "/faq/"} "FAQ"]]
       [:li [:a {:href "/team/"} "Team"]]
