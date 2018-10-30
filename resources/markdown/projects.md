@@ -1,7 +1,6 @@
 Title: Projects
 date: 
 type: "post"
-draft: true
 
 # Currently Funded Projects
 
