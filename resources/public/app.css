@@ -104,6 +104,10 @@ header a {
     max-width: 300px;
 }
 
+.project-logo {
+    max-width: 300px;
+}
+
 main.markdown-page img {
     max-width: 100%;
 }
