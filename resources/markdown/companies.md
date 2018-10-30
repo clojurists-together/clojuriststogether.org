@@ -108,6 +108,8 @@ Clojurists Together is a member project of the [Software Freedom Conservancy](ht
 
 <p>Recognition as a new member in a Clojurists Together blog post</p>
 
+<p>Four <a href="/jobs/">job listings</a> each year</p>
+
 <p>Thank you tweet from <a href="https://twitter.com/cljtogether">@cljtogether</a></p></p>
 
 
@@ -141,6 +143,8 @@ Clojurists Together is a member project of the [Software Freedom Conservancy](ht
 <p>Recognition as a new member in a Clojurists Together blog post</p>
 
 <p>Vote on board members</p>
+
+<p>Eight <a href="/jobs/">job listings</a> each year</p>
 
 <p>Thank you tweet from <a href="https://twitter.com/cljtogether">@cljtogether</a></p>
 
@@ -178,6 +182,8 @@ Clojurists Together is a member project of the [Software Freedom Conservancy](ht
 
 <p>Vote on board members</p>
 
+<p>Sixteen <a href="/jobs/">job listings</a> each year</p>
+
 <p>Customized thank you tweet each month by <a href="https://twitter.com/cljtogether">@cljtogether</a></p>
 
 
@@ -213,6 +219,8 @@ Clojurists Together is a member project of the [Software Freedom Conservancy](ht
 <p>Logo on conference talk slides thanking members</p>
 
 <p>Vote on board members</p>
+
+<p>Sixteen <a href="/jobs/">job listings</a> each year</p>
 
 <p>Meet with the Clojurists Together team about your infrastructure needs</p>
 

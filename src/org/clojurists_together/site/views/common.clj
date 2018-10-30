@@ -33,7 +33,8 @@
       [:li [:a {:href "/developers/"} "Developers"]]
       [:li [:a {:href "/members/"} "Members"]]
       [:li [:a {:href "/news/"} "News"]]
-      [:li [:a {:href "/projects/"} "Projects"]]])])
+      [:li [:a {:href "/projects/"} "Projects"]]
+      [:li [:a {:href "/jobs/"} "Jobs"]]])])
 
 (defn common-footer []
   [:footer
@@ -46,6 +47,7 @@
       [:li [:a {:href "/members/"} "Members"]]
       [:li [:a {:href "/news/"} "News"]]
       [:li [:a {:href "/projects/"} "Projects"]]
+      [:li [:a {:href "/jobs/"} "Jobs"]]
       [:li [:a {:href "/transparency/"} "Transparency"]]
       [:li [:a {:href "/faq/"} "FAQ"]]
       [:li [:a {:href "/team/"} "Team"]]
@@ -60,7 +62,7 @@
          [:head
           [:title (str title " - Clojurists Together")]
           (common-head)]
-         [:body
+         [:body.site
           (header)
           body
           (common-footer)]))
