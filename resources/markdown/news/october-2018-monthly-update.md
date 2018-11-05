@@ -7,7 +7,12 @@ type: post
 
 We are happy to close the month of October with a successful third quarter at Clojurists Together. Earlier this month, we announced our new project selections for Q4, Datascript and Kaocha. 
 
-There is a new part of our monthly newsletter and website, with job listings in the community. We've partnered with our company members to offer more career opportunities to our developer members. 
+There is a new part of our monthly newsletter and website, with job listings in the community. We've partnered with our company members to offer more career opportunities to our developer members. This week in listings, Senior Backend Engineer at Pitch and Senior Frontend Engineer at Pitch. 
+
+Last week we sent out an email about collecting addresses in order to send out CT stickers. If you want one and still haven't submitted your address, you can do so here before Nov. 14th in order to receive a sticker in the first round of mail.
+
+We are opening positions to join the Clojurists Together Committee. More information here. 
+
 
 
 ### cljdoc Update
