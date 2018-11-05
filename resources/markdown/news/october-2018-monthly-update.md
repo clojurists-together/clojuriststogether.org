@@ -66,6 +66,10 @@ Thanks for your support! I'm excited to follow Nikita and Arne's work over the n
 
 ## Shadow CLJs Update
 
+![launcher-screenshot1](/images/launcher-screenshot1.png)
+![launcher-screenshot2](/images/launcher-screenshot2.png)
+![launcher-screenshot3](/images/launcher-screenshot3.png)
+
 Released shadow-cljs versions to 2.6.14 to 2.6.21
 
 ### UI Work
