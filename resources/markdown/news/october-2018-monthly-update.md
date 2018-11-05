@@ -66,3 +66,17 @@ Thanks for your support! I'm excited to follow Nikita and Arne's work over the n
 
 ## Shadow CLJs Update
 
+Released shadow-cljs versions to 2.6.14 to 2.6.21
+
+### UI Work
+- Launcher work will be released soon-ish. Didn't have time to work on in the last two weeks.
+
+### Improvements
+- Switched HTTP handling to use mostly Undertow built-in functionality for serving files to support Range requests with `206 Partial Content` responses and `Transfer-Encoding: chunked`.
+- Massivly increased performance of Source Maps handling. The raw data was way too costly to serialize to disk and would often take longer than actual compilation. Instead now only the compacted VLQ encoded data is stored. Cache reads/writes are significantly faster, eg. `cljs.core` used to take 2.5s to write the cache and now `~250ms`.
+- Increased parallel compilation speeds by splitting analysis and "compilation" (ie. converting AST to JS code) into two different phases. Parallel compilation used to wait for both but now only waits for analysis since thats all thats required.
+
+### Bugfixes
+- Stricter checks for `:modules` when `:entries` get moved out of their specified module with incorrect `:require` dependency graphs.
+- Fixed all test targets to ensure that `:runner-ns` is always compiled last to ensure side-effecting macros return the expected results.
+- Fixed a bug in classpath Closure JS processing (ie. none `node_modules/**.js` files) where cache would increase exponentially in size on each compile.
