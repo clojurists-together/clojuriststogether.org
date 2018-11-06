@@ -5,31 +5,34 @@ type: post
 
 ## Clojurists Together News
 
-We are happy to close the month of October with a successful third quarter at Clojurists Together. Earlier this month, we announced our [new project selections](https://www.clojuriststogether.org/news/q4-2018-funding-announcement/) for Q4, Datascript and Kaocha. 
+We are happy to close the month of October with a successful third quarter at Clojurists Together. Earlier this month, we announced our [new project selections](https://www.clojuriststogether.org/news/q4-2018-funding-announcement/) for Q4, Datascript and Kaocha.
 
 There is a new part of our monthly newsletter and website, with job listings in the Clojure community. We've partnered with our company Filter members to offer more career opportunities to our developer members. Check out the new [Jobs](https://www.clojuriststogether.org/jobs/) page.
 
-This week in listings, [Senior Backend Engineer](http://careers.pitch.io/p/e1ff8b25796e01-senior-backend-engineer) at Pitch and [Senior Frontend Engineer at Pitch](http://careers.pitch.io/p/4977a65eeaea01-senior-frontend-engineer). 
+This month in listings, [Senior Backend Engineer](http://careers.pitch.io/p/e1ff8b25796e01-senior-backend-engineer) at Pitch and [Senior Frontend Engineer at Pitch](http://careers.pitch.io/p/4977a65eeaea01-senior-frontend-engineer).
 
-Last week we sent out an email about collecting addresses in order to send out CT stickers. If you want one and still haven't submitted your address, you can do so [here](https://docs.google.com/forms/d/e/1FAIpQLSewql7CecP0beNQMV6YLlD-tjbvnQLtNcxkR7SGBojbk9juzQ/viewform?usp=sf_link) before Nov. 14th in order to receive a sticker in the first round of mail.
+Last week we sent out an email to members about collecting addresses in order to send out CT stickers. If you want one and still haven't submitted your address, you can do so [here](https://docs.google.com/forms/d/e/1FAIpQLSewql7CecP0beNQMV6YLlD-tjbvnQLtNcxkR7SGBojbk9juzQ/viewform?usp=sf_link) before Nov. 14th in order to receive a sticker in the first round of mail.
 
-And finally, we are opening positions to join the Clojurists Together Committee. More information [here](https://www.clojuriststogether.org/news/2018-committee-nominations/). 
+And finally, we are holding elections for new Clojurists Together committee members. More information [here](https://www.clojuriststogether.org/news/2018-committee-nominations/).
+
+## ClojureScript update
+
+A lot of the work that Mike Fikes did on ClojureScript is part of a [new release of ClojureScript](https://clojurescript.org/news/2018-11-02-release), version 1.10.439. A big highlight is that compiler performance has been greatly improved, with projects sometimes seeing a 2x speed-up. There is also some really interesting work with supporting a Graal.js REPL environment. Thanks Mike!
 
 ## cljdoc Update
 
-Hey again dear ClojuristsTogether crew! Those last three months flew by and so much stuff has happened around cljdoc!
+Hey again dear Clojurists Together crew! Those last three months flew by and so much stuff has happened around cljdoc!
 
-For me the most important things were onboarding more contributors and allowing library authors and users to add examples to their APIs. 
+For me the most important things were onboarding more contributors and allowing library authors and users to add examples to their APIs.
 
 ### The Good News
 
 The influx of people to cljdoc has been really amazing, there were about 10 new contributors, some of them really stepping up by helping to review and merge pull requests as well as supporting other newcomers in [our Slack channel](https://clojurians.slack.com/messages/C8V0BQ0M6/).
 
-[**27(!) pull requests**](https://github.com/cljdoc/cljdoc/pulse/monthly) by 10 authors were merged, 40 issues were active, with 28 of them now closed. Shout out to Avichal, Saskia, Daniel, Albrecht, Jorin, Greg, Martin, Travis, Randy and everyone else who contributed through discussions and feedback! 
+[**27(!) pull requests**](https://github.com/cljdoc/cljdoc/pulse/monthly) by 10 authors were merged, 40 issues were active, with 28 of them now closed. Shout out to Avichal, Saskia, Daniel, Albrecht, Jorin, Greg, Martin, Travis, Randy and everyone else who contributed through discussions and feedback!
 I believe a wide contributor base is critical to ensure longterm success of cljdoc and I look forward to welcome more contributors in the future.
 
-
-### The Bad News 
+### The Bad News
 
 Examples... well. I didn't ship them. I spent a fair amount of time on it but eventually decided that it's not the right thing to focus on at this point. For examples to really make an impact cljdoc adoption needs to be much higher and there's a lot more stuff that I perceive as more impactful at this stage.
 
@@ -42,14 +45,14 @@ More details in [ADR-0014](https://github.com/cljdoc/cljdoc/blob/master/doc/adr/
 - We migrated from cljdoc.xyz to cljdoc.org and made lots of tiny improvements to make sure cljdoc is being indexed by search engines properly.
 - Avichal added build stats to [cljdoc.org/builds](https://cljdoc.org/builds) giving us some insight into failure rates of documentation builds. [Help lower it.](https://github.com/cljdoc/cljdoc/blob/master/…)
 - Randy improved our [404 page](https://cljdoc.org/clojurists-together-rules) by adding the familiar search that is available on the front page.
-- We set up JS packaging making docs load even faster. cljdoc's Lighthouse performance score now is 99. 
+- We set up JS packaging making docs load even faster. cljdoc's Lighthouse performance score now is 99.
 - @rakyi helped set up Prettier so our JavaScript code is consistently formatted. This is something that we might also do for Clojure code in the future.
 - @jsimpson-ovo built out proper support for GitLab. This mostly worked before but now it's is on par with GitHub. Source URLs, article edit links and more just work now.
 - Lots of improvements aimed at new contributors. Better support for Cursive, an improved [`CONTRIBUTING`](https://github.com/cljdoc/cljdoc/blob/master/CONTRIBUTING.adoc) and better instructions for [running cljdoc locally](https://github.com/cljdoc/cljdoc/blob/master/doc/running-cljdoc-locally.md).
 
 ### What next?
 
-With examples on hold and spec integration [still being semi-blocked](https://github.com/cljdoc/cljdoc/issues/67) there is some time to explore other areas. Some things I'm looking forward to in particular: 
+With examples on hold and spec integration [still being semi-blocked](https://github.com/cljdoc/cljdoc/issues/67) there is some time to explore other areas. Some things I'm looking forward to in particular:
 
 - A ubiquitous search interface to find functions, articles and switch between recently viewed projects. ([#194](https://github.com/cljdoc/cljdoc/issues/194))
 - Integration of download statistics from Clojars ([#68](https://github.com/cljdoc/cljdoc/issues/68))
@@ -66,8 +69,7 @@ So point people to cljdoc and — if you're feeling particularly excited — twe
 
 ### Thanks
 
-Thanks for your support! I'm excited to follow Nikita and Arne's work over the next months and feel truly grateful that an initiative like ClojuristsTogether exists in our community.
-
+Thanks for your support! I'm excited to follow Nikita and Arne's work over the next months and feel truly grateful that an initiative like Clojurists Together exists in our community.
 
 ## Shadow CLJs Update
 
