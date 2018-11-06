@@ -1,5 +1,11 @@
 Title: News
 
+## [October 2018 Monthly Update](/news/october-2018-monthly-update/)
+
+We are happy to close the month of October with a successful third quarter at Clojurists Together. Earlier this month, we announced our [new project selections](https://www.clojuriststogether.org/news/q4-2018-funding-announcement/) for Q4, Datascript and Kaocha.
+
+Welcome to all of our new members that joined this month. Special thanks to new Filter company members [Pitch](https://pitch.com/), [AdGoji](http://www.adgoji.com), and [Funding Circle](https://www.fundingcircle.com/de/). It's because of your support that we can continue to grow at Clojurists Together. 
+
 ## [Join the Clojurists Together Committee](/news/2018-committee-nominations/)
 
 As we near the close of our first year at Clojurists Together, we are opening up elections for new committee positions. As part of our commitment to transparency and community governance, Clojurists Together holds annual elections. The Committee is responsible for governing the projects, selecting which projects are sponsored, administering the projects, and interacting with sponsors.
