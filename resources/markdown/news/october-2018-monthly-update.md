@@ -5,17 +5,15 @@ type: post
 
 ## Clojurists Together News
 
-We are happy to close the month of October with a successful third quarter at Clojurists Together. Earlier this month, we announced our new project selections for Q4, Datascript and Kaocha. 
+We are happy to close the month of October with a successful third quarter at Clojurists Together. Earlier this month, we announced our [new project selections](https://www.clojuriststogether.org/news/q4-2018-funding-announcement/) for Q4, Datascript and Kaocha. 
 
-There is a new part of our monthly newsletter and website, with job listings in the community. We've partnered with our company members to offer more career opportunities to our developer members. This week in listings, Senior Backend Engineer at Pitch and Senior Frontend Engineer at Pitch. 
+There is a new part of our monthly newsletter and website, with job listings in the community. We've partnered with our company members to offer more career opportunities to our developer members. This week in listings, [Senior Backend Engineer](http://careers.pitch.io/p/e1ff8b25796e01-senior-backend-engineer) at Pitch and [Senior Frontend Engineer at Pitch](http://careers.pitch.io/p/4977a65eeaea01-senior-frontend-engineer). 
 
-Last week we sent out an email about collecting addresses in order to send out CT stickers. If you want one and still haven't submitted your address, you can do so here before Nov. 14th in order to receive a sticker in the first round of mail.
+Last week we sent out an email about collecting addresses in order to send out CT stickers. If you want one and still haven't submitted your address, you can do so [here](https://docs.google.com/forms/d/e/1FAIpQLSewql7CecP0beNQMV6YLlD-tjbvnQLtNcxkR7SGBojbk9juzQ/viewform?usp=sf_link) before Nov. 14th in order to receive a sticker in the first round of mail.
 
-We are opening positions to join the Clojurists Together Committee. More information here. 
+And finally, we are opening positions to join the Clojurists Together Committee. More information [here](https://www.clojuriststogether.org/news/2018-committee-nominations/). 
 
-
-
-### cljdoc Update
+## cljdoc Update
 
 Hey again dear ClojuristsTogether crew! Those last three months flew by and so much stuff has happened around cljdoc!
 
