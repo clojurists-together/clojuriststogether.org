@@ -6,7 +6,7 @@ Clojurists Together provides job listings here for [Filter members](/members/) a
 
 If you have a Clojure job that you'd like us to post, please [get in touch](/contact/).
 
-## Open Jobs at Pitch
+## Open Jobs at [Pitch](https://pitch.com/)
 
 ### [Senior Backend Engineer](http://careers.pitch.io/p/e1ff8b25796e01-senior-backend-engineer)
 
@@ -18,7 +18,7 @@ Pitch, a new company from the makers of Wunderlist, is looking for a Senior Back
 - You are product oriented, combining thoughtfulness with pragmatism and a will to get stuff done. You are calm and focused under pressure, and consider work-life balance essential for long-term happiness and productivity.
 - You believe effective and successful work is made possible by clear and honest communication, with a shared understanding of the long-term vision and immediate next actions. When you don't fully understand something, you ask lots of questions and use the opportunity to learn and grow.
 
-If you’re looking for an incredible opportunity and a great place to work, we’re excited to consider your application.
+If you’re looking for an incredible opportunity and a great place to work, Pitch is excited to consider your application.
 
 ### [Senior Frontend Engineer](http://careers.pitch.io/p/4977a65eeaea01-senior-frontend-engineer)
 
@@ -39,4 +39,4 @@ What you'll do?
 - You will work closely with our designers, teaming up in small cross-functional teams to bring features from idea to concept to wireframes to prototype to final implementation
 - You will work on frontend and possibly backend projects to build simple, high-quality, maintainable, and well-tested solutions
 
-If you’re looking for an incredible opportunity and a great place to work, we’re excited to consider your application.
+If you’re looking for an incredible opportunity and a great place to work, Pitch is excited to consider your application.
