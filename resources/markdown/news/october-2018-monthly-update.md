@@ -1,6 +1,6 @@
 title: October 2018 Monthly Update
 date: 11/04/2018
-draft: true
+draft: false
 type: post
 
 ## Clojurists Together News
