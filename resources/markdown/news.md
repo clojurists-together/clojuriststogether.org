@@ -1,5 +1,9 @@
 Title: News
 
+## [Join the Clojurists Together Committee](/news/2018-committee-nominations/)
+
+As we near the close of our first year at Clojurists Together, we are opening up elections for new committee positions. As part of our commitment to transparency and community governance, Clojurists Together holds annual elections. The Committee is responsible for governing the projects, selecting which projects are sponsored, administering the projects, and interacting with sponsors.
+
 ## [Q4 2018 Funding Announcement](/news/q4-2018-funding-announcement/)
 
 Posted on October 18, 2018
