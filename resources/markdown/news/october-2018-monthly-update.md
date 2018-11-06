@@ -7,6 +7,8 @@ type: post
 
 We are happy to close the month of October with a successful third quarter at Clojurists Together. Earlier this month, we announced our [new project selections](https://www.clojuriststogether.org/news/q4-2018-funding-announcement/) for Q4, Datascript and Kaocha.
 
+Welcome to all of our new members that joined this month. Special thanks to new Filter company members [Pitch](https://pitch.com/), [AdGoji](http://www.adgoji.com), and [Funding Circle](https://www.fundingcircle.com/de/). It's because of your support that we can continue to grow at Clojurists Together. 
+
 There is a new part of our monthly newsletter and website, with job listings in the Clojure community. We've partnered with our company Filter members to offer more career opportunities to our developer members. Check out the new [Jobs](https://www.clojuriststogether.org/jobs/) page.
 
 This month in listings, [Senior Backend Engineer](http://careers.pitch.io/p/e1ff8b25796e01-senior-backend-engineer) at Pitch and [Senior Frontend Engineer at Pitch](http://careers.pitch.io/p/4977a65eeaea01-senior-frontend-engineer).
