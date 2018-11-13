@@ -5,11 +5,7 @@ draft: true
 
 ## Committee Candidate Announcements for Voting
 
-#### Nola Stowe
-#### Laurens Van Houtven
-#### Nicolas Modrzyk
-#### John Stevenson
-#### Travis McNeill
+#### Nola Stowe - Laurens Van Houtven - Nicolas Modrzyk - John Stevenson - Travis McNeill
 
 Thanks to everyone who applied to join the Clojurists Together Committee. Here we present the 5 candidates, and their short bios so you can learn a little bit about each one.
 
