@@ -7,7 +7,7 @@ draft: true
 
 #### Nola Stowe - Laurens Van Houtven - Nicolas Modrzyk - John Stevenson - Travis McNeill
 
-Thanks to everyone who applied to join the Clojurists Together Committee. Here we present the 5 candidates, and their short bios so you can learn a little bit about each one.
+Thanks to everyone who applied to join the Clojurists Together Committee. Here we present the 5 candidates, and their short bios so you can learn a little bit about each one. You can vote for your favorite candidates _*here*_. 
 
 ## Candidate Profiles
 
