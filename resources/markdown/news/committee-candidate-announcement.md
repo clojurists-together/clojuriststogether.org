@@ -40,7 +40,7 @@ Nico has been involved into designing large scales server applications for a vid
 
 During his spare times, write books, play live music and looking forward to some great project together.
 
-### Ghadi Shayban
+### Ghadi Shayban - Healthfinch
 
 Ghadi Shayban is an engineer, pianist, and long-time community contributor. Over the years he has spent many hours teaching and evangelizing Clojure, and has worked on compiler, data structures and runtime, and core.async.
 
