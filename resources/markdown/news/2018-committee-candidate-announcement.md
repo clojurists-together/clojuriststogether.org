@@ -6,7 +6,7 @@ Clojurists Together is holding it's first annual elections for community elected
 
 Voting will be open until end of day Wednesday 28th November, 2018 PST. Election results will be announced shortly afterwards. The poll results will use Condorcet IRV (instant runoff). In the case of a tie on the cutoff point, the tie will be broken with [random.org/draws](https://www.random.org/draws/), a third-party drawing service. There are three seats open for election this year. The remaining four seats will come up for election next year. Committee members are elected for a two year term.
 
-The candidates are (in a randomised order): Nola Stowe, Laurens Van Houtven, Vijay Kiran, Nicolas Modryzk, Ghadi Shayban, Ikuru Kyogoku John Stevenson, Travis McNeill, and Fumiko Hanreich.
+The candidates are (in a randomised order): Nola Stowe, Laurens Van Houtven, Vijay Kiran, Nicolas Modryzk, Ghadi Shayban, Ikuru Kyogoku, John Stevenson, Travis McNeill, and Fumiko Hanreich.
 
 Thanks to everyone who applied, we really appreciate it.
 
