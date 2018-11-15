@@ -2,7 +2,7 @@ title: 2018 Committee Election Candidates
 date: 2018-11-15
 type: "post"
 
-Thanks to everyone who applied to join the Clojurists Together Committee. Here we present the nine candidates, their motivations for joining, and a brief biography so you can learn a little bit about each one. If you're a Clojurists Together member, you should have recently received an email with your link to vote with [CIVS](https://civs.cs.cornell.edu), an online election voting system. Only Clojurists Together members as of the 14th November 2018 are eligible to vote. Each company and developer member gets one vote.
+Clojurists Together is holding it's first annual elections for community elected committee members. Thanks to everyone who applied to join the Clojurists Together Committee. Here we present the nine candidates, their motivations for joining, and a brief biography so you can learn a little bit about each one. If you're a Clojurists Together member, you should have recently received an email with your link to vote with [CIVS](https://civs.cs.cornell.edu), an online election voting system. Only Clojurists Together members as of the 14th November 2018 are eligible to vote. Each company and developer member gets one vote.
 
 Voting will be open until end of day Wednesday 28th November, 2018 PST. Election results will be announced shortly afterwards. The poll results will use Condorcet IRV (instant runoff). In the case of a tie on the cutoff point, the tie will be broken with [random.org/draws](https://www.random.org/draws/), a third-party drawing service. There are three seats open for election this year. The remaining four seats will come up for election next year. Committee members are elected for a two year term.
 
@@ -30,11 +30,11 @@ Nola Stowe is a Software Engineer at Cisco Systems in the Security Business Grou
 [GitHub](https://github.com/lvh),
 [@lvh](https://twitter.com/lvh)
 
-#### Bio
+#### Why they'd like to join
 
 I have personal experience with the Python Software Foundation and the Software Freedom Conservancy. I'm an information security engineer, so I may be able to assist projects as well as Clojurists Together itself to improve its operational security posture.
 
-#### Why they'd like to join
+#### Bio
 
 I'm an information security person. My background is in cryptography, but these days I mostly focus on cloud infrastructure, though I do a ton of IT security and application security as well. I'm a Principal and co-founder at Latacora, where we specifically bootstrap information security practices for startups.
 
