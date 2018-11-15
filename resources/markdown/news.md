@@ -1,10 +1,14 @@
 Title: News
 
+## [2018 Committee Election Candidates](/news/2018-committee-candidate-announcement/)
+
+Thanks to everyone who applied to join the Clojurists Together Committee. Here we present the nine candidates, their motivations for joining, and a brief biography so you can learn a little bit about each one. The candidates are (in a randomised order): Nola Stowe, Laurens Van Houtven, Vijay Kiran, Nicolas Modryzk, Ghadi Shayban, Ikuru Kyogoku John Stevenson, Travis McNeill, and Fumiko Hanreich.
+
 ## [October 2018 Monthly Update](/news/october-2018-monthly-update/)
 
 We are happy to close the month of October with a successful third quarter at Clojurists Together. Earlier this month, we announced our [new project selections](https://www.clojuriststogether.org/news/q4-2018-funding-announcement/) for Q4, Datascript and Kaocha.
 
-Welcome to all of our new members that joined this month. Special thanks to new Filter company members [Pitch](https://pitch.com/), [AdGoji](http://www.adgoji.com), and [Funding Circle](https://www.fundingcircle.com/de/). It's because of your support that we can continue to grow at Clojurists Together. 
+Welcome to all of our new members that joined this month. Special thanks to new Filter company members [Pitch](https://pitch.com/), [AdGoji](http://www.adgoji.com), and [Funding Circle](https://www.fundingcircle.com/de/). It's because of your support that we can continue to grow at Clojurists Together.
 
 ## [Join the Clojurists Together Committee](/news/2018-committee-nominations/)
 
