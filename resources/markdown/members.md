@@ -49,7 +49,7 @@ Funding Circle connects small businesses who want to borrow with investors who w
 - [Kasta](https://kasta.ua)
 - [Nilenso](https://nilenso.com)
 - [Amperity](https://amperity.com/)
-- 
+- [Xcoo](https://xcoo.jp)
 
 ### Assoc Members ($50/mo):
 
