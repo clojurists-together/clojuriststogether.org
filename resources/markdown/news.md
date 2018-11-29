@@ -1,5 +1,9 @@
 Title: News
 
+## [2018 Committee Election Results](2018-committee-election-results)
+
+Clojurists Together has held our first election for people to serve on the committee. The members of Clojurists Together have elected Nola Stowe, Fumiko Hanreich, and Laurens Van Houtven.
+
 ## [2018 Committee Election Candidates](/news/2018-committee-candidate-announcement/)
 
 Thanks to everyone who applied to join the Clojurists Together Committee. Here we present the nine candidates, their motivations for joining, and a brief biography so you can learn a little bit about each one. The candidates are (in a randomised order): Nola Stowe, Laurens Van Houtven, Vijay Kiran, Nicolas Modryzk, Ghadi Shayban, Ikuru Kyogoku John Stevenson, Travis McNeill, and Fumiko Hanreich.
