@@ -5,7 +5,7 @@ type: post
 
 ## Clojurists Together News
 
-We are happy to close the month of November with a successful start to the fourth quarter at Clojurists Together. Our Q4 projects, Datascript and Koacha, are well on their way. 
+We are happy to close the month of November with a successful start to the fourth quarter at Clojurists Together. Our Q4 projects, Datascript and Koacha, are well on their way.
 
 In November we elected new board members at CT- thanks to everyone who participated in the elections. A warm welcome to Nola Stowe, Fumiko Hanreich, and Laurens Van Houtven!
 
@@ -104,15 +104,12 @@ quite popular in some circles.
 Cucumber will be powering Kaocha's integration (or "feature") tests. Before
 these were written as directories with a bunch of text files like `args`, `out`,
 and `err`, which were used by a shell script to invoke Kaocha and diff the
-output. With Cucumber the result [is a single
-file](https://github.com/lambdaisland/kaocha/blob/eb984b796157b21d19dca05f9c585d434e747310/test/features/command_line/fail_fast.feature)
+output. With Cucumber the result [is a single file](https://github.com/lambdaisland/kaocha/blob/eb984b796157b21d19dca05f9c585d434e747310/test/features/command_line/fail_fast.feature)
 which acts as a form of executable documentation. The Ruby testing tool RSpec
-uses this with great results, when you look [at their
-docs](https://relishapp.com/rspec/rspec-core/v/3-8/docs/command-line/failure-exit-code-option-exit-status)
+uses this with great results, when you look [at their docs](https://relishapp.com/rspec/rspec-core/v/3-8/docs/command-line/failure-exit-code-option-exit-status)
 you hardly realize you're also looking at their integration tests.
 
-Finally I made some changes to [improve startup
-time](https://github.com/lambdaisland/kaocha/issues/14), and minor usability
+Finally I made some changes to [improve startup time](https://github.com/lambdaisland/kaocha/issues/14), and minor usability
 improvements, like allowing plugins in the `kaocha.plugin` namespace to be
 specified without a namespace prefix
 
