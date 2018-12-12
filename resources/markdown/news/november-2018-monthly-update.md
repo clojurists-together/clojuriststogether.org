@@ -15,7 +15,7 @@ We are proud to say that this year at ClojureConj, we had our own stall! Thanks 
 
 Special thanks to Erik Assum for the shoutout to Clojurists Together in his talk at [Clojure eXchange 2018](https://skillsmatter.com/skillscasts/12774-are-you-writing-java-in-clojure) recently.
 
-![CT Nov 2018](/images/CT Nov 2018.jpg)
+![CTNov2018](/images/CT Nov 2018.jpg)
 
 ## Datascript update
 
