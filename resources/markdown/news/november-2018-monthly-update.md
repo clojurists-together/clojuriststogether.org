@@ -5,7 +5,7 @@ type: post
 
 ## Clojurists Together News
 
-We are happy to close the month of November with a successful fourth quarter at Clojurists Together. It was the first month of work for our new projects, Datascript and Kaocha. 
+We are happy to close the month of November with a successful start to the fourth quarter at Clojurists Together. Our Q4 projects, Datascript and Koacha, are well on their way. 
 
 Special thanks to the Skills Matter blog for the little shoutout and picture, [check it out here](https://skillsmatter.com/skillscasts/12774-are-you-writing-java-in-clojure).
 
