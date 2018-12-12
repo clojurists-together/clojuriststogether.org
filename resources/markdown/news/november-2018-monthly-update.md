@@ -7,9 +7,15 @@ type: post
 
 We are happy to close the month of November with a successful start to the fourth quarter at Clojurists Together. Our Q4 projects, Datascript and Koacha, are well on their way. 
 
+In November we elected new board members at CT- thanks to everyone who participated in the elections. A warm welcome to Nola Stowe, Fumiko Hanreich, and Laurens Van Houtven!
+
+We are proud to say that this year at ClojureConj, we had our own stall! Thanks to CT friend and board member, Bridget, for your efforts.
+
+![ClojureConj](/images/ClojureConj.jpg)
+
 Special thanks to Erik Assum for the shoutout to Clojurists Together in his talk at [Clojure eXchange 2018](https://skillsmatter.com/skillscasts/12774-are-you-writing-java-in-clojure) recently.
 
-![CT Nov 2018](resources/public/images/CT Nov 2018.jpg)
+![CT Nov 2018](/images/CT Nov 2018.jpg)
 
 ## Datascript update
 
