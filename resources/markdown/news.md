@@ -1,6 +1,6 @@
 Title: News
 
-## [Q1 2019 Survey Results](/news/q1-2019-survey-results/)
+## [Q1 2019 Survey Results and Call for Proposals](/news/q1-2019-survey-results/)
 
 Happy New Year Clojurists Together community!
 
