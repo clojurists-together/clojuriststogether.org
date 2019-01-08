@@ -1,11 +1,12 @@
-title: Q1 2019 Survey Results 
+title: Q1 2019 Survey Results
 date: 2018-10-01T08:30:50+13:00
 type: "post"
-draft: true
 
 Happy New Year Clojurists Together community!
 
-Thanks so much for your support and feedback in the latest survey. We value your opinions and always take suggestions into account as we make changes from quarter to quarter. 
+Thanks so much for your support and feedback in the latest survey. We value your opinions and always take suggestions into account as we make changes from quarter to quarter.
+
+Project [applications](https://www.clojuriststogether.org/open-source/) for our Q1 2019 round close on 15th Jan, midnight PST. The selections will be announced shortly afterwards. The Q1 2019 projects will start on February 1.
 
 ## Survey Responses
 
@@ -28,36 +29,40 @@ There were 67 respondents to the survey, up from 56 in the last survey. The high
 
 ### What areas of Clojure would you like to see improvement in?
 
-The main things people were interested in: developer experience tools (55%), build tooling (52%), documentation (49%), error messages (44%), IDE support (35%), test tooling (30%), linters (30%), data analysis/processing framework (26%). 
+The main things people were interested in: developer experience tools (55%), build tooling (52%), documentation (49%), error messages (44%), IDE support (35%), test tooling (30%), linters (30%), data analysis/processing framework (26%).
+
+If you work on any of these kinds of projects, please look at applying for funding.
 
 ### Are there any particular libraries, tools, or projects that are important to you that you would like to see supported?
 
 CIDER, Clojure.spec, Re-frame, REPLs, Leiningen, Hiccup, Reagent, Aleph, Re-natal, Figwheel, LightTable, Datahike were all mentioned several times.
 
+If you're a maintainer of any of these projects, please consider applying.
+
 ### Have you seen any direct benefits from improvements to the projects we have funded?
 
-About half of the respondents to this question had seen direct benefits, and half hadn't. 
+About half of the respondents to this question had seen direct benefits, and half hadn't.
 
 ### How would you like us to allocate our funding?
 
-GRAPHS SCREENSHOT FROM SURVEY? We could also use the bar graphs re: project satisfaction?
+80% of respondents wanted us to fund a mix of established and speculative projects, and 20% wantes us to only fund established projects. This is roughly the same as our Q4 2018 survey. In Q3 2018 the mix was 70/30.
 
 ### What are we doing well, what could we be doing better?
 
 Doing well:
 
-* Communication & Community Updates
-* Democracy in project selection
-* Transparency
-
+- Communication & Community Updates
+- Democracy in project selection
+- Transparency
 
 Could do better:
 
-* Funding models and exploring different project time amounts
-* Organiation promotion
-* More collaboration with the greater Clojure community
+- Funding models and exploring different project time amounts
+- Organisation promotion
+- More collaboration with the greater Clojure community
 
-
-We are opening up for project proposals for Q2 of 2019, so keep your eye on our emails (as we might have a different format for project funding? was this decided?). ENTER DATES FOR NEXT PROPOSALS.
+We have plans to explore different project funding models in future rounds. Due to the Christmas holidays we didn't have time for it this round. If you have any specific suggestions of funding models or durations you'd like us to consider, please get in touch.
 
 If you'd like to see more companies sponsor Clojurists Together, please reach out to them and encourage them to join.
+
+Thanks!
