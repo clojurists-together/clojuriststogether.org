@@ -1,11 +1,10 @@
 title: December 2018 Monthly Update
-date: 01/09/2019
-draft: true
+date: 01/16/2019
 type: post
 
 ## Clojurists Together News
 
-Hello all! 
+Hello all!
 
 Thanks again to those who participated in our [Q1 2019 survey](https://www.clojuriststogether.org/news/q1-2019-survey-results/), we greatly value your feedback.
 
@@ -13,9 +12,9 @@ Project [applications](https://www.clojuriststogether.org/open-source/) for our 
 
 ## Datascript update
 
-The most noticeable thing that happened in December so far is an implementation of or/or-join/not/not-join predicates in Datascript datalog and accompanying 0.17.1 release. The original ticket for this request was opened back in 2015, so it was about time that got fixed. It was also higly requested and probably one of the last things that was lacking in Datascript from Datomic API. Well, now it’s there, feel free to use it.
+The most noticeable thing that happened in December so far is an implementation of or/or-join/not/not-join predicates in Datascript datalog and accompanying 0.17.1 release. The original [ticket](https://github.com/tonsky/datascript/issues/50) for this request was opened back in 2015, so it was about time that got fixed. It was also higly requested and probably one of the last things that was lacking in Datascript from Datomic API. Well, now it’s there, feel free to use it. I also added/merged [support for idents expansion](https://github.com/tonsky/datascript/pull/245), and the [ability to call transaction fns through idents directly](https://github.com/tonsky/datascript/commit/34c122e0b5192bb58a797137fbb1f6bd1b236e6d).
 
-I’m pacing my work unevenly, so nothing much have happened in DataScript in second half of December. I started experimenting with persistence API and best datastructures for that, but that’s about it. Most of the action will be happening in January.
+I’m pacing my work unevenly, so nothing much happened in DataScript in second half of December. I started experimenting with persistence API and best datastructures for that, but that’s about it. Most of the action will be happening in January.
 
 ## Kaocha Update
 
@@ -40,14 +39,14 @@ failure.
 I find it's quite easy to get your parentheses wrong and write something like
 this, which trivially passes.
 
-``` clojure
+```clojure
 (is (= :this-doesnt-test-anything) (keyword "this-doesnt-test-anything"))
 ```
 
 This is similar to the existing feature where a test without assertions is
 considered a failure.
 
-``` clojure
+```clojure
 (deftest keyword-test
   (= :this-doesnt-test-anything (keyword "this-doesnt-test-anything")))
 ```

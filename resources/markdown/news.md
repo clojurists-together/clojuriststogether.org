@@ -1,5 +1,13 @@
 Title: News
 
+## [December 2018 Monthly Update](/news/2018-december-monthly-update/)
+
+Thanks again to those who participated in our Q1 2019 survey, we greatly value your feedback.
+
+Project applications for our Q1 2019 round close on 15th Jan, midnight PST. The selections will be announced shortly afterwards. The Q1 2019 projects will start on February 1.
+
+This month we have updates again from Datascript and Kaocha.
+
 ## [Q1 2019 Survey Results and Call for Proposals](/news/q1-2019-survey-results/)
 
 Happy New Year Clojurists Together community!
