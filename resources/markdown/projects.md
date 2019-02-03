@@ -22,6 +22,8 @@ Datascript is a Clojure and ClojureScript database. DataScript has been around f
 
 ### [cljdoc](https://cljdoc.org)
 
+![cljdoclogo](/images/cljdoc-logo-beta-square.png)
+
 cljdoc is a website that builds and hosts documentation for Clojure and ClojureScript libraries. Poor and out-of-date documentation has long been a complaint of Clojure developers. cljdoc [improves the state](https://github.com/cljdoc/cljdoc#rationale) of Clojure documentation by providing minimal-effort documentation building and hosting for all Clojure jars on Clojars and Maven. In our most recent survey, improving documentation was a common request. Martin Klepsch maintains cljdoc.
 
 ### [Shadow CLJS](https://github.com/thheller/shadow-cljs)
