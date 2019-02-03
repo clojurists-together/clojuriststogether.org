@@ -34,9 +34,13 @@ Shadow CLJS is a ClojureScript build tool that covers the entire spectrum from d
 
 ### [CIDER](https://github.com/clojure-emacs/cider)
 
+![cider](/images/cider.png)
+
 CIDER is the most widely adopted Clojure development environment. In the most recent [Clojure survey](http://blog.cognitect.com/blog/2017/1/31/clojure-2018-results) CIDER was the primary development environment for 50% of survey respondents. Additionally, in our most recent survey, it featured highly as a project important to our members workflows. It is maintained by Bozhidar Batsov.
 
 ### [ClojureScript](https://clojurescript.org)
+
+![clojurescript](/images/clojurescript.png)
 
 ClojureScript probably needs little introduction to most readers here. It is a dialect of Clojure that compiles to JavaScript to be able to target the browser, NodeJS, and the dozens of other platforms where JavaScript has a runtime. 83% of our members use ClojureScript in their work. We are funding Mike Fikes to continue his excellent work on the ClojureScript compiler. Mike is the number 2 or 3 [contributor](https://github.com/clojure/clojurescript/graphs/contributors) to ClojureScript (depending on how you count). 
 
