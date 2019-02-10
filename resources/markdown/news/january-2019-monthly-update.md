@@ -5,18 +5,18 @@ draft: true
 
 ## Clojurists Together News
 
-Hello CT Community - 
+Hello CT Community -
 
-We are happy to announce the conclusion of Q4 and get to work with Q1 of 2019. These are the final progress reports for projects Datascript and Kaocha- special thanks to Nikita and Arne for all your hard work!
+We are happy to announce the conclusion of Q4 2018 and the beginning of our Q1 2019 funding round where we are funding Aleph and Neanderthal. These are the final progress reports for projects Datascript and Kaocha. Special thanks to Nikita and Arne for all your hard work!
 
 ## Datascript update
 
 ### Extend query language
 
-* Completed an implementation of or/or-join/not/not-join predicates in Datascript datalog and accompanying 0.17.1 release. The original ticket for this request was opened back in 2015, so it was about time that got fixed. It was also higly requested and probably one of the last things that was lacking in Datascript from Datomic API.
-* Support `:as` in Pull API an attr-with-opts syntax (#270, PR #271, thx @Jumblemuddle)
-* Support idents expansion (PR #245, thx bamarco)
-* Calling transaction fns through idents directly (PR #185, thx @refset)
+- Completed an implementation of or/or-join/not/not-join predicates in Datascript datalog and accompanying 0.17.1 release. The original ticket for this request was opened back in 2015, so it was about time that got fixed. It was also higly requested and probably one of the last things that was lacking in Datascript from Datomic API.
+- Support `:as` in Pull API an attr-with-opts syntax ([#270](https://github.com/tonsky/datascript/issues/270), PR [#271](https://github.com/tonsky/datascript/pull/271), thx @Jumblemuddle)
+- Support idents expansion (PR [#245](https://github.com/tonsky/datascript/pull/245), thx bamarco)
+- Calling transaction fns through idents directly (PR [#185](https://github.com/tonsky/datascript/pull/185), thx @refset)
 
 ### Optimizing query execution speed
 
@@ -28,26 +28,18 @@ So far results are quite promising, with transact up to 6x times faster than bef
 
 All research is already in DataScript repo. What’s left before those gains are available for DataScript users is some massaging to get it to play nice with Clojure (implement required interfaces etc). I scheduled this work to be completed in the first week of February.
 
-### Faster bulk transaction
-
-I didn't add faster bulk transaction support during this time period.
-
-### Experiment with DataScript for UI
-
-I didn't experiment with DataScript for UI during this time period.
-
 ### Miscellaneous
 
-* Extensive docstrings for most core functions, published at https://cljdoc.org/d/datascript/datascript
-* Move AOTed builds to separate artifacts  (related: #241, #279, #280)
-* Implement `clojure.data/diff` on `datascript/DB` (#281)
-* Drop Clojure 1.7 and 1.8 support
-* Fix externs.js syntax (PR #216, thx @thheller)
-* JS API correctly handles nested maps with `{":db/id"}` in transactions (#228, thx @serebrianyi)
-* Made Clojure 1.10 the default build target.
-* Adopted Kaocha test runner.
-* Fixed four minor reported issues, [#285](https://github.com/tonsky/datascript/issues/285), [#287](https://github.com/tonsky/datascript/issues/287), [#283](https://github.com/tonsky/datascript/issues/283), [#289](https://github.com/tonsky/datascript/issues/289).
-* Did a bit of research of different implementation strategies and developed faster JVM BTreeSet implementation with transient support.
+- Extensive docstrings for most core functions, published at https://cljdoc.org/d/datascript/datascript
+- Move AOTed builds to separate artifacts (related: #241, #279, #280)
+- Implement `clojure.data/diff` on `datascript/DB` (#281)
+- Drop Clojure 1.7 and 1.8 support
+- Fix externs.js syntax (PR #216, thx @thheller)
+- JS API correctly handles nested maps with `{":db/id"}` in transactions (#228, thx @serebrianyi)
+- Made Clojure 1.10 the default build target.
+- Adopted Kaocha test runner.
+- Fixed four minor reported issues, [#285](https://github.com/tonsky/datascript/issues/285), [#287](https://github.com/tonsky/datascript/issues/287), [#283](https://github.com/tonsky/datascript/issues/283), [#289](https://github.com/tonsky/datascript/issues/289).
+- Did a bit of research of different implementation strategies and developed faster JVM BTreeSet implementation with transient support.
 
 ## Kaocha Update
 
