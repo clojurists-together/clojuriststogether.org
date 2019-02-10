@@ -7,7 +7,7 @@ draft: true
 
 Hello CT Community - 
 
-We are happy to conclude Q4 and start work with Q1 of 2019! These are the final progress reports for projects Datascript and Kaocha- thanks Nikita and Arne for all your hard work!
+We are happy to announce the conclusion of Q4 and get to work with Q1 of 2019. These are the final progress reports for projects Datascript and Kaocha- special thanks to Nikita and Arne for all your hard work!
 
 ## Datascript update
 
