@@ -7,7 +7,7 @@ draft: false
 
 Hello CT Community -
 
-This month we present the first update from our new projects, Neanderthal and Aleph! Thanks to everyone for your continued support of Clojurists Together!
+This month we present the first update from our new projects, Neanderthal and Aleph. Thanks to everyone for your continued support of Clojurists Together!
 
 ## Neanderthal update
 
