@@ -12,6 +12,8 @@ For those who are new to Clojurists Together, our goal is simple: Fund critical 
 
 We're still working on funding details for this quarter and will update this post and announce the amounts once they are finalised.
 
+**Update**: We are very happy to announce that due to the growth in member support, particularly over the last few months of 2018, we have been able to increase our support for projects from $5,400 over three months ($1,800/mo), to $9,000 over three months ($3,000/mo).
+
 ## Neanderthal
 
 Neanderthal is a fast native-speed matrix and linear algebra library written in Clojure. Matrices and linear algebra are the infrastructure for high performance scientific software, including machine learning. Dragan is going to be working on adding higher-level tutorials that give people the bigger picture and shows them good practices.

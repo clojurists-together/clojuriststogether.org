@@ -67,7 +67,7 @@ One of the things Clojurists Together was designed to support is the work that i
 
 ## Funding amounts
 
-Successful projects are awarded a fellowship for three months. The number of projects funded in each cycle and the amount paid for each fellowship will vary depending on member support, and project requirements. Successful projects will know in advance of starting how much they will be paid. As Clojurists Together funds more projects and gets more experience, we will be able to give a clearer answer. For each quarter of the first year we have funded two projects $1,800 USD/mo for three months.
+Successful projects are awarded a fellowship for three months. The number of projects funded in each cycle and the amount paid for each fellowship will vary depending on member support, and project requirements. Successful projects will know in advance of starting how much they will be paid. As Clojurists Together funds more projects and gets more experience, we will be able to give a clearer answer. For each quarter of the first year we have funded two projects $1,800 USD/mo for three months. In 2019, due to continued growth in members, we were able to increase this to $3,000 USD/mo for three months.
 
 ## Considerations
 
