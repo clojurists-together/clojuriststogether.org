@@ -15,7 +15,7 @@ Since our [Q1 project selection](/news/q1-2019-funding-announcement/) we are ver
 
 ## Neanderthal update
 
-During the first two weeks, I have published 4 detailed posts, around 8000 words in total:
+During the first month of funding, I have published 7 detailed posts, around 8,000 words in total:
 
 1. [Deep Learning in Clojure from Scratch to GPU - Part 0 - Why Bother?](https://dragan.rocks/articles/19/Deep-Learning-in-Clojure-From-Scratch-to-GPU-0-Why-Bother)
    <br /> February 1, 2019 -
