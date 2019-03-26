@@ -51,6 +51,7 @@ Funding Circle connects small businesses who want to borrow with investors who w
 - [Amperity](https://amperity.com/)
 - [Xcoo](https://xcoo.jp)
 - [Bevuta IT](https://www.bevuta.com/en/)
+- [Sharetribe](https://www.sharetribe.com/)
 
 ### Assoc Members ($50/mo):
 
@@ -64,6 +65,7 @@ Funding Circle connects small businesses who want to borrow with investors who w
 - [Reify Health](https://reifyhealth.com)
 - [Functional Works](https://functional.works-hub.com/)
 - [Urban Dictionary](https://www.urbandictionary.com/)
+- [Ardoq AS](https://www.ardoq.com/)
 
 ### Founding Developer Members ⭐️
 
