@@ -12,22 +12,29 @@ There were 56 respondents to the survey, down from 67 in the last survey. The hi
 
 ### Which Clojure dialects do you regularly use?
 
-- Clojure - 61 (97%)
-- ClojureScript - 51 (82%)
+- Clojure - 55 (98%)
+- ClojureScript - 43 (77%)
 - Clojure CLR - 0 (0%)
 
 ### Which platforms do you target?
 
-- Clojure JVM Server (94%)
-- ClojureScript Browser (74%)
-- ClojureScript Node Server (20%)
-- ClojureScript Mobile (18%)
-- Clojure JVM Client (15%)
-- ClojureScript Desktop Application (8%)
+- Clojure JVM Server (96%)
+- ClojureScript Browser (73%)
+- ClojureScript Node Server (10%)
+- Clojure JVM Client  (13%)
+- ClojureScript Desktop Application (13%)
 
 ### What areas of Clojure would you like to see improvement in?
 
-The main things people were interested in: developer experience tools (55\%), build tooling (52\%), documentation (49\%), error messages (44\%), IDE support (35\%), test tooling (30\%), linters (30\%), data analysis/processing framework (26\%).
+The main things people were interested in: 
+
+- developer experience tools (52\%) 
+- build tooling (43\%) 
+- documentation (43\%) 
+- error messages (39\%) 
+- IDE support (41\%) 
+- test tooling (30\%) 
+- linters (29\%) 
 
 If you work on any of these kinds of projects, please look at applying for funding.
 
