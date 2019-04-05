@@ -40,33 +40,32 @@ If you work on any of these kinds of projects, please look at applying for fundi
 
 ### Are there any particular libraries, tools, or projects that are important to you that you would like to see supported?
 
-CIDER, Clojure.spec, Re-frame, REPLs, Leiningen, Hiccup, Reagent, Aleph, Re-natal, Figwheel, LightTable, Datahike were all mentioned several times.
+shadow-cljs, CIDER, ClojureScript, re-frame, clojure.spec, fulcro, Pathom
 
 If you're a maintainer of any of these projects, please consider applying.
 
 ### Have you seen any direct benefits from improvements to the projects we have funded?
 
-About half of the respondents to this question had seen direct benefits, and half hadn't.
+About 2/3 of responses have seen direct benefits.
 
 ### How would you like us to allocate our funding?
 
-80% of respondents wanted us to fund a mix of established and speculative projects, and 20% wantes us to only fund established projects. This is roughly the same as our Q4 2018 survey. In Q3 2018 the mix was 70/30.
+75% of respondents wanted us to fund a mix of established and speculative projects, and 25% wantes us to only fund established projects. This is roughly the same as our Q4 2018 survey. In Q1 2019 the mix was 80/20.
 
 ### What are we doing well, what could we be doing better?
 
 Doing well:
 
-- Communication & Community Updates
-- Democracy in project selection
+- Communication
+- Community Building
 - Transparency
 
 Could do better:
 
 - Funding models and exploring different project time amounts
-- Organisation promotion
-- More collaboration with the greater Clojure community
+- Update website
+- Fund more projects 
 
-We have plans to explore different project funding models in future rounds. Due to the Christmas holidays we didn't have time for it this round. If you have any specific suggestions of funding models or durations you'd like us to consider, please get in touch.
 
 If you'd like to see more companies sponsor Clojurists Together, please reach out to them and encourage them to join.
 
