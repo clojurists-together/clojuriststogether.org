@@ -1,6 +1,6 @@
 title: Q2 2019 Survey Results and Call for Proposals
 type: "post"
-draft: true
+draft: false
 
 Thanks so much for your support and feedback in the latest survey. We value your opinions and always take suggestions into account as we make changes from quarter to quarter.
 
