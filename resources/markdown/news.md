@@ -1,5 +1,11 @@
 Title: News
 
+## [Q2 2019 Survey Results and Call for Proposals](/news/q2-2019-survey-results/)
+
+Thanks so much for your support and feedback in the latest survey. We value your opinions and always take suggestions into account as we make changes from quarter to quarter.
+
+Project applications for our Q2 2019 round close on 15th Apr, midnight PST. The selections will be announced shortly afterwards. The Q2 2019 projects will start on May 1.
+
 ## [February 2019 Monthly Update](/news/february-2019-monthly-update/)
 
 This month we present the first update from our new projects, Neanderthal and Aleph. Thanks to everyone for your continued support of Clojurists Together!
