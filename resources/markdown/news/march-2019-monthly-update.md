@@ -7,7 +7,7 @@ draft: true
 
 Hello CT Community -
 
-Our second month of updates from Neanderthal and Aleph are here. 
+The second month of updates from Neanderthal and Aleph is here. 
 
 Thanks for your continued support of Clojurists Together!
 
