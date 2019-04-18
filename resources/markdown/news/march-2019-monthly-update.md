@@ -17,7 +17,7 @@ Thanks for your continued support of Clojurists Together!
 <br /> March 20, 2019 
 We implement the key part of the backward pass, the computation of the error of a layer. Along the way, we set up the infrastructure for the complete implementation of backpropagation.
 
-11. [Deep Learning from Scratch to GPU - 10 - The Backward Pass (CUDA, OpenCL, Nvidia, AMD, Intel](https://dragan.rocks/articles/19/Deep-Learning-in-Clojure-From-Scratch-to-GPU-11-A-Simple-Neural-Network-API)  
+11. [Deep Learning from Scratch to GPU - 10 - The Backward Pass (CUDA, OpenCL, Nvidia, AMD, Intel](https://dragan.rocks/articles/19/Deep-Learning-in-Clojure-From-Scratch-to-GPU-11-A-Simple-Neural-Network-API)
 <br /> March 25, 2019 
 We complete the basic implementation of the backward pass of backpropagation and gradient descent.
 
@@ -30,7 +30,7 @@ The time is ripe for wrapping what we have built so far in a nice Neural Network
 
 I've spent quite a lot of time working through comments for previous PRs and keeping those changes in a mergable state. At the end of the day a few PRs made their way to master and I hope to see more following.
 
-# WebSockets
+### WebSockets
 
 * [Issue](https://github.com/ztellman/aleph/issues/494) with WebSocket per-message deflate extension handshaker turned out to be way more complex than I’ve expected. I had an idea to close the gap of inconsistent APIs on Netty's side: [“Decouple WebSocket server extension handshaker from read I/O“](https://github.com/netty/netty/pull/8973). But as these changes didn't get through, I'm going to implement workaround in Aleph's codebase.
 
@@ -42,7 +42,7 @@ I've spent quite a lot of time working through comments for previous PRs and kee
 
 * I also spent tons of hours investigating performance of `netty/source` and `netty/sink` in turms of latencies, throughput, backpressure. I was looking into Netty's `autoRead` semantic, how Aleph deals with it and if we can improve performane oding `flush` on `readComplete`. To make story short: we can. In cases when you send/recieve a lot of small chunks. I'm still not sure how to expose this in the framework tho'. Talking about small chunks of data... I did the same investigation for UDP.
 
-# Files
+### Files
 
 * [#497](https://github.com/ztellman/aleph/pull/497) Use `HttpUtil` to manage "Content-Length" header, small internal improvement.
 
@@ -50,11 +50,11 @@ I've spent quite a lot of time working through comments for previous PRs and kee
 
 * [Nasus](https://github.com/kachayev/nasus) (static files server) got a few more features: CORS headers, symlics support, Basic Auth.
 
-# Performance
+### Performance
 
 * HTTP client timeouts were reimplemented with `HashedWheelTimer`s that are designed specifically to handler tons of I/O events, [#499](https://github.com/ztellman/aleph/pull/499). That's a huge performance improvement for projects with higher RPS rates. The reasons for that were described in [#479](https://github.com/ztellman/aleph/issues/479), thanks to [Alexander Yakushev](https://github.com/alexander-yakushev) for brining this up. 
 
-# MQTT
+### MQTT
 
 I've started this as an experiment.. but now part of client-side logic is implemented: connect/disconnect logic, publish messages to topics, acknowledgements flow for at least once QoS level. There're still a lot of things missing but end-to-end example already works. I hope I'll manage to pack those into a separate PR pretty soon.
 
