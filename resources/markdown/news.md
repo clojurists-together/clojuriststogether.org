@@ -1,5 +1,9 @@
 Title: News
 
+## [March 2019 Monthly Update](/news/march-2019-monthly-update/)
+
+The second month of updates from Neanderthal and Aleph is here. Thanks for your continued support of Clojurists Together!
+
 ## [Q2 2019 Survey Results and Call for Proposals](/news/q2-2019-survey-results/)
 
 Thanks so much for your support and feedback in the latest survey. We value your opinions and always take suggestions into account as we make changes from quarter to quarter.
