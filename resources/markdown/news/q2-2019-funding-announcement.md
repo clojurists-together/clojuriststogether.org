@@ -1,7 +1,7 @@
 title: Q2 2019 Funding Announcement
 date: 2019-04-30
 type: "post"
-draft: true
+draft: false
 
 Clojurists Together is happy to announce that for Q2 of 2019 (May-July) we are funding two projects: [Boot](https://boot-clj.com) with Matthew Ratzke, and [Fireplace](https://github.com/tpope/vim-fireplace) with Tim Pope.
 
