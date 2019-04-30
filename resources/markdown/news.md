@@ -1,5 +1,9 @@
 Title: News
 
+## [Q2 2019 Funding Announcement](/news/q2-2019-funding-announcement/)
+
+Clojurists Together is happy to announce that for Q2 of 2019 (May-July) we are funding two projects: Boot with Matthew Ratzke, and Fireplace with Tim Pope.
+
 ## [March 2019 Monthly Update](/news/march-2019-monthly-update/)
 
 The second month of updates from Neanderthal and Aleph is here. Thanks for your continued support of Clojurists Together!
