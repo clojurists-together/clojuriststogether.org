@@ -61,6 +61,7 @@ The projects that applied this quarter were:
 - Fireplace
 - LightTable
 - Shadow CLJS
+- ohmyclj
 
 ## Q2 2019 Funding
 
