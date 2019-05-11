@@ -12,11 +12,11 @@ Here is the final update from our Q1 projects. We appreciate the work of Neander
 Our Project Leader, Daniel Compton, is speaking about Clojurists Together soon! Catch him at one of the following local events:
 
 [NYC Meetup: Funding OSS- Clojurists Together](https://www.meetup.com/Clojure-nyc/events/260728030/)
-May 15th in New York City, NY
-6:30 - 8:30pm
+<br /> May 15th in New York City, NY
+<br /> 6:30 - 8:30pm
 
 [Heart of Clojure](https://heartofclojure.eu/)
-August 2nd in Leuven, Belgium
+<br /> August 2nd in Leuven, Belgium
 
 Thanks for your continued support of Clojurists Together!
 
@@ -60,6 +60,7 @@ I plan to continue writing on this topic and release a series of beautifully typ
 During these 3 months, I released versions 0.22.0, 0.22.1, and 0.23.0, which contain new functions useful in deep learning and general high performance programming and upgraded the underlying OpenCL engine.
 
 <br />
+
 ## Aleph Update
 
 1. [MQTT support](https://github.com/ztellman/aleph/pull/510)
