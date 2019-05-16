@@ -1,5 +1,9 @@
 Title: News
 
+## [April 2019 Monthly Update](/news/april-2019-monthly-update/)
+
+Here is our final Q1 monthly update from projects, Neanderthal and Aleph - thanks so much for all your hard work this quarter.
+
 ## [Q2 2019 Funding Announcement](/news/q2-2019-funding-announcement/)
 
 Clojurists Together is happy to announce that for Q2 of 2019 (May-July) we are funding two projects: Boot with Matthew Ratzke, and Fireplace with Tim Pope.
