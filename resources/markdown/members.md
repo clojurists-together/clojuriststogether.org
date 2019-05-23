@@ -39,6 +39,7 @@ Funding Circle connects small businesses who want to borrow with investors who w
 ### Into Members ($200/mo):
 
 - [Zenius Education](http://www.zeniuseducation.com/) ⭐️
+- [Grammarly](https://app.grammarly.com/)
 
 ### Cons Members ($100/mo):
 
