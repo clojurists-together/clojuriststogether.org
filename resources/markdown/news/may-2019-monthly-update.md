@@ -11,7 +11,15 @@ This month we present the first updates from one of our Q2 Projects - Fireplace!
 
 ---
 
+![Daniel talking at Bay Area Clojure](/images/may-2019/bay-area-clojure.jpeg)
+
 Last month, Our Project Leader Daniel Compton spoke about Clojurists Together at the [Bay Area Clojure Meetup](https://www.meetup.com/The-Bay-Area-Clojure-User-Group/events/261141279/), and at the [Clojure NYC Meetup](https://www.meetup.com/Clojure-nyc/events/260728030/). It was great to be able to meet people and talk about Clojurists Together with the community.
+
+![Daniel talking at Clojure NYC](/images/may-2019/clojure-nyc.jpeg)
+
+Clojurists Together also made a feature on stage at GitHub Satellite as part of the inspiration for their new [GitHub Sponsors](https://github.com/sponsors) program.
+
+![GitHub Sponsors](/images/may-2019/github-satellite.jpeg)
 
 Daniel is also speaking about Clojurists Together again soon! Catch him at one of the following local events:
 
