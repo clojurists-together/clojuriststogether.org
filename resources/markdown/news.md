@@ -1,5 +1,11 @@
 Title: News
 
+## [May 2019 Monthly Update](/news/may-2019-monthly-update/)
+
+Hi CT Community -
+
+This month we present the first updates from one of our Q2 Projects - Fireplace!
+
 ## [April 2019 Monthly Update](/news/april-2019-monthly-update/)
 
 Here is our final Q1 monthly update from projects, Neanderthal and Aleph - thanks so much for all your hard work this quarter.
