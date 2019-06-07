@@ -17,7 +17,7 @@ Last month, Our Project Leader Daniel Compton spoke about Clojurists Together at
 
 ![Daniel talking at Clojure NYC](/images/may-2019/clojure-nyc.jpeg)
 
-Clojurists Together also made a feature on stage at GitHub Satellite as part of the inspiration for their new [GitHub Sponsors](https://github.com/sponsors) program.
+We were excited to see [Devon Zuegel](https://twitter.com/devonzuegel) mentioned Clojurists Together at GitHub Satellite as part of the inspiration for their new [GitHub Sponsors](https://github.com/sponsors) program!
 
 ![GitHub Sponsors](/images/may-2019/github-satellite.jpeg)
 
