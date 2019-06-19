@@ -2,7 +2,7 @@ Title: Members
 
 Companies and Individuals that support Clojurists Together will be listed on this page. Founding sponsors are people who joined Clojurists Together early, and are marked with a ⭐️.
 
-### Transduce Members ($1000/mo):
+### Transduce Members (\$1000/mo):
 
 #### [Pitch](https://pitch.com)
 
@@ -10,7 +10,11 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 
 Pitch is building the next generation presentation software for individuals and teams.
 
-### Filter Members ($500/mo):
+#### [Nubank](https://nubank.com.br)
+
+<a href="https://nubank.com.br"><img class="member-logo" src="/logos/nubank.png"</a>
+
+### Filter Members (\$500/mo):
 
 #### [JUXT](https://juxt.pro) ⭐
 
@@ -36,12 +40,12 @@ Adgoji is a media agency. We have built a Clojure based real-time bidding platfo
 
 Funding Circle connects small businesses who want to borrow with investors who want to lend in the UK, US, Germany and the Netherlands. We use Clojure to build our platform.
 
-### Into Members ($200/mo):
+### Into Members (\$200/mo):
 
 - [Zenius Education](http://www.zeniuseducation.com/) ⭐️
 - [Grammarly](https://www.grammarly.com/)
 
-### Cons Members ($100/mo):
+### Cons Members (\$100/mo):
 
 - [Jepsen](https://jepsen.io) ⭐️
 - [Deps](https://www.deps.co) ⭐️
@@ -55,7 +59,7 @@ Funding Circle connects small businesses who want to borrow with investors who w
 - [Sharetribe](https://www.sharetribe.com/)
 - [Magnet](https://www.magnet.coop)
 
-### Assoc Members ($50/mo):
+### Assoc Members (\$50/mo):
 
 - [Bloom Ventures](http://bloomventures.io) ⭐️
 - [cstap](https://cstap.com) ⭐️
