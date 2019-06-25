@@ -43,6 +43,7 @@ Funding Circle connects small businesses who want to borrow with investors who w
 ### Into Members ($200/mo):
 
 - [Zenius Education](http://www.zeniuseducation.com/) ⭐️
+- [Solita](https://www.solita.fi) ⭐️
 - [Grammarly](https://www.grammarly.com/)
 
 ### Cons Members ($100/mo):
@@ -64,7 +65,6 @@ Funding Circle connects small businesses who want to borrow with investors who w
 - [Bloom Ventures](http://bloomventures.io) ⭐️
 - [cstap](https://cstap.com) ⭐️
 - [Signifier](http://signifier.jp) ⭐️
-- [Solita Oy](https://www.solita.fi) ⭐️
 - [Sattvik Software & Technology Resources](http://www.deepbluelambda.org)
 - [Mastodon C](http://www.mastodonc.com)
 - [Reify Health](https://reifyhealth.com)
