@@ -1,7 +1,7 @@
 title: June 2019 Monthly Update
 date: 07/01/2019
 type: post
-draft: true
+draft: false
 
 ## Clojurists Together 
 
@@ -9,7 +9,7 @@ Hi CT Community -
 
 It's been a successful second month with our selected Q2 project, Fireplace, check out the updates below!
 
-The call for proposals for Q3 at Clojurists Together is open!
+The [Call for Proposals](https://www.clojuriststogether.org/open-source/) for Q3 Projects at Clojurists Together is now open!
 
 Just a reminder that Daniel is speaking about Clojurists Together again soon! Catch him at one of the following local events:
 
