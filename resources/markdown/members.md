@@ -59,6 +59,7 @@ Funding Circle connects small businesses who want to borrow with investors who w
 - [Bevuta IT](https://www.bevuta.com/en/)
 - [Sharetribe](https://www.sharetribe.com/)
 - [Magnet](https://www.magnet.coop)
+- [HalalBooking.com](https://halalbooking.com/)
 
 ### Assoc Members ($50/mo):
 
