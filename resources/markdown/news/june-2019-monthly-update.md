@@ -13,11 +13,11 @@ The call for proposals for Q3 at Clojurists Together is open!
 
 Just a reminder that Daniel is speaking about Clojurists Together again soon! Catch him at one of the following local events:
 
-Heart of Clojure - Money for Nothing: The past and future of funding OSS 
-August 2nd in Leuven, Belgium
+[Heart of Clojure](https://heartofclojure.eu/) - [Money for Nothing: The past and future of funding OSS](https://heartofclojure.eu/program#daniel-compton)
+<br /> August 2nd in Leuven, Belgium
 
-Strange Loop - A Stitch in Time - The future of OSS Sustainability 
-September 12-14 in St. Louis, Missouri, USA
+[Strange Loop](https://thestrangeloop.com) - [A Stitch in Time - The future of OSS Sustainability](https://thestrangeloop.com/2019/a-stitch-in-time---the-future-of-oss-sustainability.html)
+<br /> September 12-14 in St. Louis, Missouri, USA
 
 Thanks for your continued support of Clojurists Together!
 
