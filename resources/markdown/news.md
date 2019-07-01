@@ -1,5 +1,11 @@
 Title: News
 
+## [June 2019 Monthly Update](/news/june-2019-monthly-update/)
+
+It's been a successful second month with our selected Q2 project, Fireplace, check out the updates below.
+
+The Call for Proposals for Q3 Projects at Clojurists Together is now open!
+
 ## [May 2019 Monthly Update](/news/may-2019-monthly-update/)
 
 Hi CT Community -
