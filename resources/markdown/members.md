@@ -79,11 +79,11 @@ Val Waeselynck, Juraj Martinka, Jean Niklas L'orange, Reid McKenzie, Nick Mudge,
 
 ### Developer Members
 
-Bruce Hauman, Johnny Eradus, Stephen Lester, Kazunori Kajihiro, Terje Sten Bjerkseth, Albrecht Schmidt, David Arenas, Allen Rohner, Tiago Luchini, Bahadir Cambel, Andrew Monks, John Newman, Magnar Sveen, Erik Assum, Zach Tellman, Lucas Cavalcanti dos Santos, Ronen Narkis, Alexander ter Weele, Yiu Ming Huynh, Nola Stowe, Phillips Wolr, Norman Richards, Radford Smith, Michael Glaesemann, Joshua Miller, Michael Alyn Miller, Otis Clark, Zane Shelby, Rolf Victor Bjelkholm lovgren Amar Mehta, Joshua Tilles, Karel Miarka, Matt Marks, Raphael Saunier, James Leonis, Andy Parsons.
+Bruce Hauman, Johnny Eradus, Stephen Lester, Kazunori Kajihiro, Terje Sten Bjerkseth, Albrecht Schmidt, David Arenas, Allen Rohner, Tiago Luchini, Bahadir Cambel, Andrew Monks, John Newman, Magnar Sveen, Erik Assum, Zach Tellman, Lucas Cavalcanti dos Santos, Ronen Narkis, Alexander ter Weele, Yiu Ming Huynh, Nola Stowe, Phillips Wolr, Norman Richards, Radford Smith, Michael Glaesemann, Joshua Miller, Michael Alyn Miller, Otis Clark, Zane Shelby, Rolf Victor Bjelkholm lovgren Amar Mehta, Joshua Tilles, Karel Miarka, Matt Marks, Raphael Saunier, James Leonis, Andy Parsons, Emin Hasanov.
 
 ### Founding Contributing Members ⭐️
 
-Ben Brinckerhoff, Alan Thompson, Martin Klepsch, Chris Kolodin, Liam Falconer, Médéric Hurier, Leon Mergen, Ikuru Kanuma, Ayato N, Tao Hansen, Boris Schmid, Paulo Feodrippe, Tony Wang, Nicolas Ha, Bastien Guerry, Palak Mathur, Veha Suwatphisankij, Shaun Williams, Shaun Mahood, Alex Shulgin, Yu Serizawa, Nick Cernis, Dávid Tóth, Jelle, Alex Dixon, Arnaud Bos, Avi Avicenna, Ohta Shogo, Imura Jun, 河野 明日旭, Emin Hasanov.
+Ben Brinckerhoff, Alan Thompson, Martin Klepsch, Chris Kolodin, Liam Falconer, Médéric Hurier, Leon Mergen, Ikuru Kanuma, Ayato N, Tao Hansen, Boris Schmid, Paulo Feodrippe, Tony Wang, Nicolas Ha, Bastien Guerry, Palak Mathur, Veha Suwatphisankij, Shaun Williams, Shaun Mahood, Alex Shulgin, Yu Serizawa, Nick Cernis, Dávid Tóth, Jelle, Alex Dixon, Arnaud Bos, Avi Avicenna, Ohta Shogo, Imura Jun, 河野 明日旭.
 
 ### Contributing Members
 
