@@ -1,11 +1,11 @@
 title: Q3 2019 Survey Results and Call for Proposals
 type: "post"
-draft: true
 
 Thanks so much for your support and feedback in the latest survey. We value your opinions and always take suggestions into account as we make changes from quarter to quarter.
 
-The call for proposals for new projects will close on Monday, July 15th, 2019 at 12am PST. 
+The call for proposals for new projects will close on Wednesday, July 17th, 2019 at 11:59pm PST.
 
+We are checking our funding levels to work out how many projects we will be able to fund this quarter. We plan to fund each project at $3,000 USD/month for 3 months ($9,000 USD total). We'll update this post when we have final figures on how many projects we can fund before we select the projects.
 
 ## Survey Responses
 
@@ -43,11 +43,17 @@ If you work on any of these kinds of projects, please look at applying for fundi
 
 shadow-cljs, Duct Framework, Core.typed, CIDER, Clojuredocs, clj-doc, Eastwood, Cloverage, buddy, clj-kondo, Reagent, re-frame, FIgwheel Main, Cursive, Leiningen, Calva, Chlorine, Sente, Nippy, Rum, core.async, incanter, clj-pdf
 
-
 If you're a maintainer of any of these projects, please consider applying.
 
 ### Have you seen any direct benefits from improvements to the projects we have funded?
 
+A sampling of comments:
+
+* "Not yet, but I've used both Aleph and Fireplace in the past, and I appreciate work going into them!"
+* "Yes I use Neanderthal and it is improving."
+* "No, because I don't use many of the funded projects, and those I do use (CIDER and clj-http) I was already pretty happy with. But, I give because if more people do that, the ecosystem can be a better place for everybody."
+* "Fireplace in particular is a core tool as a Vim clojurian, so 👍"
+* "Yes: we very recently adopted Kaocha at work and are liking that."
 
 ### How would you like us to allocate our funding?
 
@@ -66,8 +72,6 @@ Could do better:
 - Promotion for increasing members
 - Describe reasons for projects chosen
 - Refunding of old projects
-
-
 
 If you'd like to see more companies sponsor Clojurists Together, please reach out to them and encourage them to join.
 
