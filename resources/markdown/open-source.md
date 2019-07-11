@@ -59,7 +59,7 @@ No.
 
 A common question we get from people looking to apply is "How many hours do you expect me to work, and how much output do you expect?". Our answer is:
 
-We don’t have a set number of hours required to put into the project. Based on current sponsorship rates of USD 1,800/mo, something like 10 hours/month would be a bit light, but we also don’t expect you to do 60 hours/month either, so somewhere in between.
+We don’t have a set number of hours required to put into the project. Based on current sponsorship rates of USD 3,000/mo, something like 15 hours/month would be a bit light, but we also don’t expect you to do 80 hours/month either, so somewhere in between.
 
 However the raw number of hours is not so important as the results that you’re able to achieve in them. The most important thing to keep in mind is whether you think that in the time that you would be able to work on the project, you can achieve meaningful results.
 
@@ -67,7 +67,7 @@ One of the things Clojurists Together was designed to support is the work that i
 
 ## Funding amounts
 
-Successful projects are awarded a fellowship for three months. The number of projects funded in each cycle and the amount paid for each fellowship will vary depending on member support, and project requirements. Successful projects will know in advance of starting how much they will be paid. As Clojurists Together funds more projects and gets more experience, we will be able to give a clearer answer. For each quarter of the first year we have funded two projects $1,800 USD/mo for three months. In 2019, due to continued growth in members, we were able to increase this to $3,000 USD/mo for three months.
+Successful projects are awarded a fellowship for three months. The number of projects funded in each cycle and the amount paid for each fellowship will vary depending on member support, and project requirements. Successful projects will know in advance of starting how much they will be paid. For each quarter of 2018 we funded two projects $1,800 USD/mo for three months. In 2019, due to continued growth in members, we were able to fund two projects $3,000 USD/mo for three months.
 
 ## Considerations
 
