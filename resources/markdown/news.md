@@ -1,5 +1,9 @@
 Title: News
 
+## [Q3 2019 Survey Results](news/q3-2019-survey-results)
+
+We surveyed our members again and asked them what they wanted us to focus on. Our next funding round closes on Wednesday, July 17th, 2019 at 11:59pm PST.
+
 ## [June 2019 Monthly Update](/news/june-2019-monthly-update/)
 
 It's been a successful second month with our selected Q2 project, Fireplace, check out the updates below.
