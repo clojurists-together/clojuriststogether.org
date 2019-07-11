@@ -1,6 +1,6 @@
 Title: News
 
-## [Q3 2019 Survey Results](news/q3-2019-survey-results)
+## [Q3 2019 Survey Results](/news/q3-2019-survey-results)
 
 We surveyed our members again and asked them what they wanted us to focus on. Our next funding round closes on Wednesday, July 17th, 2019 at 11:59pm PST.
 
