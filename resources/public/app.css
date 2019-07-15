@@ -67,20 +67,46 @@ footer hr {
 
 .membership-tier {
     min-width: 300px;
-    width: 45%;
-    padding: 5px;
+    width: 100%;
+    padding: 20px 20px 25px;
+    background: whitesmoke;
+    border-radius: 7px;
+}
+
+.membership-tier h3 {
+    font-size: 36px;
+    margin: 0 0 15px;
+}
+
+.membership-tier p {
+    font-size: 16px;
+    max-width: 500px;
+}
+
+.membership-tier table {
+    border-spacing: 0px;
+}
+
+.membership-tier img {
+    display: block;
 }
 
 .become-a-member {
+    background-image: linear-gradient(to bottom, #5d325d, #380036);
     background-color: #380036;
     color: white;
     font-size: 16px;
+    font-weight: 700;
     display: inline-block;
-    padding: 10px 15px 9px 15px;
-    margin: 2px 0px;
+    padding: 12px 30px;
+    margin: 29px 0 0;
     border-radius: 6px;
+    cursor: pointer;
 }
 
+.become-a-member:hover{
+    background-image: linear-gradient(to bottom, #733e72, #481448);
+}
 header a {
     text-decoration: none;
 }
