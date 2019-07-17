@@ -1,8 +1,25 @@
 Title: Projects
-date: 
+date:
 type: "post"
 
 # Currently Funded Projects
+
+## Q2 2019
+
+<h3><a target="_blank" href="https://github.com/tpope/vim-fireplace">Fireplace.vim<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
+
+<p class="project-logo"><a target="_blank" href="https://github.com/tpope/vim-fireplace"><img src="/logos/projects/boot-logo.png" alt="Boot logo"></a></p>
+
+Fireplace is a vim plugin for Clojure. It adds REPL integration and was used by 10% of Clojure developers in the most recent Clojure survey. It is the most popular Clojure REPL integration for vim. Tim Pope is going to work on cleaning up the issue tracker, implementing support for Vim 8 and Neovim job support, looking at ClojureScript improvements, and various other fixes and improvements to fireplace.vim and sibling projects like [salve.vim](https://github.com/tpope/vim-salve)
+
+
+<h3><a target="_blank" href="https://boot-clj.com">Boot<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
+
+<p class="project-logo"><a target="_blank" href="https://boot-clj.com"><img src="/logos/projects/boot-logo.png" alt="Boot logo"></a></p>
+
+Boot is one of the main options for building and releasing Clojure and ClojureScript programs. Boot allows developers to create flexible build processes, as the build file is just Clojure code. Matthew Ratzke plans to release version 3 of Boot which contains major improvements to Boot, and will prepare the way for further planned improvements in version 4.
+
+# Previously Funded Projects
 
 ## Q1 2019
 
@@ -16,8 +33,6 @@ Neanderthal is a fast native-speed matrix and linear algebra library written in 
 Aleph is one the best options for creating high-performance communication systems in Clojure, including but not limited to HTTP & websocket clients & servers. It is based on Netty, a high performance network application framework. A partial list of projects/companies who rely on Aleph to be maintained can be found at ztellman/aleph#450.
 
 Development of Aleph also has an impact on the entire server-side libraries ecosystem, including direct influence by backporting bug fixes to such projects like clj-http (Clojure), Netty (Java) and potentially Ring (Clojure); and indirect influence by pushing boundaries and expending interest in the field.
-
-# Previously Funded Projects
 
 ## Q4 2018
 
@@ -65,7 +80,7 @@ CIDER is the most widely adopted Clojure development environment. In the most re
 <a target="_blank" href="https://clojurescript.org"> <img src="/logos/projects/cljs-logo.svg" alt="ClojureScript logo"/></a>
 </p>
 
-ClojureScript probably needs little introduction to most readers here. It is a dialect of Clojure that compiles to JavaScript to be able to target the browser, NodeJS, and the dozens of other platforms where JavaScript has a runtime. 83% of our members use ClojureScript in their work. We are funding Mike Fikes to continue his excellent work on the ClojureScript compiler. Mike is the number 2 or 3 [contributor](https://github.com/clojure/clojurescript/graphs/contributors) to ClojureScript (depending on how you count). 
+ClojureScript probably needs little introduction to most readers here. It is a dialect of Clojure that compiles to JavaScript to be able to target the browser, NodeJS, and the dozens of other platforms where JavaScript has a runtime. 83% of our members use ClojureScript in their work. We are funding Mike Fikes to continue his excellent work on the ClojureScript compiler. Mike is the number 2 or 3 [contributor](https://github.com/clojure/clojurescript/graphs/contributors) to ClojureScript (depending on how you count).
 
 ## Q1 2018
 
