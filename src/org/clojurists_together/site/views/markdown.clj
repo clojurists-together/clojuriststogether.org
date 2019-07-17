@@ -12,10 +12,12 @@
                         (md/md-to-html-string-with-meta
                           :inhibit-separator "%"
                           :heading-anchors true))]
-    (let [title (str/trim (first (:title (:metadata md))))]
+    (let [title (str/trim (first (:title (:metadata md))))
+          page-class (str/replace filename #".md$" "")]
       (common/template title
-                       [:main.markdown-page [:h1 title]
+                       [:main.markdown-page {:class page-class} [:h1.page-title title]
                         (hiccup.util/raw-string (:html md))]))))
+
 
 (defn routes []
   (compojure/routes

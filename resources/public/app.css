@@ -2,7 +2,7 @@ body {
     margin: 40px auto;
     max-width: 650px;
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 17px;
     color: #444;
     padding: 0 10px;
     font-family: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", sans-serif;
@@ -15,38 +15,36 @@ body {
 }
 
 h1, h2, h3 {
-    line-height: 1.2
+    line-height: 1.2;
 }
 
-header ul {
+a {
+    font-weight: 500;
+    color: #292966;
+}
+
+a:hover {
+    /*opacity: 0.8;*/
+    text-decoration: underline;
+}
+
+header ul, footer ul {
     padding: 0px;
 }
 
-header ul li {
+header ul li, footer ul li {
     display: inline;
 }
 
-header ul li a {
-    padding: 4px;
-}
-
-footer ul {
-    padding: 0px;
-}
-
-footer ul li {
-    display: inline;
-}
-
-footer ul li a {
-    padding: 4px;
+header ul li a, footer ul li a  {
+    padding: 0 8px;
 }
 
 footer hr {
     border: 0;
     height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    background: #e6e6e6;
+    margin-bottom: 35px;
 }
 
 .homepage-cta {
@@ -79,7 +77,6 @@ footer hr {
 }
 
 .membership-tier p {
-    font-size: 16px;
     max-width: 500px;
 }
 
@@ -107,7 +104,8 @@ footer hr {
 .become-a-member:hover{
     background-image: linear-gradient(to bottom, #733e72, #481448);
 }
-header a {
+
+header a, footer a {
     text-decoration: none;
 }
 
@@ -130,8 +128,55 @@ header a {
     max-width: 300px;
 }
 
-.project-logo {
+.markdown-page {
+    /*font-size: 16px;*/
+}
+
+.projects .page-title{
+    display:none;
+}
+
+.projects h1, h2, h3{
+    margin-top: 65px;
+}
+
+.projects p{
+    max-width: 530px;
+}
+
+.projects h2 {
+    border-bottom: 1px solid #e6e6e6
+}
+
+.projects h3>a {
+    text-decoration:none;
+    color: #292966;
+    font-weight: 700
+}
+
+.projects h3>a:hover {
+    text-decoration:underline;
+   /* border-bottom: 1px solid #292966 */
+}
+
+.open-in-new{
+    vertical-align: baseline;
+    opacity: 0.5;
+    width: 18px;
+    height: 18px;
+    margin-bottom: -2px;
+    padding-left: 5px;
+}
+
+p.project-logo{
+    text-align: center;
+}
+
+p.project-logo img {
     max-width: 300px;
+    height: 120px;
+    margin: 0 auto;
+    margin-left: -35px;
 }
 
 main.markdown-page img {
