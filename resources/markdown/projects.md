@@ -8,8 +8,6 @@ type: "post"
 
 <h3><a target="_blank" href="https://github.com/tpope/vim-fireplace">Fireplace.vim<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
 
-<p class="project-logo"><a target="_blank" href="https://github.com/tpope/vim-fireplace"><img src="/logos/projects/boot-logo.png" alt="Boot logo"></a></p>
-
 Fireplace is a vim plugin for Clojure. It adds REPL integration and was used by 10% of Clojure developers in the most recent Clojure survey. It is the most popular Clojure REPL integration for vim. Tim Pope is going to work on cleaning up the issue tracker, implementing support for Vim 8 and Neovim job support, looking at ClojureScript improvements, and various other fixes and improvements to fireplace.vim and sibling projects like [salve.vim](https://github.com/tpope/vim-salve)
 
 
