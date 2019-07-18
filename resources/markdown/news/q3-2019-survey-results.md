@@ -5,7 +5,9 @@ Thanks so much for your support and feedback in the latest survey. We value your
 
 The [call for proposals](/open-source/) for new projects will close on Wednesday, July 17th, 2019 at 11:59pm PST.
 
-We are checking our funding levels to work out how many projects we will be able to fund this quarter. We plan to fund each project at $3,000 USD/month for 3 months ($9,000 USD total). We'll update this post when we have final figures on how many projects we can fund before we select the projects.
+We are checking our funding levels to work out how many projects we will be able to fund this quarter. We plan to fund each project at $3,000 USD/month for 3 months ($9,000 USD total). ~We'll update this post when we have final figures on how many projects we can fund before we select the projects.~
+
+We'll be funding four projects this quarter due to having extra cash built up that we hadn't previously spent. We will be funding each project for $9,000 over three months.
 
 ## Survey Responses
 
