@@ -1,8 +1,8 @@
-Title: Other Projects you can fund
+Title: Beyond Clojurists Together
 
-There are many Clojure projects and individuals that you can fund directly.
+Are you already a Clojurists Together member and want to know what more you can do? Do you want to support open source projects more directly than donating to Clojurists Together? Whatever the reason, there are many Clojure projects and Clojurists that you can fund directly.
 
-Note: Clojurists Together doesn't control the content of these links.
+If you know of other people or projects we should add to this page, please make a pull request against [on GitHub](https://github.com/clojurists-together/clojuriststogether.org/blob/master/resources/markdown/other-projects.md) to let us know.
 
 - [CIDER](https://cider.mx), Bozhidar Batsov - [GitHub Sponsors](https://github.com/users/bbatsov/sponsorship), [Patreon](https://www.patreon.com/bbatsov), [Open Collective](https://opencollective.com/cider), [PayPal](https://www.paypal.me/bbatsov)
 - [Figwheel](https://figwheel.org), Bruce Hauman - [PayPal](https://figwheel.org/#support-work-on-figwheel-and-other-clojure-tools)
@@ -18,4 +18,4 @@ Note: Clojurists Together doesn't control the content of these links.
 - Boot - [Open Collective](https://opencollective.com/boot-clj)
 - Lumo, Andrea Richiardi and Antonio Monteiro - [Open Collective](https://opencollective.com/lumo)
 
-If you want to add to this page, you can make a pull request against [this page on GitHub](https://github.com/clojurists-together/clojuriststogether.org/blob/master/resources/markdown/other-projects.md).
+Note: Clojurists Together is not responsible for the content of these links or how any donations are used.

@@ -28,6 +28,7 @@
     (GET "/docs/paypal-update/" [] (markdown-view "docs/paypal-update.md"))
     (GET "/members/" [] (markdown-view "members.md"))
     (GET "/open-source/" [] (markdown-view "open-source.md"))
+    (GET "/beyond/" [] (markdown-view "beyond.md"))
     (GET "/projects/" [] (markdown-view "projects.md"))
     (GET "/jobs/" [] (markdown-view "jobs.md"))
     (GET "/team/" [] (markdown-view "team.md"))
