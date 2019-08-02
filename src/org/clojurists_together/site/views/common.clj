@@ -54,6 +54,7 @@
       [:li [:a {:href "/projects/"} "Projects"]]
       [:li [:a {:href "/jobs/"} "Jobs"]]
       [:li [:a {:href "/transparency/"} "Transparency"]]
+      [:li [:a {:href "/other-projects/"} "Other Projects"]]
       [:li [:a {:href "/faq/"} "FAQ"]]
       [:li [:a {:href "/team/"} "Team"]]
       [:li [:a {:href "/contact/"} "Contact"]]
