@@ -2,12 +2,13 @@ Title: Beyond Clojurists Together
 
 Are you already a Clojurists Together member and want to know what more you can do? Do you want to support open source projects more directly than donating to Clojurists Together? Whatever the reason, there are many Clojure projects and Clojurists that you can fund directly.
 
-If you know of other people or projects we should add to this page, please make a pull request against [on GitHub](https://github.com/clojurists-together/clojuriststogether.org/blob/master/resources/markdown/other-projects.md) to let us know.
+If you know of other people or projects we should add to this page, please make a pull request against [on GitHub](https://github.com/clojurists-together/clojuriststogether.org/blob/master/resources/markdown/beyond.md) to let us know.
 
 - [CIDER](https://cider.mx), Bozhidar Batsov - [GitHub Sponsors](https://github.com/users/bbatsov/sponsorship), [Patreon](https://www.patreon.com/bbatsov), [Open Collective](https://opencollective.com/cider), [PayPal](https://www.paypal.me/bbatsov)
 - [Figwheel](https://figwheel.org), Bruce Hauman - [PayPal](https://figwheel.org/#support-work-on-figwheel-and-other-clojure-tools)
 - [Neanderthal](https://neanderthal.uncomplicate.org), Dragan Djuric - [Patreon](https://www.patreon.com/draganrocks)
 - DataScript, Nikita Prokopov - [Patreon](https://www.patreon.com/tonsky)
+- shadow-cljs, Thomas Heller - [Patreon](https://www.patreon.com/thheller)
 - Typed Clojure, Ambrose Bonnaire-Sergeant - [Patreon](https://www.patreon.com/ambrosebs)
 - Luminus, Dmitri Sotnikov - [Patreon](https://www.patreon.com/yogthos)
 - Fulcro, Tony Kay - [Patreon](https://www.patreon.com/fulcro)
