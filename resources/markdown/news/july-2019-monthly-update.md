@@ -1,11 +1,21 @@
 title: July 2019 Monthly Update
-date: 08/06/2019
+date: 2019-08-06
 type: post
 draft: true
 
-## Clojurists Together 
+## Clojurists Together
 
 Hi CT Community -
+
+Daniel has just come back from Belgium to speak at Heart of Clojure about building stable foundations. The talk was recorded and will be coming out sometime in the future. We met lots of Clojurists Together supporters at the conference and had a stand there to talk about the great work that the projects we have funded are doing.
+
+![Heart of Clojure talk](/images/july-2019/hoc-projects.jpg)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Daniel&#39;s favourite slide :) Developer members of Clojurists Together <a href="https://twitter.com/hashtag/heartofclojure?src=hash&amp;ref_src=twsrc%5Etfw">#heartofclojure</a> <a href="https://t.co/6qNgPtwivT">pic.twitter.com/6qNgPtwivT</a></p>&mdash; Kimmo Koskinen (@KimmoKoskinen) <a href="https://twitter.com/KimmoKoskinen/status/1157577433790451712?ref_src=twsrc%5Etfw">August 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+(Daniel also had slides thanking our company members but we didn't get any photos of them. If you have any, let us know!)
+
+You'll notice that the Clojurists Together has started to get a fresher look. We've been very fortunate to receive some design assistance from [@paintparty](https://github.com/paintparty) to improve the visual design and information architecture of the site. Thanks!
 
 Fireplace has completed a wonderful quarter with Clojurists Together and we are grateful for the opportunity to support Tim's continued work.
 
@@ -15,6 +25,10 @@ Just a reminder that Daniel is speaking about Clojurists Together again soon. Ca
 <br /> September 12-14 in St. Louis, Missouri, USA
 
 Thanks for your continued support of Clojurists Together.
+
+### Boot update
+
+Keen observers of Clojurists Together may remember that we also funded Matthew Ratzke to work on version 3 and 4 of Boot. However other things came up and Matthew wasn't able to work on Boot during this quarter. We cancelled this grant with no money paid out, but would love to support Boot sometime again in the future.
 
 ### Fireplace update
 
