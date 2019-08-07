@@ -1,5 +1,13 @@
 Title: News
 
+## [Q3 2019 Funding Announcement](/news/q3-2019-funding-announcement/)
+
+Clojurists Together is happy to announce that for Q3 of 2019 (August-October) we are funding four projects: Shadow CLJS with Thomas Heller, Meander with Joel Holdbrooks, Calva with Peter Strömberg, and CIDER with Bozhidar Batsov.
+
+## [July 2019 Monthly Update](/news/july-2019-monthly-update/)
+
+Daniel has just come back from Belgium to speak at Heart of Clojure about building stable foundations. The talk was recorded and will be coming out sometime in the future. We met lots of Clojurists Together supporters at the conference and had a stand there to talk about the work we are able to fund thanks to our members.
+
 ## [Q3 2019 Survey Results](/news/q3-2019-survey-results)
 
 We surveyed our members again and asked them what they wanted us to focus on. Our next funding round closes on Wednesday, July 17th, 2019 at 11:59pm PST.
