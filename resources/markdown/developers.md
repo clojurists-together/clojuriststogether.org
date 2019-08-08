@@ -4,8 +4,7 @@ Title: Developer Membership
 Stop relying on private forks of projects to get critical bugs fixed. Clojurists Together funds projects to work on the tools, libraries, and documentation that you use every day.
 
 Community support from developers like you helps us improve the Clojure experience for everyone.
-
-<h1>Become a member</h1>
+<p></p>
 <section class="membership-tiers">
 <p>All memberships can be paid monthly or annually.</p>
 
@@ -37,8 +36,6 @@ Vote on board members, get progress updates, influence which projects are select
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 <button class="become-a-member">Become a Contributing Member!</button>
 </form>
-
-
 </section>
 
 <section class="membership-tier">
@@ -63,10 +60,7 @@ Vote on board members, get progress updates, influence which projects are select
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 <button class="become-a-member">Become a Developer Member!</button>
 </form>
-
-
 </section>
-
 </section>
 
 ## Free memberships

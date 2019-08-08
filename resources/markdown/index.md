@@ -20,12 +20,12 @@ Open source maintainers apply for funding, and if accepted, get paid to work on 
 Companies and individual developers can sign up for a Clojurists Together membership. This supports Clojurists Together with a monthly donation. Your membership entitles you to certain benefits, including steering which projects get funded.
 
 <aside>Clojurists Together (via Clojars) is a member project of the <a href="https://sfconservancy.org">Software Freedom Conservancy</a> and is able to take 501(c)3 donations.</aside>
-  
+
 <p class="homepage-cta">
 <a class="become-a-member" href="/companies">Company Signup</a>
 <a class="become-a-member" href="/developers">Developer Signup</a>
 </p>
-  
+
 ### Transparency
 
 Clojurists Together provides full transparency for how your money is spent:

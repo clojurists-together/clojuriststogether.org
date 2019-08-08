@@ -14,7 +14,5 @@
      (common-views/common-head)]
     [:body
      (common-views/header)
-
-     (util/raw-string (md/md-to-html-string (slurp (io/resource "markdown/index.md"))))
-
+     [:main.col (util/raw-string (md/md-to-html-string (slurp (io/resource "markdown/index.md"))))]
      (common-views/common-footer)]))

@@ -4,41 +4,47 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 
 ### Transduce Members ($1000/mo):
 
-#### [Pitch](https://pitch.com)
+<section class="membership-card">
+<h4 class="member founding"><a href="https://pitch.com" target="_blank">Pitch</a></h4>
+<a href="https://pitch.com"><img class="member-logo large" src="/logos/pitch.svg"></a>
+<p>Pitch is building the next generation presentation software for individuals and teams.
+</p>
+</section>
 
-<a href="https://pitch.com"><img class="member-logo" src="/logos/pitch.svg"></a>
+<section class="membership-card">
+<h4 class="member founding"><a href="https://nubank.com.br" target="_blank">Nubank</a></h4>
+<a href="https://nubank.com.br"><img class="member-logo large" src="/logos/nubank.png"></a>
+<p>Nubank is the leading financial technology company in Latin America.</p>
+</section>
 
-Pitch is building the next generation presentation software for individuals and teams.
+### Filter Members ($500/mo):
 
-#### [Nubank](https://nubank.com.br)
-
-<a href="https://nubank.com.br"><img class="member-logo" src="/logos/nubank.png"</a>
-
-### Filter Members (\$500/mo):
-
-#### [JUXT](https://juxt.pro) ⭐
-
+<section class="membership-card">
+<h4 class="member founding"><a href="https://juxt.pro" target="_blank">JUXT</a></h4>
 <a href="https://juxt.pro"><img class="member-logo" src="/logos/juxt.svg"></a>
+<p>JUXT delivers secure and compliant bespoke software applications and platforms: from the world's busiest websites to complex financial systems.</p>
+</section>
 
-JUXT delivers secure and compliant bespoke software applications and platforms: from the world's busiest websites to complex financial systems.
 
-#### [Metosin](https://www.metosin.fi) ⭐️
-
+<section class="membership-card">
+<h4 class="member founding"><a href="https://www.metosin.fi" target="_blank">Metosin</a></h4>
 <a href="https://www.metosin.fi"><img class="member-logo" src="/logos/metosin.svg"></a>
+<p>Metosin is the first Finnish software house specializing in Clojure. We arrange annually the biggest North-European Clojure conference called [ClojuTRE](https://www.metosin.fi/en/metosin/#events).</p>
+</section>
 
-Metosin is the first Finnish software house specializing in Clojure. We arrange annually the biggest North-European Clojure conference called [ClojuTRE](https://www.metosin.fi/en/metosin/#events).
 
-#### [AdGoji](http://www.adgoji.com)
-
+<section class="membership-card">
+<h4 class="member founding"><a href="https://www.adgoji.com" target="_blank">AdGoji</a></h4>
 <a href="https://www.adgoji.com"><img class="member-logo" src="/logos/adgoji_logo.svg"></a>
+<p>Adgoji is a media agency. We have built a Clojure based real-time bidding platform that buys targeted mobile advertising space from the largest market places in the world.</p>
+</section>
 
-Adgoji is a media agency. We have built a Clojure based real-time bidding platform that buys targeted mobile advertising space from the largest market places in the world.
 
-#### [Funding Circle](https://www.fundingcircle.com/)
-
-<a href="https://www.fundingcircle.com/"><img class="member-logo" src="/logos/funding-circle.svg"></a>
-
-Funding Circle connects small businesses who want to borrow with investors who want to lend in the UK, US, Germany and the Netherlands. We use Clojure to build our platform.
+<section class="membership-card">
+<h4 class="member founding"><a href="https://www.fundingcircle.com" target="_blank">Funding Circle</a></h4>
+<a href="https://www.fundingcircle.com"><img class="member-logo" src="/logos/funding-circle.svg"></a>
+<p>Funding Circle connects small businesses who want to borrow with investors who want to lend in the UK, US, Germany and the Netherlands. We use Clojure to build our platform.</p>
+</section>
 
 ### Into Members ($200/mo):
 

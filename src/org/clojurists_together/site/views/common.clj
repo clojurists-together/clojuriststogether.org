@@ -23,10 +23,11 @@
 
 (defn header []
   [:header
-   [:a {:href "/"}
-    [:img.header-logo {:src "/header-logo.png"}]
-    #_[:h1.logo "Clojurists Together"]]
-   (add-spaces
+   [:section.col
+    [:a {:href "/"}
+     [:div.header-logo]
+     #_[:h1.logo "Clojurists Together"]]
+    (add-spaces
      [:ul
       [:li [:a {:href "/open-source/"} "OSS Projects"]]
       [:li [:a {:href "/companies/"} "Companies"]]
@@ -34,18 +35,18 @@
       [:li [:a {:href "/members/"} "Members"]]
       [:li [:a {:href "/news/"} "News"]]
       [:li [:a {:href "/projects/"} "Projects"]]
-      [:li [:a {:href "/jobs/"} "Jobs"]]])])
+      [:li [:a {:href "/jobs/"} "Jobs"]]])]])
 
 (defn common-footer []
   [:footer
-   [:hr]
-   [:div {:style "margin: 0 auto; max-width: 1200px;"}
+   [:section.sfc.col
     [:a {:href "https://sfconservancy.org/supporter"}
      [:img {:style "width: 100%;"
             :src   "https://sfconservancy.org/img/banners/2018-project.jpg"
             :alt   "Conservancy helps make our work possible. Please donate to them today to support community-driven free software projects!"}]]]
-   (add-spaces
-     [:ul
+   [:section.links
+    (add-spaces
+     [:ul.col
       [:li [:a {:href "/open-source/"} "Open Source Projects"]]
       [:li [:a {:href "/companies/"} "Companies"]]
       [:li [:a {:href "/developers/"} "Developers"]]
@@ -58,8 +59,7 @@
       [:li [:a {:href "/faq/"} "FAQ"]]
       [:li [:a {:href "/team/"} "Team"]]
       [:li [:a {:href "/contact/"} "Contact"]]
-      [:li [:a {:href "https://github.com/clojurists-together/clojuriststogether.org"} "Source"]]
-      ])])
+      [:li [:a {:href "https://github.com/clojurists-together/clojuriststogether.org"} "Source"]]])]])
 
 
 

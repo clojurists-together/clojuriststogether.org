@@ -15,7 +15,7 @@
     (let [title (str/trim (first (:title (:metadata md))))
           page-class (str/replace filename #".md$" "")]
       (common/template title
-                       [:main.markdown-page {:class page-class} [:h1.page-title title]
+                       [:main.col.markdown-page {:class page-class} [:h1.page-title title]
                         (hiccup.util/raw-string (:html md))]))))
 
 
