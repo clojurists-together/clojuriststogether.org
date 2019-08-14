@@ -42,12 +42,7 @@ VS Code is the editor of choice for many developers and having good Clojure and 
 
 Fireplace is a vim plugin for Clojure. It adds REPL integration and was used by 10% of Clojure developers in the most recent Clojure survey. It is the most popular Clojure REPL integration for vim. Tim Pope is going to work on cleaning up the issue tracker, implementing support for Vim 8 and Neovim job support, looking at ClojureScript improvements, and various other fixes and improvements to fireplace.vim and sibling projects like [salve.vim](https://github.com/tpope/vim-salve)
 
-
-<h3><a target="_blank" href="https://boot-clj.com">Boot<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
-
-<p class="project-logo"><a target="_blank" href="https://boot-clj.com"><img src="/logos/projects/boot-logo.png" alt="Boot logo"></a></p>
-
-Boot is one of the main options for building and releasing Clojure and ClojureScript programs. Boot allows developers to create flexible build processes, as the build file is just Clojure code. Matthew Ratzke plans to release version 3 of Boot which contains major improvements to Boot, and will prepare the way for further planned improvements in version 4.
+# Previously Funded Projects
 
 ## Q1 2019
 
