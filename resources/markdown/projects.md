@@ -4,6 +4,30 @@ type: "post"
 
 # Currently Funded Projects
 
+## Q3 2019
+
+<h3><a target="_blank" href="https://github.com/clojure-emacs/cider">CIDER<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
+
+<p class="project-logo">
+<a target="_blank" href="https://github.com/clojure-emacs/cider"><img src="/logos/projects/cider-logo.svg" alt="Cider logo"/></a>
+</p>
+
+CIDER is a very popular programming environment and it's infrastructure (nREPL, cider-nrepl, piggieback and orchard) powers many of the other tools out there (e.g. vim-fireplace, vim-iced, calva, etc). Improvements to CIDER and it's foundational pieces generally benefits most of the Clojure community. It is maintained by Bozhidar Batsov.
+
+<h3><a target="_blank" href="http://shadow-cljs.org">Shadow Cljs<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
+
+Shadow-cljs is a fully featured CLJS build tool with seamless integration into the npm ecosystem. It is maintained by Thomas Heller.
+
+<h3><a target="_blank" href="https://github.com/noprompt/meander">Meander<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
+
+Meander provides a uniquely transparent way of performing data manipulation that aims to be declarative, performant, and safe. These properties are important because they enable Clojure developers to write correct data manipulation code using a common language which encourages collaboration and thoughtful design without sacrificing dynamism. And because Meander has been designed with both transparency and accuracy in mind, Clojure code written with it can be an asset to a development team and, thus, a business. It is maintained by Joel Holdbrooks.
+
+<h3><a target="_blank" href="https://github.com/BetterThanTomorrow/calva">Calva<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
+
+VS Code is the editor of choice for many developers and having good Clojure and ClojureScript support on the platform helps newcomers find the joy of Clojure faster. VS Code also is easier to use than many other development environments, and by leveraging this, Calva can make Clojure more accessible generally. It is maintained by Peter Strömberg.
+
+# Previously Funded Projects
+
 ## Q2 2019
 
 <h3><a target="_blank" href="https://github.com/tpope/vim-fireplace">Fireplace.vim<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
@@ -16,8 +40,6 @@ Fireplace is a vim plugin for Clojure. It adds REPL integration and was used by 
 <p class="project-logo"><a target="_blank" href="https://boot-clj.com"><img src="/logos/projects/boot-logo.png" alt="Boot logo"></a></p>
 
 Boot is one of the main options for building and releasing Clojure and ClojureScript programs. Boot allows developers to create flexible build processes, as the build file is just Clojure code. Matthew Ratzke plans to release version 3 of Boot which contains major improvements to Boot, and will prepare the way for further planned improvements in version 4.
-
-# Previously Funded Projects
 
 ## Q1 2019
 
