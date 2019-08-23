@@ -34,4 +34,3 @@ Clojurists Together provides full transparency for how your money is spent:
 * Open committee, members able to vote on committee members in annual elections
 * Open project selection criteria
 * Monthly updates posted showing how money was spent
-

@@ -39,29 +39,36 @@
 
 (defn common-footer []
   [:footer
-   [:section.sfc.col
-    [:a {:href "https://sfconservancy.org/supporter"}
-     [:img {:style "width: 100%;"
-            :src   "https://sfconservancy.org/img/banners/2018-project.jpg"
-            :alt   "Conservancy helps make our work possible. Please donate to them today to support community-driven free software projects!"}]]]
-   [:section.links
-    (add-spaces
-     [:ul.col
-      [:li [:a {:href "/open-source/"} "Open Source Projects"]]
-      [:li [:a {:href "/companies/"} "Companies"]]
-      [:li [:a {:href "/developers/"} "Developers"]]
-      [:li [:a {:href "/members/"} "Members"]]
-      [:li [:a {:href "/news/"} "News"]]
-      [:li [:a {:href "/projects/"} "Projects"]]
-      [:li [:a {:href "/jobs/"} "Jobs"]]
-      [:li [:a {:href "/transparency/"} "Transparency"]]
-      [:li [:a {:href "/beyond/"} "Beyond Clojurists Together"]]
-      [:li [:a {:href "/faq/"} "FAQ"]]
-      [:li [:a {:href "/team/"} "Team"]]
-      [:li [:a {:href "/contact/"} "Contact"]]
-      [:li [:a {:href "https://github.com/clojurists-together/clojuriststogether.org"} "Source"]]])]])
-
-
+   [:div.col
+    [:section.links
+      (add-spaces
+       [:ul
+        [:li [:a {:href "/open-source/"} "Open Source Projects"]]
+        [:li [:a {:href "/companies/"} "Companies"]]
+        [:li [:a {:href "/developers/"} "Developers"]]
+        [:li [:a {:href "/members/"} "Members"]]
+        [:li [:a {:href "/news/"} "News"]]
+        [:li [:a {:href "/projects/"} "Projects"]]
+        [:li [:a {:href "/jobs/"} "Jobs"]]
+        [:li [:a {:href "/transparency/"} "Transparency"]]
+        [:li [:a {:href "/beyond/"} "Beyond Clojurists Together"]]
+        [:li [:a {:href "/faq/"} "FAQ"]]
+        [:li [:a {:href "/team/"} "Team"]]
+        [:li [:a {:href "/contact/"} "Contact"]]
+        [:li [:a {:href "https://github.com/clojurists-together/clojuriststogether.org"} "Source"]]])]
+   [:section.sfc-banner
+    [:section.sfc-logo
+     [:img {:src "/logos/sfc-white.svg"
+            :alt "software freedom conservancy logo"}]]
+    [:section.sfc-copy
+     [:p "Conservancy helps make our work possible."]
+     [:p "Please donate to them to support" [:br] "community-driven free software projects."]]
+    [:section.sfc-donate
+     [:a {:href "https://sfconservancy.org/supporter" :target "_blank"} "Donate"]]]
+   [:section.copyright
+    (str "©"
+         (.format (java.text.SimpleDateFormat. "yyyy") (new java.util.Date))
+         " Clojurists Together.")]]])
 
 (defn template [title & body]
   (html5 {:lang "en"}

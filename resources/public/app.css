@@ -34,12 +34,8 @@ main a:hover {
     max-width: 650px;
 }
 
-header, footer section.links {
+header, footer {
     background-color: #292966;
-}
-
-footer section.links {
-    padding: 10px 20px 50px;
 }
 
 header section {
@@ -55,15 +51,7 @@ header section {
     background-size: 50%;
 }
 
-@media screen and (max-width: 500px) {
-    .header-logo {
-        height: 200px;
-        background-position: center 50%;
-        background-size: 80%;
-    }
-}
-
-header ul, footer ul.col {
+header ul, footer ul {
     margin: 0 auto;
     padding: 20px 0;
 }
@@ -76,7 +64,7 @@ header ul li, footer ul li {
 header ul li, footer ul li {
     display: inline;
     padding: 3px 0;
-    line-height: 36px;
+    line-height: 30px;
 }
 
 header ul li a, footer ul li a {
@@ -85,24 +73,17 @@ header ul li a, footer ul li a {
     font-size: 14px;
 }
 
-@media screen and (min-width: 700px) {
-    header ul {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    header ul li a {
-        padding: 0 0;
-    }
+footer>div.col>section {
+    min-height: 117px;
 }
 
-@media screen and (max-width: 700px) {
-    footer ul li {
-        display: block;
-    }
-    footer ul li a {
-        padding: 0;
-    }
+footer>div.col>section.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer>div.col>section.links ul {
+    padding: 0;
 }
 
 .homepage-cta {
@@ -175,7 +156,43 @@ header ul li a, footer ul li a {
     max-width: 65%;
 }
 
-.become-a-member {
+header a, footer a {
+    text-decoration: none;
+}
+
+.logo {
+    background-color: #380036;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.member-logo {
+    max-width: 300px;
+}
+
+h1, h2{
+    margin-top: 45px;
+}
+
+h3{
+    margin-top: 40px;
+}
+
+.projects h2, .projects h3{
+    margin-top: 60px;
+}
+
+.projects p{
+    max-width: 530px;
+}
+
+.sfc-logo {
+    flex: 1 0 133px;
+}
+
+.become-a-member, .sfc-donate a {
     text-decoration: none;
     border: 2px solid transparent;
     border-radius: 28px;
@@ -191,12 +208,67 @@ header ul li a, footer ul li a {
 }
 
 .become-a-member:hover,
-.become-a-member:active{
+.become-a-member:active {
     color: white;
     background: white;
     color: #292966;
     border: 2px solid #292966;
     text-decoration: none;
+}
+
+.sfc-donate a {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 8px 27px;
+    font-size: 14px;
+    margin: 0;
+}
+
+.sfc-donate a:hover,
+.sfc-donate a:active {
+    background: white;
+    color: #292966;
+    opacity: 1;
+}
+
+.sfc-banner {
+    background-color: #292966;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 17px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.sfc-banner p {
+    margin:0;
+}
+
+.sfc-banner p:first-child {
+    margin-bottom: 15px;
+}
+
+.sfc-banner section.sfc-donate {
+    padding-left: 44px
+}
+
+.sfc-banner section.sfc-logo {
+    flex: 0 0 133px;
+    display: flex;
+}
+
+.sfc-banner section.sfc-logo img {
+    max-height: 78px;
+}
+
+.copyright {
+    font-size: 12px;
+    color: white;
+    padding-top: 30px;
 }
 
 header a, footer a {
@@ -286,4 +358,54 @@ main, main.col {
 
 main.markdown-page img {
     max-width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .header-logo {
+        height: 200px;
+        background-position: center 50%;
+        background-size: 80%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    header ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    header ul li a {
+        padding: 0 0;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    footer ul {
+        margin: 25px 0;
+    }
+
+    footer ul li {
+        display: block;
+    }
+
+    footer ul li a {
+        padding: 0;
+    }
+
+    .sfc-banner {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .sfc-banner section.sfc-donate {
+        padding: 0;
+        order: 2
+    }
+
+    .sfc-banner section.sfc-copy {
+        padding-top: 30px;
+        order: 3;
+        flex: 1 0 700px;
+    }
 }
