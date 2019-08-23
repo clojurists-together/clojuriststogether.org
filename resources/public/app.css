@@ -273,7 +273,7 @@ p.project-logo{
     text-align: center;
 }
 
-p.project-logo img {
+main.markdown-page p.project-logo img {
     max-width: 300px;
     height: 120px;
     margin: 0 auto;

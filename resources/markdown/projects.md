@@ -29,7 +29,7 @@ Meander provides a uniquely transparent way of performing data manipulation that
 <h3 class="project"><a target="_blank" href="https://github.com/BetterThanTomorrow/calva">Calva<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
 
 <p class="project-logo">
-<a target="_blank" href="https://github.com/BetterThanTomorrow/calva"><img src="/logos/projects/calva-64h.png" alt="calva logo"/></a>
+<a target="_blank" href="https://github.com/BetterThanTomorrow/calva"><img src="/logos/projects/calva.svg" alt="calva logo"/></a>
 </p>
 
 VS Code is the editor of choice for many developers and having good Clojure and ClojureScript support on the platform helps newcomers find the joy of Clojure faster. VS Code also is easier to use than many other development environments, and by leveraging this, Calva can make Clojure more accessible generally. It is maintained by Peter Strömberg.
