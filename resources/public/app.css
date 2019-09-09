@@ -475,6 +475,6 @@ main.markdown-page img {
     .sfc-banner section.sfc-copy {
         padding-top: 30px;
         order: 3;
-        flex: 1 0 700px;
+        flex: 1 0 100%;
     }
 }
