@@ -112,6 +112,14 @@ footer>div.col>section.links ul {
     margin-top: 50px;
 }
 
+.member-lists .membership-card {
+    padding: 40px 25px;
+}
+
+.membership-card {
+    margin-top: 0px
+}
+
 .membership-tier h3 {
     font-size: 36px;
     margin: 0 0 15px;
@@ -131,6 +139,7 @@ footer>div.col>section.links ul {
 
 .membership-card h4 {
     margin: 0;
+    text-align: center;
 }
 
 .membership-card h4 a {
@@ -152,8 +161,56 @@ footer>div.col>section.links ul {
     max-width: 85%;
 }
 
-.membership-card .member-logo{
+.member-category {
+    padding-top: 70px;
+}
+
+.member-category.company .membership-card {
+    margin-bottom: 40px;
+}
+
+.membership-card .member-logo {
     max-width: 65%;
+}
+
+.members h2 {
+   margin-top: 0;
+   margin-bottom: 11px;
+   line-height: 29px;
+}
+
+.members h2 span {
+   font-size: 16px;
+}
+
+.members h2, .member-lists ul {
+   text-align:center
+}
+
+.member-lists ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.member-lists ul li a {
+    text-decoration: none;
+}
+
+.member-lists ul li a:hover {
+    text-decoration: underline;
+}
+
+.into-member ul li {
+    font-size: 24px
+}
+
+.cons-member ul li {
+    font-size: 22px
+}
+
+.assoc-member ul li {
+    font-size: 20px
 }
 
 header a, footer a {
@@ -303,7 +360,7 @@ h3{
     max-width: 530px;
 }
 
-.projects h3, .members h3 {
+.projects h3 {
     border-bottom: 1px solid #e6e6e6
 }
 
@@ -312,9 +369,21 @@ h3{
     padding: 60px 0 0;
 }
 
-h4.member.founding:after {
+.member.founding {
+   padding-left: 20px;
+}
+
+.member.founding:after {
    padding-left:5px;
    content: "⭐"
+}
+
+.developer ul li, .contributing ul li {
+   display: inline-block;
+   width: 50%;
+}
+.founding-developer ul li {
+   width: 100%;
 }
 
 .projects h3.project {
