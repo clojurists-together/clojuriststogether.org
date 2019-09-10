@@ -71,7 +71,7 @@ For substitution, code generation has also been improved as Meander is employing
 
 Theme: _Project Maintanbility_
 
-This has many aspects, including: _Cooperation with other tool smiths. Code factoring. User documentation. Ease of use._
+This has many aspects, including: _Cooperation with other tool smiths, Code factoring, User documentation, and Ease of use._
 
 ### Orchard task force
 Since CIDER and Calva are sharing a lot of the tooling, we have been trying to figure out how to pool our efforts into [The Orchard](https://metaredux.com/posts/2018/11/09/ciders-orchard-the-heart.html). Bozhidar Batsov has formed a task force with people building libraries and tools for, and/or using, Orchard related things. Kevin and I have joined from the Calva team and we now try to apply an **Orchard first** mindset when designing how to add certain features.
