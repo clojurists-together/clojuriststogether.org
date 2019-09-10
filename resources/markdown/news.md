@@ -1,6 +1,6 @@
 Title: News
 
-## [August 2019 Monthly Update](/news/august-monthly-update/)
+## [August 2019 Monthly Update](/news/august-2019-monthly-update/)
 
 August was our first month with this new round of projects, check out their monthly update!
 
