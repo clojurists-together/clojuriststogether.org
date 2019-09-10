@@ -67,28 +67,28 @@ For substitution, code generation has also been improved as Meander is employing
 
 ## Calva
 
-## August 1 - 15
+### August 1 - 15
 
 Theme: _Project Maintanbility_
 
 This has many aspects, including: _Cooperation with other tool smiths, Code factoring, User documentation, and Ease of use._
 
-### Orchard task force
+#### Orchard task force
 Since CIDER and Calva are sharing a lot of the tooling, we have been trying to figure out how to pool our efforts into [The Orchard](https://metaredux.com/posts/2018/11/09/ciders-orchard-the-heart.html). Bozhidar Batsov has formed a task force with people building libraries and tools for, and/or using, Orchard related things. Kevin and I have joined from the Calva team and we now try to apply an **Orchard first** mindset when designing how to add certain features.
 
 * So far, a concrete improvement to Calva out of this is that when helping to test a new version of `cider-nrepl`, which adds code completion of JavaScript interop powered by [suitable](https://github.com/rksm/clj-suitable), we realized that Calva isn't taking full advantage of the completion features provided. Next release of Calva will:
   * **NEXT RELEASE** Use top level form context when collecting code completion candidates_.
 
-### Documentation
+#### Documentation
 * The [Calva wiki](https://github.com/BetterThanTomorrow/calva/wiki) has gotten some needed attention. (All too little still, but anyway.)
 * A [video showing how to Jack in using a Custom CLJS REPL](https://www.youtube.com/watch?v=a2vRDYXDAug). This was mainly an experiment to try to learn some about how to produce tutorial videos.
 * Some features are being added **documentation first**, meaning we write the user documentation for the feature first and use that to know what needs to be done. See below for an example. We intend to continue with this habit.
 
-### Refactoring Calva
+#### Refactoring Calva
 We're preparing for making some major cleanings up of the Calva code base. And even while we have yet to start any of those efforts we are already cleaing up while we are working with updating Calva. This means the project is more maintanable now than it was two weeks ago, and we intend to continue in this spirit of Kaizen. A more drastical change is that we:
 * **DONE**: Moved all REPL Window code into the Calva repository and archived the `repl-interactor` repository for now.
 
-### Jack in/Connect
+#### Jack in/Connect
 We've continued with the strong focus on making it easy to connect Calva to your Clojure project.
 * **RELEASED**: https://github.com/BetterThanTomorrow/calva/blob/master/CHANGELOG.md#2028---01082019 Operating system peculiarities. Especially Windows, with its cmd.exe and Powershell and Git Bash and MINGW and WSL and… You get the picture. Jack-in has been really hard to get working reliably, but I think we got it nailed down now. (There is still some bugs on Linux, that we have yet to figure out.)
 * **RELEASED**: [Reworked how Calva deals with figuring out the current project root](https://github.com/BetterThanTomorrow/calva/pull/275). This used to be a setting in the workspace, but now it is determined based on the file in the active editor. This change also made it easier to use multi-project workspaces (Mainly because of suporting custom settings per project in the workspace).
@@ -97,12 +97,12 @@ We've continued with the strong focus on making it easy to connect Calva to your
 * **IN PROGRESS**: Support of custom Jack-in and connect sequences. This is taking the recently added _Custom CLJS REPL_ feature several steps further. It is done in a [documentation first](https://github.com/BetterThanTomorrow/calva/issues/282) manner. This also cleans up a lot of all too complicated code as we are redefining the built-in connect sequences using the same configuration mechanism as the custom ones.
 * **IN PROGRESS**: [Custom workflow CLojure commands](https://github.com/BetterThanTomorrow/calva/issues/281). This is a feature insspired from Cursive that has been worked with on and off for quite a while. Right now it is more *on* and it might be released before August ends.
 
-### Refactoring tooling
+#### Refactoring tooling
 We've investigated our options for adding refactoring tools.
 * [Using `nrepl-refactor`](https://github.com/BetterThanTomorrow/calva/pull/269) to add a *Clean namespace form* feature is going to get included in Calva soon. But *Find symbol references*, seems a bit farther away yet. It is being discussed within that Orchard task force.
 * [Experiment with `clojure-lsp](https://github.com/kstehn/clojure-lsp-client). Which reveals that a lot of functionality is ready to be tapped by Calva from [clojure-lsp](https://github.com/snoe/clojure-lsp)
 
-### Various
+#### Various
 * **DONE**: Calva Legacy was removed from the VS Code Extension Marketplace, along with Calva Paredit and Calva Formatter. Maintainability bliss.
 * **RELEASED**: Quite a few bug fixes.
 
@@ -111,7 +111,7 @@ We've investigated our options for adding refactoring tools.
 
 Theme: _Project Maintanbility - through ease of use_
 
-### Jack-in and Connect Sequences
+#### Jack-in and Connect Sequences
 
 We want to try help contribute to the community such that fewer Clojure and ClojureScript projects out there need to specify their editor tooling dependencies and setup. To this end Calva has a Jack-in feature that supports the most common project types and cljs repl types. It also supports customizing the cljs repl configuration so that projects with special cljs types can use Jack in as well. But there are still too many projects out there not supported by Calva Jack in, and this is what we have been working on almost solely.
 
@@ -132,7 +132,7 @@ Except for the last one, this all works in development, and we are cleaning up t
 
 The custom Connect Sequence feature is developed [documentation first](https://github.com/BetterThanTomorrow/calva/issues/282). And you can follow the commits in [this PR](https://github.com/BetterThanTomorrow/calva/pull/285). (The reason there is awfully little feedback there, is because that happens offline).
 
-### Other
+#### Other
 
 Other than jack-in, time has been spent mostly in support and general talking to users. Plus:
 
