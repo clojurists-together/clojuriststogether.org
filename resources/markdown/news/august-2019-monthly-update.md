@@ -1,6 +1,6 @@
 date: 2019-09-03T00:00:00+12:00
 type: "post"
-draft: true
+draft: false
 
 August was our first month with this new round of projects, check out their monthly update!
 
