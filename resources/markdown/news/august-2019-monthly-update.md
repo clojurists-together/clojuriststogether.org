@@ -16,7 +16,7 @@ August was our first month with this new round of projects, check out their mont
 Released shadow-cljs versions 2.8.42 up to 2.8.51.
 Released shadow-cljs versions 2.8.52
 
-### Updraded `:target :react-native` support
+### Upgraded `:target :react-native` support
 
 Changed the way the `:react-native` build target emits code so that during development source maps work in some limited fashion (ie. only when using Debug JS remotely in Chrome). This is meant to work around the [limitation](https://github.com/facebook/metro/issues/104) that metro itself currently has regarding source maps directly.
 
@@ -53,7 +53,7 @@ With qualified operators I also further developed a syntax extension mechanism w
 
 With the syntax extension and definition mechanism in place, I was able to begin working on real documentation. Because the `defsyntax` macro compiles to code which emits a `defn`, which in turn compiles to code which emits a `def`, we can attach real meta data such as `:doc` and `:arglists` to the vars. So now, not only can we define operators via the provided extension mechanism, we can also document them. And thats exactly what I spent a good deal of time doing. To date, I've fully documented all but two operators and I expect those will be documented during the week.
 
-Apart from the operator qualification and documentation efforts, Meanders epsilon branch also received several bug fixes to the improvement of the pattern matching compiler. Meanders Clojure spec definitions have also been given attention and mistakes preventing the use of instrumentation have now be corrected.
+Apart from the operator qualification and documentation efforts, Meanders epsilon branch also received several bug fixes to the improvement of the pattern matching compiler. Meanders Clojure spec definitions have also been given attention and mistakes preventing the use of instrumentation have now been corrected.
 
 Another small but (hopefully) useful addition is the allowance of the search operator to return results in breadth first order. Prior to this option, results were always returned in depth first order. I anticipate the further allowance of configuration to search in the future.
 
@@ -71,7 +71,7 @@ For substitution, code generation has also been improved as Meander is employing
 
 Theme: _Project Maintanbility_
 
-This has many aspects, including: _Cooperation with other tool smoths. Code factoring. User documentation. Ease of use._
+This has many aspects, including: _Cooperation with other tool smiths. Code factoring. User documentation. Ease of use._
 
 ### Orchard task force
 Since CIDER and Calva are sharing a lot of the tooling, we have been trying to figure out how to pool our efforts into [The Orchard](https://metaredux.com/posts/2018/11/09/ciders-orchard-the-heart.html). Bozhidar Batsov has formed a task force with people building libraries and tools for, and/or using, Orchard related things. Kevin and I have joined from the Calva team and we now try to apply an **Orchard first** mindset when designing how to add certain features.
