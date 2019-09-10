@@ -1,3 +1,4 @@
+title: August 2019 Monthly Update
 date: 2019-09-10T00:00:00+12:00
 type: "post"
 
