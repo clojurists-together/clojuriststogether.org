@@ -2,7 +2,7 @@ date: 2019-09-03T00:00:00+12:00
 type: "post"
 draft: true
 
-Clojurists Together is happy to announce that for Q3 of 2019 (August-November) we are funding four projects:
+August was our first month with this new round of projects, check out their monthly update!
 
 - [Shadow CLJS](http://shadow-cljs.org) with Thomas Heller
 - [Meander](https://github.com/noprompt/meander) with Joel Holdbrooks
@@ -14,8 +14,9 @@ Clojurists Together is happy to announce that for Q3 of 2019 (August-November) w
 ## Shadow CLJS
 
 Released shadow-cljs versions 2.8.42 up to 2.8.51.
+Released shadow-cljs versions 2.8.52
 
-## Updraded `:target :react-native` support
+### Updraded `:target :react-native` support
 
 Changed the way the `:react-native` build target emits code so that during development source maps work in some limited fashion (ie. only when using Debug JS remotely in Chrome). This is meant to work around the [limitation](https://github.com/facebook/metro/issues/104) that metro itself currently has regarding source maps directly.
 
@@ -24,22 +25,23 @@ Enhanced the code processing so that `js/require` calls are automatically detect
 Added the groundwork to allow code-splitting to work with `react-native` builds so that parts of the code can be loaded lazily when needed (to boost initial startup speed). The JS side of things is done but it also requires work on the `react-native` side as described [here](https://facebook.github.io/react-native/docs/performance#ram-bundles-inline-requires). Hope to create an actual working example of this in the future. **I am looking for beta testers willing to dive into this.**
 
 
-## Bugfixes/Features
+### Bugfixes/Features
 
 - Smoothed out some rough edges in the nREPL code which would not display compiler warnings when loading files via `load-file` or `require` properly
 - Simplified the nREPL middleware setup, mostly for internal purposes. Will only require updating the middleware config when using [embedded mode](https://shadow-cljs.github.io/docs/UsersGuide.html#_embedded_nrepl_server)
 - Enhanced the macro reload logic: previously macro dependencies would not be watched and therefore would only trigger rebuilds when macros themselves were changed. This should now be more reliable since more namespaces are tracked
 - Introduced [:js-package-dirs](https://shadow-cljs.github.io/docs/UsersGuide.html#alt-node-modules)
 - Optimized the CLI parsing so everything coming after run|clj-run was passed to that directly instead of being interpreted as arguments for shadow-cljs itself (eg. `shadow-cljs run your.helper/fn --foo` would error out). Previously this required adding an additional `--` separator after `run`
+- removed log spam if CLJ macro namespaces were renamed or deleted
+- [ongoing] cleaning up the internal REPL implementation
 
-
-## Documentation
+### Documentation
 
 - Started a section about [Publishing Libraries](https://shadow-cljs.github.io/docs/UsersGuide.html#publish) using Leiningen
 - Started a section about [REPL troubleshooting](https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting)
 - Added a brief section about [:jvm-opts](https://shadow-cljs.github.io/docs/UsersGuide.html#jvm-opts)
+- Blogged about [Hot Reload in ClojureScript](https://code.thheller.com/blog/shadow-cljs/2019/08/25/hot-reload-in-clojurescript.html)
 
-### 
 
 ## Meander
 
@@ -57,7 +59,11 @@ Another small but (hopefully) useful addition is the allowance of the search ope
 
 Within the week I plan to release Meander epsilon. During the weeks ahead I intended to aggressively enhance the pattern matching and substitution compilers, put in place infrastructure for guides and tutorials, and begin putting together a rewrite specific compiler if time permits.
 
-### 
+Since the last update the epsilon branch of the project has seen a few important improvements and fixes. The two primary improvements have been to pattern matching and to substitution.
+
+For map pattern matching, keys can be logic variables if Meander can determine that the pattern could not have more than one solution. For example, if we know that we have a already solved for a logic variable earlier on in a pattern match, it may be used as a key in the map. This improvement also had transitive effects to our code generation for searching as well. Previously, if a map had logic variables keys we emitted search code regardless. This meant that in some cases we were producing code that was doing more work than necessary.
+
+For substitution, code generation has also been improved as Meander is employing a different approach. We're now emitting much smarter, faster, and in some cases (dramatically) shorter code. To do this, the substitution compiler collects and returns data as it compiles so that at each point in the compilation there is an accumulation of knowledge which can be used to make better decisions. The generated code is also subsequently optimized by rewriting it to eliminate redundant code by applying functional identities.
 
 ## Calva
 
@@ -101,8 +107,6 @@ We've investigated our options for adding refactoring tools.
 * **RELEASED**: Quite a few bug fixes.
 
 
-### 
-
 ## August 15 - 31
 
 Theme: _Project Maintanbility - through ease of use_
@@ -139,4 +143,15 @@ Other than jack-in, time has been spent mostly in support and general talking to
 
 ## CIDER
 
-### 
+* CIDER now provides improved code completion for ClojureScript (powered by the suitable library)
+* Orchard now provides access to data from ClojureDocs
+* I've started replacing the Grimoire integration with ClojureDocs integration
+* I've cut a new release of Drawbridge that adds support for custom http headers
+* I've removed the hard Clojure dep from sayid and refactor-nrepl
+* I've reorganized a bit some namespaces in the most recent beta of Orchard, so it's easier to understand their purpose
+* sayid's legacy landing page was converted to a README and the content was improved
+* I've investigated a thread leak issue in nREPL and some Java 9+ compatibility issues in CIDER
+* We've kicked off a Dev Tooling for Clojure task force with some other tool writers with the goal to collaborate better with each other.
+- released cider-nrepl 0.22
+- released CIDER 0.22
+- released Orchard 0.5
