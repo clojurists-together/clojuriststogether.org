@@ -14,8 +14,8 @@ September was our second month with this round of projects, check out their mont
 * Added basic CLJS prepl support
 
 ### Sept 16-30
-* Added :warnings-as-errors to treat certain warnings as errors instead. Mostly intended for CI builds that should fail instead of warn.
-* Changed the behavior of :build-hooks so thrown exceptions fail the build, instead of just being logged.
+* Added [:warnings-as-errors](http://ttps//shadow-cljs.github.io/docs/UsersGuide.html#warnigs-as-errors) to treat certain warnings as errors instead. Mostly intended for CI builds that should fail instead of warn.
+* Changed the behavior of [:build-hooks](https://shadow-cljs.github.io/docs/UsersGuide.html#build-hooks) so thrown exceptions fail the build, instead of just being logged.
 * Added :devtools {:log-style "color: red;"} to allow customizing the styles used for shadow-cljs log messages in the browser during development. Suggestions welcome for a better default color schema. The default blue doesn't play so nice with dark-mode.
 
 ## Meander
@@ -42,12 +42,12 @@ Some minor improvements also include applying beta reduction when safe, leveragi
 ### September 1 - 15  Theme: Project Maintainability - through quality
 
 Documentation
-* Added instructions for how to setup your VS Code Workspace layouts to work with Calva.
-* Updated documentation on how to Connect Calva to the REPL.
-* Including a page on the subject of Customizing the Connect Sequence.
-* More information for VIM Extension users on what to (not) expect when using Calva.
+* Added instructions for how to [setup your VS Code Workspace layouts to work with Calva](https://calva.readthedocs.io/en/latest/workspace-layouts.html).
+* Updated documentation on how to [Connect Calva to the REPL](https://calva.readthedocs.io/en/latest/connect.html).
+* Including a page on the subject of [Customizing the Connect Sequence](https://calva.readthedocs.io/en/latest/connect-sequences.html#settings-for-adding-custom-sequences).
+* More information for [VIM Extension](https://calva.readthedocs.io/en/latest/vim.html) users on what to (not) expect when using Calva.
 * There's a description of the process for integrating changes to Calva (This was the documentation first driver for the CI automation).
-* Updated documentation on How to Contribute code to Calva.
+* Updated documentation on [How to Contribute code to Calva](https://github.com/BetterThanTomorrow/calva/wiki/How-to-Contribute).
 
 Continuous Integration
 * We have reworked our integration and release process a bit. Or, rather, just trying to get it less ad hoc. And we are now taking help from Circle CI to automate much of it. Circle CI now does the following:
@@ -62,7 +62,7 @@ Jack-in and Connect
 * The Customizable Connect Sequences are released, including the No-prompting Jack-in mentioned in the last report. It has been iterated on and some bugs are also squashed.
 * Fix Figwheel Main deps added to non-cljs projects
 * Support connecting to Leiningen and CLI project using shadow-cljs watcher
-*Support for launching with user aliases/profiles
+*S upport for launching with user aliases/profiles
 
 Other
 * More accurate code completion lookups (by giving the nREPL completion middleware more context for the lookup).
