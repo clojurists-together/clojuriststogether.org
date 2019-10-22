@@ -5,14 +5,14 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 <h2><span>$1000/mo</span><br>Transduce Members</h2>
 
 <section class="membership-card">
-<h4 class="member founding"><a href="https://pitch.com" target="_blank">Pitch</a></h4>
+<h4 class="member"><a href="https://pitch.com" target="_blank">Pitch</a></h4>
 <a href="https://pitch.com"><img class="member-logo large" src="/logos/pitch.svg"></a>
 <p>Pitch is building the next generation presentation software for individuals and teams.
 </p>
 </section>
 
 <section class="membership-card">
-<h4 class="member founding"><a href="https://nubank.com.br" target="_blank">Nubank</a></h4>
+<h4 class="member"><a href="https://nubank.com.br" target="_blank">Nubank</a></h4>
 <a href="https://nubank.com.br"><img class="member-logo large" src="/logos/nubank.png"></a>
 <p>Nubank is the leading financial technology company in Latin America.</p>
 </section>
@@ -36,14 +36,14 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 
 
 <section class="membership-card">
-<h4 class="member founding"><a href="https://www.adgoji.com" target="_blank">AdGoji</a></h4>
+<h4 class="member"><a href="https://www.adgoji.com" target="_blank">AdGoji</a></h4>
 <a href="https://www.adgoji.com"><img class="member-logo" src="/logos/adgoji_logo.svg"></a>
 <p>Adgoji is a media agency. We have built a Clojure based real-time bidding platform that buys targeted mobile advertising space from the largest market places in the world.</p>
 </section>
 
 
 <section class="membership-card">
-<h4 class="member founding"><a href="https://www.fundingcircle.com" target="_blank">Funding Circle</a></h4>
+<h4 class="member"><a href="https://www.fundingcircle.com" target="_blank">Funding Circle</a></h4>
 <a href="https://www.fundingcircle.com"><img class="member-logo" src="/logos/funding-circle.svg"></a>
 <p>Funding Circle connects small businesses who want to borrow with investors who want to lend in the UK, US, Germany and the Netherlands. We use Clojure to build our platform.</p>
 </section>
@@ -337,4 +337,3 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 - David Taviani
 </section>
 </section>
-
