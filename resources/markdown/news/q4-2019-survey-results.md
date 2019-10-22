@@ -4,7 +4,7 @@ type: "post"
 
 Thanks so much for your support and feedback in the latest survey. We value your opinions and always take suggestions into account as we make changes from quarter to quarter.
 
-The [call for proposals](/open-source/) for new projects will close on Saturday, July 26th, 2019 at 11:59pm PST.
+The [call for proposals](/open-source/) for new projects will close on Saturday, October 26th, 2019 at 11:59pm PST.
 
 We'll be funding four projects $9,000 each over three months ($3,000/mo).
 

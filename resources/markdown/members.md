@@ -1,6 +1,7 @@
 Title: Members
 
 Companies and Individuals that support Clojurists Together will be listed on this page. Founding sponsors are people who joined Clojurists Together early, and are marked with a ⭐️.
+
 <section class="member-category company filter-member">
 <h2><span>$1000/mo</span><br>Transduce Members</h2>
 
@@ -27,13 +28,11 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 <p>JUXT delivers secure and compliant bespoke software applications and platforms: from the world's busiest websites to complex financial systems.</p>
 </section>
 
-
 <section class="membership-card">
 <h4 class="member founding"><a href="https://www.metosin.fi" target="_blank">Metosin</a></h4>
 <a href="https://www.metosin.fi"><img class="member-logo" src="/logos/metosin.svg"></a>
 <p>Metosin is the first Finnish software house specializing in Clojure. We arrange annually the biggest North-European Clojure conference called [ClojuTRE](https://www.metosin.fi/en/metosin/#events).</p>
 </section>
-
 
 <section class="membership-card">
 <h4 class="member"><a href="https://www.adgoji.com" target="_blank">AdGoji</a></h4>
@@ -41,16 +40,14 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 <p>Adgoji is a media agency. We have built a Clojure based real-time bidding platform that buys targeted mobile advertising space from the largest market places in the world.</p>
 </section>
 
-
 <section class="membership-card">
 <h4 class="member"><a href="https://www.fundingcircle.com" target="_blank">Funding Circle</a></h4>
 <a href="https://www.fundingcircle.com"><img class="member-logo" src="/logos/funding-circle.svg"></a>
 <p>Funding Circle connects small businesses who want to borrow with investors who want to lend in the UK, US, Germany and the Netherlands. We use Clojure to build our platform.</p>
 </section>
 
-
 <section class="membership-card">
-<h4 class="member"><a href="https://nextjournal.com" target="_blank">Jextjournal</a></h4>
+<h4 class="member"><a href="https://nextjournal.com" target="_blank">Nextjournal</a></h4>
 <a href="https://nextjournal.com"><img class="member-logo" src="/logos/nextjournal.svg"></a>
 <p>Nextjournal is a tool that improves data-driven research. Our notebooks make results and methods reproducible and foster model-driven debate.</p>
 </section>
@@ -101,7 +98,6 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 <ul><li><a href="http://www.redpineapplemedia.com/" target="_blank">Red Pineapple Media GmbH</a></li></ul>
 </section>
 </section>
-
 
 <section class="member-category founding-developer">
 <h2>Founding Developer Members ⭐</h2>
@@ -197,7 +193,6 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 - 河野 明日旭.
 </section>
 </section>
-
 
 <section class="member-category contributing">
 <h2>Contributing Members</h2>
