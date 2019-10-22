@@ -1,5 +1,9 @@
 Title: News
 
+## [Q4 2019 Survey Results](/news/q4-2019-survey-results)
+
+We surveyed our members to see what they wanted us to focus on. Our next funding round for new projects will close on Saturday, July 26th, 2019 at 11:59pm PST. We'll be funding four projects $9,000 each over three months ($3,000/mo).
+
 ## [August 2019 Monthly Update](/news/august-2019-monthly-update/)
 
 August was our first month with this new round of projects, check out their monthly update!
