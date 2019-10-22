@@ -47,6 +47,14 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 <a href="https://www.fundingcircle.com"><img class="member-logo" src="/logos/funding-circle.svg"></a>
 <p>Funding Circle connects small businesses who want to borrow with investors who want to lend in the UK, US, Germany and the Netherlands. We use Clojure to build our platform.</p>
 </section>
+
+
+<section class="membership-card">
+<h4 class="member"><a href="https://nextjournal.com" target="_blank">Jextjournal</a></h4>
+<a href="https://nextjournal.com"><img class="member-logo" src="/logos/nextjournal.svg"></a>
+<p>Nextjournal is a tool that improves data-driven research. Our notebooks make results and methods reproducible and foster model-driven debate.</p>
+</section>
+
 </section>
 
 <section class="member-lists">
