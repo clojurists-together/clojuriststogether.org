@@ -5,10 +5,10 @@ type: post
 
 September was our second month with this round of projects, check out their monthly update!
 
-[Shadow CLJS](http://shadow-cljs.org/) with Thomas Heller
-[Meander](https://github.com/noprompt/meander) with Joel Holdbrooks
-[Calva](https://github.com/BetterThanTomorrow/calva) with Peter Strömberg
-[CIDER](https://cider.mx/) with Bozhidar Batsov
+* [Shadow CLJS](http://shadow-cljs.org/) with Thomas Heller
+* [Meander](https://github.com/noprompt/meander) with Joel Holdbrooks
+* [Calva](https://github.com/BetterThanTomorrow/calva) with Peter Strömberg
+* [CIDER](https://cider.mx/) with Bozhidar Batsov
 
 ## Shadow CLJS
 ### September 1-15
