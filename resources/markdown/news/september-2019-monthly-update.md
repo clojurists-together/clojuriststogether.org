@@ -1,3 +1,8 @@
+title: September 2019 Monthly Update
+date: 10/28/2019
+draft: false
+type: post
+
 September was our second month with this round of projects, check out their monthly update!
 
 [Shadow CLJS](http://shadow-cljs.org/) with Thomas Heller
