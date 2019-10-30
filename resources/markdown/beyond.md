@@ -19,5 +19,6 @@ If you know of other people or projects we should add to this page, please make 
 - Boot - [Open Collective](https://opencollective.com/boot-clj)
 - Lumo, Andrea Richiardi and Antonio Monteiro - [Open Collective](https://opencollective.com/lumo)
 - [cljc.java-time](https://github.com/henryw374/cljc.java-time), [time-literals](https://github.com/henryw374/time-literals), [time-specs](https://github.com/henryw374/time-specs), Henry Widd [Patreon](https://www.patreon.com/widdindustries)
+- [Calva](https://github.com/BetterThanTomorrow/calva), Peter Strömberg - [GitHub Sponsors](https://github.com/sponsors/PEZ), [PayPal](https://paypal.me/cospaia)
 
 Note: Clojurists Together is not responsible for the content of these links or how any donations are used.
