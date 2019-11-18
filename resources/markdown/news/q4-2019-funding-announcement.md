@@ -2,7 +2,7 @@ title: Q4 2019 Funding Announcement
 date: 2019-01-05T14:00:00+13:00
 type: "post"
 
-Clojurists Together is happy to announce that for Q4 of 2019 (December-February) we are funding four projects:
+Clojurists Together is happy to announce that for Q4 of 2019 (November-January) we are funding four projects:
 
 - [Expound](https://github.com/bhb/expound) with Ben Brinckerhoff
 - [Deep Diamond (Neanderthal)](https://github.com/uncomplicate/deep-diamond) with Dragan Djuric
