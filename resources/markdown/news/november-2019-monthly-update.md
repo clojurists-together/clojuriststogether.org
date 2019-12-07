@@ -58,7 +58,18 @@ Substitution got better this month with `with` pattern enhancements/fixes. Recur
 Toward the end of the month I wanted to shift my attention to making the `cata` pattern matching operator available on the substitution side of `rewrite` and `rewrites` clauses. The semantics of the substitution version of the `cata` pattern is to recursively rewrite with a constructed value via substitution. So `(cata [?x ?y])` on the substitution side would first construct `[?x ?y]` then recurse. This provides an elegant way to write non-trivial recursive rewrite systems which are very useful when work with recursively structured data. While my goal was to have it complete by the end of the month, I just couldn't quite pull it off in time. However, this work is near completion and I expect to make it available soon.     
 
 # Calva
-401)
+
+## October 1-15
+
+Theme: _Changes Spree_
+
+Two weeks, seven new Calva versions. We got into a flow, changing, testing, releasing. Christian Fehse kept a speed where I had a hard tine keeping up with testing and giving feedback. But I managed 😄, and even got a few changes in myself, plus some documentation.
+
+### Changes
+
+- [Fix Toggle the "Use WSL" setting requires extension restart to effect definition provider](https://github.com/BetterThanTomorrow/calva/issues/397)
+- [Fix Go to Definition and Peek Definition not working on Windows 10 when using WSL](https://github.com/BetterThanTomorrow/calva/issues/132)
+- [Fix Highlight extension settings are uninitialized if no Clojure editor active on activation ](https://github.com/BetterThanTomorrow/calva/issues/401)
 - [Fix Overly aggressive paredit in REPL window](https://github.com/BetterThanTomorrow/calva/issues/255)
 - [REPL window use it own set of paredit hotkeys and these are not configurable](https://github.com/BetterThanTomorrow/calva/issues/260)
 - [Fix Completion in REPL window should work like in the editor](https://github.com/BetterThanTomorrow/calva/issues/394)
