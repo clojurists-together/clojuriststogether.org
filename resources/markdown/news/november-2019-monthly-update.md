@@ -1,5 +1,5 @@
 title: September 2019 Monthly Update
-date: 10/28/2019
+date: 12/06/2019
 draft: false
 type: post
 

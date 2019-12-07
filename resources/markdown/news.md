@@ -1,5 +1,7 @@
 Title: News
 
+## [November 2019 Monthly Update](/news/november-2019-monthly-update/)
+
 ## [Q4 2019 Funding Announcement](/news/q4-2019-funding-announcement/)
 
 Clojurists Together is happy to announce that for Q4 of 2019 (November-January) we are funding four projects: Expound with Ben Brinckerhoff, Deep Diamond (Neanderthal) with Dragan Djuric, Libpython-clj with David Levy, Oz with Christopher Small.
