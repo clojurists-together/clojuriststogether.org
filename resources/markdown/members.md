@@ -322,7 +322,7 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 - Damiano Rühl
 - Sean Meyer
 - Eric Caspary
-- Agzamkhodja Ibragimov
+- Ag Ibragimov
 - Yusa Koji
 - Cameron Saul
 - Gary Deer
