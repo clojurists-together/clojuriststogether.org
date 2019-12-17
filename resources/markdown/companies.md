@@ -5,7 +5,7 @@ Companies using Clojure depend on many open-source libraries and tools. Clojuris
 
 ## Supporting Clojurists Together gets you:
 
-* High quality work on the tools and libraries that your teams use every day, for a fraction of the cost of developing internal tooling.
+* High quality work on the tools and libraries that your teams use every day.
 * Monthly progress updates showing exactly where your money is going, and the impact that it is having.
 * Voting rights to elect Clojurists Together [board members](/team).
 * Influence on which projects are selected.
