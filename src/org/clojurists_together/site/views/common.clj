@@ -34,8 +34,7 @@
       [:li [:a {:href "/developers/"} "Developers"]]
       [:li [:a {:href "/members/"} "Members"]]
       [:li [:a {:href "/news/"} "News"]]
-      [:li [:a {:href "/projects/"} "Projects"]]
-      [:li [:a {:href "/jobs/"} "Jobs"]]])]])
+      [:li [:a {:href "/projects/"} "Projects"]]])]])
 
 (defn common-footer []
   [:footer
@@ -49,7 +48,6 @@
         [:li [:a {:href "/members/"} "Members"]]
         [:li [:a {:href "/news/"} "News"]]
         [:li [:a {:href "/projects/"} "Projects"]]
-        [:li [:a {:href "/jobs/"} "Jobs"]]
         [:li [:a {:href "/transparency/"} "Transparency"]]
         [:li [:a {:href "/beyond/"} "Beyond Clojurists Together"]]
         [:li [:a {:href "/faq/"} "FAQ"]]

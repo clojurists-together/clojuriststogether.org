@@ -30,7 +30,6 @@
     (GET "/open-source/" [] (markdown-view "open-source.md"))
     (GET "/beyond/" [] (markdown-view "beyond.md"))
     (GET "/projects/" [] (markdown-view "projects.md"))
-    (GET "/jobs/" [] (markdown-view "jobs.md"))
     (GET "/team/" [] (markdown-view "team.md"))
     (GET "/transparency/" [] (markdown-view "transparency.md"))
     (GET "/news/:id/" [id] (markdown-view (str "news/" id ".md")))
