@@ -19,7 +19,7 @@ September was our second month with this round of projects, check out their mont
 * Added basic CLJS prepl support
 
 ### Sept 16-30
-* Added [:warnings-as-errors](http://ttps//shadow-cljs.github.io/docs/UsersGuide.html#warnigs-as-errors) to treat certain warnings as errors instead. Mostly intended for CI builds that should fail instead of warn.
+* Added [:warnings-as-errors](https://shadow-cljs.github.io/docs/UsersGuide.html#warnigs-as-errors) to treat certain warnings as errors instead. Mostly intended for CI builds that should fail instead of warn.
 * Changed the behavior of [:build-hooks](https://shadow-cljs.github.io/docs/UsersGuide.html#build-hooks) so thrown exceptions fail the build, instead of just being logged.
 * Added :devtools {:log-style "color: red;"} to allow customizing the styles used for shadow-cljs log messages in the browser during development. Suggestions welcome for a better default color schema. The default blue doesn't play so nice with dark-mode.
 
@@ -32,7 +32,7 @@ The work for the first half of September saw several improvements to ergonomics,
 * Improving code generation
 * Compilation of sequential pattern matches such as lists and vectors saw a reduction in code size. By doing some simple manipulations of the pattern AST prior to handing it to the match compiler, eliminated extra runtime work. Some literal pattern matching has also been improved.
 * Improving documentation
-* With an eye towards the upcoming Strange Loop talk about Meander, numerous documentation changes were made. The previously large README has now been updated to be more of an attention getter, and the formal documentation has been moved to the projects doc folder with the content separated into different files. Virtually all of the core API was documented and formatted such that we could take advantage of the wonderful formatting capabilities of cljdoc. 
+* With an eye towards the upcoming Strange Loop talk about Meander, numerous documentation changes were made. The previously large README has now been updated to be more of an attention getter, and the formal documentation has been moved to the projects doc folder with the content separated into different files. Virtually all of the core API was documented and formatted such that we could take advantage of the wonderful formatting capabilities of cljdoc.
 
 ### September 16-30
 The weeks between the 16 and the 30th saw some pretty amazing improvements, particularly to the performance of the pattern matcher.
@@ -59,7 +59,7 @@ Continuous Integration
 * Unit tests are run on all updates of the Calva repository.
 * PR's automatically renders a build of a Calva extension, and the VSIX package is made publicly available for contributors and maintainers to download and test.
 * Pre-release are built and pushed to GitHub Releases at will.
-* New Calva versions are built, pushed to GitHub Releases, and published to the VS Code Extension Marketplace. 
+* New Calva versions are built, pushed to GitHub Releases, and published to the VS Code Extension Marketplace.
 
 This is a total bliss, I tell ya.
 
@@ -109,10 +109,10 @@ New features in **bold**:
 Not showing in the CHANGELOG
 * The development process has been vastly simplified. Showing here: [How to Contribute](https://github.com/BetterThanTomorrow/calva/wiki/How-to-Contribute)
 * We have added the tests for Calva's Clojure grammar to the CI pipeline
- 
+
 ## CIDER
 ### September 1-15
-* I've started work on CIDER 0.23 which is going to be a relative small update. All details are in the changelog, there are just a couple of outstanding PRs that need to be wrapped before I can cut the release. 
+* I've started work on CIDER 0.23 which is going to be a relative small update. All details are in the changelog, there are just a couple of outstanding PRs that need to be wrapped before I can cut the release.
 * I've added DocSearch integration to nrepl.org
 * I've started work on the new documentation site for cider-nrepl ()
 * I've been working with Shen Tian on a Clojure spec for nREPL (merged) and sideloading of missing classes/resources automatically (PR in progress)
@@ -126,8 +126,8 @@ Not showing in the CHANGELOG
 * Shipped cider-nrepl 0.22.4 (fixes several bugs)
 * Shipped orchard 0.5.3 (fixes a small bug with ClojureDocs)
 * Shipped piggieback 0.4.2 (it doesn't blow up in the absence of ClojureScript)
-* Shipped nREPL 0.7.0-alpha2 with support for [sideloading](https://nrepl.org/nrepl/design/middleware.html#_sideloading) 
+* Shipped nREPL 0.7.0-alpha2 with support for [sideloading](https://nrepl.org/nrepl/design/middleware.html#_sideloading)
 * Participated in "The REPL" :-)
-* Published a couple of CIDER-related blog posts [hard-cider-project-specific-configuration](https://metaredux.com/posts/2019/10/05/hard-cider-project-specific-configuration.html) 
+* Published a couple of CIDER-related blog posts [hard-cider-project-specific-configuration](https://metaredux.com/posts/2019/10/05/hard-cider-project-specific-configuration.html)
 and [hard-cider-navigating-cider-buffers-ninja-style](https://metaredux.com/posts/2019/10/07/hard-cider-navigating-cider-buffers-ninja-style.html))
-* [More details on CIDER 0.23](https://metaredux.com/posts/2019/10/08/cider-0-23-lima.html) 
+* [More details on CIDER 0.23](https://metaredux.com/posts/2019/10/08/cider-0-23-lima.html)
