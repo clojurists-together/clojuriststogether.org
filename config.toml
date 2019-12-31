@@ -1,0 +1,4 @@
+baseURL = "https://www.clojuriststogether.org"
+languageCode = "en-us"
+title = "Clojurists Together"
+theme = "ananke"
