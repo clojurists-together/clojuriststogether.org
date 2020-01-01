@@ -1,4 +1,8 @@
-Title: Beyond Clojurists Together
+---
+title: "Beyond Clojurists Together"
+type: "page"
+menu: "main"
+---
 
 Are you already a Clojurists Together member and want to know what more you can do? Do you want to support open source projects more directly than donating to Clojurists Together? Whatever the reason, there are many Clojure projects and Clojurists that you can fund directly.
 

@@ -1,4 +1,8 @@
-Title: Members
+---
+title: Members
+type: page
+menu: "main"
+---
 
 Companies and Individuals that support Clojurists Together will be listed on this page. Founding sponsors are people who joined Clojurists Together early, and are marked with a ⭐️.
 

@@ -1,4 +1,8 @@
-Title: News
+---
+title: News
+type: page
+menu: "main"
+---
 
 ## [November 2019 Monthly Update](/news/november-2019-monthly-update/)
 

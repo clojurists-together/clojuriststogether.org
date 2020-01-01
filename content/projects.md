@@ -1,6 +1,8 @@
-Title: Projects
-date:
-type: "post"
+---
+title: Projects
+type: "page"
+menu: "main"
+---
 
 ## Currently Funded Projects
 

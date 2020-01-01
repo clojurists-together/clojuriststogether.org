@@ -1,4 +1,8 @@
-Title: Open Source
+---
+title: Open Source
+type: page
+menu: "main"
+---
 
 ## Applications
 

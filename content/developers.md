@@ -1,5 +1,8 @@
-Title: Developer Membership  
-
+---
+title: Developer Membership
+type: page
+menu: "main"
+---
 
 Stop relying on private forks of projects to get critical bugs fixed. Clojurists Together funds projects to work on the tools, libraries, and documentation that you use every day.
 

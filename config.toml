@@ -1,4 +1,10 @@
 baseURL = "https://www.clojuriststogether.org"
 languageCode = "en-us"
 title = "Clojurists Together"
-theme = "ananke"
+# theme = "ananke"
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[params]
+custom_css = ["app.css"]

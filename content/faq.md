@@ -1,5 +1,8 @@
-Title: FAQ
-
+---
+title: FAQ
+type: page
+menu: "main"
+---
 
 ## Are my donations tax deductible?
 

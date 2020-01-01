@@ -1,4 +1,9 @@
-Title: Team
+---
+title: Team
+type: page
+menu: "main"
+---
+
 
 The Clojurists Together Committee is made up of:
 
