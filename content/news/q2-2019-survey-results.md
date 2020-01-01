@@ -1,7 +1,7 @@
 ---
 title: Q2 2019 Survey Results and Call for Proposals
+date: "2019-04-07"
 type: "post"
-draft: false
 ---
 
 Thanks so much for your support and feedback in the latest survey. We value your opinions and always take suggestions into account as we make changes from quarter to quarter.

@@ -1,8 +1,7 @@
 ---
 title: April 2019 Monthly Update
-date: 05/16/2019
+date: "2019-05-16"
 type: post
-draft: false
 ---
 
 ## Clojurists Together News

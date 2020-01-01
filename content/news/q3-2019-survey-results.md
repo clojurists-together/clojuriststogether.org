@@ -1,5 +1,6 @@
 ---
 title: Q3 2019 Survey Results and Call for Proposals
+date: "2019-07-12"
 type: "post"
 ---
 

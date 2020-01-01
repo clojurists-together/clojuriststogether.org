@@ -1,7 +1,7 @@
 ---
 title: Projects
 type: "page"
-menu: "main"
+page_class: "projects"
 ---
 
 ## Currently Funded Projects

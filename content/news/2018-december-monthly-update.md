@@ -1,6 +1,6 @@
 ---
 title: December 2018 Monthly Update
-date: 01/16/2019
+date: "2019-01-16"
 type: post
 ---
 

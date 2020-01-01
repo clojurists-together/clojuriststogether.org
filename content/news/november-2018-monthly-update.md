@@ -1,7 +1,6 @@
 ---
 title: November 2018 Monthly Update
-date: 12/12/2018
-draft: false
+date: "2018-12-12"
 type: post
 ---
 

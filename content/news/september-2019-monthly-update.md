@@ -1,7 +1,6 @@
 ---
 title: September 2019 Monthly Update
-date: 10/28/2019
-draft: false
+date: "2019-10-28"
 type: post
 ---
 
