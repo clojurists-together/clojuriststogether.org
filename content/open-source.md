@@ -1,7 +1,6 @@
 ---
 title: Open Source
 type: page
-menu: "main"
 ---
 
 ## Applications

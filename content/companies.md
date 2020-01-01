@@ -1,7 +1,6 @@
 ---
 title: "Company Membership"
 type: "page"
-menu: "main"
 ---
 
 Companies using Clojure depend on many open-source libraries and tools. Clojurists Together memberships offer a way for companies to support the Clojure community, and ensure that the software they build their businesses on is maintained and improved.

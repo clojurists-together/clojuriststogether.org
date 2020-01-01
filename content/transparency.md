@@ -1,7 +1,6 @@
 ---
 title: Transparency
 type: page
-menu: "main"
 ---
 
 Clojurists Together takes the responsibility of spending and allocating your donations very seriously. These are the steps we've taken to ensure that members have confidence in how their money is spent:

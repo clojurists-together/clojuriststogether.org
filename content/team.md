@@ -1,7 +1,6 @@
 ---
 title: Team
 type: page
-menu: "main"
 ---
 
 
