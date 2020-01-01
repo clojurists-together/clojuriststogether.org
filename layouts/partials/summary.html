@@ -1,0 +1,14 @@
+<div>
+  <h1>
+    <a href="{{ .Permalink }}">
+      {{ .Title }}
+    </a>
+  </h1>
+  <time title="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"
+    datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+    {{- .Date.Format "January 2, 2006" -}}
+  </time>
+  <div>
+    {{ .Summary  }}
+  </div>
+</div>
