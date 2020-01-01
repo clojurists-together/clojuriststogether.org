@@ -1,7 +1,9 @@
+---
 title: March 2018 Monthly Update
 date: 2018-04-03T20:36:31+12:00
 draft: false
 type: post
+---
 
 Hi folks!
 
@@ -77,7 +79,7 @@ Much thanks to Clojurists Together and its fantastic supporters!
 #### Figwheel REPL
 
 Much like 2 weeks ago, I have published a [`Figwheel-repl`](https://github.com/bhauman/lein-figwheel/tree/master/figwheel-repl) project to
-the master branch of the `lein-figwheel` repository. 
+the master branch of the `lein-figwheel` repository.
 
 Figwheel-REPL is **only** a ClojureScript `repl-env` and doesn't do anything specific to help with automatic file reloading. As such, it is more similar to Weasel in function than to Figwheel.
 
@@ -199,4 +201,3 @@ In our recent survey and in previous member communications, a few people have me
 * List all projects that applied.
 
 These two measures should help backers understand how we voted. If you have any thoughts on this, either as a backer or an open source contributor, please get in touch.
-

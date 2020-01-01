@@ -1,13 +1,15 @@
+---
 title: April 2019 Monthly Update
 date: 05/16/2019
 type: post
 draft: false
+---
 
 ## Clojurists Together News
 
 Hello CT Community -
 
-Here is the final update from our Q1 projects. We appreciate the work of Neanderthal and Aleph. 
+Here is the final update from our Q1 projects. We appreciate the work of Neanderthal and Aleph.
 
 Our Project Leader, Daniel Compton, is speaking about Clojurists Together soon! Catch him at one of the following local events:
 
@@ -85,8 +87,8 @@ The branch is merged with other changes from master, I think file regions suppor
 
 6. [Properly initialize per-message deflate handshaker](https://github.com/ztellman/aleph/pull/506)
 
-The problem was originally reported and discussed in https://github.com/ztellman/aleph/issues/494. In short words, WebSocket server compression didn’t work because the server was not able to communicate available extensions during the handshake. To be able to test the result of the handshake, the result was exposed through the stream description (https://github.com/ztellman/aleph/pull/498) and after some communication with Netty’s community, the initial problem was solved in a somewhat “hacky” way by firing HTTP request through the pipeline after WebSocket deflator was added. It would be great if we could bury this state propagation deeper not exposing the event to the rest of the pipeline e.g. using EmbeddedChannel, but that’s almost impossible to do because the handler itself is not marked to be Sharable, so it fails to be added to more than one pipeline. The solution works even tho’ it’s not beautiful enough. 
+The problem was originally reported and discussed in https://github.com/ztellman/aleph/issues/494. In short words, WebSocket server compression didn’t work because the server was not able to communicate available extensions during the handshake. To be able to test the result of the handshake, the result was exposed through the stream description (https://github.com/ztellman/aleph/pull/498) and after some communication with Netty’s community, the initial problem was solved in a somewhat “hacky” way by firing HTTP request through the pipeline after WebSocket deflator was added. It would be great if we could bury this state propagation deeper not exposing the event to the rest of the pipeline e.g. using EmbeddedChannel, but that’s almost impossible to do because the handler itself is not marked to be Sharable, so it fails to be added to more than one pipeline. The solution works even tho’ it’s not beautiful enough.
 
 7. [Update Netty to 4.1.36](https://github.com/ztellman/aleph/pull/507)
 
-“WebSocket client handshaker to support "force close" after timeout” https://github.com/netty/netty/pull/8896 was merged into Netty 4.1.35.Final. The idea behind that PR was to introduce force timeout for WebSocket client instead of waiting for the server to close the connection forever. Initially I was going to implement this functionality for Aleph but finally ended with Netty’s PR. It took quite some time to polish and merge, but as soon as Netty version is bumped in Aleph, I’m going to port force close settings here. BTW, it will work even without exposed settings as the timeout defaults to 10 seconds in Netty. 
+“WebSocket client handshaker to support "force close" after timeout” https://github.com/netty/netty/pull/8896 was merged into Netty 4.1.35.Final. The idea behind that PR was to introduce force timeout for WebSocket client instead of waiting for the server to close the connection forever. Initially I was going to implement this functionality for Aleph but finally ended with Netty’s PR. It took quite some time to polish and merge, but as soon as Netty version is bumped in Aleph, I’m going to port force close settings here. BTW, it will work even without exposed settings as the timeout defaults to 10 seconds in Netty.

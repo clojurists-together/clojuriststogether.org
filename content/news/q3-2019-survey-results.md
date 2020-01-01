@@ -1,5 +1,7 @@
+---
 title: Q3 2019 Survey Results and Call for Proposals
 type: "post"
+---
 
 Thanks so much for your support and feedback in the latest survey. We value your opinions and always take suggestions into account as we make changes from quarter to quarter.
 
@@ -59,7 +61,7 @@ A sampling of comments:
 
 ### How would you like us to allocate our funding?
 
-69% of respondents wanted us to fund a mix of established and speculative projects, and 18% wantes us to only fund established projects. 
+69% of respondents wanted us to fund a mix of established and speculative projects, and 18% wantes us to only fund established projects.
 
 ### What are we doing well, what could we be doing better?
 

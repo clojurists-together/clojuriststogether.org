@@ -1,7 +1,8 @@
+---
 title: August 2019 Monthly Update
 date: 2019-09-10T00:00:00+12:00
 type: "post"
-
+---
 
 August was our first month with this new round of projects, check out their monthly update!
 
@@ -46,7 +47,7 @@ Added the groundwork to allow code-splitting to work with `react-native` builds 
 
 ## Meander
 
-Much of the work I've been doing is getting the new version of Meander, epsilon, ready for release. This has involved numerous internal architectural changes, bug fixes, and documentation additions. 
+Much of the work I've been doing is getting the new version of Meander, epsilon, ready for release. This has involved numerous internal architectural changes, bug fixes, and documentation additions.
 
 One of the most important changes to the library was to qualify (namespace) the core pattern matching and pattern substitution operators such as `and`, `or`, `scan`, etc. Prior to epsilon these operators were available via their unqualified symbols. This led to some friction for folks. From now forward, beginning with epsilon, these operators will be fully qualified and available from the namespace `meander.epsilon`.
 

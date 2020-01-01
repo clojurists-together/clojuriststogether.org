@@ -1,5 +1,7 @@
+---
 Title: Join the Clojurists Together Committee
 type: "post"
+---
 
 As we near the close of our first year at Clojurists Together, we are opening up elections for new committee positions. As part of our commitment to [transparency](/transparency/) and community governance, Clojurists Together holds annual elections. The Committee is responsible for governing the projects, selecting which projects are sponsored, administering the projects, and interacting with sponsors. This year, we had seven committee members:
 

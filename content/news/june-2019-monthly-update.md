@@ -1,9 +1,11 @@
+---
 title: June 2019 Monthly Update
 date: 07/01/2019
 type: post
 draft: false
+---
 
-## Clojurists Together 
+## Clojurists Together
 
 Hi CT Community -
 

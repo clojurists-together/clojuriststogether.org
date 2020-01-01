@@ -1,6 +1,8 @@
+---
 title: July 2019 Monthly Update
 date: 2019-08-06T00:00:00+12:00
 type: post
+---
 
 ## Clojurists Together
 

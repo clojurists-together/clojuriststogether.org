@@ -1,6 +1,8 @@
+---
 title: Q1 2019 Funding Announcement
 date: 2019-01-23
 type: "post"
+---
 
 Clojurists Together is happy to announce that for Q1 of 2019 (February-April) we are funding two projects: [Neanderthal](https://neanderthal.uncomplicate.org) with Dragan Djuric, and [Aleph](https://aleph.io) with Oleksii Kachaiev.
 

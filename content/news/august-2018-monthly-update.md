@@ -1,11 +1,13 @@
+---
 title: August 2018 Monthly Update
 date: 2018-09-06T20:30:31+12:00
 draft: false
 type: post
+---
 
 ## Clojurists Together news
 
-August was the first month of funding for the quarter, so today we present the initial round of updates on new projects, cljdoc and Shadow CLJS. 
+August was the first month of funding for the quarter, so today we present the initial round of updates on new projects, cljdoc and Shadow CLJS.
 
 This month we have hired Rachel Magruder part-time to help out with the day-to-day running of Clojurists Together. If you send us an email you may get a response from her. She is also helping out with the backend processing of contracts, grant reports, payments, e.t.c.
 
@@ -19,19 +21,19 @@ This was a lot of work but it sets the project up for more interesting extension
 
 Also I looked more into **integrating specs** but without changes to spec it is impossible to determine if a spec originates from the artefact that is being analysed or from one of it's dependencies. To fix this specs will need to support metadata ([CLJ-2194](https://dev.clojure.org/jira/browse/CLJ-2194)) but the timeline for this is unclear.
 
-In the light of this I'm considering focusing on examples first.  More details to come. 
+In the light of this I'm considering focusing on examples first.  More details to come.
 
 Some more minor things that happened:
 
-- I printed [**stickers**](https://twitter.com/martinklepsch/status/1037802412680126464) which I'm planning to send to contributors. 
-- Bozhidar likes favicons so I added one :) 
+- I printed [**stickers**](https://twitter.com/martinklepsch/status/1037802412680126464) which I'm planning to send to contributors.
+- Bozhidar likes favicons so I added one :)
 - Work is underway to integrate cljdoc into [Dash](https://kapeli.com/dash)
 - Various fixes to the analyser code, mostly to eliminate slight differences between Clojure and ClojureScript as well as some dependency related improvements.
 - I shipped a [**quick switcher (demo)**](https://giant.gfycat.com/GoodCluelessKusimanse.mp4) that allows you to switch between projects that you opened recently. I hope to expand this to quickly finding vars, namespaces and articles in the current project.
 
 I'll also be at [ClojuTRE](https://clojutre.org/2018/) next week. Say hi if you're around! 👋
 
-Oh and after ClojuTRE I'll be on a sailboat for two weeks so there will be less activity than usual. 
+Oh and after ClojuTRE I'll be on a sailboat for two weeks so there will be less activity than usual.
 
 ## Shadow CLJS updates
 

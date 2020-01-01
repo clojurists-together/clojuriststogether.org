@@ -1,6 +1,8 @@
+---
 title: December 2018 Monthly Update
 date: 01/16/2019
 type: post
+---
 
 ## Clojurists Together News
 

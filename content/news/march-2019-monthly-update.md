@@ -1,28 +1,30 @@
+---
 title: March 2019 Monthly Update
 date: 04/18/2019
 type: post
 draft: false
+---
 
 ## Clojurists Together News
 
 Hello CT Community -
 
-The second month of updates from Neanderthal and Aleph is here. 
+The second month of updates from Neanderthal and Aleph is here.
 
 Thanks for your continued support of Clojurists Together!
 
 ## Neanderthal update
 
-10. [Deep Learning from Scratch to GPU - 9 - The Activation and its Derivative](https://dragan.rocks/articles/19/Deep-Learning-in-Clojure-From-Scratch-to-GPU-10-The-Backward-Pass-CDU-GPU-CUDA-OpenCL-Nvidia-AMD-Intel) 
-<br /> March 20, 2019 
+10. [Deep Learning from Scratch to GPU - 9 - The Activation and its Derivative](https://dragan.rocks/articles/19/Deep-Learning-in-Clojure-From-Scratch-to-GPU-10-The-Backward-Pass-CDU-GPU-CUDA-OpenCL-Nvidia-AMD-Intel)
+<br /> March 20, 2019
 We implement the key part of the backward pass, the computation of the error of a layer. Along the way, we set up the infrastructure for the complete implementation of backpropagation.
 
 11. [Deep Learning from Scratch to GPU - 10 - The Backward Pass (CUDA, OpenCL, Nvidia, AMD, Intel](https://dragan.rocks/articles/19/Deep-Learning-in-Clojure-From-Scratch-to-GPU-11-A-Simple-Neural-Network-API)
-<br /> March 25, 2019 
+<br /> March 25, 2019
 We complete the basic implementation of the backward pass of backpropagation and gradient descent.
 
 12. [Deep Learning from Scratch to GPU - 11 - A Simple Neural Network Inference API](https://dragan.rocks/articles/19/Deep-Learning-in-Clojure-From-Scratch-to-GPU-12-A-Simple-Neural-Network-Training-API)
-<br /> March 28, 2019 
+<br /> March 28, 2019
 The time is ripe for wrapping what we have built so far in a nice Neural Network API. After all, who would want to assemble networks by hand?
 
 
@@ -52,7 +54,7 @@ I've spent quite a lot of time working through comments for previous PRs and kee
 
 ### Performance
 
-* HTTP client timeouts were reimplemented with `HashedWheelTimer`s that are designed specifically to handler tons of I/O events, [#499](https://github.com/ztellman/aleph/pull/499). That's a huge performance improvement for projects with higher RPS rates. The reasons for that were described in [#479](https://github.com/ztellman/aleph/issues/479), thanks to [Alexander Yakushev](https://github.com/alexander-yakushev) for brining this up. 
+* HTTP client timeouts were reimplemented with `HashedWheelTimer`s that are designed specifically to handler tons of I/O events, [#499](https://github.com/ztellman/aleph/pull/499). That's a huge performance improvement for projects with higher RPS rates. The reasons for that were described in [#479](https://github.com/ztellman/aleph/issues/479), thanks to [Alexander Yakushev](https://github.com/alexander-yakushev) for brining this up.
 
 ### MQTT
 

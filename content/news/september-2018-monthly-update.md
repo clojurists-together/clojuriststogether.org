@@ -1,7 +1,9 @@
+---
 title: September 2018 Monthly Update
 date: 10/04/2018
 draft: false
 type: post
+---
 
 ## Clojurists Together news
 

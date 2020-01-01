@@ -1,7 +1,9 @@
+---
 title: February 2019 Monthly Update
 date: 03/12/2019
 type: post
 draft: false
+---
 
 ## Clojurists Together News
 

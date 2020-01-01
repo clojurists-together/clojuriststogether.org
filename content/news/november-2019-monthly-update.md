@@ -1,7 +1,9 @@
+---
 title: November 2019 Monthly Update
 date: 12/06/2019
 draft: false
 type: post
+---
 
 November was our third and final month with this round of projects, check out their monthly update!
 
@@ -45,17 +47,17 @@ One of the most significant improvements in October came in the form of ClojureS
 
 ## Performance/Code generation improvements
 
-The performance of n or more patterns when using the `search` macro by define runtime was given a boost by writing functions specially suited to the task. 
+The performance of n or more patterns when using the `search` macro by define runtime was given a boost by writing functions specially suited to the task.
 
-Continuing with improvements to reference (the symbols that look like `%foo`) compilation last month, this month I fixed a subtle bug which could cause code size to increase substantially with by combining cyclic references and `or` patterns. While patterns would still match as expected, the resulting code size and compiler performance in these cases was unacceptable. Additionally, unused functions are no longer produced by reference code generation. 
+Continuing with improvements to reference (the symbols that look like `%foo`) compilation last month, this month I fixed a subtle bug which could cause code size to increase substantially with by combining cyclic references and `or` patterns. While patterns would still match as expected, the resulting code size and compiler performance in these cases was unacceptable. Additionally, unused functions are no longer produced by reference code generation.
 
 To reduce code size, the internal process which attempts to merge two nodes in the intermediate representation made some progress. Merging is attempted when two nodes have similar properties. If their properties are the same, then an attempt is made to merge their children. In the past, if any of the submerges failed, the whole merge would fail. This is not the desired outcome. Since the two nodes are similar enough to combine the merge process now combines the two nodes and produces a branch node (a choice between patterns) with the children. This reduces the generated code size significantly and avoids doing extra work.
 
-Substitution got better this month with `with` pattern enhancements/fixes. Recursive references to map patterns which used memory variables i.e. `%m {!k !v & %m}` used to stack overflow, now they don't. The substitution compiler now uses the same acyclic reference inlining as the match compiler avoiding the cost of function calls at runtime. 
+Substitution got better this month with `with` pattern enhancements/fixes. Recursive references to map patterns which used memory variables i.e. `%m {!k !v & %m}` used to stack overflow, now they don't. The substitution compiler now uses the same acyclic reference inlining as the match compiler avoiding the cost of function calls at runtime.
 
 ## Enhancements
 
-Toward the end of the month I wanted to shift my attention to making the `cata` pattern matching operator available on the substitution side of `rewrite` and `rewrites` clauses. The semantics of the substitution version of the `cata` pattern is to recursively rewrite with a constructed value via substitution. So `(cata [?x ?y])` on the substitution side would first construct `[?x ?y]` then recurse. This provides an elegant way to write non-trivial recursive rewrite systems which are very useful when work with recursively structured data. While my goal was to have it complete by the end of the month, I just couldn't quite pull it off in time. However, this work is near completion and I expect to make it available soon.     
+Toward the end of the month I wanted to shift my attention to making the `cata` pattern matching operator available on the substitution side of `rewrite` and `rewrites` clauses. The semantics of the substitution version of the `cata` pattern is to recursively rewrite with a constructed value via substitution. So `(cata [?x ?y])` on the substitution side would first construct `[?x ?y]` then recurse. This provides an elegant way to write non-trivial recursive rewrite systems which are very useful when work with recursively structured data. While my goal was to have it complete by the end of the month, I just couldn't quite pull it off in time. However, this work is near completion and I expect to make it available soon.
 
 # Calva
 
@@ -138,7 +140,7 @@ We have also worked on closing some gaps in the developer documentation, adding 
 
 ### Other
 
-This report concludes the Clojurists Together 2019 Q3 sponsorship of Calva. We will probably apply again, sometime soon, Calva is far from finished! 
+This report concludes the Clojurists Together 2019 Q3 sponsorship of Calva. We will probably apply again, sometime soon, Calva is far from finished!
 
 Meanwhile, a few days ago I got my GitHub Sponsors profile approved, so now you can [sponsor me](https://github.com/sponsors/PEZ) there. Please do!
 
@@ -157,9 +159,7 @@ Meanwhile, a few days ago I got my GitHub Sponsors profile approved, so now you 
 
 * Launched "The State of CIDER" survey - https://metaredux.com/posts/2019/11/02/state-of-cider.html
 * Wrote a couple of "Hard CIDER" blog posts - https://metaredux.com/posts/2019/11/07/hard-cider-hard-restart.html and https://metaredux.com/posts/2019/11/02/hard-cider-understanding-the-jack-in-process.html
-* A bunch of small CIDER improvements as documented here https://github.com/clojure-emacs/cider/blob/master/CHANGELOG.md#master-unreleased Most compatibility with Emacs 25 has been restored and the debugger's menu and keybindings are configurable. 
+* A bunch of small CIDER improvements as documented here https://github.com/clojure-emacs/cider/blob/master/CHANGELOG.md#master-unreleased Most compatibility with Emacs 25 has been restored and the debugger's menu and keybindings are configurable.
 * Cut a new Orchard release which fixes a bug with empty namespaces (https://github.com/clojure-emacs/orchard/pull/76). Cross-project collaboration for the win! :-)
 * Published cider-nrepl's API - https://docs.cider.mx/cider-nrepl/nrepl-api/ops.html
 * Misc improves to CIDER and cider-nrepl's doc site
-
-

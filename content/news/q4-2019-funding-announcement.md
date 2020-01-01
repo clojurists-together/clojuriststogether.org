@@ -1,6 +1,8 @@
+---
 title: Q4 2019 Funding Announcement
 date: 2019-01-05T14:00:00+13:00
 type: "post"
+---
 
 Clojurists Together is happy to announce that for Q4 of 2019 (November-January) we are funding four projects:
 

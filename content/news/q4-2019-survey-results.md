@@ -1,6 +1,8 @@
+---
 title: Q4 2019 Survey Results and Call for Proposals
 date: 2019-10-22T20:30:50+13:00
 type: "post"
+---
 
 Thanks so much for your support and feedback in the latest survey. We value your opinions and always take suggestions into account as we make changes from quarter to quarter.
 

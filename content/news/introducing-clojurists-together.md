@@ -1,12 +1,14 @@
+---
 date: "2017-11-13T13:42:56+13:00"
 title: Introducing Clojurists Together
 type: "post"
+---
 
 ### Keeping Clojure open source sustainable
 
 The Clojure ecosystem is built on open source. From the Clojure and ClojureScript projects, to the build tools, web frameworks, and the hundreds of innovative and useful libraries that we all depend on every day. The pervasive use of open source has enabled a flourishing Clojure ecosystem, but it also has some hidden downsides. The vast majority of Clojure projects are maintained by a small handful of people, often only one person. If they are not sponsored by their day job to work on the open source projects, then the time maintaining the project, responding to issues and pull requests, and support requests falls to nights and weekends, taking time away from friends and family.
 
-Across the entire open source ecosystem, there is a growing recognition that the [current model of open source is not sustainable](http://nadiaeghbal.com/oss/). More and more, maintainers are suffering from [burnout](https://www.kennethreitz.org/essays/the-reality-of-developer-burnout), or quitting the project entirely. Important projects can languish because the original maintainers no longer have time to work on them, or no longer use them themselves, or for any of many possible work or non-work related reasons..  
+Across the entire open source ecosystem, there is a growing recognition that the [current model of open source is not sustainable](http://nadiaeghbal.com/oss/). More and more, maintainers are suffering from [burnout](https://www.kennethreitz.org/essays/the-reality-of-developer-burnout), or quitting the project entirely. Important projects can languish because the original maintainers no longer have time to work on them, or no longer use them themselves, or for any of many possible work or non-work related reasons..
 
 ### Introducing...
 
