@@ -72,7 +72,7 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 <section class="member-category cons-member">
 <h2><span>$100/mo</span><br>Cons Members</h2>
 <section class="membership-card">
-<ul><li class="founding member"><a href="http://www.jepson.io/" target="_blank">Jepson</a></li></ul>
+<ul><li class="founding member"><a href="https://jepsen.io/" target="_blank">Jepsen</a></li></ul>
 <ul><li class="founding member"><a href="http://www.deps.co/" target="_blank">Deps</a></li></ul>
 <ul><li><a href="http://www.deep-impact.ch/" target="_blank">Deep Impact</a></li></ul>
 <ul><li><a href="https://www.pkc.io" target="_blank">PKC Security</a></li></ul>

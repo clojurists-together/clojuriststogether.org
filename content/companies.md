@@ -28,7 +28,7 @@ Clojurists Together is a member project of the [Software Freedom Conservancy](ht
 <p>Vote on board members, get progress updates, influence which projects are selected, recognition on the Clojurists Together website.</p>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-%<input type="hidden" name="hosted_button_id" value="7MEVKKH4TQ336">%
+<input type="hidden" name="hosted_button_id" value="7MEVKKH4TQ336">
 <table>
 <tr>
 <td>
@@ -53,7 +53,7 @@ Clojurists Together is a member project of the [Software Freedom Conservancy](ht
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-%<input type="hidden" name="hosted_button_id" value="7BLAYU6JEPXZ6">%
+<input type="hidden" name="hosted_button_id" value="7BLAYU6JEPXZ6">
 <table>
 <tr><td><input type="hidden" name="on0" value="Membership Level"></td></tr><tr><td><select name="os0">
 <option value="Monthly Cons Membership">Monthly Cons Membership : $100 USD - monthly</option>
@@ -75,7 +75,7 @@ Clojurists Together is a member project of the [Software Freedom Conservancy](ht
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-%<input type="hidden" name="hosted_button_id" value="3486MRLANRSDQ">%
+<input type="hidden" name="hosted_button_id" value="3486MRLANRSDQ">
 <table>
 <tr><td><input type="hidden" name="on0" value="Membership Level"></td></tr><tr><td><select name="os0">
 <option value="Monthly Into Membership">Monthly Into Membership : $200 USD - monthly</option>
@@ -103,7 +103,7 @@ Clojurists Together is a member project of the [Software Freedom Conservancy](ht
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-%<input type="hidden" name="hosted_button_id" value="ZCVLMJNPFJJMJ">%
+<input type="hidden" name="hosted_button_id" value="ZCVLMJNPFJJMJ">
 <table>
 <tr><td><input type="hidden" name="on0" value="Membership Level"></td></tr><tr><td><select name="os0">
 <option value="Monthly Filter Membership">Monthly Filter Membership : $500 USD - monthly</option>
@@ -133,7 +133,7 @@ Clojurists Together is a member project of the [Software Freedom Conservancy](ht
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-%<input type="hidden" name="hosted_button_id" value="3HUZJEBTYBLJA">%
+<input type="hidden" name="hosted_button_id" value="3HUZJEBTYBLJA">
 <table>
 <tr><td><input type="hidden" name="on0" value="Membership Level"></td></tr><tr><td><select name="os0">
 <option value="Monthly Transduce Membership">Monthly Transduce Membership : $1,000 USD - monthly</option>
@@ -165,7 +165,7 @@ Clojurists Together is a member project of the [Software Freedom Conservancy](ht
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-%<input type="hidden" name="hosted_button_id" value="YT98PJMCVF5U8">%
+<input type="hidden" name="hosted_button_id" value="YT98PJMCVF5U8">
 <table>
 <tr><td><input type="hidden" name="on0" value="Membership Level"></td></tr><tr><td><select name="os0">
 <option value="Monthly Map Membership">Monthly Map Membership : $2,000 USD - monthly</option>
@@ -201,7 +201,7 @@ Clojurists Together is a member project of the [Software Freedom Conservancy](ht
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-%<input type="hidden" name="hosted_button_id" value="SSJ294XGD9DZJ">%
+<input type="hidden" name="hosted_button_id" value="SSJ294XGD9DZJ">
 <table>
 <tr><td><input type="hidden" name="on0" value="Membership Level"></td></tr><tr><td><select name="os0">
 <option value="Monthly Reduce Membership">Monthly Reduce Membership : $5,000 USD - monthly</option>

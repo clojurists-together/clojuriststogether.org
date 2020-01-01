@@ -21,7 +21,7 @@ Vote on board members, get progress updates, influence which projects are select
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-%<input type="hidden" name="hosted_button_id" value="EB8BF96SAUTK6">%
+<input type="hidden" name="hosted_button_id" value="EB8BF96SAUTK6">
 <input type="hidden" name="custom" value="testCustomContributing">
 <table>
 <tr><td><input type="hidden" name="on0" value="Membership Level"></td></tr><tr><td><select name="os0">
@@ -51,7 +51,7 @@ Vote on board members, get progress updates, influence which projects are select
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-%<input type="hidden" name="hosted_button_id" value="EB8BF96SAUTK6">%
+<input type="hidden" name="hosted_button_id" value="EB8BF96SAUTK6">
 <input type="hidden" name="custom" value="testCustomDeveloper">
 <table>
 <tr><td><input type="hidden" name="on0" value="Membership Level"></td></tr><tr><td><select name="os0">
