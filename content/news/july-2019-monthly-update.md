@@ -2,6 +2,7 @@
 title: July 2019 Monthly Update
 date: 2019-08-06T00:00:00+12:00
 type: post
+summary: "Daniel has just come back from Belgium to speak at Heart of Clojure about building stable foundations. The talk was recorded and will be coming out sometime in the future. We met lots of Clojurists Together supporters at the conference and had a stand there to talk about the work we are able to fund thanks to our members."
 ---
 
 ## Clojurists Together

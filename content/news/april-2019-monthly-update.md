@@ -2,6 +2,7 @@
 title: April 2019 Monthly Update
 date: "2019-05-16"
 type: post
+summary: "Here is our final Q1 monthly update from projects, Neanderthal and Aleph - thanks so much for all your hard work this quarter."
 ---
 
 ## Clojurists Together News

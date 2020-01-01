@@ -2,6 +2,7 @@
 title: Q3 2019 Survey Results and Call for Proposals
 date: "2019-07-12"
 type: "post"
+summary: "We surveyed our members again and asked them what they wanted us to focus on. Our next funding round closes on Wednesday, July 17th, 2019 at 11:59pm PST."
 ---
 
 Thanks so much for your support and feedback in the latest survey. We value your opinions and always take suggestions into account as we make changes from quarter to quarter.

@@ -1,7 +1,8 @@
 ---
 title: Q4 2019 Survey Results and Call for Proposals
-date: 2019-10-22T20:30:50+13:00
+date: "2019-10-22T20:30:50+13:00"
 type: "post"
+summary: "We surveyed our members to see what they wanted us to focus on. Our next funding round for new projects will close on Saturday, July 26th, 2019 at 11:59pm PST. We'll be funding four projects $9,000 each over three months ($3,000/mo)."
 ---
 
 Thanks so much for your support and feedback in the latest survey. We value your opinions and always take suggestions into account as we make changes from quarter to quarter.

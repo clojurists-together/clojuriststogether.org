@@ -2,6 +2,7 @@
 title: June 2019 Monthly Update
 date: "2019-07-01"
 type: post
+summary: "It's been a successful second month with our selected Q2 project, Fireplace, check out the updates below. The Call for Proposals for Q3 Projects at Clojurists Together is now open!"
 ---
 
 ## Clojurists Together

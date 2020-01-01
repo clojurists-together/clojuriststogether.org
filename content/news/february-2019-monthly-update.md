@@ -2,6 +2,7 @@
 title: February 2019 Monthly Update
 date: "2019-03-12"
 type: post
+summary: "This month we present the first update from our new projects, Neanderthal and Aleph. Thanks to everyone for your continued support of Clojurists Together!"
 ---
 
 ## Clojurists Together News

@@ -2,6 +2,7 @@
 title: January 2019 Monthly Update
 date: "2019-02-11"
 type: post
+summary: "We are happy to announce the conclusion of Q4 2018 and the beginning of our Q1 2019 funding round where we are funding Aleph and Neanderthal. These are the final progress reports for projects Datascript and Kaocha. Special thanks to Nikita and Arne for all your hard work!"
 ---
 
 ## Clojurists Together News

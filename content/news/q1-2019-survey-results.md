@@ -1,7 +1,12 @@
 ---
 title: Q1 2019 Survey Results and Call for Proposals
-date: 2018-10-01T08:30:50+13:00
+date: 2019-01-09T08:30:50+13:00
 type: "post"
+summary: "Happy New Year Clojurists Together community!
+
+Thanks so much for your support and feedback in the latest survey. We value your opinions and always take suggestions into account as we make changes from quarter to quarter.
+
+Project applications for our Q1 2019 round close on 15th Jan, midnight PST. The selections will be announced shortly afterwards. The Q1 2019 projects will start on February 1."
 ---
 
 Happy New Year Clojurists Together community!

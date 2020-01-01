@@ -2,6 +2,7 @@
 title: September 2019 Monthly Update
 date: "2019-10-28"
 type: post
+summary: "September was our second month with this round of projects, check out their monthly update!"
 ---
 
 September was our second month with this round of projects, check out their monthly update!
