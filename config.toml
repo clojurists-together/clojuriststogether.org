@@ -8,3 +8,6 @@ unsafe= true
 
 [params]
 custom_css = ["app.css"]
+
+[permalinks]
+news = "/news/:slug/"
