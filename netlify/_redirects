@@ -1,4 +1,4 @@
 # Docs about _redirects at https://www.netlify.com/docs/redirects/
 
 # Exclamation mark forces redirect even when path exists
-/* https://www.clojuriststogether.org/:splat 301!
+# /* https://www.clojuriststogether.org/:splat 301!
