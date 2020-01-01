@@ -30,6 +30,7 @@ The first user facing feature to take advantage of this is the test
 runner, which is now fully asynchronous.
 
 Commits:
+
 * Warn, don't error, on missing eval value
 * Replace load-file hack with eval file/line/column
 * Remove nREPL version check
@@ -54,6 +55,7 @@ plus a lot of refactoring to get the data model in line with async
 support.
 
 Commits:
+
 * Make omnicomplete (sort of) async
 * Try tightening polling loop
 * Eliminate session.process()

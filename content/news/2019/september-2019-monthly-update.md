@@ -21,6 +21,7 @@ September was our second month with this round of projects, check out their mont
 * Added basic CLJS prepl support
 
 ### Sept 16-30
+
 * Added [:warnings-as-errors](https://shadow-cljs.github.io/docs/UsersGuide.html#warnigs-as-errors) to treat certain warnings as errors instead. Mostly intended for CI builds that should fail instead of warn.
 * Changed the behavior of [:build-hooks](https://shadow-cljs.github.io/docs/UsersGuide.html#build-hooks) so thrown exceptions fail the build, instead of just being logged.
 * Added :devtools {:log-style "color: red;"} to allow customizing the styles used for shadow-cljs log messages in the browser during development. Suggestions welcome for a better default color schema. The default blue doesn't play so nice with dark-mode.
@@ -29,6 +30,7 @@ September was our second month with this round of projects, check out their mont
 ### September 1-15
 
 The work for the first half of September saw several improvements to ergonomics, documentation, code generation, and the official release of the epsilon branch of the project.
+
 * Improving map pattern ergonomics and performance
 * Previously, the match macro would never allow maps patterns to contain logic variable keys. The reason for this was due to the semantics of match pattern matching which requires that each pattern have one, and only, one possible match. A map pattern with a logic variable key — in isolation — could yield multiple solutions for that logic variable. However, if the map pattern is not in isolation, and the logic variables has been previously bound, then the restriction to disallow variable keys can be relaxed. Not only does this allow the match macro do more than it could before, it also greatly improved performance for these cases as it eliminated needless searches.
 * Improving code generation
@@ -37,11 +39,12 @@ The work for the first half of September saw several improvements to ergonomics,
 * With an eye towards the upcoming Strange Loop talk about Meander, numerous documentation changes were made. The previously large README has now been updated to be more of an attention getter, and the formal documentation has been moved to the projects doc folder with the content separated into different files. Virtually all of the core API was documented and formatted such that we could take advantage of the wonderful formatting capabilities of cljdoc.
 
 ### September 16-30
+
 The weeks between the 16 and the 30th saw some pretty amazing improvements, particularly to the performance of the pattern matcher.
 
 * Map and set patterns with variable keys/elements saw massive performance boosts by, once again, rewriting the pattern AST and the IR (intermediate representation). While specific details can be found in the commits 51f24ba0, f78296, and ee8845a, I think it is safe to say that map and set patterns containing variable keys should be compiled to code which runs as fast as most hand written code with the same semantics. Coupled with the improvements earlier in the month of September, matching against maps and set patterns are now very fast.
-Several big improvements also came by various AST manipulations to with patterns. By inlining non or, acyclic pattern references, the compiler will only generate function code for pattern matches which need recursion or have several branches by way of or patterns. This results in both less code and better runtime performance.
-Some minor improvements also include applying beta reduction when safe, leveraging type information when possible, and preventing reflection when using method calls.
+* Several big improvements also came by various AST manipulations to with patterns. By inlining non or, acyclic pattern references, the compiler will only generate function code for pattern matches which need recursion or have several branches by way of or patterns. This results in both less code and better runtime performance.
+* Some minor improvements also include applying beta reduction when safe, leveraging type information when possible, and preventing reflection when using method calls.
 * A very exciting addition to pattern matcher was a new operator called "cata" which is short for catamorphism and should not be confused with the Category Theory concept by the same name. The cata operator was borrowed from the paper "A Nanopass Framework for Commercial Compiler Development" by Andrew Keep where it appears as the square braces. This operator allows for pattern matching to occur recursively over the entire set of match clauses and apply further pattern matching to the result. It is an incredibly powerful tool for performing nested transformations or recursive searches.
 
 ## Calva
@@ -49,6 +52,7 @@ Some minor improvements also include applying beta reduction when safe, leveragi
 ### September 1 - 15  Theme: Project Maintainability - through quality
 
 Documentation
+
 * Added instructions for how to [setup your VS Code Workspace layouts to work with Calva](https://calva.readthedocs.io/en/latest/workspace-layouts.html).
 * Updated documentation on how to [Connect Calva to the REPL](https://calva.readthedocs.io/en/latest/connect.html).
 * Including a page on the subject of [Customizing the Connect Sequence](https://calva.readthedocs.io/en/latest/connect-sequences.html#settings-for-adding-custom-sequences).
@@ -57,6 +61,7 @@ Documentation
 * Updated documentation on [How to Contribute code to Calva](https://github.com/BetterThanTomorrow/calva/wiki/How-to-Contribute).
 
 Continuous Integration
+
 * We have reworked our integration and release process a bit. Or, rather, just trying to get it less ad hoc. And we are now taking help from Circle CI to automate much of it. Circle CI now does the following:
 * Unit tests are run on all updates of the Calva repository.
 * PR's automatically renders a build of a Calva extension, and the VSIX package is made publicly available for contributors and maintainers to download and test.
@@ -66,12 +71,14 @@ Continuous Integration
 This is a total bliss, I tell ya.
 
 Jack-in and Connect
+
 * The Customizable Connect Sequences are released, including the No-prompting Jack-in mentioned in the last report. It has been iterated on and some bugs are also squashed.
 * Fix Figwheel Main deps added to non-cljs projects
 * Support connecting to Leiningen and CLI project using shadow-cljs watcher
-*S upport for launching with user aliases/profiles
+* Support for launching with user aliases/profiles
 
 Other
+
 * More accurate code completion lookups (by giving the nREPL completion middleware more context for the lookup).
 * By PR: Keep focus in editor when evaluating to the REPL Window
 * By PR: Close java processes when clsoing or reloading VS Code. (On Windows, where VS Code fails to clean up Jack-in processes for us.)
@@ -92,6 +99,7 @@ My work has shifted focus a bit the latest period. I have committed less code my
 Things done From the CHANGELOG
 
 New features in **bold**:
+
 * [Revert disconnecting and jacking out on closing of REPL window](https://github.com/BetterThanTomorrow/calva/issues/326)
 * [Add command for connecting to a non-project REPL](https://github.com/BetterThanTomorrow/calva/issues/328)
 * **[Add hover to inline result display, containing the full results](https://github.com/BetterThanTomorrow/calva/pull/336)**
@@ -109,11 +117,13 @@ New features in **bold**:
 * [Fix bug with reporting errors using off-by-one line and column numbers](https://github.com/BetterThanTomorrow/calva/issues/354)
 
 Not showing in the CHANGELOG
+
 * The development process has been vastly simplified. Showing here: [How to Contribute](https://github.com/BetterThanTomorrow/calva/wiki/How-to-Contribute)
 * We have added the tests for Calva's Clojure grammar to the CI pipeline
 
 ## CIDER
 ### September 1-15
+
 * I've started work on CIDER 0.23 which is going to be a relative small update. All details are in the changelog, there are just a couple of outstanding PRs that need to be wrapped before I can cut the release.
 * I've added DocSearch integration to nrepl.org
 * I've started work on the new documentation site for cider-nrepl ()
@@ -124,6 +134,7 @@ Not showing in the CHANGELOG
 * I've also started working on a "State of CIDER" survey, but it got blocked by the poor state of free survey tools (now I'm torn between sending the survey in chunks or limiting the number of people who can respond). Or just going with Google Forms. :D
 
 ### September 16-30
+
 * Shipped CIDER 0.23
 * Shipped cider-nrepl 0.22.4 (fixes several bugs)
 * Shipped orchard 0.5.3 (fixes a small bug with ClojureDocs)

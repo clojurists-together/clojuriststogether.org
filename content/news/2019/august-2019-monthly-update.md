@@ -83,6 +83,7 @@ Since CIDER and Calva are sharing a lot of the tooling, we have been trying to f
   * **NEXT RELEASE** Use top level form context when collecting code completion candidates_.
 
 #### Documentation
+
 * The [Calva wiki](https://github.com/BetterThanTomorrow/calva/wiki) has gotten some needed attention. (All too little still, but anyway.)
 * A [video showing how to Jack in using a Custom CLJS REPL](https://www.youtube.com/watch?v=a2vRDYXDAug). This was mainly an experiment to try to learn some about how to produce tutorial videos.
 * Some features are being added **documentation first**, meaning we write the user documentation for the feature first and use that to know what needs to be done. See below for an example. We intend to continue with this habit.
@@ -93,6 +94,7 @@ We're preparing for making some major cleanings up of the Calva code base. And e
 
 #### Jack in/Connect
 We've continued with the strong focus on making it easy to connect Calva to your Clojure project.
+
 * **RELEASED**: https://github.com/BetterThanTomorrow/calva/blob/master/CHANGELOG.md#2028---01082019 Operating system peculiarities. Especially Windows, with its cmd.exe and Powershell and Git Bash and MINGW and WSL and… You get the picture. Jack-in has been really hard to get working reliably, but I think we got it nailed down now. (There is still some bugs on Linux, that we have yet to figure out.)
 * **RELEASED**: [Reworked how Calva deals with figuring out the current project root](https://github.com/BetterThanTomorrow/calva/pull/275). This used to be a setting in the workspace, but now it is determined based on the file in the active editor. This change also made it easier to use multi-project workspaces (Mainly because of suporting custom settings per project in the workspace).
 * **RELEASED**: [Support launching with Leiningen aliases](https://github.com/BetterThanTomorrow/calva/pull/279), while also improving how we deal with `main` arguments when launcing with `deps.edn` aliases.
@@ -102,6 +104,7 @@ We've continued with the strong focus on making it easy to connect Calva to your
 
 #### Refactoring tooling
 We've investigated our options for adding refactoring tools.
+
 * [Using `nrepl-refactor`](https://github.com/BetterThanTomorrow/calva/pull/269) to add a *Clean namespace form* feature is going to get included in Calva soon. But *Find symbol references*, seems a bit farther away yet. It is being discussed within that Orchard task force.
 * [Experiment with `clojure-lsp](https://github.com/kstehn/clojure-lsp-client). Which reveals that a lot of functionality is ready to be tapped by Calva from [clojure-lsp](https://github.com/snoe/clojure-lsp)
 
@@ -119,6 +122,7 @@ Theme: _Project Maintanbility - through ease of use_
 We want to try help contribute to the community such that fewer Clojure and ClojureScript projects out there need to specify their editor tooling dependencies and setup. To this end Calva has a Jack-in feature that supports the most common project types and cljs repl types. It also supports customizing the cljs repl configuration so that projects with special cljs types can use Jack in as well. But there are still too many projects out there not supported by Calva Jack in, and this is what we have been working on almost solely.
 
 We are adding something we call Connect Sequences, more on that below. When this is released we will be able to say we enabled the following:
+
 * Support for configuring custom connect seqences. These can be:
   * Clojure only, supporting [Leiningen](https://leiningen.org/), [Clojure CLI](https://clojure.org/reference/deps_and_cli), and [shadow-cljs](http://shadow-cljs.org).
   * Clojure + ClojureScript, supporting [Figwheel Main](https://figwheel.org/), shadow-cljs, Nashorn, [lein-figwheel](https://github.com/bhauman/lein-figwheel), and fully customized cljs repl types.
@@ -131,6 +135,7 @@ We are adding something we call Connect Sequences, more on that below. When this
 * [Support for launching with user alieses/profiles](https://github.com/BetterThanTomorrow/calva/pull/289)
 
 Except for the last one, this all works in development, and we are cleaning up the code and considering to add this additional feature, before release:
+
 * **No-prompting Jack-in**. A way to ”answer” all Jack-in prompts as part of the custom Connect Sequence configuration.
 
 The custom Connect Sequence feature is developed [documentation first](https://github.com/BetterThanTomorrow/calva/issues/282). And you can follow the commits in [this PR](https://github.com/BetterThanTomorrow/calva/pull/285). (The reason there is awfully little feedback there, is because that happens offline).
