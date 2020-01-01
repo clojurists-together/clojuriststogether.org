@@ -2,6 +2,7 @@
 title: 2018 Committee Election Candidates
 date: 2018-11-15
 type: "post"
+summary: "Thanks to everyone who applied to join the Clojurists Together Committee. Here we present the nine candidates, their motivations for joining, and a brief biography so you can learn a little bit about each one. The candidates are (in a randomised order): Nola Stowe, Laurens Van Houtven, Vijay Kiran, Nicolas Modryzk, Ghadi Shayban, Ikuru Kyogoku John Stevenson, Travis McNeill, and Fumiko Hanreich."
 ---
 
 Clojurists Together is holding it's first annual elections for community elected committee members. Thanks to everyone who applied to join the Clojurists Together Committee. Here we present the nine candidates, their motivations for joining, and a brief biography so you can learn a little bit about each one. If you're a Clojurists Together member, you should have recently received an email with your link to vote with [CIVS](https://civs.cs.cornell.edu), an online election voting system. Only Clojurists Together members as of the 14th November 2018 are eligible to vote. Every member gets one vote.

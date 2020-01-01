@@ -2,6 +2,7 @@
 title: 2018 Committee Election Results
 date: 2018-11-30
 type: "post"
+summary: "Clojurists Together has held our first election for people to serve on the committee. The members of Clojurists Together have elected Nola Stowe, Fumiko Hanreich, and Laurens Van Houtven."
 ---
 
 Clojurists Together has held our first election for people to serve on the committee. The members of Clojurists Together have elected Nola Stowe, Fumiko Hanreich, and Laurens Van Houtven.
