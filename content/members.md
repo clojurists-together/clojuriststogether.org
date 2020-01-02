@@ -77,6 +77,7 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 <ul><li><a href="https://www.magnet.coop" target="_blank">Magnet</a></li></ul>
 <ul><li><a href="https://halalbooking.com/" target="_blank">HalalBooking</a></li></ul>
 <ul><li><a href="https://www.docsolver.com" target="_blank">Docsolver</a></li></ul>
+<ul><li><a href="https://www.cognician.com" target="_blank">Cognician</a></li></ul>
 </section>
 </section>
 
