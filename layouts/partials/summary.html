@@ -9,6 +9,6 @@
     {{- .Date.Format "January 2, 2006" -}}
   </time>
   <div>
-    {{ .Summary  }}
+    {{ .Summary | plainify }}
   </div>
 </div>

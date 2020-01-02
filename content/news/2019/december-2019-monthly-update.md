@@ -6,6 +6,8 @@ type: post
 
 November was the first month of our next funding round. libpython-clj and Deep Diamond started in November, Expound started in December, and Oz is starting in January. This is a combined update due to the holiday break.
 
+<!--more-->
+
 We've recently rebuilt our website and now have an RSS feed available. You can find a link in the footer of the site.
 
 ## Deep Diamond

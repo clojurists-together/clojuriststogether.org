@@ -6,6 +6,8 @@ type: post
 
 October was our third and final month with this round of projects, check out their monthly update!
 
+<!--more-->
+
 * [Shadow CLJS](http://shadow-cljs.org/) with Thomas Heller
 * [Meander](https://github.com/noprompt/meander) with Joel Holdbrooks
 * [Calva](https://github.com/BetterThanTomorrow/calva) with Peter Strömberg
