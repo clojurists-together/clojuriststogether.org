@@ -1,10 +1,10 @@
 ---
-title: November 2019 Monthly Update
+title: October 2019 Monthly Update
 date: "2019-12-06"
 type: post
 ---
 
-November was our third and final month with this round of projects, check out their monthly update!
+October was our third and final month with this round of projects, check out their monthly update!
 
 * [Shadow CLJS](http://shadow-cljs.org/) with Thomas Heller
 * [Meander](https://github.com/noprompt/meander) with Joel Holdbrooks
