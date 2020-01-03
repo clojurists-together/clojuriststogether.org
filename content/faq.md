@@ -3,6 +3,8 @@ title: FAQ
 type: page
 ---
 
+{{< toc >}}
+
 ## Are my donations tax deductible?
 
 Clojurists Together is a member project of the [Software Freedom Conservancy](https://sfconservancy.org). This means that we are able to accept 501\(c)3 donations. While we can't provide members with country-specific tax advice, we're not aware of any non-US country that that recognizes donations to a US public charity as tax-deductible in their jurisdiction. If you have any questions, please [get in touch](/contact) or talk to your accountant.

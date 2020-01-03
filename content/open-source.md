@@ -3,6 +3,8 @@ title: Open Source
 type: page
 ---
 
+{{< toc >}}
+
 ## Applications
 
 Every three months, Clojurists Together takes applications from open source developers for funding to work on open source projects. The Clojurists Together [committee](/team) then evaluates the proposals, makes their selection, and then funds projects with a fellowship for the next three months. You can apply at any time for the next funding cycle, and you can make multiple applications for different projects.
