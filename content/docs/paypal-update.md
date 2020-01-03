@@ -1,8 +1,13 @@
-Title: Updating your PayPal details
-Date:
-Type: "post"
+---
+title: Updating or Cancelling your PayPal subscription
+type: "page"
+---
 
-Find and click the small gear icon in the top right corner of your PayPal Homepage, it will provide you a secondary menu.
+If you signed up for Clojurists Together using PayPal, you can manage your payments using the PayPal site.
+
+First, log in to [PayPal](https://www.paypal.com/).
+
+Then, find and click the small gear icon in the top right corner of your PayPal Homepage, it will provide you a secondary menu.
 
 ![Click the settings gear from your Paypal Homepage](/images/docs/paypal/paypal-update-1.png)
 
