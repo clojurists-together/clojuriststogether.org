@@ -111,8 +111,8 @@ Project applications may be submitted at any time. They are evaluated quarterly.
 An example timeline for the February-April funding cycle:
 
 - Anytime: submit an application
-- January 9: Applications for February-April funding cycle close
-- January 12: Funding decisions are returned
+- Mid January: Applications for February-April funding cycle close
+- Mid January: Funding decisions are returned
 - February 1: February-April funding cycle begins
 - February 15: Projects submit first project report
 - February 30: Payment for first month of work is made to projects. Projects submit second project report
