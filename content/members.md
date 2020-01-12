@@ -59,7 +59,7 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 <section class="membership-card">
 <ul><li class="founding member"><a href="http://www.zeniuseducation.com/" target="_blank">Zenius Education</a></li></ul>
 <ul><li class="founding member"><a href="http://www.solita.fi/" target="_blank">Solita</a></li></ul>
-<ul><li><a href="http://www.zeniuseducation.com/" target="_blank">Grammerly</a></li></ul>
+<ul><li><a href="https://www.grammarly.com" target="_blank">Grammarly</a></li></ul>
 </section>
 </section>
 
