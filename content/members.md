@@ -35,7 +35,7 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 <section class="membership-card">
 <h4 class="member founding"><a href="https://www.metosin.fi" target="_blank">Metosin</a></h4>
 <a href="https://www.metosin.fi"><img class="member-logo" src="/logos/metosin.svg"></a>
-<p>Metosin is the first Finnish software house specializing in Clojure. We arrange annually the biggest North-European Clojure conference called [ClojuTRE](https://www.metosin.fi/en/metosin/#events).</p>
+<p>Metosin is the first Finnish software house specializing in Clojure. We arrange annually the biggest North-European Clojure conference called <a href="https://www.metosin.fi/en/metosin/#events">ClojuTRE</a>.</p>
 </section>
 
 <section class="membership-card">
@@ -85,7 +85,7 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 <h2><span>$50/mo</span><br>Assoc Members</h2>
 <section class="membership-card">
 <ul><li class="founding member"><a href="http://bloomventures.io" target="_blank">Bloom Ventures</a></li></ul>
-<ul><li class="founding member"><a href="https://cstap.com" target="_blank">cstap</a></li></ul>
+<ul><li class="founding member"><a href="https://toyokumo.co.jp" target="_blank">TOYOKUMO</a></li></ul>
 <ul><li class="founding member"><a href="http://signifier.jp" target="_blank">Signifier</a></li></ul>
 <ul><li><a href="http://www.deepbluelambda.org" target="_blank">Sattvik Software & Technology Resources</a></li></ul>
 <ul><li><a href="http://www.mastodonc.com" target="_blank">Mastodon C</a></li></ul>
