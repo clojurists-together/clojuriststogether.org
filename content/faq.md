@@ -9,11 +9,11 @@ type: page
 
 Clojurists Together is a trade organisation that charges membership dues to companies and individuals. Whether your dues are deductible depends on whether you are a company or individual, and your local tax rules. We aren't able to provide individual tax advice to our members.
 
-However, what we have seen in the US is that companies with a business interest in the trade association's activities can treat membership dues like any other business expense. Generally speaking, the same rules apply to non-US businesses.
+<!-- However, what we have seen in the US is that companies with a business interest in the trade association's activities can treat membership dues like any other business expense. Generally speaking, the same rules apply to non-US businesses.
 
 > Contributions to section 501(c)(6) organizations are not deductible as charitable contributions on the donor’s federal income tax return. They may be deductible as trade or business expenses if ordi­nary and necessary in the conduct of the taxpayer’s business. - [IRS Tax treatment of donations - 501(c)(6) organizations](https://www.irs.gov/charities-non-profits/other-non-profits/tax-treatment-of-donations-501c6-organizations)
 
-For individuals, the situation depends much more on your exact corporate structure (self-employed vs. employed), and your local tax rules. In all cases, please talk to your tax professional to determine your individual situation. If you have any questions, please [get in touch](/contact) or talk to your accountant.
+For individuals, the situation depends much more on your exact corporate structure (self-employed vs. employed), and your local tax rules. In all cases, please talk to your tax professional to determine your individual situation. If you have any questions, please [get in touch](/contact) or talk to your accountant. -->
 
 When we receive membership dues, we automatically send an invoice with identifying information for the payment.
 
