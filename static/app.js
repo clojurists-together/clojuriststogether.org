@@ -25,7 +25,7 @@ checkoutButtons.forEach(button => {
           // error, display the localized error message to your customer.
           var errorDiv = document.createElement('div')
           errorDiv.textContent = result.error.message
-          button.insertBefore(errorDiv);
+          errorDiv.insertBefore(button, null);
         }
       });
     });
