@@ -15,8 +15,8 @@ checkoutButtons.forEach(button => {
           quantity: 1
         }],
         // TODO: template these in dev vs prod
-        successUrl: 'https://www.clojuriststogether.com/signup-success',
-        cancelUrl: 'https://www.clojuriststogether.com/signup-success'
+        successUrl: 'https://www.clojuriststogether.org/signup-success',
+        cancelUrl: 'https://www.clojuriststogether.org/signup-success'
       })
       .then(function (result) {
         console.error(result)
