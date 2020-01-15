@@ -15,9 +15,7 @@
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
   {{ end }}
 
-  {{ range .Site.Params.custom_css }}
-  <link rel="stylesheet" href="{{ relURL ($.Site.BaseURL) }}{{ . }}">
-  {{ end }}
+  <link rel="stylesheet" href="{{ relURL ($.Site.BaseURL) }}app.css">
 
   {{ if .OutputFormats.Get "RSS" }}
   {{ with .OutputFormats.Get "RSS" }}
@@ -38,6 +36,8 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+  <script src="https://js.stripe.com/v3"></script>
+  <script src="{{ relURL ($.Site.BaseURL) }}app.js"></script>
 </body>
 
 </html>

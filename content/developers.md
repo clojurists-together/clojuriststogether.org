@@ -7,6 +7,10 @@ Stop relying on private forks of projects to get critical bugs fixed. Clojurists
 
 Community support from developers like you helps us improve the Clojure experience for everyone.
 <p></p>
+
+
+
+
 <section class="membership-tiers">
 <p>All memberships can be paid monthly or annually.</p>
 
@@ -17,27 +21,15 @@ Community support from developers like you helps us improve the Clojure experien
 Vote on board members, get progress updates, influence which projects are selected.
 </p>
 
+<button class="become-a-member checkout-button" data-plan="plan_GYMMcAKph9dU4h">Become a Contributing Member ($5/month)</button>
+<button class="become-a-member checkout-button" data-plan="plan_GYMNm9yAidO1vT">Become a Contributing Member ($60/year)</button>
+<button class="become-a-member checkout-button" data-plan="plan_GYMNnnaqsO6SMJ">Become a Contributing Member ($10/month)</button>
+<button class="become-a-member checkout-button" data-plan="plan_GYMO2CgIuB3Np5">Become a Contributing Member ($120/year)</button>
+<button class="become-a-member checkout-button" data-plan="plan_GYMNjKYl7lisqd">Become a Contributing Member ($15/month)</button>
+<button class="become-a-member checkout-button" data-plan="plan_GYMObrXegHTSlE">Become a Contributing Member ($180/year)</button>
+<button class="become-a-member checkout-button" data-plan="plan_GYMNXYyH3HcN66">Become a Contributing Member ($20/month)</button>
+<button class="become-a-member checkout-button" data-plan="plan_GYMOB8MprRabK5">Become a Contributing Member ($20/year)</button>
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="EB8BF96SAUTK6">
-<input type="hidden" name="custom" value="testCustomContributing">
-<table>
-<tr><td><input type="hidden" name="on0" value="Membership Level"></td></tr><tr><td><select name="os0">
-	<option value="Contributing $5 Monthly">Contributing $5 Monthly : $5.00 USD - monthly</option>
-	<option value="Contributing $10 Monthly">Contributing $10 Monthly : $10.00 USD - monthly</option>
-	<option value="Contributing $15 Monthly">Contributing $15 Monthly : $15.00 USD - monthly</option>
-	<option value="Contributing $20 Monthly">Contributing $20 Monthly : $20.00 USD - monthly</option>
-	<option value="Contributing $60 Yearly">Contributing $60 Yearly : $60.00 USD - yearly</option>
-	<option value="Contributing $120 Yearly">Contributing $120 Yearly : $120.00 USD - yearly</option>
-	<option value="Contributing $180 Yearly">Contributing $180 Yearly : $180.00 USD - yearly</option>
-	<option value="Contributing $240 Yearly">Contributing $240 Yearly : $240.00 USD - yearly</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-<button class="become-a-member">Become a Contributing Member!</button>
-</form>
 </section>
 
 <section class="membership-tier">
@@ -47,21 +39,10 @@ Vote on board members, get progress updates, influence which projects are select
 Vote on board members, get progress updates, influence which projects are selected.
 </p>
 
+<button class="become-a-member checkout-button" data-plan="plan_GYM04c8OhQ3oJB">Become a Developer Member (monthly)</button>
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="EB8BF96SAUTK6">
-<input type="hidden" name="custom" value="testCustomDeveloper">
-<table>
-<tr><td><input type="hidden" name="on0" value="Membership Level"></td></tr><tr><td><select name="os0">
-	<option value="Developer $40 Monthly">Developer $40 Monthly : $40.00 USD - monthly</option>
-	<option value="Developer $480 Yearly">Developer $480 Yearly : $480.00 USD - yearly</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-<button class="become-a-member">Become a Developer Member!</button>
-</form>
+<button class="become-a-member checkout-button" data-plan="plan_GYMAh3sq7k89ca">Become a Developer Member (annual)</button>
+
 </section>
 </section>
 

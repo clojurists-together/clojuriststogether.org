@@ -25,22 +25,10 @@ Clojurists Together is a trade organisation. Generally, organisations can treat 
 <h3>Assoc Member</h3>
 <b>$50 per month</b>
 <p>Vote on board members, get progress updates, influence which projects are selected, recognition on the Clojurists Together website.</p>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="7MEVKKH4TQ336">
-<table>
-<tr>
-<td>
-<input type="hidden" name="on0" value="Membership Level"></td></tr>
-<tr><td><select name="os0">
-<option value="Monthly Assoc Membership">Monthly Assoc Membership : $50 USD - monthly</option>
-<option value="Yearly Assoc Membership">Yearly Assoc Membership : $600 USD - yearly</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-<button class="become-a-member">Become an Assoc Member!</button>
-</form>
+
+<button class="become-a-member checkout-button" data-plan="plan_GYMBnWZmbhqcHx">Become an Assoc Member (monthly)</button>
+<button class="become-a-member checkout-button" data-plan="plan_GYMBwMeoR5Ry8O">Become an Assoc Member (annual)</button>
+
 </section>
 
 
@@ -50,19 +38,9 @@ Clojurists Together is a trade organisation. Generally, organisations can treat 
 
 <p>Vote on board members, get progress updates, influence which projects are selected, recognition on the Clojurists Together website.</p>
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="7BLAYU6JEPXZ6">
-<table>
-<tr><td><input type="hidden" name="on0" value="Membership Level"></td></tr><tr><td><select name="os0">
-<option value="Monthly Cons Membership">Monthly Cons Membership : $100 USD - monthly</option>
-<option value="Yearly Cons Membership">Yearly Cons Membership : $1,200 USD - yearly</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-<button class="become-a-member">Become a Cons Member!</button>
-</form>
+<button class="become-a-member checkout-button" data-plan="plan_GYMBpiJ6waMSee">Become a Cons Member (monthly)</button>
+<button class="become-a-member checkout-button" data-plan="plan_GYMCg0s8rWxvt3">Become a Cons Member (annually)</button>
+
 </section>
 
 
@@ -72,19 +50,8 @@ Clojurists Together is a trade organisation. Generally, organisations can treat 
 
 <p>Vote on board members, get progress updates, influence which projects are selected, recognition on the Clojurists Together website.</p>
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="3486MRLANRSDQ">
-<table>
-<tr><td><input type="hidden" name="on0" value="Membership Level"></td></tr><tr><td><select name="os0">
-<option value="Monthly Into Membership">Monthly Into Membership : $200 USD - monthly</option>
-<option value="Yearly Into Membership">Yearly Into Membership : $2,400 USD - yearly</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-<button class="become-a-member">Become an Into Member!</button>
-</form>
+<button class="become-a-member checkout-button" data-plan="plan_GYMDwLn4mu4TVa">Become an Into Member (monthly)</button>
+<button class="become-a-member checkout-button" data-plan="plan_GYMCd3ySx0VVXt">Become an Into Member (annually)</button>
 </section>
 
 
@@ -100,19 +67,9 @@ Clojurists Together is a trade organisation. Generally, organisations can treat 
 
 <p>Thank you tweet from <a href="https://twitter.com/cljtogether">@cljtogether</a></p></p>
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="ZCVLMJNPFJJMJ">
-<table>
-<tr><td><input type="hidden" name="on0" value="Membership Level"></td></tr><tr><td><select name="os0">
-<option value="Monthly Filter Membership">Monthly Filter Membership : $500 USD - monthly</option>
-<option value="Yearly Filter Membership">Yearly Filter Membership : $6,000 USD - yearly</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-<button class="become-a-member">Become a Filter Member!</button>
-</form>
+<button class="become-a-member checkout-button" data-plan="plan_GYMD6AQHDFhQGw">Become a Filter Member (monthly)</button>
+<button class="become-a-member checkout-button" data-plan="plan_GYMEwKK79GIrt1">Become a Filter Member (annually)</button>
+
 </section>
 
 
@@ -130,19 +87,9 @@ Clojurists Together is a trade organisation. Generally, organisations can treat 
 
 <p>Thank you tweet from <a href="https://twitter.com/cljtogether">@cljtogether</a></p>
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="3HUZJEBTYBLJA">
-<table>
-<tr><td><input type="hidden" name="on0" value="Membership Level"></td></tr><tr><td><select name="os0">
-<option value="Monthly Transduce Membership">Monthly Transduce Membership : $1,000 USD - monthly</option>
-<option value="Yearly Transduce Membership">Yearly Transduce Membership : $12,000 USD - yearly</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-<button class="become-a-member">Become a Transduce Member!</button>
-</form>
+<button class="become-a-member checkout-button" data-plan="plan_GYMFuEYbKe7nhC">Become a Transduce Member (monthly)</button>
+<button class="become-a-member checkout-button" data-plan="plan_GYMFD9fLVTXvNH">Become a Transduce Member (annually)</button>
+
 </section>
 
 
@@ -162,19 +109,8 @@ Clojurists Together is a trade organisation. Generally, organisations can treat 
 
 <p>Customized thank you tweet each month by <a href="https://twitter.com/cljtogether">@cljtogether</a></p>
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="YT98PJMCVF5U8">
-<table>
-<tr><td><input type="hidden" name="on0" value="Membership Level"></td></tr><tr><td><select name="os0">
-<option value="Monthly Map Membership">Monthly Map Membership : $2,000 USD - monthly</option>
-<option value="Yearly Map Membership">Yearly Map Membership : $24,000 USD - yearly</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-<button class="become-a-member">Become a Map Member!</button>
-</form>
+<button class="become-a-member checkout-button" data-plan="plan_GYMGklEctvcvl2">Become a Map Member (monthly)</button>
+<button class="become-a-member checkout-button" data-plan="plan_GYMGm73x4ZiN0f">Become a Map Member (annually)</button>
 </section>
 
 
@@ -198,17 +134,6 @@ Clojurists Together is a trade organisation. Generally, organisations can treat 
 
 <p>Twice-monthly status reports with more detail</p>
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="SSJ294XGD9DZJ">
-<table>
-<tr><td><input type="hidden" name="on0" value="Membership Level"></td></tr><tr><td><select name="os0">
-<option value="Monthly Reduce Membership">Monthly Reduce Membership : $5,000 USD - monthly</option>
-<option value="Yearly Reduce Membership">Yearly Reduce Membership : $60,000 USD - yearly</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-<button class="become-a-member">Become a Reduce Member!</button>
-</form>
+<button class="become-a-member checkout-button" data-plan="plan_GYMGYWlY1YEeXF">Become a Reduce Member (monthly)</button>
+<button class="become-a-member checkout-button" data-plan="plan_GYMHqy2AGshlAO">Become a Reduce Member (annually)</button>
 </section>
