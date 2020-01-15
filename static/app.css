@@ -279,11 +279,7 @@ h3{
     max-width: 530px;
 }
 
-.sfc-logo {
-    flex: 1 0 133px;
-}
-
-.become-a-member, .sfc-donate a {
+.become-a-member {
     text-decoration: none;
     border: 2px solid transparent;
     border-radius: 28px;
@@ -315,45 +311,6 @@ h3{
     padding: 8px 27px;
     font-size: 14px;
     margin: 0;
-}
-
-.sfc-donate a:hover,
-.sfc-donate a:active {
-    background: white;
-    color: #292966;
-    opacity: 1;
-}
-
-.sfc-banner {
-    background-color: #292966;
-    color: white;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    padding: 17px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-.sfc-banner p {
-    margin:0;
-}
-
-.sfc-banner p:first-child {
-    margin-bottom: 15px;
-}
-
-.sfc-banner section.sfc-donate {
-    padding-left: 44px
-}
-
-.sfc-banner section.sfc-logo {
-    flex: 0 0 133px;
-    display: flex;
-}
-
-.sfc-banner section.sfc-logo img {
-    max-height: 78px;
 }
 
 .copyright {
@@ -494,21 +451,5 @@ main.markdown-page img {
 
     footer ul li a {
         padding: 0;
-    }
-
-    .sfc-banner {
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
-    .sfc-banner section.sfc-donate {
-        padding: 0;
-        order: 2
-    }
-
-    .sfc-banner section.sfc-copy {
-        padding-top: 30px;
-        order: 3;
-        flex: 1 0 100%;
     }
 }

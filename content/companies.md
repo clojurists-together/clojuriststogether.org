@@ -13,9 +13,9 @@ Companies using Clojure depend on many open-source libraries and tools. Clojuris
 * Influence on which projects are selected.
 * Recognition on the Clojurists Together website as a supporter of open source Clojure software.
 
-## Charitable donations
+## Tax deductibility
 
-Clojurists Together is a member project of the [Software Freedom Conservancy](https://sfconservancy.org) which is a 501\(c)3 organisation. This means that your support is likely tax deductible in the USA. If you have any questions, please [get in touch](/contact) or talk to your accountant.
+Clojurists Together is a trade organisation. Generally, organisations can treat membership dues like any other tax deductible business expense if they have a business interest in the trade association's activities. If you have any questions, please [get in touch](/contact) and always check with your tax professional for advice specific to your organisation.
 
 <section class="membership-tiers">
 <p>All memberships can be paid monthly or annually.</p>

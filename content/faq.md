@@ -5,11 +5,17 @@ type: page
 
 {{< toc >}}
 
-## Are my donations tax deductible?
+## Are my payments tax deductible?
 
-Clojurists Together is a member project of the [Software Freedom Conservancy](https://sfconservancy.org). This means that we are able to accept 501\(c)3 donations. While we can't provide members with country-specific tax advice, we're not aware of any non-US country that that recognizes donations to a US public charity as tax-deductible in their jurisdiction. If you have any questions, please [get in touch](/contact) or talk to your accountant.
+Clojurists Together is a trade organisation that charges membership dues to companies and individuals. Whether your dues are deductible depends on whether you are a company or individual, and your local tax rules. We aren't able to provide individual tax advice to our members.
 
-When we receive a donation or sponsorship payment, we send a standard acknowledgment which includes information about Conservancy's status as a US 501(c)(3) charity. 
+However, what we have seen in the US is that companies with a business interest in the trade association's activities can treat membership dues like any other business expense. Generally speaking, the same rules apply to non-US businesses.
+
+> Contributions to section 501(c)(6) organizations are not deductible as charitable contributions on the donor’s federal income tax return. They may be deductible as trade or business expenses if ordi­nary and necessary in the conduct of the taxpayer’s business. - [IRS Tax treatment of donations - 501(c)(6) organizations](https://www.irs.gov/charities-non-profits/other-non-profits/tax-treatment-of-donations-501c6-organizations)
+
+For individuals, the situation depends much more on your exact corporate structure (self-employed vs. employed), and your local tax rules. In all cases, please talk to your tax professional to determine your individual situation. If you have any questions, please [get in touch](/contact) or talk to your accountant.
+
+When we receive membership dues, we automatically send an invoice with identifying information for the payment.
 
 ## Who are you?
 
@@ -28,8 +34,8 @@ The Clojurists Together [board members](/team) look at the projects that applied
 Currently the grant structure is:
 
 * Every three months
-* Fund two projects
-* $1,800/mo ($5,400/quarter)
+* Fund four projects
+* $3,000/mo ($9,000/quarter)
 
 The paperwork required to administer the grants stays roughly the same even if the funding length or funding amount changes. At our current levels of support, funding more projects for less money, or doing more frequent funding rounds would add more administrative overhead. However we are still interested in alternative funding models. If you have any ideas, please let us know.
 
@@ -47,26 +53,17 @@ Clojurists Together is run by Clojars, and is not associated with the fine folks
 
 Clojurists Together takes feedback for every funding round on which projects and areas to focus on. If you're not happy with how Clojurists Together spends your money, you're free to cancel your membership at any time. We take [transparency](/transparency) very seriously, and want you to have full confidence in how your money is being spent.
 
-## I can't commit to a monthly membership, can I make a one-off donation?
+## I can't commit to a monthly membership, can I make a one-off contribution?
 
-Absolutely, you can make a donation via PayPal or Credit Card here:
+Yes, get in [contact](/contact) and we can setup a one-time payment.
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-%<input type="hidden" name="cmd" value="_s-xclick">%
-%<input type="hidden" name="hosted_button_id" value="CXEQ6V4DH9NNW">%
-<input type="image" %src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"% border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" %src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"% width="1" height="1">
-</form>
+## What is the history of Clojurists Together?
 
-If PayPal/Credit Card doesn't work for you, then please get in touch, as there are other payment options we can use.
+Clojurists Together (via Clojars) was originally formed as a member project of the <a href="https://sfconservancy.org">Software Freedom Conservancy</a>. In early 2020, Clojurists Together left Conservancy to form the Clojurists Together Foundation, a US corporation. Our mission is the same, but forming our own organisation has freed up our admin resources so that we can focus on fundraising, marketing, and funding new and different projects.
 
-## I can't use PayPal, do you have other payment options?
+## I don't have a credit card, do you have other payment options?
 
-The only way we can currently setup recurring subscriptions is through PayPal. The Software Freedom Conservancy does have [other options](https://sfconservancy.org/donate/) for one-off payments though. You can also make a one-off credit card payment through the link in the [section above](#one-off-donation). If you'd prefer to use one of those options, we're happy to process your payment as an annual subscription. This helps us minimise the paperwork and admin time involved for everyone. **In all cases, please [get in touch](/contact/) with us and we'll work something out.** We'll make sure that your payment is marked for Clojurists Together and you get signed up for a subscription.
-
-### Using Benevity
-
-There is a way to add a note with your donation. Just add that the money is for Clojurists Together and SFC will make sure it gets to the right place. There can be quite a delay between the money being given and it getting to SFC, so just send us a copy of your receipt when you’re done and we’ll make sure you get on the website and send it to SFC so they can reconcile it.
+We use Stripe for accepting credit card payments. If you don't have access to a credit card, we can also accept ACH or US wire transfers through Stripe. If you'd like to pay by ACH or wire transfer, please [get in touch](/contact/) and we can send you an invoice. If that doesn't work, please contact us and we'll try and we can work something out.
 
 ## I still have questions?
 

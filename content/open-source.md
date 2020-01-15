@@ -100,7 +100,7 @@ Successful projects are required to submit two project reports each month during
 
 ## Getting paid
 
-If your project is selected, we will contact you to arrange a contract between you and [Software Freedom Conservancy](https://sfconservancy.org) based on your proposal. This contract will include the amount to be paid, and the work intended to be done. We can fund maintainers anywhere in the world, barring exceptional circumstances like [US sanctions](https://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx). You will need to check with your accountant, but this contract is probably going to be similar to a freelancing contract that you might take, i.e. you will need to pay taxes on it.
+If your project is selected, we will create a contract based on your proposal This contract will include the amount to be paid, and the work intended to be done. We can fund maintainers anywhere in the world, barring exceptional circumstances like [US sanctions](https://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx). You will need to check with your accountant, but this contract is probably going to be similar to a freelancing contract, i.e. you will need to pay taxes on it.
 
 ## Timeline
 

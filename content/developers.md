@@ -65,10 +65,10 @@ Vote on board members, get progress updates, influence which projects are select
 </section>
 </section>
 
+## Tax deductibility
+
+Some countries allow you to deduct membership dues to a trade association from your personal income taxes. We aren't able to provide individual advice, we recommend talking with your tax professional to see if this applies to you. If you have any questions, please [get in touch](/contact).
+
 ## Free memberships
 
 We also offer free memberships for people who would like to be a member, but aren't able to pay for a membership. For more details [contact us](/contact).
-
-## Charitable Donations
-
-Clojurists Together is a member project of the [Software Freedom Conservancy](https://sfconservancy.org) which is a 501\(c)3 organisation. This means that your support is likely tax deductible in the USA. If you have any questions, please [get in touch](/contact) or talk to your accountant.

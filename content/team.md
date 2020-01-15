@@ -18,7 +18,7 @@ The Committee is responsible for governing the project, selecting which projects
 
 Clojurists Together has also hired Rachel Magruder as a part-time administrative assistant to help run the program.
 
-Legally, Clojurists Together is run by [Clojars](https://clojars.org), as a member project of the [Software Freedom Conservancy](https://sfconservancy.org). The Software Freedom Conservancy also provide accounting and legal services to Clojurists Together.
+Legally, the Clojurists Together Foundation is a corporation registered in Delaware.
 
 Annual elections are held to elect the committee for the following year. The most recent elections were held in [November 2018](/news/2018-committee-election-results/).
 

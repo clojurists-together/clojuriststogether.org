@@ -1,6 +1,6 @@
 ## Funding critical Clojure open source software
 
-Clojurists Together is an organisation run by [Clojars](https://clojars.org), dedicated to funding and supporting open source software, infrastructure, and documentation that is important to the Clojure and ClojureScript community.
+The Clojurists Together Foundation is a trade organisation, dedicated to funding and supporting open source software, infrastructure, and documentation that is important to the Clojure and ClojureScript community.
 
 Goals
 
@@ -17,9 +17,7 @@ Open source maintainers apply for funding, and if accepted, get paid to work on 
 
 ### Companies and individuals
 
-Companies and individual developers can sign up for a Clojurists Together membership. This supports Clojurists Together with a monthly donation. Your membership entitles you to certain benefits, including steering which projects get funded.
-
-<aside>Clojurists Together (via Clojars) is a member project of the <a href="https://sfconservancy.org">Software Freedom Conservancy</a> and is able to take 501(c)3 donations.</aside>
+Companies and individual developers can sign up for a monthly or annual Clojurists Together membership. Your membership entitles you to certain benefits, including steering which projects get funded.
 
 <p class="homepage-cta">
 <a class="become-a-member" href="/companies">Company Signup</a>
