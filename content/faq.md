@@ -7,7 +7,7 @@ type: page
 
 ## Are my payments tax deductible?
 
-Clojurists Together is a trade organisation that charges membership dues to companies and individuals. Whether your dues are deductible depends on whether you are a company or individual, and your local tax rules. We aren't able to provide individual tax advice to our members.
+Clojurists Together is a trade organisation that charges membership dues to companies and individuals. Whether your dues are deductible depends on whether you are a company or individual, and your local tax rules. Due to the complexities of tax law in all of the countries where our members are located, we aren't able to provide tax advice to our members.
 
 <!-- However, what we have seen in the US is that companies with a business interest in the trade association's activities can treat membership dues like any other business expense. Generally speaking, the same rules apply to non-US businesses.
 
