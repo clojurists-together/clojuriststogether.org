@@ -83,7 +83,7 @@ The Clojurists Together committee evaluates projects based on the following crit
 - Current funding - Clojurists Together wants to fund open source projects that are important to the ecosystem, and may be underfunded. If you're making seven figures/year from your project then it may not make the cut.
 - Previous funding - If Clojurists Together has recently funded your project then it may be weighted slightly lower than it would have otherwise, so that we fund a variety of projects. Please don't let this discourage you from applying though, we don't disallow projects from being funded again.
 - Member comments - Each funding cycle, we solicit comments and preferences from members on what they see as priorities. Comments from higher tier members get more weight.
-- Track record of the person applying - Are they established in the community, have they got a history of contributing to the community? This doesn't mean you need five years of contributions before you're considered, but if you have one week of history then it may weigh against you.
+- Track record of the person applying - Are they established in the community, have they got a history of contributing to the community? This doesn't mean you need five years of contributions before you're considered, but if you have one week of history then it may weigh against you. If you have a track record of harassment and negative interactions within the Clojure community then we may decline to consider your application.
 
 ## Selecting Projects
 
