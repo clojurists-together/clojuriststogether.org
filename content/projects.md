@@ -6,6 +6,44 @@ page_class: "projects"
 
 ## Currently Funded Projects
 
+### Q1 2020
+
+<h3 class="project"><a target="_blank" href="https://github.com/ring-clojure/ring">Ring<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
+
+Ring is the most commonly used HTTP abstraction layer for Clojure. Clojurists Together funded James Reeves, Ring's maintainer to build out a draft spec and experimental alpha for Ring 2.0. This will add better support for asynchronous HTTP connections, and pave the way to support HTTP/2 and HTTP/3 in future. As a secondary objective, he is also working on removing the provided dependency on Java servlets from Ring core
+
+<h3 class="project"><a target="_blank" href="https://reagent-project.github.io">Reagent<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
+
+Based on Clojars downloads Reagent is the most used ClojureScript React wrapper. Reagent is also one of the most popular ClojureScript projects on GitHub with 3.7k stars. Juho Tepieri is a maintainer of Reagent and will be working on supporting React Hooks, and a configurable Reagent Hiccup compiler.
+
+<h3 class="project"><a target="_blank" href="https://github.com/BetterThanTomorrow/calva">Calva<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
+
+<p class="project-logo">
+<a target="_blank" href="https://github.com/BetterThanTomorrow/calva"><img src="/logos/projects/calva.svg" alt="calva logo"/></a>
+</p>
+
+Calva is a Clojure IDE plugin for VS Code. Calva helps new Clojurists get up and running with Clojure without having to worry so much about tooling. VS Code has become a major platform for developers and it's important to have Clojure(Script) support in the developers' editor of choice. We funded Brandon Ringe, a Calva maintainer to work on supporting large data sets and Clojure debugging support.
+
+<h3 class="project"><a target="_blank" href="https://github.com/tpope/vim-fireplace">fireplace.vim<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
+
+Tim Pope is the maintainer of Fireplace.vim, a Clojure plugin for Vim. In the most recent Clojure survey it was used by 10% of respondents. We funded Tim to work on: Leveraging Vim's recently added asynchronous APIs for user facing features, providing better automatic configuration for projects, notably Shadow CLJS, and working on outstanding feature requests.
+
+## Previously Funded Projects
+
+### Q4 2019
+
+<h3 class="project"><a target="_blank" href="https://github.com/bhb/expound">Expound<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
+
+Expound is a widely used tool for helping developers more quickly understand spec error messages. Expound is maintained by Ben Brinckerhoff.
+
+<h3 class="project"><a target="_blank" href="https://github.com/uncomplicate/deep-diamond">Deep Diamond<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
+
+Deep Diamond is a lean, high performance, infrastructure for working with tensors in Clojure, with an emphasis on Deep Learning. Dragan Djuric is the maintainer of Deep Diamond.
+
+<h3 class="project"><a target="_blank" href="https://github.com/metasoarous/oz">Oz<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
+
+While ClojureScript offers a first class front-end development experience, data visualization specifically has long been an under-served need in both Clojure & ClojureScript. Oz gives ClojureScript developers the ability to leverage Vega-Lite and Vega, with their Clojuresque data-driven/declarative design, and close this gap. Oz is maintained by Chistopher Small.
+
 ### Q3 2019
 
 <h3 class="project"><a target="_blank" href="https://github.com/clojure-emacs/cider">CIDER<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
@@ -36,8 +74,6 @@ Meander provides a uniquely transparent way of performing data manipulation that
 
 VS Code is the editor of choice for many developers and having good Clojure and ClojureScript support on the platform helps newcomers find the joy of Clojure faster. VS Code also is easier to use than many other development environments, and by leveraging this, Calva can make Clojure more accessible generally. It is maintained by Peter Strömberg.
 
-## Previously Funded Projects
-
 ### Q2 2019
 
 <h3 class="project"><a target="_blank" href="https://github.com/tpope/vim-fireplace">Fireplace.vim<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
@@ -48,7 +84,7 @@ Fireplace is a vim plugin for Clojure. It adds REPL integration and was used by 
 
 <h3 class="project"><a target="_blank" href="https://neanderthal.uncomplicate.org">Neanderthal<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
 
-Neanderthal is a fast native-speed matrix and linear algebra library written in Clojure. Matrices and linear algebra are the infrastructure for high performance scientific software, including machine learning. Dragan is going to be working on adding higher-level tutorials that give people the bigger picture and shows them good practices.
+Neanderthal is a fast native-speed matrix and linear algebra library written in Clojure. Matrices and linear algebra are the infrastructure for high performance scientific software, including machine learning. Dragan Djuric is going to be working on adding higher-level tutorials that give people the bigger picture and shows them good practices.
 
 <h3 class="project"><a target="_blank" href="https://aleph.io">Aleph<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
 <p class="project-logo"><img src="/logos/projects/aleph.svg" alt="Aleph logo"></p>
