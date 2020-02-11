@@ -2,7 +2,6 @@
 title: "January 2020 Monthly Update"
 date: 2020-01-26T11:53:57+13:00
 summary: "Read updates from Expound, Oz, and Deep Diamond"
-draft: true
 ---
 
 ## Housekeeping
@@ -112,3 +111,14 @@ This time around, not only did I hit some of the usual turbulence of working wit
 ### January 16-31 2020
 
 [Oz Updates - Finishing up release of updated Vega libraries with Cljsjs](http://metasoarous.com/blog/oz-clojurists-together-update-2)
+
+Continuing to work on the script for updating new versions of Vega in CLJSJS.
+
+[Oz Updates - Finishing Oz release & working on Vega-Leaflet](http://metasoarous.com/blog/oz-clojurists-together-update-3)
+
+Now that I have Cljsjs releases under way for Vega, I look forward to being able mint a new release of Oz. However, I still have to wait for the releases to come out the other side. So until then, I'm going to take advantage of the fact that the Cljsjs build process is fresh in my head, and look at extending it towards some of the other projects I'd like Oz to be able to integrate with:
+
+* Vega-Leaflet
+* Voyager
+
+Unfortunately it appears as if Voyager isn't currently supported. The CLJSJS PRs were merged, and I started exploring Shadow CLJS more. Shadow seems very promising, and may be a better fit for wrapping the core Vega/Vega-Lite functionality than CLJSJS. I'm getting close to creating a new release.
