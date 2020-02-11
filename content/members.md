@@ -97,6 +97,16 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 </section>
 </section>
 
+<section class="member-category">
+<h2>Percentage of revenue members</h2>
+<section class="membership-card">
+<p>These companies give a percentage of their revenue to Clojurists Together:</p>
+<ul>
+<li><a href="https://www.jacekschae.com">Jacek Schae (Learn Reagent, Learn re-frame)</a> -  10% of profits, 40% from Clojurists Together affiliate links, 50% from Thanksgiving sales</li>
+</ul>
+</section>
+</section>
+
 <section class="member-category founding-developer">
 <h2>Founding Developer Members ⭐</h2>
 <section class="membership-card">
