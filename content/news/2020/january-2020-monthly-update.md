@@ -1,6 +1,6 @@
 ---
 title: "January 2020 Monthly Update"
-date: 2020-01-26T11:53:57+13:00
+date: 2020-02-12T11:53:57+13:00
 summary: "Read updates from Expound, Oz, and Deep Diamond"
 ---
 
