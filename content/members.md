@@ -84,16 +84,19 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 <section class="member-category assoc-member">
 <h2><span>$50/mo</span><br>Assoc Members</h2>
 <section class="membership-card">
-<ul><li class="founding member"><a href="http://bloomventures.io" target="_blank">Bloom Ventures</a></li></ul>
-<ul><li class="founding member"><a href="https://toyokumo.co.jp" target="_blank">TOYOKUMO</a></li></ul>
-<ul><li class="founding member"><a href="http://signifier.jp" target="_blank">Signifier</a></li></ul>
-<ul><li><a href="http://www.deepbluelambda.org" target="_blank">Sattvik Software & Technology Resources</a></li></ul>
-<ul><li><a href="http://www.mastodonc.com" target="_blank">Mastodon C</a></li></ul>
-<ul><li><a href="https://reifyhealth.com" target="_blank">Reify Health</a></li></ul>
-<ul><li><a href="https://functional.works-hub.com/" target="_blank">Functional Works</a></li></ul>
-<ul><li><a href="https://www.urbandictionary.com/" target="_blank">Urban Dictionary</a></li></ul>
-<ul><li><a href="https://www.ardoq.com/)" target="_blank">Ardoq AS</a></li></ul>
-<ul><li><a href="http://www.redpineapplemedia.com/" target="_blank">Red Pineapple Media GmbH</a></li></ul>
+<ul>
+<li class="founding member"><a href="http://bloomventures.io" target="_blank">Bloom Ventures</a></li>
+<li class="founding member"><a href="https://toyokumo.co.jp" target="_blank">TOYOKUMO</a></li>
+<li class="founding member"><a href="http://signifier.jp" target="_blank">Signifier</a></li>
+<li><a href="http://www.deepbluelambda.org" target="_blank">Sattvik Software & Technology Resources</a></li>
+<li><a href="http://www.mastodonc.com" target="_blank">Mastodon C</a></li>
+<li><a href="https://reifyhealth.com" target="_blank">Reify Health</a></li>
+<li><a href="https://functional.works-hub.com/" target="_blank">Functional Works</a></li>
+<li><a href="https://www.urbandictionary.com/" target="_blank">Urban Dictionary</a></li>
+<li><a href="https://www.ardoq.com/)" target="_blank">Ardoq AS</a></li>
+<li><a href="http://www.redpineapplemedia.com/" target="_blank">Red Pineapple Media GmbH</a></li>
+<li><a href="https://condense.com.au" target="_blank">Condense</a>
+</ul>
 </section>
 </section>
 
