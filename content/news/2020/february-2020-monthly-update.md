@@ -18,7 +18,7 @@ Clojurists Together was [mentioned](https://insideclojure.org/2020/02/20/clojure
 
 > Thank you all for this awesome language and special thanks to Daniel Compton for Clojurists Together.
 
-> ... It was also very nice to see tremendous positive impact Clojurists Together had on the general community!
+> [...] It was also very nice to see [the] tremendous positive impact Clojurists Together had on the general community!
 
 lvh was also on the [Cognicast](http://blog.cognitect.com/cognicast/149) recently and discussed Clojurists Together and Clojurists Together in-progress move to a new trade association (more to come on this soon). The section on Clojurists Together starts at 39:43.
 
@@ -207,7 +207,9 @@ Of course, this is made all the more challenging by the fact that this spec has 
   (clojure.walk/prewalk
     (fn [form]
       (cond
-        ;; If we see a function, call it with the args in form, so that you can use fns as components, like Reagent
+        ;; If we see a function, call it with the
+        ;;  args in form, so that you can
+        ;; use fns as components, like Reagent
         (and (vector? form) (fn? (first form)))
         (apply-fn-component form)
         ;; apply processor function if applicable
