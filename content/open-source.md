@@ -9,6 +9,8 @@ type: page
 
 Every three months, Clojurists Together takes applications from open source developers for funding to work on open source projects. The Clojurists Together [committee](/team) then evaluates the proposals, makes their selection, and then funds projects with a fellowship for the next three months. You can apply at any time for the next funding cycle, and you can make multiple applications for different projects.
 
+**Applications for the May-July funding round close on Thursday April 9th, 11:59 pm PST.**
+
 <a href="https://docs.google.com/forms/d/1JD5OAbA0A8d0GFAGjY73Z2oKmmcQ-NZBrngBlqXdHnQ/viewform" class="become-a-member">Apply for funding</a>
 
 </section>
