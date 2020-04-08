@@ -1,7 +1,7 @@
 ---
 title: July 2018 Monthly Update
 date: 2018-08-15T05:59:31+12:00
-draft: false
+author: Daniel Compton
 type: post
 ---
 

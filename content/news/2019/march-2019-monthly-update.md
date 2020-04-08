@@ -2,6 +2,7 @@
 title: March 2019 Monthly Update
 date: "2019-04-18"
 type: post
+author: Rachel Magruder
 summary: "The second month of updates from Neanderthal and Aleph is here. Thanks for your continued support of Clojurists Together!"
 ---
 

@@ -2,6 +2,7 @@
 title: November/December 2019 Monthly Update
 date: "2019-12-31"
 type: post
+author: Nola Stowe
 ---
 
 November was the first month of our next funding round. libpython-clj and Deep Diamond started in November, Expound started in December, and Oz is starting in January. This is a combined update due to the holiday break.

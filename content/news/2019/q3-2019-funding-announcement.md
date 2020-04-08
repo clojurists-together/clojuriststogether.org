@@ -2,6 +2,7 @@
 title: Q3 2019 Funding Announcement
 date: 2019-08-06T00:00:00+12:00
 type: "post"
+author: Daniel Compton
 summary: "Clojurists Together is happy to announce that for Q3 of 2019 (August-October) we are funding four projects: Shadow CLJS with Thomas Heller, Meander with Joel Holdbrooks, Calva with Peter Strömberg, and CIDER with Bozhidar Batsov."
 ---
 

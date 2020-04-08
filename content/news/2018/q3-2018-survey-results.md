@@ -2,6 +2,7 @@
 title: Q3 2018 Survey Results and Call For Proposals
 date: "2018-07-13T07:07:50+13:00"
 type: "post"
+author: Daniel Compton
 ---
 
 We have recently run our third survey on our [members](/members/) to better understand them and their needs. We're publishing these results so that they can see the aggregate results, and to give open source projects more information when [applying](/open-source/) for the Q3 2018 Clojurists Together funding round (closing 20 July).

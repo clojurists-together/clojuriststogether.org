@@ -2,6 +2,7 @@
 date: "2017-11-13T13:42:56+13:00"
 title: Introducing Clojurists Together
 type: "post"
+author: Daniel Compton
 ---
 
 ### Keeping Clojure open source sustainable

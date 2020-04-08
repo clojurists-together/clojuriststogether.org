@@ -1,6 +1,7 @@
 ---
 title: "February 2020 Update"
 date: 2020-03-05T02:10:55+13:00
+author: Daniel Compton
 summary: "Read updates from Expound, Oz, Ring, Calva, and Reagent"
 ---
 

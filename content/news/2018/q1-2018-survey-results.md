@@ -2,6 +2,7 @@
 title: Q1 2018 Update and Survey Results
 date: 2018-02-01T10:07:50+13:00
 type: "post"
+author: Daniel Compton
 ---
 
 Welcome to the first Clojurists Together update for 2018! We have recently run a survey on our [members](/members/) to better understand them and their needs. We are currently working in the process of finalising the projects we will fund and will have an announcement soon. In the meantime, we wanted to share the results of the survey to help future applicants see what our areas of focus are.

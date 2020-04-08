@@ -2,6 +2,7 @@
 title: February 2018 Monthly Update
 date: 2018-03-02T08:42:41+13:00
 type: post
+author: Daniel Compton
 ---
 
 Hi folks!

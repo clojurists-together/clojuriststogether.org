@@ -1,6 +1,7 @@
 ---
 title: "Q1 2020 Survey Results"
 date: 2020-01-09T19:28:38+13:00
+author: Daniel Compton
 summary: "We surveyed our members on what they wanted us to support this round. The main things they were interested in were Error messages, Documentation, Developer experience tools, Build tooling, IDE support, Test tooling, Linters, Profilers, and Data analysis/processing frameworks"
 ---
 

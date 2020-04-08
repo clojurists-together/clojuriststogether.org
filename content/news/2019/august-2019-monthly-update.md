@@ -2,6 +2,7 @@
 title: August 2019 Monthly Update
 date: "2019-09-10T00:00:00+12:00"
 type: "post"
+author: Rachel Magruder
 summary: "August was our first month with this new round of projects, check out their monthly update!"
 ---
 

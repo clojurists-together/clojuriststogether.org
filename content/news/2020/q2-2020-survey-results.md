@@ -2,6 +2,7 @@
 title: "Q2 2020 Survey Results"
 date: 2020-04-03T15:36:17+13:00
 summary: Our call for proposals for new projects will close on Thursday, April 9th, 2020 at 11:59pm PST.
+author: Daniel Compton
 ---
 
 Thanks so much for your support and feedback in the latest survey.

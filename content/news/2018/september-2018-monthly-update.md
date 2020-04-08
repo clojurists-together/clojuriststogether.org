@@ -2,6 +2,7 @@
 title: September 2018 Monthly Update
 date: "2018-10-04"
 type: post
+author: Rachel Magruder
 ---
 
 ## Clojurists Together news

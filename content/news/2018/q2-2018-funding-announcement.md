@@ -2,6 +2,7 @@
 title: Q2 2018 Funding Announcement
 date: 2018-04-26T16:41:59+13:00
 type: "post"
+author: Daniel Compton
 ---
 
 Clojurists Together is happy to announce that for Q2 of 2018 (May-July) we are funding two projects: CIDER and ClojureScript.

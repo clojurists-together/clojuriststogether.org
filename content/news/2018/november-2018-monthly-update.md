@@ -2,6 +2,7 @@
 title: November 2018 Monthly Update
 date: "2018-12-12"
 type: post
+author: Rachel Magruder
 summary: "We are happy to close the month of November with a successful start to the fourth quarter at Clojurists Together. Our Q4 projects, Datascript and Kaocha, are well on their way.
 
 In November we elected new board members at CT- thanks to everyone who participated in the elections. A warm welcome to Nola Stowe, Fumiko Hanreich, and Laurens Van Houtven!"

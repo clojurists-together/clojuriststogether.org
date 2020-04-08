@@ -2,6 +2,7 @@
 title: Q1 2019 Funding Announcement
 date: 2019-01-23
 type: "post"
+author: Rachel Magruder
 summary: "Clojurists Together is happy to announce that for Q1 of 2019 (February-April) we are funding two projects: Neanderthal with Dragan Djuric, and Aleph with Oleksii Kachaiev."
 ---
 

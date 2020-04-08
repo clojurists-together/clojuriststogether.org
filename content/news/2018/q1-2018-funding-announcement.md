@@ -2,6 +2,7 @@
 title: Q1 2018 Funding Announcement
 date: 2018-02-07T16:41:59+13:00
 type: "post"
+author: Daniel Compton
 ---
 
 Clojurists Together is excited to announce the two projects that are being funded in Q1 2018: clj-http and Figwheel!

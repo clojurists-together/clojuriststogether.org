@@ -2,6 +2,7 @@
 title: Q2 2019 Funding Announcement
 date: 2019-04-30
 type: "post"
+author: Rachel Magruder
 summary: "Clojurists Together is happy to announce that for Q2 of 2019 (May-July) we are funding two projects: Boot with Matthew Ratzke, and Fireplace with Tim Pope."
 ---
 

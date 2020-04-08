@@ -2,6 +2,7 @@
 title: October 2019 Monthly Update
 date: "2019-12-06"
 type: post
+author: Nola Stowe
 ---
 
 October was our third and final month with this round of projects, check out their monthly update!

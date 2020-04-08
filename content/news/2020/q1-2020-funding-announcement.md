@@ -1,6 +1,7 @@
 ---
 title: "Q1 2020 Funding Announcement"
 date: 2020-01-26T11:53:57+13:00
+author: Daniel Compton
 summary: "This quarter we are funding Reagent, Ring, Fireplace, and Calva!"
 ---
 

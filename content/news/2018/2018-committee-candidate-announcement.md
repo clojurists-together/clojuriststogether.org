@@ -3,6 +3,7 @@ title: 2018 Committee Election Candidates
 date: 2018-11-15
 type: "post"
 summary: "Thanks to everyone who applied to join the Clojurists Together Committee. Here we present the nine candidates, their motivations for joining, and a brief biography so you can learn a little bit about each one. The candidates are (in a randomised order): Nola Stowe, Laurens Van Houtven, Vijay Kiran, Nicolas Modryzk, Ghadi Shayban, Ikuru Kyogoku John Stevenson, Travis McNeill, and Fumiko Hanreich."
+author: Rachel Magruder
 alias: /news/2018-committee-candidate-announcement
 ---
 

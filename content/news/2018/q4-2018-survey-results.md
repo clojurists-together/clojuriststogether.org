@@ -2,6 +2,7 @@
 title: Q4 2018 Survey Results and Call For Proposals
 date: "2018-10-01T08:30:50+13:00"
 type: "post"
+author: Rachel Magruder
 ---
 
 We've recently finished our fourth round of surveys on our [members](/members/) to better understand the community's needs. We're posting this feedback so that they can see the aggregate results, and to give open source projects more information when [applying](/open-source/) for the Q4 2018 Clojurists Together funding round (closing on the 9th of October).

@@ -2,6 +2,7 @@
 title: May 2019 Monthly Update
 date: "2019-06-06"
 type: post
+author: Rachel Magruder
 summary: "This month we present the first updates from one of our Q2 Projects - Fireplace!"
 ---
 
