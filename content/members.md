@@ -121,7 +121,7 @@ Val Waeselynck, Juraj Martinka, Jean Niklas L'orange, Reid McKenzie, Devin Walte
 <section class="member-category developer">
 <h2>Developer Members</h2>
 <section class="membership-card">
-Johnny Eradus, Stephen Lester, Kazunori Kajihiro, Terje Sten Bjerkseth, Albrecht Schmidt, Allen Rohner, Erik Assum, Tiago Luchini, Bahadir Cambel, Andrew Monks, John Newman, Magnar Sveen, Zach Tellman, Ronen Narkis, Radford Smith, Alexander ter Weele, Yiu Ming Huynh, Michael Glaesemann, Phillips Wolr, Joshua Miller, Michael Alyn Miller, Lucas Cavalcanti dos Santos, Zane Shelby, Otis Clark III, Rolf Victor Bjelkholm lovgren, Amar Mehta, Joshua Tilles, Karel Miarka, Chris Smothers, Gary Deer, Stephen Cagle, James Leonis, Emin Hasanov, Jason Felice, Esteban Castra.
+Johnny Eradus, Stephen Lester, Kazunori Kajihiro, Terje Sten Bjerkseth, Albrecht Schmidt, Allen Rohner, Erik Assum, Tiago Luchini, Bahadir Cambel, Andrew Monks, John Newman, Magnar Sveen, Zach Tellman, Ronen Narkis, Radford Smith, Alexander ter Weele, Yiu Ming Huynh, Michael Glaesemann, Phillips Wolr, Joshua Miller, Michael Alyn Miller, Lucas Cavalcanti dos Santos, Zane Shelby, Otis Clark III, Rolf Victor Bjelkholm lovgren, Amar Mehta, Joshua Tilles, Karel Miarka, Chris Smothers, Gary Deer, Stephen Cagle, James Leonis, Emin Hasanov, Jason Felice, Esteban Castra, Ryan Campbell, Dima Novotochinov, Felix Barbalet, Salam Elbilig, Elias Schulze, Samuel Morello, Adrian Smith, Justin Belanger, Pablo Botelho, Spencer Apple, Fed Reggiardo, Steven Harms, Julien Bille, Bartosz Warzecha, Don Jackson, John Collins, Donavan-Ross Costaras.
 </section>
 </section>
 
