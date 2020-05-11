@@ -95,7 +95,8 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 <li><a href="https://www.urbandictionary.com/" target="_blank">Urban Dictionary</a></li>
 <li><a href="https://www.ardoq.com/)" target="_blank">Ardoq AS</a></li>
 <li><a href="http://www.redpineapplemedia.com/" target="_blank">Red Pineapple Media GmbH</a></li>
-<li><a href="https://condense.com.au" target="_blank">Condense</a>
+<li><a href="https://condense.com.au" target="_blank">Condense</a></li>
+<li><a href="https://www.petit-perou.tech" target="_blank">Petit Perou</a></li>
 </ul>
 </section>
 </section>
