@@ -21,14 +21,14 @@ Community support from developers like you helps us improve the Clojure experien
 Vote on board members, get progress updates, influence which projects are selected.
 </p>
 
-<button class="become-a-member checkout-button" data-plan="plan_GYMMcAKph9dU4h">Become a Contributing Member ($5/month)</button>
-<button class="become-a-member checkout-button" data-plan="plan_GYMNm9yAidO1vT">Become a Contributing Member ($60/year)</button>
-<button class="become-a-member checkout-button" data-plan="plan_GYMNnnaqsO6SMJ">Become a Contributing Member ($10/month)</button>
-<button class="become-a-member checkout-button" data-plan="plan_GYMO2CgIuB3Np5">Become a Contributing Member ($120/year)</button>
-<button class="become-a-member checkout-button" data-plan="plan_GYMNjKYl7lisqd">Become a Contributing Member ($15/month)</button>
-<button class="become-a-member checkout-button" data-plan="plan_GYMObrXegHTSlE">Become a Contributing Member ($180/year)</button>
-<button class="become-a-member checkout-button" data-plan="plan_GYMNXYyH3HcN66">Become a Contributing Member ($20/month)</button>
-<button class="become-a-member checkout-button" data-plan="plan_GYMOB8MprRabK5">Become a Contributing Member ($20/year)</button>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMMcAKph9dU4h">Become a Contributing Member ($5/month)</a>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMNm9yAidO1vT">Become a Contributing Member ($60/year)</a>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMNnnaqsO6SMJ">Become a Contributing Member ($10/month)</a>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMO2CgIuB3Np5">Become a Contributing Member ($120/year)</a>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMNjKYl7lisqd">Become a Contributing Member ($15/month)</a>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMObrXegHTSlE">Become a Contributing Member ($180/year)</a>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMNXYyH3HcN66">Become a Contributing Member ($20/month)</a>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMOB8MprRabK5">Become a Contributing Member ($20/year)</a>
 
 </section>
 
@@ -39,9 +39,9 @@ Vote on board members, get progress updates, influence which projects are select
 Vote on board members, get progress updates, influence which projects are selected.
 </p>
 
-<button class="become-a-member checkout-button" data-plan="plan_GYM04c8OhQ3oJB">Become a Developer Member (monthly)</button>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYM04c8OhQ3oJB">Become a Developer Member (monthly)</a>
 
-<button class="become-a-member checkout-button" data-plan="plan_GYMAh3sq7k89ca">Become a Developer Member (annual)</button>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMAh3sq7k89ca">Become a Developer Member (annual)</a>
 
 </section>
 </section>

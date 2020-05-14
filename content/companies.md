@@ -26,8 +26,8 @@ Clojurists Together is a trade organisation. Generally, organisations can treat 
 <b>$50 per month</b>
 <p>Vote on board members, get progress updates, influence which projects are selected, recognition on the Clojurists Together website.</p>
 
-<button class="become-a-member checkout-button" data-plan="plan_GYMBnWZmbhqcHx">Become an Assoc Member (monthly)</button>
-<button class="become-a-member checkout-button" data-plan="plan_GYMBwMeoR5Ry8O">Become an Assoc Member (annual)</button>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/company?plan=plan_GYMBnWZmbhqcHx">Become an Assoc Member (monthly)</a>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/company?plan=plan_GYMBwMeoR5Ry8O">Become an Assoc Member (annual)</a>
 
 </section>
 
@@ -38,8 +38,8 @@ Clojurists Together is a trade organisation. Generally, organisations can treat 
 
 <p>Vote on board members, get progress updates, influence which projects are selected, recognition on the Clojurists Together website.</p>
 
-<button class="become-a-member checkout-button" data-plan="plan_GYMBpiJ6waMSee">Become a Cons Member (monthly)</button>
-<button class="become-a-member checkout-button" data-plan="plan_GYMCg0s8rWxvt3">Become a Cons Member (annually)</button>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/company?plan=plan_GYMBpiJ6waMSee">Become a Cons Member (monthly)</a>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/company?plan=plan_GYMCg0s8rWxvt3">Become a Cons Member (annually)</a>
 
 </section>
 
@@ -50,8 +50,8 @@ Clojurists Together is a trade organisation. Generally, organisations can treat 
 
 <p>Vote on board members, get progress updates, influence which projects are selected, recognition on the Clojurists Together website.</p>
 
-<button class="become-a-member checkout-button" data-plan="plan_GYMDwLn4mu4TVa">Become an Into Member (monthly)</button>
-<button class="become-a-member checkout-button" data-plan="plan_GYMCd3ySx0VVXt">Become an Into Member (annually)</button>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/company?plan=plan_GYMDwLn4mu4TVa">Become an Into Member (monthly)</a>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/company?plan=plan_GYMCd3ySx0VVXt">Become an Into Member (annually)</a>
 </section>
 
 
@@ -67,8 +67,8 @@ Clojurists Together is a trade organisation. Generally, organisations can treat 
 
 <p>Thank you tweet from <a href="https://twitter.com/cljtogether">@cljtogether</a></p></p>
 
-<button class="become-a-member checkout-button" data-plan="plan_GYMD6AQHDFhQGw">Become a Filter Member (monthly)</button>
-<button class="become-a-member checkout-button" data-plan="plan_GYMEwKK79GIrt1">Become a Filter Member (annually)</button>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/company?plan=plan_GYMD6AQHDFhQGw">Become a Filter Member (monthly)</a>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/company?plan=plan_GYMEwKK79GIrt1">Become a Filter Member (annually)</a>
 
 </section>
 
@@ -87,8 +87,8 @@ Clojurists Together is a trade organisation. Generally, organisations can treat 
 
 <p>Thank you tweet from <a href="https://twitter.com/cljtogether">@cljtogether</a></p>
 
-<button class="become-a-member checkout-button" data-plan="plan_GYMFuEYbKe7nhC">Become a Transduce Member (monthly)</button>
-<button class="become-a-member checkout-button" data-plan="plan_GYMFD9fLVTXvNH">Become a Transduce Member (annually)</button>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/company?plan=plan_GYMFuEYbKe7nhC">Become a Transduce Member (monthly)</a>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/company?plan=plan_GYMFD9fLVTXvNH">Become a Transduce Member (annually)</a>
 
 </section>
 
@@ -109,8 +109,8 @@ Clojurists Together is a trade organisation. Generally, organisations can treat 
 
 <p>Customized thank you tweet each month by <a href="https://twitter.com/cljtogether">@cljtogether</a></p>
 
-<button class="become-a-member checkout-button" data-plan="plan_GYMGklEctvcvl2">Become a Map Member (monthly)</button>
-<button class="become-a-member checkout-button" data-plan="plan_GYMGm73x4ZiN0f">Become a Map Member (annually)</button>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/company?plan=plan_GYMGklEctvcvl2">Become a Map Member (monthly)</a>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/company?plan=plan_GYMGm73x4ZiN0f">Become a Map Member (annually)</a>
 </section>
 
 
@@ -134,6 +134,6 @@ Clojurists Together is a trade organisation. Generally, organisations can treat 
 
 <p>Twice-monthly status reports with more detail</p>
 
-<button class="become-a-member checkout-button" data-plan="plan_GYMGYWlY1YEeXF">Become a Reduce Member (monthly)</button>
-<button class="become-a-member checkout-button" data-plan="plan_GYMHqy2AGshlAO">Become a Reduce Member (annually)</button>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/company?plan=plan_GYMGYWlY1YEeXF">Become a Reduce Member (monthly)</a>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/company?plan=plan_GYMHqy2AGshlAO">Become a Reduce Member (annually)</a>
 </section>
