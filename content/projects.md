@@ -89,7 +89,7 @@ Neanderthal is a fast native-speed matrix and linear algebra library written in 
 <h3 class="project"><a target="_blank" href="https://aleph.io">Aleph<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
 <p class="project-logo"><img src="/logos/projects/aleph.svg" alt="Aleph logo"></p>
 
-Aleph is one the best options for creating high-performance communication systems in Clojure, including but not limited to HTTP & websocket clients & servers. It is based on Netty, a high performance network application framework. A partial list of projects/companies who rely on Aleph to be maintained can be found at ztellman/aleph#450.
+Aleph is one the best options for creating high-performance communication systems in Clojure, including but not limited to HTTP & websocket clients & servers. It is based on Netty, a high performance network application framework.
 
 Development of Aleph also has an impact on the entire server-side libraries ecosystem, including direct influence by backporting bug fixes to such projects like clj-http (Clojure), Netty (Java) and potentially Ring (Clojure); and indirect influence by pushing boundaries and expending interest in the field.
 
