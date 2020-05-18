@@ -29,6 +29,24 @@ Now that Clojurists Together is its own legal entity, we can be more flexible in
 
 Clojurists Together is now able to be significantly more flexible. We're opening up a survey and office hours over the next few months. We want to hear how Clojurists Together can best support the open source Clojure community. Send us your feedback on what kinds of funding would work best for you. Need server hosting covered? Looking to take an open source sabbatical? Let us know what would work for you. We're going to be listening to your feedback, and will announce new ways we will be funding projects and maintainers in the coming months.
 
+## What our members are saying
+
+Before the announcement we talked to some new and existing members about why they are Clojurists Together members. Here's what they said:
+
+_"Clojurists Together provides an invaluable service to the Clojure community by supporting both unsung heroes of established projects (like Clojars and Ring) and brave new souls pushing boundaries and making Clojure's ecosystem more vibrant and exciting."_
+
+_- Paul Stadig, Backend Software Engineer @ Clubhouse_
+
+_"JUXT are proud to sponsor Clojurists Together, to support some of the many individuals who make the wonderful Clojure ecosystem what it is today."_
+
+_- Malcolm Sparks, Technical Director @ JUXT_
+
+_"At Nextjournal we’ve benefited immensely from the work that Clojurists Together has funded so far, and look forward to continue supporting the community in this way."_
+
+_- Dieter Komendera, @ Nextjournal_
+
+We'd especially like to welcome new Filter member [Clubhouse](https://clubhouse.io), and developer members Ryan Zebian, Niklas Heer, Aleksander Sumowski, Patrick Farwick, Mario Trost, Alexander Oloo, Paul Rutledge, and Sergey Shvets.
+
 ### Summer Of Bugs
 
 The first new program that we are working on is something we are tentatively calling "Summer of Bugs". Summer of Bugs will award a number of micro-grant of $500 or $1,000 to people working to fix bugs, implement small features, write docs, or clean up issue trackers. You can read more about Summer of Bugs at the announcement.
