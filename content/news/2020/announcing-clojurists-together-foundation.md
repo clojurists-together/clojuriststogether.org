@@ -1,6 +1,6 @@
 ---
 title: "Announcing the Clojurists Together Foundation"
-date: 2020-05-18T11:00:00-08:00
+date: 2020-05-19T06:00:00+12:00
 author: lvh and Daniel Compton
 summary: "Clojurists Together has formed a trade association to grow and expand the work that we have been doing with the Clojure community."
 ---

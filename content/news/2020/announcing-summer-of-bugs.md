@@ -1,6 +1,6 @@
 ---
 title: "Announcing Summer of Bugs"
-date: 2020-05-18T11:00:00-08:00
+date: 2020-05-19T06:00:00+12:00
 author: lvh
 summary: "Ever wanted to take a day off to fix an annoying bug or finally ship a feature? Clojurists Together Foundation wants to make that happen."
 ---
