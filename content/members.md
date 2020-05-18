@@ -50,6 +50,12 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 <p>Nextjournal is a tool that improves data-driven research. Our notebooks make results and methods reproducible and foster model-driven debate.</p>
 </section>
 
+<section class="membership-card">
+<h4 class="member"><a href="https://clubhouse.io" target="_blank">Clubhouse</a></h4>
+<a href="https://clubhouse.io"><img class="member-logo" src="/logos/clubhouse.svg"></a>
+<p>Clubhouse is an intuitive and enjoyable project management platform.</p>
+</section>
+
 </section>
 
 <section class="member-lists">
