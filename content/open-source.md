@@ -5,7 +5,17 @@ type: page
 
 {{< toc >}}
 
-## Applications
+## Summer of Bugs
+
+Summer of Bugs is a new program from Clojurists Together. It aims to provide micro-grants of $500 and $1,000 to Clojure developers and maintainers to fix bugs, write docs, make small improvements, or clean up issue trackers. You can read more about Summer of Bugs in the [announcement](/news/announcing-summer-of-bugs/).
+
+We will pay half of the grant up-front to projects that are selected, and the other half on completion of the work. Completion criteria will vary between grants but will be agreed on before starting. Generally this will look like accomplishing the task you set out to achieve, or showing that you have made a reasonable effort and moved the problem forward.
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdzwZT4Ti00oUBXWw9kLkL29URgp_d37z96z0ggLjys6B0izA/viewform?usp=sf_link" class="become-a-member">Apply for Summer of Bugs</a>
+
+**Applications for the first Summer of Bugs grants close on 30th June, 11:59 pm PST.**
+
+## Quarterly Grants
 
 Every three months, Clojurists Together takes applications from open source developers for funding to work on open source projects. The Clojurists Together [committee](/team) then evaluates the proposals, makes their selection, and then funds projects with a fellowship for the next three months. You can apply at any time for the next funding cycle, and you can make multiple applications for different projects.
 
@@ -15,13 +25,13 @@ Every three months, Clojurists Together takes applications from open source deve
 
 </section>
 
-### Application Requirements:
+### Application Requirements
 
 - You are a maintainer of the project, i.e. you have commit access to the project, or the others that work on the project recognise you as a maintainer.
 - Project is open source, with a recognised open source license
 - Project benefits the Clojure/ClojureScript community
 
-### Questions:
+### Questions
 
 These questions are to get an understanding of your project and plans for the funding. We would expect most applications would be filled out in five minutes or less. We don't want you spending hours crafting the perfect application; you have enough work to do already.
 
@@ -62,7 +72,7 @@ No.
 
 ---
 
-## Clojurists Together Work Expectations
+### Clojurists Together Work Expectations
 
 A common question we get from people looking to apply is "How many hours do you expect me to work, and how much output do you expect?". Our answer is:
 
@@ -72,11 +82,11 @@ However the raw number of hours is not so important as the results that you’re
 
 One of the things Clojurists Together was designed to support is the work that isn't fun to do. These are things like tracking down hard to reproduce bugs, maintenance to follow upstream dependencies, reviewing large pull-requests, thinking about/tackling large thorny problems, and the other slog work which is important but not fun. If you've got a project with work like that that you've been putting off, we want to fund you to work on it. Of course we also want to fund projects to implement new features, but please don't think that just because your work isn't exciting that you shouldn't apply.
 
-## Funding amounts
+### Funding amounts
 
 Successful projects are awarded a fellowship for three months. The number of projects funded in each cycle and the amount paid for each fellowship will vary depending on member support, and project requirements. Successful projects will know in advance of starting how much they will be paid. For each quarter of 2018 we funded two projects $1,800 USD/mo for three months. In 2019, due to continued growth in members, we were able to fund two projects $3,000 USD/mo for three months.
 
-## Considerations
+### Considerations
 
 The Clojurists Together committee evaluates projects based on the following criteria:
 
@@ -87,7 +97,7 @@ The Clojurists Together committee evaluates projects based on the following crit
 - Member comments - Each funding cycle, we solicit comments and preferences from members on what they see as priorities. Comments from higher tier members get more weight.
 - Track record of the person applying - Are they established in the community, have they got a history of contributing to the community? This doesn't mean you need five years of contributions before you're considered, but if you have one week of history then it may weigh against you. If you have a track record of harassment and negative interactions within the Clojure community then we may decline to consider your application.
 
-## Selecting Projects
+### Selecting Projects
 
 1.  In every funding cycle, we look at the funds that we have available, and decide how many projects we will be able to fund for that cycle.
 2.  Each committee member reviews the projects and weighs them against the criteria above.
@@ -96,15 +106,15 @@ The Clojurists Together committee evaluates projects based on the following crit
 
 We will then publish a list of all the projects that applied, along with the voting results. The voting results redact all but the top 5 projects.
 
-## Project Reports
+### Project Reports
 
 Successful projects are required to submit two project reports each month during the three month cycle. This is used to show backers the impact that their money is having. These don't need to be long or detailed (although writing additional blog posts about your work is encouraged), for example, a list of GitHub issues and a brief comment for each would be sufficient.
 
-## Getting paid
+### Getting paid
 
 If your project is selected, we will create a contract based on your proposal This contract will include the amount to be paid, and the work intended to be done. We can fund maintainers anywhere in the world, barring exceptional circumstances like [US sanctions](https://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx). You will need to check with your accountant, but this contract is probably going to be similar to a freelancing contract, i.e. you will need to pay taxes on it.
 
-## Timeline
+### Timeline
 
 Clojurists Together operates on a three month funding cycle, with four cycles per year. Feb-Apr, May-Jul, Aug-Oct, Nov-Jan. Project applications for the next funding cycle close one month before the cycle starts.
 
