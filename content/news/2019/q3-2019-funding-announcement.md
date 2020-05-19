@@ -69,7 +69,7 @@ I'd also like to find some time to:
 
 ### Why is CIDER important?
 
-> CIDER is a very popular programming environment and it's infrastructure (nREPL, cider-nrepl, piggieback and orchard) powers many of the other tools out there (e.g. vim-fireplace, vim-iced, calva, etc). Improvements to CIDER and it's foundational pieces generally benefits most of the Clojure community.
+> CIDER is a very popular programming environment and its infrastructure (nREPL, cider-nrepl, piggieback and orchard) powers many of the other tools out there (e.g. vim-fireplace, vim-iced, calva, etc). Improvements to CIDER and its foundational pieces generally benefits most of the Clojure community.
 
 ### Bozhidar's plans for the next three months are:
 

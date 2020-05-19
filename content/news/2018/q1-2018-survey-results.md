@@ -49,7 +49,7 @@ Clojurists Together got a Net Promoter Score of 12 in this survey (above 0 is go
 Three key items that came up were:
 
 1. To be able to pay with a credit card directly without going through PayPal. We'd really like to be able to offer this, and are working with the Software Freedom Conservancy to find a good way to do this, while working within the constraints of being part of a larger foundation.
-2. More frequent communications. Now that we have the first funding cycle going, we will be publishing more frequent updates on it's progress, as well as other things that we're doing.
+2. More frequent communications. Now that we have the first funding cycle going, we will be publishing more frequent updates on its progress, as well as other things that we're doing.
 3. More transparency of communication and policies. This will be partly addressed by more frequent communications, and we were asked for more clarity around how projects are funded, so we'll be updating our site with more details around this.
 
 ## Conclusion

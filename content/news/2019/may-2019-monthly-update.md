@@ -38,7 +38,7 @@ Thanks for your continued support of Clojurists Together!
 
 ### May 1 - 15
 
-This first period has been been lots of housekeeping and bug fixes.
+This first period has been lots of housekeeping and bug fixes.
 Much of it has been centered on the relatively small bit of Python
 code used for the nREPL network connection, which has needed attention
 to Python 3 support now that Python 2 is finally starting to disappear

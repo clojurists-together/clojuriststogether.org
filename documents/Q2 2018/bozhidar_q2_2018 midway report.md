@@ -22,7 +22,7 @@ Support open source software, infrastructure, and documentation that is importan
 
 ### Why is this project important to the Clojure community?
 
-A lot of people are using it directly (or indirectly) - CIDER is popular by itself and many other editors use it's additional middleware. CIDER is the most widely adopted Clojure development environment. In the most recent [Clojure survey](http://blog.cognitect.com/blog/2017/1/31/clojure-2018-results) CIDER was the primary development environment for 50% of survey respondents. Additionally, in our most recent member survey, it featured highly as a project important to our members workflows.
+A lot of people are using it directly (or indirectly) - CIDER is popular by itself and many other editors use its additional middleware. CIDER is the most widely adopted Clojure development environment. In the most recent [Clojure survey](http://blog.cognitect.com/blog/2017/1/31/clojure-2018-results) CIDER was the primary development environment for 50% of survey respondents. Additionally, in our most recent member survey, it featured highly as a project important to our members workflows.
 
 ## Work log
 

@@ -101,7 +101,7 @@ My first funded task for Oz has been to mint new cljsjs releases of the various 
 
 As I've begun to dig in, I've decided to keep a sort of running log of my development activities to keep folks up to date on what I've been working on. Unfortunately, as you'll see below, the process this time around has been somewhat fraught.
 
-Cljsjs has always felt a bit challenging to work with for me. For a family of libraries like Vega, it can be rather cumbersome getting all the right versions, checksums, Google Closure externs all organized into a set of build.boot files, each of which may refer to the versions and such of other build.boot files, and each of which in turn needs it's own PR for review, etc.
+Cljsjs has always felt a bit challenging to work with for me. For a family of libraries like Vega, it can be rather cumbersome getting all the right versions, checksums, Google Closure externs all organized into a set of build.boot files, each of which may refer to the versions and such of other build.boot files, and each of which in turn needs its own PR for review, etc.
 
 A while ago I started working on a script for automating this process. It's a beautiful (read: terrifying) bit of bash, of which I'm very proud. In general, it's made things quite a bit more manageable for me, but it still seems to take a bit of expertise to wield.
 

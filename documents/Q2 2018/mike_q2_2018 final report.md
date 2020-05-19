@@ -29,7 +29,7 @@ ClojureScript itself is important to the community, and the Closure Library is e
 * Patch landed for highly-voted [CLJS-2724](https://dev.clojure.org/jira/browse/CLJS-2724), which will allow native Node modules (like "fs") to be used in scripts executed via `cljs.main`
 * Landed a patch in [CLJS-1871](https://dev.clojure.org/jira/browse/CLJS-1871), which allows static dispatch 
 to declared functions when hinted with `:arglists` meta. A bonus side effect is that it helps catch arity errors for calls to declared functions.
-* Re-baselined and re-benchmarked patch in ([CLJS-2341](https://dev.clojure.org/jira/browse/CLJS-2341)) given that [CLJS-844](https://dev.clojure.org/jira/browse/CLJS-844) has been applied. (Whatever the end result is, you can count on speedups in in the range of 1.5 to 2 for `js->clj`.)
+* Re-baselined and re-benchmarked patch in ([CLJS-2341](https://dev.clojure.org/jira/browse/CLJS-2341)) given that [CLJS-844](https://dev.clojure.org/jira/browse/CLJS-844) has been applied. (Whatever the end result is, you can count on speedups in the range of 1.5 to 2 for `js->clj`.)
 * Landed a patch ([CLJS-2442](https://dev.clojure.org/jira/browse/CLJS-2442)), which speeds things up when applying `set` to a set and `vec` to a vector, thus aligning with Clojure for these cases. This allows for simple and efficient code when you need to coerce from an arbitrary collection to a set or vector. 
 * Submitted a patch in [CLJS-2693](https://dev.clojure.org/jira/browse/CLJS-2693), which adds chunked seq support to ranges.
 

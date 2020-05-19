@@ -38,7 +38,7 @@ Two of the bigger changes I've been thinking about are:
 - Supporting React hooks
 - Configurable (Reagent-)hiccup compiler
 
-One of the most asked features is if Reagent support for React hooks. Unfortunately hooks are only usable with React functional components. and currently Reagent RAtom implementation uses Stateful Component state. RAtoms need to know which components depend on them, and be able to re-render the component when RAtoms change. This should be possible by storing storing state and triggering re-render using hooks. The trick will be implement this in a way that doesn't break existing Reagent components, which presume stateful components.
+One of the most asked features is if Reagent support for React hooks. Unfortunately hooks are only usable with React functional components. and currently Reagent RAtom implementation uses Stateful Component state. RAtoms need to know which components depend on them, and be able to re-render the component when RAtoms change. This should be possible by storing state and triggering re-render using hooks. The trick will be implement this in a way that doesn't break existing Reagent components, which presume stateful components.
 
 As this affects how Reagent turns Hiccup to React elements and components, I have some ideas on allowing users configure the Reagent Hiccup compiler, similar to what [Hicada](https://github.com/rauhs/hicada) does. This would also allow introducing optional features which would break existing Reagent code, by making users opt-in to these. One case would be to make React component interop simpler.
 

@@ -193,7 +193,7 @@ this can be quite verbose. Probably it is possible to keep one global
 variable in Reagent for the default options, and allow users to change that.
 Another problem is that several of the caches Reagent uses, need to take
 the options into account. I'm already testing solution where options are used
-to build a object ("Compiler instance"), and this object can hold the caches.
+to build an object ("Compiler instance"), and this object can hold the caches.
 
 These changes are also related to the second objective of Clojurist Together grant:
 "Configurable (Reagent-)hiccup compiler" and the first target is to use

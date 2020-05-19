@@ -19,7 +19,7 @@ I switched the **storage layer**. SQLite is now used instead of lib-grimoire. Mo
 
 This was a lot of work but it sets the project up for more interesting extensions besides API documentation and articles (think specs & examples).
 
-Also I looked more into **integrating specs** but without changes to spec it is impossible to determine if a spec originates from the artefact that is being analysed or from one of it's dependencies. To fix this specs will need to support metadata ([CLJ-2194](https://dev.clojure.org/jira/browse/CLJ-2194)) but the timeline for this is unclear.
+Also I looked more into **integrating specs** but without changes to spec it is impossible to determine if a spec originates from the artefact that is being analysed or from one of its dependencies. To fix this specs will need to support metadata ([CLJ-2194](https://dev.clojure.org/jira/browse/CLJ-2194)) but the timeline for this is unclear.
 
 In the light of this I'm considering focusing on examples first.  More details to come.
 
