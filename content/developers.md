@@ -28,7 +28,7 @@ Vote on board members, get progress updates, influence which projects are select
 <a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMNjKYl7lisqd">Become a Contributing Member ($15/month)</a>
 <a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMObrXegHTSlE">Become a Contributing Member ($180/year)</a>
 <a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMNXYyH3HcN66">Become a Contributing Member ($20/month)</a>
-<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMOB8MprRabK5">Become a Contributing Member ($20/year)</a>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMOB8MprRabK5">Become a Contributing Member ($240/year)</a>
 
 </section>
 
