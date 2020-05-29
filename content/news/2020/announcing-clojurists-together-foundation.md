@@ -73,9 +73,9 @@ After speaking with tax and legal professionals we expect this will have minimal
 
 We are not able to transfer any payment authority from PayPal to the new organisation, so you will need to sign up again with Clojurists Together Foundation directly.
 
-If you are a current Clojurists Together member, you should shortly be receiving an email inviting you to set up an account and add your card on the Clojurists Together website. This site will also let you view invoices and manage where emails for surveys, news, and invoices are sent.
+If you are a current Clojurists Together member, you should have received an email inviting you to set up an account and add your card on the Clojurists Together website. This site will also let you view invoices and manage where emails for surveys, news, and invoices are sent.
 
-Once you have signed up, you will need to cancel your payments with PayPal. We have instructions for [how to do this](https://www.clojuriststogether.org/docs/paypal-update/). If you don't cancel, at some point in the future Conservancy will cease to accept donations on our behalf and cancel your recurring payments.
+Once you have signed up, you will need to cancel your payments with PayPal. We have instructions for [how to do this](https://www.clojuriststogether.org/docs/paypal-update/). If you don't cancel, Conservancy will cease to accept donations on our behalf and cancel your recurring payments on June 1, 2020.
 
 If you would like to join Clojurists Together, you can sign up as a [Company member](https://www.clojuriststogether.org/companies/), or a [Developer member](https://www.clojuriststogether.org/developers/).
 
