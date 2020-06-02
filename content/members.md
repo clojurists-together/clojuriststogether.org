@@ -56,6 +56,12 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 <p>Clubhouse is an intuitive and enjoyable project management platform.</p>
 </section>
 
+<section class="membership-card">
+<h4 class="member founding"><a href="http://www.solita.fi/en" target="_blank">Solita</a></h4>
+<a href="http://www.solita.fi/en"><img class="member-logo" src="/logos/solita.svg"></a>
+<p>We create impact that lasts. Solita is a Northern European community of highly and widely skilled experts combining tech, data and human insight.</p>
+</section>
+
 </section>
 
 <section class="member-lists">
@@ -64,7 +70,6 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 <h2><span>$200/mo</span><br>Into Members</h2>
 <section class="membership-card">
 <ul><li class="founding member"><a href="http://www.zeniuseducation.com/" target="_blank">Zenius Education</a></li></ul>
-<ul><li class="founding member"><a href="http://www.solita.fi/" target="_blank">Solita</a></li></ul>
 <ul><li><a href="https://www.grammarly.com" target="_blank">Grammarly</a></li></ul>
 </section>
 </section>
