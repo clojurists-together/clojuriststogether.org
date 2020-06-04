@@ -7,7 +7,18 @@ page_class: members
 Companies and Individuals that support Clojurists Together will be listed on this page. Founding sponsors are people who joined Clojurists Together early, and are marked with a ⭐️.
 
 <section class="member-category company filter-member">
-<h2><span>$1000/mo</span><br>Transduce Members</h2>
+<h2><span>$2000/mo</span><br>Map Members</h2>
+
+<section class="membership-card">
+<h4 class="member"><a href="https://latacora.com" target="_blank">Latacora</a></h4>
+<a href="https://latacora.com"><img class="member-logo large" src="/logos/latacora.png"></a>
+<p>Retained security teams for startups.
+</p>
+</section>
+
+</section>
+
+<section class="member-category company filter-member">
 
 <section class="membership-card">
 <h4 class="member"><a href="https://pitch.com" target="_blank">Pitch</a></h4>
