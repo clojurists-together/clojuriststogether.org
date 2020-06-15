@@ -13,7 +13,7 @@ For those who are new to Clojurists Together, our goal is simple: Fund critical 
 
 ## Datascript
 
-[Datascript](https://github.com/tonsky/datascript) is a Clojure and ClojureScript database. DataScript has been around for 3+ years, has gotten massive interest from the community, is used in in several production projects (listed on GitHub page), and has been starred on GitHub 3000+ times. Nikita Prokotov is the project creator, and currently maintains Datascript.
+[Datascript](https://github.com/tonsky/datascript) is a Clojure and ClojureScript database. DataScript has been around for 3+ years, has gotten massive interest from the community, is used in several production projects (listed on GitHub page), and has been starred on GitHub 3000+ times. Nikita Prokotov is the project creator, and currently maintains Datascript.
 
 Nikita's plans for the next three months are:
 

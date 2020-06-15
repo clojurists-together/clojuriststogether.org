@@ -22,7 +22,7 @@ Based on Clojars downloads Reagent is the most used ClojureScript React wrapper.
 <a target="_blank" href="https://github.com/BetterThanTomorrow/calva"><img src="/logos/projects/calva.svg" alt="calva logo"/></a>
 </p>
 
-Calva is a Clojure IDE plugin for VS Code. Calva helps new Clojurists get up and running with Clojure without having to worry so much about tooling. VS Code has become a major platform for developers and it's important to have Clojure(Script) support in the developers' editor of choice. We funded Brandon Ringe, a Calva maintainer to work on supporting large data sets and Clojure debugging support.
+Calva is a Clojure IDE plugin for VS Code. Calva helps new Clojurists get up and running with Clojure without having to worry so much about tooling. VS Code has become a major platform for developers and its important to have Clojure(Script) support in the developers' editor of choice. We funded Brandon Ringe, a Calva maintainer to work on supporting large data sets and Clojure debugging support.
 
 <h3 class="project"><a target="_blank" href="https://github.com/tpope/vim-fireplace">fireplace.vim<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
 
@@ -52,7 +52,7 @@ While ClojureScript offers a first class front-end development experience, data 
 <a target="_blank" href="https://github.com/clojure-emacs/cider"><img src="/logos/projects/cider-logo.svg" alt="Cider logo"/></a>
 </p>
 
-CIDER is a very popular programming environment and it's infrastructure (nREPL, cider-nrepl, piggieback and orchard) powers many of the other tools out there (e.g. vim-fireplace, vim-iced, calva, etc). Improvements to CIDER and it's foundational pieces generally benefits most of the Clojure community. It is maintained by Bozhidar Batsov.
+CIDER is a very popular programming environment and its infrastructure (nREPL, cider-nrepl, piggieback and orchard) powers many of the other tools out there (e.g. vim-fireplace, vim-iced, calva, etc). Improvements to CIDER and its foundational pieces generally benefits most of the Clojure community. It is maintained by Bozhidar Batsov.
 
 <h3 class="project"><a target="_blank" href="https://github.com/thheller/shadow-cljs">Shadow CLJS<img class="open-in-new" src="/icons/open-in-new-24px.svg" alt="open in new tab icon"/></a></h3>
 

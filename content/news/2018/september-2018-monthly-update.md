@@ -36,7 +36,7 @@ In the same vein Saskia and I are putting together a cljdoc hackday in
 Berlin on Thursday 11th October from 2pm, join the `#cljdoc` Slack
 channel on [clojurians.net](http://clojurians.net) for details.
 
-Things that have have been shipped in September:
+Things that have been shipped in September:
 
 - A toggle to view raw docstrings ([PR #117](https://github.com/cljdoc/cljdoc/pull/117))
 - A first iteration at what may become an interactive article TOC, currently just showing what section you're in ([PR #116](https://github.com/cljdoc/cljdoc/pull/116))

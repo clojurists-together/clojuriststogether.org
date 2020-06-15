@@ -116,7 +116,7 @@ Also, with help from Michiel Borkent, aka [@borkdude](https://github.com/borkdud
 - [Re-open REPL windows where they were last closed](https://github.com/BetterThanTomorrow/calva/issues/300)
 - Lexer performance considerably improved. Fixes [this](https://github.com/BetterThanTomorrow/calva/issues/228) and [this](https://github.com/BetterThanTomorrow/calva/issues/128))
 - [REPL colours and logo a bit toned down](https://github.com/BetterThanTomorrow/calva/issues/303)
-- Removed `useWSL`configuration option because the the use of Calva is fully supported through the [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) extension.
+- Removed `useWSL`configuration option because the use of Calva is fully supported through the [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) extension.
 - [Add commands for interrupting the current evaluation as well as all running evaluations](https://github.com/BetterThanTomorrow/calva/issues/237)
 - [Calva asks for user input when `stdin` needs it (e.g. `read-line`)](https://github.com/BetterThanTomorrow/calva/issues/377)
 - Command for clearing the REPL history reworked and now also ”restarts” the REPL window.

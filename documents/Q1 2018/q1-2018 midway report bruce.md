@@ -8,7 +8,7 @@ Support open source software, infrastructure, and documentation that is importan
 
 The Figwheel codebase is  an exploration of the problem space of creating a friendly ClojureScript. As a UI to ClojureScript the codebase is complex and complected.
 
-I would love to devote a solid 3 months to working solely on Figwheel. I would like revisit it's functionality and condense it down into an architecture and a set of libraries that will allow it to be reused in other contexts (i.e boot etc.) more easily. For example: other projects should be able to use a figwheel's compiler wrapper that produces attractive error messages, or perhaps just figwheel's error message parsing code.
+I would love to devote a solid 3 months to working solely on Figwheel. I would like revisit its functionality and condense it down into an architecture and a set of libraries that will allow it to be reused in other contexts (i.e boot etc.) more easily. For example: other projects should be able to use a figwheel's compiler wrapper that produces attractive error messages, or perhaps just figwheel's error message parsing code.
 
 I would also us the time to explore feedback for spec errors at runtime.
 

@@ -44,7 +44,7 @@ There also needs to be more discussion with the wider ecosystem to make examples
 
 More details in [ADR-0014](https://github.com/cljdoc/cljdoc/blob/master/doc/adr/0014-add-support-for-examples.md) (initial decision to integrate examples) and [ADR-0015](https://github.com/cljdoc/cljdoc/blob/master/doc/adr/0015-cancel-work-on-examples.md) (reversal of that decision with more context/reasoning).
 
-### Things that have have been shipped in October:
+### Things that have been shipped in October:
 
 - We migrated from cljdoc.xyz to cljdoc.org and made lots of tiny improvements to make sure cljdoc is being indexed by search engines properly.
 - Avichal added build stats to [cljdoc.org/builds](https://cljdoc.org/builds) giving us some insight into failure rates of documentation builds. [Help lower it.](https://github.com/cljdoc/cljdoc/blob/master/…)

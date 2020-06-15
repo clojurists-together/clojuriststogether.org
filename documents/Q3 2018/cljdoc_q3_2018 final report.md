@@ -21,7 +21,7 @@ Cljdoc is a website that builds and hosts documentation for Clojure and ClojureS
 
 Septemeber 2018
 
-Things that have have been shipped in September:
+Things that have been shipped in September:
 
 - A toggle to view raw docstrings ([PR #117](https://github.com/cljdoc/cljdoc/pull/117))
 - A first iteration at what may become an interactive article TOC, currently just showing what section you're in ([PR #116](https://github.com/cljdoc/cljdoc/pull/116))
