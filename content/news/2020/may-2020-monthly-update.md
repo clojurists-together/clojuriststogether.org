@@ -2,7 +2,7 @@
 title: "May 2020 Monthly Update"
 date: 2020-06-15T15:00:54+12:00
 author: Alyssa Parado
-summary: Read more updates from Fireplace, Cider, Figwheel, Practicalli, and Clojars
+summary: Read more updates from Fireplace, Cider, Figwheel, Practicalli, Re-frame, and Clojars
 ---
 
 
@@ -282,6 +282,79 @@ Improvements to various content sections based on feedback from the community.
 * Completely revised the introduction to sets and hash-maps
 * Improved descriptions for the ring introduction, creating a project, creating a webserver, defining handlers, compojure defroutes and using the let function
 * Clarified use of Heroku for deploying applications
+
+
+
+## Re-frame
+
+**May 1-15
+
+Based on https://github.com/day8/re-frame/issues/589
+
+Progress on the early, low-hanging-fruit step:
+
+- [x] thoroughly review all the existing issues and PRs.
+- [x] close any issues which need it
+- [x] assemble the candidate list of issues we identify as "low hanging fruit"
+- [x] some distracting issues with re-frame-template, shadow-c;lj and Lein-Shadow. See https://github.com/day8/re-frame-template/issues/128 and https://gitlab.com/nikperic/lein-shadow/-/merge_requests/3
+- [x] some distractions with re-frame-10x (almost there)
+- [x] #570 - Implement a way to add global interceptors
+- [x] about to cut a new release which includes all the low hanging fruit
+- [x] #544
+- [x] #456
+- [x] #216
+
+
+Closed with explanations:
+- [#553](https://github.com/day8/re-frame/issues/553)
+- [#572](https://github.com/day8/re-frame/issues/572)
+- [#555](https://github.com/day8/re-frame/issues/555)
+- [#112](https://github.com/day8/re-frame/issues/112)
+- [#481](https://github.com/day8/re-frame/issues/481)
+- [#164](https://github.com/day8/re-frame/issues/164) 
+- [#554](https://github.com/day8/re-frame/issues/554)
+- [#480](https://github.com/day8/re-frame/issues/480)
+
+Picked Fruit, so far:
+
+Issues arising:
+- [#588](https://github.com/day8/re-frame/issues/588)
+
+Building a grown-up website [#582](https://github.com/day8/re-frame/issues/582): 
+- [x] A review of options and likely paths has commenced. 
+
+##### New website progress
+
+- [x] learning new static site generator  (good decision so far, but there's always stuff to learn)
+- [x] we've spent far too long getting Klipse going (to supply a page of live coding)
+- [x] a GithubActions based build system for new website 
+- [x] a LOT of rewriting, writing and thinking 
+- [x] integration with API docs 
+  
+New docs include the following:
+- Reusable Components - Addresses issue #264
+- On Dynamics
+- Subscriptions - Previously a neglected area. 
+
+We're down to about 18 issues and 3 PRs. When we started, I think it was 30 issues and 9 PRs. 
+
+
+**May 16-31
+
+Based on https://github.com/day8/re-frame/issues/589
+
+The task of addressing meatier issues is now slightly delayed.
+
+New FAQ item added which closes [#538](https://github.com/day8/re-frame/issues/538)
+
+[#478](https://github.com/day8/re-frame/issues/478) - cljs-oss/canary build support has been done, but not yet enabled. 
+
+We are down to 13 open issues and 2 PRs.
+
+In light of some negative feedback we have received of the initial release, we are reworking the new website. 
+Goal is to present code earlier and require less initial reading. 
+
+
 
 ## Clojars
 
