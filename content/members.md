@@ -19,8 +19,8 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 </section>
 
 <section class="member-category company filter-member">
-<h2><span>$1000/mo</span><br>Transduce Members</h2> 
-  
+<h2><span>$1000/mo</span><br>Transduce Members</h2>
+
 <section class="membership-card">
 <h4 class="member"><a href="https://pitch.com" target="_blank">Pitch</a></h4>
 <a href="https://pitch.com"><img class="member-logo large" src="/logos/pitch.svg"></a>
@@ -33,6 +33,14 @@ Companies and Individuals that support Clojurists Together will be listed on thi
 <a href="https://nubank.com.br"><img class="member-logo large" src="/logos/nubank.png"></a>
 <p>Nubank is the leading financial technology company in Latin America.</p>
 </section>
+
+<section class="membership-card">
+<h4 class="member"><a href="http://lisperati.com/" target="_blank">Conrad Barski</a></h4>
+<a href="http://lisperati.com/"><img class="member-logo large" src="/logos/lisperati.png"></a>
+</section>
+
+
+
 </section>
 
 <section class="member-category company filter-member">
