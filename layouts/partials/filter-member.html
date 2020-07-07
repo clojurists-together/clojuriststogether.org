@@ -1,0 +1,7 @@
+<section class="membership-card">
+    <h4 class="member {{ if eq .founding true }}founding{{ end }}"><a href="{{ .url }}" target="_blank">{{ .name }}</a>
+    </h4>
+    <a href="{{ .url }}"><img class="member-logo large" src="{{ .logo }}"></a>
+    <p>{{ .tagline }}
+    </p>
+</section>

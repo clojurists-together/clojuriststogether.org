@@ -1,0 +1,125 @@
+{{ define "main" }}
+<h1 class="page-title">
+    {{ .Title }}
+</h1>
+
+{{ .Content }}
+
+<!-- <code>{{ printf "%#v" $.Site.Data.members }}</code> -->
+
+
+<section class="member-category company filter-member">
+    <h2><span>$2000/mo</span><br>Map Members</h2>
+
+    {{ range where $.Site.Data.members.members "level" "map" }}
+    {{ partial "filter-member" .}}
+    {{end}}
+</section>
+
+
+<section class="member-category company filter-member">
+    <h2><span>$1000/mo</span><br>Transduce Members</h2>
+
+    {{ range where $.Site.Data.members.members "level" "transduce" }}
+    {{ partial "filter-member" .}}
+    {{end}}
+</section>
+
+<section class="member-category company filter-member">
+    <h2><span>$500/mo</span><br>Filter Members</h2>
+
+    {{ range where $.Site.Data.members.members "level" "filter" }}
+    {{ partial "filter-member" .}}
+    {{end}}
+</section>
+
+<section class="member-lists">
+    <section class="member-category into-member">
+        <h2><span>$200/mo</span><br>Into Members</h2>
+        <section class="membership-card">
+            <ul>
+                {{ range where $.Site.Data.members.members "level" "into" }}
+                {{ partial "into-member" . }}
+                {{end}}
+            </ul>
+        </section>
+    </section>
+
+    <section class="member-category cons-member">
+        <h2><span>$100/mo</span><br>Cons Members</h2>
+        <section class="membership-card">
+            <ul>
+                {{ range where $.Site.Data.members.members "level" "cons" }}
+                {{ partial "into-member" . }}
+                {{end}}
+
+            </ul>
+
+        </section>
+    </section>
+
+    <section class="member-category assoc-member">
+        <h2><span>$50/mo</span><br>Assoc Members</h2>
+        <section class="membership-card">
+            <ul>
+                {{ range where $.Site.Data.members.members "level" "assoc" }}
+                {{ partial "into-member" . }}
+                {{end}}
+            </ul>
+        </section>
+    </section>
+</section>
+
+<!-- Hardcoded for now -->
+<section class="member-category">
+    <h2>Percentage of revenue members</h2>
+    <section class="membership-card">
+        <p>These companies give a percentage of their revenue to Clojurists Together:</p>
+        <ul>
+            <li><a href="https://www.jacekschae.com">Jacek Schae (Learn Reagent, Learn re-frame)</a> - 10% of
+                profits, 40% from Clojurists Together affiliate links, 50% from Thanksgiving sales</li>
+        </ul>
+    </section>
+</section>
+
+<section class="member-category founding-developer">
+    <h2>Founding Developer Members ⭐</h2>
+    <section class="membership-card">
+        {{ $members := (where $.Site.Data.members.members "level" "developer") }}
+        {{ $founders := (where $members "founding" true )}}
+        {{ $names := (apply $founders "index" "." "name")}}
+        {{ delimit $names ", " }}.
+    </section>
+</section>
+
+<section class="member-category developer">
+    <h2>Developer Members</h2>
+    <section class="membership-card">
+        {{ $members := (where $.Site.Data.members.members "level" "developer") }}
+        {{ $founders := (where $members "founding" false )}}
+        {{ $names := (apply $founders "index" "." "name")}}
+        {{ delimit $names ", " }}.
+    </section>
+</section>
+
+<section class="member-category contributing">
+    <h2>Founding Contributing Members ⭐</h2>
+    <section class="membership-card">
+        {{ $members := (where $.Site.Data.members.members "level" "contributing") }}
+        {{ $founders := (where $members "founding" true )}}
+        {{ $names := (apply $founders "index" "." "name")}}
+        {{ delimit $names ", " }}.
+    </section>
+</section>
+
+<section class="member-category contributing">
+    <h2>Contributing Members</h2>
+    <section class="membership-card">
+        {{ $members := (where $.Site.Data.members.members "level" "contributing") }}
+        {{ $founders := (where $members "founding" false )}}
+        {{ $names := (apply $founders "index" "." "name")}}
+        {{ delimit $names ", " }}.
+    </section>
+</section>
+
+{{ end }}
