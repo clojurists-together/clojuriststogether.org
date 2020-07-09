@@ -354,6 +354,10 @@ Refactor applications menu key bindings to create more room for key bindings and
 
 
 
+## Re-frame
+
+**June 1-30**
+As we had been working almost full-time on re-frame over the prior period we took a break from re-frame over this period and expect to resume work on re-frame's meatier enchancement proposals in July.
 
 
 
