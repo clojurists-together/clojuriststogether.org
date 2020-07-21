@@ -3,24 +3,9 @@ title: "Q3 2020 Survey Results"
 date: 2020-07-20 T15:36:17+13:00
 summary: 
 author: Alyssa Parado
-draft: true
 ---
 
-Thanks so much for your support and feedback in the latest survey.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Thanks so much for your support and feedback in the latest survey. This quarter we are funding three projects $9,000 each. You can [apply for funding](https://www.clojuriststogether.org/open-source/), applications are open until 28th July 11:59pm PST.
 
 ## Survey Responses
 
@@ -42,8 +27,6 @@ The main things our members were interested in:
 - Test tooling
 
 If you work on any of these kinds of projects, please look at applying for funding.
-
-
 
 ### Are there any particular libraries, tools, or projects that are important to you that you would like to see supported?
 
