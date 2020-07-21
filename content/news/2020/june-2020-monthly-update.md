@@ -1,10 +1,8 @@
 ---
 title: "June 2020 Monthly Update"
-date: 2020-07-09 T10:00:54+8:00
+date: 2020-07-09T10:00:54+08:00
 author: Alyssa Parado
 summary: Read more updates from Fireplace, Cider, Figwheel, Practicalli, Re-frame, and Clojars
-
-draft: true
 ---
 
 
@@ -13,8 +11,6 @@ draft: true
 * Implemented eval backgrounding.  Press CTRL-D during any interactive eval to
   detach from it and continue using Vim.  The results will open in a preview
   window when finished.
-
-
 
 ## Cider
 
@@ -232,7 +228,7 @@ One can now set the new `:react-native` Figwheel option to `true` and
 it will take care of the mechanics of hooking up Figwheel to the React
 Native project.
 
-The initial pass at this for React Native CLI is finished. 
+The initial pass at this for React Native CLI is finished.
 
 One problem is that the `npm_deps.js` file is regenerated on every
 compile which causes the metro bundler to reload the whole application

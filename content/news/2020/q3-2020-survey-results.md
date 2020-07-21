@@ -1,8 +1,7 @@
 ---
 title: "Q3 2020 Survey Results"
-date: 2020-07-20 T15:36:17+13:00
+date: 2020-07-20T15:36:17+13:00
 summary: Thanks so much for your support and feedback in the latest survey. This quarter we are funding three projects $9,000 each, applications are open until 28th July 11:59pm PST.
-
 author: Alyssa Parado
 ---
 
@@ -53,15 +52,15 @@ If you're a maintainer of any of these projects, please consider applying.
 
 A sampling of comments:
 
-- I've been happy with the projects that have been funded, it's a community effort after all. 
+- I've been happy with the projects that have been funded, it's a community effort after all.
 - Calva certainly seems way better than when I tried it 2 years ago
-- Yes. I believe everyone who is a member of Clojurists Together benefits from what you're doing and that's why we contribute to the organization. 
+- Yes. I believe everyone who is a member of Clojurists Together benefits from what you're doing and that's why we contribute to the organization.
 - Continued reliability on the Clojure ecosystem
 - Happy to see support for CIDER, Oz, shadow-cljs, etc. Recent updates to Oz have been very helpful to me.
 - I've appreciated the recent nrepl, reagent, and clj-kondo work
 - I use approximately half the sponsored projects.
 - It's good to know that Bozhidar was supported – he's doing a lot of work
-- Borkdude's work has really gained focus and the improvements to his libraries are great. 
+- Borkdude's work has really gained focus and the improvements to his libraries are great.
 
 
 
@@ -97,7 +96,7 @@ Could do better:
 
 - Outreach, elevator pitching, making the mission even more known in companies
 - More insight into how the projects to be funded are chosen.
-- Fund specific people (not projects) who have demonstrated innovative thinking / tools.  Look for a way to fund quantum improvements in tools. 
+- Fund specific people (not projects) who have demonstrated innovative thinking / tools.  Look for a way to fund quantum improvements in tools.
 - Treat mature and mainstream (by democratic choice) projects specially, i.e. allocate steady significant sponsorships
 
 Thank you!
