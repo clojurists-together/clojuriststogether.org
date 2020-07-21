@@ -1,7 +1,8 @@
 ---
 title: "Q3 2020 Survey Results"
 date: 2020-07-20 T15:36:17+13:00
-summary: 
+summary: Thanks so much for your support and feedback in the latest survey. This quarter we are funding three projects $9,000 each, applications are open until 28th July 11:59pm PST.
+
 author: Alyssa Parado
 ---
 
