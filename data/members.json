@@ -41,7 +41,7 @@
       "url": "https://www.metosin.fi/",
       "logo": "/logos/metosin.svg",
       "level": "filter",
-      "founding": false,
+      "founding": true,
       "tagline": "Metosin is the first Finnish software house specializing in Clojure. We arrange annually the biggest North-European Clojure conference called ClojuTRE"
     },
     {
@@ -146,24 +146,10 @@
       "founding": false
     },
     {
-      "name": "Centriq",
-      "url": "https://www.mycentriq.com",
-      "logo": null,
-      "level": null,
-      "founding": false
-    },
-    {
       "name": "Grammarly",
       "url": "https://www.grammarly.com/",
       "logo": null,
       "level": "into",
-      "founding": false
-    },
-    {
-      "name": "Workframe",
-      "url": "http://workframe.com",
-      "logo": null,
-      "level": null,
       "founding": false
     },
     {
@@ -208,13 +194,6 @@
       "url": "https://www.cognician.com",
       "logo": null,
       "level": "cons",
-      "founding": false
-    },
-    {
-      "name": "Muneo GmbH",
-      "url": null,
-      "logo": null,
-      "level": null,
       "founding": false
     },
     {
@@ -275,13 +254,6 @@
       "level": "transduce",
       "founding": false,
       "tagline": "Cisco technology is creating a world of potential."
-    },
-    {
-      "name": "Lifecycle",
-      "url": "https://lifecycle.com",
-      "logo": null,
-      "level": null,
-      "founding": false
     },
     {
       "name": "Ben Brinckerhoff",
@@ -451,22 +423,22 @@
     {
       "name": "Didier Arslanian",
       "level": "contributing",
-      "founding": false
+      "founding": true
     },
     {
       "name": "Michiel Borkent",
       "level": "contributing",
-      "founding": false
+      "founding": true
     },
     {
       "name": "Andrew Dixon",
       "level": "contributing",
-      "founding": false
+      "founding": true
     },
     {
       "name": "Alex Miller",
       "level": "contributing",
-      "founding": false
+      "founding": true
     },
     {
       "name": "Robert Medeiros",
@@ -909,11 +881,6 @@
       "founding": false
     },
     {
-      "name": "Новоточинов Дмитрий",
-      "level": null,
-      "founding": false
-    },
-    {
       "name": "Ladislav Gubik",
       "level": "contributing",
       "founding": false
@@ -1149,11 +1116,6 @@
       "founding": false
     },
     {
-      "name": "Дмитрий Паламарчук",
-      "level": null,
-      "founding": false
-    },
-    {
       "name": "Michael Simonson",
       "level": "contributing",
       "founding": false
@@ -1176,11 +1138,6 @@
     {
       "name": "Daniel Dorman",
       "level": "contributing",
-      "founding": false
-    },
-    {
-      "name": "James Solomon",
-      "level": null,
       "founding": false
     },
     {
@@ -1499,11 +1456,6 @@
       "founding": false
     },
     {
-      "name": "Jasmine Ware",
-      "level": null,
-      "founding": false
-    },
-    {
       "name": "Daniel Janus",
       "level": "contributing",
       "founding": false
@@ -1514,18 +1466,8 @@
       "founding": false
     },
     {
-      "name": "Jamirais Bin Ismail",
-      "level": null,
-      "founding": false
-    },
-    {
       "name": "Nick Jones",
       "level": "contributing",
-      "founding": false
-    },
-    {
-      "name": "Orlando J. Mendoza",
-      "level": null,
       "founding": false
     },
     {
