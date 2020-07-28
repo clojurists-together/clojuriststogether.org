@@ -1,25 +1,24 @@
 {
   "members": [
     {
-      "name": "JUXT",
-      "url": "https://juxt.pro",
-      "logo": "/logos/juxt.svg",
-      "level": "filter",
-      "founding": true,
-      "tagline": "JUXT delivers secure and compliant bespoke software applications and platforms: from the world's busiest websites to complex financial systems."
+      "name": "Jepsen",
+      "url": "https://jepsen.io",
+      "logo": null,
+      "level": "cons",
+      "founding": true
+    },
+    {
+      "name": "Bloom Ventures",
+      "url": "http://bloomventures.io",
+      "logo": null,
+      "level": "assoc",
+      "founding": true
     },
     {
       "name": "Ochiai",
       "url": "http://cstap.com",
       "logo": null,
       "level": "assoc",
-      "founding": true
-    },
-    {
-      "name": "Jepsen",
-      "url": "https://jepsen.io",
-      "logo": null,
-      "level": "cons",
       "founding": true
     },
     {
@@ -30,12 +29,12 @@
       "founding": true
     },
     {
-      "name": "Solita",
-      "url": "http://www.solita.fi/en",
-      "logo": "/logos/solita.svg",
+      "name": "JUXT",
+      "url": "https://juxt.pro",
+      "logo": "/logos/juxt.svg",
       "level": "filter",
       "founding": true,
-      "tagline": "We create impact that lasts. Solita is a Northern European community of highly and widely skilled experts combining tech, data and human insight."
+      "tagline": "JUXT delivers secure and compliant bespoke software applications and platforms: from the world's busiest websites to complex financial systems."
     },
     {
       "name": "Metosin",
@@ -46,11 +45,12 @@
       "tagline": "Metosin is the first Finnish software house specializing in Clojure. We arrange annually the biggest North-European Clojure conference called ClojuTRE"
     },
     {
-      "name": "Bloom Ventures",
-      "url": "http://bloomventures.io",
-      "logo": null,
-      "level": "assoc",
-      "founding": true
+      "name": "Solita",
+      "url": "http://www.solita.fi/en",
+      "logo": "/logos/solita.svg",
+      "level": "filter",
+      "founding": true,
+      "tagline": "We create impact that lasts. Solita is a Northern European community of highly and widely skilled experts combining tech, data and human insight."
     },
     {
       "name": "Sattvik Software & Technology Resources",
@@ -132,13 +132,6 @@
       "founding": false
     },
     {
-      "name": "Ardoq AS",
-      "url": "https://www.ardoq.com/",
-      "logo": null,
-      "level": "assoc",
-      "founding": false
-    },
-    {
       "name": "Sharetribe",
       "url": "https://www.sharetribe.com/",
       "logo": null,
@@ -146,10 +139,17 @@
       "founding": false
     },
     {
+      "name": "Ardoq AS",
+      "url": "https://www.ardoq.com/",
+      "logo": null,
+      "level": "assoc",
+      "founding": false
+    },
+    {
       "name": "Centriq",
       "url": "https://www.mycentriq.com",
       "logo": null,
-      "level": "cons",
+      "level": null,
       "founding": false
     },
     {
@@ -163,7 +163,7 @@
       "name": "Workframe",
       "url": "http://workframe.com",
       "logo": null,
-      "level": "assoc",
+      "level": null,
       "founding": false
     },
     {
@@ -254,13 +254,6 @@
       "tagline": "Clubhouse is an intuitive and enjoyable project management platform."
     },
     {
-      "name": "N/A",
-      "url": "http://testingtestingtester.org",
-      "logo": null,
-      "level": null,
-      "founding": false
-    },
-    {
       "name": "Conrad Barski",
       "url": "https://twitter.com/lisperati",
       "logo": "/logos/lisperati.png",
@@ -276,32 +269,22 @@
       "tagline": "Retained security teams for startups."
     },
     {
-      "name": "Víctor M. Valenzuela",
-      "level": "developer",
-      "founding": true
+      "name": "Cisco",
+      "url": "https://www.cisco.com",
+      "logo": null,
+      "level": "transduce",
+      "founding": false,
+      "tagline": "Cisco technology is creating a world of potential."
     },
     {
-      "name": "Bastien Guerry",
-      "level": "contributing",
-      "founding": true
+      "name": "Lifecycle",
+      "url": "https://lifecycle.com",
+      "logo": null,
+      "level": null,
+      "founding": false
     },
     {
       "name": "Ben Brinckerhoff",
-      "level": "contributing",
-      "founding": true
-    },
-    {
-      "name": "Val Waeselynck",
-      "level": "developer",
-      "founding": true
-    },
-    {
-      "name": "Paulo Feodrippe",
-      "level": "contributing",
-      "founding": true
-    },
-    {
-      "name": "Boris Schmid",
       "level": "contributing",
       "founding": true
     },
@@ -311,22 +294,7 @@
       "founding": true
     },
     {
-      "name": "Tao Hansen",
-      "level": "contributing",
-      "founding": true
-    },
-    {
-      "name": "Devin Walters",
-      "level": "developer",
-      "founding": true
-    },
-    {
-      "name": "Liam Falconer",
-      "level": "contributing",
-      "founding": true
-    },
-    {
-      "name": "Reid McKenzie",
+      "name": "Val Waeselynck",
       "level": "developer",
       "founding": true
     },
@@ -341,22 +309,12 @@
       "founding": true
     },
     {
-      "name": "Tony Wang",
+      "name": "Liam Falconer",
       "level": "contributing",
       "founding": true
     },
     {
-      "name": "Leon Mergen",
-      "level": "contributing",
-      "founding": true
-    },
-    {
-      "name": "Ayato N",
-      "level": "contributing",
-      "founding": true
-    },
-    {
-      "name": "Claudiu Apetrei",
+      "name": "Reid McKenzie",
       "level": "developer",
       "founding": true
     },
@@ -366,17 +324,67 @@
       "founding": true
     },
     {
+      "name": "Devin Walters",
+      "level": "developer",
+      "founding": true
+    },
+    {
+      "name": "Leon Mergen",
+      "level": "contributing",
+      "founding": true
+    },
+    {
+      "name": "Claudiu Apetrei",
+      "level": "developer",
+      "founding": true
+    },
+    {
       "name": "Ikuru Kanuma",
       "level": "contributing",
       "founding": true
     },
     {
-      "name": "Veha Suwatphisankij",
+      "name": "Ayato N",
+      "level": "contributing",
+      "founding": true
+    },
+    {
+      "name": "Tao Hansen",
+      "level": "contributing",
+      "founding": true
+    },
+    {
+      "name": "Boris Schmid",
+      "level": "contributing",
+      "founding": true
+    },
+    {
+      "name": "Paulo Feodrippe",
+      "level": "contributing",
+      "founding": true
+    },
+    {
+      "name": "Tony Wang",
+      "level": "contributing",
+      "founding": true
+    },
+    {
+      "name": "Víctor M. Valenzuela",
+      "level": "developer",
+      "founding": true
+    },
+    {
+      "name": "Bastien Guerry",
       "level": "contributing",
       "founding": true
     },
     {
       "name": "Palak Mathur",
+      "level": "contributing",
+      "founding": true
+    },
+    {
+      "name": "Veha Suwatphisankij",
       "level": "contributing",
       "founding": true
     },
@@ -481,27 +489,12 @@
       "founding": false
     },
     {
-      "name": "Chancy Kennedy",
-      "level": "contributing",
-      "founding": false
-    },
-    {
-      "name": "Stephen Lester",
+      "name": "Johnny Eradus",
       "level": "developer",
       "founding": false
     },
     {
-      "name": "Thomas Connors",
-      "level": "contributing",
-      "founding": false
-    },
-    {
-      "name": "James McElwain",
-      "level": "contributing",
-      "founding": false
-    },
-    {
-      "name": "Leon Talbot",
+      "name": "Chancy Kennedy",
       "level": "contributing",
       "founding": false
     },
@@ -516,13 +509,33 @@
       "founding": false
     },
     {
-      "name": "Johnny Eradus",
+      "name": "Leon Talbot",
+      "level": "contributing",
+      "founding": false
+    },
+    {
+      "name": "James McElwain",
+      "level": "contributing",
+      "founding": false
+    },
+    {
+      "name": "Thomas Connors",
+      "level": "contributing",
+      "founding": false
+    },
+    {
+      "name": "Stephen Lester",
       "level": "developer",
       "founding": false
     },
     {
       "name": "Sankara Rameswaran",
       "level": "contributing",
+      "founding": false
+    },
+    {
+      "name": "Kazunori Kajihiro",
+      "level": "developer",
       "founding": false
     },
     {
@@ -533,11 +546,6 @@
     {
       "name": "Steven Harms",
       "level": "contributing",
-      "founding": false
-    },
-    {
-      "name": "Kazunori Kajihiro",
-      "level": "developer",
       "founding": false
     },
     {
@@ -582,11 +590,6 @@
     },
     {
       "name": "Erik Assum",
-      "level": "developer",
-      "founding": false
-    },
-    {
-      "name": "Timothy Myrtle",
       "level": "contributing",
       "founding": false
     },
@@ -598,6 +601,11 @@
     {
       "name": "Tiago Luchini",
       "level": "developer",
+      "founding": false
+    },
+    {
+      "name": "Timothy Myrtle",
+      "level": "contributing",
       "founding": false
     },
     {
@@ -616,13 +624,13 @@
       "founding": false
     },
     {
-      "name": "Andrew Monks",
-      "level": "developer",
+      "name": "Ryan McCuaig",
+      "level": "contributing",
       "founding": false
     },
     {
-      "name": "Ryan McCuaig",
-      "level": "contributing",
+      "name": "Andrew Monks",
+      "level": "developer",
       "founding": false
     },
     {
@@ -641,22 +649,22 @@
       "founding": false
     },
     {
-      "name": "Steve Buikhuizen",
-      "level": "contributing",
-      "founding": false
-    },
-    {
       "name": "伊藤 大",
       "level": "contributing",
       "founding": false
     },
     {
-      "name": "Dieter Komendera",
+      "name": "Steve Buikhuizen",
       "level": "contributing",
       "founding": false
     },
     {
       "name": "大橋 賢人",
+      "level": "contributing",
+      "founding": false
+    },
+    {
+      "name": "Dieter Komendera",
       "level": "contributing",
       "founding": false
     },
@@ -671,13 +679,13 @@
       "founding": false
     },
     {
-      "name": "Zach Tellman",
-      "level": "developer",
+      "name": "Dorab Patel",
+      "level": "contributing",
       "founding": false
     },
     {
-      "name": "Dorab Patel",
-      "level": "contributing",
+      "name": "Zach Tellman",
+      "level": "developer",
       "founding": false
     },
     {
@@ -691,12 +699,12 @@
       "founding": false
     },
     {
-      "name": "Paulus Esterhazy",
+      "name": "August Lilleaas",
       "level": "contributing",
       "founding": false
     },
     {
-      "name": "August Lilleaas",
+      "name": "Paulus Esterhazy",
       "level": "contributing",
       "founding": false
     },
@@ -731,12 +739,12 @@
       "founding": false
     },
     {
-      "name": "Raymond Huang",
+      "name": "Daniil Boykis",
       "level": "contributing",
       "founding": false
     },
     {
-      "name": "Daniil Boykis",
+      "name": "Raymond Huang",
       "level": "contributing",
       "founding": false
     },
@@ -771,12 +779,12 @@
       "founding": false
     },
     {
-      "name": "Fed Reggiardo",
+      "name": "Cesar Castillo Bardalez",
       "level": "contributing",
       "founding": false
     },
     {
-      "name": "Cesar Castillo Bardalez",
+      "name": "Fed Reggiardo",
       "level": "contributing",
       "founding": false
     },
@@ -786,12 +794,12 @@
       "founding": false
     },
     {
-      "name": "Robert Gersak",
+      "name": "Ayron Wohletz",
       "level": "contributing",
       "founding": false
     },
     {
-      "name": "Ayron Wohletz",
+      "name": "Robert Geršak",
       "level": "contributing",
       "founding": false
     },
@@ -846,13 +854,13 @@
       "founding": false
     },
     {
-      "name": "Phillips Wolr",
-      "level": "developer",
+      "name": "Amarjeet",
+      "level": "contributing",
       "founding": false
     },
     {
-      "name": "Amarjeet",
-      "level": "contributing",
+      "name": "Phillips Wolr",
+      "level": "developer",
       "founding": false
     },
     {
@@ -921,7 +929,7 @@
       "founding": false
     },
     {
-      "name": "David Whittington",
+      "name": "Chen Yong",
       "level": "contributing",
       "founding": false
     },
@@ -931,7 +939,7 @@
       "founding": false
     },
     {
-      "name": "Chen Yong",
+      "name": "David Whittington",
       "level": "contributing",
       "founding": false
     },
@@ -956,12 +964,12 @@
       "founding": false
     },
     {
-      "name": "Jan Rychter",
+      "name": "Oliver Caldwell",
       "level": "contributing",
       "founding": false
     },
     {
-      "name": "Oliver Caldwell",
+      "name": "Jan Rychter",
       "level": "contributing",
       "founding": false
     },
@@ -1006,22 +1014,22 @@
       "founding": false
     },
     {
-      "name": "Nick Nichols",
-      "level": "contributing",
-      "founding": false
-    },
-    {
       "name": "Oliver Godby",
       "level": "contributing",
       "founding": false
     },
     {
-      "name": "Jakub Dundálek",
+      "name": "Nick Nichols",
       "level": "contributing",
       "founding": false
     },
     {
       "name": "Andrei Rudenko",
+      "level": "contributing",
+      "founding": false
+    },
+    {
+      "name": "Jakub Dundálek",
       "level": "contributing",
       "founding": false
     },
@@ -1086,13 +1094,13 @@
       "founding": false
     },
     {
-      "name": "Karel Miarka",
-      "level": "developer",
+      "name": "Cameron Saul",
+      "level": "contributing",
       "founding": false
     },
     {
-      "name": "Cameron Saul",
-      "level": "contributing",
+      "name": "Karel Miarka",
+      "level": "developer",
       "founding": false
     },
     {
@@ -1271,12 +1279,12 @@
       "founding": false
     },
     {
-      "name": "Harish Tella",
+      "name": "Erwin Rooijakkers",
       "level": "contributing",
       "founding": false
     },
     {
-      "name": "Erwin Rooijakkers",
+      "name": "Harish Tella",
       "level": "contributing",
       "founding": false
     },
@@ -1301,12 +1309,12 @@
       "founding": false
     },
     {
-      "name": "Dan Sutton",
+      "name": "Takeshi Nakamo",
       "level": "contributing",
       "founding": false
     },
     {
-      "name": "Takeshi Nakamo",
+      "name": "Dan Sutton",
       "level": "contributing",
       "founding": false
     },
@@ -1401,17 +1409,17 @@
       "founding": false
     },
     {
-      "name": "Alexander Oloo",
-      "level": "contributing",
-      "founding": false
-    },
-    {
       "name": "Paul Rutledge",
       "level": "contributing",
       "founding": false
     },
     {
-      "name": "Aleksander S",
+      "name": "Alexander Oloo",
+      "level": "contributing",
+      "founding": false
+    },
+    {
+      "name": "Mario Trost",
       "level": "contributing",
       "founding": false
     },
@@ -1421,7 +1429,7 @@
       "founding": false
     },
     {
-      "name": "Mario Trost",
+      "name": "Aleksander S",
       "level": "contributing",
       "founding": false
     },
@@ -1476,12 +1484,12 @@
       "founding": false
     },
     {
-      "name": "Malyshko",
+      "name": "Andrii Malyshko",
       "level": "contributing",
       "founding": false
     },
     {
-      "name": "East",
+      "name": "Peter East",
       "level": "contributing",
       "founding": false
     },
@@ -1491,12 +1499,7 @@
       "founding": false
     },
     {
-      "name": "John Smith ",
-      "level": "contributing",
-      "founding": false
-    },
-    {
-      "name": "Jasmine ware",
+      "name": "Jasmine Ware",
       "level": null,
       "founding": false
     },
@@ -1513,6 +1516,26 @@
     {
       "name": "Jamirais Bin Ismail",
       "level": null,
+      "founding": false
+    },
+    {
+      "name": "Nick Jones",
+      "level": "contributing",
+      "founding": false
+    },
+    {
+      "name": "Orlando J. Mendoza",
+      "level": null,
+      "founding": false
+    },
+    {
+      "name": "Mark Stuart",
+      "level": "contributing",
+      "founding": false
+    },
+    {
+      "name": "Shunya Kawabata",
+      "level": "contributing",
       "founding": false
     }
   ]
