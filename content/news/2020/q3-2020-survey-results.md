@@ -7,6 +7,8 @@ author: Alyssa Parado
 
 Thanks so much for your support and feedback in the latest survey. This quarter we are funding three projects $9,000 each. You can [apply for funding](https://www.clojuriststogether.org/open-source/), applications are open until 28th July 11:59pm PST.
 
+**Update:** We've extended applications until 31st July 11:59pm PST to give people a little longer to apply.
+
 We are funding three projects instead of four while we build up our reserves after [migrating](/news/announcing-the-clojurists-together-foundation/) to the Clojurists Together Foundation.
 
 ## Survey Responses
