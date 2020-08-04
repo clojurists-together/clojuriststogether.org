@@ -2,7 +2,7 @@
 title: "July 2020 Monthly Update"
 date: 2020-08-04T10:00:54+08:00
 author: Alyssa Parado
-summary: Read more updates from Fireplace, Cider, Figwheel, Practicalli, Re-frame, and Clojars
+summary: Read more updates from Fireplace, Cider, Figwheel, Practicalli, and Re-frame
 draft: true
 ---
 
