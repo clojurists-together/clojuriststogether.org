@@ -256,6 +256,14 @@
       "tagline": "Cisco technology is creating a world of potential."
     },
     {
+      "name": "Roam Research",
+      "url": "https://roamresearch.com",
+      "logo": "/logos/roam-research.png",
+      "level": "map",
+      "founding": false,
+      "tagline": "A note-taking tool for networked thought."
+    },
+    {
       "name": "Ben Brinckerhoff",
       "level": "contributing",
       "founding": true
@@ -1471,12 +1479,22 @@
       "founding": false
     },
     {
+      "name": "Orlando J. Mendoza",
+      "level": "contributing",
+      "founding": false
+    },
+    {
       "name": "Mark Stuart",
       "level": "contributing",
       "founding": false
     },
     {
       "name": "Shunya Kawabata",
+      "level": "contributing",
+      "founding": false
+    },
+    {
+      "name": "Bridget Hillyer",
       "level": "contributing",
       "founding": false
     }
