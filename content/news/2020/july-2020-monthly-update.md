@@ -6,6 +6,9 @@ summary: Read more updates from Fireplace, Cider, Figwheel, Practicalli, and Re-
 draft: true
 ---
 
+## New members
+
+Big welcome to our newest Map member - [Roam Research](https://roamresearch.com)!
 
 ## Fireplace
 
