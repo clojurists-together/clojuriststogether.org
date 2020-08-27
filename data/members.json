@@ -197,13 +197,6 @@
       "founding": false
     },
     {
-      "name": "Condense",
-      "url": "https://www.condense.com.au",
-      "logo": null,
-      "level": "assoc",
-      "founding": false
-    },
-    {
       "name": "Superstruct",
       "url": "http://superstruct.nz",
       "logo": null,
@@ -1069,8 +1062,8 @@
       "founding": false
     },
     {
-      "name": "Cameron Saul",
-      "level": "contributing",
+      "name": "Cam Saul",
+      "level": "developer",
       "founding": false
     },
     {
@@ -1495,6 +1488,16 @@
     },
     {
       "name": "Bridget Hillyer",
+      "level": "contributing",
+      "founding": false
+    },
+    {
+      "name": "Brandon Ringe",
+      "level": "contributing",
+      "founding": false
+    },
+    {
+      "name": "Santiago Gepigon III",
       "level": "contributing",
       "founding": false
     }
