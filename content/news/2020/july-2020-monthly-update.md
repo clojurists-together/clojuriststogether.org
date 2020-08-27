@@ -1,24 +1,13 @@
 ---
 title: "July 2020 Monthly Update"
-date: 2020-08-04T10:00:54+08:00
+date: 2020-08-27T10:00:54+08:00
 author: Alyssa Parado
 summary: Read more updates from Fireplace, Cider, Figwheel, Practicalli, and Re-frame
-draft: true
 ---
 
 ## New members
 
-Big welcome to our newest Map member - [Roam Research](https://roamresearch.com)!
-
-## Fireplace
-
-**July 1-15**
-
-
-**July 16-31**
-
-
-
+Big welcome to our newest members, [Roam Research](https://roamresearch.com) and [Cisco](https://www.cisco.com)!
 
 ## Cider
 
@@ -87,7 +76,7 @@ certificate considers valid.
 
 #### React Native Support
 
-React Native support is complete! 
+React Native support is complete!
 
 The minimal configuration for a React Native project in
 `figwheel.main` is now:
@@ -114,7 +103,7 @@ other bells and whistles.
 
 As a final test I was able to create a MacOS app via
 [react-native-macos](https://github.com/Microsoft/react-native-macos)
-and it just worked without a hitch. 
+and it just worked without a hitch.
 
 I really hope folks give the new React Native support a try as it's a
 joy to code a native app this way.
@@ -137,7 +126,7 @@ All of the above and more has been released in `figwheel.main 0.2.10`.
 The figwheel main template was in need of some major updates.
 
 * om support has been removed
-* added the `+npm-bundle` option 
+* added the `+npm-bundle` option
 
 The `+npm-bundle` option will generate a Figwheel project that uses
 the Figwheel's new `:auto-bundle` feature and is a quick way to get
@@ -151,7 +140,7 @@ and fixed several bugs in the process.
 
 It's always been possible to use Figwheel to develop Nodejs
 applications in ClojureScript. But it certainly isn't that clear how
-to do so. 
+to do so.
 
 I added a document that shows how to set up a Nodejs application
 includeing an example of how to create a hot reloadable `express`
@@ -282,10 +271,22 @@ Add Emacs profiler use to the [Spacemacs troubleshooting guide](https://practica
 
 ## Re-frame
 
+Most of the Clojurists Together work was completed in the first sprint earlier in the year in May.
 
-**July 1-15**
+However we have released a stable v1.0.0 version of re-frame which is major milestone in the project's history.
 
+Also, many improvements to the docs have been made recently. Too many to mention but some are notable:
 
-**July 16-31**
+  - added a new FAQ on [laggy input](https://day8.github.io/re-frame/FAQs/laggy-input/)
+  - added a new FAQ on [field focus](https://day8.github.io/re-frame/FAQs/FocusOnElement/)
+  - added to existing FAQ on [global interceptors](https://day8.github.io/re-frame/FAQs/GlobalInterceptors/#answer-v100-onwards)
+  - Additions made to [External-Resources](https://day8.github.io/re-frame/External-Resources/)
+  - completely reworked [Infographics for Dominoes 1,2 3](https://day8.github.io/re-frame/event-handling-infographic/)
+  - completely reworked [Infographics for Interceptors](https://day8.github.io/re-frame/Interceptors/#infographics). See also other explanations added to that tutorial.
 
+Also:
+  - closed #590
+  - created #627 and developed a corresponding PR #628
+  - React native and other niggles resolved in v1.0.0-rc* releases. See #604  #614  #615.
 
+Numerically, we're at 16 issues and 4 pull requests.
