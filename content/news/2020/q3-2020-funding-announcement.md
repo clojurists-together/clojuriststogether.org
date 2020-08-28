@@ -88,15 +88,20 @@ The core team now consists of five people contributing to the core libraries wit
 Malli is pre-alpha, 90% ready for the community. Due to private and business reasons, I haven't had enough extra time to lead out a robust stable version. With funding, I would have time to:
 
 1) get a stable release out! lot's of small and some bigger design decisions, tracked via [metosin/malli#116](https://github.com/metosin/malli/issues/116)
+
 2) help early adopters (users and libraries like reitit, regal, aave and gungnir) to upgrade to use the initial version
 
 After the release, would work on the following:
 
 3) finalize sequence schemas, https://github.com/metosin/malli/pull/187
+
 4) enhance developer tooling:
-  - function schemas with clj-kondo integration https://github.com/metosin/malli/issues/125
-  - pull out and reuse the reitit development time error pretty printer as a separate library (https://github.com/metosin/virhe)
+
+  * function schemas with clj-kondo integration https://github.com/metosin/malli/issues/125
+  * pull out and reuse the reitit development time error pretty printer as a separate library (https://github.com/metosin/virhe)
+
 5) implement pluggable schema inference
+
 6) parsers
 
 ### Why is this project important to the Clojure community?
