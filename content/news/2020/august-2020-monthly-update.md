@@ -3,6 +3,7 @@ title: "August 2020 Monthly Update"
 date: 2020-09-07T10:00:54+08:00
 author: Alyssa Parado
 summary: Read more updates from Malli, Practicallli, Clj-kondo/babashka/sci, and Datahike
+draft: true
 ---
 
 ## Malli
