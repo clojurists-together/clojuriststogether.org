@@ -3,8 +3,9 @@ title: "August 2020 Monthly Update"
 date: 2020-09-07T10:00:54+08:00
 author: Alyssa Parado
 summary: Read more updates from Malli, Practicallli, Clj-kondo/babashka/sci, and Datahike
-draft: true
 ---
+
+Welcome to the first (half) month of updates from our [new projects](/news/q3-2020-funding-announcement/).
 
 ## Malli
 
@@ -178,5 +179,3 @@ Datomic's entity specs (https://docs.datomic.com/on-prem/schema.html#entity-spec
 ### Tuples
 
 Homogeneous tuple value types were analysed both in DataScript and Datomic (https://docs.datomic.com/on-prem/schema.html#homogeneous-tuples) in order to understand the differences and to define a proper design that would fit well within our system schema.
-
-
