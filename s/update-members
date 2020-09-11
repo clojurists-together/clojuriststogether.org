@@ -1,0 +1,14 @@
+#!/bin/bash
+
+curl https://members.clojuriststogether.org/member-list > ./data/members.json
+
+git update-index --refresh
+git diff-index --quiet HEAD --
+status=$?
+
+if test $status -ne 0
+then
+    git add .
+    git commit -m "Update members"
+    # git push
+fi
