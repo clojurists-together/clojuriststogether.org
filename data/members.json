@@ -257,6 +257,13 @@
       "tagline": "A note-taking tool for networked thought."
     },
     {
+      "name": "ArcheMedX",
+      "url": "https://www.archemedx.com",
+      "logo": null,
+      "level": "assoc",
+      "founding": false
+    },
+    {
       "name": "Ben Brinckerhoff",
       "level": "contributing",
       "founding": true
@@ -1498,6 +1505,16 @@
     },
     {
       "name": "Santiago Gepigon III",
+      "level": "contributing",
+      "founding": false
+    },
+    {
+      "name": "Peter Denno",
+      "level": "contributing",
+      "founding": false
+    },
+    {
+      "name": "misha akovantsev",
       "level": "contributing",
       "founding": false
     }
