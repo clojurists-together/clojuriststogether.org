@@ -2,6 +2,7 @@
 
 curl https://members.clojuriststogether.org/member-list > ./data/members.json
 
+# https://stackoverflow.com/a/3879077
 git update-index --refresh
 git diff-index --quiet HEAD --
 status=$?
