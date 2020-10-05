@@ -3,7 +3,6 @@ title: "September 2020 Monthly Update"
 date: 2020-10-03T14:10:00+08:00
 author: Alyssa Parado
 summary: Read more updates from Malli, Practicallli, Clj-kondo/babashka/sci, and Datahike
-draft: true
 ---
 
 Here are the updates from our [new projects](/news/q3-2020-funding-announcement/).
@@ -12,7 +11,7 @@ Here are the updates from our [new projects](/news/q3-2020-funding-announcement/
 
 ### **September 1-15**
 
-Small improvements based on user feedback, finalized the EntrySchemas and drafted implementation for *heterogenus sequences*, aka regex schemas. 
+Small improvements based on user feedback, finalized the EntrySchemas and drafted implementation for *heterogenus sequences*, aka regex schemas.
 
 ### Done stuff
 
@@ -23,7 +22,7 @@ Small improvements based on user feedback, finalized the EntrySchemas and drafte
 
 ### Ongoing
 
-* [#252](https://github.com/metosin/malli/pull/252) 
+* [#252](https://github.com/metosin/malli/pull/252)
   * adding support for lazy registeries (suppors pulling e.g.AWS CloudFormation Schemas in at runtime, when needed)
   * lazy `:multi` impl
   * first class support for String Schema references
@@ -66,8 +65,8 @@ Small improvements based on user feedback, finalized the EntrySchemas and drafte
                 [:val (re/alt [:s (re/fn string?)]
                               [:b (re/fn boolean?)])]))
   ["-server" "foo" "-verbose" true "-user" "joe"])
-;[{:prop "-server", :val [:s "foo"]} 
-; {:prop "-verbose", :val [:b true]} 
+;[{:prop "-server", :val [:s "foo"]}
+; {:prop "-verbose", :val [:b true]}
 ; {:prop "-user", :val [:s "joe"]}]
 
 ; malli with named branches
@@ -76,7 +75,7 @@ Small improvements based on user feedback, finalized the EntrySchemas and drafte
      [:val [:alt*
             [:s string?]
             [:b boolean?]]]]]
-            
+
 ; malli with indexed branches
 [:* [:cat string? [:alt string? boolean?]]]
 ```
@@ -96,7 +95,7 @@ Polishing the code, updated dependencies, updated libraries using malli, helped 
 * [kwrooijen/gungnir#31](https://github.com/kwrooijen/gungnir/pull/31) - update & test Gugnir to use latest malli
 * [lambdaisland/regal#20](https://github.com/lambdaisland/regal/pull/20) - update & test Regal to to use latest malli
 * [metosin/reitit#fbff819](https://github.com/metosin/reitit/commit/fbff819909dd8a6b325678f1ed5c49b1f5d8034f) - update & test Reitit to use latest malli
-* [#260](https://github.com/metosin/malli/pull/260) - `:map-of` keys should decode like String with JSON  
+* [#260](https://github.com/metosin/malli/pull/260) - `:map-of` keys should decode like String with JSON
 * [#116](https://github.com/metosin/malli/issues/116) - just done
 * [#254](https://github.com/metosin/malli/issues/254) - easy way to attach custom errors to Schemas
 * [#253](https://github.com/metosin/malli/issues/253) - spell checking for :multi map dispatch keys
@@ -362,7 +361,7 @@ We released our latest version [0.3.2](https://github.com/replikativ/datahike/re
 
 ### Datomic Compatibility
 
-Within our [comparison project](https://github.com/lambdaforge/vertailu) we created a document on comparing functions from both Datahike and Datomic, and continued discussing adjustments both for signature and naming. Also we [started](https://github.com/TimoKramer/datahike/tree/add-datomic-compatibility) adjusting our API documentation in order to provide better examples on how to use them. 
+Within our [comparison project](https://github.com/lambdaforge/vertailu) we created a document on comparing functions from both Datahike and Datomic, and continued discussing adjustments both for signature and naming. Also we [started](https://github.com/TimoKramer/datahike/tree/add-datomic-compatibility) adjusting our API documentation in order to provide better examples on how to use them.
 
 ### Tuple Support
 
@@ -371,11 +370,6 @@ The schema definition for composite tuples was added to the transaction validati
 ### Beyond Clojurists Together Tasks
 Within the task of porting of our own dependencies to ClojureScript, we unified the CI/CD for circleci, moving from leiningen to Clojure CLI tools.
 Continued with improving the [upsert performance](https://github.com/replikativ/datahike/pull/201).
-We started discussions on features and next steps for [datahike-server](https://github.com/replikativ/datahike-server) and possible http clients. 
-Worked on [garbage collection](https://github.com/replikativ/datahike/pull/232) for our backend. 
-Continued on the larger tasks for [attribute reference support and partitions](https://github.com/replikativ/datahike/tree/211-attr-refs) that also incorporates vast refactoring of Datahike's tests. 
-
-
-
-
-
+We started discussions on features and next steps for [datahike-server](https://github.com/replikativ/datahike-server) and possible http clients.
+Worked on [garbage collection](https://github.com/replikativ/datahike/pull/232) for our backend.
+Continued on the larger tasks for [attribute reference support and partitions](https://github.com/replikativ/datahike/tree/211-attr-refs) that also incorporates vast refactoring of Datahike's tests.
