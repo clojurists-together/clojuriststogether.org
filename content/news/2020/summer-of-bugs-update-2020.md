@@ -200,7 +200,7 @@ Grodziski
 
 ## cljc.java-time
 
-Hello, this is a heads up that I am planning to drop the npm/foreign-lib dependencies (npm library ‘js-joda’ & related) from https://github.com/henryw374/cljc.java-time 8.
+I am planning to drop the npm/foreign-lib dependencies (npm library ‘js-joda’ & related) from https://github.com/henryw374/cljc.java-time 8.
 
 Doing this should mean that other Clojure(Script) libraries which make any use of dates and times could now depend on cljc.java-time library because:
 
