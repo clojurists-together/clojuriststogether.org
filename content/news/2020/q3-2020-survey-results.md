@@ -1,20 +1,15 @@
 ---
 title: "Q3 2020 Survey Results"
-date: 2020-07-20T15:36:17+13:00
-summary: Thanks so much for your support and feedback in the latest survey. This quarter we are funding three projects $9,000 each, applications are open until 28th July 11:59pm PST.
+date: 2020-10-28T15:36:17+13:00
+summary: Thanks so much for your support and feedback in the latest survey. This quarter we are funding four projects $9,000 each, applications are open until 6th November 11:59pm PST.
 author: Alyssa Parado
 ---
 
-Thanks so much for your support and feedback in the latest survey. This quarter we are funding three projects $9,000 each. You can [apply for funding](https://www.clojuriststogether.org/open-source/), applications are open until 28th July 11:59pm PST.
-
-**Update:** We've extended applications until 31st July 11:59pm PST to give people a little longer to apply. We've also bumped the number of projects back up to four.
-
-We are funding three projects instead of four while we build up our reserves after [migrating](/news/announcing-the-clojurists-together-foundation/) to the Clojurists Together Foundation.
+Thanks so much for your support and feedback in the latest survey. This quarter we are funding four projects $9,000 each. You can [apply for funding](https://www.clojuriststogether.org/open-source/), applications are open until 6th November 11:59pm PST.
 
 ## Survey Responses
 
 There were 60 respondents to our Q3 2020 survey. The highlights are presented below.
-
 
 ### What areas of Clojure would you like to see improvement in?
 
@@ -66,22 +61,19 @@ A sampling of comments:
 - It's good to know that Bozhidar was supported – he's doing a lot of work
 - Borkdude's work has really gained focus and the improvements to his libraries are great.
 
-
-
 ### How would you like us to allocate our funding?
 
 For company members:
 
-- 57.1% wanted us to fund 50% Mature, 50% speculative
-- 42.9% wanted us to fund 75% Mature, 25% speculative
-
+- 57% wanted us to fund 50% Mature, 50% speculative
+- 43% wanted us to fund 75% Mature, 25% speculative
 
 For developer members:
 
-- 65.4% wanted us to fund 50% Mature, 50% speculative
-- 28.8% wanted us to fund 75% Mature, 25% speculative
-- 3.8% wanted us to fund 25% Mature, 75% speculative
-- 1.9% wanted us to fund 100% Mature, 0% speculative
+- 65% wanted us to fund 50% Mature, 50% speculative
+- 29% wanted us to fund 75% Mature, 25% speculative
+- 4% wanted us to fund 25% Mature, 75% speculative
+- 2% wanted us to fund 100% Mature, 0% speculative
 
 
 
