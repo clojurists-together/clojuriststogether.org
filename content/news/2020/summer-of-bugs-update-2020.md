@@ -5,7 +5,9 @@ author: Alyssa Parado
 summary: "The Summer of Bugs Updates includes: clj-kondo vim-iced, DataScript, Calva, reitit, Keycloak-Clojure, cljc.java-time"
 ---
 
+A few months ago we ran our first ever [Summer of Bugs](/news/clojurists-together-summer-of-bugs-selections/) program. These were grants of $500 or $1,000 to work on small, well-scoped projects. We funded clj-kondo, vim-iced, DataScript, Calva, reitit, keycloak-clojure, and cljc.java-time. We've been thrilled with what these projects have come up with and that we were able to provide small grants to projects.
 
+Here are the project reports from what they accomplished.
 
 ## clj-kondo
 
@@ -92,8 +94,6 @@ Hope you enjoy. Happy linting!
 Michiel Borkent (a.k.a. [@borkdude](https://twitter.com/borkdude))
 
 
-
-
 ## vim-iced
 
 #### What we were trying to do
@@ -114,11 +114,9 @@ I wrote a simple custom [clojure.test/report](https://clojure.github.io/clojure/
 Then I fixed vim-iced to run tests with this `report` function and parse reports, so users can run tests on plain nREPL server, and display summarized results on vim.
 
 
-
-
 ## DataScript
 
-The main goal was to bring latest Datomic API improvements to DataScript: 
+The main goal was to bring latest Datomic API improvements to DataScript:
 
 - Support composite tuples [#323](https://github.com/tonsky/datascript/issues/323)
 - Support return maps (:keys/:syms/:strs) in query [#322](https://github.com/tonsky/datascript/issues/322) [#345](https://github.com/tonsky/datascript/issues/345)
@@ -184,19 +182,26 @@ While the rationale behind making use of all the previous work on Calva to make 
 
 I expect to release this version of Calva within the following week. It will not yet replace the current REPL window, but the ground work is done, and this mini project has certainly proven that this regular-file approach is viable.
 
-
-
 ## reitit
 
-Tommi Jalkanen 
+Here is a short summary of my progress so far:
 
-
+* Informed maintainers of reitit about the grant and they provided some comments to the original issue to make contributing a bit easier [#84](https://github.com/metosin/reitit/issues/84)
+* Contributed to two swagger related issues to get more familiar with the codebase ([#375](https://github.com/metosin/reitit/issues/375) & [#217](https://github.com/metosin/reitit/issues/217))
+* Found a couple of small issues while working on #375 and #217 and submitted fixes ([#415](https://github.com/metosin/reitit/pull/415) & [#418](https://github.com/metosin/reitit/pull/418))
+* Read through the open api 3 changes and found a tool that helps with migration from old version
+* Started working on [#84](https://github.com/metosin/reitit/issues/84)
 
 ## Keycloak-clojure
 
-Grodziski 
+*Jeremie has nearly completed his work on the project.*
 
+I've got pretty exciting news as I work on new features for keycloak-clojure particularly on the Ops and automation side: I will ship very soon a [native CLI](https://github.com/jgrodziski/keycloak-clojure/commit/c20668ae3513a44850214f5cfd1f6306a62d227a) (thanks to GraalVM) and a [docker image](https://github.com/jgrodziski/keycloak-clojure/commit/7d20d35d827f5c20747848cc0bed7e2aa6127f83) of the keycloak-clojure client for configuring Keycloak given an EDN of the config (realm, clients, roles, users, etc.). The idea is to fully automate the provisioning/config of a Keycloak environment. I also worked on a Vault integration for that Keycloak client to export the secret related to a backend for it to get it at launch time, hence having a more secure setup. As Keycloak is an infrastructure component, in real life project that ops stuff is very mandatory.
 
+Back to the documentation stuff, I experimented with mkdocs and codox and finally settle on codox. I also worked on a sample app, dockerized that illustrate the tutorial part of the doc. I move forward on the setup/admin part of the doc and will soon publish that part on a dedicated website.
+So to give an ETA, I can commit to:
+end of October for a first shipping of the doc website with the setup/admin part
+end of the year for the application part (frontend and backend integration with a sample app).
 
 ## cljc.java-time
 
@@ -206,7 +211,7 @@ Doing this should mean that other Clojure(Script) libraries which make any use o
 
 There will be no transitive dependency headaches for users (ie excluding foreign-libs if you have a :bundle cljs build etc)
 End users will benefit from dead code elimination: If they are not using part of a library that uses cljc.java-time, then nothing of cljc.java-time library will be included in an advanced optimization cljs build.
-IOW, cljc libraries that need to use dates (even if dates are not the main focus of that library) can depend on cljc.java-time and get a banana without a gorilla holding on to it.
+In other words, cljc libraries that need to use dates (even if dates are not the main focus of that library) can depend on cljc.java-time and get a banana without a gorilla holding on to it.
 
 … and being cross-platform and using java.time on the jvm, I hope cljc.java-time could become the de-facto platform time library for Clojure and Clojurescript.
 
