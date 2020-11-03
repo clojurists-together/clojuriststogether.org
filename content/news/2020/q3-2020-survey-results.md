@@ -5,7 +5,7 @@ summary: Thanks so much for your support and feedback in the latest survey. This
 author: Alyssa Parado
 ---
 
-Thanks so much for your support and feedback in the latest survey. This quarter we are funding four projects $9,000 each. You can [apply for funding](https://www.clojuriststogether.org/open-source/), applications are open until 6th November 11:59pm PST.
+Thanks so much for your support and feedback in the latest survey. This quarter we are funding four projects $9,000 each. You can [apply for funding](https://www.clojuriststogether.org/open-source/), applications are open until 11th November 11:59pm PST.
 
 ## Survey Responses
 

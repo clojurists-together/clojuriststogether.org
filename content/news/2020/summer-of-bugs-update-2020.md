@@ -101,6 +101,7 @@ Michiel Borkent (a.k.a. [@borkdude](https://twitter.com/borkdude))
 I tried to add support test integration on plain nREPL server including [Babashka nREPL](https://github.com/borkdude/babashka/blob/master/doc/repl.md#nrepl).
 
 Concretely tried to add following functionalities.
+
 * Test single var under cursor.
   * Show the test result on vim.
 * Test vars in a namespace.
