@@ -227,6 +227,12 @@
     "level" : "assoc",
     "founding" : false
   }, {
+    "name" : "Flexiana",
+    "url" : "https://flexiana.com",
+    "logo" : null,
+    "level" : "filter",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "level" : "contributing",
     "founding" : true
