@@ -3,10 +3,9 @@ title: "October 2020 Monthly Update"
 date: 2020-11-04T12:00:00+08:00
 author: Alyssa Parado
 summary: Read more updates from Malli, Practicallli, Clj-kondo/babashka/sci, and Datahike
-draft: true
 ---
 
-Here are the updates from our [Q3 projects](/news/q3-2020-funding-announcement/).
+Here are the updates from our [Q3 projects](/news/q3-2020-funding-announcement/). They are finishing in the middle of November, so there will be one more short update next month. Don't forget that applications are open for our [next funding round](/news/q3-2020-survey-results/), apply today!.
 
 # Malli
 
