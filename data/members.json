@@ -229,9 +229,10 @@
   }, {
     "name" : "Flexiana",
     "url" : "https://flexiana.com",
-    "logo" : null,
+    "logo" : "flexiana.png",
     "level" : "filter",
-    "founding" : false
+    "founding" : false,
+    "tagline" : "We are builders. We care about software craftsmanship, clean code, great UX, service design for clients from all continents and markets including fintech, security & healthcare."
   }, {
     "name" : "Ben Brinckerhoff",
     "level" : "contributing",
