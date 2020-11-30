@@ -2,7 +2,7 @@
 title: "Q4 2020 Funding Announcement"
 date: 2020-11-30T19:29:54+13:00
 author: Daniel Compton
-summary: "Clojurists Together is happy to announce that for Q4 of 2020 (December-February) we are funding four projects for $9,000 each"
+summary: "Clojurists Together is funding clj-kondo, ClojisR, O'Doyle Rules, and Calva $9,000 each."
 ---
 
 Clojurists Together is happy to announce that for Q4 of 2020 (December-February) we are funding four projects for $9,000 each:
