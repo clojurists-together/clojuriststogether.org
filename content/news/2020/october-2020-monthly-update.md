@@ -33,23 +33,26 @@ Alpha is out, FINALLY: https://twitter.com/ikitommi/status/1314254607846191104
 
 ### **October 16-31**
 
-Alpha is out, FINALLY: https://twitter.com/ikitommi/status/1314254607846191104
+Fixing things of the alpha, helping people adopting, small stuff.
 
 ### Done stuff
 
-* [#265](https://github.com/metosin/malli/pull/266) - fix sequential explain
-* [#272](https://github.com/metosin/malli/pull/272) - big bowl of stuff in, shipping the alpha out
-* [#276](https://github.com/metosin/malli/pull/277) - explicitly disabling sci & sci options
-* [#278](https://github.com/metosin/malli/pull/278) - better configuration for default-value-transformer
-* Wrote a blog post: https://www.metosin.fi/blog/malli/
+* [#282](https://github.com/metosin/malli/pull/282) - revisited how references work and how `malli.util` work with them.
+* [#283](https://github.com/metosin/malli/pull/283) - declarative schema transformations
+* [#289](https://github.com/metosin/malli/pull/289) - fix :sequential decoding with empty sequence
+* Adopted [reitit](https://github.com/metosin/reitit) to use malli, with 3 patch releases `0.5.8`, `0.5.9` & `0.5.10`
 
 ### Ongoing
 
-* working on [declarative utils for schemas](https://github.com/metosin/malli/issues/217), fixes also [#281](https://github.com/metosin/malli/issues/281)
+* helping people adopt malli, small fixes and examples
+* design and prototyping on the Functional Schema Bundle (much bigger than expected):
+  * full clj-kondo integration: https://github.com/metosin/malli/issues/268 
+  * support schema defn syntax: https://github.com/metosin/malli/issues/125
+  * sequence/regex schemas: https://github.com/metosin/malli/issues/180
 
 #### Misc
 
-4 weeks to go. Will focus on solving real-world issues that people face when adopting the library, update the libs using Malli and try to get some of the larger issues solved.
+no misc now.
 
 
 
