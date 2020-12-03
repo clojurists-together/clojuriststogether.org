@@ -3,10 +3,9 @@ title: "November 2020 Monthly Update"
 date: 2020-12-03T09:58:00+08:00
 author: Alyssa Parado
 summary: Read more updates from Malli, Practicallli, Clj-kondo/babashka/sci, and Datahike
-draft: true
 ---
 
-Welcome to the final (half) month of updates from our Q3 projects.
+Welcome to the final (half) month of updates from our Q3 projects. Our [Q4 projects](/news/q4-2020-funding-announcement/) have started this month and will continue through to February.
 
 # Malli
 
