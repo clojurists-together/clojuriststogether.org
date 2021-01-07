@@ -12,9 +12,9 @@
     "level" : "assoc",
     "founding" : true
   }, {
-    "name" : "Ochiai",
-    "url" : "http://cstap.com",
-    "logo" : null,
+    "name" : "Toyokumo",
+    "url" : "https://toyokumo.co.jp/",
+    "logo" : "/logos/7EC8464E-A0DC-4EEA-84BA-F2C1B4457DA4.png",
     "level" : "filter",
     "founding" : true
   }, {
@@ -229,7 +229,7 @@
   }, {
     "name" : "Flexiana",
     "url" : "https://flexiana.com",
-    "logo" : "flexiana.png",
+    "logo" : "/logos/flexiana.png",
     "level" : "filter",
     "founding" : false,
     "tagline" : "We are builders. We care about software craftsmanship, clean code, great UX, service design for clients from all continents and markets including fintech, security & healthcare."
