@@ -12,12 +12,6 @@
     "level" : "assoc",
     "founding" : true
   }, {
-    "name" : "Toyokumo",
-    "url" : "https://toyokumo.co.jp/",
-    "logo" : "/logos/7EC8464E-A0DC-4EEA-84BA-F2C1B4457DA4.png",
-    "level" : "filter",
-    "founding" : true
-  }, {
     "name" : "Zenius Education",
     "url" : "http://www.zeniuseducation.com/",
     "logo" : null,
@@ -234,11 +228,18 @@
     "founding" : false,
     "tagline" : "We are builders. We care about software craftsmanship, clean code, great UX, service design for clients from all continents and markets including fintech, security & healthcare."
   }, {
+    "name" : "Toyokumo",
+    "url" : "https://toyokumo.co.jp/",
+    "logo" : "/logos/toyokumo.png",
+    "level" : "filter",
+    "founding" : true
+  }, {
     "name" : "Griffin Financial Technology",
     "url" : "https://www.griffin.sh",
-    "logo" : null,
+    "logo" : "/logos/griffin.svg",
     "level" : "filter",
-    "founding" : false
+    "founding" : false,
+    "tagline" : "We’re making a bank you can build on."
   }, {
     "name" : "Ben Brinckerhoff",
     "level" : "contributing",
