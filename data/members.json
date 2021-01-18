@@ -234,6 +234,12 @@
     "founding" : false,
     "tagline" : "We are builders. We care about software craftsmanship, clean code, great UX, service design for clients from all continents and markets including fintech, security & healthcare."
   }, {
+    "name" : "Griffin Financial Technology",
+    "url" : "https://www.griffin.sh",
+    "logo" : null,
+    "level" : "filter",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "level" : "contributing",
     "founding" : true
