@@ -241,6 +241,12 @@
     "founding" : false,
     "tagline" : "We’re making a bank you can build on."
   }, {
+    "name" : "Commsor",
+    "url" : "https://www.commsor.com/",
+    "logo" : null,
+    "level" : "cons",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "level" : "contributing",
     "founding" : true
