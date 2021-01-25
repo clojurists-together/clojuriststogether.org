@@ -265,9 +265,147 @@ projects.
 
 
 
+## Practicalli
+
+#### Practicalli Study Group
+
+* Provided the weekly live broadcasts, data science series and a new series on `clojure.spec`
+* Developed content for Practicalli Clojure and Practicalli Clojure Webapps books.
+
+
+#### Visualising data science
+
+Concluded the [series of 7 live broadcasts on Visualising data science](https://www.youtube.com/playlist?list=PLpr9V-R8ZxiDUXIR2z8Y8wvhpoPyl0t_D).
+
+
+#### Introduction to clojure.spec.alpha
+
+* Started a new video series covering how to use spec in the REPL and with Clojure projects
+
+* [Practicalli/leveraging-spec](https://github.com/practicalli/leveraging-spec) project was created, covering Clojure predicates, spec/conform, spec/valid?, literal values (Clojure sets), the spec registry, fully qualified namespaces, map literal syntax, spec/def and spec/explain.
+
+
+#### Practicalli Clojure
+
+Migrated the book to Clojure CLI tools and deps.edn projects.
+
+Updated install guide to use Java 11 and added more editor options to the install guides, including NeoVim Conjure and Atom.io Chlorine.
+
+Updated the [practicalli/clojure-deps-edn](https://github.com/practicalli/clojure-deps-edn) repository with also contains a collection of commonly used aliases.  This repository greatly simplifies the installation of Clojure CLI tooling.
+
+Added content and videos to the [Introducing Spec section](http://practicalli.github.io/clojure/clojure-spec/) of the book
+
+Added details on configuring tools.deps and how to define and use multiple aliases. Provided a collection of aliases for community tools, jcenter clojars mirror and how to use a local Artifactory instance.
+
+[Configuring a REPL on starutup for deps.edn projects](https://practicalli.github.io/clojure/repl-driven-development/configure-repl-startup.html), examples of using `dev/user.clj` to require namespaces, call functions and manage component lifecycle services (mount, component, integrant, etc.).
+
+Extended the Unit Testing section to cover useful practices with clojure.test library, refactor is assertions with are to work over data sets.
+
+Configured git template to use live branch as the default branch name.
+
+Created [an introduction to CircleCI as a continuous integration service](http://practicalli.github.io/clojure/testing/integration-testing/circle-ci/random-clojure-function.html) and identified and documented recommended docker images to use for Clojure deps.edn and Leinigen projects. 
+
+Configure REPL startup using `dev/user.clj` file and `:dev` alias in practicalli/clojure-deps-edn configuration.
+
+Add section on [data browser tools](https://practicalli.github.io/clojure/clojure-tools/data-browsers/), extending REBL and Clojure Inspector with new projects Reveal and Portal.
 
 
 
+**Random Clojure Function project**.
+Created a guide to develop a project that [generates a random function](http://practicalli.github.io/clojure/simple-projects/random-clojure-function.html) from the namepaces available in the REPL or the functions from specified namespaces.
+
+Using the [random Clojure function project](http://practicalli.github.io/clojure/simple-projects/random-clojure-function.html), created a [guide to develop a project with the help of CircleCI](http://practicalli.github.io/clojure/testing/integration-testing/circle-ci/random-clojure-function.html) as the continuous integration service.
+
+
+**Banking on Clojure**
+Updated the [banking-on-clojure project](http://practicalli.github.io/clojure/clojure-spec/projects/bank-account/) using a TDD approach with Clojure spec.
+
+
+
+#### Practicalli ClojureScript
+
+Clarified the introduction to the ClojureScript book status and surfaced the work that remains current and functional. This content includes and several reagent based projects, building and deploying a ClojureScript website for ClojureBridge and creating a TicTacToe game with Scalable Vector Graphics.
+
+
+#### Practicalli Spacemacs
+
+Supported the community with issues on Spacemacs gitter and #spacemacs channel of Clojurians Slack.
+
+Several updates on using the Magit client including guide on using Magit Forge, updated and tested the Magit Forge configuration page and more. 
+
+[Practicalli Spacemacs playlist](https://www.youtube.com/playlist?list=PLpr9V-R8ZxiCHMl2_dn1Fovcd34Oz45su) updated with related Spacemacs videos from jr0cket channel.
+
+Created a reference sheet for CIDER configuration variables, as there is no overall reference.
+
+Add Emacs profiler use to the [Spacemacs troubleshooting guide](https://practicalli.github.io/spacemacs/install-spacemacs/troubleshooting.html)
+
+
+
+#### Hacking on Spacemacs
+
+Added key bindings to refactor namespace forms in clojure-mode
+
+Updated [practicalli/.spacemacs.d](https://github.com/practicalli/spacemacs.d/) repository with doom modeline configuration.
+
+
+#### Spacemacs Pull Requests
+
+Refactor applications menu key bindings to create more room for key bindings and improve mnemonic keybinding use.  
+
+
+#### Practicalli Clojure WebApps
+
+Refactored overall book content design for Practicalli Clojure WebApps
+
+Created [a guide to deploy a Clojure application via CirceCI onto Heroku](https://practicalli.github.io/clojure-webapps/projects/status-monitor-deps/). 
+
+Updated the status monitor project to deps.edn to use as the basis for a guide to deploy Clojure applications via CircleCI to Heroku (a cloud platform as a service).
+
+Updated details of using postgresql with Clojure (documentation will be extended soon) and recommended next.java as a library to use for SQL.
+
+Started a section on [Application servers](https://practicalli.github.io/clojure-webapps/app-servers/), covering approaches to server configuration and server start/stop/reload.
+
+Started a section on Databases that will initially cover H2 and Postgresql relational databases, using Sql with next.jdbc
+
+
+
+#### Practicalli Website
+
+Added [Shields](https://github.com/badges/shields) for each book with links to content ideas and pull requests on the respective repositories. 
+
+Added Practicalli website and YouTube channel to the [Clojure.org community resources](https://clojure.org/community/resources).
+
+Updated the Creative commons license notice on the front pages of all books and GitHub README files, ensuring compliance with the [Software Freedom Conservancy](https://sfconservancy.org/).
+
+Add favicon to each book website
+
+
+#### Clojure deps.edn updates
+
+* Using REBL from Emacs CIDER using nREBL middleware, alias and configuration
+* Update of dependency versions in the `deps.edn` file with depot
+* Update unit testing aliases, add separate expectation aliases.
+* Added more tools to practicalli/clojure-deps-edn
+Any experimental or alpha state tools are clearly marked as 'experimental - used at own risk' to set clear expectations.
+
+Added Google Storage mirrors for Maven Central for Americas, Asia and Europe to library repository configuration.  Also added a community mirror in Asia (China) for Clojars.
+
+
+
+
+
+## Re-frame
+
+* Reviewed and triaged all existing open issues and Prs.
+* Released a stable v1.0.0 version of re-frame
+* Many improvements to the docs have been made. Too many to mention but some are notable:
+
+  - added a new FAQ on [laggy input](https://day8.github.io/re-frame/FAQs/laggy-input/)
+  - added a new FAQ on [field focus](https://day8.github.io/re-frame/FAQs/FocusOnElement/)
+  - added to existing FAQ on [global interceptors](https://day8.github.io/re-frame/FAQs/GlobalInterceptors/#answer-v100-onwards)
+  - Additions made to [External-Resources](https://day8.github.io/re-frame/External-Resources/)
+  - completely reworked [Infographics for Dominoes 1,2 3](https://day8.github.io/re-frame/event-handling-infographic/)
+  - completely reworked [Infographics for Interceptors](https://day8.github.io/re-frame/Interceptors/#infographics). See also other explanations added to that tutorial. 
 
 
 
