@@ -673,7 +673,3 @@ Created a new (alpha state) book to provide practical guides to using Clojure to
 
 
 
-
-## 
-Calva
-
