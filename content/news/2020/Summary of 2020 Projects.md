@@ -673,3 +673,89 @@ Created a new (alpha state) book to provide practical guides to using Clojure to
 
 
 
+
+# Clj-kondo/babashka/sci
+
+
+### Babashka
+
+- Babashka [news](https://github.com/borkdude/babashka/blob/master/doc/news.md) page
+- Released [babashka/process](https://github.com/babashka/process) to clojars: https://clojars.org/babashka/process
+- Released [babashka/babashka.curl](https://github.com/borkdude/babashka.curl) to clojars https://clojars.org/babashka/babashka.curl
+- Moved most of README docs to [book.babashka.org](https://book.babashka.org/)
+- Implement `--clojure` option to invoke a JVM clojure process similar to the official Clojure CLI.
+- Upgrade to GraalVM 20.3.0 [#653](https://github.com/borkdude/babashka/issues/653)
+- Buddy pod https://github.com/babashka/pod-babashka-buddy
+- Etaoin pod 0.0.1 release https://github.com/babashka/pod-babashka-etaoin
+- Pod registry https://github.com/babashka/pod-registry
+- Fswatcher pod https://github.com/babashka/pod-babashka-fswatcher
+- Sqlite3 pod https://github.com/babashka/pod-babashka-sqlite3
+- Only build static binary on non-SNAPSHOT release [#695](https://github.com/babashka/babashka/issues/695)
+- Migration from borkdude/babashka to babashka/babashka
+- [pod-babashka aws](https://github.com/babashka/pod-babashka-aws): a new pod to interact with AWS
+- spartan.spec: fix compatibility with expound and cli-matic
+- Release 0.2.7
+- babashka-sql-pods: upgrade to newest next.jdbc version [#18](https://github.com/babashka/babashka-sql-pods/issues/18)
+- spartan.spec: fix s/and + s/cat [#15](https://github.com/borkdude/spartan.spec/issues/15)
+- Include [clojure.core.match](https://github.com/clojure/core.match) [#594](https://github.com/babashka/babashka/issues/594) and [hiccup](https://github.com/weavejester/hiccup) [#646](https://github.com/babashka/babashka/issues/646)
+
+
+
+
+## Sci
+
+- Add syntax checks to sci binding macro [#458](https://github.com/borkdude/sci/issues/458)
+- Add option to disable arity checks [#460](https://github.com/borkdude/sci/issues/460)
+- Optimization for `let`, `if`, ctx and fns
+- Add `with-local-vars` [#383](https://github.com/borkdude/sci/issues/383)
+- Release [0.2.0](https://github.com/borkdude/sci/blob/master/CHANGELOG.md#v020)
+- defrecord `type` improvements [#492](https://github.com/borkdude/sci/issues/492)
+- Several performance improvements)
+- Release [0.2.1](https://github.com/borkdude/sci/blob/master/CHANGELOG.md#v021)
+- Faster processing of colls
+- Fix destructuring of destructuring in protocol method of record
+
+
+## Clj-kondo
+
+- Documentation: a list of all available [linters](https://github.com/borkdude/clj-kondo/blob/master/doc/linters.md) [#936](https://github.com/borkdude/clj-kondo/issues/936)
+- Lint protocol and interface implementations in `deftype` and `defrecord` [#140](https://github.com/borkdude/clj-kondo/issues/140)s
+- Upgrade to GraalVM 20.3.0 [#1085](https://github.com/borkdude/clj-kondo/issues/1085)
+- Fix analysis for cljs.core simple-benchmark [#1079](https://github.com/borkdude/clj-kondo/issues/1079)
+- Support babashka.process $ macro syntax [#1089](https://github.com/borkdude/clj-kondo/issues/1089)
+- Improve analyzing syntax of `amap` [#1069](https://github.com/borkdude/clj-kondo/issues/1069)
+- Fix recur arity in doysync [#1081](https://github.com/borkdude/clj-kondo/issues/1081)
+- Released v2020.12.12
+- Fix NPE in VSCode plugin [#12](https://github.com/borkdude/clj-kondo.lsp/issues/12)
+- Move to clj-kondo/clj-kondo organisation
+- Fix finding without location info
+- Review several PRs
+- New linter: `:unresolved-var`. This detects unresolved vars in other namespaces, like `set/onion`. See [docs](https://github.com/clj-kondo/clj-kondo/blob/master/doc/linters.md#unresolved-var). [#635](https://github.com/clj-kondo/clj-kondo/issues/635)
+- Avoid crash when using `:refer-clojure` + `:only` [#957](https://github.com/clj-kondo/clj-kondo/issues/957)
+- Release v2021.01.20
+
+
+
+
+## Misc
+
+- deps.clj 0.0.11 [released](https://github.com/borkdude/deps.clj/releases/tag/v0.0.11): catching up with clojure 1.10.1.763
+- Edamame (parser lib for sci): handle whitespace after read-cond splice [#71](https://github.com/borkdude/edamame/issues/71)
+- Edamame: add `location?` predicate [#72](https://github.com/borkdude/edamame/issues/72)
+- Edamame: fix for auto-resolved map and current namespace [#74](https://github.com/borkdude/edamame/issues/74)
+- Edamame: make end locations optional [#75](https://github.com/borkdude/edamame/issues/75)
+- Depstar: fix for Windows [#57](https://github.com/seancorfield/depstar/issues/57)
+- First release (0.0.1-0.0.3) of the [puget](https://github.com/borkdude/puget-cli) CLI, a binary to pipe EDN to and get pprinted and colorize output.
+- First release of [Carve](https://github.com/borkdude/carve/issues/35) as a binary.
+
+
+
+
+
+
+
+
+
+
+
+
