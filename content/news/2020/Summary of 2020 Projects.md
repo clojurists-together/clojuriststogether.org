@@ -674,6 +674,141 @@ Created a new (alpha state) book to provide practical guides to using Clojure to
 
 
 
+# Calva
+
+* Made a change to clojure-lsp to [make references code lens work](https://github.com/snoe/clojure-lsp/pull/197)
+* Added a command to Calva to make references code lens work. When references code lenses are clicked, a peek definitions window opens.
+* Added a Calva setting to enable references code lens
+* Fixed an issue in clojure-lsp to [prevent negative numbers in ranges](https://github.com/snoe/clojure-lsp/pull/200)
+
+
+## Clojure-lsp Work
+- [Fix jar file URIs to be compatible with both Windows and Unix](https://github.com/clojure-lsp/clojure-lsp/pull/226)
+- [Add initialization options that allow disabling formatting providers](https://github.com/clojure-lsp/clojure-lsp/pull/207)
+- [Fix go id for documentHighlight](https://github.com/clojure-lsp/clojure-lsp/pull/212)
+- [Fix duplicated usages/references for cljc files](https://github.com/clojure-lsp/clojure-lsp/pull/211)
+* Added refactoring commands that utilize clojure-lsp's refactorings as well as updated the docs to [explain clojure-lsp in Calva](https://calva.io/clojure-lsp/) and the [refactoring commands](https://calva.io/refactoring/).
+* Added a change to Clojure-lsp to prevent the process from being orphaned. If VS Code was killed in a certain time window while Clojure-lsp was initializing, the process would be left running. Now Clojure-lsp periodically checks if the parent process is alive and will exit if not. This is a suggested feature of servers by the language server protocol. 
+* Fixed an issue with the default classpath lookup for Windows.
+* Replaced the usage of clj-kondo with clojure-lsp. This allowed us to remove clj-kondo as an injected jack-in dependency.
+
+
+## Calva Changes
+
+
+Calva now uses clj-kondo via clojure-lsp, and no longer bundles the clj-kondo extension. This reduces Calva's indirect memory footprint as opposed to the previous setup of using clojure-lsp and the clj-kondo exntension, since the clj-kondo extension runs its own LSP server, which is no longer necessary.
+
+
+#### 2.0.134
+
+This includes a couple of small fixes for things I noticed while developing.
+
+- Fix: [Live share jackout error](https://github.com/BetterThanTomorrow/calva/issues/856)
+- Fix: [Cannot read property 'document' of undefined](https://github.com/BetterThanTomorrow/calva/issues/846
+
+#### 2.0.135
+
+- [Binding keys to REPL functions, passing the namespace and cursor line (Notespace integration)](https://github.com/BetterThanTomorrow/calva/issues/863)
+- [Make REPL prompt submit if the cursor is after the top level form](https://github.com/BetterThanTomorrow/calva/issues/875)
+- [Only print stacktrace on demand](https://github.com/BetterThanTomorrow/calva/issues/878)
+
+#### 2.0.136
+
+- Fix: [Jack-in/Connect prompts sometimes not showing on Windows](https://github.com/BetterThanTomorrow/calva/issues/885)
+
+#### 2.0.137
+- [Bring in clojure-lsp](https://github.com/BetterThanTomorrow/calva/pull/572)
+
+#### 2.0.138
+
+- [Bring in refactorings we get access to via clojure-lsp](https://github.com/BetterThanTomorrow/calva/issues/890)
+- [Add ”clojure-lsp starting” progress indicator](https://github.com/BetterThanTomorrow/calva/issues/892)
+- [Fix step into local dep with debugger](https://github.com/BetterThanTomorrow/calva/issues/893)
+
+#### 2.0.139
+
+- [Use Pseudo Terminal instead of Task for Jack-in](https://github.com/BetterThanTomorrow/calva/pull/654)
+- [Prefer cider-nrepl symbol definitions over clojure-lsp](https://github.com/BetterThanTomorrow/calva/issues/897)
+- [Enable clojure-lsp completion items when no nrepl connection](https://github.com/BetterThanTomorrow/calva/pull/898)
+
+#### 2.0.140
+
+- [Make Jack-in dependency versions configurable (and bump 'em all with default settings)](https://github.com/BetterThanTomorrow/calva/pull/899)
+
+#### 2.0.141
+
+- Update clojure-lsp to include [jar dependency navigation fix for Windows](https://github.com/clojure-lsp/clojure-lsp/issues/223)
+- Fix: [clojure-lsp refactorings not working on Windows](https://github.com/BetterThanTomorrow/calva/issues/911)
+- [Remove default key binding for toggling Calva key bindings](https://github.com/BetterThanTomorrow/calva/issues/815)
+- [Make load-file available in the output window](https://github.com/BetterThanTomorrow/calva/issues/904)
+- [Make the ns in the repl prompt a peekable symbol](https://github.com/BetterThanTomorrow/calva/issues/904)
+
+
+#### [2.0.144]
+- [Reactivate definitions/navigation in core and library files](https://github.com/BetterThanTomorrow/calva/issues/915)
+- [Make load-file available in the output window](https://github.com/BetterThanTomorrow/calva/issues/910)
+- [Make the ns in the repl prompt a peekable symbol](https://github.com/BetterThanTomorrow/calva/issues/904)
+
+#### [2.0.145]
+- [Add command for opening the file for the output/repl window namespace](https://github.com/BetterThanTomorrow/calva/issues/920)
+- [Add setting for auto opening the repl window on Jack-in/Connect](https://github.com/BetterThanTomorrow/calva/issues/922)
+- [Add setting for auto opening the Jack-in Terminal](https://github.com/BetterThanTomorrow/calva/issues/923)
+- [Replace opening Calva says on start w/ info message box](https://github.com/BetterThanTomorrow/calva/issues/923)
+- [Add command for opening Calva documentation](https://github.com/BetterThanTomorrow/calva/issues/923)
+- [Change default keyboard shortcut for syncing the repl window ns to `ctrl+alt+c n`](https://github.com/BetterThanTomorrow/calva/issues/923)
+
+
+#### [2.0.146]
+- Fix: [Slurp forward sometimes joins forms to one](https://github.com/BetterThanTomorrow/calva/issues/883)
+- Fix: [clojure-lsp processes left running/orphaned if VS Code is closed while the lsp server is starting](https://github.com/BetterThanTomorrow/calva/issues/906)
+- Fix: [go to definition jumps to inc instead of inc'](https://github.com/BetterThanTomorrow/calva/issues/884)
+- Fix: [Error when start a REPL with jdk15](https://github.com/BetterThanTomorrow/calva/issues/888)
+
+#### [2.0.147]
+- Fix: [Dimming ignored forms does not work correctly with metadata](https://github.com/BetterThanTomorrow/calva/issues/908)
+- [Improve clojure-lsp jar integration](https://github.com/BetterThanTomorrow/calva/issues/913)
+- Update clojure-lsp to version 2021.01.07-12.28.44
+
+#### [2.0.148]
+- Update clojure-lsp to version 2021.01.07-20.02.02
+
+#### [2.0.149]
+- Fix: [calva.jackInEnv does not resolve `${env:...}`](https://github.com/BetterThanTomorrow/calva/issues/933)
+- Update clojure-lsp to version 2021.01.12-02.18.26. Fix: [clojure-lsp processes left running/orphaned if VS Code is closed while the lsp server is starting](https://github.com/BetterThanTomorrow/calva/issues/906)
+
+#### [2.0.150] - 2021-01-13
+- [Stop bundling clj-kondo in favor of using it through clojure-lsp](https://github.com/BetterThanTomorrow/calva/issues/868)
+
+#### [2.0.151] - 2021-01-15
+- Fix: [Debugger is broken on Windows](https://github.com/BetterThanTomorrow/calva/issues/947)
+
+#### [2.0.152] 
+- Fix: [Jack-In env with non-string variables fails](https://github.com/BetterThanTomorrow/calva/issues/959)
+- [Use clojure-lsp for usages for debug instrumentation decorations, and stop injecting clj-kondo at jack-in](https://github.com/BetterThanTomorrow/calva/issues/931)
+
+#### [2.0.153] 
+- [Use status bar message instead of withProgress message for clojure-lsp initialization](https://github.com/BetterThanTomorrow/calva/issues/974)
+- [Update cider-nrepl: 0.25.6 -> 0.25.7](https://github.com/BetterThanTomorrow/calva/issues/973)
+- Fix: ["Extract function" refactoring doesn't work as expected with selections](https://github.com/BetterThanTomorrow/calva/issues/958)
+
+#### [2.0.154] 
+- Fix: [Calva uses ; for comments instead of ;;](https://github.com/BetterThanTomorrow/calva/issues/971)
+- Update cider-nrepl to 0.25.8
+- Update clojure-lsp to 2021.01.26-22.35.27
+
+#### [2.0.155] 
+- [Make command palette show alt+enter shortcut variant instead of enter for evaluating top level form](https://github.com/BetterThanTomorrow/calva/issues/989)
+- Update clojure-lsp to 2021.01.28-03.03.16
+- Fix: [nrepl port detection race condition](https://github.com/BetterThanTomorrow/calva/issues/901)
+
+#### [2.0.156] 
+- Fix: [Debug instrumentation decoration not working correctly anymore on Windows](https://github.com/BetterThanTomorrow/calva/issues/969)
+- Fix: [Debugger decorations issues](https://github.com/BetterThanTomorrow/calva/issues/976)
+
+
+
+
+
 # Clj-kondo/babashka/sci
 
 
@@ -752,7 +887,7 @@ Created a new (alpha state) book to provide practical guides to using Clojure to
 
 
 
-
+# O’Doyle Rules
 
 
 
