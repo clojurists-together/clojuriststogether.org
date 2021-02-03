@@ -258,7 +258,24 @@ I've also helped with finding and debugging issues and testing fixes in Clojure-
 
 ### **January 16-31**
 
+Currently, our main focus is to help different Clojure data science libraries to bring R like functionality by filling in the missing gaps.
 
+## Completed tasks:
+* [#2](https://github.com/ashimapanjwani/r-for-data-science-in-clojure/pull/2) Used a wide range of Clojure data science libraries (mainly Vega+Hanami, Tablecloth, tech.ml.dataset, dtype-next, Fastmath, Notespace) to translate code samples under the Data Exploration section of [R4DS](https://r4ds.had.co.nz/explore-intro.html) covering the following topics:
+  - Data Visualization
+  - Data Transformation
+  - Exploratory Data Analysis
+* Raised the following PRs to add functionality/fix issues:
+  - tech.ml.dataset: [show or hide column's datatype in a dataset](https://github.com/ashimapanjwani/tech.ml.dataset/pull/1)
+  - tech.ml.dataset: [functionality to print all the rows of a dataset](https://github.com/ashimapanjwani/tech.ml.dataset/pull/2)
+  - tech.ml.dataset: [created convenience functions for varying printing behavior](https://github.com/ashimapanjwani/tech.ml.dataset/pull/3)
+  - tablecloth: [updated documentation](https://github.com/ashimapanjwani/tablecloth/pull/1)
+  - tablecloth: [renamed functions used to add/replace columns](https://github.com/ashimapanjwani/tablecloth/pull/2)
+  - dtype-next: [cleanup column printing](https://github.com/ashimapanjwani/dtype-next/pull/1)
+
+## Upcoming tasks:
+* Implement the relevant sections of R4DS using ClojisR.
+* Figure out how to bring some of R's main ideas of working with vectors to Clojure by creating better ergonomics for array programming.
 
 
 
