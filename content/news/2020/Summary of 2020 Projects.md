@@ -895,3 +895,30 @@ Calva now uses clj-kondo via clojure-lsp, and no longer bundles the clj-kondo ex
 
 
 
+# ClojisR
+
+* Used a wide range of Clojure data science libraries (mainly Tablecloth, tech.ml.dataset, dtype-next, ClojisR, Vega+Hanami, Fastmath, Notespace) to translate code samples under the Data Wrangling section of [R4DS](https://r4ds.had.co.nz/wrangle-intro.html) and Data Exploration section of [R4DS](https://r4ds.had.co.nz/explore-intro.html) covering the following topics:
+  - Tibbles (Dataframes)
+  - Data import
+  - Tidy data
+  - Relational data
+  - Strings
+  - Dates and times
+  - Data Visualization
+  - Data Transformation
+  - Exploratory Data Analysis
+
+
+* The above translation allowed us to compare the current Clojure data science ecosystem with the R ecosystem and helped us figure out the functionality which was missing and the features which could be made more user-friendly. These points were discussed with the relevant library authors (mainly Tablecloth, ClojisR, Notespace, dtype-next) and various GitHub issues were opened for feature requests as well as bug fixes.
+  - dtype-next : [human readable datetime](https://github.com/cnuernber/dtype-next/issues/9)
+  - tablecloth: [view each column's datatype below the column name](https://github.com/scicloj/tablecloth/issues/12)
+  - tablecloth: [Simplify access to row values in adjacent columns](https://github.com/scicloj/tablecloth/issues/13)
+  - tablecloth: [Update documentation](https://github.com/scicloj/tablecloth/issues/14)
+  - tablecloth: [(repeatedly rand) is running indefinitely despite other columns being finite in a dataset](https://github.com/scicloj/tablecloth/issues/15)
+  - tablecloth: [updated documentation](https://github.com/ashimapanjwani/tablecloth/pull/1)
+  - tablecloth: [renamed functions used to add/replace columns](https://github.com/ashimapanjwani/tablecloth/pull/2)
+  - notespace: [Ability to view the entire dataset in a scrollable format](https://github.com/scicloj/notespace/issues/54)
+  - tech.ml.dataset: [show or hide column's datatype in a dataset](https://github.com/ashimapanjwani/tech.ml.dataset/pull/1)
+  - tech.ml.dataset: [functionality to print all the rows of a dataset](https://github.com/ashimapanjwani/tech.ml.dataset/pull/2)
+  - tech.ml.dataset: [created convenience functions for varying printing behavior](https://github.com/ashimapanjwani/tech.ml.dataset/pull/3)
+
