@@ -193,6 +193,7 @@ footer>div.col>section.links ul {
 
 .membership-card .member-logo.large {
     max-width: 85%;
+    max-height: 300px;
 }
 
 .member-category {
