@@ -232,7 +232,8 @@
     "url" : "https://toyokumo.co.jp/",
     "logo" : "/logos/toyokumo.png",
     "level" : "filter",
-    "founding" : true
+    "founding" : true,
+    "tagline" : "Toyokumo provides people who are not good at using software with Web applications that are used to improve their productivity."
   }, {
     "name" : "Griffin Financial Technology",
     "url" : "https://www.griffin.sh",
