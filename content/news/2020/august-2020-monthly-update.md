@@ -2,7 +2,7 @@
 title: "August 2020 Monthly Update"
 date: 2020-09-07T10:00:54+08:00
 author: Alyssa Parado
-summary: Read more updates from Malli, Practicallli, Clj-kondo/babashka/sci, and Datahike
+summary: Read more updates from Malli, Practicalli, Clj-kondo/babashka/sci, and Datahike
 ---
 
 Welcome to the first (half) month of updates from our [new projects](/news/q3-2020-funding-announcement/).
@@ -43,7 +43,7 @@ First goal is to get a stable release of [Malli](https://github.com/metosin/mall
 
 
 
-## Practicallli
+## Practicalli
 
 **August 16-31**
 
@@ -69,7 +69,7 @@ PostgreSQL provisioned using Heroku for staging and production database.  Explor
 - [Namespace design](https://practicalli.github.io/clojure-webapps/projects/banking-on-clojure/namespace-design.html)
 - [h2 Relational database](https://practicalli.github.io/clojure-webapps/relational-databases-and-sql/h2-database/) and [development tools for H2](https://practicalli.github.io/clojure-webapps/relational-databases-and-sql/h2-database/database-tools.html)
 - [Relational databases - Managing connections](https://practicalli.github.io/clojure-webapps/relational-databases-and-sql/managing-connections.html)
-- [Production dabase - Heroku Postgres](https://practicalli.github.io/clojure-webapps/projects/banking-on-clojure/production-database.html)
+- [Production database - Heroku Postgres](https://practicalli.github.io/clojure-webapps/projects/banking-on-clojure/production-database.html)
 
 Once the project is completed with compojure, other routing libraries (bidi, reitit) will be used to show a working comparison, communicating the different approaches taken in a practical way.  The same will be done for component lifecycle libraries, eg. mount, integrant and component.
 
@@ -79,7 +79,7 @@ Added new aliases and updated existing aliases
 
 - `:cognitect-rebl` and `:nrepl` updated to use the Cognitect dev-tools release for REBL, testing with latest version of CIDER.
 - `:database-h2` library dependency to separate the development environment database from staging and production deployment
-- `:outdated` unsing antq rather than depot (which is no longer under development) to manage dependency versions
+- `:outdated` using antq rather than depot (which is no longer under development) to manage dependency versions
 
 [Additional aliases added for lambdaisland/kaocha][https://github.com/practicalli/clojure-deps-edn/blob/live/deps.edn#L318-L350] to support ClojureScript test runner, BDD style tests, code coverage and junit-xml reports for CI tools and wall-boards.
 

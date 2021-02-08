@@ -16,7 +16,7 @@ We are happy to announce the conclusion of Q4 2018 and the beginning of our Q1 2
 
 ### Extend query language
 
-- Completed an implementation of or/or-join/not/not-join predicates in Datascript datalog and accompanying 0.17.1 release. The original ticket for this request was opened back in 2015, so it was about time that got fixed. It was also higly requested and probably one of the last things that was lacking in Datascript from Datomic API.
+- Completed an implementation of or/or-join/not/not-join predicates in Datascript datalog and accompanying 0.17.1 release. The original ticket for this request was opened back in 2015, so it was about time that got fixed. It was also highly requested and probably one of the last things that was lacking in Datascript from Datomic API.
 - Support `:as` in Pull API an attr-with-opts syntax ([#270](https://github.com/tonsky/datascript/issues/270), PR [#271](https://github.com/tonsky/datascript/pull/271), thx @Jumblemuddle)
 - Support idents expansion (PR [#245](https://github.com/tonsky/datascript/pull/245), thx bamarco)
 - Calling transaction fns through idents directly (PR [#185](https://github.com/tonsky/datascript/pull/185), thx @refset)

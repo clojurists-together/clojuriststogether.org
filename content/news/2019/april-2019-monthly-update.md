@@ -43,7 +43,7 @@ In this article we explore a simple but useful technique for keeping weights fro
 
 17. Momentum
 April 29, 2019
-Today we are goind to implement momentum, a ubiquitous learning optimization technique. What's more, we'll do it without any performance penalty. Find out how many lines of Clojure code it will take.
+Today we are going to implement momentum, a ubiquitous learning optimization technique. What's more, we'll do it without any performance penalty. Find out how many lines of Clojure code it will take.
 
 18. GPU Accelerated Neural Networks in 6 Lines of Clojure
 Waiting to be published next week
@@ -54,7 +54,7 @@ that run on both CPU and GPU?
 
 During the Clojurists Together funding period, I have published 17 long articles. 6 articles got some nice publicity by reaching the frontpage of Hacker News.
 
-From February 1st to April 29th, the articles had 57,294 views by 28,570 unique users. This data is from Google Analysics *after the bots and spam were heavily filtered out*, so the reported traffic seems genuine. Cloudflare shows much higher numbers, as expected.
+From February 1st to April 29th, the articles had 57,294 views by 28,570 unique users. This data is from Google Analytics *after the bots and spam were heavily filtered out*, so the reported traffic seems genuine. Cloudflare shows much higher numbers, as expected.
 
 I plan to continue writing on this topic and release a series of beautifully typeset books that use Clojure to explain the attractive and popular topics of Deep Learning, Data Analysis, GPU programming and HPC to wider programming community. This series roughly cover a third of the book "Deep Learning for Programmers" that I will open for early access in May.
 

@@ -88,8 +88,8 @@ Released shadow-cljs versions to 2.6.14 to 2.6.21
 
 ### Improvements
 - Switched HTTP handling to use mostly Undertow built-in functionality for serving files to support Range requests with `206 Partial Content` responses and `Transfer-Encoding: chunked`.
-- Massivly increased performance of Source Maps handling. The raw data was way too costly to serialize to disk and would often take longer than actual compilation. Instead now only the compacted VLQ encoded data is stored. Cache reads/writes are significantly faster, eg. `cljs.core` used to take 2.5s to write the cache and now `~250ms`.
-- Increased parallel compilation speeds by splitting analysis and "compilation" (ie. converting AST to JS code) into two different phases. Parallel compilation used to wait for both but now only waits for analysis since thats all thats required.
+- Massively increased performance of Source Maps handling. The raw data was way too costly to serialize to disk and would often take longer than actual compilation. Instead now only the compacted VLQ encoded data is stored. Cache reads/writes are significantly faster, eg. `cljs.core` used to take 2.5s to write the cache and now `~250ms`.
+- Increased parallel compilation speeds by splitting analysis and "compilation" (ie. converting AST to JS code) into two different phases. Parallel compilation used to wait for both but now only waits for analysis since that's all that's required.
 
 ### Bugfixes
 - Stricter checks for `:modules` when `:entries` get moved out of their specified module with incorrect `:require` dependency graphs.

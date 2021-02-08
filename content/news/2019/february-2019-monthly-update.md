@@ -52,7 +52,7 @@ A lot has happened these last few weeks. The key focus was on implementing new f
 
 - [#422](https://github.com/ztellman/aleph/pull/422) "Handle WebSocket handshake timeouts".
 
-Initially implemented by [Denis Shilov](https://github.com/shilder). Thanks a lot! I've reimplemented the functionality partially to avoid usage of Manifold's timer. Mostly becase of performance considerations. I've also opened [the same issue](https://github.com/netty/netty/issues/8841) for Netty as this functionality is not covered by built-in websocket protocol handlers. And it was already implemented [here](https://github.com/netty/netty/pull/8856) by [Qin Shicheng](https://github.com/qeesung).
+Initially implemented by [Denis Shilov](https://github.com/shilder). Thanks a lot! I've reimplemented the functionality partially to avoid usage of Manifold's timer. Mostly because of performance considerations. I've also opened [the same issue](https://github.com/netty/netty/issues/8841) for Netty as this functionality is not covered by built-in websocket protocol handlers. And it was already implemented [here](https://github.com/netty/netty/pull/8856) by [Qin Shicheng](https://github.com/qeesung).
 
 - [#481](https://github.com/ztellman/aleph/pull/481) "Fine-grained websocket close handshake API".
 
@@ -80,7 +80,7 @@ This was a question of parity with `clj-http` API. `clj-http` automatically incl
 
 - [#482](https://github.com/ztellman/aleph/pull/482) "Custom 100-Continue handler".
 
-Server now accepts new `:continue-handler` param to control response flow for requests with "Except: 100-Continue" header. By default Aleph just accepts all requests automatically sending "HTTP/1.1. 101 Continue" response and resuming reading the body after that. Now you can provide as a `:continue-handler` a function that given specific request should decide whether the client should proceed or not. You can also provide a custom rejection response if the starndard "417 Expectation Failed" somehow doesn't work for you.
+Server now accepts new `:continue-handler` param to control response flow for requests with "Except: 100-Continue" header. By default Aleph just accepts all requests automatically sending "HTTP/1.1. 101 Continue" response and resuming reading the body after that. Now you can provide as a `:continue-handler` a function that given specific request should decide whether the client should proceed or not. You can also provide a custom rejection response if the standard "417 Expectation Failed" somehow doesn't work for you.
 
 - [#485](https://github.com/ztellman/aleph/pull/485) "http/file API to send region of the file".
 
@@ -162,7 +162,7 @@ Options coercer covers pretty much all possible configuration params.
 
 - Server does not log a full stack trace for failed SSL handshake, just a single line warning. It might be useful for development somehow... but dealing with a wall of similar stacktraces on prod is far from being fun.
 
-- `http/connection-pool` accepts new optional `:sni` param to provide a fine-grained control over `server_name` TLS extension (see more ["Server Name Indication"](https://en.wikipedia.org/wiki/Server_Name_Indication)). Now you can specify different value for a `server_name` (if it's not equal with the host) the same way OpenSSL `--servername` param works. You can also switch it OFF. Usually including this extention is not a problem, but you should remember that this extension would be sent over the network unencrypted. If you don't want to reveal the host you're working with to intermediaries... set `{:sni :none}` when creating a new connections pool.
+- `http/connection-pool` accepts new optional `:sni` param to provide a fine-grained control over `server_name` TLS extension (see more ["Server Name Indication"](https://en.wikipedia.org/wiki/Server_Name_Indication)). Now you can specify different value for a `server_name` (if it's not equal with the host) the same way OpenSSL `--servername` param works. You can also switch it OFF. Usually including this extension is not a problem, but you should remember that this extension would be sent over the network unencrypted. If you don't want to reveal the host you're working with to intermediaries... set `{:sni :none}` when creating a new connections pool.
 
 - Server now accepts `:sni` option with the mapping from domain name (to be matched with `server_name` TLS extension value) to a specific `SslContext`. This is helpful when you need to support "virtual hosts" on the same IP address or if you want to provide mutual TLS authentication for different clients. When provided, Aleph automatically spins up SNI handler. Note, that `server_name` is an optional extension, so you still should provide default `SslContext` (this fact is forced by the implementation details both by Netty and JDK).
 
@@ -184,7 +184,7 @@ This one I was planning on doing for a long-long time. There's a [feature reques
 
 - QUIC
 
-[QUIC](https://blog.cloudflare.com/the-road-to-quic/) is a new transport protocol that aims to "replace" TCP overcoming some limitations. To make the story short, you can put HTTP/3 = HTTP/2* over QUIC (* simplifications applied). My investigative attempt to implement a QUIC client with Aleph, Netty and Manifold was [quite succesfull](https://twitter.com/kachayev/status/1100747943521464320). It's far from being practically useful tho'. Apart from non-trivial crypto based on "unofficial" forked version of OpenSSL, full implementation should handle congestion control (for TCP you usually rely on your OS). I keen to go on pursuing production-level quality and features coverage. Most probably as a transport layer in Netty first.
+[QUIC](https://blog.cloudflare.com/the-road-to-quic/) is a new transport protocol that aims to "replace" TCP overcoming some limitations. To make the story short, you can put HTTP/3 = HTTP/2* over QUIC (* simplifications applied). My investigative attempt to implement a QUIC client with Aleph, Netty and Manifold was [quite successful](https://twitter.com/kachayev/status/1100747943521464320). It's far from being practically useful tho'. Apart from non-trivial crypto based on "unofficial" forked version of OpenSSL, full implementation should handle congestion control (for TCP you usually rely on your OS). I keen to go on pursuing production-level quality and features coverage. Most probably as a transport layer in Netty first.
 
 ---
 

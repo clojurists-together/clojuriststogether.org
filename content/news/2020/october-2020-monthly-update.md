@@ -2,7 +2,7 @@
 title: "October 2020 Monthly Update"
 date: 2020-11-04T12:00:00+08:00
 author: Alyssa Parado
-summary: Read more updates from Malli, Practicallli, Clj-kondo/babashka/sci, and Datahike
+summary: Read more updates from Malli, Practicalli, Clj-kondo/babashka/sci, and Datahike
 ---
 
 Here are the updates from our [Q3 projects](/news/q3-2020-funding-announcement/). They are finishing in the middle of November, so there will be one more short update next month. Don't forget that applications are open for our [next funding round](/news/q3-2020-survey-results/), apply today!.
@@ -58,7 +58,7 @@ no misc now.
 
 
 
-# Practicallli
+# Practicalli
 
 ### **October 1-15**
 
@@ -87,7 +87,7 @@ New page on fixtures for unit tests, with example fixture functions and configur
 ### Screencasts
 * [Clojure REPL driven development with Rebel Readline](https://www.youtube.com/watch?v=U19TWMsg0s0&list=PLpr9V-R8ZxiB3u90ga_SdxYsF2k2JTag1&index=1)
 * [Clojure projects with the REPL](https://www.youtube.com/watch?v=7muHVkxzZcE&list=PLpr9V-R8ZxiB3u90ga_SdxYsF2k2JTag1&index=2)
-* [Cloure REPL driven development - a simple example](https://youtu.be/rQ802kSaip4)
+* [Clojure REPL driven development - a simple example](https://youtu.be/rQ802kSaip4)
 
 Updated [Cognitect REBL install procedure](https://practicalli.github.io/clojure/alternative-tools/clojure-tools/cognitect-rebl.html), local maven install no longer required.
 
@@ -99,7 +99,7 @@ Learned how to [use Blender.org for Video editing](https://www.youtube.com/playl
 
 
 ### Practicalli Clojure deps.edn configuration
-Minor updates to the practicalli/clojure-deps-edn user level configuration for Clojure CLI tools.  This configuration is alsor recommeded by [seancorfield/dot-clojure](https://github.com/seancorfield/dot-clojure) personal configuration
+Minor updates to the practicalli/clojure-deps-edn user level configuration for Clojure CLI tools.  This configuration is also recommended by [seancorfield/dot-clojure](https://github.com/seancorfield/dot-clojure) personal configuration
 
 * inspect/rebl - link added to updated install requirements
 * updated library versions for: clj-new and depstar update
@@ -166,7 +166,7 @@ Updated content:
 * [Repeating searches and scrolling through search pattern history](https://practicalli.github.io/spacemacs/spacemacs-basics/working-with-projects/searching-projects.html)
 
 #### Cider issue
-Investigated bug with Emacs Cider and the new Clojure CLI tools `-M` alias flag.  Cider modeled Clojure CLI tools support on the approach for Leinigen and this resulted in the -A alias flag occurring out of position.  The clojure command does work this way, only since the `-M` flag has been introduced that the issue became visible.  The fix organises the arguments in the correct position
+Investigated bug with Emacs Cider and the new Clojure CLI tools `-M` alias flag.  Cider modeled Clojure CLI tools support on the approach for Leiningen and this resulted in the -A alias flag occurring out of position.  The clojure command does work this way, only since the `-M` flag has been introduced that the issue became visible.  The fix organises the arguments in the correct position
 * [Issue: Clojure CLI command parameters order incorrect](https://github.com/clojure-emacs/cider/issues/2916)
 * [PR: jack-in: move Clojure-cli parameter global-opts after -Sdeps](https://github.com/clojure-emacs/cider/issues/2917)
 
@@ -211,7 +211,7 @@ Here is an overview of the work I did per project.
 
 - Review PR and making additional changes for
   [clj-kondo#1016](https://github.com/borkdude/clj-kondo/issues/1016): config
-  for ignorning unused `:as` binding
+  for ignoring unused `:as` binding
 - Support ignore hint on unused binding [#1017](https://github.com/borkdude/clj-kondo/issues/1017)
 - Support ignore hint in ns form [#1031](https://github.com/borkdude/clj-kondo/issues/1031)
 - Support require in top-level do [#1018](https://github.com/borkdude/clj-kondo/issues/1018)
@@ -327,7 +327,7 @@ was continued.
 ### **October 16-31**
 
 This iteration included extensive work on the API docs and Datomic
-compatibilit, as well as progress on the tuple support.
+compatibility, as well as progress on the tuple support.
 
 ### API and Datomic Compatibility
 

@@ -60,7 +60,7 @@ Doing well:
 - Transparency
 - Providing significant funding to important or young high potential projects
 - Asking for feedback. Making choices transparent
-- Being so transparent on how you are selecting the projects and allocating the funds, and the whole transparent opperation of Clojurists Together.
+- Being so transparent on how you are selecting the projects and allocating the funds, and the whole transparent operation of Clojurists Together.
 - It exists and is being worked on!
 - Surveys about more than who to fund
 - Funding great projects, keeping the donors informed, fostering a community.

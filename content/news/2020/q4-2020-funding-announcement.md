@@ -94,7 +94,7 @@ In the short term, I want to improve o'doyle to match the performance and featur
 1. Serialization - saving a session (or at least its facts) to a string so it can be read later with edn/read-string
 2. Debugging - adding a mechanism to trace facts and determine why a rule didn't fire
 
-My long term plan is completely speculative and not something i'll accomplish in the three months i'm funded, but I believe rules engines are the key to creating a "generalized React" in pure clojure.
+My long term plan is completely speculative and not something I'll accomplish in the three months I'm funded, but I believe rules engines are the key to creating a "generalized React" in pure clojure.
 
 By that I mean a library that can completely replace React to drive front end UIs, but also be used in other contexts such as non-browser UIs (e.g. JavaFX), games, or non-UI business logic (where rules engines are mostly used today).
 

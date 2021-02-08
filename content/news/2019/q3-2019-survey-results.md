@@ -64,7 +64,7 @@ A sampling of comments:
 
 ### How would you like us to allocate our funding?
 
-69% of respondents wanted us to fund a mix of established and speculative projects, and 18% wantes us to only fund established projects.
+69% of respondents wanted us to fund a mix of established and speculative projects, and 18% wanted us to only fund established projects.
 
 ### What are we doing well, what could we be doing better?
 

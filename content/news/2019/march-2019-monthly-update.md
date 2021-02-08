@@ -43,7 +43,7 @@ I've spent quite a lot of time working through comments for previous PRs and kee
 
 * A few updates to WebSocket client force close after given timeout functionality [submitted to Netty](https://github.com/netty/netty/pull/8896).
 
-* I also spent tons of hours investigating performance of `netty/source` and `netty/sink` in turms of latencies, throughput, backpressure. I was looking into Netty's `autoRead` semantic, how Aleph deals with it and if we can improve performane oding `flush` on `readComplete`. To make story short: we can. In cases when you send/recieve a lot of small chunks. I'm still not sure how to expose this in the framework tho'. Talking about small chunks of data... I did the same investigation for UDP.
+* I also spent tons of hours investigating performance of `netty/source` and `netty/sink` in turms of latencies, throughput, backpressure. I was looking into Netty's `autoRead` semantic, how Aleph deals with it and if we can improve performane oding `flush` on `readComplete`. To make story short: we can. In cases when you send/receive a lot of small chunks. I'm still not sure how to expose this in the framework tho'. Talking about small chunks of data... I did the same investigation for UDP.
 
 ### Files
 

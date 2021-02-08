@@ -53,7 +53,7 @@ About half of the respondents to this question had seen direct benefits, and hal
 
 ### How would you like us to allocate our funding?
 
-80% of respondents wanted us to fund a mix of established and speculative projects, and 20% wantes us to only fund established projects. This is roughly the same as our Q4 2018 survey. In Q3 2018 the mix was 70/30.
+80% of respondents wanted us to fund a mix of established and speculative projects, and 20% wanted us to only fund established projects. This is roughly the same as our Q4 2018 survey. In Q3 2018 the mix was 70/30.
 
 ### What are we doing well, what could we be doing better?
 

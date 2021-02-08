@@ -57,7 +57,7 @@ The instrument command and decorations features were released and I've started w
 ## Reagent
 
 Some of the fixed tests were related to how Reagent added component stack
-information into the error essages, which was retrieved from React class component internal properties.
+information into the error messages, which was retrieved from React class component internal properties.
 
 React now provides a proper way to get the component stack information for errors
 using Error Boundaries.
@@ -284,13 +284,13 @@ Added content and videos to the [Introducing Spec section](http://practicalli.gi
 
 Added details on configuring tools.deps and how to define and use multiple aliases. Provided a collection of aliases for community tools, jcenter clojars mirror and how to use a local Artifactory instance.
 
-[Configuring a REPL on starutup for deps.edn projects](https://practicalli.github.io/clojure/repl-driven-development/configure-repl-startup.html), examples of using `dev/user.clj` to require namespaces, call functions and manage component lifecycle services (mount, component, integrant, etc.).
+[Configuring a REPL on startup for deps.edn projects](https://practicalli.github.io/clojure/repl-driven-development/configure-repl-startup.html), examples of using `dev/user.clj` to require namespaces, call functions and manage component lifecycle services (mount, component, integrant, etc.).
 
 Extended the Unit Testing section to cover useful practices with clojure.test library, refactor is assertions with are to work over data sets.
 
 Configured git template to use live branch as the default branch name.
 
-Created [an introduction to CircleCI as a continuous integration service](http://practicalli.github.io/clojure/testing/integration-testing/circle-ci/random-clojure-function.html) and identified and documented recommended docker images to use for Clojure deps.edn and Leinigen projects. 
+Created [an introduction to CircleCI as a continuous integration service](http://practicalli.github.io/clojure/testing/integration-testing/circle-ci/random-clojure-function.html) and identified and documented recommended docker images to use for Clojure deps.edn and Leiningen projects.
 
 Configure REPL startup using `dev/user.clj` file and `:dev` alias in practicalli/clojure-deps-edn configuration.
 
@@ -299,7 +299,7 @@ Add section on [data browser tools](https://practicalli.github.io/clojure/clojur
 
 
 **Random Clojure Function project**.
-Created a guide to develop a project that [generates a random function](http://practicalli.github.io/clojure/simple-projects/random-clojure-function.html) from the namepaces available in the REPL or the functions from specified namespaces.
+Created a guide to develop a project that [generates a random function](http://practicalli.github.io/clojure/simple-projects/random-clojure-function.html) from the namespaces available in the REPL or the functions from specified namespaces.
 
 Using the [random Clojure function project](http://practicalli.github.io/clojure/simple-projects/random-clojure-function.html), created a [guide to develop a project with the help of CircleCI](http://practicalli.github.io/clojure/testing/integration-testing/circle-ci/random-clojure-function.html) as the continuous integration service.
 
@@ -344,7 +344,7 @@ Refactor applications menu key bindings to create more room for key bindings and
 
 Refactored overall book content design for Practicalli Clojure WebApps
 
-Created [a guide to deploy a Clojure application via CirceCI onto Heroku](https://practicalli.github.io/clojure-webapps/projects/status-monitor-deps/). 
+Created [a guide to deploy a Clojure application via CircleCI onto Heroku](https://practicalli.github.io/clojure-webapps/projects/status-monitor-deps/). 
 
 Updated the status monitor project to deps.edn to use as the basis for a guide to deploy Clojure applications via CircleCI to Heroku (a cloud platform as a service).
 
@@ -544,7 +544,7 @@ Worked on a [remote client](https://github.com/replikativ/datahike-client) for [
 
 The ClojureScript port is moving forward focussing on the transactor and query engine.
 
-The [upsert feature](https://github.com/replikativ/datahike/pull/201) had to be adjusted and is now benchmarked in order to see which functions take most of the perfomance.
+The [upsert feature](https://github.com/replikativ/datahike/pull/201) had to be adjusted and is now benchmarked in order to see which functions take most of the performance.
 
 
 
@@ -572,7 +572,7 @@ https://twitter.com/ikitommi/status/1314254607846191104
 
 
 
-## Practicallli (Part 2)
+## Practicalli (Part 2)
 
 
 #### Practicalli Study Group
@@ -612,7 +612,7 @@ The application server system, UI, routing and initial handler have been defined
 
 PostgreSQL provisioned using Heroku for staging and production database.
 
-Added code to create and delete the development database which is called from fixture functions within the handler-helper-test namepace.  The tests now run successfully via the CirceCI service.
+Added code to create and delete the development database which is called from fixture functions within the handler-helper-test namespace.  The tests now run successfully via the CircleCI service.
 
 Using kaocha profiles to configure different behavior in the development environment and when running on the CI server, specifically file change watcher and test output.
 
@@ -696,7 +696,7 @@ Created a new (alpha state) book to provide practical guides to using Clojure to
 ## Calva Changes
 
 
-Calva now uses clj-kondo via clojure-lsp, and no longer bundles the clj-kondo extension. This reduces Calva's indirect memory footprint as opposed to the previous setup of using clojure-lsp and the clj-kondo exntension, since the clj-kondo extension runs its own LSP server, which is no longer necessary.
+Calva now uses clj-kondo via clojure-lsp, and no longer bundles the clj-kondo extension. This reduces Calva's indirect memory footprint as opposed to the previous setup of using clojure-lsp and the clj-kondo extension, since the clj-kondo extension runs its own LSP server, which is no longer necessary.
 
 * 2.0.134
 	- Fix: [Live share jackout error](https://github.com/BetterThanTomorrow/calva/issues/856)

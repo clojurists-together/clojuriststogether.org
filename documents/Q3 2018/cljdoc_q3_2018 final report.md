@@ -19,7 +19,7 @@ Cljdoc is a website that builds and hosts documentation for Clojure and ClojureS
 
 ## Work log
 
-Septemeber 2018
+September 2018
 
 Things that have been shipped in September:
 

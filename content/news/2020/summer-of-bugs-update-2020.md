@@ -67,7 +67,7 @@ and in the issue on Github
 [here](https://github.com/borkdude/clj-kondo/issues/811).
 
 After more experimentation I decided that the transformation should happen
-direcly on rewrite-clj nodes in order to preserve location information. This led
+directly on rewrite-clj nodes in order to preserve location information. This led
 to the current implementation of the `:analyze-call` hook, documented
 [here](https://github.com/borkdude/clj-kondo/blob/master/doc/config.md#hooks).
 Additionally, some library specific example config + hook code is provided

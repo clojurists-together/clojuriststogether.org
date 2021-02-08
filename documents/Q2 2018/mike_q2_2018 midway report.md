@@ -54,7 +54,7 @@ no longer reproducible with latest compiler.
 * A patch was landed ([CLJS-2769](https://dev.clojure.org/jira/browse/CLJS-2769)) which it possible to run the self-hosts tests with the very latest Google Closure Library code.
 * A corner case surrounding `:install-deps` and `cljs.main`, when using `-e` to evaluate code ([CLJS-2775](https://dev.clojure.org/jira/browse/CLJS-2775)) was fixed.
 * Work was started on a patch to enable `*warn-on-reflection*` in the compiler's codebase ([CLJS-2748](https://dev.clojure.org/jira/browse/CLJS-2748)).
-* An issue that prevented async test result reporting from properly occuring with the Node REPL ([CLJS-2780](https://dev.clojure.org/jira/browse/CLJS-2780)) was fixed.
+* An issue that prevented async test result reporting from properly occurring with the Node REPL ([CLJS-2780](https://dev.clojure.org/jira/browse/CLJS-2780)) was fixed.
 * Landed a fix for an issue that prevented proper async test result reporting when using the Node REPL ([CLJS-2780](https://dev.clojure.org/jira/browse/CLJS-2780)).
 * Landed a patch ([CLJS-2790](https://dev.clojure.org/jira/browse/CLJS-2790)) which fixes spurious [inference warnings](https://clojurescript.org/guides/externs) when using `defrecord` with fields.
 * Landed patches in [CLJS-2798](https://dev.clojure.org/jira/browse/CLJS-2798) and [CLJS-2799](https://dev.clojure.org/jira/browse/CLJS-2799), which were some minor quirks in need of fixing in preparation for [CLJS-2693](https://dev.clojure.org/jira/browse/CLJS-2693), which aims to adds support for chunked sequence ranges. (Check out the potential perf improvements detailed in that ticket!)

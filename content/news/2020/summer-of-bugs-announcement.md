@@ -21,7 +21,7 @@ This project will receive a grant of $1,000USD.
 
 ## vim-iced
 
-Iizuka Masashi is a maintainer of vim-iced and has implemented docstring references in a plain nREPL environment. vim-iced is the only one that provides practical and interactive Clojure development enviroment for both Vim and Neovim. With the advent of babashka and babashka.nrepl, there are now more nREPL servers that are easy to use. By supporting them, we can make development in Clojure easier and more efficient.
+Iizuka Masashi is a maintainer of vim-iced and has implemented docstring references in a plain nREPL environment. vim-iced is the only one that provides practical and interactive Clojure development environment for both Vim and Neovim. With the advent of babashka and babashka.nrepl, there are now more nREPL servers that are easy to use. By supporting them, we can make development in Clojure easier and more efficient.
 
 Iizuka's plan is to test integration (individual or full execution) even when connected to a plain nREPL server.
 
@@ -62,7 +62,7 @@ Overall there are around 250,000 downloads of [reitit](https://clojars.org/metos
 
 There are a handful of open [issues](https://github.com/metosin/reitit/issues?q=is%3Aissue+is%3Aopen+swagger) related to swagger and some of which are marked as good first issue or help wanted. Tommi would like to push this issue forward as this has been open for a while: https://github.com/metosin/reitit/issues/84
 
-In addion to that, these steps will help Tommi to gain enough information about swagger to be able to tackle https://github.com/metosin/reitit/issues/272 in the future.
+In addition to that, these steps will help Tommi to gain enough information about swagger to be able to tackle https://github.com/metosin/reitit/issues/272 in the future.
 
 This project will receive a grant of $1,000USD.
 

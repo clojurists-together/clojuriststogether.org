@@ -109,7 +109,7 @@ https://www.youtube.com/watch?v=ajDiGS73i2o"
 
 Libpython-clj is a new library that allows Clojurians access to the whole Python ecosystem.
 
-The goal of the proposed project is to improve developer experiece around Libpython-clj in several aspects:
+The goal of the proposed project is to improve developer experience around Libpython-clj in several aspects:
 
 - Document important parts of Libpython-clj internals and API.
 - Use it to turn a chosen Python library (e.g., tensorflow) into a Clojure library.
@@ -122,7 +122,7 @@ The goal of the proposed project is to improve developer experiece around Libpyt
 - Possibly improve relevant aspects of Libpython-clj, such as session management (multiple interpreters) and resource management.
 - One possible model for this process may be the Panthera Clojure library, that wraps the Pandas Python library. The approach of the current project will by inspired by that, but may be different.
 
-Through the process of work, the precise form of API and the library to wrap will be chosen in dialoge with the community. The emerging developer experience will be continuously assessed by implementing realistic use cases, and by communicating the results with the community. Concrete steps will be prioritized accordingly.
+Through the process of work, the precise form of API and the library to wrap will be chosen in dialogue with the community. The emerging developer experience will be continuously assessed by implementing realistic use cases, and by communicating the results with the community. Concrete steps will be prioritized accordingly.
 
 ### Anything else we should know?
 

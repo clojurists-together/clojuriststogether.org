@@ -10,7 +10,7 @@ Clojurists Together is happy to announce that for Q3 of 2020 (mid-August-mid-Nov
 - [clj-kondo](https://github.com/borkdude/clj-kondo)/[babashka](https://github.com/borkdude/babashka)/[sci](https://github.com/borkdude/sci) with Michiel Borkent
 - [Datahike](https://github.com/replikativ/datahike) with Konrad Kühne
 - [Malli](https://github.com/metosin/malli) with Tommi Reiman
-- [Practicallli](https://practicalli.github.io) with John Stevenson
+- [Practicalli](https://practicalli.github.io) with John Stevenson
 
 This is the first full funding round run under the Clojurists Together Foundation. It's taken us a little bit longer to get up and running this time, but future rounds should be much quicker.
 
@@ -39,7 +39,7 @@ A couple of examples:
 - Integration of clojure.spec into babashka
 - Add support for clojure.datafy
 - Port tests to Windows
-- Investigate possiblity of implementing reify and deftype
+- Investigate possibility of implementing reify and deftype
 - Smaller sci CLJS builds by configuration
 - More control over duration / interrupts
 
@@ -106,9 +106,9 @@ After the release, would work on the following:
 
 ### Why is this project important to the Clojure community?
 
-Clojure is a data-oriented language and we should have a solid fully data-driven schema library too! Besides validation and value transformations, we should be able transform, persist, generate and infer schemas just like normal data. Malli tries to be  develop-friedly library to companion to other data-driven libs like EQL, Bidi, HoneySQL, Hiccup, Integrant, Reagent and Reitit.
+Clojure is a data-oriented language and we should have a solid fully data-driven schema library too! Besides validation and value transformations, we should be able transform, persist, generate and infer schemas just like normal data. Malli tries to be  develop-friendly library to companion to other data-driven libs like EQL, Bidi, HoneySQL, Hiccup, Integrant, Reagent and Reitit.
 
-Malli has an open development model, design decions are discussed in slack (#malli) and in GitHub issues. Not a top goal, but eventually, Malli should be spec-compatible.
+Malli has an open development model, design decisions are discussed in slack (#malli) and in GitHub issues. Not a top goal, but eventually, Malli should be spec-compatible.
 
 Despite being pre-alpha, malli has 21 contributors, 391 stars on github and 54k+ downloads on Clojars.
 

@@ -143,7 +143,7 @@ applications in ClojureScript. But it certainly isn't that clear how
 to do so.
 
 I added a document that shows how to set up a Nodejs application
-includeing an example of how to create a hot reloadable `express`
+including an example of how to create a hot reloadable `express`
 application.
 
 #### Much Much thanks!
@@ -170,17 +170,17 @@ Broadcasts also cover using Kaocha generative test runner, both locally and on C
 
 * [077 - Continuous Integration - Clojure deps.edn and Leiningen projects](https://youtu.be/WLcaXuAH1Ew)
 * [78 - Continuous Integration - Clojure deps.edn projects and CircleCI](https://youtu.be/sXZKrD4cAFk)
-* [079 - Continuous Integration - Deploying deps.edn project on Heroku via CirecleCI](https://youtu.be/P0D3W_ugfdA)
+* [079 - Continuous Integration - Deploying deps.edn project on Heroku via CircleCI](https://youtu.be/P0D3W_ugfdA)
 
 Content developed for Practicalli Clojure and Practicalli Clojure Webapps books.
 
 #### Practicalli Clojure
 Created several guides for new and existent projects, using CircleCI as a continuous integration service.  Kaocha is also used to run generative tests as well as unit tests.
 
-Created [an introduction to CircleCI as a continuous integration service](http://practicalli.github.io/clojure/testing/integration-testing/circle-ci/random-clojure-function.html) and identified and documented recommended docker images to use for Clojure deps.edn and Leinigen projects.  The CircleCI examples are a little dated and includes only Leinginen project examples.
+Created [an introduction to CircleCI as a continuous integration service](http://practicalli.github.io/clojure/testing/integration-testing/circle-ci/random-clojure-function.html) and identified and documented recommended docker images to use for Clojure deps.edn and Leiningen projects.  The CircleCI examples are a little dated and includes only Leiningen project examples.
 
 **Random Clojure Function project**.
-Created a guide to develop a project that [generates a random function](http://practicalli.github.io/clojure/simple-projects/random-clojure-function.html) from the namepaces available in the REPL or the functions from specified namespaces.
+Created a guide to develop a project that [generates a random function](http://practicalli.github.io/clojure/simple-projects/random-clojure-function.html) from the namespaces available in the REPL or the functions from specified namespaces.
 
 Using the [random Clojure function project](http://practicalli.github.io/clojure/simple-projects/random-clojure-function.html), created a [guide to develop a project with the help of CircleCI](http://practicalli.github.io/clojure/testing/integration-testing/circle-ci/random-clojure-function.html) as the continuous integration service.
 
@@ -188,11 +188,11 @@ Using the [random Clojure function project](http://practicalli.github.io/clojure
 **Banking on Clojure**
 Updated the [banking-on-clojure project](http://practicalli.github.io/clojure/clojure-spec/projects/bank-account/) using a TDD approach with Clojure spec.
 
-Using Kaocha test runner run unit tests and Clojure spec generative tests locally and via CirceCI. Kaocha can run the same tests as clojure.spec.test.alpha/test function calls, without having to add code to the project. Adding the spect-check-plugin via the test.edn config did not run the generative tests, only the unit tests. Use the spec-test-check plugin to run the reports works when included as a command line flag.
+Using Kaocha test runner run unit tests and Clojure spec generative tests locally and via CircleCI. Kaocha can run the same tests as clojure.spec.test.alpha/test function calls, without having to add code to the project. Adding the spect-check-plugin via the test.edn config did not run the generative tests, only the unit tests. Use the spec-test-check plugin to run the reports works when included as a command line flag.
 
 
 #### Practicalli Clojure Webapps
-Created [a guide to deploy a Clojure application via CirceCI onto Heroku](https://practicalli.github.io/clojure-webapps/projects/status-monitor-deps/). Think of Heroku as AWS without the cognative load to use it, simply push source code to Heroku and it builds and deploys the resulting application.
+Created [a guide to deploy a Clojure application via CircleCI onto Heroku](https://practicalli.github.io/clojure-webapps/projects/status-monitor-deps/). Think of Heroku as AWS without the cognative load to use it, simply push source code to Heroku and it builds and deploys the resulting application.
 
 Updated the status monitor project to deps.edn to use as the basis for a guide to deploy Clojure applications via CircleCI to Heroku (a cloud platform as a service). The project takes a simple approach so the focus remains on the continuous integration pipeline.
 
@@ -235,7 +235,7 @@ Created Banking on Clojure WebApp content for the live broadcasts and book.  The
 
 
 #### Practicalli Clojure
-Configure REPL startup using `dev/user.clj` file and `:dev` alias in practicalli/clojure-deps-edn configuration.  Added examples of [requiring namespaces and starting component lifecycle services at REPL starup](http://practicalli.github.io/clojure/clojure-tools/configure-repl-startup.html) added to Practicalli Clojure book.
+Configure REPL startup using `dev/user.clj` file and `:dev` alias in practicalli/clojure-deps-edn configuration.  Added examples of [requiring namespaces and starting component lifecycle services at REPL startup](http://practicalli.github.io/clojure/clojure-tools/configure-repl-startup.html) added to Practicalli Clojure book.
 
 Add section on [data browser tools](https://practicalli.github.io/clojure/clojure-tools/data-browsers/), extending REBL and Clojure Inspector with new projects Reveal and Portal.
 
