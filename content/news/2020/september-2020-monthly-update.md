@@ -2,7 +2,7 @@
 title: "September 2020 Monthly Update"
 date: 2020-10-03T14:10:00+08:00
 author: Alyssa Parado
-summary: Read more updates from Malli, Practicallli, Clj-kondo/babashka/sci, and Datahike
+summary: Read more updates from Malli, Practicalli, Clj-kondo/babashka/sci, and Datahike
 ---
 
 Here are the updates from our [new projects](/news/q3-2020-funding-announcement/).
@@ -11,7 +11,7 @@ Here are the updates from our [new projects](/news/q3-2020-funding-announcement/
 
 ### **September 1-15**
 
-Small improvements based on user feedback, finalized the EntrySchemas and drafted implementation for *heterogenus sequences*, aka regex schemas.
+Small improvements based on user feedback, finalized the EntrySchemas and drafted implementation for *heterogeneous sequences*, aka regex schemas.
 
 ### Done stuff
 
@@ -23,7 +23,7 @@ Small improvements based on user feedback, finalized the EntrySchemas and drafte
 ### Ongoing
 
 * [#252](https://github.com/metosin/malli/pull/252)
-  * adding support for lazy registeries (suppors pulling e.g.AWS CloudFormation Schemas in at runtime, when needed)
+  * adding support for lazy registries (supports pulling e.g.AWS CloudFormation Schemas in at runtime, when needed)
   * lazy `:multi` impl
   * first class support for String Schema references
   * spell-specking of `:multi` and `:enum` values
@@ -119,7 +119,7 @@ Thought releasing a library was easy, but want to do it too(?) right, seems to t
 
 
 
-# Practicallli
+# Practicalli
 
 ### **September 1-15**
 
@@ -151,7 +151,7 @@ Added [core principles for writing effective unit tests](https://practicalli.git
 
 
 ### Clojure deps.edn
-Created a [draft guide to changes in the next release of the Clojue CLI tools](https://gist.github.com/jr0cket/ae7dd745eb45870109ace59fe835ce80), to understand the significance of the changes it introduces.  The `-X` flag for executing a function with EDN arguments (hash-map arguments) has already been introduced and the new release depreciates the generic `-A` alias in favor of `-M`.  In the long term using the `-X` flag with functions that take a structured argument looks to be an excellent approach.
+Created a [draft guide to changes in the next release of the Clojure CLI tools](https://gist.github.com/jr0cket/ae7dd745eb45870109ace59fe835ce80), to understand the significance of the changes it introduces.  The `-X` flag for executing a function with EDN arguments (hash-map arguments) has already been introduced and the new release depreciates the generic `-A` alias in favor of `-M`.  In the long term using the `-X` flag with functions that take a structured argument looks to be an excellent approach.
 
 Started a [redesign of practicalli/clojure-deps-edn using qualified keywords for alias names](https://github.com/practicalli/clojure-deps-edn/tree/qualified-alias-keywords-and-new-flags).  The Library repositories keyword, `:mvn/repos`, is already qualified, so this redesign brings the aliases in line with that style.  The alias keywords are prepended with names to communicate the category of purpose for each alias, e.g. repl, project, env, lib, inspect, build, deploy.
 
@@ -168,7 +168,7 @@ Resolved simple bug fixes raised by the community.
 ### **September 16-30**
 
 ### Practicalli Study Group
-Continuing the Live broadcasts covering the developmment of the Banking on Clojure web application.
+Continuing the Live broadcasts covering the development of the Banking on Clojure web application.
 - [084 - Banking On Clojure - Part5 - Generated database records from clojure.spec](https://youtu.be/Cn5QX9nL7jU)
 - [085 - Banking On Clojure - Part6 - Refactor database schema, specs and namespaces](https://youtu.be/e4QInyWa1bM)
 
@@ -194,7 +194,7 @@ Redesign the database schema and clojure.spec specifications to simplify the use
 
 Using generative testing with the database.  Specifications are used to generate random data to test the database CRUD functions, validating the results of those functions against clojure specs.
 
-Added code to create and delete the development database which is called from fixture functions within the handler-helper-test namepace.  The tests now run successfully via the CirceCI service.
+Added code to create and delete the development database which is called from fixture functions within the handler-helper-test namespace.  The tests now run successfully via the CircleCI service.
 
 Using kaocha profiles to configure different behavior in the development environment and when running on the CI server, specifically file change watcher and test output.
 
@@ -365,7 +365,7 @@ Within our [comparison project](https://github.com/lambdaforge/vertailu) we crea
 
 ### Tuple Support
 
-The schema definition for composite tuples was added to the transaction validation, while the definition for heterogenous and homogenous tuples are still drafted and tested. We started discussing the design and architecture for the search of the tuples in Datahike's index for both read and write schema flexibility.
+The schema definition for composite tuples was added to the transaction validation, while the definition for heterogeneous and homogeneous tuples are still drafted and tested. We started discussing the design and architecture for the search of the tuples in Datahike's index for both read and write schema flexibility.
 
 ### Beyond Clojurists Together Tasks
 Within the task of porting of our own dependencies to ClojureScript, we unified the CI/CD for circleci, moving from leiningen to Clojure CLI tools.

@@ -129,7 +129,7 @@ I've done some work in both Calva and Clojure-lsp.
 
 ## Calva Work
 
-Calva now uses clj-kondo via clojure-lsp, and no longer bundles the clj-kondo extension. This reduces Calva's indirect memory footprint as opposed to the previous setup of using clojure-lsp and the clj-kondo exntension, since the clj-kondo extension runs its own LSP server, which is no longer necessary.
+Calva now uses clj-kondo via clojure-lsp, and no longer bundles the clj-kondo extension. This reduces Calva's indirect memory footprint as opposed to the previous setup of using clojure-lsp and the clj-kondo extension, since the clj-kondo extension runs its own LSP server, which is no longer necessary.
 
 My co-maintainer Peter also did quite a bit of work recently. Below is a list of Calva changes in the last couple weeks.
 

@@ -82,7 +82,7 @@ Other
 
 * More accurate code completion lookups (by giving the nREPL completion middleware more context for the lookup).
 * By PR: Keep focus in editor when evaluating to the REPL Window
-* By PR: Close java processes when clsoing or reloading VS Code. (On Windows, where VS Code fails to clean up Jack-in processes for us.)
+* By PR: Close java processes when closing or reloading VS Code. (On Windows, where VS Code fails to clean up Jack-in processes for us.)
 * Fix REPL Window namespace being reset to user.
 * Provide JavaScript completion in ClojureScript code. (by upgrading to `cider-nrepl 0.22.1` and thus gaining the power of suitable).
 * Fix Printing of preformatted results in REPL window (By a small change to the Calva Clojure lexer.)

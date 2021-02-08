@@ -57,7 +57,7 @@ One of the crazier ideas that has popped up though (and one on which I'd like fe
 (export! data filename & {:as opts})
 ```
 
-The story here is this: When I inhereited forked Oz (from Vizard), it's API used the `& {:as opts}` variant, and not wanting to break the API for folks who wanted to switch, I stuck with this. At the time, the only real function in the API was the `view!` function. Given that this was primarily intended for REPL usage, I wasn't too concerned about this.
+The story here is this: When I inherited forked Oz (from Vizard), it's API used the `& {:as opts}` variant, and not wanting to break the API for folks who wanted to switch, I stuck with this. At the time, the only real function in the API was the `view!` function. Given that this was primarily intended for REPL usage, I wasn't too concerned about this.
 
 As Oz grew, I made the decision to stick with the existing pattern, to maintain consistency in the API. However, as more and more of the functionality has come to expand beyond the focus of REPL tooling, this has started to irk me. I like being able to pass option maps as a single argument, as it makes it easier to compose/compute these options and pass in. As mentioned, I didn't want to make the API inconsistent, and I certainly didn't want to break any of it.
 
@@ -74,7 +74,7 @@ The thought occurred to me that I could support both options by defining like th
 
 Having not seen this in the wild much, I kept telling myself it was crazy. But maybe it's crazy like a fox!
 
-And so, with copmpile and friends (see above) en route, I'd like some feedback from the community about whether they think this is a good idea or not. With that in mind, I invite you to contribute to this advisory twitter poll!
+And so, with compile and friends (see above) en route, I'd like some feedback from the community about whether they think this is a good idea or not. With that in mind, I invite you to contribute to this advisory twitter poll!
 
 https://twitter.com/metasoarous/status/1240085028064727040?s=20
 

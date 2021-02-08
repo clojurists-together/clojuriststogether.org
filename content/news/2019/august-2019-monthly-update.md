@@ -55,7 +55,7 @@ One of the most important changes to the library was to qualify (namespace) the 
 
 With qualified operators I also further developed a syntax extension mechanism which allows for controlled extension of the pattern matching and/or substitution syntax. This will also be available from the `meander.epsilon` namespace as `defsyntax`. This macro allows new symbolic, syntax to be defined.
 
-With the syntax extension and definition mechanism in place, I was able to begin working on real documentation. Because the `defsyntax` macro compiles to code which emits a `defn`, which in turn compiles to code which emits a `def`, we can attach real meta data such as `:doc` and `:arglists` to the vars. So now, not only can we define operators via the provided extension mechanism, we can also document them. And thats exactly what I spent a good deal of time doing. To date, I've fully documented all but two operators and I expect those will be documented during the week.
+With the syntax extension and definition mechanism in place, I was able to begin working on real documentation. Because the `defsyntax` macro compiles to code which emits a `defn`, which in turn compiles to code which emits a `def`, we can attach real meta data such as `:doc` and `:arglists` to the vars. So now, not only can we define operators via the provided extension mechanism, we can also document them. And that's exactly what I spent a good deal of time doing. To date, I've fully documented all but two operators and I expect those will be documented during the week.
 
 Apart from the operator qualification and documentation efforts, Meanders epsilon branch also received several bug fixes to the improvement of the pattern matching compiler. Meanders Clojure spec definitions have also been given attention and mistakes preventing the use of instrumentation have now been corrected.
 
@@ -73,7 +73,7 @@ For substitution, code generation has also been improved as Meander is employing
 
 ### August 1 - 15
 
-Theme: _Project Maintanbility_
+Theme: _Project Maintainability_
 
 This has many aspects, including: _Cooperation with other tool smiths, Code factoring, User documentation, and Ease of use._
 
@@ -90,18 +90,18 @@ Since CIDER and Calva are sharing a lot of the tooling, we have been trying to f
 * Some features are being added **documentation first**, meaning we write the user documentation for the feature first and use that to know what needs to be done. See below for an example. We intend to continue with this habit.
 
 #### Refactoring Calva
-We're preparing for making some major cleanings up of the Calva code base. And even while we have yet to start any of those efforts we are already cleaing up while we are working with updating Calva. This means the project is more maintanable now than it was two weeks ago, and we intend to continue in this spirit of Kaizen. A more drastical change is that we:
+We're preparing for making some major cleanings up of the Calva code base. And even while we have yet to start any of those efforts we are already cleaning up while we are working with updating Calva. This means the project is more maintainable now than it was two weeks ago, and we intend to continue in this spirit of Kaizen. A more drastic change is that we:
 * **DONE**: Moved all REPL Window code into the Calva repository and archived the `repl-interactor` repository for now.
 
 #### Jack in/Connect
 We've continued with the strong focus on making it easy to connect Calva to your Clojure project.
 
 * **RELEASED**: https://github.com/BetterThanTomorrow/calva/blob/master/CHANGELOG.md#2028---01082019 Operating system peculiarities. Especially Windows, with its cmd.exe and Powershell and Git Bash and MINGW and WSL and… You get the picture. Jack-in has been really hard to get working reliably, but I think we got it nailed down now. (There is still some bugs on Linux, that we have yet to figure out.)
-* **RELEASED**: [Reworked how Calva deals with figuring out the current project root](https://github.com/BetterThanTomorrow/calva/pull/275). This used to be a setting in the workspace, but now it is determined based on the file in the active editor. This change also made it easier to use multi-project workspaces (Mainly because of suporting custom settings per project in the workspace).
-* **RELEASED**: [Support launching with Leiningen aliases](https://github.com/BetterThanTomorrow/calva/pull/279), while also improving how we deal with `main` arguments when launcing with `deps.edn` aliases.
-* **IN PROGRESS**: [Support for launcing with user alieses/profiles](https://github.com/BetterThanTomorrow/calva/pull/289). A test build with this feature is out and it is probably going to be release within a few days.
+* **RELEASED**: [Reworked how Calva deals with figuring out the current project root](https://github.com/BetterThanTomorrow/calva/pull/275). This used to be a setting in the workspace, but now it is determined based on the file in the active editor. This change also made it easier to use multi-project workspaces (Mainly because of supporting custom settings per project in the workspace).
+* **RELEASED**: [Support launching with Leiningen aliases](https://github.com/BetterThanTomorrow/calva/pull/279), while also improving how we deal with `main` arguments when launching with `deps.edn` aliases.
+* **IN PROGRESS**: [Support for launching with user aliases/profiles](https://github.com/BetterThanTomorrow/calva/pull/289). A test build with this feature is out and it is probably going to be release within a few days.
 * **IN PROGRESS**: Support of custom Jack-in and connect sequences. This is taking the recently added _Custom CLJS REPL_ feature several steps further. It is done in a [documentation first](https://github.com/BetterThanTomorrow/calva/issues/282) manner. This also cleans up a lot of all too complicated code as we are redefining the built-in connect sequences using the same configuration mechanism as the custom ones.
-* **IN PROGRESS**: [Custom workflow CLojure commands](https://github.com/BetterThanTomorrow/calva/issues/281). This is a feature insspired from Cursive that has been worked with on and off for quite a while. Right now it is more *on* and it might be released before August ends.
+* **IN PROGRESS**: [Custom workflow Clojure commands](https://github.com/BetterThanTomorrow/calva/issues/281). This is a feature inspired from Cursive that has been worked with on and off for quite a while. Right now it is more *on* and it might be released before August ends.
 
 #### Refactoring tooling
 We've investigated our options for adding refactoring tools.
@@ -116,7 +116,7 @@ We've investigated our options for adding refactoring tools.
 
 ## August 15 - 31
 
-Theme: _Project Maintanbility - through ease of use_
+Theme: _Project Maintainability - through ease of use_
 
 #### Jack-in and Connect Sequences
 
@@ -124,7 +124,7 @@ We want to try help contribute to the community such that fewer Clojure and Cloj
 
 We are adding something we call Connect Sequences, more on that below. When this is released we will be able to say we enabled the following:
 
-* Support for configuring custom connect seqences. These can be:
+* Support for configuring custom connect sequences. These can be:
   * Clojure only, supporting [Leiningen](https://leiningen.org/), [Clojure CLI](https://clojure.org/reference/deps_and_cli), and [shadow-cljs](http://shadow-cljs.org).
   * Clojure + ClojureScript, supporting [Figwheel Main](https://figwheel.org/), shadow-cljs, Nashorn, [lein-figwheel](https://github.com/bhauman/lein-figwheel), and fully customized cljs repl types.
 * Much improved custom cljs repl configuration.
@@ -133,7 +133,7 @@ We are adding something we call Connect Sequences, more on that below. When this
 * A feature to add custom Clojure code to be evaluated when the Clojure repl has been attached. Maybe your project needs to start a web server before attempting to start a web client and connect a ClojureScript repl?
 * All built in ClojureScript repls are written using the custom repl type configuration. (This is a huge win when it comes to maintainability.)
 * Nashorn added as a built in ClojureScript repl type.
-* [Support for launching with user alieses/profiles](https://github.com/BetterThanTomorrow/calva/pull/289)
+* [Support for launching with user aliases/profiles](https://github.com/BetterThanTomorrow/calva/pull/289)
 
 Except for the last one, this all works in development, and we are cleaning up the code and considering to add this additional feature, before release:
 
@@ -148,7 +148,7 @@ Other than jack-in, time has been spent mostly in support and general talking to
 * **RELEASED** Use top level form context when collecting code completion candidates_.
 * **DONE** Insourced the REPL Window (npm) repository into the Calva code base. Since Calva is the only project using it. This might be extracted again if someone turns up willing to maintain it as a project of its own.
 * **DONE** Refactored the updated completion context some, to make the code easier to understand.
-* **IN PROGRESS**: [Support for launching with user alieses/profiles](https://github.com/BetterThanTomorrow/calva/pull/289). Test results in and it seems to be a useful implementation. However, we are now moving this configuration into the new Jack-in and connect sequences feature. (See above.)
+* **IN PROGRESS**: [Support for launching with user aliases/profiles](https://github.com/BetterThanTomorrow/calva/pull/289). Test results in and it seems to be a useful implementation. However, we are now moving this configuration into the new Jack-in and connect sequences feature. (See above.)
 
 ## CIDER
 

@@ -25,7 +25,7 @@ results was higher than any measurable difference between Ring
 versions.
 
 I've also been reconsidering some of the ideas around adding request
-and response protocols to Ring as a way of supplimenting map key
+and response protocols to Ring as a way of supplementing map key
 access. Initially I considered them out of scope, as they're a
 performance enhancement, however they could also be used as a
 compatibility mechanism for middleware that supports both Ring 1 and 2

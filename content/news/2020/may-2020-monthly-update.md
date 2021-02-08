@@ -186,7 +186,7 @@ large so stay tuned, there are more changes to come.
 
 **May 1-15**
 
-Unfortunately illness caught up with me towards the end of this period, but otherwise I have been busy with the weeekly broadcasts and improvements to the Practicalli Clojure book, updating the install guides to Clojure CLI tools and repl driven development sections.
+Unfortunately illness caught up with me towards the end of this period, but otherwise I have been busy with the weekly broadcasts and improvements to the Practicalli Clojure book, updating the install guides to Clojure CLI tools and repl driven development sections.
 
 ##### Practicalli Study Group
 The weekly live broadcasts continue, finalizing the data science series and starting a new series on `clojure.spec`
@@ -235,7 +235,7 @@ Continuing the weekly broadcasts on Clojure spec, a topic that will be added to 
 
 Added GitHub issues / PR shields for each book on the website to make tracking and contributing more convenient.
 
-Pages on how to use Magit forge to list and create issues and pull requests as well as fork repositories on GitHib, all from within Spacemacs (Emacs).
+Pages on how to use Magit forge to list and create issues and pull requests as well as fork repositories on GitHub, all from within Spacemacs (Emacs).
 
 
 ##### Practicalli Website

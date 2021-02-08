@@ -29,7 +29,7 @@ We recently [surveyed](/news/q3-2018-survey-results/) our members to see what th
 - A patch was landed ([CLJS-2769](https://dev.clojure.org/jira/browse/CLJS-2769)) which it possible to run the self-hosts tests with the very latest Google Closure Library code.
 - A corner case surrounding `:install-deps` and `cljs.main`, when using `-e` to evaluate code ([CLJS-2775](https://dev.clojure.org/jira/browse/CLJS-2775)) was fixed.
 - Work was started on a patch to enable `*warn-on-reflection*` in the compiler's codebase ([CLJS-2748](https://dev.clojure.org/jira/browse/CLJS-2748)).
-- An issue that prevented async test result reporting from properly occuring with the Node REPL ([CLJS-2780](https://dev.clojure.org/jira/browse/CLJS-2780)) was fixed.
+- An issue that prevented async test result reporting from properly occurring with the Node REPL ([CLJS-2780](https://dev.clojure.org/jira/browse/CLJS-2780)) was fixed.
 
 All of the work to date, apart from the last two items, was shipped in the ClojureScript 1.10.312 release.
 

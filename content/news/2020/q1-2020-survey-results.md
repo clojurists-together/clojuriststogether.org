@@ -34,7 +34,7 @@ If you work on any of these kinds of projects, please look at applying for fundi
 ### Are there any particular libraries, tools, or projects that are important to you that you would like to see supported?
 
 - ClojureScript compiler
-- CIDER + orchard ecoystem
+- CIDER + orchard ecosystem
 - Reitit
 - clj-kondo
 - re-frame
@@ -50,7 +50,7 @@ If you're a maintainer of any of these projects, please consider applying.
 A sampling of comments:
 
 - Yes, Shadow is great!
-- shadow-cljs has seen great improvements and the documentation is pretty great nowdays!
+- shadow-cljs has seen great improvements and the documentation is pretty great nowadays!
 - I haven't been getting direct benefits.
 - Using Cider and clj-http and many other projects with added reliability :)
 - Yes, Calva is starting to look very promising!

@@ -22,7 +22,7 @@ Released version 2.8.69
 
 I spent the last few weeks implementing the first version of a new "Inspect" feature. It was inspired by REBL, fulcro-inspect and re-frame-10x. My first goal with this is to bring the `console.log` experience from the Browser to all other JS platforms and Clojure itself. `console.log` in the Browser is great because it is basically a `prn` on steroids. Instead of getting one large blob of text you get a structured output you can easily inspect visually. It is however limited in the Browser, basically abusing the built-in Browser devtools. "Inspect" runs in an independent UI (currently the shadow-cljs Web UI) and can be used to inspect any supported runtime. These include react-native, node and Clojure which previously had a rather basic `prn` experience.
 
-This combines a generic remote Data Viewer along with support for `tap>` in the runtime to "expose" new values to the UI. Later versions of "Inspect" will also include direct REPL intergration and some other features found in similar tools.
+This combines a generic remote Data Viewer along with support for `tap>` in the runtime to "expose" new values to the UI. Later versions of "Inspect" will also include direct REPL integration and some other features found in similar tools.
 
 I'm very excited about this feature and it is just getting started. I wrote a bit more about it [here](https://clojureverse.org/t/introducing-shadow-cljs-inspect/5012). This is all still undergoing a lot of changes but has become part of my normal workflow already. I hope others will find it useful as well.
 
@@ -41,7 +41,7 @@ I'm very excited about this feature and it is just getting started. I wrote a bi
 
 ## UX
 
-Some users had intermittenly reported problems with `defsyntax` and its use of `clojure.spec.alpha/conform`. After some digging around I discovered the problem was due to a patch to the core specs library which changed the names of some of the keys thus breaking the use of conform in `defsyntax`. To fix the problem, `defsyntax` now has its own specs and no longer relies on `clojure.core.specs.alpha`.
+Some users had intermittently reported problems with `defsyntax` and its use of `clojure.spec.alpha/conform`. After some digging around I discovered the problem was due to a patch to the core specs library which changed the names of some of the keys thus breaking the use of conform in `defsyntax`. To fix the problem, `defsyntax` now has its own specs and no longer relies on `clojure.core.specs.alpha`.
 
 In other areas corrections to or movement of specs were made to improve the quality of life for users using spec instrumentation.
 
@@ -112,7 +112,7 @@ Also, with help from Michiel Borkent, aka [@borkdude](https://github.com/borkdud
 
 ### Changes
 
-- Add setting for wether to open REPL Window on connect or not
+- Add setting for whether to open REPL Window on connect or not
 - [Re-open REPL windows where they were last closed](https://github.com/BetterThanTomorrow/calva/issues/300)
 - Lexer performance considerably improved. Fixes [this](https://github.com/BetterThanTomorrow/calva/issues/228) and [this](https://github.com/BetterThanTomorrow/calva/issues/128))
 - [REPL colours and logo a bit toned down](https://github.com/BetterThanTomorrow/calva/issues/303)

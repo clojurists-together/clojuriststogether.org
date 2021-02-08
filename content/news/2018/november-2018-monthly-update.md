@@ -31,7 +31,7 @@ I spent most of November working on docstrings and long-overdue PRs and issues. 
 
 #### 0.16.8
 
-- Extenstive docstrings for most core functions, published at https://cljdoc.org/d/datascript/datascript
+- Extensive docstrings for most core functions, published at https://cljdoc.org/d/datascript/datascript
 
 #### 0.16.9
 

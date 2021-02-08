@@ -27,8 +27,8 @@ To  work  on  developing  the  shadow-cljs  build  tool.  It  covers  the  entir
 
 - Started reworking the shadow-cljs [standalone launcher](https://clojureverse.org/t/poll-reworking-the-launcher/2633) which is responsible for downloading dependencies and launching the actual tool. Intent here is to gain access to git-deps and dynamically loading dependencies without requiring a hard restart.
 - Started publishing AOT compiled shadow-cljs versions which can significantly [improve start-up times](https://clojureverse.org/t/faster-startup-via-aot/2603). Used by default when using the standalone launcher.
-- Massivly increased performance of Source Maps handling. The raw data was way too costly to serialize to disk and would often take longer than actual compilation. Instead now only the compacted VLQ encoded data is stored. Cache reads/writes are significantly faster, eg. `cljs.core` used to take 2.5s to write the cache and now `~250ms`.
-- Increased parallel compilation speeds by splitting analysis and "compilation" (ie. converting AST to JS code) into two different phases. Parallel compilation used to wait for both but now only waits for analysis since thats all thats required.
+- Massively increased performance of Source Maps handling. The raw data was way too costly to serialize to disk and would often take longer than actual compilation. Instead now only the compacted VLQ encoded data is stored. Cache reads/writes are significantly faster, eg. `cljs.core` used to take 2.5s to write the cache and now `~250ms`.
+- Increased parallel compilation speeds by splitting analysis and "compilation" (ie. converting AST to JS code) into two different phases. Parallel compilation used to wait for both but now only waits for analysis since that's all that's required.
 
 #### UI Work
 

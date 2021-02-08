@@ -2,7 +2,7 @@
 title: "November 2020 Monthly Update"
 date: 2020-12-03T09:58:00+08:00
 author: Alyssa Parado
-summary: Read more updates from Malli, Practicallli, Clj-kondo/babashka/sci, and Datahike
+summary: Read more updates from Malli, Practicalli, Clj-kondo/babashka/sci, and Datahike
 ---
 
 Welcome to the final (half) month of updates from our Q3 projects. Our [Q4 projects](/news/q4-2020-funding-announcement/) have started this month and will continue through to February.
@@ -29,12 +29,12 @@ Welcome to the final (half) month of updates from our Q3 projects. Our [Q4 proje
 #### Misc
 
 * the three months is over! started bit late, so will continue to work to get the Ongoing (more) done. 
-Already happy with the results, the main goal was to ship the lib. Coudn't have done that without Clojurists Together funding.
+Already happy with the results, the main goal was to ship the lib. Couldn't have done that without Clojurists Together funding.
 
 
 
 
-# Practicallli
+# Practicalli
 
 ### **November 1-15**
 
@@ -176,4 +176,4 @@ We started working on a [remote client](https://github.com/replikativ/datahike-c
 
 The ClojureScript port is moving forward focussing on the transactor and query engine.
 
-The [upsert feature](https://github.com/replikativ/datahike/pull/201) had to be adjusted and is now benchmarked in order to see which functions take most of the perfomance.
+The [upsert feature](https://github.com/replikativ/datahike/pull/201) had to be adjusted and is now benchmarked in order to see which functions take most of the performance.

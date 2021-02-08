@@ -85,7 +85,7 @@ easier.
 
 I also spent quite a bit of time looking into some advanced
 compilation problems that occur when you are switching from Cljsjs
-based probject to an NPM `:bundle` based project. This lead me to
+based project to an NPM `:bundle` based project. This lead me to
 finally implement a `--clean` command which makes it easier to clean
 your compiled artifacts out of your project.
 
@@ -96,7 +96,7 @@ beginning.
 
 How did we get here? I switched to Jetty thinking that it would be
 better to use the most common server used for Clojure development
-(`ring-jetty-adapter`) and elimininate some bloat while making things
+(`ring-jetty-adapter`) and eliminate some bloat while making things
 like configuring HTTPS easier. I didn't realize that switching to
 Jetty would cause so many headaches for folks.
 
@@ -116,7 +116,7 @@ Jetty dependency in Ring. The main problem is a UX problem because
 when a conflict occurs the errors are about missing classes or methods
 deep in Jetty leaving the user with little to go on.
 
-I spent time looking at the server code and considering wether I
+I spent time looking at the server code and considering whether I
 should get rid of the Jetty websocket packages and just use the HTTP
 long-polling already in ring for the connection, or perhaps making the
 websocket connection conditional on having an additional
@@ -128,13 +128,13 @@ going to include websocket support. So I decided to just punt on this
 until then and see if that improves things.
 
 As it stands right now, I've updated to the latest Ring which has a
-fairly recent version of Jetty and this should reduce colissions for
+fairly recent version of Jetty and this should reduce collisions for
 the time being.
 
 #### HTTPS support
 
 The look at the Jetty conflict problem drew me to consider the
-neccesity of using websockets, and considering if http long polling
+necessity of using websockets, and considering if http long polling
 could work.
 
 The figwheel-main long polling support works really well, but it
@@ -273,7 +273,7 @@ Adding content and videos to the [Introducing Spec section](http://practicalli.g
 
 Spec is introduced by showing how it can be used in the REPL and added to project, with the leveraging-spec project containing many different examples.
 
-Divided the Spec section into Spec data, that covers how the use of predicates, literals and custom functions as specifications along with the core functions to verify data agains specs (conform, valid?, explain).
+Divided the Spec section into Spec data, that covers how the use of predicates, literals and custom functions as specifications along with the core functions to verify data against specs (conform, valid?, explain).
 
 Expanded on Getting Started section, converting to Clojure CLI and tools.deps. Examples on using Clojure CLI tools to evaluate functions, load files and run applications.
 
@@ -281,12 +281,12 @@ Added details on configuring tools.deps and how to define and use multiple alias
 
 Added section rebel readline for a feature rich command line REPL, including install, customisation and major features.
 
-[Configuring a REPL on starutup for deps.edn projects](https://practicalli.github.io/clojure/repl-driven-development/configure-repl-startup.html), examples of using `dev/user.clj` to require namespaces, call functions and manage component lifecycle services (mount, component, integrant, etc.).
+[Configuring a REPL on startup for deps.edn projects](https://practicalli.github.io/clojure/repl-driven-development/configure-repl-startup.html), examples of using `dev/user.clj` to require namespaces, call functions and manage component lifecycle services (mount, component, integrant, etc.).
 
 
 #### Clojure deps.edn updates
 - Using REBL from Emacs CIDER using nREBL middleware, alias and configuration
-- Add example of a local Artifatory instance for a repository provider
+- Add example of a local Artifactory instance for a repository provider
 - `:dev` alias - used to configure the Clojure repl automatically on startup by evaluating the content of `dev/user.clj`
 - Update of dependency versions in the `deps.edn` file with depot
 - Update unit testing aliases, add separate expectation aliases.
@@ -312,9 +312,9 @@ Broadcast on unit testing and test runners, focusing on Cognitect Labs test runn
 
 
 #### Practicalli Clojure
-Updated and extended the Getting Started section, using rebel readline for the command line REPL UI.  Added sections on configuriong Clojure CLI and provided a wide range of community tools and other useful aliases.
+Updated and extended the Getting Started section, using rebel readline for the command line REPL UI.  Added sections on configuring Clojure CLI and provided a wide range of community tools and other useful aliases.
 
-Wrote a new section on Clojure Spec and generative testing, covering how to design specifications (composite vs hierachical).  Also discussed organising specifications and how they fit into a project and along side Test Driven Development (TDD) and REPL drive development (RDD).
+Wrote a new section on Clojure Spec and generative testing, covering how to design specifications (composite vs hierarchical).  Also discussed organising specifications and how they fit into a project and along side Test Driven Development (TDD) and REPL drive development (RDD).
 
 Wrote section on Regular Expressions in Clojure.  Added regular expressions for common string patterns, such as passwords, email addresses, etc.
 
@@ -354,7 +354,7 @@ Refactor applications menu key bindings to create more room for key bindings and
 
 **June 1-30**
 
-As we had been working almost full-time on re-frame over the prior period we took a break from re-frame over this period and expect to resume work on re-frame's meatier enchancement proposals in July.
+As we had been working almost full-time on re-frame over the prior period we took a break from re-frame over this period and expect to resume work on re-frame's meatier enhancement proposals in July.
 
 
 
