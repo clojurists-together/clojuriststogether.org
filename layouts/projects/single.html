@@ -1,0 +1,47 @@
+{{ define "main" }}
+<h1 class="page-title">
+    {{ .Title }}
+</h1>
+
+<!-- <p></p>Since 2018, we've funded these projects: {{ range $.Site.Data.projects }} {{ .name }}, {{end}} </p> -->
+
+
+<!-- <code>{{ printf "%#v" $.Site.Data.projects }}</code> -->
+
+
+{{ .Content }}
+
+
+<h2>Currently Funded Projects</h2>
+
+{{ range where $.Site.Data.projects "current" true }}
+{{ partial "project" .}}
+{{end}}
+
+
+<h2>Previously Funded Projects</h2>
+
+<!-- group by round: https://www.feliciano.tech/blog/groupby-for-data-files-in-hugo/ -->
+
+{{ $rounds := slice }}
+{{ range where $.Site.Data.projects "current" false }}
+{{ $rounds = $rounds | append .round }}
+{{ end }}
+
+{{ $rounds = uniq $rounds }}
+
+<!-- <code> {{ printf "%#v" $rounds }}</code> -->
+
+{{ range $rounds }}
+
+{{ $round := . }}
+<h2>{{ $round }}</h2>
+{{ range (where (where $.Site.Data.projects "current" false) "round" $round) }}
+{{ partial "project" .}}
+{{end}}
+
+{{ end }}
+
+
+
+{{ end }}
