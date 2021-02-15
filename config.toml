@@ -9,3 +9,6 @@ unsafe= true
 
 [permalinks]
 news = "/news/:slug/"
+
+[social]
+twitter = "cljtogether"
