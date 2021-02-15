@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width,minimum-scale=1">
   {{ hugo.Generator }}
   {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
-  {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+  {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
   <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
   {{ else }}
   <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -26,7 +26,7 @@
 
   <!-- Internal templates would turn the card into a summary with large image if we specified the logo
     in the site params, so we set it here instead. -->
-  <meta name="twitter:image" content="{{ ($.Site.BaseURL) }}logos/ct-logo-cropped.png" />
+  <meta name="twitter:image" content="{{ ($.Site.BaseURL) }}/logos/ct-logo-cropped.png" />
 
   {{/* NOTE: These Hugo Internal Templates can be found starting at
   https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L158 */}}
