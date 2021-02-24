@@ -7,11 +7,11 @@ type: page
 
 ## Are my payments tax deductible?
 
-Clojurists Together is a trade organisation that charges membership dues to companies and individuals. Whether your dues are deductible depends on whether you are a company or individual, and your local tax rules. Due to the complexities of tax law in all of the countries where our members are located, we aren't able to provide tax advice to our members.
+Clojurists Together is a U.S. 501(c)6 trade organisation that charges membership dues to companies and individuals. Whether your dues are deductible depends on whether you are a company or individual, and your local tax rules. Due to the complexities of tax law in all of the countries where our members are located, we aren't able to provide tax advice to our members.
 
 <!-- However, what we have seen in the US is that companies with a business interest in the trade association's activities can treat membership dues like any other business expense. Generally speaking, the same rules apply to non-US businesses.
 
-> Contributions to section 501(c)(6) organizations are not deductible as charitable contributions on the donor’s federal income tax return. They may be deductible as trade or business expenses if ordi­nary and necessary in the conduct of the taxpayer’s business. - [IRS Tax treatment of donations - 501(c)(6) organizations](https://www.irs.gov/charities-non-profits/other-non-profits/tax-treatment-of-donations-501c6-organizations)
+> Contributions to section 501(c)(6) organizations are not deductible as charitable contributions on the donor’s federal income tax return. They may be deductible as trade or business expenses if ordinary and necessary in the conduct of the taxpayer’s business. - [IRS Tax treatment of donations - 501(c)(6) organizations](https://www.irs.gov/charities-non-profits/other-non-profits/tax-treatment-of-donations-501c6-organizations)
 
 For individuals, the situation depends much more on your exact corporate structure (self-employed vs. employed), and your local tax rules. In all cases, please talk to your tax professional to determine your individual situation. If you have any questions, please [get in touch](/contact) or talk to your accountant. -->
 
@@ -59,7 +59,7 @@ Yes, get in [contact](/contact) and we can setup a one-time payment.
 
 ## What is the history of Clojurists Together?
 
-Clojurists Together (via Clojars) was originally formed as a member project of the <a href="https://sfconservancy.org">Software Freedom Conservancy</a>. In early 2020, Clojurists Together left Conservancy to form the Clojurists Together Foundation, a US corporation. Our mission is the same, but forming our own organisation has freed up our admin resources so that we can focus on fundraising, marketing, and funding new and different projects.
+Clojurists Together (via Clojars) was originally formed as a member project of the <a href="https://sfconservancy.org">Software Freedom Conservancy</a>. In early 2020, Clojurists Together left Conservancy to form the Clojurists Together Foundation, a 501(c)6 trade organisation. Our mission is the same, but forming our own organisation has freed up our admin resources so that we can focus on fundraising, marketing, and funding new and different projects.
 
 ## I don't have a credit card, do you have other payment options?
 
