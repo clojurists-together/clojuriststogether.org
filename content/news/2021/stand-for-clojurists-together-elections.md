@@ -13,7 +13,7 @@ Clojurists Together is having our first board elections [since we formed](/news/
 * Board nominations close: March 31st, 2021
 * Voting opens: a few days after submissions close and the board has nominated candidates
 * Voting closes: April 28th, 2021
-* Annual members meeting: 11am Pacific time, April 30th, 2021
+* Annual members meeting: 11am Pacific time, April 29th, 2021
 
 As part of our commitment to [transparency](/transparency/) and community governance, Clojurists Together holds elections for board members. The Committee is responsible for governing the projects, selecting which projects are sponsored, administering the projects, and interacting with sponsors.
 
