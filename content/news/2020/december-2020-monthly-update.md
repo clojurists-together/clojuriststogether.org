@@ -1,12 +1,11 @@
 ---
 title: "December 2020 Monthly Update"
-date: 2021-01-05T08:30:00+08:00
+date: 2021-03-01T08:30:00+08:00
 author: Alyssa Parado
 summary: Read more updates from Clj-kondo/babashka/sci, ClojisR, O’Doyle Rules, and Calva
-draft: true
 ---
 
-Happy New Year everyone! Here are the updates from our [new projects](https://www.clojuriststogether.org/news/q4-2020-funding-announcement).
+Happy (belated) New Year everyone! Here are the updates from our [new projects](https://www.clojuriststogether.org/news/q4-2020-funding-announcement).
 
 
 # Clj-kondo/babashka/sci
@@ -209,7 +208,3 @@ Peter Strömberg and myself have been quite active lately, and Eric Dallo has be
 - [Remove default key binding for toggling Calva key bindings](https://github.com/BetterThanTomorrow/calva/issues/815)
 - [Make load-file available in the output window](https://github.com/BetterThanTomorrow/calva/issues/904)
 - [Make the ns in the repl prompt a peekable symbol](https://github.com/BetterThanTomorrow/calva/issues/904)
-
-
-
-
