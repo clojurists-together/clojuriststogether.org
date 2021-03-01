@@ -8,7 +8,7 @@ summary: "Clojurists Together has held our first election for people to serve on
 
 Clojurists Together has held our first election for people to serve on the committee. The members of Clojurists Together have elected Nola Stowe, Fumiko Hanreich, and Laurens Van Houtven.
 
-The full election results are available on the [civs voting service](https://civs.cs.cornell.edu/cgi-bin/results.pl?num_winners=3&id=E_fa794181357a98c8&algorithm=runoff). Laurens Van Houtven and Vijay Kiran were in a dead heat for third place, so we held a [runoff](https://www.random.org/draws/details/?draw=80561) with random.org, as we said we would in our [announcement](/news/2018-committee-candidate-announcement/).
+The full election results are available on the [civs voting service](https://civs.cs.cornell.edu/cgi-bin/results.pl?num_winners=3&id=E_fa794181357a98c8&algorithm=runoff). Laurens Van Houtven and Vijay Kiran were in a dead heat for third place, so we held a [runoff](https://www.random.org/draws/details/?draw=80561) with random.org, as we said we would in our [announcement](/news/2018-committee-election-candidates/).
 
 We had 76 votes cast of 193 eligible voters, a turnout rate of 39%. Thanks to everyone who voted.
 
