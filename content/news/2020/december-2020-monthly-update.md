@@ -1,6 +1,6 @@
 ---
 title: "December 2020 Monthly Update"
-date: 2021-03-01T08:30:00+08:00
+date: 2021-02-28T08:30:00+08:00
 author: Alyssa Parado
 summary: Read more updates from Clj-kondo/babashka/sci, ClojisR, O’Doyle Rules, and Calva
 ---

@@ -1,6 +1,6 @@
 ---
 title: "January 2021 Monthly Update"
-date: 2021-03-01T08:40:00+08:00
+date: 2021-02-28T08:40:00+08:00
 author: Alyssa Parado
 summary: Read more updates from Clj-kondo/babashka/sci, ClojisR, O’Doyle Rules, and Calva
 ---
