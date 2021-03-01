@@ -1,11 +1,11 @@
 ---
 title: "January 2021 Monthly Update"
-date: 2021-02-01T08:30:00+08:00
+date: 2021-03-01T08:40:00+08:00
 author: Alyssa Parado
 summary: Read more updates from Clj-kondo/babashka/sci, ClojisR, O’Doyle Rules, and Calva
-draft: true
 ---
 
+Here's the latest updates from the projects in January. This was the first month for ClojisR.
 
 # Clj-kondo/babashka/sci
 
@@ -125,7 +125,7 @@ I ended up deleting a few hundred lines of fresh code -- no need to complicate t
 
 ### **January 1-15**
 
-I've done some work in both Calva and Clojure-lsp. 
+I've done some work in both Calva and Clojure-lsp.
 
 ## Calva Work
 
@@ -276,6 +276,3 @@ Currently, our main focus is to help different Clojure data science libraries to
 ## Upcoming tasks:
 * Implement the relevant sections of R4DS using ClojisR.
 * Figure out how to bring some of R's main ideas of working with vectors to Clojure by creating better ergonomics for array programming.
-
-
-
