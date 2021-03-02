@@ -521,7 +521,7 @@
     "founding" : false
   }, {
     "name" : "Andrew Monks",
-    "level" : "developer",
+    "level" : "contributing",
     "founding" : false
   }, {
     "name" : "John Newman",
@@ -1269,6 +1269,10 @@
     "founding" : false
   }, {
     "name" : "Pittendrigh",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Miller",
     "level" : "contributing",
     "founding" : false
   } ]
