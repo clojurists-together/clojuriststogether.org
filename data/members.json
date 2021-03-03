@@ -272,10 +272,6 @@
     "level" : "contributing",
     "founding" : true
   }, {
-    "name" : "Reid McKenzie",
-    "level" : "developer",
-    "founding" : true
-  }, {
     "name" : "Médéric Hurier",
     "level" : "contributing",
     "founding" : true
@@ -377,10 +373,6 @@
     "founding" : true
   }, {
     "name" : "Didier Arslanian",
-    "level" : "contributing",
-    "founding" : true
-  }, {
-    "name" : "Michiel Borkent",
     "level" : "contributing",
     "founding" : true
   }, {
@@ -1008,7 +1000,7 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Oskar Lissheim",
+    "name" : "Oskar Boethius Lissheim",
     "level" : "contributing",
     "founding" : false
   }, {
