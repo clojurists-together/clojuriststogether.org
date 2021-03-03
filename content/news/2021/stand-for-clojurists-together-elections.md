@@ -1,19 +1,20 @@
 ---
 title: "Clojurists Together board nominations and annual members meeting"
-date: 2021-03-01T08:40:00+13:00
+date: 2021-03-03T07:00:00+13:00
 author: Daniel Compton
 summary: Stand for the upcoming Clojurists Together board elections
-draft: true
 ---
 
 Clojurists Together is having our first board elections [since we formed](/news/2020/announcing-clojurists-together-foundation) a standalone 501(c)6 organisation, and our first annual members meeting.
 
-**Key dates**
+### Key dates
 
 * Board nominations close: March 31st, 2021
 * Voting opens: a few days after submissions close and the board has nominated candidates
 * Voting closes: April 28th, 2021
 * Annual members meeting: 11am Pacific time, April 29th, 2021
+
+### Board Elections
 
 As part of our commitment to [transparency](/transparency/) and community governance, Clojurists Together holds elections for board members. The Committee is responsible for governing the projects, selecting which projects are sponsored, administering the projects, and interacting with sponsors.
 
@@ -38,5 +39,9 @@ These responsibilities take roughly one hour/month, though there are peaks and t
 Our bylaws requires that we do not have more than two committee members from any one company. More than two people from a company can stand for election, but if more than two of these people were to be elected, only the top two ranked candidates would be elected and the other seats would go to the next most highly ranked candidates from other companies. If you have any questions about this, please get in touch.
 
 Elections will be held once the candidates are announced, and all Clojurists Together members will be eligible to vote.
+
+### Annual Members Meeting
+
+
 
 Please share this with anyone you think would be able to represent the interests of the Clojure community and Clojurists Together members. Thanks for your support of Clojurists Together, we appreciate it!
