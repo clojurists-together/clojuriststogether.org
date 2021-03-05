@@ -1267,5 +1267,9 @@
     "name" : "Miller",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Heather Moore-Farley",
+    "level" : "developer",
+    "founding" : false
   } ]
 }
