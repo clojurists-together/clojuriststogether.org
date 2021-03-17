@@ -376,6 +376,10 @@
     "level" : "contributing",
     "founding" : true
   }, {
+    "name" : "Michiel Borkent",
+    "level" : "contributing",
+    "founding" : true
+  }, {
     "name" : "Andrew Dixon",
     "level" : "contributing",
     "founding" : true
@@ -385,10 +389,6 @@
     "founding" : true
   }, {
     "name" : "Robert Medeiros",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Dennis Schridde",
     "level" : "contributing",
     "founding" : false
   }, {
@@ -658,10 +658,6 @@
   }, {
     "name" : "Michael Glaesemann",
     "level" : "developer",
-    "founding" : false
-  }, {
-    "name" : "Vincent Heuken",
-    "level" : "contributing",
     "founding" : false
   }, {
     "name" : "Christopher Brown",
