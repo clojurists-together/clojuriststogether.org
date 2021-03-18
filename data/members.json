@@ -336,19 +336,11 @@
     "level" : "contributing",
     "founding" : true
   }, {
-    "name" : "Nick Cernis",
-    "level" : "contributing",
-    "founding" : true
-  }, {
     "name" : "Jelle",
     "level" : "contributing",
     "founding" : true
   }, {
     "name" : "Alex Dixon",
-    "level" : "contributing",
-    "founding" : true
-  }, {
-    "name" : "Arnaud Bos",
     "level" : "contributing",
     "founding" : true
   }, {
@@ -544,10 +536,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Constant Manteau",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Christian Johansen",
     "level" : "contributing",
     "founding" : false
@@ -604,10 +592,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Antony Woods",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Alexander ter Weele",
     "level" : "developer",
     "founding" : false
@@ -658,10 +642,6 @@
   }, {
     "name" : "Michael Glaesemann",
     "level" : "developer",
-    "founding" : false
-  }, {
-    "name" : "Christopher Brown",
-    "level" : "contributing",
     "founding" : false
   }, {
     "name" : "Alain Lafon",
@@ -737,10 +717,6 @@
     "founding" : false
   }, {
     "name" : "Radu Matasaru",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Chen Yong",
     "level" : "contributing",
     "founding" : false
   }, {
