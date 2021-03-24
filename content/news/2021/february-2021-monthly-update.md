@@ -3,7 +3,6 @@ title: "February 2021 Monthly Update"
 date: 2021-03-05T09:30:00+08:00
 author: Alyssa Parado
 summary: Read more updates from Clj-kondo/babashka/sci, ClojisR, O’Doyle Rules, and Calva
-draft: true
 ---
 
 Here's the final updates from the projects in February. This is the 2nd month of ClojisR. They will have their final update next month.
@@ -234,7 +233,7 @@ Currently, our main focus is to help different Clojure data science libraries to
 ## Completed tasks:
 * [ClojisR Docker template + documentation](https://github.com/ashimapanjwani/clojisr-template): Created a template containing a Dockerfile with all the ClojisR dependencies + user-guide. This will enable users to quickly get started with using the library without worrying about the environment setup. (Inspired by Carsten Behring's [Template for creating Clojure DS projects with  R + Python](https://cljdoc.org/d/clj-py-r-template/clj-template/1.1.0/doc/readme))
 * Performed testing on the [ClojisR](https://github.com/scicloj/clojisr) library and conveyed the issues discovered to the main authors. These discussions helped fix a few problems in the library.
-  
+
 ## Ongoing tasks:
 * [Tablecloth: Cloning functionality](https://github.com/scicloj/tablecloth/pull/22): Implementing cloning by default for all instances of reader in Tablecloth. This is a part of our effort to create better ergonomics for array programming in Clojure.
 * Adapting the Tablecloth API so that more functions will have options map for future configurability, while respecting backward compatibility.
@@ -269,9 +268,3 @@ Currently, our main focus is to help different Clojure data science libraries to
 * Implement the [data wrangling](https://r4ds.had.co.nz/wrangle-intro.html) section of R4DS using ClojisR.
 * Open github issues for any problems encountered during the above translation, discuss with the library maintainers, and try to come up with fixes.
 * Continue our effort to create better ergonomics for array programming in Clojure.
-
-
-
-
-
-
