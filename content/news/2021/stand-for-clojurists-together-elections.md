@@ -11,7 +11,7 @@ Clojurists Together is having our first board elections [since we formed](/news/
 
 * Board nominations close: March 31st, 2021
 * Voting opens: a few days after submissions close and the board has nominated candidates
-* Voting closes: April 28th, 2021
+* Voting closes: April 25th, 2021
 * Annual members meeting: [9am Pacific time, April 29th, 2021](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Clojurists+Together+annual+members+meeting&iso=20210429T16&p1=%3A&ah=1)
 
 ### Board Elections
@@ -42,6 +42,8 @@ Elections will be held once the candidates are announced, and all Clojurists Tog
 
 ### Annual Members Meeting
 
+We are also holding our first ever members meeting at [9am Pacific time, April 29th, 2021](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Clojurists+Together+annual+members+meeting&iso=20210429T16&p1=%3A&ah=1). This will be an opportunity for Clojurists Together to talk about how things have been going, share information on our future plans, present the new board members, and most importantly take questions from members.
 
+More details on this will follow including a videoconferencing link.
 
 Please share this with anyone you think would be able to represent the interests of the Clojure community and Clojurists Together members. Thanks for your support of Clojurists Together, we appreciate it!
