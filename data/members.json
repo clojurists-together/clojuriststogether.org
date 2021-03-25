@@ -248,6 +248,12 @@
     "level" : "cons",
     "founding" : false
   }, {
+    "name" : "Edgewood Software Corp.",
+    "url" : "https://edgewoodsoftwarecorp.s3.us-east-2.amazonaws.com/CoalesceIntroduction.mp4",
+    "logo" : null,
+    "level" : "assoc",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "level" : "contributing",
     "founding" : true
@@ -497,10 +503,6 @@
     "founding" : false
   }, {
     "name" : "Rune Juhl Jacobsen",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Ryan McCuaig",
     "level" : "contributing",
     "founding" : false
   }, {
@@ -1246,6 +1248,10 @@
   }, {
     "name" : "Rangel Spasov",
     "level" : "developer",
+    "founding" : false
+  }, {
+    "name" : "Josh Lemer",
+    "level" : "contributing",
     "founding" : false
   } ]
 }
