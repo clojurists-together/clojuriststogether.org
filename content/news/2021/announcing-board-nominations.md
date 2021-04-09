@@ -5,7 +5,7 @@ author: Daniel Compton
 summary: "Clojurists Together members can now vote for the next board members."
 ---
 
-Clojurists Together is in the process of [electing new board members](news/clojurists-together-board-nominations-and-annual-members-meeting/) as half of our existing board members finish their term.
+Clojurists Together is in the process of [electing new board members](/news/clojurists-together-board-nominations-and-annual-members-meeting/) as half of our existing board members finish their term.
 
 After accepting applications for nominations, we received 16 applications from candidates. These candidates were all talented Clojurists that we would love to have on the board.
 
