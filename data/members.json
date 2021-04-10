@@ -12,12 +12,6 @@
     "level" : "assoc",
     "founding" : true
   }, {
-    "name" : "Zenius Education",
-    "url" : "http://www.zeniuseducation.com/",
-    "logo" : null,
-    "level" : "into",
-    "founding" : true
-  }, {
     "name" : "JUXT",
     "url" : "https://juxt.pro",
     "logo" : "/logos/juxt.svg",
@@ -39,12 +33,6 @@
     "founding" : true,
     "tagline" : "We create impact that lasts. Solita is a Northern European community of highly and widely skilled experts combining tech, data and human insight."
   }, {
-    "name" : "Sattvik Software & Technology Resources",
-    "url" : "http://www.deepbluelambda.org",
-    "logo" : null,
-    "level" : "assoc",
-    "founding" : false
-  }, {
     "name" : "Mastodon C",
     "url" : "https://www.mastodonc.com",
     "logo" : null,
@@ -63,18 +51,6 @@
     "level" : "cons",
     "founding" : false
   }, {
-    "name" : "Nilenso",
-    "url" : "https://nilenso.com",
-    "logo" : null,
-    "level" : "cons",
-    "founding" : false
-  }, {
-    "name" : "Functional Works",
-    "url" : "https://functional.works-hub.com/",
-    "logo" : null,
-    "level" : "assoc",
-    "founding" : false
-  }, {
     "name" : "Adgoji",
     "url" : "http://www.adgoji.com",
     "logo" : "/logos/adgoji_logo.svg",
@@ -89,20 +65,8 @@
     "founding" : false,
     "tagline" : "Pitch is building the next generation presentation software for individuals and teams."
   }, {
-    "name" : "Amperity",
-    "url" : "https://amperity.com/",
-    "logo" : null,
-    "level" : "cons",
-    "founding" : false
-  }, {
-    "name" : "Xcoo - 株式会社テンクー",
+    "name" : "Xcoo",
     "url" : "https://xcoo.jp",
-    "logo" : null,
-    "level" : "cons",
-    "founding" : false
-  }, {
-    "name" : "bevuta IT GmbH",
-    "url" : "https://www.bevuta.com/en/",
     "logo" : null,
     "level" : "cons",
     "founding" : false
@@ -153,12 +117,6 @@
   }, {
     "name" : "Docsolver",
     "url" : "https://www.docsolver.com",
-    "logo" : null,
-    "level" : "cons",
-    "founding" : false
-  }, {
-    "name" : "Cognician",
-    "url" : "https://www.cognician.com",
     "logo" : null,
     "level" : "cons",
     "founding" : false
@@ -262,10 +220,6 @@
     "level" : "contributing",
     "founding" : true
   }, {
-    "name" : "Val Waeselynck",
-    "level" : "developer",
-    "founding" : true
-  }, {
     "name" : "Juraj Martinka",
     "level" : "developer",
     "founding" : true
@@ -275,23 +229,11 @@
     "founding" : true
   }, {
     "name" : "Liam Falconer",
-    "level" : "contributing",
-    "founding" : true
-  }, {
-    "name" : "Médéric Hurier",
-    "level" : "contributing",
-    "founding" : true
-  }, {
-    "name" : "Devin Walters",
     "level" : "developer",
     "founding" : true
   }, {
     "name" : "Leon Mergen",
     "level" : "contributing",
-    "founding" : true
-  }, {
-    "name" : "Claudiu Apetrei",
-    "level" : "developer",
     "founding" : true
   }, {
     "name" : "Ikuru Kanuma",
@@ -302,19 +244,11 @@
     "level" : "contributing",
     "founding" : true
   }, {
-    "name" : "Tao Hansen",
-    "level" : "contributing",
-    "founding" : true
-  }, {
     "name" : "Boris Schmid",
     "level" : "contributing",
     "founding" : true
   }, {
     "name" : "Paulo Feodrippe",
-    "level" : "contributing",
-    "founding" : true
-  }, {
-    "name" : "Tony Wang",
     "level" : "contributing",
     "founding" : true
   }, {
@@ -334,24 +268,8 @@
     "level" : "contributing",
     "founding" : true
   }, {
-    "name" : "Alex Shulgin",
-    "level" : "contributing",
-    "founding" : true
-  }, {
-    "name" : "Yu Serizawa",
-    "level" : "contributing",
-    "founding" : true
-  }, {
     "name" : "Jelle",
     "level" : "contributing",
-    "founding" : true
-  }, {
-    "name" : "Alex Dixon",
-    "level" : "contributing",
-    "founding" : true
-  }, {
-    "name" : "Omar Rayward",
-    "level" : "developer",
     "founding" : true
   }, {
     "name" : "Avi Avicenna",
@@ -359,10 +277,6 @@
     "founding" : true
   }, {
     "name" : "Ohta Shogo",
-    "level" : "contributing",
-    "founding" : true
-  }, {
-    "name" : "Imura Jun",
     "level" : "contributing",
     "founding" : true
   }, {
@@ -378,10 +292,6 @@
     "level" : "contributing",
     "founding" : true
   }, {
-    "name" : "Andrew Dixon",
-    "level" : "contributing",
-    "founding" : true
-  }, {
     "name" : "Alex Miller",
     "level" : "contributing",
     "founding" : true
@@ -394,31 +304,11 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Jason Whitlark",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Johnny Eradus",
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "Chancy Kennedy",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Thomas Heller",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Jarrod Taylor",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Leon Talbot",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "James McElwain",
     "level" : "contributing",
     "founding" : false
   }, {
@@ -426,23 +316,7 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Stephen Lester",
-    "level" : "developer",
-    "founding" : false
-  }, {
-    "name" : "Sankara Rameswaran",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Kazunori Kajihiro",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Igor Bondarenko",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Steven Harms",
     "level" : "contributing",
     "founding" : false
   }, {
@@ -451,18 +325,6 @@
     "founding" : false
   }, {
     "name" : "Albrecht Schmidt",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Aleksander Simic",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Dmytro Morozov",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Carin Meier",
     "level" : "contributing",
     "founding" : false
   }, {
@@ -482,24 +344,8 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Popov Alexey",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Tiago Luchini",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Timothy Myrtle",
     "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Justin Tirrell",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Bahadir Cambel",
-    "level" : "developer",
     "founding" : false
   }, {
     "name" : "Rune Juhl Jacobsen",
@@ -514,19 +360,7 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "John Newman",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Nicolas Berger",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Arturas Kveslis",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "伊藤 大",
     "level" : "contributing",
     "founding" : false
   }, {
@@ -539,10 +373,6 @@
     "founding" : false
   }, {
     "name" : "Dieter Komendera",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Christian Johansen",
     "level" : "contributing",
     "founding" : false
   }, {
@@ -562,15 +392,7 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Paulus Esterhazy",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Drew Verlee",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Odin Hole Standal",
     "level" : "contributing",
     "founding" : false
   }, {
@@ -586,10 +408,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Radford Smith",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Daniil Boykis",
     "level" : "contributing",
     "founding" : false
@@ -598,39 +416,11 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Alexander ter Weele",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Andre Richards",
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Roman Stoffel",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Yiu Ming Huynh",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Christina Lewis",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Cesar Castillo Bardalez",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Fed Reggiardo",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Nikolas Göbel",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Ayron Wohletz",
     "level" : "contributing",
     "founding" : false
   }, {
@@ -642,16 +432,8 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Brandon Adams",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Michael Glaesemann",
     "level" : "developer",
-    "founding" : false
-  }, {
-    "name" : "Alain Lafon",
-    "level" : "contributing",
     "founding" : false
   }, {
     "name" : "Josef Erben",
@@ -662,28 +444,12 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Nick Jones",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Jelmer de Ronde",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Amarjeet",
     "level" : "contributing",
     "founding" : false
   }, {
     "name" : "Phillips Wolr",
     "level" : "developer",
-    "founding" : false
-  }, {
-    "name" : "Jacob Harris Cryer Kragh",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Victor F P G Arias",
-    "level" : "contributing",
     "founding" : false
   }, {
     "name" : "Arthur Boyer",
@@ -694,19 +460,7 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Kinley D. Dorji",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Yair Elder Altamirano AlbaÃ±il",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Orestis Markou",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Tom Marble",
     "level" : "contributing",
     "founding" : false
   }, {
@@ -714,15 +468,11 @@
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "Ladislav Gubik",
+    "name" : "Dima Novotochinov",
     "level" : "contributing",
     "founding" : false
   }, {
     "name" : "Vinai Kopp",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Radu Matasaru",
     "level" : "contributing",
     "founding" : false
   }, {
@@ -734,16 +484,8 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "John Schmidt-Hedenby",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Michael Alyn Miller",
     "level" : "developer",
-    "founding" : false
-  }, {
-    "name" : "Bertrand Cachet",
-    "level" : "contributing",
     "founding" : false
   }, {
     "name" : "Nils Grunwald",
@@ -766,27 +508,11 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Steward Bentley",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Adam Miller",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Priyatam",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Martin Jung",
     "level" : "contributing",
     "founding" : false
   }, {
     "name" : "Josh Reighley",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Susan Wilcock",
     "level" : "contributing",
     "founding" : false
   }, {
@@ -798,10 +524,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Andrei Rudenko",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Jakub Dundálek",
     "level" : "contributing",
     "founding" : false
@@ -810,19 +532,11 @@
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "Karl Pietrzak",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Roman Liutikov",
     "level" : "assoc",
     "founding" : false
   }, {
     "name" : "Damiano Rühl",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Sean Meyer",
     "level" : "contributing",
     "founding" : false
   }, {
@@ -836,14 +550,6 @@
   }, {
     "name" : "Agzamkhodja Ibragimov",
     "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Yusa Koji",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Rolf Victor Bjelkholm lovgren",
-    "level" : "developer",
     "founding" : false
   }, {
     "name" : "Amar Mehta",
@@ -870,14 +576,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Gary Deer",
-    "level" : "developer",
-    "founding" : false
-  }, {
-    "name" : "Jonathan Chen",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Stephen Cagle",
     "level" : "developer",
     "founding" : false
@@ -890,20 +588,8 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Matt Marks",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Raphael Saunier",
     "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Michael Simonson",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "James Leonis",
-    "level" : "developer",
     "founding" : false
   }, {
     "name" : "Emin Hasanov",
@@ -938,23 +624,11 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Clément Salaun",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Esteban Castra",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Kevin Reierskog",
     "level" : "contributing",
     "founding" : false
   }, {
     "name" : "Iizuka Masashi",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Bryan Maass",
     "level" : "contributing",
     "founding" : false
   }, {
@@ -970,23 +644,11 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Brendan Boesen",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Daniel Gregoire",
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Oskar Boethius Lissheim",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Chris Oakman",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Erwin Rooijakkers",
     "level" : "contributing",
     "founding" : false
   }, {
@@ -995,10 +657,6 @@
     "founding" : false
   }, {
     "name" : "Filipe Silva",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Rodolfo Ferreira",
     "level" : "contributing",
     "founding" : false
   }, {
@@ -1255,6 +913,10 @@
     "founding" : false
   }, {
     "name" : "Justin Tirrell",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Robert Warner",
     "level" : "contributing",
     "founding" : false
   } ]
