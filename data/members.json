@@ -592,10 +592,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Emin Hasanov",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Daniel Slutsky",
     "level" : "contributing",
     "founding" : false
@@ -677,10 +673,6 @@
     "founding" : false
   }, {
     "name" : "Ryan Campbell",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Dima Novotochinov",
     "level" : "contributing",
     "founding" : false
   }, {
@@ -917,6 +909,10 @@
     "founding" : false
   }, {
     "name" : "Robert Warner",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "David Harrigan",
     "level" : "contributing",
     "founding" : false
   } ]
