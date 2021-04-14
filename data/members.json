@@ -919,5 +919,25 @@
     "name" : "-",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Remy Rojas",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Jerue",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Daniel Higginbotham",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Matthew Davidson",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Binford",
+    "level" : "contributing",
+    "founding" : false
   } ]
 }
