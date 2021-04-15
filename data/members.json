@@ -939,5 +939,17 @@
     "name" : "Binford",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Swaney",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Stoffel",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Toby Crawley",
+    "level" : "developer",
+    "founding" : false
   } ]
 }
