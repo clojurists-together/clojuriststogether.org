@@ -951,5 +951,9 @@
     "name" : "Toby Crawley",
     "level" : "developer",
     "founding" : false
+  }, {
+    "name" : "Agost Biro",
+    "level" : "contributing",
+    "founding" : false
   } ]
 }
