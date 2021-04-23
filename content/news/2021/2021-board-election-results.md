@@ -12,4 +12,6 @@ The Clojurists Together board is happy to announce the results of our [elections
 * Chris Nuernberger
 * Daniel Compton (returning)
 
+Thanks to everyone who stood for election, it was an incredibly strong slate of candidates.
+
 We also want to thank the outgoing board members Daniel Solano Gómez and Larry Staton Jr for their years of service to the board and the Clojure community. Thanks!
