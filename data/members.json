@@ -959,5 +959,9 @@
     "name" : "David Jacka",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Theophile Villard",
+    "level" : "developer",
+    "founding" : false
   } ]
 }
