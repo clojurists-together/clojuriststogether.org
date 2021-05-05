@@ -212,6 +212,12 @@
     "level" : "assoc",
     "founding" : false
   }, {
+    "name" : "BillFront GmbH",
+    "url" : "https://www.billfront.com",
+    "logo" : null,
+    "level" : "assoc",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "level" : "contributing",
     "founding" : true
