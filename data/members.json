@@ -710,10 +710,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Steven Harms",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Julien Bille",
     "level" : "contributing",
     "founding" : false
@@ -968,6 +964,10 @@
   }, {
     "name" : "Theophile Villard",
     "level" : "developer",
+    "founding" : false
+  }, {
+    "name" : "Roman Ostash",
+    "level" : "contributing",
     "founding" : false
   } ]
 }
