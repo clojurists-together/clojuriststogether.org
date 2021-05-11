@@ -218,6 +218,18 @@
     "level" : "assoc",
     "founding" : false
   }, {
+    "name" : "Nilenso",
+    "url" : "https://nilenso.com",
+    "logo" : null,
+    "level" : "cons",
+    "founding" : false
+  }, {
+    "name" : "Gatheround",
+    "url" : "https://gatheround.com",
+    "logo" : null,
+    "level" : "cons",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "level" : "contributing",
     "founding" : true
