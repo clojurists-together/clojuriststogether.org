@@ -230,6 +230,12 @@
     "level" : "cons",
     "founding" : false
   }, {
+    "name" : "Parkside",
+    "url" : "https://parkside.app",
+    "logo" : null,
+    "level" : "filter",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "level" : "contributing",
     "founding" : true
@@ -883,10 +889,6 @@
     "founding" : false
   }, {
     "name" : "Steffan Westcott",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Dominic Parry",
     "level" : "contributing",
     "founding" : false
   }, {
