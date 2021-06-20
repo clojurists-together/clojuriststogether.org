@@ -1,40 +1,47 @@
 {{ define "main" }}
+<div class="col">
 <h1 class="page-title">
     {{ .Title }}
 </h1>
 
 {{ .Content }}
 
+<p>We are proud to be supported by {{ $.Site.Data.members.member_stats.developer }} developer members and {{ $.Site.Data.members.member_stats.company }} company members</p>
+</div>
+
 <!-- <code>{{ printf "%#v" $.Site.Data.members }}</code> -->
 
 
 <section class="member-category company filter-member">
     <h2><span>$2000/mo</span><br>Map Members</h2>
-
-    {{ range where $.Site.Data.members.members "level" "map" }}
-    {{ partial "filter-member" .}}
-    {{end}}
+    <div class="image-grid">
+        {{ range where $.Site.Data.members.members "level" "map" }}
+        {{ partial "filter-member" .}}
+        {{end}}
+    </div>
 </section>
 
 
 <section class="member-category company filter-member">
     <h2><span>$1000/mo</span><br>Transduce Members</h2>
-
-    {{ range where $.Site.Data.members.members "level" "transduce" }}
-    {{ partial "filter-member" .}}
-    {{end}}
+    <div class="image-grid">
+        {{ range where $.Site.Data.members.members "level" "transduce" }}
+        {{ partial "filter-member" .}}
+        {{end}}
+    </div>
 </section>
 
 <section class="member-category company filter-member">
     <h2><span>$500/mo</span><br>Filter Members</h2>
-
-    {{ range where $.Site.Data.members.members "level" "filter" }}
-    {{ partial "filter-member" .}}
-    {{end}}
+    <div class="image-grid">
+        {{ range where $.Site.Data.members.members "level" "filter" }}
+        {{ partial "filter-member" .}}
+        {{end}}
+    </div>
 </section>
 
 <section class="member-lists">
-    <section class="member-category into-member">
+    <section class="member-category into-member col">
         <h2><span>$200/mo</span><br>Into Members</h2>
         <section class="membership-card">
             <ul>
@@ -45,7 +52,7 @@
         </section>
     </section>
 
-    <section class="member-category cons-member">
+    <section class="member-category cons-member col">
         <h2><span>$100/mo</span><br>Cons Members</h2>
         <section class="membership-card">
             <ul>
@@ -58,7 +65,7 @@
         </section>
     </section>
 
-    <section class="member-category assoc-member">
+    <section class="member-category assoc-member col">
         <h2><span>$50/mo</span><br>Assoc Members</h2>
         <section class="membership-card">
             <ul>
@@ -71,7 +78,7 @@
 </section>
 
 <!-- Hardcoded for now -->
-<section class="member-category">
+<section class="member-category col">
     <h2>Percentage of revenue members</h2>
     <section class="membership-card">
         <p>These companies give a percentage of their revenue to Clojurists Together:</p>
@@ -82,7 +89,7 @@
     </section>
 </section>
 
-<section class="member-category founding-developer">
+<section class="member-category founding-developer col">
     <h2>Founding Developer Members ⭐</h2>
     <section class="membership-card">
         {{ $members := (where $.Site.Data.members.members "level" "developer") }}
@@ -92,7 +99,7 @@
     </section>
 </section>
 
-<section class="member-category developer">
+<section class="member-category developer col">
     <h2>Developer Members</h2>
     <section class="membership-card">
         {{ $members := (where $.Site.Data.members.members "level" "developer") }}
@@ -102,7 +109,7 @@
     </section>
 </section>
 
-<section class="member-category contributing">
+<section class="member-category contributing col">
     <h2>Founding Contributing Members ⭐</h2>
     <section class="membership-card">
         {{ $members := (where $.Site.Data.members.members "level" "contributing") }}
@@ -112,7 +119,7 @@
     </section>
 </section>
 
-<section class="member-category contributing">
+<section class="member-category contributing col">
     <h2>Contributing Members</h2>
     <section class="membership-card">
         {{ $members := (where $.Site.Data.members.members "level" "contributing") }}

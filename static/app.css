@@ -184,7 +184,7 @@ footer>div.col>section.links ul {
 .membership-card>a {
     display: block;
     text-align: center;
-    padding: 67px 0;
+    padding: 30px 0;
 }
 
 .membership-card>p {
@@ -193,7 +193,7 @@ footer>div.col>section.links ul {
 
 .membership-card .member-logo.large {
     max-width: 85%;
-    max-height: 300px;
+    max-height: 120px;
 }
 
 .member-category {
@@ -208,17 +208,27 @@ footer>div.col>section.links ul {
     max-width: 65%;
 }
 
-.members h2 {
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+.members_page {
+    max-width: 1024px;
+}
+
+.members_page h2 {
    margin-top: 0;
    margin-bottom: 11px;
    line-height: 29px;
 }
 
-.members h2 span {
+.members_page h2 span {
    font-size: 16px;
 }
 
-.members h2, .member-lists ul {
+.members_page h2, .member-lists ul {
    text-align:center
 }
 
@@ -246,38 +256,6 @@ footer>div.col>section.links ul {
 
 .assoc-member ul li {
     font-size: 20px
-}
-
-header a, footer a {
-    text-decoration: none;
-}
-
-.logo {
-    background-color: #380036;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.member-logo {
-    max-width: 300px;
-}
-
-h1, h2{
-    margin-top: 45px;
-}
-
-h3{
-    margin-top: 40px;
-}
-
-.projects h2, .projects h3{
-    margin-top: 60px;
-}
-
-.projects p{
-    max-width: 530px;
 }
 
 .become-a-member {
@@ -356,7 +334,7 @@ h3{
     border-bottom: 1px solid #e6e6e6
 }
 
-.members h3 {
+.members_page h3 {
     margin: 0;
     padding: 60px 0 0;
 }
