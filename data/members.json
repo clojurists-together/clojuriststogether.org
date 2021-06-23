@@ -1193,9 +1193,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Jacob Emcken",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 37,
-    "developer" : 184
+    "developer" : 185
   }
 }
