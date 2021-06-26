@@ -1198,9 +1198,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Lukasz Kozuchowski",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 37,
-    "developer" : 185
+    "developer" : 186
   }
 }
