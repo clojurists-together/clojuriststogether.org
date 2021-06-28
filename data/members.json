@@ -140,9 +140,9 @@
     "level" : "cons",
     "founding" : false
   }, {
-    "name" : "Muneo GmbH",
+    "name" : "Jacek Schae (Learn Reagent, Learn re-frame)",
     "member_type" : "company",
-    "url" : null,
+    "url" : "https://www.jacekschae.com/",
     "logo" : null,
     "level" : "filter",
     "founding" : false
@@ -851,6 +851,11 @@
     "level" : "contributing",
     "founding" : false
   }, {
+    "name" : "Salam Elbilig",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
     "name" : "Ryan Campbell",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1218,6 +1223,6 @@
   } ],
   "member_stats" : {
     "company" : 38,
-    "developer" : 187
+    "developer" : 188
   }
 }
