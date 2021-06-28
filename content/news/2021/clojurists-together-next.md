@@ -58,3 +58,26 @@ Our current plan is to fund:
 Total => $44k over 3 months.
 
 **We would like to add an additional one or two long-term payments to support Clojure developers, but to do so we'll need to expand our membership.** If you work for a company that uses Clojure, please consider talking to your engineering leadership about signing up for a Clojurists Together membership.
+
+### Thanks
+
+Clojurists Together has grown from a small organisation giving $3,600/month to open source Clojure projects to today where we're looking to pay out $15,000/month or more. We couldn't have done it without our incredible developer and company members who support us. Thanks to everyone who has given money, both now and in the past to build tools and libraries for the Clojure community.
+
+We want to say a special thanks to our company members [Latacora](latacora-cljtog), [Roam](roam-cljtog), [Pitch](pitch-cljtog), [Nubank](nubank-cljtog), [Cisco](cisco-cljtog), [JUXT][juxt-cljtog], [Metosin][metosin-cljtog], [Solita](solita-cljtog), [Adgoji][adgoji-cljtog], [Nextjournal][nextjournal-cljtog], [Flexiana][flexiana-cljtog], [Toyokumo][toyokumo-cljtog], [Griffin][griffin-cljtog], [Parkside][parkside-cljtog], and [Jacek Schae][jacek-schae-cljtog]. They've given significant amounts of money to Clojurists Together over the years, and we couldn't have done it without them.
+
+[latacora-cljtog]: https://www.latacora.com/
+[roam-cljtog]: https://roamresearch.com/
+[pitch-cljtog]: https://pitch.io/
+[nubank-cljtog]: https://nubank.com.br/
+[cisco-cljtog]: https://www.cisco.com/
+[juxt-cljtog]: https://juxt.pro
+[metosin-cljtog]: https://www.metosin.fi/
+[solita-cljtog]: http://www.solita.fi/en
+[adgoji-cljtog]: http://www.adgoji.com/
+[nextjournal-cljtog]: https://nextjournal.com/
+[clubhouse-cljtog]: https://www.clubhouse.io/
+[flexiana-cljtog]: https://flexiana.com/
+[toyokumo-cljtog]: https://toyokumo.co.jp/
+[griffin-cljtog]: https://www.griffin.sh/
+[parkside-cljtog]: https://parkside.app/
+[jacek-schae-cljtog]: https://jacekschae.com/
