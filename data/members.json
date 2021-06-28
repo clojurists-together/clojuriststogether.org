@@ -140,6 +140,13 @@
     "level" : "cons",
     "founding" : false
   }, {
+    "name" : "Muneo GmbH",
+    "member_type" : "company",
+    "url" : null,
+    "logo" : null,
+    "level" : "filter",
+    "founding" : false
+  }, {
     "name" : "Petit Perou",
     "member_type" : "company",
     "url" : "https://www.petit-perou.tech",
@@ -1203,9 +1210,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Vedang Manerikar",
+    "member_type" : "developer",
+    "level" : "developer",
+    "founding" : false
   } ],
   "member_stats" : {
-    "company" : 37,
-    "developer" : 186
+    "company" : 38,
+    "developer" : 187
   }
 }
