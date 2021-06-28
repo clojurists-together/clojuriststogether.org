@@ -12,7 +12,7 @@
 <!-- <code>{{ printf "%#v" $.Site.Data.members }}</code> -->
 
 
-<section class="member-category company filter-member">
+<section class="member-category company logo-member">
     <h2><span>$2000/mo</span><br>Map Members</h2>
     <div class="image-grid">
         {{ range where $.Site.Data.members.members "level" "map" }}
@@ -22,7 +22,7 @@
 </section>
 
 
-<section class="member-category company filter-member">
+<section class="member-category company logo-member">
     <h2><span>$1000/mo</span><br>Transduce Members</h2>
     <div class="image-grid">
         {{ range where $.Site.Data.members.members "level" "transduce" }}
@@ -31,7 +31,7 @@
     </div>
 </section>
 
-<section class="member-category company filter-member">
+<section class="member-category company logo-member">
     <h2><span>$500/mo</span><br>Filter Members</h2>
     <div class="image-grid">
         {{ range where $.Site.Data.members.members "level" "filter" }}
