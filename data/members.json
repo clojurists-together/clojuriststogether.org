@@ -1220,9 +1220,14 @@
     "member_type" : "developer",
     "level" : "developer",
     "founding" : false
+  }, {
+    "name" : "Timo Kramer",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 38,
-    "developer" : 188
+    "developer" : 189
   }
 }
