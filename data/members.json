@@ -1225,9 +1225,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Jesús Gómez",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 38,
-    "developer" : 189
+    "developer" : 190
   }
 }
