@@ -281,6 +281,13 @@
     "founding" : false,
     "tagline" : "Parkside is simplifying global access to US stocks through regulatory innovation and modern technology. We are a Clojure shop, building a cutting edge distributed trading platform using Kafka Streams."
   }, {
+    "name" : "LegalMate",
+    "member_type" : "company",
+    "url" : "https://legalmate.co",
+    "logo" : null,
+    "level" : "assoc",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1232,7 +1239,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 38,
+    "company" : 39,
     "developer" : 190
   }
 }
