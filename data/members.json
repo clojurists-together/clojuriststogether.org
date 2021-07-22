@@ -1228,6 +1228,11 @@
     "level" : "assoc",
     "founding" : false
   }, {
+    "name" : "Daw-Ran Liou",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
     "name" : "Timo Kramer",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1240,6 +1245,6 @@
   } ],
   "member_stats" : {
     "company" : 39,
-    "developer" : 190
+    "developer" : 191
   }
 }
