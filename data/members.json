@@ -1242,9 +1242,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Ed Bowler",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 39,
-    "developer" : 191
+    "developer" : 192
   }
 }
