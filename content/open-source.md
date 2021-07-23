@@ -5,26 +5,25 @@ type: page
 
 {{< toc >}}
 
-## Summer of Bugs
+## Quarterly Fellowships
 
-Summer of Bugs is a new program from Clojurists Together. It aims to provide micro-grants of $500 and $1,000 to Clojure developers and maintainers to fix bugs, write docs, make small improvements, or clean up issue trackers. You can read more about Summer of Bugs in the [announcement](/news/announcing-summer-of-bugs/).
+Every three months, Clojurists Together takes applications from open source developers for funding to work on open source projects. The Clojurists Together [committee](/team) then evaluates the proposals, makes their selection, and then funds projects with a fellowship. The fellowship can be taken over one to twelve months. You can apply at any time for the next funding cycle, and you can make multiple applications for different projects.
 
-We will pay half of the grant up-front to projects that are selected, and the other half on completion of the work. Completion criteria will vary between grants but will be agreed on before starting. Generally this will look like accomplishing the task you set out to achieve, or showing that you have made a reasonable effort and moved the problem forward.
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdzwZT4Ti00oUBXWw9kLkL29URgp_d37z96z0ggLjys6B0izA/viewform?usp=sf_link" class="become-a-member">Apply for Summer of Bugs</a>
-
-**Applications for the first Summer of Bugs grants closed on 30th June, 11:59 pm PST.**
-
-## Quarterly Grants
-
-Every three months, Clojurists Together takes applications from open source developers for funding to work on open source projects. The Clojurists Together [committee](/team) then evaluates the proposals, makes their selection, and then funds projects with a fellowship for the next three months. You can apply at any time for the next funding cycle, and you can make multiple applications for different projects.
-
-**Applications for the August-September funding round close on Friday July 31st, 11:59 pm PST.**
+Once selected for a fellowship, you have two months to start it.
 
 <a href="https://docs.google.com/forms/d/1JD5OAbA0A8d0GFAGjY73Z2oKmmcQ-NZBrngBlqXdHnQ/viewform" class="become-a-member">Apply for funding</a>
 
 </section>
 
+### Funding amounts
+
+We currently have three levels of fellowships:
+
+* $1k/$2k fellowships for smaller/more experimental projects. These can last up to three months.
+* $9k fellowships for larger projects. The work for these fellowships can be done over 1-12 months, rather than needing to do them in a fixed 3-month period.
+* $1.5k/month for 12 months. Recipients of these long-term fellowships don't need to submit a proposal, we just fund them to continue the great work they're already doing. Clojurists Together members will vote on which developers receive these fellowships.
+
+The number of projects funded in each cycle and the amount paid for each fellowship may vary depending on member support, and project requirements. Successful projects will know in advance of starting how much they will be paid.
 ### Application Requirements
 
 - You are a maintainer of the project, i.e. you have commit access to the project, or the others that work on the project recognise you as a maintainer.
@@ -44,7 +43,7 @@ These questions are to get an understanding of your project and plans for the fu
   - Implicit funding by an employer allowing or requesting for you to work on this open source project
   - A commercial business model alongside the open source project.
 
-**N.B.** Receiving other funding _does not_ disqualify you from receiving Clojurists Together funding. However you cannot accept multiple streams of money for the same work, i.e. you cannot double bill the work you do in your day job on your OSS project as also going towards the work that you do in your Clojurists Together funding.
+**N.B.** Receiving other funding _does not_ disqualify you from receiving Clojurists Together funding. However you cannot accept multiple streams of money for the same commits, i.e. you cannot double bill the work you do in your day job on your OSS project as also going towards the work that you do in your Clojurists Together funding.
 
 ---
 
@@ -82,10 +81,6 @@ However the raw number of hours is not so important as the results that you’re
 
 One of the things Clojurists Together was designed to support is the work that isn't fun to do. These are things like tracking down hard to reproduce bugs, maintenance to follow upstream dependencies, reviewing large pull-requests, thinking about/tackling large thorny problems, and the other slog work which is important but not fun. If you've got a project with work like that that you've been putting off, we want to fund you to work on it. Of course we also want to fund projects to implement new features, but please don't think that just because your work isn't exciting that you shouldn't apply.
 
-### Funding amounts
-
-Successful projects are awarded a fellowship for three months. The number of projects funded in each cycle and the amount paid for each fellowship will vary depending on member support, and project requirements. Successful projects will know in advance of starting how much they will be paid. For each quarter of 2018 we funded two projects $1,800 USD/mo for three months. In 2019, due to continued growth in members, we were able to fund two projects $3,000 USD/mo for three months.
-
 ### Considerations
 
 The Clojurists Together committee evaluates projects based on the following criteria:
@@ -108,11 +103,13 @@ We will then publish a list of all the projects that applied, along with the vot
 
 ### Project Reports
 
-Successful projects are required to submit two project reports each month during the three month cycle. This is used to show backers the impact that their money is having. These don't need to be long or detailed (although writing additional blog posts about your work is encouraged), for example, a list of GitHub issues and a brief comment for each would be sufficient.
+Successful projects receiving $9k are required to submit six project reports during their fellowship. Experimental projects receiving $1k/$2k are required to submit three project reports. This is used to show backers the impact that their money is having. These don't need to be long or detailed (although writing additional blog posts about your work is encouraged), for example, a list of GitHub issues and a brief comment for each would be sufficient.
 
 ### Getting paid
 
 If your project is selected, we will create a contract based on your proposal This contract will include the amount to be paid, and the work intended to be done. We can fund maintainers anywhere in the world, barring exceptional circumstances like [US sanctions](https://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx). You will need to check with your accountant, but this contract is probably going to be similar to a freelancing contract, i.e. you will need to pay taxes on it.
+
+We pay out $9k fellowships in three installments, 1/3 on signature, 1/3 at the midway of the project, and 1/3 on completion of the project. Smaller fellowships may be paid over one or two instalments depending on the project.
 
 ### Timeline
 

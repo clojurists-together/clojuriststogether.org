@@ -9,11 +9,11 @@ author: Daniel Compton
 
 We've recently announced some [large changes](/news/the-next-phase-of-clojurists-together/) to how we run the program. You can read the announcement for the full details, but briefly, there will now be three types of funding:
 
-* $1k/$2k grants for smaller/more experimental projects
-* $9k grants for larger projects. The work for these grants can now be done over 1-12 months, rather than needing to do them in a fixed 3-month period.
-* $1.5k/month for 12 months. Recipients of these long-term grants don't need to submit a proposal, we just fund them to continue the great work they're already doing. Clojurists Together members will vote on which developers receive these grants.
-
-Another change is that grant recipients can delay starting for up to two months. This will give them more flexibility in when they start working on the project and make it more available to people who can't easily take time out of their daily life to work on their open source projects.
+* $1k/$2k fellowships for smaller/more experimental projects. These can last up to three months.
+* $9k fellowships for larger projects. The work for these fellowships can now be done over 1-12 months, rather than needing to do them in a fixed 3-month period.
+* $1.5k/month for 12 months. Recipients of these long-term fellowships don't need to submit a proposal, we just fund them to continue the great work they're already doing. Clojurists Together members will vote on which developers receive these fellowships.
+* 
+Another change is that fellowship recipients can delay starting for up to two months. This will give them more flexibility in when they start working on the project and make it more available to people who can't easily take time out of their daily life to work on their open source projects.
 
 We're still finalising our funding but our current plan is to fund:
 
@@ -22,7 +22,7 @@ We're still finalising our funding but our current plan is to fund:
 * 3 long-term * 1.5k/month => $13.5k
 * Clojars => $4.5k
 
-We would like to fund 6 developers for long-term grants instead of 3. However to do so we'll need new developer and company members to help support this. If you're a company that relies on Clojure, please consider joining Clojurists Together.
+We would like to fund 6 developers for long-term fellowships instead of 3. However to do so we'll need new developer and company members to help support this. If you're a company that relies on Clojure, please consider joining Clojurists Together.
 
 ## Survey Responses
 
