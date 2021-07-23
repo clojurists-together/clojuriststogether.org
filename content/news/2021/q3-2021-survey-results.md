@@ -1,6 +1,6 @@
 ---
 title: "Q3 2021 Survey Results"
-date: 2021-07-23T20:00:17+08:00
+date: 2021-07-23T21:30:17+12:00
 summary: Applications for our next funding round are open until the 6th of August.
 author: Daniel Compton
 ---
