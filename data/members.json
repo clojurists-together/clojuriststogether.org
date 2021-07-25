@@ -1247,9 +1247,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Gabriel Marote",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 39,
-    "developer" : 192
+    "developer" : 193
   }
 }
