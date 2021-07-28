@@ -288,6 +288,13 @@
     "level" : "assoc",
     "founding" : false
   }, {
+    "name" : "Whimsical",
+    "member_type" : "company",
+    "url" : "https://whimsical.com",
+    "logo" : null,
+    "level" : "map",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1254,7 +1261,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 39,
+    "company" : 40,
     "developer" : 193
   }
 }
