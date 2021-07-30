@@ -291,9 +291,10 @@
     "name" : "Whimsical",
     "member_type" : "company",
     "url" : "https://whimsical.com",
-    "logo" : null,
+    "logo" : "/logos/whimsical.svg",
     "level" : "map",
-    "founding" : false
+    "founding" : false,
+    "tagline" : "A collaboration medium combining docs and whiteboards. Powered by Clojure!"
   }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
