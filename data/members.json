@@ -1260,9 +1260,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Arnaud Geiser",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 40,
-    "developer" : 193
+    "developer" : 194
   }
 }
