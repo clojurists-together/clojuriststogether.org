@@ -132,8 +132,27 @@ Clojurists Together is a trade organisation. Generally, organisations can treat 
 
 <p>Customized thank you tweet each month by <a href="https://twitter.com/cljtogether">@cljtogether</a></p></p>
 
-<p>Twice-monthly status reports with more detail</p>
-
 <a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/company?plan=plan_GYMGYWlY1YEeXF">Become a Reduce Member (monthly)</a>
 <a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/company?plan=plan_GYMHqy2AGshlAO">Become a Reduce Member (annually)</a>
+</section>
+
+<section class="membership-tier">
+<h3>Fold Member</h3>
+<b>$10,000 per month</b>
+
+<p>Influence on which projects are selected</p>
+
+<p>Prominent position in the Clojurists Together member list, including your logo and a company blurb</p>
+
+<p>Recognition as a new member in a Clojurists Together blog post</p>
+
+<p>Logo on conference talk slides thanking members</p>
+
+<p>Vote on board members</p>
+
+<p>Meet with the Clojurists Together team about your infrastructure needs</p>
+
+<p>Customized thank you tweet each month by <a href="https://twitter.com/cljtogether">@cljtogether</a></p></p>
+
+<a class="become-a-member checkout-button" href="/contact">Contact us</a>
 </section>
