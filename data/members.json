@@ -1265,9 +1265,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Nicola Larosa",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 40,
-    "developer" : 194
+    "developer" : 195
   }
 }
