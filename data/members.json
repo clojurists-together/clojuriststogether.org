@@ -1121,11 +1121,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Pittendrigh",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Miller",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1278,6 +1273,6 @@
   } ],
   "member_stats" : {
     "company" : 41,
-    "developer" : 196
+    "developer" : 195
   }
 }
