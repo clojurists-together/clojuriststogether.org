@@ -296,6 +296,14 @@
     "founding" : false,
     "tagline" : "A collaboration medium combining docs and whiteboards. Powered by Clojure!"
   }, {
+    "name" : "AppsFlyer",
+    "member_type" : "company",
+    "url" : "https://www.appsflyer.com",
+    "logo" : "/logos/appsflyer.svg",
+    "level" : "transduce",
+    "founding" : false,
+    "tagline" : "The world’s top brands trust the AppsFlyer Cloud to help them build great products, create exceptional experiences, and preserve customer privacy."
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -687,6 +695,11 @@
     "founding" : false
   }, {
     "name" : "Zane Shelby",
+    "member_type" : "developer",
+    "level" : "developer",
+    "founding" : false
+  }, {
+    "name" : "Karl Pietrzak",
     "member_type" : "developer",
     "level" : "developer",
     "founding" : false
@@ -1266,13 +1279,23 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Schrock",
+    "name" : "Laverne Schrock",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Maria Geller",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Paula Gearon ",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
   } ],
   "member_stats" : {
     "company" : 41,
-    "developer" : 195
+    "developer" : 198
   }
 }
