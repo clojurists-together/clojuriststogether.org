@@ -78,7 +78,7 @@ One other thing that we heard was that it could be hard to connect the names on 
 * **Oleksii Kachaiev**/[@kachayev](https://github.com/kachayev) - [aleph](https://github.com/clj-commons/aleph), [netty](https://github.com/netty/netty)
 * **Oliver Caldwell**/[@Olical](https://github.com/Olical) - [conjure](https://github.com/Olical/conjure), [cljs-test-runner](https://github.com/Olical/cljs-test-runner), [depot](https://github.com/Olical/depot)
 * **Paula Gearon**/[@quoll](https://github.com/quoll) - [asami](https://github.com/threatgrid/asami)
-* **Peter Strömberg**/[@PEZ](https://github.com/PEZ) - [Calva](https://github.com/BetterThanTomorrow/calva)
+* **Peter Strömberg**/[@PEZ](https://github.com/PEZ) - [Calva](https://github.com/BetterThanTomorrow/calva), [Zero-install Get Started with Clojure](https://calva.io/get-started-with-clojure/), [Rich 4Clojure](https://github.com/PEZ/rich4clojure), [Dram](https://github.com/BetterThanTomorrow/dram), [rn-rf-shadow](https://github.com/PEZ/rn-rf-shadow)
 * **Peter Taoussanis**/[@ptaoussanis](https://github.com/ptaoussanis) - [sente](https://github.com/ptaoussanis/sente), [timbre](https://github.com/ptaoussanis/timbre), [carmine](https://github.com/ptaoussanis/carmine), [nippy](https://github.com/ptaoussanis/nippy), [tufte](https://github.com/ptaoussanis/tufte)
 * **Phil Hagelberg**/[@technomancy](https://github.com/technomancy) - [leiningen](https://github.com/technomancy/leiningen)
 * **Roman Liutikov**/[@roman01la](https://github.com/roman01la) - [uix](https://github.com/roman01la/uix), [rum](https://github.com/tonsky/rum), [citrus](https://github.com/clj-commons/citrus)
