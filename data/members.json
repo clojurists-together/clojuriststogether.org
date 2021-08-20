@@ -1293,9 +1293,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Eric Dallo",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 41,
-    "developer" : 198
+    "developer" : 199
   }
 }
