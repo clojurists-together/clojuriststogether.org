@@ -25,6 +25,8 @@ We previously used [CIVS](https://civs1.civs.us) for member voting. CIVS have ch
 
 We've chosen a new voting system which lets us distribute the voter keys by email, but the interface doesn't work as well when voting on a lot of candidates. We'll look at different options for our next member survey.
 
+You need to rank the candidates in preference order. You don't need to rank all 60 candidates, just your top 10 or so should be enough for the voting algorithm.
+
 If you're a current member, you should have received an email with details on how to vote. If you didn't get an email or are having trouble voting, please [contact us](/contact/).
 
 ## Candidate info
