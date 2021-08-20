@@ -1,6 +1,6 @@
 ---
 title: "Long-term funding update"
-date: 2021-08-20T09:00:00+12:00
+date: 2021-08-20T15:30:00+12:00
 author: Daniel Compton
 summary: Updates on voting for long-term funding
 ---
