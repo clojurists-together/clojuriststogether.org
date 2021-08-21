@@ -304,6 +304,13 @@
     "founding" : false,
     "tagline" : "The world’s top brands trust the AppsFlyer Cloud to help them build great products, create exceptional experiences, and preserve customer privacy."
   }, {
+    "name" : "Helpshift",
+    "member_type" : "company",
+    "url" : "https://www.helpshift.com",
+    "logo" : null,
+    "level" : "into",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1298,9 +1305,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Przemysław Koza",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
-    "company" : 41,
-    "developer" : 199
+    "company" : 42,
+    "developer" : 200
   }
 }
