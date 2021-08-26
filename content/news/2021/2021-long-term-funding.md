@@ -40,10 +40,10 @@ We asked the selected developers about what they might do over the next 12 month
 
 ## Thanks
 
-We couldn't have done this without the support of our members. We are very grateful to everyone who has supported us over the years and helped us build up Clojurists Together to the point that we could make this commitment to developers. When we first announced this program we had income to support three developers, but thanks to new members [Whimisical](https://whimsical.com) and [AppsFlyer](https://www.appsflyer.com), we have been able to extend this to six developers!
+We couldn't have done this without the support of our members. We are very grateful to everyone who has supported us over the years and helped us build up Clojurists Together to the point that we could make this commitment to developers. When we first announced this program we had income to support three developers, but thanks to new members [Whimsical](https://whimsical.com) and [AppsFlyer](https://www.appsflyer.com), we have been able to extend this to six developers!
 
 > The power of Clojure and quality tools have allowed Whimsical to thrive. We're excited to contribute back to the language and community that has helped make all of this possible.  
-> -- **Jānis Peisenieks, Head of Engineering, Whimisical**
+> -- **Jānis Peisenieks, Head of Engineering, Whimsical**
 
 > AppsFlyer has been using Clojure for over 8 years, since we were just two developers strong, till now, when we're more than 300. We felt it would only be appropriate to give back to the community not just via code, but by financially enabling amazing people and projects from various locations around the globe who have one main goal in sight - making Clojure better for all of us. We're proud to support this wonderful community and are looking forward to seeing what developments are in store!  
 > -- **Nir Rubinstein, Chief Architect, AppsFlyer**
