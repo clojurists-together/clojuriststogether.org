@@ -86,6 +86,13 @@ footer>div.col>section.links ul {
     padding: 0;
 }
 
+blockquote {
+    padding: 0px 10px;
+    border-left: 5px solid #292966;
+    color: #292966;
+    font-style: italic;
+}
+
 /* pagination.html: https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L117 */
 .pagination {
     margin: 3rem 0;
