@@ -252,9 +252,9 @@
     "level" : "assoc",
     "founding" : false
   }, {
-    "name" : "BillFront GmbH",
+    "name" : "Vane GmbH",
     "member_type" : "company",
-    "url" : "https://www.billfront.com",
+    "url" : "https://vane.capital/",
     "logo" : null,
     "level" : "assoc",
     "founding" : false
@@ -1291,6 +1291,11 @@
     "level" : "contributing",
     "founding" : false
   }, {
+    "name" : "Mitesh Shah",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
     "name" : "Maria Geller",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1328,6 +1333,6 @@
   } ],
   "member_stats" : {
     "company" : 42,
-    "developer" : 203
+    "developer" : 204
   }
 }
