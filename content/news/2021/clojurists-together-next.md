@@ -22,7 +22,7 @@ We've now split our single funding tier into two:
 * **$1k-$2k funding amounts**, designed for experimental/smaller project proposals. Making smaller grants derisks the process, letting us make a larger number of selections, and accelerate develpment on promising experiments.
 * **$9k funding amounts**, designed for more established/larger project proposals. These funds can now be taken over a variable time, from 1 to 12 months.
 
-Additionally, all recipients will have two months notice before their funding starts so they can better plan around the fudnding.
+Additionally, all recipients will have two months notice before their funding starts so they can better plan around the funding.
 
 ### Long-term funding
 
