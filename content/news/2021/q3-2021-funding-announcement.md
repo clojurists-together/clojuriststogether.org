@@ -124,16 +124,35 @@ I would like to get PCP to a point where deployments can be done from the CLI or
 
 **Why is this project important to the Clojure community?**
 
-Holy Lambda allows Clojurians to write Lambda functions in Clojure that start fast and have low memory requirements. Holy Lambda proves that Clojure is not a slow language. From now on, Clojure is a viable choice for Serverless computing.
+Holy Lambda allows Clojurians to write Lambda functions in Clojure that start fast and have low memory requirements. Holy Lambda proves that Clojure is not a slow language. From now on, Clojure is a viable choice for Serverless computing. 
 
 **What are you wanting to achieve with this funding?**
 
-GraalVM configuration complexities make Holy Lambda native runtime adoption harder. Holy Lambda relies on GraalVM configuration to convert Clojure functions to "native" GraalVM compiled binaries that don't require much memory and start fast.
+The fund would let me spend some more time on the essential aspects of the successful projects: simplicity and complete documentation. Before the fund, I could triage only the most severe bugs and left minor inconsistencies in the code and documentation.
 
-My goals are:
 
-- To ease the pain of native runtime usage by providing informative, clear, well-formatted documentation,
-- Develop a library that's compatible with Pedestal Model and supports Clojure/Clojurescript/Babashka, because the current Interceptors model is not complete.
+Plan:
+
+1. Refactor
+
+Finish the refactor of the Holy Lambda. Most of the stuff described in the following discussion I did last week. However, some more attention is needed to test the new release, do benchmarks, close the issues, write a detailed rationale post on the slack #news-and-articles channel, and on mentioned above discussion to notify all the active users. 
+
+1.1 Expectations
+
+- performance improvements around runtime,
+- performance improvements around tasks,
+- much simpler api, only one macro `entrypoint` exposed,
+- much faster pure Clojure runtime compared to official AWS Java runtime,
+- reduced configuration, environment variables options, easier way to combine HL with CI/CD, and various deployment tools,
+- no more changes to the core api, stable and performant core!
+
+2. Documentation
+
+Now it's difficult for the new users to understand how Holy Lambda operates, especially for native runtime. I was trying to make the project too "easy" and failed. I believe that "good" documentation, fewer features, stable and performant core are the key to project success.
+
+2.1. Expectations
+
+- beautiful documentation covering the project written in AsciiDoc
 
 ### Dependabot Core
 **Funding period:** 01 Nov 2021 - 01 Feb 2022
