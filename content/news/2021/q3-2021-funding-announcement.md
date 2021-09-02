@@ -67,29 +67,18 @@ I'd also like to spend more time improving clojure-lsp performance, that would h
 
 **Why is this project important to the Clojure community?**
 
-Clojure is a data-oriented language and we should have a solid fully data-driven schema library too! Besides validation and value transformations, we should be able transform, persist, generate and infer schemas just like normal data. Malli tries to be develop-friendly library to companion to other data-driven libs like EQL, Bidi, HoneySQL, Hiccup, Integrant, Reagent and Reitit. 
-
-Malli has an open development model, design decisions are discussed in Slack (#malli) and in GitHub issues. Not a top goal, but eventually, Malli should be spec-compatible.
-
-Despite being pre-alpha, malli has 21 contributors, 391 stars on GitHub and 54k+ downloads on Clojars.
-
-Some background on my [ClojureD talk](https://www.youtube.com/watch?v=MR83MhWQ61E), [slides](https://www.slideshare.net/metosin/malli-inside-datadriven-schemas).
+Malli is an effort to build a complete and coherent schema/spec library for Clojure/Script - targeting design, runtime and development time tooling. It takes the best parts of existing solutions including clojure.spec, Plumatic Schema and JSON Schema. All design decisions are discussed in github &/ slack. Active community in slack with 400+ members, 789 stars on github, 497k downloads in clojars and despite in alpha, used in production all around. "let's make a tool that other programming communities will be jealous" - a happy user comment.
 
 **What are you wanting to achieve with this funding?**
 
-Malli is pre-alpha, 90% ready for the community. Due to private and business reasons, I haven't had enough extra time to lead out a robust stable version. With funding, I would have time to:
+Goal is to release Malli 1.0.0 within a year. This requires a lot of work, including (re-)design of missing & bad parts, adding new features, writing proper documentation, working with other contributors, helping users and getting feedback from the community. The full development backlog is in https://github.com/metosin/malli/issues. Besides normal development & support, funding would allow to work with bigger things like:
 
-1) get a stable release out! lot's of small and some bigger design decisions, tracked via https://github.com/metosin/malli/issues/116
-2) help early adopters (users and libraries like reitit, regal, aave and gungnir) to upgrade to use the initial version
+1. First-class Schema inferring and effective schema types. Related issues: [#74](https://github.com/metosin/malli/issues/74), [#181](https://github.com/metosin/malli/issues/181), [#191](https://github.com/metosin/malli/issues/191), [#264](https://github.com/metosin/malli/issues/264), [#327](https://github.com/metosin/malli/issues/327) and a draft: [#440](https://github.com/metosin/malli/pull/440)
 
-After the release, would work on the following:
+2. Re-visit Schema registries, lifecycle, caching and contexts. Related issues: [#228](https://github.com/metosin/malli/issues/228), [#236](https://github.com/metosin/malli/issues/236), [#326](https://github.com/metosin/malli/issues/326), [#331](https://github.com/metosin/malli/issues/331), [#450](https://github.com/metosin/malli/issues/450), [#451](https://github.com/metosin/malli/issues/451), [#461](https://github.com/metosin/malli/issues/461), [#463](https://github.com/metosin/malli/issues/463), [#488](https://github.com/metosin/malli/issues/488) and [#498](https://github.com/metosin/malli/issues/498).
 
-3) finalize sequence schemas, https://github.com/metosin/malli/pull/187
-4) enhance developer tooling:
-  - function schemas with clj-kondo integration https://github.com/metosin/malli/issues/125
-  - pull out and reuse the reitit development time error pretty printer as a separate library (https://github.com/metosin/virhe) 
-5) implement pluggable schema inference
-6) parsers
+3. Error messages and tooling integration: pretty-printing of schema creation [#18](https://github.com/metosin/malli/issues/18) and validation errors [#19](https://github.com/metosin/malli/issues/19). Investigate how to enable smooth developer experience with tools like [clojure-lsp](https://github.com/clojure-lsp/clojure-lsp).
+
 
 ### Clojurians-log-v2
 **Funding period:** 20 Sep 2021 - 20 Dec 2021
