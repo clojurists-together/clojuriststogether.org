@@ -786,6 +786,11 @@
     "level" : "developer",
     "founding" : false
   }, {
+    "name" : "Emin Hasanov",
+    "member_type" : "developer",
+    "level" : "developer",
+    "founding" : false
+  }, {
     "name" : "Daniel Slutsky",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1333,6 +1338,6 @@
   } ],
   "member_stats" : {
     "company" : 42,
-    "developer" : 204
+    "developer" : 205
   }
 }
