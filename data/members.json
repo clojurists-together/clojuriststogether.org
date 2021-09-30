@@ -311,6 +311,13 @@
     "level" : "into",
     "founding" : false
   }, {
+    "name" : "bevuta IT GmbH",
+    "member_type" : "company",
+    "url" : "https://www.bevuta.com/",
+    "logo" : null,
+    "level" : "into",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1337,7 +1344,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 42,
+    "company" : 43,
     "developer" : 205
   }
 }
