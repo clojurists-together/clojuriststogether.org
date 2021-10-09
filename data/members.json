@@ -318,6 +318,13 @@
     "level" : "into",
     "founding" : false
   }, {
+    "name" : "Stylitics",
+    "member_type" : "company",
+    "url" : "https://www.stylitics.com",
+    "logo" : null,
+    "level" : "map",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1352,9 +1359,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Düvel",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
-    "company" : 43,
-    "developer" : 207
+    "company" : 44,
+    "developer" : 208
   }
 }
