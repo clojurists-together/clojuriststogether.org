@@ -317,6 +317,13 @@
     "level" : "map",
     "founding" : false
   }, {
+    "name" : "Fluent Development AB",
+    "member_type" : "company",
+    "url" : "https://fluent.to",
+    "logo" : null,
+    "level" : "cons",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1297,11 +1304,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Laverne Schrock",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Mitesh Shah",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1356,9 +1358,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "William Robinson",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
-    "company" : 44,
+    "company" : 45,
     "developer" : 208
   }
 }
