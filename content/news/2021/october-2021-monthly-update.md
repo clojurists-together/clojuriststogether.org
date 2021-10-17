@@ -3,6 +3,7 @@ title: "October 2021 Monthly Update"
 date: 2021-10-17T09:30:00+08:00
 author: Alyssa Parado
 summary: Read updates from Clojure LSP, Polylith, Holy Lambda, and Typed Clojure.
+draft: true
 ---
 
 #### Here are the project updates from the month of September to the first half of October.
