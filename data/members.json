@@ -313,7 +313,7 @@
     "name" : "Stylitics",
     "member_type" : "company",
     "url" : "https://www.stylitics.com",
-    "logo" : null,
+    "logo" : "/logos/stylitics.svg",
     "level" : "map",
     "founding" : false
   }, {
