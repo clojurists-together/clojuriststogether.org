@@ -199,7 +199,7 @@ blockquote {
 }
 
 .membership-card .member-logo.large {
-    max-width: 85%;
+    object-fit: contain;
     max-height: 120px;
 }
 
