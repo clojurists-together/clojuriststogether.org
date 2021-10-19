@@ -1,9 +1,8 @@
 ---
-title: "October 2021 Monthly Update"
+title: "September 2021 Monthly Update"
 date: 2021-10-17T09:30:00+08:00
 author: Alyssa Parado
 summary: Read updates from Clojure LSP, Polylith, Holy Lambda, and Typed Clojure.
-draft: true
 ---
 
 #### Here are the project updates from the month of September to the first half of October.
@@ -39,7 +38,9 @@ Here is the changelog of this release:
   - New `diagnostics` command, which returns all diagnostics found by clojure-lsp (using clj-kondo). Check the API section for more details.
   
 
-### release [2021.09.30-12.28.16](https://github.com/clojure-lsp/clojure-lsp/releases/edit/2021.09.30-12.28.16) 
+### Clojure LSP
+
+I released version [2021.09.30-12.28.16](https://github.com/clojure-lsp/clojure-lsp/releases/edit/2021.09.30-12.28.16).
 
 This release focused on improving user UX giving better feedback during clojure-lsp startup both on API and editor. Also, it fixed a lot of issues making clojure-lsp a more mature tool with fewer false positives and more settings to work with more Clojure projects.
 
