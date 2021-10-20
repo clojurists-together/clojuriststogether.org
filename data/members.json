@@ -324,6 +324,13 @@
     "level" : "cons",
     "founding" : false
   }, {
+    "name" : "doctronic GmbH & Co. KG",
+    "member_type" : "company",
+    "url" : "https://www.doctronic.de",
+    "logo" : "/logos/doctronic.png",
+    "level" : "filter",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1365,7 +1372,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 45,
+    "company" : 46,
     "developer" : 208
   }
 }
