@@ -5,6 +5,8 @@ author: Alyssa Parado
 summary: Read updates from Clojure LSP, Polylith, Holy Lambda, and Typed Clojure.
 ---
 
+A big welcome to new company members [Stylitics](https://stylitics.com), [Parkside](https://parkside.app/), and [doctronic](https://www.doctronic.de/); thanks for your support!
+
 #### Here are the project updates from the month of September to the first half of October.
 
 # Clojure LSP
