@@ -315,7 +315,8 @@
     "url" : "https://www.stylitics.com",
     "logo" : "/logos/stylitics.svg",
     "level" : "map",
-    "founding" : false
+    "founding" : false,
+    "tagline" : "Outfitting technology for modern retail, powered by Clojure"
   }, {
     "name" : "Fluent Development AB",
     "member_type" : "company",
@@ -329,7 +330,8 @@
     "url" : "https://www.doctronic.de",
     "logo" : "/logos/doctronic.png",
     "level" : "filter",
-    "founding" : false
+    "founding" : false,
+    "tagline" : "We support our customers in the publishing industry and the public sector with highly specialized software solutions, most of them written in Clojure. We are happy to support the Clojure community and the further development of Clojure."
   }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
