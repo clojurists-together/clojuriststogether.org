@@ -200,13 +200,6 @@
     "founding" : false,
     "tagline" : "A note-taking tool for networked thought."
   }, {
-    "name" : "ArcheMedX",
-    "member_type" : "company",
-    "url" : "https://www.archemedx.com",
-    "logo" : null,
-    "level" : "assoc",
-    "founding" : false
-  }, {
     "name" : "Mediquest",
     "member_type" : "company",
     "url" : "https://home.mediquest.nl",
@@ -1379,7 +1372,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 46,
+    "company" : 45,
     "developer" : 209
   }
 }
