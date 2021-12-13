@@ -1382,9 +1382,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Ivan Fedorov",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 46,
-    "developer" : 210
+    "developer" : 211
   }
 }
