@@ -383,11 +383,6 @@
     "level" : "contributing",
     "founding" : true
   }, {
-    "name" : "Bastien Guerry",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : true
-  }, {
     "name" : "Palak Mathur",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1390,6 +1385,6 @@
   } ],
   "member_stats" : {
     "company" : 46,
-    "developer" : 211
+    "developer" : 210
   }
 }
