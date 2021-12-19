@@ -723,11 +723,6 @@
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "Karl Pietrzak",
-    "member_type" : "developer",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Roman Liutikov",
     "member_type" : "developer",
     "level" : "assoc",
@@ -1385,6 +1380,6 @@
   } ],
   "member_stats" : {
     "company" : 46,
-    "developer" : 210
+    "developer" : 209
   }
 }
