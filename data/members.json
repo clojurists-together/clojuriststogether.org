@@ -1377,9 +1377,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "McCormick",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 46,
-    "developer" : 209
+    "developer" : 210
   }
 }
