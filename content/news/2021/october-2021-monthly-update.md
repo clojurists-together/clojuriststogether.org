@@ -1,13 +1,11 @@
 ---
 title: "October 2021 Monthly Update"
-date: 2021-11-18T06:30:00+08:00
+date: 2021-12-22T06:30:00+08:00
 author: Alyssa Parado
 summary: Read updates from Clojure LSP, Clojurians-log-v2, Malli, PCP and our long term projects with Bozhidar Batsov, Michiel Borkent, Dragan Djuric, Thomas Heller, David Nolen, and Nikita Prokopov.
-draft: true
 ---
 
-#### This post includes also our long-term projects updates. Here are the project updates from the second half of October to November. 
-
+This post includes also our long-term projects updates. Here are the project updates from the second half of October to November. Updates for December will be coming soon!
 
 ## Clojure LSP
 
