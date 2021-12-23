@@ -406,6 +406,10 @@ main.markdown-page img {
     max-width: 100%;
 }
 
+.highlight pre {
+    overflow: auto;
+}
+
 @media screen and (max-width: 500px) {
     .header-logo {
         height: 200px;
