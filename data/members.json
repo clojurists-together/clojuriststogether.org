@@ -326,6 +326,13 @@
     "founding" : false,
     "tagline" : "We support our customers in the publishing industry and the public sector with highly specialized software solutions, most of them written in Clojure. We are happy to support the Clojure community and the further development of Clojure."
   }, {
+    "name" : "Codesmith GmbH",
+    "member_type" : "company",
+    "url" : "https://codesmith.ch",
+    "logo" : null,
+    "level" : "assoc",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1377,7 +1384,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 45,
+    "company" : 46,
     "developer" : 210
   }
 }
