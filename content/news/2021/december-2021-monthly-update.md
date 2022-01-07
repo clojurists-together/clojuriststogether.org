@@ -1,12 +1,12 @@
 ---
 title: "December 2021 Monthly Update"
-date: 2021-12-27T09:30:00+08:00
+date: 2022-01-08T05:40:00+08:00
 author: Alyssa Parado
-summary: Read updates from Dependabot Core, Clojure LSP, Typed Clojure, Polylith, and Holy Lambda
+summary: Read updates from Dependabot Core, Clojure LSP, Typed Clojure, Polylith, Holy Lambda, Clojurians-log-v2, Malli, and our long term projects with Bozhidar Batsov, Dragan Djuric, Thomas Heller, David Nolen, and Nikita Prokopov
 draft: true
 ---
 
-I hope all of you had a wonderful time with your family this holiday season. Below are the recent project updates. 
+Happy New Year everyone! I hope all of you had a wonderful holiday season with your loved ones. Below are the recent project updates to wrap up the end of the year 2021. 
 
 
 
@@ -178,5 +178,270 @@ Why it's important?
 
 
 
+## Clojurians-log-v2
+Hello fellow clojurians!
+
+The beta release of Clojurians log v2 is live at: https://clojurians-log-v2.oxal.org/ 🦄 😊
+
+Source code: github.com/oxalorg/clojurians-log-v2
+
+The initial goal we had with clojurians=log-v2 was mostly around improved full
+text searching. But as we all know the clojurians slack was sponsored for a paid
+version for the next 1 year (thanks to all who got this done!) which means our
+direction has to change a little.
+
+Although full text search will be available and working on the v2, we would like
+to focus more on other parts of the app now and find ways to make the logs more 
+usefull because paid slack already does search very well.
+
+With that said the beta release now had the following work put into it:
+
+* The importing of data for threaded messages / replies / reactions has been
+  added. This was huge as this was the last key pending in the idempotent
+  imports 🎉.
+* UI now shows all thread messages directly under the parent. This is effecient
+  enough to not cause any slowdowns.
+* The UI is now fully mobile responsive 📱. That means easy reading of logs from
+  your bed, and also better SEO points by Google!
+* That brings us to SEO. Not only are we fully compatible with the existing
+  clojurians-log, but we have also added lots of open-graph tags, html structure
+  and other small changes for optimal SEO brownie points. The improved seo tags
+  should also now help "Clojure" to rank higher in the TIOBE index.
+* Lots of behind the scene work to improve deployment strategy. Although not
+  fully automated, I have some local scripts which gets me to deploy new
+  versions quite easily. A future task would be to convert it into GH actions.
+* Added support for db migrations using migratus.
+* Analytics for the website are now PUBLIC. You can view them at
+  https://clojurians-log-v2.goatcounter.com/
+  
+I would like to extend immense gratitude to the clojurists-together team and the
+clojure community for helping us get here.
+
+So what's next? We do have a near-future roadmap of things which should land in very soon:
+
+* Right now all the data imports are manual. Implementing of real-time socket
+  API and making it compatible / interchangable with the idempotent incremental
+  imports (w/ option to backfill data) is posing a bit of a hassle which needs
+  some more work
+* Although we've got the reactions into the database, rendering of reactions as
+  emojis on the UI is pending
+* Contacting a clojurians slack admin to get the data up-to-date
+
+After that, there are tons more ideas listed on the repo which should keep us
+busy throughout the next year! Super humbled and excited to continue working on
+this 🙏😊
+
+Cheers and Happy New Years everyone 🌟🎄
+
+Mitesh (@oxalorg)
+
+
+
+
+
+## Malli
+
+Part 2/3 by [Tommi Reiman](https://twitter.com/ikitommi).
+
+<img src="https://raw.githubusercontent.com/metosin/malli/master/docs/img/malli.png" width=150 align="right"/>
+
+#### Done Stuff
+
+* Shipped one of the biggest releases of Malli, the 0.7.0 on Dec 7th! contained all the stuff done earlier + small fixes and more performance improvements & tests
+* Wrote [High-Performance Schemas in Clojure/Script with Malli 1/2](https://www.metosin.fi/blog/high-performance-schemas-in-clojurescript-with-malli-1-2/) to celebrate the release
+* Implemented a most wanted feature, [a swappable default registry](https://github.com/metosin/malli/blob/master/CHANGELOG.md#swappable-default-registry)
+* Helping users and contributors (should do much more of this)
+* 27 Closed PRs
+* Pushed five small patch releases (0.7.1 - 0.7.5) with bug fixes, updated dependencies and some nice schema provider improvements:
+  * support for `:map-of`, `:tuple` and `:enum` types
+  * support for type-hints
+  * schema inferring via value decoding (e.g. `:uuid`, `inst?`)
+  * performance improvements
+* Improvements to [clj-kondo](https://github.com/clj-kondo/clj-kondo) interop
+
+#### TODO
+
+Zillion things to do and 2 months to go. Currently working on [destructuring parser](https://github.com/metosin/malli/pull/606) to enable first-class support inline typehints and to support inferring of function schemas from vanilla Clojure/Script. Seems like the easy features are all done, just the hard ones left :)
+
+Cheers.
+
+
+
+
+
+
+## Bozhidar Batsov
+
+In the past couple of months I've achieved the following major objectives:
+
+* Released nREPL 0.9 (https://metaredux.com/posts/2021/12/12/nrepl-0-9.html)
+* Released CIDER 1.2 (https://metaredux.com/posts/2021/12/22/cider-1-2-nice.html)
+
+Some smaller achievements from this period:
+
+* Lots of documentation improvements for CIDER (https://docs.cider.mx)
+* CIDER is now available for installation from NonGNU ELPA (https://elpa.nongnu.org/nongnu/cider.html)
+* cider-nrepl and orchard had new releases. Orchard finally achieved its goal to
+get rid of its dynapath dependency and is now a dep-free library (which is a very desirable trait in development tooling).
+
+Going forward I'll need to update Leiningen for nREPL (mostly to support starting a server listening to an Unix socket), solidify the API specs for nREPL and cider-nrepl and continue to polish the new CIDER functionality. If I have enough time and inspiration I might revisit sayid for a bit as well. Thanks to everyone for your support!
+
+
+
+
+
+## Dragan Djuric
+
+The main objective during November and December was to create a cuDNN-based GPU implementation of Deep Diamond's
+support for advanced neural networks developed on the CPU in the previous two months.
+Previously, Deep Diamond's cuDNN engines supported fully connected layers, convolutional layers, and a bunch of supporting
+infrastructure for effective learning, including access at different abstraction tiers, from lowest, tensor routines level,
+to automatic network construction from pure, simple, Clojure functions. Tensor operations were quite well developed, too.
+This high level API only supported sequential architecture of layers (which is quite useful) but
+not branching that would enable advanced direct acyclic graphs, which is used in many modern networks.
+This required matching implementation of relevant lower level concepts that I've developed on DNNL, but backed by cuDNN.
+While working on this, I fixed bugs that slipped previously, improved general code, and tests.
+
+The following features were developed for cuDNN engine:
+
+    - Implementation of Bach Normalization (API, functions, layer, and the cuDNN backend)
+    - Concatenation (API, functions, layer, cuDNN backend)
+    - Branching (API, functions, layer, cuDNN backend)
+    - Sum (API, functions, layer, cuDNN)
+    - Split (API, functions, layer, cuDNN)
+    - Parallel network branches support for cuDNN
+    - Tested cuDNN support for directed acyclic graphs in high-level API
+    - Improved some internal code.
+    - Several important bugfixes
+    - Tests for all this
+    - Research (literature, theory) in the background
+
+Although that work finely summed up by the end of the month, I'm still not satisfied with the polish,
+so I decided not to rush the release before doing further high-level tests. I expect to uncover some
+more subtle bugs (of course, whoever wants to experiment, can easily clone the repository from GitHub and build their own snapshot).
+I plan to tackle this in January, since I wouldn't be able to do more serious deep work during that time
+due to numerous classes and exams.
+
+I hope that in February I'll be able to have more uninterupted periods for the next major theme (still
+undecided what will come first: Neanderthal sparse matrices, Neanderthal FFT, or some work on Deep Diamond support for recurrent networks).
+Anyway, the next big chunk of work in February, March, and/or April should be Recurrent Networks support,
+as the last major feature that was missing from DD.
+
+In addition to this, I devoted lots of time to learning skills in preparation for a new Clojure project.
+There's a long path ahead, so it might be many months until I'm ready to actually build and release
+something, but I hope that this long shot will be interesting to many Clojurists,
+and hopefully many not(yet)-Clojurists. (I realize that this sentence is verbatim copy/paste from the
+last report, but it's the same long-term work that the sentence describes accurately. ;)
+
+
+
+
+
+## Thomas Heller
+
+Time was mostly spent on doing maintenance work and some bugfixes. As well as helping people out via the typical channels (eg. Clojurians Slack).
+
+Current shadow-cljs version: 2.16.10 [Changelog](https://github.com/thheller/shadow-cljs/blob/master/CHANGELOG.md)
+
+Notable Updates
+
+- Updated everything to support the latest ClojureScript and Closure Compiler/Library releases. This included some breaking changes originating from the Closure Library. More info is available in the [ClojureScript news post](https://clojurescript.org/news/2021-11-04-release).
+- Added a new `^:dev/asset-load` metadata hook as requested by [#951](https://github.com/thheller/shadow-cljs/issues/951). This allows calling a CLJS function after a CSS file was hot-reloaded. This may be useful if you are using `getComputedStyle` and use the results somewhere in your code.
+
+Example: 
+```clojure
+(defn ^:dev/asset-load css-updated! [path node]
+  (js/console.log "css-updated!" path node))
+
+;; path is the path used in <link href="...">
+;; node is the actual link DOM node
+```
+
+
+
+
+
+
+## David Nolen
+
+#### November
+- ClojureScript core.async: #js literal support
+- ClojureScript Test GitHub CI for Windows
+- General ClojureScript JIRA issues review
+
+#### December
+- Support Node.js "exports" in package.json (Fixes Firebase v9 usage)
+- ClojureScript Test GitHub CI for Windows
+- General ClojureScript JIRA issues review
+
+
+
+
+
+## Nikita Prokopov
+
+Hi, this is Niki Tonsky and I have been writing lots of Clojure for the past two months!
+
+#### [DataScript](https://github.com/tonsky/datascript/)
+
+- 6 new releases.
+- A full rewrite of `pull`/`pull-many`, up to 7× faster than before. `pull` is finally a better choice than `entity` performance-wise, as it was always supposed to be.
+- Patches and PRs.
+
+#### [HumbleUI](https://github.com/HumbleUI)
+
+- [Unified build system](https://github.com/HumbleUI/Skija/blob/master/script/build_utils.py) between all projects.
+- Skija upgdated to Skia m98.
+- Common types between JWM and Skija extracted into [github.com/HumbleUI/Types](https://github.com/HumbleUI/Types).
+- Simplified JWM usage: layers, event listeners, event propagation.
+- Ship Skija layers with JWM (Skija linked optionally).
+- All you need to get started with JWM now is create a window and provide `onPaint` handler. Everything else is optional.
+- [Basic Clojure APIs](https://github.com/HumbleUI/HumbleUI/blob/214352b2296ad89091c7891d7407a8b19d172d14/dev/user.clj#L23-L49) already allow one to build simple (but dynamic!) UIs. A screenshot:
+
+![](https://github.com/HumbleUI/HumbleUI/raw/main/extras/screenshot.png)
+
+This first UI demostrates:
+
+- JWM and Skija integration.
+- Text labels (including Unicode).
+- Correct text measurement (notice how perfectly centered text inside a button is).
+- Nested components.
+- Basic dynamic layout (center, gap, padding, column) relative to window size.
+- Dynamic components (hoverable/clickable button, click counter).
+- Composable and reusable components (see [the code](https://github.com/HumbleUI/HumbleUI/blob/214352b2296ad89091c7891d7407a8b19d172d14/dev/user.clj#L23-L49)).
+
+#### [Clojure Sublimed](https://github.com/tonsky/Clojure-Sublimed)
+
+- 10 new releases.
+- [Publicly announced](https://tonsky.me/blog/sublime-clojure/).
+- Renamed from Sublime Clojure to pass Package Control naming guidelines.
+- Still not merged to Package Control, but perfectly avaliable from sources.
+- Many patches by me and [Jaihindh Reddy](https://github.com/jaihindhreddy).
+
+#### [Uberdeps](https://github.com/tonsky/uberdeps/)
+
+- Issue: [Munge Main-Class name](https://github.com/tonsky/uberdeps/pull/45) submitted by [Maks](https://github.com/mvproton).
+
+#### [Tongue](https://github.com/tonsky/tongue/)
+
+- Feature: [Override missing key message](https://github.com/tonsky/tongue/issues/32).
+
+#### [net.async](https://github.com/tonsky/net.async)
+
+- [Unbind server port when calling shutdown!](https://github.com/tonsky/net.async/pull/5) via [dpetran](https://github.com/dpetran).
+
+#### YouTube:
+
+- New [Talk on QML](https://www.youtube.com/watch?v=HU_fvRfY2VA) (in Russian)
+- Advent of Code, [all 25 days](https://www.youtube.com/playlist?list=PLdSfLyn35ej-UL9AuxUvoFXerHac4RYnH) solved live in Clojure, Sublime Text and Clojure Sublimed in front of a camera.
+
+#### Design:
+
+- [New logo for clj-commons](https://tonsky.me/design/#clj-commons)
+- [New logo for EQL](https://tonsky.me/design/#eql)
+
+To wrap up 2021, I build this simple interactive demo in Humble UI [watch it here](https://youtu.be/qqfiWlr2YHw)
+
+Happy New Year!
 
 
