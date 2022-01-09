@@ -140,6 +140,13 @@
     "level" : "cons",
     "founding" : false
   }, {
+    "name" : "Cognician",
+    "member_type" : "company",
+    "url" : "https://www.cognician.com",
+    "logo" : null,
+    "level" : "cons",
+    "founding" : false
+  }, {
     "name" : "Jacek Schae (Learn Reagent, Learn re-frame)",
     "member_type" : "company",
     "url" : "https://www.jacekschae.com/",
@@ -1384,7 +1391,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 46,
+    "company" : 47,
     "developer" : 210
   }
 }
