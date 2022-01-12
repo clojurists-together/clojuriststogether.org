@@ -2,7 +2,7 @@
 title: "December 2021 Monthly Update"
 date: 2022-01-08T05:40:00+08:00
 author: Alyssa Parado
-summary: Read updates from Dependabot Core, Clojure LSP, Typed Clojure, Polylith, Holy Lambda, Clojurians-log-v2, Malli, and our long term projects with Bozhidar Batsov, Dragan Djuric, Thomas Heller, David Nolen, and Nikita Prokopov
+summary: Read updates from Dependabot Core, Clojure LSP, Typed Clojure, Polylith, Holy Lambda, Clojurians-log-v2, Malli, PCP, and our long term projects with Bozhidar Batsov, Dragan Djuric, Thomas Heller, David Nolen, and Nikita Prokopov
 draft: true
 ---
 
@@ -265,6 +265,43 @@ Zillion things to do and 2 months to go. Currently working on [destructuring par
 
 Cheers.
 
+
+
+
+
+## PCP
+
+TLDR
+* [x]  Create Project using CLI from [template project](https://github.com/alekcz/pcp-template)
+* [x] Introduce dev daemon simplified local development
+* [x] Reworked CLI for easier maintenance
+* [x] Automated docker image creation 
+* [x] Add convenience script for docker
+* ~~Trigger Deploy from CLI~~
+* ~~Deploy from git~~
+* [ ] Create 1-click deploy to Heroku
+* [ ] Document the new and improved PCP. 
+
+Hello friends. I hope you had a pleasant holiday season. It's been an interesting 45 days for PCP. I'm in two minds about the progress to date. Hammock time overtook hand on keyboard time. The change was quite uncomfortable but I think overall better for the project. 
+
+Initially my thinking was to add functionality like the firebase-cli with something along the lines of `pcp deploy` as well as something like heroku where `git push pcp` would trigger a deploy. These two approaches are critical in the absence of container based deploys. They are however (in my estimation) inferior if containerized deploys are possible. I spent a fair bit investigating both. 
+
+- `pcp deploy` introduces the question whether latest in git is equivalent to the latest deployed version. 
+- `git push pcp` requires either a standalone git server (not possible with a $5 VPS) or two a fro between the VPS and the git repository. 
+
+Both of these issues are eliminated by connecting the pcp docker images and the project repository directly to DigitalOcean or Heroku (or any other app platform) as you get the the benefits of the $5 VPS (low price) without the downside (managing the infra). 
+
+After coming this  conclusion improving the CLI became a lot more straight forward. The CLI is now easier to maintain and the end user can create project from the CLI directly in a manner that allows the project to be deployed to DigitalOcean directly. 
+
+There are two task I need to complete as part of Clojurists Together funding specifically the new documentation and the deployment to Heroku so our end user isn't locked in to DigitalOcean. I expect to complete these in the next week or so.
+
+So what's next? 
+This update is the last one as part of the Clojurists Together funding. It's not the end of PCP though. 
+I used PCP to build a simple In Memoriam during the last quarter. I now want to use PCP in anger, perhaps in e-commerce to really stress test it. I imagine I'll pick up some rough edges and bugs in the process. 
+
+It's been real. Stay frosty.
+
+Alex
 
 
 
