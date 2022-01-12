@@ -1389,9 +1389,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Alex Watkinson",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 210
+    "developer" : 211
   }
 }
