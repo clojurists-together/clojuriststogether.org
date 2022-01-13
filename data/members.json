@@ -1200,11 +1200,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "-",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Remy Rojas",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1397,6 +1392,6 @@
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 211
+    "developer" : 210
   }
 }
