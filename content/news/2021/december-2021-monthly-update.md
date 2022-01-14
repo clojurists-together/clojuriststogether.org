@@ -3,7 +3,6 @@ title: "December 2021 Monthly Update"
 date: 2022-01-08T05:40:00+08:00
 author: Alyssa Parado
 summary: Read updates from Dependabot Core, Clojure LSP, Typed Clojure, Polylith, Holy Lambda, Clojurians-log-v2, Malli, PCP, and our long term projects with Bozhidar Batsov, Dragan Djuric, Thomas Heller, David Nolen, and Nikita Prokopov
-draft: true
 ---
 
 Happy New Year everyone! I hope all of you had a wonderful holiday season with your loved ones. Below are the recent project updates to wrap up the end of the year 2021. 
@@ -18,8 +17,9 @@ We rapidly figured out that the people at github are currently considering a maj
 "require us to write a whole bunch of ruby" we realized later on.
 
 Shortly after, Github's stakeholders were contacted involved in the process of figuring out the best way to build the system.
-No meeting has been set yet but daniel's went ahead and set up a doodle for all us.
 I also made sure to create a slack channel on the clojurians slack for communications on this.
+
+We had a discussion with the GitHub Dependabot team, they're working on a new integration path which will be a lot easier for us to integrate against. The current plan is to review this new API sometime in Q1 2022.
 
 For the next weeks, we're hoping to understand where the dependabot team is heading towards in terms of designs, and hopefully be able to tag along and start writing code that would benefit from the new apis.
 I'm also hoping to be able to involve as many people as possible in the work.
