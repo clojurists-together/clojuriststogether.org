@@ -895,11 +895,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Thomas Taylor",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Dominic Monroe",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1392,6 +1387,6 @@
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 210
+    "developer" : 209
   }
 }
