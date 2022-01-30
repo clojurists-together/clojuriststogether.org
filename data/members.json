@@ -147,12 +147,13 @@
     "level" : "cons",
     "founding" : false
   }, {
-    "name" : "Jacek Schae (Learn Reagent, Learn re-frame)",
+    "name" : "ClojureStream",
     "member_type" : "company",
-    "url" : "https://www.jacekschae.com/",
+    "url" : "https://clojure.stream",
     "logo" : null,
     "level" : "filter",
-    "founding" : false
+    "founding" : false,
+    "tagline" : "Learn Clojure, ClojureScript, Datalog, and ecosystem of libraries by building projects with idiomatic Clojure code."
   }, {
     "name" : "Petit Perou",
     "member_type" : "company",
