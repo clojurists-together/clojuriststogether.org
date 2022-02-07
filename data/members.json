@@ -1385,9 +1385,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Ralf Schmitt",
+    "member_type" : "developer",
+    "level" : "developer",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 209
+    "developer" : 210
   }
 }
