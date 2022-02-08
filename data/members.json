@@ -341,6 +341,13 @@
     "level" : "assoc",
     "founding" : false
   }, {
+    "name" : "180 Seguros",
+    "member_type" : "company",
+    "url" : "https://180s.com.br",
+    "logo" : null,
+    "level" : "filter",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1392,7 +1399,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 47,
+    "company" : 48,
     "developer" : 210
   }
 }
