@@ -192,7 +192,7 @@ While working on the above tasks, I will also lean on the resources within the S
 
 
 ## Clj-kondo, babashka, and other related projects
-**Funding details:** $9,000 USD (3 months)
+**Funding details:** $9,000 USD (6 months)
 
 **Why is this project important to the Clojure community?**
 
