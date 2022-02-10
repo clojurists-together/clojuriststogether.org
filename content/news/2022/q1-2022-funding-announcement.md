@@ -1,7 +1,7 @@
 ---
 title: "Q1 2022 Funding Announcement"
 date: 2022-02-08T09:30:00+08:00
-summary: Clojurists Together is funding 12 projects for Q1 2022. These projects are practicalli, clojure-lsp, deep diamond, datahike server, tablecloth, and clj-kondo, babashka, and other related projects with $9,000, conjure, reveal, overtone playground with $2,000, and biff, orchard, and typed clojure with $1,000.
+summary: Clojurists Together is funding 12 projects for Q1 2022. These projects are practicalli, clojure-lsp, deep diamond, datahike server, tablecloth, and clj-kondo, conjure, reveal, overtone playground biff, orchard, and Typed Clojure
 author: Alyssa Parado
 draft: true
 ---
