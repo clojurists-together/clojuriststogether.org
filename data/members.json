@@ -341,12 +341,13 @@
     "level" : "assoc",
     "founding" : false
   }, {
-    "name" : "180 Seguros",
+    "name" : "180° Seguros",
     "member_type" : "company",
     "url" : "https://180s.com.br",
-    "logo" : null,
+    "logo" : "/logos/180-seguros.png",
     "level" : "filter",
-    "founding" : false
+    "founding" : false,
+    "tagline" : "Transform how insurance is distributed and consumed in Brazil"
   }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
