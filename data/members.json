@@ -389,7 +389,7 @@
     "level" : "contributing",
     "founding" : true
   }, {
-    "name" : "Boris Schmid",
+    "name" : "Boris V. Schmid",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : true
@@ -684,11 +684,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Michael Alyn Miller",
-    "member_type" : "developer",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Nils Grunwald",
     "member_type" : "developer",
     "level" : "contributing",
@@ -874,11 +869,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Michael Camilleri",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Shintaro Matsushima",
     "member_type" : "developer",
     "level" : "contributing",
@@ -890,11 +880,6 @@
     "founding" : false
   }, {
     "name" : "Chris Oakman",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Harish Tella",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
@@ -1401,6 +1386,6 @@
   } ],
   "member_stats" : {
     "company" : 48,
-    "developer" : 210
+    "developer" : 207
   }
 }
