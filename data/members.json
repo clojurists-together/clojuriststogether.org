@@ -147,14 +147,6 @@
     "level" : "cons",
     "founding" : false
   }, {
-    "name" : "ClojureStream",
-    "member_type" : "company",
-    "url" : "https://clojure.stream",
-    "logo" : "/logos/clojurestream.png",
-    "level" : "filter",
-    "founding" : false,
-    "tagline" : "Learn Clojure, ClojureScript, Datalog, and ecosystem of libraries by building projects with idiomatic Clojure code."
-  }, {
     "name" : "Petit Perou",
     "member_type" : "company",
     "url" : "https://www.petit-perou.tech",
