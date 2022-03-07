@@ -53,17 +53,6 @@ Here is the changelog of this release:
   - Add support for passing specific `--filenames` for most actions. #775
 
 
-
-
-
-## Dependabot Core
-
-
-
-
-
-
-
 ## Malli
 
 by [Tommi Reiman](https://twitter.com/ikitommi)
@@ -145,16 +134,131 @@ Cheers.
 
 
 
-## Bozhidar Batsov
-
-
-
-
-
-
 ## Michiel Borkent
 
+#### Babashka
+Native, fast starting Clojure interpreter for scripting.
 
+Published versions: 0.7.4 - 0.7.6.
+
+Read the changelog [here](https://github.com/babashka/babashka/blob/master/CHANGELOG.md).
+
+Highlights:
+
+- Add new namespace from clojure 1.11: clojure.math
+- Performance improvements (see SCI).
+- Compatibility with more Clojure libraries and lots of small bug fixes.
+
+I also submitted a PR to cli-matic to fix the long standing issue about babashka compatibility.
+
+Please leave some feedback about babashka in the [Q1 Survey](https://forms.gle/ko3NjDg2SwXeEoNQ9)!
+
+#### Clj-kondo
+A linter for Clojure (code) that sparks joy.
+
+Published versions: 2022.01.13, 2022.01.15, 2022.02.09.
+
+Read the changelog [here](https://github.com/clj-kondo/clj-kondo/blob/master/CHANGELOG.md).
+
+Highlights:
+
+- Maybe new linters added: :conflicting-fn-arity, :clj-kondo-config, :reduce-without-init, :redundant-fn-wrapper, linting for bb.edn config files.
+- Improvements with regards to type inferences and map results
+- Contributed to clj-kondo config in better-cond so everyone who uses the library gets correct and useful linting feedback.
+
+#### SCI
+Configurable Clojure interpreter suitable for scripting and Clojure DSLs.
+
+Published versions: v0.2.9 - v0.3.1.
+
+Read the changelog [here](https://github.com/babashka/sci/blob/master/CHANGELOG.md).
+
+- Fix compatibility with Graal.js
+- Performance improvements for loops and vararg function calls.
+- JS interop fixes / improvements
+
+#### Nbb
+Ad-hoc CLJS scripting on Node.js using SCI.
+
+Published versions: v0.1.1 - v0.2.0.
+
+Read the changelog [here](https://github.com/babashka/nbb/blob/main/CHANGELOG.md).
+
+Highlights:
+
+- See SCI improvements.
+- Bundled library updates
+
+#### Scittle
+Published versions: v0.1.0 - v0.1.2.
+
+Read the changelog [here](https://github.com/babashka/scittle/blob/main/CHANGELOG.md).
+
+Highlights:
+
+- Upgrade SCI with performance and JS interop improvements
+- Expose more Reagent features
+
+#### Obb
+Ad-hoc ClojureScript scripting of Mac applications via Apple's Open Scripting Architecture.
+
+Published versions: 0.0.1 - 0.0.2
+
+Read the changelog [here](https://github.com/babashka/obb/blob/main/CHANGELOG.md).
+
+Highlights:
+
+- This is a new project!
+
+#### Fs
+File system utility library for Clojure.
+
+Published versions: 0.1.3.
+
+Read the changelog [here](https://github.com/babashka/fs/blob/master/CHANGELOG.md).
+
+Highlights:
+
+- New functions create-temp-file and zip
+- Compatibility with com.google.cloud/google-cloud-nio
+
+#### Process
+Clojure wrapper for java.lang.ProcessBuilder.
+
+Published versions: 0.1.1. Read the changelog [here](https://github.com/babashka/process/blob/master/CHANGELOG.md).
+
+Highlights:
+
+- Support appending to files in addition to overwriting them.
+
+#### Pod-babashka-go-sqlite-3
+A babashka pod for interacting with sqlite3.
+
+Released versions: 0.1.0.
+
+Highlights:
+
+- Bump sqlite version and support single string rather than wrapped in vector.
+
+#### Pod-babashka-buddy
+A pod around buddy core (Cryptographic Api for Clojure).
+
+Released versions: 0.1.0.
+
+Highlights: 
+
+- Expose more namespaces.
+
+#### Pod-babashka-aws
+AWS pod wrapping the Cognitect aws-api library.
+
+Released versions: 0.1.1-0.1.2.
+
+Read the changelog [here](https://github.com/babashka/pod-babashka-aws/blob/main/CHANGELOG.md).
+
+Highlights:
+
+- Provide aarch64 binary.
 
 
 
