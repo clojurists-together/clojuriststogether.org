@@ -3,6 +3,7 @@ title: "February 2022 Monthly Update"
 date: 2022-03-08T05:30:00+08:00
 summary: Read the first update from one of our 2022 Q1 projects Clojure-LSP, and the updates from the remaining 2021 projects Malli and our long term projects with Michiel Borkent, Dragan Djuric, Thomas Heller, David Nolen, and Nikita Prokopov
 author: Alyssa Parado
+published: true
 ---
 
 ## Clojure LSP
