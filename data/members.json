@@ -1076,11 +1076,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Mark Stuart",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Shunya Kawabata",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1378,6 +1373,6 @@
   } ],
   "member_stats" : {
     "company" : 48,
-    "developer" : 207
+    "developer" : 206
   }
 }
