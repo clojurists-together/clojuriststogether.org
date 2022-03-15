@@ -1370,9 +1370,14 @@
     "member_type" : "developer",
     "level" : "developer",
     "founding" : false
+  }, {
+    "name" : "Hall",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 48,
-    "developer" : 206
+    "developer" : 207
   }
 }
