@@ -1375,9 +1375,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Leif Eric Fredheim",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 48,
-    "developer" : 207
+    "developer" : 208
   }
 }
