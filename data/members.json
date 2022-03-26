@@ -341,6 +341,13 @@
     "founding" : false,
     "tagline" : "180° Seguros is an insurtech that was created with the purpose of transforming the model of consuming and distributing insurance in Brazil. We operate through a B2B2C model, providing a turnkey solution for companies to be able to sell insurance products in an innovative and digital way."
   }, {
+    "name" : "Matrix Operations",
+    "member_type" : "company",
+    "url" : "https://matrixops.com/",
+    "logo" : null,
+    "level" : "cons",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1380,9 +1387,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Amar Sood",
+    "member_type" : "developer",
+    "level" : "developer",
+    "founding" : false
   } ],
   "member_stats" : {
-    "company" : 48,
-    "developer" : 208
+    "company" : 49,
+    "developer" : 209
   }
 }
