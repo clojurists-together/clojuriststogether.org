@@ -147,6 +147,14 @@
     "level" : "cons",
     "founding" : false
   }, {
+    "name" : "ClojureStream",
+    "member_type" : "company",
+    "url" : "https://clojure.stream",
+    "logo" : "/logos/clojurestream.png",
+    "level" : "filter",
+    "founding" : false,
+    "tagline" : "Learn Clojure, ClojureScript, Datalog, and ecosystem of libraries by building projects with idiomatic Clojure code."
+  }, {
     "name" : "Petit Perou",
     "member_type" : "company",
     "url" : "https://www.petit-perou.tech",
@@ -281,6 +289,14 @@
     "level" : "map",
     "founding" : false,
     "tagline" : "A collaboration medium combining docs and whiteboards. Powered by Clojure!"
+  }, {
+    "name" : "AppsFlyer",
+    "member_type" : "company",
+    "url" : "https://www.appsflyer.com",
+    "logo" : "/logos/appsflyer.png",
+    "level" : "transduce",
+    "founding" : false,
+    "tagline" : "The world’s top brands trust the AppsFlyer Cloud to help them build great products, create exceptional experiences, and preserve customer privacy."
   }, {
     "name" : "Helpshift",
     "member_type" : "company",
