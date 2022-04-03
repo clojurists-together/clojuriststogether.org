@@ -169,13 +169,6 @@
     "founding" : false,
     "tagline" : "Clubhouse is an intuitive and enjoyable project management platform."
   }, {
-    "name" : "Conrad Barski",
-    "member_type" : "company",
-    "url" : "https://twitter.com/lisperati",
-    "logo" : "/logos/lisperati.png",
-    "level" : "transduce",
-    "founding" : false
-  }, {
     "name" : "Latacora, LLC",
     "member_type" : "company",
     "url" : "https://www.latacora.com",
@@ -1394,7 +1387,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 49,
+    "company" : 48,
     "developer" : 209
   }
 }
