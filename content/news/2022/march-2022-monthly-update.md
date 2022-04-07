@@ -101,6 +101,8 @@ Here is what it looks like:
 
 <video controls><source src="https://vlaaad.github.io/assets/reveal/test-runner.mp4" type="video/mp4"></source></video>
 
+![test runner](https://github.com/clojurists-together/clojuriststogether.org/blob/master/content/news/2022/test-runner.gif)
+
 During the remaining month, I plan to revamp the Reveal site to make it more structured and approachable, and in turn, make Reveal easier to set up, understand, and use.
 
 
