@@ -617,6 +617,11 @@
     "level" : "contributing",
     "founding" : false
   }, {
+    "name" : "Yiu Ming Huynh",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
     "name" : "Christina Lewis",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1404,6 +1409,6 @@
   } ],
   "member_stats" : {
     "company" : 48,
-    "developer" : 209
+    "developer" : 210
   }
 }
