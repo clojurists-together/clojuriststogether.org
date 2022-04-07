@@ -1,19 +1,10 @@
 ---
 title: "March 2022 Monthly Update"
 date: 2022-04-08T04:30:00+08:00
-summary: Read the updates of the following projects Dependabot Core, Biff, Orchard, Typed Clojure, Reveal, Clojure-LSP, Deep Diamond, and Firefox
+summary: Read the project updates of Dependabot Core, Biff, Orchard, Typed Clojure, Reveal, Clojure-LSP, Deep Diamond, and Firefox, and the update from our long term project with Bozhidar Batsov.
 author: Alyssa Parado
 draft: true
 ---
-
-## Dependabot Core
-
-* Communications on the slack channel.
-* Meeting with justin hutchings from github about the new apis we could use for the project.
-* Received API keys to tinker the project with, the api keys can only be used trough a github action for the time being.
-* This might be promising for the near future but requires further investigation. The documentation is long and java / javascript specific.
-* The next goal would be to build a proof of concept.
-
 
 ## Biff
 
@@ -255,4 +246,33 @@ Here is the changelog of this release:
 
 
 
+## Bozhidar Batsov
+
+In the past couple of months my main focus were:
+
+- CIDER 1.3 (which just got released on March 7th)
+- Improvements to clj-refactor.el and clojure-mode
+
+In CIDER we've been working towards replacing some fragile
+logic for dealing with package sources and Javadoc with
+the external enrich-classpath tool. While this already works
+reasonably well in most scenarios, there's still some edge
+cases that need to be addressed (mostly probably in CIDER 1.4).
+
+Another big change is some untangling of the dependency-injection
+code in CIDER, which was a total mess before CIDER 1.3.
+
+My availability was impacted heavily by the war in Ukraine, that's why this update is coming a bit late.
+
+
+
+
+
+## Dependabot Core
+
+* Communications on the slack channel.
+* Meeting with justin hutchings from github about the new apis we could use for the project.
+* Received API keys to tinker the project with, the api keys can only be used trough a github action for the time being.
+* This might be promising for the near future but requires further investigation. The documentation is long and java / javascript specific.
+* The next goal would be to build a proof of concept.
 
