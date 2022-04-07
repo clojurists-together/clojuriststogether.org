@@ -1,10 +1,19 @@
 ---
 title: "March 2022 Monthly Update"
 date: 2022-04-08T04:30:00+08:00
-summary: Read the first update from one of our 2022 Q1 projects Clojure-LSP, and the updates from the remaining 2021 projects Malli and our long term projects with Michiel Borkent, Dragan Djuric, Thomas Heller, David Nolen, and Nikita Prokopov
+summary: Read the updates of the following projects Dependabot Core, Biff, Orchard, Typed Clojure, Reveal, Clojure-LSP, Deep Diamond, and Firefox
 author: Alyssa Parado
 draft: true
 ---
+
+## Dependabot Core
+
+* Communications on the slack channel.
+* Meeting with justin hutchings from github about the new apis we could use for the project.
+* Received API keys to tinker the project with, the api keys can only be used trough a github action for the time being.
+* This might be promising for the near future but requires further investigation. The documentation is long and java / javascript specific.
+* The next goal would be to build a proof of concept.
+
 
 ## Biff
 
