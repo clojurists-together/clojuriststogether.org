@@ -3,7 +3,7 @@ title: "March 2022 Monthly Update"
 date: 2022-04-08T04:30:00+08:00
 summary: Read the project updates of Dependabot Core, Biff, Orchard, Typed Clojure, Reveal, Clojure-LSP, Deep Diamond, and Firefox, and the update from our long term project with Bozhidar Batsov.
 author: Alyssa Parado
-draft: true
+published: true
 ---
 
 ## Biff
@@ -52,7 +52,7 @@ I've invested a day to look into my preferred method of solving this: inspecting
 
 It turns out even the only kind of viable way to do that is [Function.caller](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/caller) which has multiple problems:
 
-1. It's desecrated
+1. It’s deprecated
 2. We'd have to rewrite every generated JS function to add this
 3. We would have to execute every function
 4. Worst: There is no general way to even run every code path
