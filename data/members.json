@@ -1406,9 +1406,14 @@
     "member_type" : "developer",
     "level" : "developer",
     "founding" : false
+  }, {
+    "name" : "Harbin",
+    "member_type" : "developer",
+    "level" : "developer",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 48,
-    "developer" : 210
+    "developer" : 211
   }
 }
