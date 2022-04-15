@@ -267,14 +267,6 @@
     "level" : "cons",
     "founding" : false
   }, {
-    "name" : "Parkside",
-    "member_type" : "company",
-    "url" : "https://parkside.app",
-    "logo" : "/logos/parkside.svg",
-    "level" : "filter",
-    "founding" : false,
-    "tagline" : "Parkside is simplifying global access to US stocks through regulatory innovation and modern technology. We are a Clojure shop, building a cutting edge distributed trading platform using Kafka Streams."
-  }, {
     "name" : "LegalMate",
     "member_type" : "company",
     "url" : "https://legalmate.co",
@@ -1413,7 +1405,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 48,
+    "company" : 47,
     "developer" : 211
   }
 }
