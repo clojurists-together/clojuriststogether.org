@@ -155,6 +155,13 @@
     "founding" : false,
     "tagline" : "Learn Clojure, ClojureScript, Datalog, and ecosystem of libraries by building projects with idiomatic Clojure code."
   }, {
+    "name" : "Condense",
+    "member_type" : "company",
+    "url" : "https://www.condense.com.au",
+    "logo" : null,
+    "level" : "assoc",
+    "founding" : false
+  }, {
     "name" : "Petit Perou",
     "member_type" : "company",
     "url" : "https://www.petit-perou.tech",
@@ -1398,7 +1405,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 46,
+    "company" : 47,
     "developer" : 211
   }
 }
