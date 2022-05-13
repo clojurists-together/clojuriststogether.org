@@ -176,13 +176,13 @@
     "level" : "cons",
     "founding" : false
   }, {
-    "name" : "Clubhouse",
+    "name" : "Shortcut",
     "member_type" : "company",
-    "url" : "https://www.clubhouse.io",
-    "logo" : "/logos/clubhouse.svg",
+    "url" : "https://shortcut.com",
+    "logo" : "/logos/shortcut.svg",
     "level" : "filter",
     "founding" : false,
-    "tagline" : "Clubhouse is an intuitive and enjoyable project management platform."
+    "tagline" : "Shortcut is an intuitive and enjoyable project management platform."
   }, {
     "name" : "Latacora, LLC",
     "member_type" : "company",
