@@ -1004,11 +1004,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Patrick Farwick",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Aleksander S",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1406,6 +1401,6 @@
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 211
+    "developer" : 210
   }
 }
