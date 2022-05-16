@@ -1,6 +1,6 @@
 ---
 title: "April 2022 Monthly Update"
-date: 2022-05-10T016:30:00+08:00
+date: 2022-05-10T08:30:00+08:00
 summary: Read the project updates of Overtone Playground, Datahike Server, Biff, Orchard, Typed Clojure, Reveal, Deep Diamond, Firefox, Clojure LSP and the updates from our long term project with Bozhidar Batsov, Michiel Borkent, Dragan Djuric, Thomas Heller, David Nolen, and Nikita Prokopov
 author: Alyssa Parado
 published: true
