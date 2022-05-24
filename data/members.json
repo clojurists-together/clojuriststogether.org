@@ -1219,11 +1219,6 @@
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "David Jacka",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Theophile Villard",
     "member_type" : "developer",
     "level" : "developer",
@@ -1396,6 +1391,6 @@
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 209
+    "developer" : 208
   }
 }
