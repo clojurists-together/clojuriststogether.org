@@ -14,10 +14,22 @@
 
 <h2>Currently Funded Projects</h2>
 
+{{ $tiers := slice }}
 {{ range where $.Site.Data.projects "current" true }}
-{{ partial "project" .}}
+{{ $tiers = $tiers | append .tier }}
 {{end}}
 
+{{ $tiers = uniq $tiers }}
+
+{{ range $tiers }}
+
+{{ $tier := . }}
+<h3>{{ $tier }}</h3>
+
+{{ range (where (where $.Site.Data.projects "current" true) "tier" $tier) }}
+{{ partial "project" .}}
+{{end}}
+{{end}}
 
 <h2>Previously Funded Projects</h2>
 
@@ -35,7 +47,7 @@
 {{ range $rounds }}
 
 {{ $round := . }}
-<h2>{{ $round }}</h2>
+<h3>{{ $round }}</h3>
 {{ range (where (where $.Site.Data.projects "current" false) "round" $round) }}
 {{ partial "project" .}}
 {{end}}

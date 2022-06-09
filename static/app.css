@@ -329,10 +329,6 @@ h3{
     margin-top: 40px;
 }
 
-.projects h2, .projects h3{
-    margin-top: 60px;
-}
-
 .projects p{
     max-width: 530px;
 }
@@ -361,6 +357,10 @@ h3{
 }
 .founding-developer ul li {
    width: 100%;
+}
+
+.projects h2 {
+    border-bottom: 1px solid;
 }
 
 .projects h3.project {
