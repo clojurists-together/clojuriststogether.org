@@ -1,12 +1,22 @@
-<h3 class="project"><a target="_blank" href="{{ .url }}">{{ .name }}<img class="open-in-new"
-            src="/icons/open-in-new-24px.svg" alt="open in new tab icon" /></a>
-</h3>
+<h4 class="project">
+    {{ if isset . "url" }}
+    <a target="_blank" href="{{ .url }}">{{ .name }}
+        <img class="open-in-new"
+             src="/icons/open-in-new-24px.svg" alt="open in new tab icon" />
+    </a>
+    {{ else }}
+    <div>{{ .name }}</div>
+    {{ end }}
+</h4>
 
 
 {{ if isset . "logo" }}
 <p class="project-logo">
     <a target="_blank" href="{{ .url }}"><img src="{{ .logo }}" alt="{{ .name }} logo" /></a>
 </p>
+{{ end }}
+
+{{ if isset . "tier"}}
 {{ end }}
 
 {{ .description | markdownify }}

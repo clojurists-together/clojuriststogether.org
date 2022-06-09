@@ -1,9 +1,186 @@
+- name: Bozhidar Batsov
+  tier: Long-term (USD 1.5k/month)
+  date: 2021-09-01
+  round: Long-term
+  current: true
+- name: Michiel Borkent
+  tier: Long-term (USD 1.5k/month)
+  date: 2021-09-01
+  round: Long-term 2021
+  current: true
+- name: Dragan Djuric
+  tier: Long-term (USD 1.5k/month)
+  date: 2021-09-01
+  round: Long-term 2021
+  current: true
+- name: Thomas Heller
+  tier: Long-term (USD 1.5k/month)
+  date: 2021-09-01
+  round: Long-term 2021
+  current: true
+- name: David Nolen
+  tier: Long-term (USD 1.5k/month)
+  date: 2021-09-01
+  round: Long-term 2021
+  current: true
+- name: Nikita Prokopov
+  tier: Long-term (USD 1.5k/month)
+  date: 2021-09-01
+  round: Long-term 2021
+  current: true
+- name: Practicalli
+  url: https://github.com/practicalli
+  tier: USD 9k
+  description: A collection of open books, workshops and tutorials on software development for Clojure.
+  date: 2022-03-01
+  round: Q1 2022
+  current: true
+- name: Clojure-LSP
+  url: https://github.com/clojure-lsp/clojure-lsp
+  tier: USD 9k
+  description: Clojure & ClojureScript Language Server (LSP) implementation.
+  date: 2022-03-01
+  round: Q1 2022
+  current: true
+- name: Deep Diamond
+  url: https://github.com/uncomplicate/deep-diamond
+  tier: USD 9k
+  description: A fast Clojure Tensor & Deep Learning library.
+  date: 2022-03-01
+  round: Q1 2022
+  current: true
+- name: Datahike Server
+  url: https://github.com/replikativ/datahike-server
+  tier: USD 9k
+  description: Datahike remote system.
+  date: 2022-03-01
+  round: Q1 2022
+  current: true
+- name: Tablecloth
+  url: https://github.com/scicloj/tablecloth
+  tier: USD 9k
+  description: Dataset manipulation library built on the top of tech.ml.dataset.
+  date: 2022-03-01
+  round: Q1 2022
+  current: true
+- name: Clj-kondo, babashka, and other related projects
+  url: https://github.com/clj-kondo/clj-kondo
+  tier: USD 9k
+  description: A linter for Clojure code that sparks joy.
+  date: 2022-03-01
+  round: Q1 2022
+  current: true
+- name: Conjure
+  url: https://github.com/Olical/conjure
+  tier: USD 2k
+  description: Interactive evaluation for Neovim (Clojure, Fennel, Janet, Racket, Hy, MIT Scheme, Guile).
+  date: 2022-03-01
+  round: Q1 2022
+  current: true
+- name: Reveal
+  url: https://vlaaad.github.io/reveal/
+  tier: USD 2k
+  description: Reveal is a Clojure-oriented data inspection toolbox that aims to remove the barrier between you and objects in your VM.
+  date: 2022-03-01
+  round: Q1 2022
+  current: true
+- name: Overtone Playground
+  url: https://github.com/savorocks/overtone-playground
+  tier: USD 2k
+  description: Overtone Playground is a library that opens the door for learning and exploring music with Clojure and Overtone.
+  date: 2022-03-01
+  round: Q1 2022
+  current: true
+- name: Biff
+  url: https://github.com/jacobobryant/biff
+  tier: USD 1k
+  description: A simple and easy web framework for Clojure.
+  date: 2022-03-01
+  round: Q1 2022
+  current: true
+- name: Orchard
+  url: https://github.com/clojure-emacs/orchard
+  tier: USD 1k
+  description: A fertile ground for Clojure tooling.
+  date: 2022-03-01
+  round: Q1 2022
+  current: true
+- name: Typed Clojure
+  url: https://github.com/clojure/core.typed
+  tier: USD 1k
+  description: An optional type system for Clojure.
+  date: 2022-03-01
+  round: Q1 2022
+  current: true
+- name: Shadow CLJS
+  url: https://github.com/thheller/shadow-cljs
+  tier: USD 9k
+  description: ClojureScript compilation made easy
+  date: 2021-09-01
+  round: Q3 2021
+  current: false
+- name: clojure-lsp
+  url: https://github.com/clojure-lsp/clojure-lsp
+  tier: USD 9k
+  description: Clojure & ClojureScript Language Server (LSP) implementation
+  date: 2021-09-01
+  round: Q3 2021
+  current: false
+- name: Malli
+  url: https://github.com/metosin/malli
+  tier: USD 9k
+  description: Data-Driven Schemas for Clojure/Script.
+  date: 2021-09-01
+  round: Q3 2021
+  current: false
+- name: Clojurians-log-v2
+  url: https://github.com/oxalorg/clojurians-log-v2
+  tier: USD 2k
+  description: Capturing, conserving, and making this discourse of Clojurians slack community complete, easily accessible, and searchable.
+  date: 2021-09-01
+  round: Q3 2021
+  current: false
+- name: PCP
+  url: https://github.com/alekcz/pcp
+  tier: USD 2k
+  description: Clojure Processor -- A Clojure replacement for PHP
+  date: 2021-09-01
+  round: Q3 2021
+  current: false
+- name: Holy Lambda
+  url: https://github.com/FieryCod/holy-lambda
+  tier: USD 2k
+  description: The extraordinary simple, performant, and extensible custom AWS Lambda runtime for Clojure.
+  date: 2021-09-01
+  round: Q3 2021
+  current: false
+- name: Dependabot Core
+  url: https://github.com/dependabot/dependabot-core
+  tier: USD 1k
+  description: The core logic behind Dependabot's update PR creation.
+  date: 2021-09-01
+  round: Q3 2021
+  current: false
+- name: Typed Clojure
+  url: https://github.com/clojure/core.typed
+  tier: USD 1k
+  description: An optional type system for Clojure
+  date: 2021-09-01
+  round: Q3 2021
+  current: false
+- name: Polylith
+  url: https://github.com/polyfy/polylith
+  tier: USD 1k
+  description: A tool used to develop Polylith based architectures in Clojure.
+  date: 2021-09-01
+  round: Q3 2021
+  current: false
 - name: O’Doyle Rules
   url: https://github.com/oakes/odoyle-rules
   description: Clojure needs another good rules engine. Clara is great but the lack of ability to update facts makes it difficult to use outside of “pure” logic problems. O’Doyle implements the same RETE algorithm but makes it more useful for general purpose “messy” use cases like managing the state of a frontend app or a game.
   date: 2020-11-01
   round: Q4 2020
-  current: true
+  current: false
 - name: clj-kondo/babashka/sci
   url: https://github.com/borkdude/clj-kondo
   description: |
@@ -14,7 +191,7 @@
     Sci is the Clojure interpreter powering babashka and several other projects.
   date: 2020-11-01
   round: Q4 2020
-  current: true
+  current: false
 - name: ClojisR
   url: https://github.com/scicloj/clojisr
   description: |
@@ -24,13 +201,13 @@
 
     The work that we’ll be doing with this funding will enable us to get closer to our goal of making Clojure a beginner-friendly solution for data science, thereby allowing us to expose the Clojure ecosystem to a different culture and to more diverse groups of users/programmers - starting with new developers and data scientists studying R as their main language.
   round: Q4 2020
-  current: true
+  current: false
 - name: Calva
   url: https://github.com/BetterThanTomorrow/calva
   description: We’ve seen that Calva helps new Clojurists get up and running with Clojure without having to worry so much about tooling. Perhaps more importantly, VS Code has become such a major platform for developers and it’s important to have Clojure(Script) support in the developers' editor of choice.
   date: 2020-11-01
   round: Q4 2020
-  current: true
+  current: false
 
 - name: clj-kondo/babashka/sci
   url: https://github.com/borkdude/clj-kondo
