@@ -1149,11 +1149,6 @@
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "Rangel Spasov",
-    "member_type" : "developer",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Josh Lemer",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1386,6 +1381,6 @@
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 207
+    "developer" : 206
   }
 }
