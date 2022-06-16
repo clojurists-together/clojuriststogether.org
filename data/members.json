@@ -1079,11 +1079,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Shunya Kawabata",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Bridget Hillyer",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1386,6 +1381,6 @@
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 207
+    "developer" : 206
   }
 }
