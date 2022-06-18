@@ -774,11 +774,6 @@
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "Joshua Tilles",
-    "member_type" : "developer",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Cam Saul",
     "member_type" : "developer",
     "level" : "developer",
@@ -816,7 +811,7 @@
   }, {
     "name" : "Raphael Saunier",
     "member_type" : "developer",
-    "level" : "developer",
+    "level" : "contributing",
     "founding" : false
   }, {
     "name" : "Emin Hasanov",
@@ -1381,6 +1376,6 @@
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 206
+    "developer" : 205
   }
 }
