@@ -1368,9 +1368,14 @@
     "member_type" : "developer",
     "level" : "developer",
     "founding" : false
+  }, {
+    "name" : "Radu Matasaru",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 204
+    "developer" : 205
   }
 }
