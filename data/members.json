@@ -419,11 +419,6 @@
     "level" : "contributing",
     "founding" : true
   }, {
-    "name" : "Jelle",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : true
-  }, {
     "name" : "Avi Avicenna",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1381,6 +1376,6 @@
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 206
+    "developer" : 205
   }
 }
