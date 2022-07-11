@@ -1,11 +1,11 @@
 ---
 title: "Q3 2022 Survey Results - Part 1"
 date: 2022-07-08T17:30:58+02:00
-summary: We recently surveyed our members for feedback and to find out which projects they would like to see funded. We are also opening applications for Q3 2022 until 18th of July.
+summary: We recently surveyed our members for feedback and to find out which projects they would like to see funded. We are also opening applications for Q3 2022 until 25th of July.
 author: Maria Geller
 ---
 
-**Clojurists Together is starting our next funding round for Q3 2022. Applications are open until the 18th of July. [Apply](/open-source/) today!**
+**Clojurists Together is starting our next funding round for Q3 2022. Applications are open until the 25th of July. [Apply](/open-source/) today!**
 
 ## Survey Responses Part 1
 
