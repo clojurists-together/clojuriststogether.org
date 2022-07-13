@@ -3,7 +3,7 @@ title: "June 2022 Monthly Update"
 date: 2022-06-30T08:30:00+08:00
 summary: Read updates from Tablecloth, Deep Diamond, Overtone Playground, Datahike Server, Conjure and more updates from our long term projects with Bozhidar Batsov, Michiel Borkent, Dragan Djuric, Thomas Heller, David Nolen, and Nikita Prokopov
 author: Alyssa Parado
-published: draft
+published: true
 ---
 
 
