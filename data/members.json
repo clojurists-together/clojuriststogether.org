@@ -1373,9 +1373,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Robert Kasanicky",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 205
+    "developer" : 206
   }
 }
