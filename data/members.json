@@ -349,6 +349,13 @@
     "level" : "cons",
     "founding" : false
   }, {
+    "name" : "Strategic Blue",
+    "member_type" : "company",
+    "url" : "https://strategic-blue.com",
+    "logo" : null,
+    "level" : "cons",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1380,7 +1387,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 47,
+    "company" : 48,
     "developer" : 206
   }
 }
