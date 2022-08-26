@@ -1361,11 +1361,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Amar Sood",
-    "member_type" : "developer",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Harbin",
     "member_type" : "developer",
     "level" : "developer",
@@ -1388,6 +1383,6 @@
   } ],
   "member_stats" : {
     "company" : 48,
-    "developer" : 206
+    "developer" : 205
   }
 }
