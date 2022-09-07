@@ -356,6 +356,20 @@
     "level" : "cons",
     "founding" : false
   }, {
+    "name" : "Logseq",
+    "member_type" : "company",
+    "url" : "https://logseq.com/",
+    "logo" : null,
+    "level" : "transduce",
+    "founding" : false
+  }, {
+    "name" : "Eric Normand",
+    "member_type" : "company",
+    "url" : "https://ericnormand.me/",
+    "logo" : null,
+    "level" : "cons",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1382,7 +1396,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 48,
+    "company" : 50,
     "developer" : 205
   }
 }
