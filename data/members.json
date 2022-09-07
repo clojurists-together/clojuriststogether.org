@@ -359,7 +359,7 @@
     "name" : "Logseq",
     "member_type" : "company",
     "url" : "https://logseq.com/",
-    "logo" : null,
+    "logo" : "/logos/logseq.png",
     "level" : "transduce",
     "founding" : false,
     "tagline" : "A privacy-first, open-source platform for knowledge management and collaboration."
