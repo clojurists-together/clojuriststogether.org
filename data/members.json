@@ -361,13 +361,21 @@
     "url" : "https://logseq.com/",
     "logo" : null,
     "level" : "transduce",
-    "founding" : false
+    "founding" : false,
+    "tagline" : "A privacy-first, open-source platform for knowledge management and collaboration."
   }, {
     "name" : "Eric Normand",
     "member_type" : "company",
     "url" : "https://ericnormand.me/",
     "logo" : null,
     "level" : "cons",
+    "founding" : false
+  }, {
+    "name" : "Fern Flower Lab",
+    "member_type" : "company",
+    "url" : "https://ff-lab.info",
+    "logo" : null,
+    "level" : "assoc",
     "founding" : false
   }, {
     "name" : "Ben Brinckerhoff",
@@ -1396,7 +1404,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 50,
+    "company" : 51,
     "developer" : 205
   }
 }
