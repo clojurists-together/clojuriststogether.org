@@ -378,6 +378,13 @@
     "level" : "assoc",
     "founding" : false
   }, {
+    "name" : "ELiT Ltd",
+    "member_type" : "company",
+    "url" : "https://englishlanguageitutoring.com/",
+    "logo" : null,
+    "level" : "assoc",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1399,7 +1406,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 51,
+    "company" : 52,
     "developer" : 204
   }
 }
