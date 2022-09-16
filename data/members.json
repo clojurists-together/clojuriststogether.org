@@ -1120,6 +1120,11 @@
     "level" : "contributing",
     "founding" : false
   }, {
+    "name" : "Misha Akovantsev",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
     "name" : "Nathan Lloyd",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1407,6 +1412,6 @@
   } ],
   "member_stats" : {
     "company" : 52,
-    "developer" : 204
+    "developer" : 205
   }
 }
