@@ -231,14 +231,6 @@
     "founding" : true,
     "tagline" : "Toyokumo provides people who are not good at using software with Web applications that are used to improve their productivity."
   }, {
-    "name" : "Griffin Financial Technology",
-    "member_type" : "company",
-    "url" : "https://www.griffin.sh",
-    "logo" : "/logos/griffin.svg",
-    "level" : "filter",
-    "founding" : false,
-    "tagline" : "We’re making a bank you can build on."
-  }, {
     "name" : "Commsor",
     "member_type" : "company",
     "url" : "https://www.commsor.com/",
