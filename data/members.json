@@ -1217,11 +1217,6 @@
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "Theophile Villard",
-    "member_type" : "developer",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Roman Ostash",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1399,6 +1394,6 @@
   } ],
   "member_stats" : {
     "company" : 52,
-    "developer" : 204
+    "developer" : 203
   }
 }
