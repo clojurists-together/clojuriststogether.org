@@ -1391,9 +1391,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Andrew Huggins",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 52,
-    "developer" : 203
+    "developer" : 204
   }
 }
