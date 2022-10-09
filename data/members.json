@@ -1396,9 +1396,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Nate Hunzaker",
+    "member_type" : "developer",
+    "level" : "developer",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 52,
-    "developer" : 204
+    "developer" : 205
   }
 }
