@@ -3,7 +3,7 @@ title: "September 2022 Monthly Update"
 date: 2022-10-10T16:30:00+08:00
 summary: Read updates from Tablecloth and the final updates from our long term projects with Bozhidar Batsov, Michiel Borkent, Dragan Djuric, Thomas Heller, and Nikita Prokopov
 author: Alyssa Parado
-draft: true
+published: true
 ---
 
 ## Tablecloth
