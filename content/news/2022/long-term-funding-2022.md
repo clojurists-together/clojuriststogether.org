@@ -27,9 +27,9 @@ These developers all did incredible work over the last year, and we were happy t
 
 ## Nominations
 
-We're now looking to do a second round of long-term funding. Thanks to Clojurists Together continued support from the Clojure community, we are going to be **funding ten developers USD 1,500/month for 12 months**. Like last year, Clojurists Together members will be sent a voting form to select the developers they'd like to fund.
+We're now looking to do a second round of long-term funding. Thanks to Clojurists Together continued support from the Clojure community, we are going to be **funding ten developers or teams USD 1,500/month for 12 months**. Like last year, Clojurists Together members will be sent a voting form to select the developers they'd like to fund. This year, we're also accepting nominations for teams of people who work on open source together. This could be as part of a company, or just a group of people who work on open source projects together.
 
-All Clojurists Together members will receive an email to nominate Clojure developers who they would like to see funded. We will be accepting nominations until **23 October, 2022**. We will then send out a voting form to all members to vote on the developers they'd like to fund.
+All Clojurists Together members will receive an email to nominate Clojure developers/teams. We will be accepting nominations until **23 October, 2022**. We will then send out a voting form to all members to vote on the developers/teams they'd like to fund.
 
 ## Thanks
 
