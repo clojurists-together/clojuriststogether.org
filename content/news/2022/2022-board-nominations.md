@@ -1,5 +1,5 @@
 ---
-title: "Clojurists Together board nominations and annual members meeting"
+title: "Clojurists Together 2022 board nominations and annual members meeting"
 date: 2022-10-14T21:00:00+13:00
 author: Daniel Compton
 summary: Stand for the upcoming Clojurists Together board elections
