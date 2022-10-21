@@ -6,7 +6,7 @@ author: Alyssa Parado
 published: true
 ---
 
-## Tablecloth
+## Project: Tablecloth, Ethan Miller
 
 This is the update for my "Column for Tablecloth"
 project, which has been generously funded by [Clojurists
@@ -119,7 +119,7 @@ have any comments or questions, reach out and let me know what you
 think.
 
 
-## Bozhidar Batsov
+## Project with Bozhidar Batsov
 
 Here are the highlights from my Clojure work for the past couple of months:
 
@@ -142,7 +142,7 @@ As usual there are also many things that are in the works and are yet to be rele
 
 
 
-## Michiel Borkent
+## Project with Michiel Borkent
 
 ### [ClavaScript](https://github.com/clavascript/clavascript)
 
@@ -300,7 +300,7 @@ A collection of ready to be used SCI configs
 Moved `cljs.pprint` config from nbb into this project.
 
 
-## Dragan Djuric
+## Project with Dragan Djuric
 
 For this period, I have a pretty good stuff to show: I've produced a fully working RNN implementation on CPU and GPU!
 It was somewhat harder than I had hoped, but I've put some extra work to it and I can finally say that Deep Diamond
@@ -333,7 +333,7 @@ Blog posts published (and several other sound related in the pipeline):
 
 
 
-## Thomas Heller
+## Project with Thomas Heller
 
 Time was mostly spent on doing maintenance work and some bugfixes. As well as helping people out via the typical channels (eg. Clojurians Slack).
 
@@ -347,7 +347,7 @@ Notable Updates
 
 
 
-## Nikita Prokopov
+## Project with Nikita Prokopov
 
 Final two months of Clojurists Together long-term funding. What a year!
 
