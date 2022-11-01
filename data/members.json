@@ -274,14 +274,6 @@
     "founding" : false,
     "tagline" : "A collaboration medium combining docs and whiteboards. Powered by Clojure!"
   }, {
-    "name" : "AppsFlyer",
-    "member_type" : "company",
-    "url" : "https://www.appsflyer.com",
-    "logo" : "/logos/appsflyer.png",
-    "level" : "transduce",
-    "founding" : false,
-    "tagline" : "The world’s top brands trust the AppsFlyer Cloud to help them build great products, create exceptional experiences, and preserve customer privacy."
-  }, {
     "name" : "Helpshift",
     "member_type" : "company",
     "url" : "https://www.helpshift.com",
@@ -1403,7 +1395,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 52,
+    "company" : 51,
     "developer" : 205
   }
 }
