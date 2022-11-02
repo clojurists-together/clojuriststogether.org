@@ -1,9 +1,9 @@
 ---
 title: "October 2022 Monthly Update"
-date: 2022-10-30T09:30:00+08:00
-summary: Read the first updates from our Q3 2022 projects with Vlad Protsenko, Chris Badahdah, William Acton, Adam Helinski, Jacob O'Bryant, Matt Huebert, Michiel Borkent, Sam Ritchie, and Christophe Grand  
+date: 2022-10-31T09:30:00+08:00
+summary: Read the updates from our Q3 2022 projects: Cljfx, Portal, Exo, Clojupedia, Biff, Maria.cloud, Mathbox-cljs, and Clj-kondo and related.
 author: Alyssa Parado
-draft: true
+published: true
 ---
 
 ## Project: Cljfx, Vlad Protsenko
@@ -322,7 +322,7 @@ It is similar to doing a postwalk on the results of pull or pull-report, but is
 done in the same pass as pulling data out of the DB - so less traversals - and
 annotated directly on the query.
 
----
+
 
 The pyramid README was also rewritten to reflect many of the updates that have
 been made to it in the last few months. Check it out!
@@ -407,70 +407,184 @@ complete, so maybe I'll manage to do that in November as well.
 
 
 
-## Project: Maria.cloud, Matth Huebert
+## Project: Maria.cloud, Matt Huebert
 
-We’re excited to announce that I ([Matt](https://twitter.com/mhuebert)) have received a three-month grant from [ClojuristsTogether](https://www.clojuriststogether.org) to work on [Maria.cloud](https://www.maria.cloud). This is the first of three monthly updates.
+This is my second update for the Fall/2022 funding of Maria.cloud by ClojuristsTogether.
 
-### What is Maria?
+Work has progressed well overall, with most of Maria’s original curriculum now rendering nicely in the new editor. Highlights include:
 
-Maria combines carefully written curriculum with a clean, no-install editor. It is designed to introduce complete beginners to fundamental ideas of programming, with an editing environment that encourages REPL-driven development and structural editing from day one. It has been widely appreciated as a good tool for introducing Clojure to beginners and used at several workshops like ClojureBridge.
+*   The **Cells** library has been re-implemented to work in sci.
+*   A large portion of Maria’s **value viewing** behaviour has been implemented, including views for shapes and cells.
+    *   TODO: The plan is to bring in [Clerk](https://github.com/nextjournal/clerk)’s viewer code into Maria so that we can use all of Clerk’s [built-in viewers](https://github.clerk.garden/nextjournal/book-of-clerk/commit/70d0459fbe941e689e0c2e7df0afc887eaf5900b/#🔍_viewers), and any custom viewers built for Clerk would also work in Maria.
+*   I’ve added support for top-level `await` so that evaluation can pause for blocks that must complete before the rest of the document can run. Vars are handled as a special case, so that one can `await` the value of a `def` form.
+    *   TODO: implement an `async-load-fn` for sci as described [here](https://github.com/babashka/sci/blob/master/doc/async.md) so that users can import arbitrary js deps and lazy-load ClojureScript namespaces.
+*   **Namespace lookup** When evaluating within a code block, we determine the current namespace by moving “up” from the node until we find an evaluated ns form (defaulting to `user`). The alternative (default) behaviour would be to use the namespace from the REPL’s internal state, which is more likely to confuse users who are looking at a document as a top-to-bottom flow.
+*   **Namespaces in curriculum**: all Maria docs will now include an `ns` form instead of the previous behaviour of having lots of built-in tools in scope automatically.
+*   **doc/arglists coverage** was improved, by [fixing this in sci](https://github.com/babashka/sci/pull/827)
+*   Implemented the **eldoc** feature for seeing docs/arglists for the current operation
+*   Implemented UI for editing links and images via a tooltip within prose blocks
 
-### What did we propose?
+For more details see the [commit log](https://github.com/mhuebert/maria/commits/main).
 
-_We built Maria 5 years ago and would like to bring it back into active development, starting with a refactor/simplification of the core of the editor so that we have a good base to build on top of._
+Thanks again to [ClojuristsTogether](https://www.clojuriststogether.org) for supporting this work!
 
-_Top priorities would be (1) replace the selfhost compiler with sci for a more lightweight runtime, (2) replace the code editor with CodeMirror 6 using the cm6 clojure mode I wrote last year for Nextjournal, (3) upgrade to latest version of ProseMirror, (4) add a "publish" feature so that people can share what they make with the world. This funding may not cover all of the work listed above, so we'll remain open to receiving funds from elsewhere. This would be the first funding we have ever taken for this project._
+Remaining high-priority tasks include:
 
-### What are some benefits of these changes?
+*   Command palette (needs to handle ProseMirror, CodeMirror, hybrid & other commands)
+*   Curriculum (integration into UI / sidebar)
+*   Persistence (local storage and publishing to GitHub gists)
+*   Error messages (a lot of the original code for this won’t work now that we’ve changed the evaluator)
 
-- Using [sci]([url](https://github.com/babashka/sci)) instead of ClojureScript’s self-hosted compiler should dramatically reduce the bundle size and speed up Maria on mobile/old/slow devices.
 
-- Using Nextjournal’s [clojure-mode](https://github.com/nextjournal/clojure-mode) means we depend on a community-supported & standard structural editor and I can delete my own old unmaintained implementation.
-
-- Using [ProseMirror](https://prosemirror.net) to manage a single toplevel doc means we can leverage tools in the ProseMirror ecosystem for new features, eg. [yjs-prosemirror](https://github.com/yjs/y-prosemirror) for real-time collaboration, and I can delete my own old unmaintained Clojure parser and block system.
-
-- Keybindings should be more reliable/stable.
-
-- The Maria codebase should be smaller and easier to work with.
-
-### What has been achieved so far?
-
-Progress is automatically deployed to https://2.maria.cloud on every push to `main`. So far I’ve implemented:
-
-- A ProseMirror view which renders code blocks using CodeMirror 6 with clojure-mode.
-- Conversion of Clojure source files into Markdown which can be managed by ProseMirror, and a reverse step to convert Markdown back to Clojure. (This is an inversion of top-level forms - when in “markdown mode”, comments are treated as prose and code is wrapped in fenced code blocks.)
-- A sci context that includes Maria’s shapes library
-- The REPL tools `doc` and `dir`
-- Evaluating selections, blocks, and entire docs via hotkeys
-- Showing results next to code, with rendering support for shapes
-
-The editor itself is a nuanced, fidgety thing which requires a lot of careful attention to get right.
-
-### Next steps
-
-- Bring in Maria’s value-viewer code
-- Support the cells library
-- Test & support remaining curriculum
-- Figure out how to integrate ProseMirror/CodeMirror keymaps with Maria’s command bar and “which-key” features
-- Integrate or re-implement Maria’s auth & persistence features
-
-### Ancillary tools (aka the scenic route)
-
-In the course of this work I’ve also spent time on a couple of support tools.
-
-In [js-interop](https://github.com/applied-science/js-interop) I’m working on a `j/js` macro, which is like a “deep” version of `j/lit`, meaning that literals become JavaScript data structures ({} => object, [] => array, keywords => strings), and destructuring forms in let/fn/defn are treated as js by default. Literals identified as belonging to Clojure proper or tagged ^:clj are not touched. This was inspired by [@borkdude’s](https://twitter.com/borkdude) experiments in [new cljs compilers](https://github.com/squint-cljs). `j/js` can make interop-heavy code easier to read and write but is not without tradeoffs; one needs to be extra-aware of whether one is looking at code in a “js” or “clj” context. It was particularly helpful in writing code related to ProseMirror/CodeMirror. I'm quite sure I want something like this to exist but the API/behaviour remains in flux. See the [PR](https://github.com/applied-science/js-interop/pull/32).
-
-I’ve resumed work on [yawn](https://github.com/mhuebert/yawn), a hiccup compiler/interpreter that targets React. I was planning to stick with Reagent but it lacks a protocol that would enable custom rendering of arbitrary types, which we need for our viewers (eg. to render shapes properly). Yawn is designed with performance in mind and processes hiccup forms at compile-time where possible. It is REPL-friendly via support for react-refresh, so re-evaluating a view will immediately update on-screen while preserving state & without re-rendering from root.
-
-### The end
-
-Thanks again to Clojurists Together & all its supporters for making this work possible!
 
 
 
 
 ## Project: Clj-kondo and related, Michiel Borkent
 
+### [Babashka](https://github.com/babashka/babashka)
+
+Native, fast starting Clojure interpreter for scripting.
+
+*   The first [1.0 release](https://github.com/babashka/babashka/blob/master/CHANGELOG.md#10164-2022-10-17) was released!
+*   Optimizations for `let` (in SCI) which is now up to 8x faster.
+*   Many small improvements. See the [changelogs](https://github.com/babashka/babashka/blob/master/CHANGELOG.md).
+
+### [Squint](https://github.com/squint-cljs/squint) and [Cherry](https://github.com/squint-cljs/cherry)
+
+Squint and cherry are two flavors of the same CLJS compiler.
+
+Squint is a CLJS _syntax_ to JS compiler for use case where you want to write JS, but do it using CLJS syntax and tooling instead. Squint comes with a standard library that resembles CLJS but is built on bare JS ingredients. As such, squint comes with the usual JS caveats, but we can still have our parens and enjoy a slim bundle size.
+
+Cherry comes with the CLJS standard library and is as such much closer to the normal ClojureScript, but the minimal amount of JS is a little bigger.
+
+I've working on unifying the compiler code of cherry and squint into one code base, which is still in progress. I've also worked on REPL code.
+
+I've also given a [presentation on squint and cherry](https://twitter.com/borkdude/status/1586662315805450240) at the [Dutch Clojure Days](https://clojuredays.org/). The video will appear online in the future!
+
+### [Clj-kondo](https://github.com/clj-kondo/clj-kondo)
+
+Static analyzer and linter for Clojure code that sparks joy
+
+Two new releases with many fixes and improvements. [Check the changelogs](https://github.com/clj-kondo/clj-kondo/blob/master/CHANGELOG.md) for details.
+
+Among several new linters, there is a new `:unused-value` linter which detects unused values, which is particularly helpful for detecting unused transient operation results which can lead to bugs.
+
+### [Clj-kondo configs](https://github.com/clj-kondo/configs)
+
+Library configurations as dependencies for clj-kondo.
+
+The idea of this repository is that you can add configuration for libraries as a dependency to your `deps.edn` or `project.clj`. If you invoke the right command or if you are using Clojure LSP, then the configuration is written into your `.clj-kondo` directory and clj-kondo will understand custom constructs in your library. Normally you can provide these configurations as part of your library, but this is not always an option, so the remaining configurations can live over here.
+
+### [SCI](https://github.com/babashka/sci)
+
+Configurable Clojure interpreter suitable for scripting and Clojure DSLs.
+
+This is the workhorse that powers babashka, nbb, Joyride, and many other projects.
+
+Several bugfixes and enhancements were made in the last two months in two new releases. Performance of `let` bindings are now up to 8x faster, as already mentioned in the babashka entry of this post.
+
+See [changelogs](https://github.com/babashka/sci/blob/master/CHANGELOG.md) for more details.
+
+### [Nbb](https://github.com/babashka/nbb)
+
+Scripting in Clojure on Node.js using SCI
+
+The first 1.0 version was released.
+
+Many small bugfixes and improvements in the last two months. See [changelogs](https://github.com/babashka/nbb/blob/main/CHANGELOG.md).
+
+### [Clj-yaml](https://github.com/clj-commons/clj-yaml)
+
+In the past two month, I became one of the maintainers, together with [@lread](https://github.com/lread), of [clj-yaml](https://github.com/clj-commons/clj-yaml). Clj-yaml is a built-in library of babashka.
+
+### [Deps.clj](https://github.com/borkdude/deps.clj)
+
+A faithful port of the clojure CLI bash script to Clojure
+
+A lot of Windows improvements in the last two months. Deps.clj is now also available as part of an [MSI installer](https://github.com/casselc/clj-msi/releases) that installs `deps.exe` as `clj.exe`. This installer might form the basis for an official Clojure MSI installer.
+
+### [Gh-release-artifact](https://github.com/borkdude/gh-release-artifact)
+
+Upload artifacts to Github releases idempotently
+
+This tool has been in use within babashka, clj-kondo and other projects to automate uploading release artifacts from various CI systems to Github releases, idempotently. It is now open source and ready to be used by others.
+
+### [Jet](https://github.com/borkdude/jet)
+
+CLI to transform between JSON, EDN, YAML and Transit, powered with a minimal query language.
+
+The latest release adds support for YAML (by using clj-yaml), thanks to [@qdzo](https://github.com/qdzo).
+
+### [Babashka CLI](https://github.com/babashka/cli)
+
+Turn Clojure functions into CLIs!
+
+See [changelogs](https://github.com/babashka/cli/blob/main/CHANGELOG.md).
+
+### [Process](https://github.com/babashka/process)
+
+Clojure library for shelling out / spawning subprocesses
+
+Minor updates and fixes. See [changelogs](https://github.com/babashka/process/blob/master/CHANGELOG.md).
+
+### [Quickdoc](https://github.com/borkdude/quickdoc)
+
+Quickdoc is a tool to generate documentation from namespace/var analysis done by clj-kondo. It's fast and spits out an `API.md` file in the root of your project, so you can immediately view it on Github. It has undergone significant improvements in the last two months. I'm using quickdoc myself in several projects. In the last two months, there have been improvements in the table of contents linking and linking to source code.
+
+### [Fs](https://github.com/babashka/fs)
+
+File system utility library for Clojure.
+
+Minor updates and fixes. See [changelogs](https://github.com/babashka/fs/blob/master/CHANGELOG.md#changelog).
+
+### [Carve](https://github.com/borkdude/carve)
+
+Carve out the essentials of your Clojure app by removing unused vars
+
+Version 0.2.0 was released, after a long hiatus, with an updated version of clj-kondo and some minor fixes.
+
+### [Grasp](https://github.com/borkdude/grasp)
+
+Grep Clojure code using clojure.spec regexes.
+
+I use this tool to analyze code patterns to make informed choices for e.g. SCI and clj-kondo. E.g. see [this](https://github.com/borkdude/grasp/blob/master/examples/let_bindings.clj) example that shows how many let bindings are typically used. See the example in action [here](https://twitter.com/borkdude/status/1582320503049826304).
+
+A new version was released with minor fixes.
+
+### [Rewrite-edn](https://github.com/borkdude/rewrite-edn)
+
+Utility lib on top of rewrite-clj with common operations to update EDN while preserving whitespace and comments.
+
+Minor fixes and enhancements. Repeated usage of `assoc` is now a safe operation. Thanks to [@lread](https://github.com/lread) for the improvements.
+
+### [lein2deps](https://github.com/borkdude/lein2deps)
+
+Lein to deps.edn converter
+
+This new little tool can convert a `project.edn` file to a `deps.edn` file. It even supports Java compilation and evaluation of code within `project.clj`.
+
+### [Neil](https://github.com/babashka/neil)
+
+A CLI to add common aliases and features to `deps.edn`\-based projects.
+
+Neil now comes with a `dep upgrade` command, thanks to [@teodorlu](https://github.com/teodorlu) and [@russmatney](https://github.com/russmatney), together with other improvements.
+
+### [Respeced](https://github.com/borkdude/respeced)
+
+Finally, after 4 years, a new release of respeced, a testing library for clojure.spec fdefs.
+
+### [Quickblog](https://github.com/borkdude/quickblog)
+
+Light-weight static blog engine for Clojure and babashka
+
+Small improvements. See [changelog](https://github.com/borkdude/quickblog/blob/main/CHANGELOG.md#changelog). The blog you're currently reading is made with quickblog.
+
+### [Sci.configs](https://github.com/babashka/sci.configs)
+
+A collection of ready to be used SCI configs
+
+Added a `doseq` macro in [promesa](https://github.com/funcool/promesa) which also is available via this configuration. Sci.configs is used in [Clerk](https://github.com/nextjournal/clerk), [nbb](https://github.com/babashka/nbb), [Joyride](https://github.com/BetterThanTomorrow/joyride/) and other SCI-based CLJS projects.
 
 
 
@@ -478,16 +592,132 @@ Thanks again to Clojurists Together & all its supporters for making this work po
 
 ## Project: Mathbox-cljs, Sam Ritchie
 
+### Overview
+
+I realized at the beginning of October that Mathbox would be much more useful as
+an embeddable notebook component if it were paired with
+
+- Some UI-based, non-code way to tweak and explore a visualization
+- An equation editor, so users could write math in a WSIWYG style without
+  necessarily having to read S-expressions
+
+Sam Zhang's ["Curve
+Shortening"](https://sam.zhang.fyi/2020/10/29/curve-shortening/) essay is an
+excellent example. This essay opens with a JSXGraph interactive component on the
+left and a Mathbox view on the right. The shape of the essay is defined by code,
+but the reader can explore in a number of author-defined dimensions without
+digging into the code.
+
+My goal for the project was to produce a number of libraries:
+
+- `mathbox.cljs`
+- `sicmutils-mathbox`
+- `sicmutils-clerk`
+
+Into this mix I'm adding as goals:
+
+- `jsxgraph.cljs` and `jsxgraph-clerk`, exposing the amazing
+  [JSXGraph](http://jsxgraph.org/wp/index.html) library to Clojurescript with a
+  Reagent based interface
+- `mathlive.cljs` and `mathlive-clerk`, which does the same thing for the
+  [Mathlive equation editor](https://cortexjs.io/compute-engine/demo/).
+
+As I'll detail below, I've got the core pieces of these two new libraries
+working, though not yet released as their own libraries.
 
 
+### Mathbox
 
+I've built out a library called
+[sicmutils-clerk](https://github.com/sicmutils/sicmutils-clerk) with many
+experiments and ports of Mathbox examples, all living inside
+[Clerk](https://github.com/nextjournal/clerk) (see the [namespaces
+here](https://github.com/sicmutils/sicmutils-clerk/tree/main/src), and the
+[README.md](https://github.com/sicmutils/sicmutils-clerk) for instructions on
+how to run this code). I'm using these experiments to work with the Clerk team
+on the problem of how to synchronize state between client and server, so that
+the server can keep track of the state of some running animation, for example,
+and send it across the wire to a collaborator.
 
+### JSXGraph
 
-## Project: ClojureDart, Christophe Grand
+- Converted the 65kloc [JSXGraph project](https://github.com/jsxgraph/jsxgraph)
+  over to ES6 modules from its old Clojurescript-incompatible AMD build. (The
+  library author was receptive to the idea and has merged in a bunch of work
+  here, for which I am very grateful)
 
+  - Discussion: https://github.com/jsxgraph/jsxgraph/issues/464
+  - 8 PRs: https://github.com/jsxgraph/jsxgraph/pulls?q=is%3Apr+author%3Asritchie+
 
+- Added Github Actions, code formatting via Prettier, lots of nice improvements
+  to the main project's dev experience.
 
+- Published my own temporary Clojurescript compatible build here:
+  https://www.npmjs.com/package/@mentatcollective/jsxgraph
 
+I've been building out the bones of the Clojurescript wrapper in the
+[sicmutils-clerk](https://github.com/sicmutils/sicmutils-clerk) library. I have
+a working Reagent wrapper for JSXGraph. The library is very mutable, but the
+wrapper lets you build scenes declaratively.
+
+- Demo of a scene pushing state to a Reagent atom inside of a [Clerk
+notebook](https://github.com/nextjournal/clerk):
+https://twitter.com/sritchie/status/1585765084554412032, [code
+here](https://github.com/sicmutils/sicmutils-clerk/blob/0c130a5e792452e32e633c963348d6d517be85da/src/jsxgraph.clj)
+
+- Port of a complex JSXGraph demo:
+  https://twitter.com/sritchie/status/1586057171111845888, with [code
+  here](https://github.com/sicmutils/sicmutils-clerk/blob/0c130a5e792452e32e633c963348d6d517be85da/src/circles.clj)
+
+### Mathlive
+
+Chris Chudzicki is my collaborator on mathbox-react, and the author of the
+Mathbox-based math3d.org. He has adopted
+[Mathlive](https://github.com/arnog/mathlive) as his equation editor and I'm
+following his lead.
+
+Mathlive lets the user type LaTeX into a UI element, and then parses the LaTeX
+into a format called MathJSON. In October, I:
+
+- [Built a Reagent wrapper around the stateful Mathfield component](https://github.com/sicmutils/sicmutils-clerk/blob/0c130a5e792452e32e633c963348d6d517be85da/src/demo/mathlive.cljs)
+
+- Wrote a Mathlive->CLJ Parser (not complete yet), which of course exposed a
+  number of bugs in LaTeX parsing. I'm working with the project creator to get
+  these fixed up.
+
+- Wrote a [Clerk](https://github.com/nextjournal/clerk) viewer that updates
+  shared state with a Clojure representation of the equation that the user is
+  typing.
+
+What is great about this is that the output is compatible with SICMUtils, so I
+can run simplification on the output and re-render it as TeX, live in the Clerk
+notebook.
+
+Here is a demo of that code:
+https://twitter.com/sritchie/status/1582475087621390336
+
+### Next
+
+This month was about making sure that each these components could actually work
+and communicate state via Reagent atoms.
+
+Next, I'll extract these viewers and Reagent wrappers out from sicmutils-clerk
+into separate libraries. I'm going to use Clerk to document the libraries, like
+Matt Huebert did with his [interactive documentation for the inside-out forms
+library](https://inside-out.matt.is/).
+
+Then I'll work on a layer that is aware of all three of these components. This
+will allow users to write some notebook that, for example:
+
+- lets you set parameters for a simulation by moving points around a JSXGraph scene
+- see the simulation in an explorable Mathbox window
+- change the model behind the simulation by editing the equations in the equation editor
+- PUBLISH the whole thing as an interactive blog post or research papge.
+
+and the rest of the notebook exploring the simulation will live-update on any of
+these changes.
+
+Onward!
 
 
 
