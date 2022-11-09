@@ -1314,11 +1314,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Düvel",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "William Robinson",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1396,6 +1391,6 @@
   } ],
   "member_stats" : {
     "company" : 51,
-    "developer" : 205
+    "developer" : 204
   }
 }
