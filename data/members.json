@@ -52,13 +52,6 @@
     "level" : "assoc",
     "founding" : false
   }, {
-    "name" : "Kasta",
-    "member_type" : "company",
-    "url" : "https://kasta.ua",
-    "logo" : null,
-    "level" : "cons",
-    "founding" : false
-  }, {
     "name" : "Adgoji",
     "member_type" : "company",
     "url" : "http://www.adgoji.com",
@@ -468,11 +461,6 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : true
-  }, {
-    "name" : "Robert Medeiros",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
   }, {
     "name" : "Wilker Lucio",
     "member_type" : "developer",
@@ -1390,7 +1378,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 51,
-    "developer" : 204
+    "company" : 50,
+    "developer" : 203
   }
 }
