@@ -10,10 +10,8 @@ The Clojurists Together board is made up of:
 - Heather Moore-Farley
 - Ikuru Kyogoku
 - Maria Geller
-- Nola Stowe
-- Fumiko Hanreich
 - Laurens Van Houtven - President
-- [Daniel Compton](https://danielcompton.net) - Secretary - Daniel is a maintainer of [Clojars](https://clojars.org) and runs [Deps](https://www.deps.co), a private Maven repository service.
+- Daniel Compton - Secretary
 
 The Board is responsible for governing the project, selecting which projects are sponsored, administering the project, and interacting with sponsors.
 
@@ -27,6 +25,8 @@ Annual elections are held to elect the board for the following year. The most re
 
 Previous members of the Clojurists Together board are:
 
+- Nola Stowe - 2022
+- Fumiko Hanreich - 2022
 - Daniel Solano Gómez - 2021
 - Larry Staton Jr - 2021
 - Bridget Hillyer - 2019
