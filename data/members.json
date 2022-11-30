@@ -862,11 +862,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Lukasz Korecki",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Shintaro Matsushima",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1379,6 +1374,6 @@
   } ],
   "member_stats" : {
     "company" : 50,
-    "developer" : 203
+    "developer" : 202
   }
 }
