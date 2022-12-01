@@ -245,6 +245,13 @@
     "level" : "assoc",
     "founding" : false
   }, {
+    "name" : "Nilenso",
+    "member_type" : "company",
+    "url" : "https://nilenso.com",
+    "logo" : null,
+    "level" : "cons",
+    "founding" : false
+  }, {
     "name" : "Gatheround",
     "member_type" : "company",
     "url" : "https://gatheround.com",
@@ -1373,7 +1380,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 50,
+    "company" : 51,
     "developer" : 202
   }
 }
