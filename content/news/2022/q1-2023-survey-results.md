@@ -72,8 +72,61 @@ As the year comes to a close, we surveyed our developer and company members to f
 
 ### Are there any particular libraries, tools, or projects that are important to you that you would like to see supported?
 
-- 
-- 
-- 
--
+- antq
+- Calva
+- camel-snake-kebab
+- cheshire
+- clerk
+- clj-http
+- clj-kondo
+- cljs-ajax
+- Clojure-lsp
+- ClojureDart
+- component
+- Cursive
+- datahike
+- datalevin
+- datascript
+- djblue portal
+- ESM clojurescript
+- Fulcro
+- hiccup
+- Integrant
+- kaocha
+- Malli
+- manifold
+- meander
+- next-jdbc
+- Nrepl
+- pathom3
+- Portal
+- re-frame
+- re-frame-10x
+- re-frame-http-fx
+- re-frame-http-fx-alpha
+- reagent
+- reitit
+- riddley
+- ring
+- schema
+- SciCloj
+- Sente
+- Shadow Cljs
+- slingshot
+- spec
+- sqlg-clj
+- SublimeText 
+- tigris
+- Undertow adapter
+- VS Code
 
+### What would you like to be different in the Clojure community in the next 12 months?
+
+- Stacktraces and more ides tools
+- More outreach to spread info about Clojure to communities outside of the Clojure community.
+- A body like Clojurists Together could be a trusted entity for taking over management of abandoned Clojure libraries.
+- we can move past the spec2 alpha weirdness and settle on sensible preferred framework, e.g. Malli
+- More unified documentation experience
+- I'd like to see the community grow more / faster
+- supporting experimental uses of clojure in new domains
+- Improve leiningen and deps (and off course other libraries) to be natively GraalVM compatible. Deploying jars and combo packages is a headache for production companies.
