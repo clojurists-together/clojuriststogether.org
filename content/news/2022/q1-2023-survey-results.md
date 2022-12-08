@@ -1,10 +1,17 @@
 ---
-title: "Q1 2023 Survey Results"
+title: "Q1 2023 Funding round and survey results"
 date: 2022-12-06T14:30:00+08:00
-summary: Thanks to our members who provided participated in the survey.
+summary: Applications are now open for funding
 author: Alyssa Parado
-draft: true
 ---
+
+Clojurists Together is starting our next funding round for Q3 2022. Applications are open until the 20th of December 2022. Apply today!
+
+Developers can choose between two different funding tiers ($2,000 and $9,000) and can decide on the length of the funding, from 1 to 12 months (for the $9,000 tier). In addition, funding can be delayed by up to two months. The $2k funding tiers are for experimental projects or smaller proposals, whereas the $9k tier is for more established projects.
+
+We will be funding 4 $9k projects, and 4 $2k projects.
+
+If you work on a Clojure open source project, especially one mentioned as a focus area for our members, please consider [applying](https://www.clojuriststogether.org/open-source/).
 
 ## Survey Responses
 
@@ -45,14 +52,6 @@ As the year comes to a close, we surveyed our developer and company members to f
 - more education and outreach to grow the userbase
 - outreach to developers outside the community
 - simple maintenance of "abandoned" libs, primarily semi-regular releases that bump dependencies
-
-
-
-#### Other areas that were mentioned
-- alpha version libs should leave Alpha stage sooner
-- react wrappers need to be more clear
-- shadow-cljs node-repl need to properly capture async stdout
-- closure compiler need to able to emit "stable" modules, every build will wipe a user's cache
 
 
 
@@ -122,11 +121,10 @@ As the year comes to a close, we surveyed our developer and company members to f
 
 ### What would you like to be different in the Clojure community in the next 12 months?
 
-- Stacktraces and more ides tools
+- Stacktraces and more IDE tools
 - More outreach to spread info about Clojure to communities outside of the Clojure community.
 - A body like Clojurists Together could be a trusted entity for taking over management of abandoned Clojure libraries.
-- we can move past the spec2 alpha weirdness and settle on sensible preferred framework, e.g. Malli
 - More unified documentation experience
 - I'd like to see the community grow more / faster
-- supporting experimental uses of clojure in new domains
+- Supporting experimental uses of clojure in new domains
 - Improve leiningen and deps (and off course other libraries) to be natively GraalVM compatible. Deploying jars and combo packages is a headache for production companies.
