@@ -25,12 +25,12 @@ As the year comes to a close, we surveyed our developer and company members to f
 
 ### What areas of Clojure would you like to see improvement in?
 
-![](/images/2023/q1-survey/1 improvement.jpg)
+![](/images/2023/q1-survey/1%20improvement.jpg)
 
 
 ### What areas of ClojureScript would you like to see improvement in?
 
-![](/images/2023/q1-survey/2 improvement.jpg)
+![](/images/2023/q1-survey/2%20improvement.jpg)
 
 
 
