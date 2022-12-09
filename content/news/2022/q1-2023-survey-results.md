@@ -7,7 +7,7 @@ author: Alyssa Parado
 
 Clojurists Together is starting our next funding round for Q3 2022. Applications are open until the 20th of December 2022. Apply today!
 
-Developers can choose between two different funding tiers ($2,000 and $9,000) and can decide on the length of the funding, from 1 to 12 months (for the $9,000 tier). In addition, funding can be delayed by up to two months. The $2k funding tiers are for experimental projects or smaller proposals, whereas the $9k tier is for more established projects.
+Developers can choose between two different funding tiers ($2,000 and $9,000) and can decide on the length of the funding, from 1 to 12 months (for the $9,000 tier). Funding would start from 1st of February but the start of funding can be delayed by up to two months. The $2k funding tiers are for experimental projects or smaller proposals, whereas the $9k tier is for more established projects.
 
 We will be funding 4 $9k projects, and 4 $2k projects.
 
