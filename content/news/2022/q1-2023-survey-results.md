@@ -123,7 +123,7 @@ As the year comes to a close, we surveyed our developer and company members to f
 
 - Stacktraces and more IDE tools
 - More outreach to spread info about Clojure to communities outside of the Clojure community.
-- A body like Clojurists Together could be a trusted entity for taking over management of abandoned Clojure libraries.
+- A body like Clojurists Together could be a trusted entity for taking over management of abandoned Clojure libraries. [Note: We think that [clj-commons](https://clj-commons.org) is already doing a great job at this]
 - More unified documentation experience
 - I'd like to see the community grow more / faster
 - Supporting experimental uses of clojure in new domains
