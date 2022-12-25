@@ -1,0 +1,76 @@
+#TEST of Merge and Convert of Content Filed
+
+## Project: Thomas Heller
+
+ Maintenance and Improvements for shadow-cljs, and other more experimental libraries (eg. shadow-grove, shadow-css). 
+
+
+## Project: Nikita Prokopov
+
+I’ll continue to develop Humble UI, getting it into a state where real apps could be developed with it 
+
+- Documenting, promoting and teaching Humble UI 
+
+- Develop durability for DataScript 
+
+- Redo Clojure Sublimed parser & smaller improvements 
+
+- Contribute nREPL improvements needed for Clojure Sublimed
+
+
+## Project: Tommi Reiman
+
+I'm planning on working mostly with Malli, to lead and deliver the most-wanted (and needed) missing core features, including simplified type tagging, improving map schemas, revisiting global configuration options and many more. I'm also keen on exploring better development time tooling, built both with and for malli. There is also a lot of interesting work to be done on other libs, including reitit, virhe, viesti and talvi, just haven't had any time to focus on those. Shipping reitit 1.0.0 would be awesome. And who knows, maybe there will be a juustometsae too** **
+
+
+## Project: Peter Stromberg
+
+Calva will continue with its no-roadmap approach, where user feedback about painpoints and opportunities guide where Calva is improved. Expect Calva to be ﬂA year betterﬂ next year. That said, I do want to make Calva treat newcomers to Clojure better, so that will be the main theme. I will put my 2023 Calva time towards these three main goals: 1. A Getting Started with Clojure experience that only requires VS Code. (The current one requires VS Code + Java.) 2. A Start your First Clojure or ClojureScript Mini-project experience. (The current Getting Started experience leaves the user hanging about this.) 3. Leverage Joyride out of the box for Calva features/configuration. The main vehicle for creating the Java-free Getting Started with Clojure experience is Joyride, or should I say, SCI, on which Joyride is built. As for leveraging Joyride more: A lot of Calva functionality could be moved over to Joyride. Porting things to Joyride would make more of this functionally be implemented in ClojureScript and also make it easier for users to adapt things to their needs. This goal is mainly about putting the infrastructure in place to facilitate porting. I think the Java-free Getting Started experience might be a good first candidate for porting. To help users more fully leverage Joyride we also need to make it easier to use Joyride's REPL in parallel with your Clojure project's REPL, something which Calva does not handle all that well today. Let's name this a stretch goal for 2023.   
+
+
+
+Save as example Funding (2023 LT) Project Name Biff  Report # 1
+
+
+<table>
+  <tr>
+   <td>Funding Period
+   </td>
+   <td>2023 LT
+   </td>
+  </tr>
+  <tr>
+   <td>Name of Project/Owner
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Funding $ and Months
+   </td>
+   <td>1 year - $1,500 month
+   </td>
+  </tr>
+  <tr>
+   <td>Name Report
+   </td>
+   <td>Contract Summary
+   </td>
+  </tr>
+  <tr>
+   <td>GitHub address
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
+
+
+
+## Project: Peter Taoussanis
+
+Finish work on Carmine v4 (a major modernized rewrite of the Clojure Redis client).
+
+- General ongoing maintenance + development of my existing open-source libraries.
+
+- Further work TBD later (have a number of options I'd like to consider + get feedback on).
