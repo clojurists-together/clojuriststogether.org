@@ -1390,9 +1390,14 @@
     "member_type" : "developer",
     "level" : "developer",
     "founding" : false
+  }, {
+    "name" : "Brian Takei",
+    "member_type" : "developer",
+    "level" : "developer",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 52,
-    "developer" : 203
+    "developer" : 204
   }
 }
