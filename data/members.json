@@ -1296,11 +1296,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "To",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "William Robinson",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1398,6 +1393,6 @@
   } ],
   "member_stats" : {
     "company" : 52,
-    "developer" : 204
+    "developer" : 203
   }
 }
