@@ -296,13 +296,6 @@
     "founding" : false,
     "tagline" : "Outfitting technology for modern retail, powered by Clojure"
   }, {
-    "name" : "Fluent Development AB",
-    "member_type" : "company",
-    "url" : "https://fluent.to",
-    "logo" : null,
-    "level" : "cons",
-    "founding" : false
-  }, {
     "name" : "doctronic GmbH & Co. KG",
     "member_type" : "company",
     "url" : "https://www.doctronic.de",
@@ -1390,9 +1383,14 @@
     "member_type" : "developer",
     "level" : "developer",
     "founding" : false
+  }, {
+    "name" : "Lari Saukkonen",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
-    "company" : 52,
-    "developer" : 203
+    "company" : 51,
+    "developer" : 204
   }
 }
