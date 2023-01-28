@@ -1,5 +1,5 @@
 ---
-title: "Q1 2023 Funding Annoucement"
+title: "Q1 2023 Funding Announcement"
 date: 2023-01-28T08:30:00+08:00
 summary: "Clojurists Together is pleased to announce that we are funding 7 projects for a total of $42K USD in Q1 2023."
 author: Kathy Davis and Maria Geller
@@ -19,8 +19,9 @@ Clojurists Together is pleased to announce that we are funding 7 projects for a 
 * [**Clojure-ts-mode:**](https://github.com/clojure-emacs/clojure-ts-mode) Danny Freeman
 * [**Clojure track on exercism.org:**](https://github.com/exercism/clojure) Bobbi Towers
 * [**Doxa:**](https://github.com/ribelo/doxa) Rafał Krzyważnia
-
-
+  
+  
+  
 ## Aleph/Manifold
 
 **Grantee:** Matthew Davidson
@@ -32,7 +33,8 @@ There's a base level of maintenance involved in just keeping deps up-to-date and
 **Why is this project important to the Clojure community?**
 
 Aleph is one of the most popular HTTP libraries in the Clojure community, especially for streaming applications, and has been downloaded over 1.6 million times, according to Clojars.
-
+  
+  
 
 ## Clerk
 
@@ -40,16 +42,16 @@ Aleph is one of the most popular HTTP libraries in the Clojure community, especi
 
 **What are you wanting to achieve with this funding?**
 
-* improve documentation https://book.clerk.vision
-* fix performance bottlenecks to make the Tap inspector useable when tapping large values
-* improve error handling
-* extend Clerk to serve reactive dashboards, including a getting started project
+* Improve documentation https://book.clerk.vision
+* Fix performance bottlenecks to make the Tap inspector useable when tapping large values
+* Improve error handling
+* Extend Clerk to serve reactive dashboards, including a getting started project
 
 **Why is this project important to the Clojure community?**
 
 It's becoming one of the more popular options for data science and moldable development.
-
-
+  
+  
 
 ## Donut
 
@@ -93,12 +95,12 @@ The state of the art implementation of optimized low-level operations will be pr
 
 I propose to implement:
 
-- a developer-friendly implementation of common sparse matrix structures in Clojure
-- support relevant operations as Clojure functions
-- an extension infrastructure for various future backend implementations.
-- a clean low-level integration with Intel's oneDNN RNN on the CPU
-- assorted improvements to Deep Diamond to support this additions
-- related bugfixes
+- A developer-friendly implementation of common sparse matrix structures in Clojure
+- Support relevant operations as Clojure functions
+- An extension infrastructure for various future backend implementations.
+- A clean low-level integration with Intel's oneDNN RNN on the CPU
+- Assorted improvements to Deep Diamond to support this additions
+- Related bugfixes
 - TESTS (of course!)
 
 This would improve Neanderthal and make it more complete as:
@@ -121,9 +123,8 @@ It is the infrastructure for high performance computing, deep learning, machine 
 
 **What are you wanting to achieve with this funding?**
 
-I would like to get as much of clojure-mode (font-locking, indentation, imenu, navigation, potentially refactoring tools) ported over to clojure-ts-mode as possible.
+I would like to get as much of clojure-mode (font-locking, indentation, imenu, navigation, potentially refactoring tools) ported over to clojure-ts-mode as possible. I also help maintain tree-sitter-clojure (https://github.com/sogaiu/tree-sitter-clojure) the tree-sitter grammar that powers clojure-ts-mode. As I find issues with it, I will help fix them in the grammar repository. This will help benefit other editors and tools like neovim that also use the tree-sitter-clojure grammar.
 
-I also help maintain tree-sitter-clojure (https://github.com/sogaiu/tree-sitter-clojure) the tree-sitter grammar that powers clojure-ts-mode. As I find issues with it, I will help fix them in the grammar repository. This will help benefit other editors and tools like neovim t
 
 **Why is this project important to the Clojure community?**
 
