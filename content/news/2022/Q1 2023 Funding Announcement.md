@@ -11,7 +11,7 @@ Clojurists Together is pleased to announce that we are funding 7 projects for a 
 **$9,000 USD**
 * **Aleph/Manifold:** Matthew Davidson
 * [**Clerk:**](https://github.com/nextjournal/clerk) Martin Kavalar
-* [**Donut:**](https://github.com/donut-power) Daniel Higginbotham
+* [**Donut:**] Daniel Higginbotham
 * [**Uncomplicate Neanderthal:**](https://github.com/uncomplicate/neanderthal) Dragan Duric
 
 **$2,000 USD**
