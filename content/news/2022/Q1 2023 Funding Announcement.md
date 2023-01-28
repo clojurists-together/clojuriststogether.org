@@ -9,6 +9,24 @@ draft: true
 
 Clojurists Together is pleased to announce that we are funding 7 projects for a total of $42K USD in Q1 2023. The projects and descriptions are listed below. Congratulations to all and we look forward to updates as the work progresses. 
 
+**$9K USD**
+
+**Aleph/Manifold:** Matthew Davidson
+
+**Clerk:** Martin Kavalar
+
+**Donut:** Daniel Higginbotham
+
+**Uncomplicate Neanderthal:** Dragan Duric
+
+**$2K USD**
+
+**Clojure-ts-mode:** Danny Freeman
+
+**Clojure track on exercism.org:** Bobbi Towers
+
+**Doxa:** Rafał Krzyważnia
+
 
 ## Aleph/Manifold 
 
@@ -58,7 +76,6 @@ I think that the code is good enough to start publicizing, but the code is only 
 - Paying for branding and design
 - Building a web site that serves as both marketing vehicle and excellent technical instruction and documentation
 - Community building, e.g. spending time doing presentations, managing a slack channel, reaching out to other devs, etc
-
 
 **Why is this project important to the Clojure community?**
 
