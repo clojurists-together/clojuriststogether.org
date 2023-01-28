@@ -30,11 +30,8 @@ Aleph is one of the most popular HTTP libraries in the Clojure community, especi
 **What are you wanting to achieve with this funding?**
 
 * improve documentation https://book.clerk.vision
-
 * fix performance bottlenecks to make the Tap inspector useable when tapping large values
-
 * improve error handling
-
 * extend Clerk to serve reactive dashboards, including a getting started project
 
 **Why is this project important to the Clojure community?**
@@ -59,9 +56,7 @@ I want the libraries and instructional materials to be the most comprehensive, e
 I think that the code is good enough to start publicizing, but the code is only one part of what needs to get done. Clojurists Together funding will help me pay for other aspects of building a product:
 
 - Paying for branding and design
-
 - Building a web site that serves as both marketing vehicle and excellent technical instruction and documentation
-
 - Community building, e.g. spending time doing presentations, managing a slack channel, reaching out to other devs, etc
 
 
@@ -91,23 +86,16 @@ The state of the art implementation of optimized low-level operations will be pr
 I propose to implement:
 
 - a developer-friendly implementation of common sparse matrix structures in Clojure
-
 - support relevant operations as Clojure functions
-
 - an extension infrastructure for various future backend implementations.
-
 - a clean low-level integration with Intel's oneDNN RNN on the CPU
-
 - assorted improvements to Deep Diamond to support this additions
-
 - related bugfixes
-
 - TESTS (of course!)
 
 This would improve Neanderthal and make it more complete as:
 
 - A fast and simple Clojure-first infrastructure library that people can build on top of for everything matrix-related (which includes lots of ML and lots of non-ML)
-
 - A fast and user-friendly sparse matrix implementation in Clojure
 
 I will follow up this work with continuous improvement of Neanderthal, and its ecosystem of books, docs, tutorials, etc. (I have already published two books covering this)
