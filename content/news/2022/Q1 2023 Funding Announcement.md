@@ -10,22 +10,15 @@ draft: true
 Clojurists Together is pleased to announce that we are funding 7 projects for a total of $42K USD in Q1 2023. The projects and descriptions are listed below. Congratulations to all and we look forward to updates as the work progresses. 
 
 **$9,000 USD**
-
-**Aleph/Manifold:** Matthew Davidson
-
-[**Clerk:**](https://github.com/nextjournal/clerk) Martin Kavalar
-
-[**Donut:**](https://github.com/donut-power) Daniel Higginbotham
-
-[**Uncomplicate Neanderthal:**](https://github.com/uncomplicate/neanderthal) Dragan Duric
+* **Aleph/Manifold:** Matthew Davidson
+* [**Clerk:**](https://github.com/nextjournal/clerk) Martin Kavalar
+* [**Donut:**](https://github.com/donut-power) Daniel Higginbotham
+* [**Uncomplicate Neanderthal:**](https://github.com/uncomplicate/neanderthal) Dragan Duric
 
 **$2,000 USD**
-
-[**Clojure-ts-mode:**](https://github.com/clojure-emacs/clojure-ts-mode) Danny Freeman
-
-[**Clojure track on exercism.org:**](https://github.com/exercism/clojure) Bobbi Towers
-
-[**Doxa:**](https://github.com/ribelo/doxa) Rafał Krzyważnia
+* [**Clojure-ts-mode:**](https://github.com/clojure-emacs/clojure-ts-mode) Danny Freeman
+* [**Clojure track on exercism.org:**](https://github.com/exercism/clojure) Bobbi Towers
+* [**Doxa:**](https://github.com/ribelo/doxa) Rafał Krzyważnia
 
 
 ## Aleph/Manifold
