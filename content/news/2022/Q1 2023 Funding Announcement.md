@@ -5,7 +5,6 @@ summary: "Clojurists Together is pleased to announce that we are funding 7 proje
 author: Kathy Davis and Maria Geller
 draft: true
 ---
-# Q1 2023 Funding Announcement
 
 Clojurists Together is pleased to announce that we are funding 7 projects for a total of $42K USD in Q1 2023. The projects and descriptions are listed below. Congratulations to all and we look forward to updates as the work progresses. 
 
@@ -20,7 +19,10 @@ Clojurists Together is pleased to announce that we are funding 7 projects for a 
 * [**Clojure track on exercism.org:**](https://github.com/exercism/clojure) Bobbi Towers
 * [**Doxa:**](https://github.com/ribelo/doxa) Rafał Krzyważnia
   
-  
+   
+   
+### Q1 2023 Projects:
+
   
 ## Aleph/Manifold
 
