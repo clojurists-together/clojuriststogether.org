@@ -494,11 +494,6 @@
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "Albrecht Schmidt",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Nuttanart Pornprasitsakul",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1385,6 +1380,11 @@
     "founding" : false
   }, {
     "name" : "Lari Saukkonen",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Siebenlist",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
