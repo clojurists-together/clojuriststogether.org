@@ -9,7 +9,7 @@ draft: true
 
 Clojurists Together is pleased to announce that we are funding 7 projects for a total of $42K USD in Q1 2023. The projects and descriptions are listed below. Congratulations to all and we look forward to updates as the work progresses. 
 
-**$9K USD**
+**$9,000 USD**
 
 **Aleph/Manifold:** Matthew Davidson
 
@@ -19,7 +19,7 @@ Clojurists Together is pleased to announce that we are funding 7 projects for a 
 
 **Uncomplicate Neanderthal:** Dragan Duric
 
-**$2K USD**
+**$2,000 USD**
 
 **Clojure-ts-mode:** Danny Freeman
 
@@ -28,7 +28,7 @@ Clojurists Together is pleased to announce that we are funding 7 projects for a 
 **Doxa:** Rafał Krzyważnia
 
 
-## Aleph/Manifold 
+## [Aleph/Manifold](https://aleph/manifold/)
 
 **Grantee:** Matthew Davidson
 
