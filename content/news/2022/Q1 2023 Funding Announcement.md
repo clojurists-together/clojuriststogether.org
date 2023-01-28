@@ -13,22 +13,22 @@ Clojurists Together is pleased to announce that we are funding 7 projects for a 
 
 **Aleph/Manifold:** Matthew Davidson
 
-**Clerk:** Martin Kavalar
+[**Clerk:**](https://github.com/nextjournal/clerk) Martin Kavalar
 
-**Donut:** Daniel Higginbotham
+[**Donut:**](https://github.com/donut-power) Daniel Higginbotham
 
-**Uncomplicate Neanderthal:** Dragan Duric
+[**Uncomplicate Neanderthal:**](https://github.com/uncomplicate/neanderthal) Dragan Duric
 
 **$2,000 USD**
 
-**Clojure-ts-mode:** Danny Freeman
+[**Clojure-ts-mode:**](https://github.com/clojure-emacs/clojure-ts-mode) Danny Freeman
 
-**Clojure track on exercism.org:** Bobbi Towers
+[**Clojure track on exercism.org:**](https://github.com/exercism/clojure) Bobbi Towers
 
-**Doxa:** Rafał Krzyważnia
+[**Doxa:**](https://github.com/ribelo/doxa) Rafał Krzyważnia
 
 
-## [Aleph/Manifold](https://aleph/manifold/)
+## Aleph/Manifold
 
 **Grantee:** Matthew Davidson
 
@@ -56,7 +56,6 @@ Aleph is one of the most popular HTTP libraries in the Clojure community, especi
 
 It's becoming one of the more popular options for data science and moldable development.
 
-[https://github.com/nextjournal/clerk](https://github.com/nextjournal/clerk)
 
 
 ## Donut
@@ -83,7 +82,6 @@ This project is important to the Clojure community because we still lack a clear
 
 We're also lacking a higher foundation for SPA development. For example, we don't have off-the-shelf drop-in solutions for common problems like Stripe integration or Google/Facebook/Apple authentication, and I want Donut to become that foundation.
 
-[https://github.com/donut-power](https://github.com/donut-power)
 
 
 ## Uncomplicate Neanderthal
@@ -121,7 +119,7 @@ I will follow up this work with continuous improvement of Neanderthal, and its e
 
 It is the infrastructure for high performance computing, deep learning, machine learning, and other high performance scientific software based on high-performance vector and matrix operations.
 
-[https://github.com/uncomplicate/neanderthal](https://github.com/uncomplicate/neanderthal)
+
 
 
 ## Clojure-ts-mode
@@ -138,7 +136,7 @@ I also help maintain tree-sitter-clojure (https://github.com/sogaiu/tree-sitter-
 
 Tree-sitter support is being released with Emacs 29 early next year. Tree sitter provides more performant syntax highlighting and code introspection than what Emacs is traditionally capable of. Most of the heavy lifting is done by the tree-sitter grammar that is used by Emacs and other tools. Having clojure-ts-mode ready by the time Emacs 29 is out will allow Emacs Clojure user to take advantage of tree-sitter right out of the gate.
 
-[https://github.com/clojure-emacs/clojure-ts-mode](https://github.com/clojure-emacs/clojure-ts-mode)
+
 
 
 ## Clojure track on exercism.org
@@ -155,7 +153,6 @@ Right now we are focusing on building analysis tooling to provide automated feed
 
 Exercism has been one of the most popular Clojure learning communities and is one of the 2 sources of practice problems listed at https://clojure.org/guides/getting_started\Over the years we have evolved from curating exercises from around the web, to creating a proper learning path that guides the student through the knowledge graph of key language concepts, and building an in-browser editor and test runner.What sets us apart from other "learn to code" websites is the aspect of human mentorship, and our continued mission is to maximize the value of human connection in learning a language.
 
-[https://github.com/exercism/clojure](https://github.com/exercism/clojure)
 
 
 ## Doxa
@@ -170,4 +167,3 @@ Doxa was born as an experiment and an attempt to learn how to use a meander. An 
 
 Over time, despite the initial enthusiasm, it became apparent that datascript was too big, complex and slow to use on the front end. True, complex and large databases only show their advantage over a simple map when we have a amount of data that exceeds what is usually found on the frontend. But pull syntax and datalog query have pretty much become the standard among the community, and there seems to be room for a small, clever, normalised database with support for both.
 
-[https://github.com/ribelo/doxa](https://github.com/ribelo/doxa)
