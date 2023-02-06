@@ -1314,11 +1314,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Ralf Schmitt",
-    "member_type" : "developer",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Hall",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1391,6 +1386,6 @@
   } ],
   "member_stats" : {
     "company" : 51,
-    "developer" : 204
+    "developer" : 203
   }
 }
