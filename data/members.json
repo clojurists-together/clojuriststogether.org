@@ -1383,9 +1383,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Nick Lawler",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 51,
-    "developer" : 203
+    "developer" : 204
   }
 }
