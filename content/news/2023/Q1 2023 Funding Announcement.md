@@ -3,7 +3,7 @@ title: "Q1 2023 Funding Announcement"
 date: 2023-01-28T08:30:00+08:00
 summary: "Clojurists Together is pleased to announce that we are funding 7 projects for a total of $42K USD in Q1 2023."
 author: Kathy Davis and Maria Geller
-draft: true
+draft: 
 ---
 
 Clojurists Together is pleased to announce that we are funding 7 projects for a total of $42K USD in Q1 2023. The projects and descriptions are listed below. Congratulations to all and we look forward to updates as the work progresses. 
