@@ -292,7 +292,7 @@
     "member_type" : "company",
     "url" : "https://www.stylitics.com",
     "logo" : "/logos/stylitics.svg",
-    "level" : "map",
+    "level" : "transduce",
     "founding" : false,
     "tagline" : "Outfitting technology for modern retail, powered by Clojure"
   }, {
