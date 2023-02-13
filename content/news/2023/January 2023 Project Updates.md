@@ -31,8 +31,8 @@ Here are my updates for the Clj-Kondo projects:
 ### [http-client](https://github.com/babashka/http-client)
 
 The new babashka http-client aims to become default HTTP client solution in babashka. Babashka has several built-in options for making HTTP requests, including:
-[babashka.curl](https://github.com/babashka/babashka.curl)
-[http-kit](https://github.com/http-kit/http-kit)
+[babashka.curl](https://github.com/babashka/babashka.curl); 
+[http-kit](https://github.com/http-kit/http-kit); 
 [java.net.http](https://docs.oracle.com/en/java/javase/17/docs/api/java.net.http/java/net/http/package-summary.html)
 
 In addition, it allows to use several libraries to be used as a dependency:
