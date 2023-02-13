@@ -36,9 +36,9 @@ The new babashka http-client aims to become default HTTP client solution in baba
 [java.net.http](https://docs.oracle.com/en/java/javase/17/docs/api/java.net.http/java/net/http/package-summary.html)
 
 In addition, it allows to use several libraries to be used as a dependency:
-[java-http-clj](https://github.com/schmee/java-http-clj)
-[hato](https://github.com/gnarroway/hato)
-[clj-http-lite](https://github.com/clj-commons/clj-http-lite)
+[java-http-clj](https://github.com/schmee/java-http-clj); 
+[hato](https://github.com/gnarroway/hato); 
+[clj-http-lite](https://github.com/clj-commons/clj-http-lite); 
 
 The built-in clients come with their own trade-offs. E.g. babashka.curl shells out to curl which on Windows requires your local curl to be updated. Http-kit buffers the entire response in memory. Using java.net.http directly can be a bit verbose. Babashka's http-client aims to be a good default for most scripting use cases and is built on top of java.net.http and can be used as a dependency-free JVM library as well. The API is mostly compatible with babashka.curl so it can be used as a drop-in replacement. The other built-in solutions will not be removed any time soon.
 
