@@ -11,13 +11,13 @@ Our first project update for 2023 includes reports for Clj-Kondo, Clojure Data C
 ## Project Clj-Kondo: Michiel Borkent
 
 In this post, I'll give updates about my open source during November and December 2022. But first off, I'd like to thank all the sponsors and contributors that make this work possible! Top sponsors:
-[Clojurists Together](https://clojuriststogether.org/)
-[Roam Research](https://roamresearch.com/)
-[Nextjournal](https://nextjournal.com/)
-[Toyokumo](https://toyokumo.co.jp/)
-[Cognitect](https://www.cognitect.com/)
-[Kepler16](https://kepler16.com/)
-[Adgoji](https://www.adgoji.com/)
+[Clojurists Together](https://clojuriststogether.org/)  
+[Roam Research](https://roamresearch.com/)  
+[Nextjournal](https://nextjournal.com/)  
+[Toyokumo](https://toyokumo.co.jp/)  
+[Cognitect](https://www.cognitect.com/)  
+[Kepler16](https://kepler16.com/)  
+[Adgoji](https://www.adgoji.com/)  
 
 If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work via the following organizations. Thank you!
 [Clojurists Together](https://www.clojuriststogether.org/)
