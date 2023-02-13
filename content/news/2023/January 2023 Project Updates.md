@@ -19,10 +19,11 @@ In this post, I'll give updates about my open source during November and Decembe
 [Kepler16](https://kepler16.com/)  
 [Adgoji](https://www.adgoji.com/)  
 
-If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work via the following organizations. Thank you!
-[Clojurists Together](https://www.clojuriststogether.org/)
-[Github Sponsors](https://github.com/sponsors/borkdude)
-[OpenCollective](https://opencollective.com/babashka) (also see the [clj-kondo](https://opencollective.com/clj-kondo) one)
+If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work via the following organizations. Thank you!  
+[Clojurists Together](https://www.clojuriststogether.org/)  
+[Github Sponsors](https://github.com/sponsors/borkdude)  
+[OpenCollective](https://opencollective.com/babashka)  
+(also see the [clj-kondo](https://opencollective.com/clj-kondo) one)  
 
 
 Here are my updates for the Clj-Kondo projects:
