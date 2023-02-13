@@ -10,7 +10,7 @@ Our first project update for 2023 includes reports for Clj-Kondo, Clojure Data C
 
 ## Project Clj-Kondo: Michiel Borkent
 
-In this post, I'll give updates about my open source during November and December 2022. But first off, I'd like to thank all the sponsors and contributors that make this work possible! Top sponsors:
+In this post, I'll give updates about my open source during November and December 2022. But first off, I'd like to thank all the sponsors and contributors that make this work possible! Top sponsors:  
 [Clojurists Together](https://clojuriststogether.org/)  
 [Roam Research](https://roamresearch.com/)  
 [Nextjournal](https://nextjournal.com/)  
