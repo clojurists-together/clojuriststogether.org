@@ -12,7 +12,8 @@
     {{ with .OutputFormats.Get "RSS" }}
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
-    {{ range where .Data.Pages "Section" "news" }}
+    {{ range (where .Site.Pages "Section" "news") }}
+    {{ range .Pages }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
@@ -22,6 +23,7 @@
       <description>{{ .Summary | plainify }}</description>
       <content:encoded>{{ printf "<![CDATA[" | safeHTML }}{{ .Content }}{{ printf "]]>" | safeHTML }}</content:encoded>
     </item>
+    {{ end }}
     {{ end }}
   </channel>
 </rss>
