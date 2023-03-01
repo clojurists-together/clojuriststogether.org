@@ -26,7 +26,7 @@
     "member_type" : "company",
     "url" : "https://www.metosin.fi/",
     "logo" : "/logos/metosin.svg",
-    "level" : "filter",
+    "level" : "transduce",
     "founding" : true,
     "tagline" : "Metosin is the first Finnish software house specializing in Clojure. We arrange annually the biggest North-European Clojure conference called ClojuTRE"
   }, {
