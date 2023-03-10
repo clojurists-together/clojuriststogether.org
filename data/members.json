@@ -1129,11 +1129,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Robert Warner",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "David Harrigan",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1381,6 +1376,6 @@
   } ],
   "member_stats" : {
     "company" : 51,
-    "developer" : 202
+    "developer" : 201
   }
 }
