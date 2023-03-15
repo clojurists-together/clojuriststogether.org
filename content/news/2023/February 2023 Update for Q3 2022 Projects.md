@@ -47,26 +47,33 @@ Most of the focus has been on Kaocha, which saw eight separate releases over the
 
 
 ## Project Clj-kondo: Michiel Borkent
-In this post, I'll give updates about open source I worked on during January 2023.
-**Sponsors**
-But first off, I'd like to thank all the sponsors and contributors that make this work possible! Top sponsors:
-[Clojurists Together](https://clojuriststogether.org/)
-[Roam Research](https://roamresearch.com/)
-[Nextjournal](https://nextjournal.com/)
-[Toyokumo](https://toyokumo.co.jp/)
-[Cognitect](https://www.cognitect.com/)
-[Kepler16](https://kepler16.com/)
-[Adgoji](https://www.adgoji.com/)
+In this post, I'll give updates about open source I worked on during January 2023. 
 
-If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work in the following ways. Thank you!
-[Github Sponsors](https://github.com/sponsors/borkdude)
-The [Babaska](https://opencollective.com/babashka) or [Clj-kondo](https://opencollective.com/clj-kondo) OpenCollective
-[Ko-fi](https://ko-fi.com/borkdude)
-[Clojurists Together](https://www.clojuriststogether.org/)
-[Patreon](https://www.patreon.com/borkdude)
-If you're used to sponsoring through some other means which isn't listed above, please get in touch.
+**Sponsors** 
+
+But first off, I'd like to thank all the sponsors and contributors that make this work possible! Top sponsors: 
+- [Clojurists Together](https://clojuriststogether.org/)
+- [Roam Research](https://roamresearch.com/)
+- [Nextjournal](https://nextjournal.com/) 
+- [Toyokumo](https://toyokumo.co.jp/) 
+- [Cognitect](https://www.cognitect.com/) 
+- [Kepler16](https://kepler16.com/) 
+- [Adgoji](https://www.adgoji.com/) 
+
+If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work in the following ways. Thank you! 
+
+- [Github Sponsors](https://github.com/sponsors/borkdude) 
+- The [Babaska](https://opencollective.com/babashka) or [Clj-kondo](https://opencollective.com/clj-kondo) OpenCollective 
+- [Ko-fi](https://ko-fi.com/borkdude) 
+- [Clojurists Together](https://www.clojuriststogether.org/) 
+- [Patreon](https://www.patreon.com/borkdude) 
+
+If you're used to sponsoring through some other means which isn't listed above, please get in touch. 
+
 **Attention** 
-If you are using Github Sponsors and are making payments via Paypal, please update to a creditcard since Github Sponsors won't support Paypal after February 23rd 2023. Read their statement [here](https://github.blog/changelog/2023-01-23-github-sponsors-will-stop-supporting-paypal/). If you are not able to pay via a creditcard, you can still sponsor me via one of the ways mentioned above.
+
+If you are using Github Sponsors and are making payments via Paypal, please update to a creditcard since Github Sponsors won't support Paypal after February 23rd 2023. Read their statement [here](https://github.blog/changelog/2023-01-23-github-sponsors-will-stop-supporting-paypal/). If you are not able to pay via a creditcard, you can still sponsor me via one of the ways mentioned above. 
+
 
 ### [Babashka](https://github.com/babashka/babashka)
 Native, fast-starting Clojure interpreter for scripting. New releases in the past month: 1.0.170 - 1.1.173 Highlights:
@@ -93,7 +100,7 @@ This month the default client was improved to accept gzip and deflate as encodin
 
 ### [Clj-kondo](https://github.com/clj-kondo/clj-kondo)
 Static analyzer and linter for Clojure code that sparks joy. Three new releases with many fixes and improvements in the last month. [Check the changelog](https://github.com/clj-kondo/clj-kondo/blob/master/CHANGELOG.md) for details. Some highlights:
-- [#1742](https://github.com/clj-kondo/clj-kondo/issues/1742): new linter :aliased-namespace-var-usage: warn on var usage from namespaces that were used with :as-alias. See [demo]- (https://twitter.com/borkdude/status/1613524896625340417/photo/1).
+- [#1742](https://github.com/clj-kondo/clj-kondo/issues/1742): new linter :aliased-namespace-var-usage: warn on var usage from namespaces that were used with :as-alias. See [demo](https://twitter.com/borkdude/status/1613524896625340417/photo/1).
 - [#1926](https://github.com/clj-kondo/clj-kondo/issues/1926): Add keyword analysis for EDN files. This means you can find references for keywords throughout your project with clojure-lsp, now including in EDN files.
 - [#1902](https://github.com/clj-kondo/clj-kondo/issues/1902): provide :symbols analysis for navigation to symbols in quoted forms or EDN files. See [demo](https://twitter.com/borkdude/status/1612773780589355008).
 - The symbol analysis is used from clojure-lsp for which I provided a patch [here](https://github.com/borkdude/clojure-lsp/commit/f662adab1b17d5dbc3648d6d8208334dc920aa0e).A new project around clj-kondo is [clj-kondo-bb](https://github.com/clj-kondo/clj-kondo-bb) which enables you to use clj-kondo from babashka scripts. Also [lein-clj-kondo](https://github.com/clj-kondo/lein-clj-kondo) got an update.
@@ -105,22 +112,23 @@ This is a new project and gives you access to a subset of [instaparse](https://g
 Remove unused Clojure vars. In the [0.3.5](https://github.com/borkdude/carve/blob/master/CHANGELOG.md#035) version, Carve got the following updates:
 - Upgrade clj-kondo version
 - Make babashka compatible by using the [clj-kondo-bb](https://github.com/clj-kondo/clj-kondo-bb) library
-- Discontinue the carve binary in favor of invocation with babashka. Instead you can now install carve with [bbin](https://github.com/babashka/bbin):
- -  bbin install io.github.borkdude/carve
+- Discontinue the carve binary in favor of invocation with babashka. Instead you can now install carve with [bbin](https://github.com/babashka/bbin): bbin install io.github.borkdude/carve
 -  Implement [babashka.cli](https://github.com/babashka/cli) integration
 - Implement --help
 
 ### [Jet](https://github.com/borkdude/jet)
-CLI to transform between JSON, EDN, YAML and Transit using Clojure Version 0.4.23:[#123](https://github.com/borkdude/jet/issues/123): 
-- Add base64/encode and base64/decode
+CLI to transform between JSON, EDN, YAML and Transit using Clojure Version 0.4.23: 
+- [#123](https://github.com/borkdude/jet/issues/123): Add base64/encode and base64/decode
 - Add jet/paths and jet/when-pred
 - Deprecate interactive mode
 - Deprecate --query in favor of --thread-last, --thread-first or --func
 
 ### [Fs](https://github.com/babashka/fs)
 File system utility library for Clojure. Fs has gotten a few new functions:
-unifixy, to turn a Windows path into a path with Unix-style pathseparators. Note that that style is supported by the JVM and this offers a morereliable way to e.g. match filenames via regexes.
-several xdg-*-home helper functions, contributed by [@eval](https://github.com/eval)
+- unifixy, to turn a Windows path into a path with Unix-style pathseparators. Note that that style is supported by the JVM and this offers a morereliable way to e.g. match filenames via regexes.
+- several xdg-*-home helper functions, contributed by [@eval](https://github.com/eval) 
+
+
 See [changelog](https://github.com/babashka/fs/blob/master/CHANGELOG.md#changelog) for more details.
 
 ### [Neil](https://github.com/babashka/neil)
