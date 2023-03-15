@@ -1,7 +1,7 @@
 ---
 title: "February 2023 Project Updates for Q3 2022 Projects"
-date: 2023-03-14T08:30:00+08:00
-summary: February 2023 Updates for Q3 2022 Projects
+date: 2023-03-15T08:30:00+08:00
+summary: Read updates from Q3 2022 projects Clj-kondo, ClojureDart, and Koacha
 author: Kathy Davis
 draft: true
 ---
