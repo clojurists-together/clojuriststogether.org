@@ -6,51 +6,15 @@ author: Kathy Davis
 draft: true
 ---
 Greetings Clojurists Together community! This report includes final updates for the following  Q3 2022  projects:
-Project Koacha
-Project Clj-kondo (Jan. & Feb., 2023)
-Project ClojureDart
+Project Koacha, Project Clj-kondo,and Project ClojureDart.
 
 
 **2022 Q3 Projects**
-## Project Koacha: Arne Brasseur
-Report #2: After a refreshing break, we've hit the ground running in 2023, merging approximately 20 PRs from both Gaiwan and community contributors, fixing many bugs and some CI/cljdocs issues. Several new libraries support Babashka, including Kaocha. We hope this and [other efforts](https://blog.michielborkent.nl/babashka-test-runner.html) will expand the pool of Clojure libraries and tools available for use in Babashka.
-Most of the focus has been on Kaocha, which saw eight separate releases over the past two months. We've also released minor updates for Launchpad, embedkit, and Deja-fu.
-
-### [Kaocha](https://github.com/lambdaisland/kaocha) 1.79.1270 (2023-02-28 / 47a7b61)
-
-- Kaocha is now compatible with Babashka. Running under Babashka is most useful for validating your Clojure code runs correctly on Babashka, but it may also be faster for some test suites because of reduced start-up time.
-- Fix issue with `--watch` and Neovim by bumping Beholder to `1.0.2`
-- Fix bug causing namepaces to not be loaded if an alias was already created for them using `:as-alias`
-- `kaocha.repl/config` accepts a `:profile` key when specifying extra options.
-- Configuration errors and circular dependencies are reported as warnings, rather than causing the entire watcher to crash. (thanks[@frenchy64](https://github.com/frenchy64))
-- Fix bug added in [#384](https://github.com/lambdaisland/kaocha/issues/384): assertions in the tail position of an each fixture would return the result of the assertion instead of the testable object with the merged report data (thanks [@NoahTheDuke](https://github.com/NoahTheDuke))
-- Dependency version bumps
-- `kaocha.plugin.capture-output/bypass` macro, for temporarily bypassing output capturing. 
-- Circular dependencies in watch mode no longer kills the process. (thanks  [@frenchy64](https://github.com/frenchy64))
-- Ensure reloading errors are printed in watch mode when the first test suite is disabled.
-- Using a try-catch (without rethrowing) in an `:each` fixture could swallow thrown exceptions, resulting in a test being treated as passing when it should have been reported as an error. Fixed by changing how `:each` fixtures wrap the test function in execution. (thanks [@NoahTheDuke](https://github.com/NoahTheDuke))
-- Fix crash on Windows when using `--watch` with the default Beholder watcher.
-- Documentation fixes and improvements
-
-
-### [Launchpad](https://github.com/lambdaisland/launchpad) 0.15.79-alpha (2023-01-20 / 2b06d8e)
-
--  Allow setting nrepl port/bind from CLI
--  Provide a warning when connecting to emacs fails, rather than exiting
--  Dependency version bumps
-
-### [Embedkit](https://github.com/lambdaisland/embedkit) 0.0.50 (2023-01-19 / 8e058ff)
--  Let (setup/init-metabase! config) support first-name, last-name, site-name.
-
-### [Deja-fu](https://github.com/lambdaisland/deja-fu) 1.4.58 (2023-01-16 / 1446eef)
--  `distance-in-words` now renders approximate weeks; month ranges were adjusted
-
 
 ## Project Clj-kondo: Michiel Borkent (Jan. 2023 Update)
 In this post, I'll give updates about open source I worked on during January 2023. 
 
 **Sponsors** 
-
 But first off, I'd like to thank all the sponsors and contributors that make this work possible! Top sponsors: 
 - [Clojurists Together](https://clojuriststogether.org/)
 - [Roam Research](https://roamresearch.com/)
@@ -174,6 +138,8 @@ Discuss this post [here](https://github.com/borkdude/blog/discussions/categories
 Published: 2023-02-05
 Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)
 
+
+
 ## Project Clj-kondo: Michiel Borkent (Feb. 2023 Update)
 In this post, I'll give updates about open source I worked on during February 2023.
 
@@ -240,12 +206,12 @@ A little project to show how you can use SCI to showcare your CLJS library in an
 
 ### Brief mentions
 The following projects also got updates, mostly in the form of maintenance and performance improvements. This post would get too long if I had to go into detail about them, so I'll briefly mention them in random order:
-[CLI](https://github.com/babashka/cli): Turn Clojure functions into CLIs!
-[quickdoc](https://github.com/borkdude/quickdoc): Quick and minimal API doc generation for Clojure
-[process](https://github.com/babashka/process): Clojure library for shelling out / spawning sub-processes
-[rewrite-clj](https://github.com/clj-commons/rewrite-clj): Rewrite Clojure code and edn
-[sql pods](https://github.com/babashka/babashka-sql-pods): babashka pods for SQL databases
-[squint](https://github.com/squint-cljs/squint): CLJS syntax to JS compiler
+- [CLI](https://github.com/babashka/cli): Turn Clojure functions into CLIs!
+- [quickdoc](https://github.com/borkdude/quickdoc): Quick and minimal API doc generation for Clojure
+- [process](https://github.com/babashka/process): Clojure library for shelling out / spawning sub-processes
+- [rewrite-clj](https://github.com/clj-commons/rewrite-clj): Rewrite Clojure code and edn
+- [sql pods](https://github.com/babashka/babashka-sql-pods): babashka pods for SQL databases
+- [squint](https://github.com/squint-cljs/squint): CLJS syntax to JS compiler
 
 ### Other Projects
 These are some of the other projects I'm involved with but little to no activity happened in the past month.
@@ -266,10 +232,10 @@ These are some of the other projects I'm involved with but little to no activity
 
 Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).
 Published: 2023-03-01
-Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)
-
-
-
+Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html) 
+ 
+ 
+ 
 ## Project ClojureDart: Christophe Grand
 This final update covers January 2023. This month we merged our changes for a better hot reload (see Update #2) and then went on bug fixing and doing small improvements for a while.
 A problem kept bothering us: in our `cljd.flutter` (well in January it was still`cljd.flutter.alpha2`) we have `:watch` to react to updates to all kind of stateful objects and `sub` to narrow the scope of changes we are interested in for a given "watchable". This is very useful as it allows to change the frequency at which a piece of UI is updated: one can have a big atom holding a lot of state (and this changing frequently) and watch a slower changing subset of it.
@@ -282,4 +248,78 @@ Example: assuming `now` is an atom (a plain old one) updated at 60fps, then `($ 
 
 This generalizes nicely to multiple dependencies and even to dynamic dependency graphs. Another interesting fact to know about cells is that a cell is recomputed only when it's watched (and this cascades transitively: an unwatched cell doesn't watch its dependencies...). Another consequence of cells is that the push for a single big canonical atom goes away. 
 
-This changed positively the way we write apps. So much that in our February workshop we talked only about cells, not subs.
+This changed positively the way we write apps. So much that in our February workshop we talked only about cells, not subs. 
+ 
+ 
+  
+## Project Kaocha: Arne Brasseur (Dec. 2022 Update)
+Dec. 2022 Update:
+### [Facai](https://github.com/lambdaisland/facai) 0.8.68-alpha (2022-12-16 / 1f31590) 
+-  Fix two-arity version of build-all
+-  When unifying, don't recurse down the stored lvar value when reusing it
+-  Remove three-arity version of build-all
+
+### [Glogi](https://github.com/lambdaisland/glogi) 1.2.164 (2022-11-25 / 9a89583)  
+-  Add support for logging multiple forms with `spy`.
+-  Release under `com.lambdaisland` as well as `lambdaisland`, see https://github.com/lambdaisland/open-source/issues/9
+-  Version bumps
+
+### [Deep-diff2](https://github.com/lambdaisland/deep-diff2) 2.6.166 (2022-11-25 / 06fec7e) 
+-  Babashka compatibility
+-  Fix printing of mismatch/deletion/insertion on Babashka
+-  [breaking] Fall back to the system printer when no deep-diff2 specific print handler is available for a given type. See the README for details.
+
+### [Clj-diff](https://github.com/lambdaisland/clj-diff) 1.4.78 (2022-11-25 / 2c3cae0) 
+-  Test runner
+-  CI configuration
+-  Babashka compatibility
+
+### [Kaocha-cljs2](https://github.com/lambdaisland/kaocha-cljs2) 0.1.58 (2022-11-11 / 98fdc42) 
+-  Upgrade Chui, fixes a glogi dependency incompatibility with current version of Clojurescript
+-  Upgrade Kaocha to 1.70.1086
+
+### [Kaocha-junit-xml](https://github.com/lambdaisland/kaocha-junit-xml) 1.17.101 (2022-11-09 / 95067b2) 
+-  Fix Cljdoc build.
+
+### [Kaocha-cloverage](https://github.com/lambdaisland/kaocha-cloverage) 1.1.89 (2022-11-09 / c2b2dbf) 
+-  Bumped Cloverage dependency to `1.2.4`.
+
+### [Kaocha](https://github.com/lambdaisland/kaocha) 1.71.1119 (2022-10-24 / 4317878) 
+-  Configure a timeout for notifications with `--notification-timeout` or`:kaocha.plugin.notifier/timeout`. Note that this feature doesn't work for terminal-notifier on macOS, with Java's built-in TrayIcon, or with notify-send on certain Linux desktop environments and distributions.
+-  Fix configuration parsing when using `--watch`. Previously, profiles would be respected on the initial load, but not after watch reloaded the configuration.
+-  Notifier now reports errors in your notification command instead of silently failing.
+-  Fixed `java.lang.IllegalArgumentException: No matching clause: []` exception when `:kaocha.spec.test.check/syms` is a collection. 
+  
+  
+   
+## Project Kaocha: Arne Brasseur (Jan. and Feb. 2023 Update)
+Jan. and Feb. 2023 Update: After a refreshing break, we've hit the ground running in 2023, merging approximately 20 PRs from both Gaiwan and community contributors, fixing many bugs and some CI/cljdocs issues. Several new libraries support Babashka, including Kaocha. We hope this and [other efforts](https://blog.michielborkent.nl/babashka-test-runner.html) will expand the pool of Clojure libraries and tools available for use in Babashka.
+Most of the focus has been on Kaocha, which saw eight separate releases over the past two months. We've also released minor updates for Launchpad, embedkit, and Deja-fu.
+
+### [Kaocha](https://github.com/lambdaisland/kaocha) 1.79.1270 (2023-02-28 / 47a7b61)
+
+- Kaocha is now compatible with Babashka. Running under Babashka is most useful for validating your Clojure code runs correctly on Babashka, but it may also be faster for some test suites because of reduced start-up time.
+- Fix issue with `--watch` and Neovim by bumping Beholder to `1.0.2`
+- Fix bug causing namepaces to not be loaded if an alias was already created for them using `:as-alias`
+- `kaocha.repl/config` accepts a `:profile` key when specifying extra options.
+- Configuration errors and circular dependencies are reported as warnings, rather than causing the entire watcher to crash. (thanks[@frenchy64](https://github.com/frenchy64))
+- Fix bug added in [#384](https://github.com/lambdaisland/kaocha/issues/384): assertions in the tail position of an each fixture would return the result of the assertion instead of the testable object with the merged report data (thanks [@NoahTheDuke](https://github.com/NoahTheDuke))
+- Dependency version bumps
+- `kaocha.plugin.capture-output/bypass` macro, for temporarily bypassing output capturing. 
+- Circular dependencies in watch mode no longer kills the process. (thanks  [@frenchy64](https://github.com/frenchy64))
+- Ensure reloading errors are printed in watch mode when the first test suite is disabled.
+- Using a try-catch (without rethrowing) in an `:each` fixture could swallow thrown exceptions, resulting in a test being treated as passing when it should have been reported as an error. Fixed by changing how `:each` fixtures wrap the test function in execution. (thanks [@NoahTheDuke](https://github.com/NoahTheDuke))
+- Fix crash on Windows when using `--watch` with the default Beholder watcher.
+- Documentation fixes and improvements
+
+### [Launchpad](https://github.com/lambdaisland/launchpad) 0.15.79-alpha (2023-01-20 / 2b06d8e)
+
+-  Allow setting nrepl port/bind from CLI
+-  Provide a warning when connecting to emacs fails, rather than exiting
+-  Dependency version bumps
+
+### [Embedkit](https://github.com/lambdaisland/embedkit) 0.0.50 (2023-01-19 / 8e058ff)
+-  Let (setup/init-metabase! config) support first-name, last-name, site-name.
+
+### [Deja-fu](https://github.com/lambdaisland/deja-fu) 1.4.58 (2023-01-16 / 1446eef)
+-  `distance-in-words` now renders approximate weeks; month ranges were adjusted
