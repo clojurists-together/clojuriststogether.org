@@ -46,7 +46,7 @@ Most of the focus has been on Kaocha, which saw eight separate releases over the
 -  `distance-in-words` now renders approximate weeks; month ranges were adjusted
 
 
-## Project Clj-kondo: Michiel Borkent
+## Project Clj-kondo: Michiel Borkent (Jan. 2023 Update)
 In this post, I'll give updates about open source I worked on during January 2023. 
 
 **Sponsors** 
@@ -128,7 +128,6 @@ File system utility library for Clojure. Fs has gotten a few new functions:
 - unifixy, to turn a Windows path into a path with Unix-style pathseparators. Note that that style is supported by the JVM and this offers a morereliable way to e.g. match filenames via regexes.
 - several xdg-*-home helper functions, contributed by [@eval](https://github.com/eval) 
 
-
 See [changelog](https://github.com/babashka/fs/blob/master/CHANGELOG.md#changelog) for more details.
 
 ### [Neil](https://github.com/babashka/neil)
@@ -140,7 +139,7 @@ Light-weight static blog engine for Clojure and babashka. The blog you're curren
 - [Michiel Borkent's blog](https://blog.michielborkent.nl/)
 - [Josh Glover's blog](https://jmglov.net/blog)
 - [Jeremy Taylor's blog](https://jdt.me/strange-reflections.html)
-- Luc Engelen's blog](https://blog.cofx.nl/) ([source](https://github.com/cofx22/blog))
+- [Luc Engelen's blog](https://blog.cofx.nl/) ([source](https://github.com/cofx22/blog))
 - [Rattlin.blog](https://rattlin.blog/)
 If you are also using quickblog, please let me know!
 A collection of ready to be used SCI configs for e.g. Reagent, Promesa, Re-frame and other projects that are used in nbb, joyride, scittle, etc. See recent [commits](https://github.com/babashka/sci.configs/commits/main) for what's been improved.
@@ -156,25 +155,26 @@ I added the ability to build and deploy 4ever-clojure to Github Actions. Every t
 
 ### Brief mentions
 The following projects also got updates, mostly in the form of maintenance and performance improvements. This post would get too long if I had to go into detail about them, so I'll briefly mention them in random order:
-[jna-native-image-sci](https://github.com/borkdude/jna-native-image-sci): Compile a program that uses JNA to native-image and allow dynamic evaluation using [SCI](https://github.com/babashka/sci)!
-[deps.clj](https://github.com/borkdude/deps.clj): A faithful port of the clojure CLI bash script to Clojure
-[joyride](https://github.com/BetterThanTomorrow/joyride): VSCode CLJS scripting and REPL (via [SCI](https://github.com/babashka/sci))
-[squint](https://github.com/squint-cljs/squint): CLJS syntax to JS compiler
-[tools-deps-native](https://github.com/babashka/tools-deps-native): Run tools.deps as a native binary
-[tools.bbuild](https://github.com/babashka/tools.bbuild): Library of functions for building Clojure projects
-[scittle](https://github.com/babashka/scittle): Execute Clojure(Script) directly from browser script tags via SCI
-[pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy): A pod around buddy core (Cryptographic Api for Clojure).
-[nbb](https://github.com/babashka/nbb): Scripting in Clojure on Node.js using SCI
-[CLI](https://github.com/babashka/cli): Turn Clojure functions into CLIs!
-[process](https://github.com/babashka/process): Clojure library for shelling out / spawning sub-processes
-[SCI](https://github.com/babashka/sci): Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs
-[scittle](https://github.com/babashka/scittle): Execute Clojure(Script) directly from browser script tags via SCI
-[sci.configs](https://github.com/babashka/sci.configs): A collection of ready to be used SCI configs
+- [jna-native-image-sci](https://github.com/borkdude/jna-native-image-sci): Compile a program that uses JNA to native-image and allow dynamic evaluation using [SCI](https://github.com/babashka/sci)! 
+- [deps.clj](https://github.com/borkdude/deps.clj): A faithful port of the clojure CLI bash script to Clojure 
+- [joyride](https://github.com/BetterThanTomorrow/joyride): VSCode CLJS scripting and REPL (via [SCI](https://github.com/babashka/sci))
+- [squint](https://github.com/squint-cljs/squint): CLJS syntax to JS compiler
+- [tools-deps-native](https://github.com/babashka/tools-deps-native): Run tools.deps as a native binary
+- [tools.bbuild](https://github.com/babashka/tools.bbuild): Library of functions for building Clojure projects
+- [scittle](https://github.com/babashka/scittle): Execute Clojure(Script) directly from browser script tags via SCI
+- [pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy): A pod around buddy core (Cryptographic Api for Clojure).
+- [nbb](https://github.com/babashka/nbb): Scripting in Clojure on Node.js using SCI
+- [CLI](https://github.com/babashka/cli): Turn Clojure functions into CLIs!
+- [process](https://github.com/babashka/process): Clojure library for shelling out / spawning sub-processes
+- [SCI](https://github.com/babashka/sci): Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs
+- [scittle](https://github.com/babashka/scittle): Execute Clojure(Script) directly from browser script tags via SCI
+- [sci.configs](https://github.com/babashka/sci.configs): A collection of ready to be used SCI configs 
+
 Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).
 Published: 2023-02-05
 Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)
 
-## Project Clj-kondo: Michiel Borkent
+## Project Clj-kondo: Michiel Borkent (Feb. 2023 Update)
 In this post, I'll give updates about open source I worked on during February 2023.
 
 ### [Babashka](https://github.com/babashka/babashka)
@@ -183,16 +183,17 @@ Native, fast-starting Clojure interpreter for scripting. New release: 1.2.174. H
 - Add more java.time and related classes with the goal of supporting [juxt.tick](https://github.com/juxt/tick) ([issue](https://github.com/juxt/tick/issues/86))
 - See the complete [CHANGELOG](https://github.com/babashka/babashka/blob/master/CHANGELOG.md).
 
-Babashka compatibility in external libs
-- I worked together with the maintainers of the following libraries to make them compatible with babashka:
-- [kaocha](https://github.com/lambdaisland/kaocha): test runner[multiformats](https://github.com/greglook/clj-multiformats): Clojure(Script) implementations of the self-describing multiformat specs
+Babashka compatibility in external libs 
+I worked together with the maintainers of the following libraries to make them compatible with babashka:
+- [kaocha](https://github.com/lambdaisland/kaocha): test runner
+- [multiformats](https://github.com/greglook/clj-multiformats): Clojure(Script) implementations of the self-describing multiformat specs
 
 ### [Http-client](https://github.com/babashka/http-client): Babashka's http-client
-The babashka.http-client namespace mostly replaces [babashka.curl](https://github.com/babashka/babashka.curl).
-This month support for :multipart uploads was added, mostly based on and inspired by [hato](https://github.com/gnarroway/hato)'s implementation.
+- The babashka.http-client namespace mostly replaces [babashka.curl](https://github.com/babashka/babashka.curl).
+- This month support for :multipart uploads was added, mostly based on and inspired by [hato](https://github.com/gnarroway/hato)'s implementation.
 
 ### [Clj-kondo](https://github.com/clj-kondo/clj-kondo)
-Static analyzer and linter for Clojure code that sparks joy. New release: 2023.02.17..Some highlights:
+Static analyzer and linter for Clojure code that sparks joy. New release: 2023.02.17. Some highlights:
 - [#1976](https://github.com/clj-kondo/clj-kondo/issues/1976): warn about using multiple bindings after varargs (&) symbol in fn syntax
 - Add arity checks for core def
 - [#1954](https://github.com/clj-kondo/clj-kondo/issues/1954): new :uninitialized-var linter. See [docs](https://github.com/clj-kondo/clj-kondo/blob/master/doc/linters.md#uninitialized-var).
@@ -200,8 +201,7 @@ Static analyzer and linter for Clojure code that sparks joy. New release: 2023.0
 - [Check the changelog](https://github.com/clj-kondo/clj-kondo/blob/master/CHANGELOG.md) for details.
 
 ### [SCI](https://github.com/babashka/sci)
-Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs
-This month:
+Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs. This month:
 - Adding JS libraries to a SCI context. See [docs](https://github.com/babashka/sci#javascript-libraries)
 - Keyword arguments as map support for CLJS
 - Making loading of libraries thread-safe in JVM
@@ -246,25 +246,28 @@ The following projects also got updates, mostly in the form of maintenance and p
 [rewrite-clj](https://github.com/clj-commons/rewrite-clj): Rewrite Clojure code and edn
 [sql pods](https://github.com/babashka/babashka-sql-pods): babashka pods for SQL databases
 [squint](https://github.com/squint-cljs/squint): CLJS syntax to JS compiler
-###Other projects
+
+### Other Projects
 These are some of the other projects I'm involved with but little to no activity happened in the past month.
-[carve](https://github.com/borkdude/carve) - Remove unused Clojure vars
-[deps.clj](https://github.com/borkdude/deps.clj): A faithful port of the clojure CLI bash script to Clojure
-[edamame](https://github.com/borkdude/edamame): Configurable EDN/Clojure parser with location metadata
-[cherry](https://github.com/squint-cljs/cherry): Experimental ClojureScript to ES6 module compiler
-[grasp](https://github.com/borkdude/grasp): Grep Clojure code using clojure.spec regexes
-[jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN, YAML and Transit using Clojure
-[scittle](https://github.com/babashka/scittle): Execute Clojure(Script) directly from browser script tags via SCI
-[neil](https://github.com/babashka/neil): A CLI to add common aliases and features to deps.edn-based projects
-[quickblog](https://github.com/borkdude/quickblog): Light-weight static blog engine for Clojure and babashka
-[sci.configs](https://github.com/babashka/sci.configs): A collection of ready to be used SCI configs
-[lein2deps](https://github.com/borkdude/lein2deps): leiningen to deps.edn converter
+- [carve](https://github.com/borkdude/carve) - Remove unused Clojure vars
+- [deps.clj](https://github.com/borkdude/deps.clj): A faithful port of the clojure CLI bash script to Clojure
+- [edamame](https://github.com/borkdude/edamame): Configurable EDN/Clojure parser with location metadata
+- [cherry](https://github.com/squint-cljs/cherry): Experimental ClojureScript to ES6 module compiler
+- [grasp](https://github.com/borkdude/grasp): Grep Clojure code using clojure.spec regexes
+- [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN, YAML and Transit using Clojure
+- [scittle](https://github.com/babashka/scittle): Execute Clojure(Script) directly from browser script tags via SCI
+- [neil](https://github.com/babashka/neil): A CLI to add common aliases and features to deps.edn-based projects
+- [quickblog](https://github.com/borkdude/quickblog): Light-weight static blog engine for Clojure and babashka
+- [sci.configs](https://github.com/babashka/sci.configs): A collection of ready to be used SCI configs
+- [lein2deps](https://github.com/borkdude/lein2deps): leiningen to deps.edn converter
 [4ever-clojure](https://github.com/oxalorg/4ever-clojure) - Pure CLJS version of 4clojure, meant to run forever!
 [instaparse-bb](https://github.com/babashka/instaparse-bb)
-[pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy): A pod around buddy core (Cryptographic Api for Clojure).
+[pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy): A pod around buddy core (Cryptographic Api for Clojure). 
+
 Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).
 Published: 2023-03-01
 Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)
+
 
 
 ## Project ClojureDart: Christophe Grand
@@ -273,6 +276,10 @@ A problem kept bothering us: in our `cljd.flutter` (well in January it was still
 
 However `sub` only allowed to narrow *one* watchable. This led to awkward code were every other watchables (IO or framework related) updates had to be shoe-horned in a single canonical atom with the help of listeners (whose lifecycles have to be tied to specific parts of the widget tree) and hair-pulling naming decisions on paths inside this atom. We first extended `sub` to allow to apply a function across several watchables latest values, somehow behaving like a join. It worked but felt quite stiff and not very pleasing to use. `sub` relied on the `f & args` update convention (as used in `swap!`, `update-in` etc.) but there's no agreed upon convention for when one has several input and thus it doesn't mesh as well as the single-input version with the core lib.
 
-This dissatisfaction led us to develop "cells". Cells as in spreadsheets. So cells are expressions which recompute their value when their dependencies values change. Obviously we made cells watchable. A cell is defined by using the `$` macro (because it caches its latest value) and inside (dynamically, not lexically) a cell one can take (`<!`) from other cell *or any other watchable*.
-Example: assuming `now` is an atom (a plain old one) updated at 60fps, then `($ (.-day (<! now)))` is a cell recomputed at 60fps but yielding a new value once a day. So any widget (or other cell) depending on this cell will only be updated once a day.
-This generalizes nicely to multiple dependencies and even to dynamic dependency graphs. Another interesting fact to know about cells is that a cell is recomputed only when it's watched (and this cascades transitively: an unwatched cell doesn't watch its dependencies...). Another consequence of cells is that the push for a single big canonical atom goes away. This changed positively the way we write apps. So much that in our February workshop we talked only about cells, not subs.
+This dissatisfaction led us to develop "cells". Cells as in spreadsheets. So cells are expressions which recompute their value when their dependencies values change. Obviously we made cells watchable. A cell is defined by using the `$` macro (because it caches its latest value) and inside (dynamically, not lexically) a cell one can take (`<!`) from other cell *or any other watchable*. 
+
+Example: assuming `now` is an atom (a plain old one) updated at 60fps, then `($ (.-day (<! now)))` is a cell recomputed at 60fps but yielding a new value once a day. So any widget (or other cell) depending on this cell will only be updated once a day. 
+
+This generalizes nicely to multiple dependencies and even to dynamic dependency graphs. Another interesting fact to know about cells is that a cell is recomputed only when it's watched (and this cascades transitively: an unwatched cell doesn't watch its dependencies...). Another consequence of cells is that the push for a single big canonical atom goes away. 
+
+This changed positively the way we write apps. So much that in our February workshop we talked only about cells, not subs.
