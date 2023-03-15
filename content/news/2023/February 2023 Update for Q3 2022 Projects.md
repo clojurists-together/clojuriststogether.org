@@ -13,21 +13,24 @@ Project ClojureDart
 
 **2022 Q3 Projects**
 ## Project Koacha: Arne Brasseur
-Report #2: After a refreshing break, we've hit the ground running in 2023, merging approximately 20 PRs from both Greetings Gaiwan and community contributors, fixing many bugs and some CI/cljdocs issues. Several new libraries support Babashka, including Kaocha. We hope this and [other efforts](https://blog.michielborkent.nl/babashka-test-runner.html) will expand the pool of Clojure libraries and tools available for use in Babashka.
+Report #2: After a refreshing break, we've hit the ground running in 2023, merging approximately 20 PRs from both Gaiwan and community contributors, fixing many bugs and some CI/cljdocs issues. Several new libraries support Babashka, including Kaocha. We hope this and [other efforts](https://blog.michielborkent.nl/babashka-test-runner.html) will expand the pool of Clojure libraries and tools available for use in Babashka.
 Most of the focus has been on Kaocha, which saw eight separate releases over the past two months. We've also released minor updates for Launchpad, embedkit, and Deja-fu.
 
 ### [Kaocha](https://github.com/lambdaisland/kaocha) 1.79.1270 (2023-02-28 / 47a7b61)
 
 - Kaocha is now compatible with Babashka. Running under Babashka is most useful for validating your Clojure code runs correctly on Babashka, but it may also be faster for some test suites because of reduced start-up time.
--  Fix issue with `--watch` and Neovim by bumping Beholder to `1.0.2`
-- Fix bug causing namepaces to not be loaded if an alias was already created for them using `:as-alias``kaocha.repl/config` accepts a `:profile` key when specifying extra options.
+- Fix issue with `--watch` and Neovim by bumping Beholder to `1.0.2`
+- Fix bug causing namepaces to not be loaded if an alias was already created for them using `:as-alias`
+- `kaocha.repl/config` accepts a `:profile` key when specifying extra options.
 - Configuration errors and circular dependencies are reported as warnings, rather than causing the entire watcher to crash. (thanks[@frenchy64](https://github.com/frenchy64))
 - Fix bug added in [#384](https://github.com/lambdaisland/kaocha/issues/384): assertions in the tail position of an each fixture would return the result of the assertion instead of the testable object with the merged report data (thanks [@NoahTheDuke](https://github.com/NoahTheDuke))
-- Dependency version bumps `kaocha.plugin.capture-output/bypass` macro, for temporarily bypassing output capturing. Circular dependencies in watch mode no longer kills the process. (thanks  [@frenchy64](https://github.com/frenchy64))
+- Dependency version bumps
+- `kaocha.plugin.capture-output/bypass` macro, for temporarily bypassing output capturing. 
+- Circular dependencies in watch mode no longer kills the process. (thanks  [@frenchy64](https://github.com/frenchy64))
 - Ensure reloading errors are printed in watch mode when the first test suite is disabled.
-- Using a try-catch (without rethrowing) in an `:each` fixture could swallow thrown exceptions, resulting in a test being treated as passing when it should have been reported as an error. Fixed by changing how `:each` fixtures wrap the test function in execution. (thanks  [@NoahTheDuke](https://github.com/NoahTheDuke))
--  Fix crash on Windows when using `--watch` with the default Beholder watcher.
--  Documentation fixes and improvements
+- Using a try-catch (without rethrowing) in an `:each` fixture could swallow thrown exceptions, resulting in a test being treated as passing when it should have been reported as an error. Fixed by changing how `:each` fixtures wrap the test function in execution. (thanks [@NoahTheDuke](https://github.com/NoahTheDuke))
+- Fix crash on Windows when using `--watch` with the default Beholder watcher.
+- Documentation fixes and improvements
 
 
 ### [Launchpad](https://github.com/lambdaisland/launchpad) 0.15.79-alpha (2023-01-20 / 2b06d8e)
