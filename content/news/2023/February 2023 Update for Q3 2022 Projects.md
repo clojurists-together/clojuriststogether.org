@@ -1,16 +1,76 @@
 ---
-title: "February 2023 Project Updates for Q3 2022 Projects"
-date: 2023-03-15T08:30:00+08:00
-summary: Read updates from Q3 2022 projects Clj-kondo, ClojureDart, and Kaocha
+title: "February 2023 Report: Updates for 2022 Projects"
+date: 2023-03-18T08:30:00+08:00
+summary: Updates from 2022 projects Clj-kondo, ClojureDart, Kaocha, and Practicalli
 author: Kathy Davis
 draft: true
 ---
-Greetings Clojurists Together community! This report includes final updates for the following  Q3 2022  projects:
-Project Kaocha, Project Clj-kondo,and Project ClojureDart.
+Greetings Clojurists Together community! Read the latest updates for the following 2022 projects:
+Clj-kondo, ClojureDart, Kaocha, and Practicalli. 
+
+### 2022 Q1 Project  
+
+## Project Practicalli: John Stevenson
+A range of updates, new content and tool reviews and testing. [Reviewed 75 solutions for 44 students on Exercism.io](https://twitter.com/practical_li/status/1327671242388893697) over the last two week, adding that advice and code walk-throughs to the Practicalli Clojure book. \
 
 
-**2022 Q3 Projects**
+### General tasks
 
+* Upgraded to [MkDocs](https://www.mkdocs.org/) for book generation, using [Material for MkDocs theme](https://squidfunk.github.io/mkdocs-material/) for enhanced content engagement
+* [GitHub Issue activity](https://github.com/search?q=is%3Aissue+commenter%3Apracticalli-john)
+* [All GitHub activity \
+](https://github.com/search?q=commenter%3Apracticalli-john)
+
+### Practicalli Clojure Web Services 
+Contributions to other projects
+* [mulog documentation - add Reitit ring handler middleware example for logging requests and responses](https://github.com/BrunoBonacci/mulog/pull/96)
+
+### Practicalli Neovim 
+Created a fennel based configuration for Cloure development with Neovim, with a focus on REPL driven dvelopment, using LSP and as distraction free as possible. \
+All configuration written in fennel, except for a smal lua file to boostrap aniseed fennel to lua compiler. \
+Started a book to help use Neovim and the Practicall/neovim-config for those new to Neovim (and vim)
+* [practicalli/neovim-luasnip-snippets](https://github.com/practicalli-john/neovim-luasnip-snippets) custom snippets for Neovim to support development of Practicalli content and code
+
+### Practicalli Clojure 
+
+* Updates to practicall/clojure-deps-edn
+* In process: using Make for a consistent command line experience across projects
+* In process: GitHub template clojure project - [https://github.com/practicalli/clojure-app-template](https://github.com/practicalli/clojure-app-template)
+
+### Practicalli Clojure Web Services 
+* In process: Integrant REPL guide
+* In process: Gameboard project as example production service with Reitit API, mulog events, http-kit, integrant, postgrest, next.jdbc, hikari connection pool
+
+### Practicall Spacemacs 
+LSP completion testing shows inconsistent completion on aliases for required libraries
+* [practicalli-john/completion-testing](https://github.com/practicalli-john/completion-testing)
+* [slack discussion](https://clojurians.slack.com/archives/CPABC1H61/p1671197029520839)
+
+### Blog posts 
+* [Build and run Clojure with Multi-stage Dockerfile](https://practical.li/blog/posts/build-and-run-clojure-with-multistage-dockerfile/)
+    * [practicalli/clojure-app-template Dockerfile](https://github.com/practicalli/clojure-app-template/blob/main/Dockerfile) comprehensive multistage Dockerfile example
+* [Make Clojure development tasks simple and consistent](https://practical.li/blog/posts/make-clojure-tasks-simple-and-consistent/)
+    * [practicalli/clojure-app-template Makefile](https://github.com/practicalli/clojure-app-template/blob/main/Makefile)
+* [ClojureScript workflow with Clojure CLI tools and Figwheel-main](https://practical.li/blog/posts/clojurescript-workflow-with-clojure-cli-tools-and-figwheel-main/)
+* [Adopting FreeDesktop.org XDG standard for development tools](https://practical.li/blog/posts/adopt-FreeDesktop.org-XDG-standard-for-configuration-files/)
+* [Building Emacs 28 on Ubuntu Linux](https://practical.li/blog/posts/build-emacs-28-on-ubuntu/)
+* [Java 17 JDK for Clojure development](https://practical.li/blog/posts/java-17-lts-for-clojure-development/) 
+
+### Updates 
+* [update: rewrite Clojure CLI understanding aliases](https://github.com/practicalli/blog/pull/152)
+* [clarify: extra-deps description updated](https://github.com/practicalli/blog/pull/150)
+* [update: Article build run clojure with multistage dockerfile](https://github.com/practicalli/blog/pull/149) 
+
+### Miscellaneous 
+* in process: [Add cljstyle linter to MegaLinter project](https://github.com/oxsecurity/megalinter/pull/2115)
+* in process: Update clj-kondo version in MegaLinter project
+* Using cljstyle for checking and formating clojure code - [Practicalli cljstyle configuration](https://github.com/practicalli/clojure-app-template/blob/main/.cljstyle) to match clojure style guide 
+[New boost](https://3.basecamp.com/4323235/buckets/26214909/boosts/new?boost%5Bboostable_gid%5D=Z2lkOi8vYmMzL1JlY29yZGluZy81ODc5NTA0NzA4)
+
+
+### 2022 Q3 Projects  
+  
+  
 ## Project Clj-kondo: Michiel Borkent (Jan. 2023 Update)
 In this post, I'll give updates about open source I worked on during January 2023. 
 
@@ -139,7 +199,7 @@ Discuss this post [here](https://github.com/borkdude/blog/discussions/categories
 Published: 2023-02-05
 Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)
 
-
+</br>
 
 ## Project Clj-kondo: Michiel Borkent (Feb. 2023 Update)
 In this post, I'll give updates about open source I worked on during February 2023.
@@ -238,7 +298,7 @@ Discuss this post [here](https://github.com/borkdude/blog/discussions/categories
 Published: 2023-03-01
 Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html) 
  
- 
+ </br>
  
  
 ## Project ClojureDart: Christophe Grand
@@ -258,7 +318,7 @@ This generalizes nicely to multiple dependencies and even to dynamic dependency 
 
 This changed positively the way we write apps. So much that in our February workshop we talked only about cells, not subs. 
  
-  
+</br>
   
   
 ## Project Kaocha: Arne Brasseur (Dec. 2022 Update)
@@ -299,7 +359,7 @@ Dec. 2022 Update:
 -  Notifier now reports errors in your notification command instead of silently failing.
 -  Fixed `java.lang.IllegalArgumentException: No matching clause: []` exception when `:kaocha.spec.test.check/syms` is a collection. 
   
-  
+</br>  
    
 ## Project Kaocha: Arne Brasseur (Jan. and Feb. 2023 Update)
 Jan. and Feb. 2023 Update: After a refreshing break, we've hit the ground running in 2023, merging approximately 20 PRs from both Gaiwan and community contributors, fixing many bugs and some CI/cljdocs issues. Several new libraries support Babashka, including Kaocha. We hope this and [other efforts](https://blog.michielborkent.nl/babashka-test-runner.html) will expand the pool of Clojure libraries and tools available for use in Babashka.
