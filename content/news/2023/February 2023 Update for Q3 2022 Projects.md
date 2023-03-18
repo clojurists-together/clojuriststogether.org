@@ -1,12 +1,12 @@
 ---
 title: "February 2023 Project Updates for Q3 2022 Projects"
 date: 2023-03-15T08:30:00+08:00
-summary: Read updates from Q3 2022 projects Clj-kondo, ClojureDart, and Koacha
+summary: Read updates from Q3 2022 projects Clj-kondo, ClojureDart, and Kaocha
 author: Kathy Davis
 draft: true
 ---
 Greetings Clojurists Together community! This report includes final updates for the following  Q3 2022  projects:
-Project Koacha, Project Clj-kondo,and Project ClojureDart.
+Project Kaocha, Project Clj-kondo,and Project ClojureDart.
 
 
 **2022 Q3 Projects**
@@ -49,9 +49,10 @@ Native, fast-starting Clojure interpreter for scripting. New releases in the pas
 - Compatibility with [cljfmt](https://github.com/weavejester/cljfmt)
 - Support for *loaded-libs* and (loaded-libs)
 - Support add-watch on vars (which adds compatibility with potemkin.namespaces)
-- BREAKING: make printing of script results explicit with --prn
-- Babashka compatibility in external libs
+- BREAKING: make printing of script results explicit with --prn 
+- 
 
+### Babashka compatibility in external libs 
 I contributed changes to the following libraries to make them compatible with babashka:
 - [cljfmt](https://github.com/weavejester/cljfmt) - A tool for formatting Clojure code
 - [carve](https://github.com/borkdude/carve) - Remove unused Clojure vars
@@ -104,9 +105,9 @@ Light-weight static blog engine for Clojure and babashka. The blog you're curren
 - [Josh Glover's blog](https://jmglov.net/blog)
 - [Jeremy Taylor's blog](https://jdt.me/strange-reflections.html)
 - [Luc Engelen's blog](https://blog.cofx.nl/) ([source](https://github.com/cofx22/blog))
-- [Rattlin.blog](https://rattlin.blog/)
-If you are also using quickblog, please let me know!
-A collection of ready to be used SCI configs for e.g. Reagent, Promesa, Re-frame and other projects that are used in nbb, joyride, scittle, etc. See recent [commits](https://github.com/babashka/sci.configs/commits/main) for what's been improved.
+- [Rattlin.blog](https://rattlin.blog/) 
+
+If you are also using quickblog, please let me know! A collection of ready to be used SCI configs for e.g. Reagent, Promesa, Re-frame and other projects that are used in nbb, joyride, scittle, etc. See recent [commits](https://github.com/babashka/sci.configs/commits/main) for what's been improved.
 
 ### [Edamame](https://github.com/borkdude/edamame)
 Edamame got a new function: parse-next+string which returns the original string along with the parsed s-expression.
@@ -176,7 +177,7 @@ Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs.
 ### [Fs](https://github.com/babashka/fs)
 File system utility library for Clojure. Highlights:
 - several xdg-*-home helper functions, contributed by [@eval](https://github.com/eval)
-babashka.fs/zip now takes a :root option to elide a parent folder or folders.E.g. (fs/zip "src" {:root "src"}) will zip src/foo.clj into the zip file under foo.clj.
+- babashka.fs/zip now takes a :root option to elide a parent folder or folders.E.g. (fs/zip "src" {:root "src"}) will zip src/foo.clj into the zip file under foo.clj.
 - See [changelog](https://github.com/babashka/fs/blob/master/CHANGELOG.md#changelog) for more details.
 
 ### [Process](https://github.com/babashka/process)
@@ -184,7 +185,9 @@ Clojure library for shelling out / spawning sub-processes
 This month I looked into wrapping output of processes with a prefix so when ran in parallel, you can easily distuingish them. A preliminary solution is in [this thread](https://github.com/babashka/process/discussions/102#discussioncomment-4903758).
 
 ### [Pod-babashka-lanterna](https://github.com/babashka/pod-babashka-lanterna)
-Interact with clojure-lanterna from babashka. A very experimental 0.0.1 release was published. You can try it out by playing tetris in the console with babashka:
+Interact with clojure-lanterna from babashka. A very experimental 0.0.1 release was published. You can try it out by playing tetris in the console with babashka: 
+ 
+
 bb -Sdeps '{:deps {io.github.borkdude/console-tetris {:git/sha "2d3bee34ea93c84608c7cc5994ae70480b2df54c"}}}' -m tetris.core
 
 ### [Nbb](https://github.com/babashka/nbb)
@@ -192,7 +195,8 @@ Scripting in Clojure on Node.js using SCI
 Finally nbb has gotten support for passing maps to keyword argument functions:
 - (defn foo [& {:keys [a b c]}])
 - (foo :a 1 :b 2 :c 3)
-- (foo {:a 1 :b 2 :c 3})
+- (foo {:a 1 :b 2 :c 3})  
+
 Several other improvements have been made in the area of macros and resolving JS library references and resolving dependencies in an nbb.edn file, relative to an invoked script which is not in the current directory.
 See changelogs [here](https://github.com/babashka/nbb/blob/main/CHANGELOG.md).
 
@@ -226,9 +230,9 @@ These are some of the other projects I'm involved with but little to no activity
 - [quickblog](https://github.com/borkdude/quickblog): Light-weight static blog engine for Clojure and babashka
 - [sci.configs](https://github.com/babashka/sci.configs): A collection of ready to be used SCI configs
 - [lein2deps](https://github.com/borkdude/lein2deps): leiningen to deps.edn converter
-[4ever-clojure](https://github.com/oxalorg/4ever-clojure) - Pure CLJS version of 4clojure, meant to run forever!
-[instaparse-bb](https://github.com/babashka/instaparse-bb)
-[pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy): A pod around buddy core (Cryptographic Api for Clojure). 
+- [4ever-clojure](https://github.com/oxalorg/4ever-clojure) - Pure CLJS version of 4clojure, meant to run forever!
+- [instaparse-bb](https://github.com/babashka/instaparse-bb)
+- [pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy): A pod around buddy core (Cryptographic Api for Clojure). 
 
 Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).
 Published: 2023-03-01
@@ -236,11 +240,15 @@ Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates
  
  
  
+ 
 ## Project ClojureDart: Christophe Grand
-This final update covers January 2023. This month we merged our changes for a better hot reload (see Update #2) and then went on bug fixing and doing small improvements for a while.
+This final update covers January 2023. This month we merged our changes for a better hot reload (see Update #2) and then went on bug fixing and doing small improvements for a while. 
+
 A problem kept bothering us: in our `cljd.flutter` (well in January it was still`cljd.flutter.alpha2`) we have `:watch` to react to updates to all kind of stateful objects and `sub` to narrow the scope of changes we are interested in for a given "watchable". This is very useful as it allows to change the frequency at which a piece of UI is updated: one can have a big atom holding a lot of state (and this changing frequently) and watch a slower changing subset of it.
 
-However `sub` only allowed to narrow *one* watchable. This led to awkward code were every other watchables (IO or framework related) updates had to be shoe-horned in a single canonical atom with the help of listeners (whose lifecycles have to be tied to specific parts of the widget tree) and hair-pulling naming decisions on paths inside this atom. We first extended `sub` to allow to apply a function across several watchables latest values, somehow behaving like a join. It worked but felt quite stiff and not very pleasing to use. `sub` relied on the `f & args` update convention (as used in `swap!`, `update-in` etc.) but there's no agreed upon convention for when one has several input and thus it doesn't mesh as well as the single-input version with the core lib.
+However `sub` only allowed to narrow *one* watchable. This led to awkward code were every other watchables (IO or framework related) updates had to be shoe-horned in a single canonical atom with the help of listeners (whose lifecycles have to be tied to specific parts of the widget tree) and hair-pulling naming decisions on paths inside this atom. 
+
+We first extended `sub` to allow to apply a function across several watchables latest values, somehow behaving like a join. It worked but felt quite stiff and not very pleasing to use. `sub` relied on the `f & args` update convention (as used in `swap!`, `update-in` etc.) but there's no agreed upon convention for when one has several input and thus it doesn't mesh as well as the single-input version with the core lib.
 
 This dissatisfaction led us to develop "cells". Cells as in spreadsheets. So cells are expressions which recompute their value when their dependencies values change. Obviously we made cells watchable. A cell is defined by using the `$` macro (because it caches its latest value) and inside (dynamically, not lexically) a cell one can take (`<!`) from other cell *or any other watchable*. 
 
@@ -250,7 +258,8 @@ This generalizes nicely to multiple dependencies and even to dynamic dependency 
 
 This changed positively the way we write apps. So much that in our February workshop we talked only about cells, not subs. 
  
- 
+  
+  
   
 ## Project Kaocha: Arne Brasseur (Dec. 2022 Update)
 Dec. 2022 Update:
