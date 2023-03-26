@@ -5,7 +5,7 @@ summary: Updates from Bohzidar Batsov, Michiel Borkent, Sean Corfield, Eric Dall
 author: Kathy Davis
 draft: true
 ---
-Here is the first report from our developers who are receiving annual funding for their 2023 projects. They have been busy!  
+Here are the first reports (Jan. and Feb. 2023) from our developers who are receiving annual funding for their 2023 projects. They have been busy! Thanks all for the great work!<br>
   
  
 
@@ -37,10 +37,10 @@ There has been one small improvement here recently:
   
 ### nREPL
 Things have been relatively quiet on this front. There's some ongoing work to improve the test suit and have it running on Windows.
-I've also been in communication with David Miller to discuss the state of nREPL for ClojureCLR and the outstanding work there. The project is very close to being usable and it's current status is documented [here](https://github.com/clojure/clr.tools.nrepl#status). David could definitely use some help from people knowledgeable in CLR to drive it through the finish line!  
-
-
-
+I've also been in communication with David Miller to discuss the state of nREPL for ClojureCLR and the outstanding work there. The project is very close to being usable and it's current status is documented [here](https://github.com/clojure/clr.tools.nrepl#status). David could definitely use some help from people knowledgeable in CLR to drive it through the finish line!<br>
+     
+---
+   
 ## 2023 Annual Funding: Michiel Borkent (January 2023)
 
 In this post I'll give updates about open source I worked on during January 2023. 
@@ -175,13 +175,15 @@ The following projects also got updates, mostly in the form of maintenance and p
 * [scittle](https://github.com/babashka/scittle): Execute Clojure(Script) directly from browser script tags via SCI
 * [sci.configs](https://github.com/babashka/sci.configs): A collection of ready to be used SCI configs
 
-Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).. _Published: 2023-02-05  Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)_
-
+Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).. _Published: 2023-02-05  Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)<br>
+    
+---
+   
 ## 2023 Annual Funding: Michiel Borkent (February 2023)  
 
 In this post I'll give updates about open source I worked on during February 2023.
 
-### [Babashka](https://github.com/babashka/babashka)]
+### [Babashka](https://github.com/babashka/babashka)
 
 Native, fast starting Clojure interpreter for scripting. New release: 1.2.174. Highlights:
 * Use GraalVM 22.3.1 on JDK 19.0.2. This adds virtual thread support. See [demo](https://twitter.com/borkdude/status/1572222344684531717).
@@ -227,7 +229,7 @@ Interact with clojure-lanterna from babashka. A very experimental 0.0.1 release 
 ```
 bb -Sdeps '{:deps {io.github.borkdude/console-tetris {:git/sha "2d3bee34ea93c84608c7cc5994ae70480b2df54c"}}}' -m tetris.core
 ```
-<code>### <strong>[Nbb](https://github.com/babashka/nbb)</strong></code>
+### [Nbb](https://github.com/babashka/nbb)</strong></code>
 
 Scripting in Clojure on Node.js using SCI. Finally nbb has gotten support for passing maps to keyword argument functions:
 ```
@@ -252,7 +254,7 @@ The following projects also got updates, mostly in the form of maintenance and p
 * [sql pods](https://github.com/babashka/babashka-sql-pods): babashka pods for SQL databases
 * [squint](https://github.com/squint-cljs/squint): CLJS _syntax_ to JS compiler
 
-### Other projects*
+### Other projects
 These are some of the other projects I'm involved with but little to no activity happened in the past month.
 * [carve](https://github.com/borkdude/carve) - Remove unused Clojure vars
 * [deps.clj](https://github.com/borkdude/deps.clj): A faithful port of the clojure CLI bash script to Clojure
@@ -269,13 +271,10 @@ These are some of the other projects I'm involved with but little to no activity
 * [instaparse-bb](https://github.com/babashka/instaparse-bb)
 * [pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy): A pod around buddy core (Cryptographic Api for Clojure).
 
-Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts). _Published: 2023-03-01_
-
-_Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)<span style="text-decoration:underline;">  </span>_
-_<span style="text-decoration:underline;">  </span>_
-_<span style="text-decoration:underline;">  </span>_
-```
-
+Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts). _Published: 2023-03-01__Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)<br>
+  
+---
+    
 ## 2023 Annual Funding: Sean Corfield 
 January/February 2023 Update
 :tags ["clojure" "clojure-doc.org" "open source" "tools.build" "community"]}
@@ -292,7 +291,7 @@ In addition to cleaning up and modernizing `clojure-doc.org`, I also said that I
 
 My first couple of months have focused on reviewing the content on`clojure-doc.org` to establish what is still relevant and pruning outdated content, as well as streamlining my own open source projects around tooling.
 
-### `build-clj` & `tools.build`
+### build-clj & tools.build
 
 I was very pleased when [`tools.build`](https://github.com/clojure/tools.build) landed and I aggressively switched all my open source projects and my work
 projects over to it.
@@ -335,16 +334,12 @@ In March/April, I plan to review and/or overhaul the Getting Started, Introducti
 
 
 ### Additional Project Releases
-In addition to changing all my projects to use plain `tools.build` instead
-of my wrapper for it,
-[HoneySQL](https://github.com/seancorfield/honeysql)
-2.x has had four releases in January/February,
-that have mostly focused on improving documentation and also compatibility
-with 1.x to make it easier for folks to migrate.
-
-  
-## 2023 Annual Funding: Eric Dallo
-
+In addition to changing all my projects to use plain `tools.build` instead of my wrapper for it, [HoneySQL](https://github.com/seancorfield/honeysql)2.x has had four releases in January/February, that have mostly focused on improving documentation and also compatibility with 1.x to make it easier for folks to migrate.<br>
+    
+---
+   
+## 2023 Annual Funding: Eric Dallo  
+January/February 2023 Update
 ### [jet.el](https://github.com/ericdallo/jet.el)
 
 New opensource project!
@@ -366,14 +361,13 @@ Clojure-lsp is a tool that can be used both in your editor like Calva, Emacs, Vi
 
 There were some improvements on the documentation regarding what and how clojure-lsp can be used in outside your editor [here](https://clojure-lsp.io/api/what-is-it/).
 
-### 2023.01.26-11.08.16
-
+### Release 2023.01.26-11.08.16
 The most important features of this release were the find definition of symbols and the edn file support for both editor and lint via CLI, improving the IDE experience, being able to find the definition and references of keywords and symbols, besides that, there was a lot of fixes, performance improvements, and new settings for more projects support.
 
 ![](clojure-lsp-edn-keyword.gif)
 
 #### Changelog 
-- General
+**General**
   - Bump clj-kondo to `2023.01.20`
   - Avoid false-positives of unused-public-var for functions used in :gen-class that starts with `-` as convention. #1443
   - New jar available on releases: `clojure-lsp-server.jar`, an Uberjar not aot-ed containing both clojure-lsp core + server code, improving startup time for JVM clients, for example for `lein-clojure-lsp`. Any lib using `clojure-lsp-standalone.jar` should consider switch to this new jar.
@@ -382,7 +376,7 @@ The most important features of this release were the find definition of symbols 
   - Bump lsp4clj to 1.7.0
   - Support `:style/indent` metadata for indentation with cljfmt #1420
 
-- Editor
+**Editor**
   - Fix add missing import code action when there are multiple options. #1422
   - Only show completion items if no changed code is being processed, avoiding wrong completion items. #1425
   - Improve semantic tokens for defprotocol, definterface coloring as `interface` tokens.
@@ -392,7 +386,7 @@ The most important features of this release were the find definition of symbols 
   - find-definition and references for quoted symbols like `'clojure.core/inc` and symbols mentioned in `.edn` files. #1446
   - Show error messages when can't apply edits after commands. #1448
 
-- API/CLI
+**API/CLI**
   - Make diagnostics command print as json or edn. #1419
   - Make possible starting a chan server with clojure-lsp components, useful to other clients extend.
   - Consider edn files when linting project, allowing to format edn files. #1452
@@ -400,17 +394,15 @@ The most important features of this release were the find definition of symbols 
 
 
 ### Release 2023.02.27-13.12.12 
-
 Mostly improvement on completion performance, some improvements on the __hover__ feature, and fixes.
 
 #### Changelog
-
-- General
+**General**
   - Add new setting `:paths-ignore-regex` to allow ignore analyzing/linting specific paths, useful if you have folders or files that are not relevant to be linted and are huge which may affect performance.
   - Bump clj-kondo. Fixes missing lint class constructors, making clojure-lsp show add import code action always.
   - Fix wrong ns rename for cljc files. #1508
 
-- Editor
+**Editor**
   - Fix cache issue: wrong external dependencies analysis when running clojure-lsp in editor after running on CLI, affecting navigation. #1473
   - Bump lsp4clj fixing progress notifications during initialization for Calva.
   - Allow go to definition of namespace even when the var is not known. Ex: `clojure.string/foo` will go to the definition of `clojure.string`. This is useful for cases where the var was not created yet but user wants to go to the ns to check the available functions or check the correct name of the function.
@@ -422,11 +414,11 @@ Mostly improvement on completion performance, some improvements on the __hover__
   - Enhance hover to search clojuredocs on CLJS. #1506
 
 ### [clj-kondo](https://github.com/clj-kondo/clj-kondo/)
-
-Worked on analysis stuff regarding edn support for clojure-lsp.
-
+Worked on analysis stuff regarding edn support for clojure-lsp.<br>
+  
+  ---
+  
 ## 2023 Annual Funding: Christophe Grand 
-```
 January 2023 Report
 
 This month we merged our changes for a better hot reload (see Update #2) and then went on bugfixing and doing small improvements for a while. A problem kept bothering us: in our `cljd.flutter` (well in January it was still `cljd.flutter.alpha2`) we have `:watch` to react to updates to all kind of stateful objects and `sub` to narrow the scope of changes we are interested in for a given "watchable". This is very useful as it allows to change the frequency at which a piece of UI is updated: one can have a big atom holding a lot of state (and this changing frequently) and watch a slower changing subset of it.
@@ -447,23 +439,25 @@ Another consequence of cells is that the push for a single big canonical atom go
 
 This changed positively the way we write apps. So much that in our February workshop we talked only about cells, not subs.
 
-[New boost](https://3.basecamp.com/4323235/buckets/29639833/boosts/new?boost%5Bboostable_gid%5D=Z2lkOi8vYmMzL1JlY29yZGluZy81OTIxMTQ0MDY0)
-
-
-```
+[New boost](https://3.basecamp.com/4323235/buckets/29639833/boosts/new?boost%5Bboostable_gid%5D=Z2lkOi8vYmMzL1JlY29yZGluZy81OTIxMTQ0MDY0) <br>
+  
+---
+  
 ## 2023 Annual Funding: Thomas Heller 
+January/February 2023 Update
 
 ### shadow-cljs 
 Update January - February 2023
 Time was mostly spent on doing maintenance work and some bugfixes. As well as helping people out via the typical channels (eg. Clojurians Slack).
 Current shadow-cljs version: 2.21.0 [Changelog](https://github.com/thheller/shadow-cljs/blob/master/CHANGELOG.md)
-
-Notable Updates
+**Notable Updates**
 - Fixed an issue related to `reify`, that could happen when `:advanced` optimizing multiple modules. Running into this had rather confusing and hard to debug errors, so I'm glad this is gone. [CLJS-3207](https://clojure.atlassian.net/browse/CLJS-3207) is the official issue for this and I hope to make a patch for that at some point
 - Fixed build reports not properly grouping some npm packages
 - Fixed a react-native bad default, since RN apparently only supports ES5 via the now default Hermes engine. `:compiler-options {:output-feature-set :es5}` is now the default for `:target :react-native` builds
-- Fixed an externs inference issue, which greatly improved externs inference warning coverage. Previously many places would not warn about possible externs issues, and potentially producing bad code in `:advanced` due to missing externs.
-
+- Fixed an externs inference issue, which greatly improved externs inference warning coverage. Previously many places would not warn about possible externs issues, and potentially producing bad code in `:advanced` due to missing externs.<br>
+  
+  ---
+  
 ## 2023 Annual Funding: NIkita Propokoc
 
 January and February have been two months dedicated to Clojure Sublimed, my Sublime Text plugin for Clojure development.
@@ -500,8 +494,10 @@ More detailed changelog:
 [Sublime Color Schemes](https://github.com/tonsky/sublime-color-schemes)
 
 - New repo!
-- Just some fun themes I make for Sublime from time to time. I spent my last two months in Berkeley scheme from that repo.
-
+- Just some fun themes I make for Sublime from time to time. I spent my last two months in Berkeley scheme from that repo.<br>
+  
+  ---
+   
 ## 2023 Annual Funding:Tommi Reiman
 January and February 2023 report.
 
@@ -514,13 +510,10 @@ For Reitit, drafting a proper plugin system, have studied how this is solved in 
 Have also reviews lot's of PRs, helped people online and pushed out some smaller features and release the following:
 
 ### Malli
-
-## 0.10.1 (2023-01-21)
-
+#### 0.10.1 (2023-01-21)
 * Strip-extra-keys should not break on non-map values [#818](https://github.com/metosin/malli/pull/818)
 
-## 0.10.0 (2023-01-12)
-
+#### 0.10.0 (2023-01-12)
 * New optional time-schemas for the JVM on top of `java.time`: 
   * `:time/duration`, `:time/instant`, `:time/local-date`, `:time/local-date-time`, `:time/local-time`, `:time/offset-date-time`, `:time/offset-time`, `:time/zone-id`, `:time/zone-offset`, `:time/zoned-date-time`, see [README](README.md#malliexperimentaltime)
 * automatic type inferring with `:enum` and `:=` with `malli.transform` and `malli.json-schema` - detects homogenous `:string`, `:keyword`, `:symbol`, `:int` and `:double`), [#782](https://github.com/metosin/malli/pull/782) & [#784](https://github.com/metosin/malli/pull/784)
@@ -543,8 +536,7 @@ Have also reviews lot's of PRs, helped people online and pushed out some smaller
 
 ### Reitit
 
-## 0.6.0 (2023-02-21)
-
+#### 0.6.0 (2023-02-21)
 * Add reitit-frontend support for fragment string [#581](https://github.com/metosin/reitit/pull/581)
 * reloading-ring-handler [#584](https://github.com/metosin/reitit/pull/584)
 * Remove redundant s/and [#552](https://github.com/metosin/reitit/pull/552)
@@ -570,17 +562,23 @@ Have also reviews lot's of PRs, helped people online and pushed out some smaller
 [com.fasterxml.jackson.core/jackson-databind "2.14.2"] is available but we use "2.14.1"
 ```
 
-# Someting else
+# Something else
 Spring is coming!
 
-<img width="1728" alt="spring-fi" src="https://user-images.githubusercontent.com/567532/221986452-83d562ab-c3f0-4362-9041-475df7486af9.png">
-
-##2023 Annual Funding: Peter Stromberg
+<img width="1728" alt="spring-fi" src="https://user-images.githubusercontent.com/567532/221986452-83d562ab-c3f0-4362-9041-475df7486af9.png"
+  
+    
+---
+  
+## 2023 Annual Funding: Peter Stromberg
 My first two months of 2023 long term funding was spent in a typical mostly-Calva-someJoyride-and-some-other-stuff manner. 😀 Even though it was an unusual two months in ways I hope will stick, as well as in ways I hope we will see less of. 
 
-## [Calva](https://github.com/BetterThanTomorrow/calva)
+### [Calva](https://github.com/BetterThanTomorrow/calva)
 Calva is growing. This is wonderful and twofold: 1. More users: We are in a period of picking up many new users. 
-🎉 It means we spend much more time on user support than we are used to. And that's coming from a situation where user support is the bulk of the time we spend on Calva. We gain many insights. What the beginner experience is like. Bugs we were not aware of are discovered. Use cases we didn't know existed look quite common. And so on. 1. More contributions: With user growth, and the various new needs and problems that reveals, bring more contributors. * Many more issues are contributed. The Calva issues list has always had a slow growth. We never close issues as "won't fix", unless it is super clear that it is out of the project scope. The current issue growth is unusually high, though. * Moar PRs! Especially [Julien Vincent](https://github.com/julienvincent) and [Aleksei Ivanov](https://github.com/SillyCoon) have been busy. Julien has been fixing some big use cases he think were lacking. Aleksei has been focused on quality and fixing existing issues. Thanks! And also thanks to all contributors I am not even mentioning here. The growth has changed the characteristics of [Brandon Ringe](https://github.com/bpringe)'s and my work with Calva a bit. More time to support and learn from users and contributors, less time on adding features or fixing issues ourselves. Brandon has nonetheless spent considerable time on trying to figure out a tool-chain where we can write more of Calva in ClojureScript. This is a theme throughout Calva's short history. 😀 He has had some successes and some of the usual boring "this is really hard and strange" moments. There's a [separate repository for figuring this out and learning](https://github.com/BetterThanTomorrow/calva-cljs-testbed) before we start to try implement in the Calva project. We'll see if that ever happens. There are advantages with the current tool-chain. Brandon mentions these: 1. The official tooling and docs are geared toward TS, so there's no translating stuff or figuring out how to make stuff work with cljs, aside from what we've already put in place. 1. It's really important to have input and contributions from beginners to Clojure to make Calva better for them. Some/most might be familiar with TS/JS or it might be easier for them to pick up than cljs. 1. Some contributors might be pretty familiar with VS Code extension dev, but not using cljs, and they might be more likely to contribute if it's written somewhat or mostly in TS. February was also a bit different in a not so pleasant way. In releasing some quite big new things, we by mistake changed things we did not want to change, and even broke some things for Windows (non-WSL) users. We have had to make two rollbacks of releases. The content of both these releases have been reworked and released again, save for one new feature which we hope to get in there soon. By this I am reminded about how special a project like Calva is, with so many use cases and different operating system environments, projects and expectations. We hope that our rollbacks were quick enough to not impact work too much for too many people. We try to learn as much as possible from the incidents. (I am pretty sure it will happen many times again. It comes with [how the Calva project works](https://calva.io/tao/).) All in all, we have had 13 new Calva releases, including rollbacks: * We now have a model for supporting several clojure-lsp instances per VS Code Workspace. See https://calva.io/clojure-lsp/. We think we can carry over some of general concept to when we start supporting more than two (CLJ + CLJS) nREPL sessions per workspace. * More scalable Project selection behaviour (mainly for monorepos) for both the REPL connection and for clojure-lsp. * The Calva indenter now behaves much, much better * [Project auto-selection] (https://calva.io/connect/#auto-select-project-type). We're going for supporting fully automated REPL Jack-in and connect, including API that Joyriders can use. This is a step in that direction. * End-to-end testing (using the Joyride test-runner) added. It can test both the extension under development and a release packaged VSIX. Both these are tested in the CI build-test pipeline. There is very, very little coverage yet. The E2E testing compliments Calva's current unit and integration testing. * Many quality issues fixed. * Lessons given to us, some hopefully learnt. I've started looking at adding Windows executors to our build and test steps in CI. This is WIP, because I got distracted. And I also was a bit defeated by YAML. 
+🎉 It means we spend much more time on user support than we are used to. And that's coming from a situation where user support is the bulk of the time we spend on Calva. We gain many insights. What the beginner experience is like. Bugs we were not aware of are discovered. Use cases we didn't know existed look quite common. And so on. 
+2. More contributions: With user growth, and the various new needs and problems that reveals, bring more contributors. * Many more issues are contributed. The Calva issues list has always had a slow growth. We never close issues as "won't fix", unless it is super clear that it is out of the project scope. The current issue growth is unusually high, though. * Moar PRs! Especially [Julien Vincent](https://github.com/julienvincent) and [Aleksei Ivanov](https://github.com/SillyCoon) have been busy. Julien has been fixing some big use cases he think were lacking. Aleksei has been focused on quality and fixing existing issues. Thanks! And also thanks to all contributors I am not even mentioning here. The growth has changed the characteristics of [Brandon Ringe](https://github.com/bpringe)'s and my work with Calva a bit. More time to support and learn from users and contributors, less time on adding features or fixing issues ourselves. Brandon has nonetheless spent considerable time on trying to figure out a tool-chain where we can write more of Calva in ClojureScript. This is a theme throughout Calva's short history. 😀 He has had some successes and some of the usual boring "this is really hard and strange" moments. 
+
+There's a [separate repository for figuring this out and learning](https://github.com/BetterThanTomorrow/calva-cljs-testbed) before we start to try implement in the Calva project. We'll see if that ever happens. There are advantages with the current tool-chain. Brandon mentions these: 1. The official tooling and docs are geared toward TS, so there's no translating stuff or figuring out how to make stuff work with cljs, aside from what we've already put in place. 1. It's really important to have input and contributions from beginners to Clojure to make Calva better for them. Some/most might be familiar with TS/JS or it might be easier for them to pick up than cljs. 1. Some contributors might be pretty familiar with VS Code extension dev, but not using cljs, and they might be more likely to contribute if it's written somewhat or mostly in TS. February was also a bit different in a not so pleasant way. In releasing some quite big new things, we by mistake changed things we did not want to change, and even broke some things for Windows (non-WSL) users. We have had to make two rollbacks of releases. The content of both these releases have been reworked and released again, save for one new feature which we hope to get in there soon. By this I am reminded about how special a project like Calva is, with so many use cases and different operating system environments, projects and expectations. We hope that our rollbacks were quick enough to not impact work too much for too many people. We try to learn as much as possible from the incidents. (I am pretty sure it will happen many times again. It comes with [how the Calva project works](https://calva.io/tao/).) All in all, we have had 13 new Calva releases, including rollbacks: * We now have a model for supporting several clojure-lsp instances per VS Code Workspace. See https://calva.io/clojure-lsp/. We think we can carry over some of general concept to when we start supporting more than two (CLJ + CLJS) nREPL sessions per workspace. * More scalable Project selection behaviour (mainly for monorepos) for both the REPL connection and for clojure-lsp. * The Calva indenter now behaves much, much better * [Project auto-selection] (https://calva.io/connect/#auto-select-project-type). We're going for supporting fully automated REPL Jack-in and connect, including API that Joyriders can use. This is a step in that direction. * End-to-end testing (using the Joyride test-runner) added. It can test both the extension under development and a release packaged VSIX. Both these are tested in the CI build-test pipeline. There is very, very little coverage yet. The E2E testing compliments Calva's current unit and integration testing. * Many quality issues fixed. * Lessons given to us, some hopefully learnt. I've started looking at adding Windows executors to our build and test steps in CI. This is WIP, because I got distracted. And I also was a bit defeated by YAML. 
 
 ## Joyride with Borkdude is so fun! 
 I have spent most of my [Joyride](https://github.com/BetterThanTomorrow/joyride) time, with a lot of assistance from [Michiel Borkent](https://github.com/borkdude), adding automatic testing. We've written a test-runner which is using `clojure.test` and Joyride itself. It's for e2e testing so far (and possibly will stay like that). Like with Calva, the test-runner can support testing both the extension under development and a packaged VSIX. Both these are tested in the CI build-test pipeline. There have been five new Joyride releases. * Basic e2e tests coverage (not tied to releases, but anyway) * Improvement in support for writing Joyride scripts with JavaScript * npm require fixes * Enable js/require * Improve JavaScript introspection from the REPL * Add rewrite-clj as a built-in library for Joyride scripts We have also made it possible to build Joyride using ESM, to make lazy requires possible. We got as far as we now need to make Joyride's execution async, line [nbb](https://github.com/babashka/nbb)'s is. This needs to be spearheaded by Michiel, because he's the one who knows what we are doing. 
@@ -589,9 +587,11 @@ I have spent most of my [Joyride](https://github.com/BetterThanTomorrow/joyride)
 The GitHub ReadME Podcast geve [the Calva model for comaintainership some focus](https://github.com/readme/podcast/comaintaining-openness). Brandon and I were interviewed. Some super high level words on what is Clojure survived the editing as well. 
 
 ## Various experiments conducted 
-As always I have been trying to figure out how we can support people new to Clojure better. This is all still quite chaotic for me, with my ideas and thinking being all over the place. Very much still in the hammock, even if some things sometimes find their way to Calva. And this time I've also created a [Getting Started with Clojure mini-repo](https://github.com/PEZ/clojure-get-started-mini) as a result of this thinking process. I'm hoping this project can help people find their footing quicker and give them help in starting their own first projects. I think example/starter projects in combination with Calva (and other IDE's) support for them, as well as carefully crafted support for [neil] (https://github.com/babashka/neil) might take us far. I have been experimenting a bit with [Electric Clojure](https://github.com/hyperfiddle/electric) to try figure out how Calva supports it as is, and get an idea what Calva (and/or other extensions) could do to leverage this new development model. Not much to show for it, just some instructions contributed to the main and example app repositories. Electric Clojure is under rapid development, so this will have to be a revisited often this year. Thanks to the Electric Clojure team for assisting me so generously and kindly in my explorations! I arranged my first Meetup, a [Clojure Meetup at that] (https://www.meetup.com/sthlm-clj/events/291204199/), featuring talks from [Josh Glover] (https://github.com/jmglov) and myself. It was hosted at the [Agical](https://agical.se) (my employer) office, and food was provided by [Pitch](https://pitch.com/). The event was live streamed. Which was also a first for me, and not without problems. Our production broke with Josh's presentation, leaving us only with a presenters camera which could only barely be convinced to film the slides as they where projected in the room. People tell us that it was still very enjoyable to follow the stream. * The full stream: [Meetup Feb 23: Blambda! The sound of Babashka and Lambda colliding](https://www.youtube.com/watch?v=NfgYon96dsE) (talks start at 30 minutes) * My talk: [Give me Interactive Programming, or give me death] (https://www.youtube.com/watch?v=L0-yDtVUWMQ) (please share around) I would summarize the meetup with the words of [Verner von Heidenstam] (https://en.wikipedia.org/wiki/Verner_von_Heidenstam): > It is fairer to listen to the string that broke than to never strain a bow. Thanks for reading! /[Peter Strömberg (aka PEZ)] (https://github.com/PEZ)
-
-2023 Annual Funding: Peter Taoussanis
+As always I have been trying to figure out how we can support people new to Clojure better. This is all still quite chaotic for me, with my ideas and thinking being all over the place. Very much still in the hammock, even if some things sometimes find their way to Calva. And this time I've also created a [Getting Started with Clojure mini-repo](https://github.com/PEZ/clojure-get-started-mini) as a result of this thinking process. I'm hoping this project can help people find their footing quicker and give them help in starting their own first projects. I think example/starter projects in combination with Calva (and other IDE's) support for them, as well as carefully crafted support for [neil] (https://github.com/babashka/neil) might take us far. I have been experimenting a bit with [Electric Clojure](https://github.com/hyperfiddle/electric) to try figure out how Calva supports it as is, and get an idea what Calva (and/or other extensions) could do to leverage this new development model. Not much to show for it, just some instructions contributed to the main and example app repositories. Electric Clojure is under rapid development, so this will have to be a revisited often this year. Thanks to the Electric Clojure team for assisting me so generously and kindly in my explorations! I arranged my first Meetup, a [Clojure Meetup at that] (https://www.meetup.com/sthlm-clj/events/291204199/), featuring talks from [Josh Glover] (https://github.com/jmglov) and myself. It was hosted at the [Agical](https://agical.se) (my employer) office, and food was provided by [Pitch](https://pitch.com/). The event was live streamed. Which was also a first for me, and not without problems. Our production broke with Josh's presentation, leaving us only with a presenters camera which could only barely be convinced to film the slides as they where projected in the room. People tell us that it was still very enjoyable to follow the stream. * The full stream: [Meetup Feb 23: Blambda! The sound of Babashka and Lambda colliding](https://www.youtube.com/watch?v=NfgYon96dsE) (talks start at 30 minutes) * My talk: [Give me Interactive Programming, or give me death] (https://www.youtube.com/watch?v=L0-yDtVUWMQ) (please share around) I would summarize the meetup with the words of [Verner von Heidenstam] (https://en.wikipedia.org/wiki/Verner_von_Heidenstam): > It is fairer to listen to the string that broke than to never strain a bow. Thanks for reading! /[Peter Strömberg (aka PEZ)] (https://github.com/PEZ) <br>
+  
+---
+  
+## 2023 Annual Funding: Peter Taoussanis  
 Hi everyone, [Peter Taoussanis](https://github.com/ptaoussanis) here :-)
 A brief update on my [open-source work](https://www.taoensso.com/clojure) from Jan+Feb 2023 below.
 
