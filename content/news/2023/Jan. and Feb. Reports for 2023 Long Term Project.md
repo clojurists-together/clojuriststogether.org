@@ -531,13 +531,13 @@ More detailed changelog:
 ## 2023 Annual Funding:Tommi Reiman
 January/February 2023 Report
 
-Spend a lot of time with [Malli](https://github.com/metosin/malli) and [Reitit](https://github.com/metosin/reitit) for revisiting, priorising and designing the essential missing core features. 
+Spent a lot of time with [Malli](https://github.com/metosin/malli) and [Reitit](https://github.com/metosin/reitit) for revisiting, prioritizing and designing the essential missing core features. 
 
-For Malli, my top priority is to resolve [the derivation and declaration of effective types](https://github.com/metosin/malli/issues/264), which will simplify library internals, writing schema extensions and makes CLJS bundle size smaller. Might have to break the protocol-api for this. 
+For Malli, my top priority is to resolve [the derivation and declaration of effective types](https://github.com/metosin/malli/issues/264), which will simplify library internals, writing schema extensions and make CLJS bundle size smaller. Might have to break the protocol-api for this. 
 
-For Reitit, drafting a proper plugin system, have studied how this is solved in other ecosystems (e.g. [fastify](https://www.fastify.io/), [phoenix](https://www.phoenixframework.org/)). Reitit is powerful, proper plugin system makes it much more approachable.
+For Reitit, drafting a proper plugin system, have studied how this is solved in other ecosystems (e.g. [fastify](https://www.fastify.io/), [phoenix](https://www.phoenixframework.org/)). Reitit is powerful, proper plugin system which makes it much more approachable.
 
-Have also reviews lot's of PRs, helped people online and pushed out some smaller features and release the following:
+Have also reviewed lot's of PRs, helped people online and pushed out some smaller features and release the following:
 
 ### Malli
 #### 0.10.1 (2023-01-21)
@@ -580,8 +580,8 @@ Have also reviews lot's of PRs, helped people online and pushed out some smaller
 * Add example for Reitit + Pedestal + Malli coercion [#572](https://github.com/metosin/reitit/pull/572)
 * Handle empty seq as empty string in query-string [#566](https://github.com/metosin/reitit/pull/566)
 * Polish pedestal chains when printing context diffs [#557](https://github.com/metosin/reitit/pull/557)
-* Updated dependencies:
-
+* Updated dependencies: 
+  
 ```clojure
 [metosin/ring-swagger-ui "4.15.5"] is available but we use "4.3.0"
 [metosin/jsonista "0.3.7"] is available but we use "0.3.5"
@@ -589,26 +589,40 @@ Have also reviews lot's of PRs, helped people online and pushed out some smaller
 [fipp "0.6.26"] is available but we use "0.6.25"
 [ring/ring-core "1.9.6"] is available but we use "1.9.5"
 [com.fasterxml.jackson.core/jackson-core "2.14.2"] is available but we use "2.14.1"
-[com.fasterxml.jackson.core/jackson-databind "2.14.2"] is available but we use "2.14.1"
+[com.fasterxml.jackson.core/jackson-databind "2.14.2"] is available but we use "2.14.1"  
 ```
-
+  
 # Something else
 Spring is coming!
 
-<img width="1728" alt="spring-fi" src="https://user-images.githubusercontent.com/567532/221986452-83d562ab-c3f0-4362-9041-475df7486af9.png"
+<img width="1728" alt="spring-fi" src="https://user-images.githubusercontent.com/567532/221986452-83d562ab-c3f0-4362-9041-475df7486af9.png">
+<br>      
   
-    
 ---
-  
+    
 ## 2023 Annual Funding: Peter Stromberg
 My first two months of 2023 long term funding was spent in a typical mostly-Calva-someJoyride-and-some-other-stuff manner. 😀 Even though it was an unusual two months in ways I hope will stick, as well as in ways I hope we will see less of. 
 
 ### [Calva](https://github.com/BetterThanTomorrow/calva)
-Calva is growing. This is wonderful and twofold: 1. More users: We are in a period of picking up many new users. 
-🎉 It means we spend much more time on user support than we are used to. And that's coming from a situation where user support is the bulk of the time we spend on Calva. We gain many insights. What the beginner experience is like. Bugs we were not aware of are discovered. Use cases we didn't know existed look quite common. And so on. 
-2. More contributions: With user growth, and the various new needs and problems that reveals, bring more contributors. * Many more issues are contributed. The Calva issues list has always had a slow growth. We never close issues as "won't fix", unless it is super clear that it is out of the project scope. The current issue growth is unusually high, though. * Moar PRs! Especially [Julien Vincent](https://github.com/julienvincent) and [Aleksei Ivanov](https://github.com/SillyCoon) have been busy. Julien has been fixing some big use cases he think were lacking. Aleksei has been focused on quality and fixing existing issues. Thanks! And also thanks to all contributors I am not even mentioning here. The growth has changed the characteristics of [Brandon Ringe](https://github.com/bpringe)'s and my work with Calva a bit. More time to support and learn from users and contributors, less time on adding features or fixing issues ourselves. Brandon has nonetheless spent considerable time on trying to figure out a tool-chain where we can write more of Calva in ClojureScript. This is a theme throughout Calva's short history. 😀 He has had some successes and some of the usual boring "this is really hard and strange" moments. 
+Calva is growing. This is wonderful and twofold:<br>  
+**1. More users:** We are in a period of picking up many new users. 🎉 It means we spend much more time on user support than we are used to. And that's coming from a situation where user support is the bulk of the time we spend on Calva. We gain many insights. What the beginner experience is like. Bugs we were not aware of are discovered. Use cases we didn't know existed look quite common. And so on.<br>  
 
-There's a [separate repository for figuring this out and learning](https://github.com/BetterThanTomorrow/calva-cljs-testbed) before we start to try implement in the Calva project. We'll see if that ever happens. There are advantages with the current tool-chain. Brandon mentions these: 1. The official tooling and docs are geared toward TS, so there's no translating stuff or figuring out how to make stuff work with cljs, aside from what we've already put in place. 1. It's really important to have input and contributions from beginners to Clojure to make Calva better for them. Some/most might be familiar with TS/JS or it might be easier for them to pick up than cljs. 1. Some contributors might be pretty familiar with VS Code extension dev, but not using cljs, and they might be more likely to contribute if it's written somewhat or mostly in TS. February was also a bit different in a not so pleasant way. In releasing some quite big new things, we by mistake changed things we did not want to change, and even broke some things for Windows (non-WSL) users. We have had to make two rollbacks of releases. The content of both these releases have been reworked and released again, save for one new feature which we hope to get in there soon. By this I am reminded about how special a project like Calva is, with so many use cases and different operating system environments, projects and expectations. We hope that our rollbacks were quick enough to not impact work too much for too many people. We try to learn as much as possible from the incidents. (I am pretty sure it will happen many times again. It comes with [how the Calva project works](https://calva.io/tao/).) All in all, we have had 13 new Calva releases, including rollbacks: * We now have a model for supporting several clojure-lsp instances per VS Code Workspace. See https://calva.io/clojure-lsp/. We think we can carry over some of general concept to when we start supporting more than two (CLJ + CLJS) nREPL sessions per workspace. * More scalable Project selection behaviour (mainly for monorepos) for both the REPL connection and for clojure-lsp. * The Calva indenter now behaves much, much better * [Project auto-selection] (https://calva.io/connect/#auto-select-project-type). We're going for supporting fully automated REPL Jack-in and connect, including API that Joyriders can use. This is a step in that direction. * End-to-end testing (using the Joyride test-runner) added. It can test both the extension under development and a release packaged VSIX. Both these are tested in the CI build-test pipeline. There is very, very little coverage yet. The E2E testing compliments Calva's current unit and integration testing. * Many quality issues fixed. * Lessons given to us, some hopefully learnt. I've started looking at adding Windows executors to our build and test steps in CI. This is WIP, because I got distracted. And I also was a bit defeated by YAML. 
+**2. More contributions:** With user growth, and the various new needs and problems that reveals, bring more contributors.<br>
+
+* Many more issues are contributed. The Calva issues list has always had a slow growth. We never close issues as "won't fix", unless it is super clear that it is out of the project scope. The current issue growth is unusually high, though.<br>
+
+* Moar PRs! Especially [Julien Vincent](https://github.com/julienvincent) and [Aleksei Ivanov](https://github.com/SillyCoon) have been busy. Julien has been fixing some big use cases he think were lacking. Aleksei has been focused on quality and fixing existing issues. Thanks! And also thanks to all contributors I am not even mentioning here.<br>  
+
+The growth has changed the characteristics of [Brandon Ringe](https://github.com/bpringe)'s and my work with Calva a bit. More time to support and learn from users and contributors, less time on adding features or fixing issues ourselves.<br>  
+
+Brandon has nonetheless spent considerable time on trying to figure out a tool-chain where we can write more of Calva in ClojureScript. This is a theme throughout Calva's short history. 😀 He has had some successes and some of the usual boring "this is really hard and strange" moments. 
+
+There's a [separate repository for figuring this out and learning](https://github.com/BetterThanTomorrow/calva-cljs-testbed) before we start to try implement in the Calva project. We'll see if that ever happens. There are advantages with the current tool-chain. Brandon mentions these: 
+1. The official tooling and docs are geared toward TS, so there's no translating stuff or figuring out how to make stuff work with cljs, aside from what we've already put in place. 
+2. It's really important to have input and contributions from beginners to Clojure to make Calva better for them. Some/most might be familiar with TS/JS or it might be easier for them to pick up than cljs. 1. 
+3. Some contributors might be pretty familiar with VS Code extension dev, but not using cljs, and they might be more likely to contribute if it's written somewhat or mostly in TS.<br>  
+
+February was also a bit different in a not so pleasant way. In releasing some quite big new things, we by mistake changed things we did not want to change, and even broke some things for Windows (non-WSL) users. We have had to make two rollbacks of releases. The content of both these releases have been reworked and released again, save for one new feature which we hope to get in there soon. By this I am reminded about how special a project like Calva is, with so many use cases and different operating system environments, projects and expectations. We hope that our rollbacks were quick enough to not impact work too much for too many people. We try to learn as much as possible from the incidents. (I am pretty sure it will happen many times again. It comes with [how the Calva project works](https://calva.io/tao/).) All in all, we have had 13 new Calva releases, including rollbacks: * We now have a model for supporting several clojure-lsp instances per VS Code Workspace. See https://calva.io/clojure-lsp/. We think we can carry over some of general concept to when we start supporting more than two (CLJ + CLJS) nREPL sessions per workspace. * More scalable Project selection behaviour (mainly for monorepos) for both the REPL connection and for clojure-lsp. * The Calva indenter now behaves much, much better * [Project auto-selection] (https://calva.io/connect/#auto-select-project-type). We're going for supporting fully automated REPL Jack-in and connect, including API that Joyriders can use. This is a step in that direction. * End-to-end testing (using the Joyride test-runner) added. It can test both the extension under development and a release packaged VSIX. Both these are tested in the CI build-test pipeline. There is very, very little coverage yet. The E2E testing compliments Calva's current unit and integration testing. * Many quality issues fixed. * Lessons given to us, some hopefully learnt. I've started looking at adding Windows executors to our build and test steps in CI. This is WIP, because I got distracted. And I also was a bit defeated by YAML. 
 
 ## Joyride with Borkdude is so fun! 
 I have spent most of my [Joyride](https://github.com/BetterThanTomorrow/joyride) time, with a lot of assistance from [Michiel Borkent](https://github.com/borkdude), adding automatic testing. We've written a test-runner which is using `clojure.test` and Joyride itself. It's for e2e testing so far (and possibly will stay like that). Like with Calva, the test-runner can support testing both the extension under development and a packaged VSIX. Both these are tested in the CI build-test pipeline. There have been five new Joyride releases. * Basic e2e tests coverage (not tied to releases, but anyway) * Improvement in support for writing Joyride scripts with JavaScript * npm require fixes * Enable js/require * Improve JavaScript introspection from the REPL * Add rewrite-clj as a built-in library for Joyride scripts We have also made it possible to build Joyride using ESM, to make lazy requires possible. We got as far as we now need to make Joyride's execution async, line [nbb](https://github.com/babashka/nbb)'s is. This needs to be spearheaded by Michiel, because he's the one who knows what we are doing. 
