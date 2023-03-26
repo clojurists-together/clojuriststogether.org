@@ -1,7 +1,7 @@
 ---
 title: "Jan. and Feb. Project Updates for 2023 Long Term Projects"
 date: 2023-03-24 T08:30:00+08:00
-summary: Updates from Bohzidar Batsov, Michiel Borkent, Sean Corfield, Eric Dallo, Christophe Grand, Thomas Heller, Nikita Prokopov, Tommi Reiman, Peter Stromberg, and Peter Taoussanis
+summary: Updates from Bozhidar Batsov, Michiel Borkent, Sean Corfield, Eric Dallo, Christophe Grand, Thomas Heller, Nikita Prokopov, Tommi Reiman, Peter Stromberg, and Peter Taoussanis
 author: Kathy Davis
 draft: true
 ---
@@ -10,7 +10,7 @@ Here are the first reports (Jan. and Feb. 2023) from our developers who are rece
  
 
 
-## 2023 Annual Funding: Boshhzidar Batsov 
+## 2023 Annual Funding: Bozhidar Batsov 
 January/February 2023 Report
 
 ### CIDER
@@ -63,11 +63,11 @@ If you want to ensure that the projects I work on are sustainably maintained, yo
 
 If you're used to sponsoring through some other means which isn't listed above, please get in touch.
 
-**Attention:**  If you are using Github Sponsors and are making payments via Paypal, please update to a creditcard since Github Sponsors won't support Paypal from February 23rd 2023. Read their statement [here](https://github.blog/changelog/2023-01-23-github-sponsors-will-stop-supporting-paypal/). If you are not able to pay via a creditcard, you can still sponsor me via one of the ways mentioned above.
+**Attention:**  If you are using Github Sponsors and are making payments via Paypal, please update to a credit card since Github Sponsors won't support Paypal from February 23rd 2023. Read their statement [here](https://github.blog/changelog/2023-01-23-github-sponsors-will-stop-supporting-paypal/). If you are not able to pay via a credit card, you can still sponsor me via one of the ways mentioned above.
 
 ### [Babashka](https://github.com/babashka/babashka) 
 
-Native, fast starting Clojure interpreter for scripting. New releases in the past month: 1.0.170 - 1.1.173 Highlights: 
+Native, fast starting Clojure interpreter for scripting. New releases in the past month: 1.0.170 - 1.1.173. Highlights: 
 * Support for data_readers.clj(c)
 * Include [http-client](https://github.com/babashka/http-client) as built-in library
 * Compatibility with [clojure.tools.namespace.repl/refresh](https://github.com/clojure/tools.namespace)
@@ -100,7 +100,7 @@ Some highlights:
 * [#1902](https://github.com/clj-kondo/clj-kondo/issues/1902): provide :symbols analysis for navigation to symbols in quoted forms or EDN files. See [demo](https://twitter.com/borkdude/status/1612773780589355008).
 The symbol analysis is used from clojure-lsp for which I provided a patch [here](https://github.com/borkdude/clojure-lsp/commit/f662adab1b17d5dbc3648d6d8208334dc920aa0e).
 
-A new project around clj-kondo is [clj-kondo-bb](https://github.com/clj-kondo/clj-kondo-bb) which enables you to use clj-kondo from babashka scripts.
+A new project around clj-kondo is [clj-kondo-bb](https://github.com/clj-kondo/clj-kondo-bb) which enables you to use clj-kondo from babashka scripts.<br>
 Also [lein-clj-kondo](https://github.com/clj-kondo/lein-clj-kondo) got an update.
 
 ### [Instaparse-bb](https://github.com/babashka/instaparse-bb)  
@@ -131,7 +131,7 @@ CLI to transform between JSON, EDN, YAML and Transit using Clojure Version 0.4.2
 ### [Fs](https://github.com/babashka/fs)
 File system utility library for Clojure. Fs has gotten a few new functions:
 * unifixy, to turn a Windows path into a path with Unix-style pathseparators. Note that that style is supported by the JVM and this offers a morereliable way to e.g. match filenames via regexes.
-* several xdg-*-home helper functions, contributed by [@eval](https://github.com/eval)
+* several xdg-*-home helper functions, contributed by [@eval](https://github.com/eval)<br>
 See [changelog](https://github.com/babashka/fs/blob/master/CHANGELOG.md#changelog) for more details.
 
 ### [Neil](https://github.com/babashka/neil)
@@ -175,7 +175,7 @@ The following projects also got updates, mostly in the form of maintenance and p
 * [scittle](https://github.com/babashka/scittle): Execute Clojure(Script) directly from browser script tags via SCI
 * [sci.configs](https://github.com/babashka/sci.configs): A collection of ready to be used SCI configs
 
-Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).. _Published: 2023-02-05  Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)<br>
+Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).. Published: 2023-02-05  Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)<br>
     
 ---
    
@@ -187,7 +187,7 @@ In this post I'll give updates about open source I worked on during February 202
 
 Native, fast starting Clojure interpreter for scripting. New release: 1.2.174. Highlights:
 * Use GraalVM 22.3.1 on JDK 19.0.2. This adds virtual thread support. See [demo](https://twitter.com/borkdude/status/1572222344684531717).
-* Add more java.time and related classes with the goal of supporting [juxt.tick](https://github.com/juxt/tick) ([issue](https://github.com/juxt/tick/issues/86))
+* Add more java.time and related classes with the goal of supporting [juxt.tick](https://github.com/juxt/tick) ([issue](https://github.com/juxt/tick/issues/86))<br>
 See the complete [CHANGELOG](https://github.com/babashka/babashka/blob/master/CHANGELOG.md).
 
 ### Babashka compatibility in external libs
@@ -200,12 +200,12 @@ I worked together with the maintainers of the following libraries to make them c
 The babashka.http-client namespace mostly replaces [babashka.curl](https://github.com/babashka/babashka.curl).
 This month support for :multipart uploads was added, mostly based on and inspired by [hato](https://github.com/gnarroway/hato)'s implementation.
 
-### [Clj-kondo](https://github.com/clj-kondo/clj-kondo) Static analyzer and linter for Clojure code that sparks joy. New release: 2023.02.17
- Some highlights:
+### [Clj-kondo](https://github.com/clj-kondo/clj-kondo)<br>
+Static analyzer and linter for Clojure code that sparks joy. New release: 2023.02.17. Some highlights:
 * [#1976](https://github.com/clj-kondo/clj-kondo/issues/1976): warn about using multiple bindings after varargs (&) symbol in fn syntax
 * Add arity checks for core def
 * [#1954](https://github.com/clj-kondo/clj-kondo/issues/1954): new :uninitialized-var linter. See [docs](https://github.com/clj-kondo/clj-kondo/blob/master/doc/linters.md#uninitialized-var).
-* [#1996](https://github.com/clj-kondo/clj-kondo/issues/1996): expose hooks-api/resolve. See [docs](https://github.com/clj-kondo/clj-kondo/blob/master/doc/hooks.md#api).
+* [#1996](https://github.com/clj-kondo/clj-kondo/issues/1996): expose hooks-api/resolve. See [docs](https://github.com/clj-kondo/clj-kondo/blob/master/doc/hooks.md#api).<br>
 [Check the changelog](https://github.com/clj-kondo/clj-kondo/blob/master/CHANGELOG.md) for details.
 
 ### [SCI](https://github.com/babashka/sci)
@@ -224,7 +224,7 @@ See [changelog](https://github.com/babashka/fs/blob/master/CHANGELOG.md#changelo
 ### [Process](https://github.com/babashka/process)
 Clojure library for shelling out / spawning sub-processes. This month I looked into wrapping output of processes with a prefix so when ran in parallel, you can easily distuingish them. A preliminary solution is in [this thread](https://github.com/babashka/process/discussions/102#discussioncomment-4903758).
 
-### [Pod-babashka-lanterna](https://github.com/babashka/pod-babashka-lanterna)**
+### [Pod-babashka-lanterna](https://github.com/babashka/pod-babashka-lanterna)
 Interact with clojure-lanterna from babashka. A very experimental 0.0.1 release was published. You can try it out by playing tetris in the console with babashka:
 ```
 bb -Sdeps '{:deps {io.github.borkdude/console-tetris {:git/sha "2d3bee34ea93c84608c7cc5994ae70480b2df54c"}}}' -m tetris.core
@@ -236,7 +236,8 @@ Scripting in Clojure on Node.js using SCI. Finally nbb has gotten support for pa
 (defn foo [& {:keys [a b c]}])
 (foo :a 1 :b 2 :c 3)
 (foo {:a 1 :b 2 :c 3})
-```
+```  
+  
 Several other improvements have been made in the area of macros and resolving JS library references and resolving dependencies in an nbb.edn file, relative to an invoked script which is not in the current directory. See changelogs [here](https://github.com/babashka/nbb/blob/main/CHANGELOG.md).
 
 ### [Joyride](https://github.com/BetterThanTomorrow/joyride)
@@ -271,12 +272,12 @@ These are some of the other projects I'm involved with but little to no activity
 * [instaparse-bb](https://github.com/babashka/instaparse-bb)
 * [pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy): A pod around buddy core (Cryptographic Api for Clojure).
 
-Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts). _Published: 2023-03-01__Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)<br>
+Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).  Published: 2023-03-01   Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)<br>
   
 ---
     
 ## 2023 Annual Funding: Sean Corfield 
-January/February 2023 Update
+January/February 2023 Update<br>
 :tags ["clojure" "clojure-doc.org" "open source" "tools.build" "community"]}
 
 As part of [Clojurists Together's Long-Term Funding for 2023](https://www.clojuriststogether.org/news/clojurists-together-2023-long-term-funding-announcement/) I talked about working on [clojure-doc.org](https://clojure-doc.org) which I had resurrected a few years ago, as a GitHub Pages project, powered by [Cryogen](https://cryogenweb.org/).<!--more-->
@@ -284,41 +285,59 @@ As part of [Clojurists Together's Long-Term Funding for 2023](https://www.clojur
 It was originally created over a decade ago, intended as a community hub for general documentation related to Clojure that couldn't be found on
 [clojure.org](https://clojure.org) and which wasn't bound by the [Clojure Contributor Agreement](https://clojure.org/dev/contributor_agreement).
 
-A lot has changed since then. The Contributor Agreement has gone from a purely paper and "snail mail" process to an online e-form. The `clojure.org` website is now [on GitHub](https://github.com/clojure/clojure-site) and accepts Pull Requests (if you've e-signed the CA) -- and it has expanded massively,compared to the material it covered back then.
+A lot has changed since then. The Contributor Agreement has gone from a purely paper and "snail mail" process to an online e-form. The `clojure.org` website is now [on GitHub](https://github.com/clojure/clojure-site) and accepts Pull Requests (if you've e-signed the CA) -- and it has expanded massively,compared to the material it covered back then.<br>
 
-`clojure-doc.org` itself grew a lot of ambitious content, including extensive guides to `clojure.java.jdbc` and `clojure.core.typed` that are now very dated.
-In addition to cleaning up and modernizing `clojure-doc.org`, I also said that I wanted to help streamline the beginner experience around Clojure tooling, and I've started to talk with Alex Miller about possible avenues for that.
+`clojure-doc.org` itself grew a lot of ambitious content, including extensive guides to `clojure.java.jdbc` and `clojure.core.typed` that are now very dated.<br>  
+
+In addition to cleaning up and modernizing `clojure-doc.org`, I also said that I wanted to help streamline the beginner experience around Clojure tooling, and I've started to talk with Alex Miller about possible avenues for that.  
 
 My first couple of months have focused on reviewing the content on`clojure-doc.org` to establish what is still relevant and pruning outdated content, as well as streamlining my own open source projects around tooling.
 
-### build-clj & tools.build
+### `build-clj` & `tools.build`
 
 I was very pleased when [`tools.build`](https://github.com/clojure/tools.build) landed and I aggressively switched all my open source projects and my work
 projects over to it.
 
-I initially felt that there was a lot of boilerplate and duplication in the `build.clj` files I was creating and my initial reaction was to create a simple wrapper that provided "sane" defaults to make build files smaller and simpler. As people started using this wrapper, it began to develop more "knobs & dials" to make it more configurable -- and then I created [`deps-new`](https://github.com/seancorfield/deps-new) as a modern
-"replacement" for [`clj-new`](https://github.com/seancorfield/clj-new) (which in turn derived from `boot-new`, which derived from `lein new`), with the idea of supporting more declarative templates for projects. That led to more "knobs & dials" on my `tools.build` wrapper as the projects created by `deps-new` depended heavily on the wrapper.
+I initially felt that there was a lot of boilerplate and duplication in the `build.clj` files I was creating and my initial reaction was to create a simple wrapper that provided "sane" defaults to make build files smaller and simpler. As people started using this wrapper, it began to develop more "knobs & dials" to make it more configurable -- and then I created [`deps-new`](https://github.com/seancorfield/deps-new) as a modern "replacement" for [`clj-new` (https://github.com/seancorfield/clj-new)(which in turn derived from `boot-new`, which derived from `lein new`), with the idea of supporting more declarative templates for projects. That led to more "knobs & dials" on my `tools.build` wrapper as the projects created by `deps-new` depended heavily on the wrapper.
 
-In January, I stripped the wrapper out of all my open source projects'`build.clj` files as a way to make them a better example for beginners.
-I went on to strip the wrapper out of the [usermanager example application](https://github.com/seancorfield/usermanager-example)
-that I regularly link beginners to, as a basic web application, and out of the project templates in [`deps-new`](https://github.com/seancorfield/deps-new) so that people creating projects via that will no longer use my wrapper.
+In January, I stripped the wrapper out of all my open source projects
+`build.clj` files as a way to make them a better example for beginners. I went on to strip the wrapper out of the usermanager example application](https://github.com/seancorfield/usermanager-example) that I regularly link beginners to, as a basic web application, and out of the project templates in [`deps-new`](https://github.com/seancorfield/deps-new) so that people creating projects via that will no longer use my wrapper.
 
-The net result should be many more examples of how to use `tools.build` directly and a normalization of how `build.clj` files should be written. I think the [HoneySQL `build.clj`](https://github.com/seancorfield/honeysql/blob/develop/build.clj) file in particular is a good example of how to run various tasks,
-such as [`test-doc-blocks`](https://github.com/lread/test-doc-blocks) and [Eastwood](https://github.com/jonase/eastwood), as well as running multi-version testing, both Clojure and ClojureScript tests, and building and deploying a library JAR to Clojars.
+The net result should be many more examples of how to use `tools.build`
+directly and a normalization of how `build.clj` files should be written.
+I think the [HoneySQL `build.clj`](https://github.com/seancorfield/honeysql/blob/develop/build.clj)
+file in particular is a good example of how to run various tasks,
+such as [`test-doc-blocks`](https://github.com/lread/test-doc-blocks)
+and [Eastwood](https://github.com/jonase/eastwood), as well as running
+multi-version testing, both Clojure and ClojureScript tests, and building
+and deploying a library JAR to Clojars.
 
-I plan to write a cookbook for `clojure-doc.org` that expands on the [official `tools.build` guide](https://clojure.org/guides/tools_build), covering the sorts of things I've found useful in both my open source and work projects.
+I plan to write a cookbook for `clojure-doc.org` that expands on the
+[official `tools.build` guide](https://clojure.org/guides/tools_build),
+covering the sorts of things I've found useful in both my open source
+and work projects.
 
-### `clojure-doc.org` 
+### `clojure-doc.org`
 
-As noted above, `clojure.org` has grown dramatically since `clojure-doc.org` was created and provides more up-to-date content in many areas, so I've
-focused on pruning the duplicated and outdated content and linking to the official site where up-to-date content now exists. In particular, the following pages have been unlinked and removed from the navigation, in favor of other sources:
+As noted above, `clojure.org` has grown dramatically since `clojure-doc.org`
+was created and provides more up-to-date content in many areas, so I've
+focused on pruning the duplicated and outdated content and linking to the
+official site where up-to-date content now exists.
+
+In particular, the following pages have been unlinked and removed from
+the navigation, in favor of other sources:
+
 * Books -- deferring to clojure.org
 * Emacs & vim-fireplace -- the former was very outdated, and the latter is only one of several good vim/neovim plugins so deferring to other docs makes more sense
 * Typed Clojure -- or `core.typed` as the old section was called, which was a decade old
 * User Groups, including how to start/run a user group -- deferring to clojure.org
 
-I've temporarily removed all the ecosystem and library pages from the navigation to make the main sections easier to find, while I review and update them over
-the next few months. The following pages have been overhauled/updated:
+I've temporarily removed all the ecosystem and library pages from the navigation
+to make the main sections easier to find, while I review and update them over
+the next few months.
+
+The following pages have been overhauled/updated:
+
 * About -- which is also the README now
 * Community -- several sections defer to new material on clojure.org
 * Content -- a work in progress as the site evolves
@@ -327,19 +346,31 @@ the next few months. The following pages have been overhauled/updated:
 Nearly 60 pages have been updated to fix broken links.
 [Changes so far this year!](https://github.com/clojure-doc/clojure-doc.github.io/compare/03d64232651eb6ca77630edca6059c0c70fa72be..source)
 
-I welcome feedback on both the updated content and the site itself, either via the [#clojure-doc channel on Slack](https://app.slack.com/client/T03RZGPFR/C02M6N5C137) _(self-signup at [clojurians.net](http://clojurians.net))_ or via [clojure-doc discussions on GitHub](https://github.com/clojure-doc/clojure doc.github.io/discussions). Feel free to open issues directly for errors on the site and of course pull requests on the `source` branch are also welcome!
+I welcome feedback on both the updated content and the site itself,
+either via the [#clojure-doc channel on Slack](https://app.slack.com/client/T03RZGPFR/C02M6N5C137)
+_(self-signup at [clojurians.net](http://clojurians.net))_ or via
+[clojure-doc discussions on GitHub](https://github.com/clojure-doc/clojure-doc.github.io/discussions).
+Feel free to open issues directly for errors on the site and of course
+pull requests on the `source` branch are also welcome!
 
 ### What's Next?
-In March/April, I plan to review and/or overhaul the Getting Started, Introduction, and Web Development sections, with a focus on the latter.
 
+In March/April, I plan to review and/or overhaul the Getting Started,
+Introduction, and Web Development sections, with a focus on the latter.
 
 ### Additional Project Releases
-In addition to changing all my projects to use plain `tools.build` instead of my wrapper for it, [HoneySQL](https://github.com/seancorfield/honeysql)2.x has had four releases in January/February, that have mostly focused on improving documentation and also compatibility with 1.x to make it easier for folks to migrate.<br>
-    
+
+In addition to changing all my projects to use plain `tools.build` instead
+of my wrapper for it,
+[HoneySQL](https://github.com/seancorfield/honeysql)
+2.x has had four releases in January/February,
+that have mostly focused on improving documentation and also compatibility
+with 1.x to make it easier for folks to migrate.<br>  
+  
 ---
-   
+    
 ## 2023 Annual Funding: Eric Dallo  
-January/February 2023 Update
+January/February 2023 Report
 ### [jet.el](https://github.com/ericdallo/jet.el)
 
 New opensource project!
@@ -421,22 +452,24 @@ Worked on analysis stuff regarding edn support for clojure-lsp.<br>
 ## 2023 Annual Funding: Christophe Grand 
 January 2023 Report
 
-This month we merged our changes for a better hot reload (see Update #2) and then went on bugfixing and doing small improvements for a while. A problem kept bothering us: in our `cljd.flutter` (well in January it was still `cljd.flutter.alpha2`) we have `:watch` to react to updates to all kind of stateful objects and `sub` to narrow the scope of changes we are interested in for a given "watchable". This is very useful as it allows to change the frequency at which a piece of UI is updated: one can have a big atom holding a lot of state (and this changing frequently) and watch a slower changing subset of it.
+This month we merged our changes for a better hot reload (see Update #2) and then went on bugfixing and doing small improvements for a while.<br>  
 
-However `sub` only allowed to narrow *one* watchable. This led to awkward code were every other watchables (IO or framework related) updates had to be shoe-horned in a single canonical atom with the help of listeners (whose lifecycles have to be tied to specific parts of the widget tree) and hair-pulling naming decisions on paths inside this atom.
-
-We first extended `sub` to allow to apply a function across several watchables latest values, somehow behaving like a join.
-
-It worked but felt quite stiff and not very pleasing to use. `sub` relied on the `f & args` update convention (as used in `swap!`, `update-in` etc.) but there's no agreed upon convention for when one has several input and thus it doesn't mesh as well as the single-input version with the core lib.
-
-This dissatisfaction led us to develop "cells". Cells as in spreadsheets. So cells are expressions which recompute their value when their dependencies values change. Obviously we made cells watchable. A cell is defined by using the `$` macro (because it caches its latest value) and inside (dynamically, not lexically) a cell one can take (`&lt;!`) from other cell *or any other watchable*.
-
-Example: assuming `now` is an atom (a plain old one) updated at 60fps, then `($ (.-day (&lt;! now)))` is a cell recomputed at 60fps but yielding a new value once a day. So any widget (or other cell) depending on this cell will only be updated once a day.
-
-This generalizes nicely to multiple dependencies and even to dynamic dependency graphs. Another interesting fact to know about cells is that a cell is recomputed only when it's watched (and this cascades transitively: an unwatched cell doesn't watch its dependencies...).
-
-Another consequence of cells is that the push for a single big canonical atom goes away.
-
+A problem kept bothering us: in our `cljd.flutter` (well in January it was still `cljd.flutter.alpha2`) we have `:watch` to react to updates to all kind of stateful objects and `sub` to narrow the scope of changes we are interested in for a given "watchable". This is very useful as it allows to change the frequency at which a piece of UI is updated: one can have a big atom holding a lot of state (and this changing frequently) and watch a slower changing subset of it.<br>  
+  
+However `sub` only allowed to narrow *one* watchable. This led to awkward code were every other watchables (IO or framework related) updates had to be shoe-horned in a single canonical atom with the help of listeners (whose lifecycles have to be tied to specific parts of the widget tree) and hair-pulling naming decisions on paths inside this atom.<br>  
+  
+We first extended `sub` to allow to apply a function across several watchables latest values, somehow behaving like a join.<br>  
+    
+It worked but felt quite stiff and not very pleasing to use. `sub` relied on the `f & args` update convention (as used in `swap!`, `update-in` etc.) but there's no agreed upon convention for when one has several input and thus it doesn't mesh as well as the single-input version with the core lib.<br>  
+  
+This dissatisfaction led us to develop "cells". Cells as in spreadsheets. So cells are expressions which recompute their value when their dependencies values change. Obviously we made cells watchable. A cell is defined by using the `$` macro (because it caches its latest value) and inside (dynamically, not lexically) a cell one can take (`&lt;!`) from other cell *or any other watchable*.<br>  
+  
+Example: assuming `now` is an atom (a plain old one) updated at 60fps, then `($ (.-day (&lt;! now)))` is a cell recomputed at 60fps but yielding a new value once a day. So any widget (or other cell) depending on this cell will only be updated once a day. <br>  
+  
+This generalizes nicely to multiple dependencies and even to dynamic dependency graphs. Another interesting fact to know about cells is that a cell is recomputed only when it's watched (and this cascades transitively: an unwatched cell doesn't watch its dependencies...).<br>  
+  
+Another consequence of cells is that the push for a single big canonical atom goes away.  
+  
 This changed positively the way we write apps. So much that in our February workshop we talked only about cells, not subs.
 
 [New boost](https://3.basecamp.com/4323235/buckets/29639833/boosts/new?boost%5Bboostable_gid%5D=Z2lkOi8vYmMzL1JlY29yZGluZy81OTIxMTQ0MDY0) <br>
@@ -444,21 +477,22 @@ This changed positively the way we write apps. So much that in our February work
 ---
   
 ## 2023 Annual Funding: Thomas Heller 
-January/February 2023 Update
+January/February 2023 Report
 
 ### shadow-cljs 
-Update January - February 2023
 Time was mostly spent on doing maintenance work and some bugfixes. As well as helping people out via the typical channels (eg. Clojurians Slack).
-Current shadow-cljs version: 2.21.0 [Changelog](https://github.com/thheller/shadow-cljs/blob/master/CHANGELOG.md)
+Current shadow-cljs version: 2.21.0 [Changelog](https://github.com/thheller/shadow-cljs/blob/master/CHANGELOG.md)  
+
+
 **Notable Updates**
-- Fixed an issue related to `reify`, that could happen when `:advanced` optimizing multiple modules. Running into this had rather confusing and hard to debug errors, so I'm glad this is gone. [CLJS-3207](https://clojure.atlassian.net/browse/CLJS-3207) is the official issue for this and I hope to make a patch for that at some point
-- Fixed build reports not properly grouping some npm packages
-- Fixed a react-native bad default, since RN apparently only supports ES5 via the now default Hermes engine. `:compiler-options {:output-feature-set :es5}` is now the default for `:target :react-native` builds
-- Fixed an externs inference issue, which greatly improved externs inference warning coverage. Previously many places would not warn about possible externs issues, and potentially producing bad code in `:advanced` due to missing externs.<br>
+* Fixed an issue related to `reify`, that could happen when `:advanced` optimizing multiple modules. Running into this had rather confusing and hard to debug errors, so I'm glad this is gone. [CLJS-3207](https://clojure.atlassian.net/browse/CLJS-3207) is the official issue for this and I hope to make a patch for that at some point
+* Fixed build reports not properly grouping some npm packages.
+* Fixed a react-native bad default, since RN apparently only supports ES5 via the now default Hermes engine. `:compiler-options {:output-feature-set :es5}` is now the default for `:target :react-native` builds.
+* Fixed an externs inference issue, which greatly improved externs inference warning coverage. Previously many places would not warn about possible externs issues, and potentially producing bad code in `:advanced` due to missing externs.<br>
   
-  ---
+---
   
-## 2023 Annual Funding: NIkita Propokoc
+## 2023 Annual Funding: Nikita Prokopov
 
 January and February have been two months dedicated to Clojure Sublimed, my Sublime Text plugin for Clojure development.
 
@@ -467,7 +501,7 @@ I wasn't happy how REPL implementation was coupled with syntax highlighting, so 
 Unfortunately, while everything is _almost_ ready, it just didn't make it to end-of-February deadline, so expect the proper release somewhere in the beginning of March. Brave people could already use it from master (I do). Also expect a huge blog posts with a lot of details on this adventure — it was very fun!
 
 More detailed changelog:
-[Clojure Sublimed](https://github.com/tonsky/Clojure-Sublimed):
+### [Clojure Sublimed](https://github.com/tonsky/Clojure-Sublimed)
 - Decoupled REPLs from syntax highlighting
 - Wrote Clojure parser in Python from scratch
 - Formatting based on parser (10x speedup)
@@ -479,27 +513,23 @@ More detailed changelog:
 - New REPL: Raw nREPL
 - Improved: Shadow-CLJS REPL
 
-[Sublime Executor](https://github.com/tonsky/Sublime-Executor):
-
+### [Sublime Executor](https://github.com/tonsky/Sublime-Executor):
 - Redid process management based on Default/exec.py
 
-[Humble UI](https://github.com/HumbleUI/HumbleUI/):
-
+### [Humble UI](https://github.com/HumbleUI/HumbleUI/):
 - Played with button and card effects, see video
 
-[Skija](https://github.com/HumbleUI/Skija):
-
+### [Skija](https://github.com/HumbleUI/Skija):
 - Merged Linux-arm64 support
 
-[Sublime Color Schemes](https://github.com/tonsky/sublime-color-schemes)
-
+### [Sublime Color Schemes](https://github.com/tonsky/sublime-color-schemes)
 - New repo!
 - Just some fun themes I make for Sublime from time to time. I spent my last two months in Berkeley scheme from that repo.<br>
   
-  ---
+---
    
 ## 2023 Annual Funding:Tommi Reiman
-January and February 2023 report.
+January/February 2023 Report
 
 Spend a lot of time with [Malli](https://github.com/metosin/malli) and [Reitit](https://github.com/metosin/reitit) for revisiting, priorising and designing the essential missing core features. 
 
