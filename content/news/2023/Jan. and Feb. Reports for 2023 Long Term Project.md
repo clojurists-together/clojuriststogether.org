@@ -656,7 +656,7 @@ Thanks for reading! /[Peter Strömberg (aka PEZ)] (https://github.com/PEZ) <br>
   
 ## 2023 Annual Funding: Peter Taoussanis  
 Hi everyone, [Peter Taoussanis](https://github.com/ptaoussanis) here :-)
-A brief update on my [open-source work](https://www.taoensso.com/clojure) from Jan+Feb 2023 below.
+A brief update on my [open-source work](https://www.taoensso.com/clojure) from Jan and Feb 2023 below.
 
 Have been taking the unusual opportunity to concentrate on some larger/thornier items. Major things I've been working on (in ETA order):
 
