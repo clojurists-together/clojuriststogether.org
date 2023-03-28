@@ -684,6 +684,8 @@ With all upcoming releases, I'm also planning to start exploring some new ideas 
 - **http-kit v2.7**, expected **~April**.
 - TBD (have several options I want to weigh then, depending on feedback).
 
-A big thanks again to [Clojurists Together](https://www.clojuriststogether.org/), [Nubank](https://nubank.com.br/), [lambdaschmiede](https://www.lambdaschmiede.com/), and [other sponsors](https://github.com/sponsors/ptaoussanis#sponsors) of my open-source work.
+A big thanks again to [Clojurists Together](https://www.clojuriststogether.org/), [Nubank](https://nubank.com.br/), [lambdaschmiede](https://www.lambdaschmiede.com/), and [other sponsors](https://github.com/sponsors/ptaoussanis#sponsors) of my open-source work. <br>
+
+TEST
 
 
