@@ -1,9 +1,9 @@
 ---
 title: "Jan. and Feb. Project Updates for 2023 Long Term Projects"
-date: 2023-03-24 T08:30:00+08:00
+date: 2023-03-29 T08:30:00+08:00
 summary: Updates from Bozhidar Batsov, Michiel Borkent, Sean Corfield, Eric Dallo, Christophe Grand, Thomas Heller, Nikita Prokopov, Tommi Reiman, Peter Stromberg, and Peter Taoussanis
 author: Kathy Davis
-draft: true
+draft:
 ---
 Here are the first reports (Jan. and Feb. 2023) from our developers who are receiving annual funding for their 2023 projects. They have been busy! Thanks all for the great work!<br>
   
