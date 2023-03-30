@@ -9,5 +9,8 @@
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.80.0"
 
+[context.branch-deploy]
+  command = "hugo --buildDrafts"
+
 [context.branch-deploy.environment]
   HUGO_VERSION = "0.80.0"
