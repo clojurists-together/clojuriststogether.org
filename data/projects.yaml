@@ -1,145 +1,149 @@
+# Long term funding 2023
+# Q3 2022
+# Q1 2023
+
+- name: Bozhidar Batsov
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+  current: true
+- name: Sean Corfield
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+  current: true
+
+
+- name: Clerk
+  tier: USD 9k
+  date: 2023-02-01
+  round: Q1 2023
+  description: Clerk takes a Clojure namespace and turns it into a notebook
+  current: true
+
+
+
+
 - name: Bozhidar Batsov
   tier: Long-term (USD 1.5k/month)
   date: 2021-09-01
   round: Long-term
-  current: true
 - name: Michiel Borkent
   tier: Long-term (USD 1.5k/month)
   date: 2021-09-01
   round: Long-term 2021
-  current: true
 - name: Dragan Djuric
   tier: Long-term (USD 1.5k/month)
   date: 2021-09-01
   round: Long-term 2021
-  current: true
 - name: Thomas Heller
   tier: Long-term (USD 1.5k/month)
   date: 2021-09-01
   round: Long-term 2021
-  current: true
 - name: David Nolen
   tier: Long-term (USD 1.5k/month)
   date: 2021-09-01
   round: Long-term 2021
-  current: true
 - name: Nikita Prokopov
   tier: Long-term (USD 1.5k/month)
   date: 2021-09-01
   round: Long-term 2021
-  current: true
 - name: maria.cloud
   url: https://www.maria.cloud/
   tier: USD 9k
   description: a coding environment for beginners
   date: 2022-09-01
   round: Q3 2022
-  current: true
 - name: mathbox-cljs
   url: https://github.com/mentat-collective/mathbox.cljs
   tier: USD 9k
   description: Clojurescript extensions and utilities for Mathbox.
   date: 2022-09-01
   round: Q3 2022
-  current: true
 - name: Clojure Data Cookbook
   url: https://github.com/scicloj/clojure-data-cookbook
   tier: USD 9k
   description: A book about how to do common data manipulation, analysis, and visualization tasks in Clojure
   date: 2022-09-01
   round: Q3 2022
-  current: true
 - name: ClojureDart
   url: https://github.com/Tensegritics/ClojureDart
   tier: USD 9k
   description: A port of Clojure that compiles to Dart
   date: 2022-09-01
   round: Q3 2022
-  current: true
 - name: clj-kondo, babashka, SCI, nbb, scittle and related
   url: https://github.com/borkdude
   tier: USD 9k
   description: Clj-kondo is a static analyzer and linter for Clojure code that sparks joy
   date: 2022-09-01
   round: Q3 2022
-  current: true
 - name: kaocha and related
   url: https://github.com/lambdaisland/kaocha
   tier: USD 9k
   description: Full featured next gen Clojure test runner
   date: 2022-09-01
   round: Q3 2022
-  current: true
 - name: portal
   url: https://github.com/djblue/portal
   tier: USD 2k
   description: A clojure tool to navigate through your data.
   date: 2022-09-01
   round: Q3 2022
-  current: true
 - name: Exo (unreleased)
   url: 
   tier: USD 2k
   description: ClojureScript library for fetching and caching data using EQL
   date: 2022-09-01
   round: Q3 2022
-  current: true
 - name: cljfx
   url: https://github.com/cljfx/cljfx
   tier: USD 2k
   description: Declarative, functional and extensible wrapper of JavaFX inspired by better parts of react and re-frame
   date: 2022-09-01
   round: Q3 2022
-  current: true
 - name: Biff
   url: https://github.com/jacobobryant/biff
   tier: USD 2k
   description: A Clojure web framework for solo developers.
   date: 2022-09-01
   round: Q3 2022
-  current: true
 - name: Clojupedia
   url: https://github.com/clojupedia/clojupedia.org
   tier: USD 2k
   description: Community knowledge graph of the Clojure ecosystem
   date: 2022-09-01
   round: Q3 2022
-  current: true
 - name: Practicalli
   url: https://github.com/practicalli
   tier: USD 9k
   description: A collection of open books, workshops and tutorials on software development for Clojure.
   date: 2022-03-01
   round: Q1 2022
-  current: false
 - name: Clojure-LSP
   url: https://github.com/clojure-lsp/clojure-lsp
   tier: USD 9k
   description: Clojure & ClojureScript Language Server (LSP) implementation.
   date: 2022-03-01
   round: Q1 2022
-  current: false
 - name: Deep Diamond
   url: https://github.com/uncomplicate/deep-diamond
   tier: USD 9k
   description: A fast Clojure Tensor & Deep Learning library.
   date: 2022-03-01
   round: Q1 2022
-  current: false
 - name: Datahike Server
   url: https://github.com/replikativ/datahike-server
   tier: USD 9k
   description: Datahike remote system.
   date: 2022-03-01
   round: Q1 2022
-  current: false
 - name: Tablecloth
   url: https://github.com/scicloj/tablecloth
   tier: USD 9k
   description: Dataset manipulation library built on the top of tech.ml.dataset.
   date: 2022-03-01
   round: Q1 2022
-  current: false
 - name: Clj-kondo, babashka, and other related projects
   url: https://github.com/clj-kondo/clj-kondo
   tier: USD 9k
