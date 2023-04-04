@@ -1,10 +1,10 @@
 ---
 title: "January 2023 Project Updates"
 date: 2023-02-13T08:30:00+08:00
-summary: January 2023 Project Updates"
+summary: January 2023 Project Updates
 author: Kathy Davis
-draft:
 ---
+
 Our first project update for 2023 includes reports for Clj-Kondo, Clojure Data Cookbook, ClojureDart, Mathbox, and Tablecloth. Thanks to all. We're off to a great start!   
 
 
