@@ -3,7 +3,6 @@ title: "February 2023 Report: Updates for 2022 Projects"
 date: 2023-03-18T08:30:00+08:00
 summary: Updates from 2022 projects Clj-kondo, ClojureDart, Kaocha, and Practicalli
 author: Kathy Davis
-draft:
 ---
 Greetings Clojurists Together community! Read the latest updates for the following 2022 projects:
 Clj-kondo, ClojureDart, Kaocha, and Practicalli. 

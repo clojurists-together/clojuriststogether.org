@@ -1,9 +1,8 @@
 ---
 title: "March 2023 Report: Jan. and Feb. Updates for 2023 Long Term Projects"
-date: 2023-03-30 T08:30:00+08:00
+date: 2023-03-30T08:30:00+08:00
 summary: Updates from Bozhidar Batsov, Michiel Borkent, Sean Corfield, Eric Dallo, Christophe Grand, Thomas Heller, Nikita Prokopov, Tommi Reiman, Peter Stromberg, and Peter Taoussanis
 author: Kathy Davis
-draft:
 ---
 Here are the first reports (Jan. and Feb. 2023) from our developers who are receiving annual funding for their 2023 projects. They have been busy! Thanks all for the great work!  
   
@@ -278,7 +277,7 @@ Discuss this post [here](https://github.com/borkdude/blog/discussions/categories
 January/February 2023 Update<br>
 :tags ["clojure" "clojure-doc.org" "open source" "tools.build" "community"]}
 
-As part of [Clojurists Together's Long-Term Funding for 2023](https://www.clojuriststogether.org/news/clojurists-together-2023-long-term-funding-announcement/) I talked about working on [clojure-doc.org](https://clojure-doc.org) which I had resurrected a few years ago, as a GitHub Pages project, powered by [Cryogen](https://cryogenweb.org/).<!--more-->
+As part of [Clojurists Together's Long-Term Funding for 2023](https://www.clojuriststogether.org/news/clojurists-together-2023-long-term-funding-announcement/) I talked about working on [clojure-doc.org](https://clojure-doc.org) which I had resurrected a few years ago, as a GitHub Pages project, powered by [Cryogen](https://cryogenweb.org/).
 
 It was originally created over a decade ago, intended as a community hub for general documentation related to Clojure that couldn't be found on
 [clojure.org](https://clojure.org) and which wasn't bound by the [Clojure Contributor Agreement](https://clojure.org/dev/contributor_agreement).
