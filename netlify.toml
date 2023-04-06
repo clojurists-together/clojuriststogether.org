@@ -6,6 +6,9 @@
   HUGO_VERSION = "0.80.0"
   HUGO_ENV = "production"
 
+[context.deploy-preview]
+  command = "hugo --buildDrafts"
+
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.80.0"
 
