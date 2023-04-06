@@ -61,18 +61,21 @@
   description: Squash bugs and keep dependencies up to date. Improvements in HTTP/2 support and refactor error-handling code.
   current: true  
 - name: Clerk
+  url: https://github.com/nextjournal/clerk
   tier: USD 9k
   date: 2023-02-01
   round: Q1 2023
   description: Clerk takes a Clojure namespace and turns it into a notebook
   current: true
 - name: Donut
+  url: https://github.com/donut-party/system
   tier: USD 9k
   date: 2023-02-01
   round: Q1 2023
   description: Get Donut, a full-stack framework for building an online business, release-ready. Release and put the tools and resources in place to support community involvement.
   current: true
 - name: Uncomplicate Neanderthal
+  url: https://github.com/uncomplicate/neanderthal
   tier: USD 9k
   date: 2023-02-01
   round: Q1 2023
