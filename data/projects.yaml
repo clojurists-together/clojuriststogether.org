@@ -56,7 +56,7 @@
 - name: Aleph/Manifold
   tier: USD 9k
   date: 2023-02-01
-  round: Q1 202
+  round: Q1 2023
   description: Squash bugs and keep dependencies up to date. Improvements in HTTP/2 support and refactor error-handling code.
   current: true
 - name: Clerk
@@ -80,7 +80,6 @@
   round: Q1 2023
   description: Implement and provide a full range of documentation for Sparse Matrix support in Neanderthal, a Clojure library for fast matrix computations.
   current: true
-
 
 - name: Clojure-ts-mode
   url: https://github.com/clojureemacs/clojure-mode/
