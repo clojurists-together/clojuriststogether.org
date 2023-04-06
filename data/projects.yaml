@@ -89,14 +89,12 @@
   description: Reimplement clojure-mode's functionality to work with the tree-sitter integration that is being released with the upcoming version of Emacs (version 29).
   current: true
 - name: Doxa
-  url: 
   tier: USD 2k
   date: 2023-02-01
   round: Q1 2023
   description:  A fully functional version and documentation of Doxa with examples of how to use with `re-frame` and `reagent` 
   current: true
 - name: Exercism
-  url: 
   tier: USD 2k
   date: 2023-02-01
   round: Q1 2023
