@@ -7,13 +7,56 @@
   date: 2023-01-01
   round: Long-term 2023
   current: true
+- name: Michiel Borkent
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+  current: true
 - name: Sean Corfield
   tier: Long-term (USD 1.5k/month)
   date: 2023-01-01
   round: Long-term 2023
   current: true
-
-
+- name: Eric Dallo
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+  current: true
+- name: Christophe Grand
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+  current: true
+- name: Thomas Heller
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+  current: true
+- name: Nikita Prokopov
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+  current: true
+- name: Tommi Reiman
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+  current: true
+- name: Peter Stromberg
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+  current: true
+- name: Peter Taoussanis
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+  current: true
+  
+  
+  
+  
+  
 - name: Clerk
   tier: USD 9k
   date: 2023-02-01
