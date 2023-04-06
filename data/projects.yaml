@@ -52,14 +52,13 @@
   date: 2023-01-01
   round: Long-term 2023
   current: true
-  
-  
+
 - name: Aleph/Manifold
   tier: USD 9k
   date: 2023-02-01
   round: Q1 202
   description: Squash bugs and keep dependencies up to date. Improvements in HTTP/2 support and refactor error-handling code.
-  current: true  
+  current: true
 - name: Clerk
   url: https://github.com/nextjournal/clerk
   tier: USD 9k
@@ -96,7 +95,7 @@
   date: 2023-02-01
   round: Q1 2023
   description:  A fully functional version and documentation of Doxa with examples of how to use with `re-frame` and `reagent` 
-  current: true  
+  current: true
 - name: Exercism
   url: 
   tier: USD 2k
