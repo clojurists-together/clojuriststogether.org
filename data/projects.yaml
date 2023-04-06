@@ -83,6 +83,29 @@
   current: true
 
 
+- name: Clojure-ts-mode
+  url: 
+  tier: USD 2k
+  date: 2023-02-01
+  round: Q1 2023
+  description: 
+  current: true
+- name: Doxa
+  url: 
+  tier: USD 2k
+  date: 2023-02-01
+  round: Q1 2023
+  description: 
+  current: true  
+- name: Exercism
+  url: 
+  tier: USD 2k
+  date: 2023-02-01
+  round: Q1 2023
+  description: 
+  current: true
+  
+  
 - name: Bozhidar Batsov
   tier: Long-term (USD 1.5k/month)
   date: 2021-09-01
