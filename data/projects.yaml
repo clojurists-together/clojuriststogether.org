@@ -84,25 +84,25 @@
 
 
 - name: Clojure-ts-mode
-  url: 
+  url: https://github.com/clojureemacs/clojure-mode/
   tier: USD 2k
   date: 2023-02-01
   round: Q1 2023
-  description: 
+  description: Reimplement clojure-mode's functionality to work with the tree-sitter integration that is being released with the upcoming version of Emacs (version 29).
   current: true
 - name: Doxa
   url: 
   tier: USD 2k
   date: 2023-02-01
   round: Q1 2023
-  description: 
+  description:  A fully functional version and documentation of Doxa with examples of how to use with `re-frame` and `reagent` 
   current: true  
 - name: Exercism
   url: 
   tier: USD 2k
   date: 2023-02-01
   round: Q1 2023
-  description: 
+  description: Expand the Exercism track syllabus by teaching additional concepts, and improve the automated analysis tooling to provide better feedback.
   current: true
   
   
