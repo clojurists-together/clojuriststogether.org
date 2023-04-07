@@ -107,6 +107,77 @@
   date: 2022-09-01
   round: Q3 2022
   current: false
+- name: clj-kondo, babashka, SCI, nbb, scittle and related
+  url: https://github.com/borkdude
+  tier: USD 9k
+  description: Clj-kondo is a static analyzer and linter for Clojure code that sparks joy
+  date: 2022-09-01
+  round: Q3 2022
+  current: false
+- name: cljfx
+  url: https://github.com/cljfx/cljfx
+  tier: USD 2k
+  description: Declarative, functional and extensible wrapper of JavaFX inspired by better parts of react and re-frame
+  date: 2022-09-01
+  round: Q3 2022
+  current: false
+- name: Clojupedia
+  url: https://github.com/clojupedia/clojupedia.org
+  tier: USD 2k
+  description: Community knowledge graph of the Clojure ecosystem
+  date: 2022-09-01
+  round: Q3 2022
+  current: false
+- name: ClojureDart
+  url: https://github.com/Tensegritics/ClojureDart
+  tier: USD 9k
+  description: A port of Clojure that compiles to Dart
+  date: 2022-09-01
+  round: Q3 2022
+  current: false
+- name: ClojureDart
+  url: https://github.com/Tensegritics/ClojureDart
+  tier: USD 9k
+  description: A port of Clojure that compiles to Dart
+  date: 2022-09-01
+  round: Q3 2022
+  current: false
+- name: Clojure Data Cookbook
+  url: https://github.com/scicloj/clojure-data-cookbook
+  tier: USD 9k
+  description: A book about how to do common data manipulation, analysis, and visualization tasks in Clojure
+  date: 2022-09-01
+  round: Q3 2022
+  current: false
+- name: Exo (unreleased)
+  url: 
+  tier: USD 2k
+  description: ClojureScript library for fetching and caching data using EQL
+  date: 2022-09-01
+  round: Q3 2022
+  current: false
+- name: maria.cloud
+  url: https://www.maria.cloud/
+  tier: USD 9k
+  description: a coding environment for beginners
+  date: 2022-09-01
+  round: Q3 2022
+  current: false
+- name: mathbox-cljs
+  url: https://github.com/mentat-collective/mathbox.cljs
+  tier: USD 9k
+  description: Clojurescript extensions and utilities for Mathbox.
+  date: 2022-09-01
+  round: Q3 2022
+  current: false
+- name: portal
+  url: https://github.com/djblue/portal
+  tier: USD 2k
+  description: A clojure tool to navigate through your data.
+  date: 2022-09-01
+  round: Q3 2022
+  current: false
+  
   
 - name: Bozhidar Batsov
   tier: Long-term (USD 1.5k/month)
