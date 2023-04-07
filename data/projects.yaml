@@ -156,6 +156,13 @@
   date: 2022-09-01
   round: Q3 2022
   current: false
+- name: kaocha and related
+  url: https://github.com/lambdaisland/kaocha
+  tier: USD 9k
+  description: Full featured next gen Clojure test runner
+  date: 2022-09-01
+  round: Q3 2022
+  current: false
 - name: maria.cloud
   url: https://www.maria.cloud/
   tier: USD 9k
@@ -303,6 +310,12 @@
   url: https://github.com/clj-kondo/clj-kondo
   tier: USD 9k
   description: A linter for Clojure code that sparks joy.
+  date: 2022-03-01
+  round: Q1 2022
+  current: false
+- name: Firefox Developer Tools
+  tier: USD 9k
+  description: A myriad of tools
   date: 2022-03-01
   round: Q1 2022
   current: false
