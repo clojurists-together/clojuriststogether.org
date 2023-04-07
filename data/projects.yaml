@@ -100,13 +100,6 @@
   description: Expand the Exercism track syllabus by teaching additional concepts, and improve the automated analysis tooling to provide better feedback.
   current: true
   
-- name: Biff
-  url: https://github.com/jacobobryant/biff
-  tier: USD 2k
-  description: A Clojure web framework for solo developers.
-  date: 2022-09-01
-  round: Q3 2022
-  current: false
   
 - name: Bozhidar Batsov
   tier: Long-term (USD 1.5k/month)
