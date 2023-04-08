@@ -1,10 +1,15 @@
 ---
 title: "April 2023 Updates: Q1 2023 Projects Report 1"
 date: 2023-04-08 T08:30:00+08:00
-summary: Updates from Aleph Manifold, Clerk, Clojure ts mode, Donut, Exercism, Neanderthal
+summary: Updates from Aleph Manifold, Clerk, Clojure_ts-mode, Donut, Exercism, Neanderthal
 author: Kathy Davis
 draft: true
 ---
+
+Check out the first updates from developers working on projects funded for Q1 2023.   
+
+
+
 ## Project Aleph/Manifold: Matthew Davidson
 Update 1
 
@@ -74,6 +79,59 @@ Update 1
 - More testing, basic major mode things I might have missed
 - A good readme  
 Update March 15, 2023   
+
+## Project Donut: Daniel Higginbotham  
+Update 1 
+
+For late January / February I mostly focused on
+https://github.com/donut-party/system. The immediate goal is to get it ready for
+a 1.0 release. Changes include:
+
+* **Added helpers for documenting and inspecting a system**
+
+  A challenge with working with DI libraries is that, over time, it's easy to
+  lose track of what components do, why they're there, and how they relate. I've
+  added helper functions that structure present top-level views and
+  documentation of a system so that a system is more comprehensible to devs and
+  maintainers.
+
+* **Added `with-*system*` macro and testing tools and docs**
+
+  Users brought up that there weren't clear ways to test projects built with
+  donut.system. I added the `with-*system*` macro and `system-fixture` function
+  to aid testing, and updated docs with testing recommendations.
+
+* **Removed specter**
+
+  Specter was thoroughly woven into the code base. I removed it to lighten the
+  compilation size for ClojureScript projects, and to reduce the learning curve
+  for contributing to the project.
+  
+* **Added plugin system**
+
+  One of the goals for donut.system is to provide a foundation for composition,
+  a more structured way to provide libraries that others can use to extend their
+  system with minimal manual work to wire things up. I've added a plugin system
+  to achieve this goal.
+  
+* **Make component selection independent of signal**
+  
+  In response to feedback, I've tried to simplify the way component selection works:
+
+  * Disentangle it from signaling
+  * Make `select-components` dumber by making it always set the specified
+    components; no logic around detecting `::start` signal
+  * Add component selection to `system` function. Lets you do `(system
+    :system-name nil #{[:env] [:component-group :component-name]}`
+
+  This also seems to be a bit more semantically accurate, in that selecting
+  components is more about defining the system you're using than it is about
+  signalling
+
+* **Significantly updated README**
+
+  I've made numerous improvements to the README to make it easier to learn how
+  to use the library and to cover more use cases, like mocking components.  
 
 
 ## Project Exercism: Bobbi Towers
