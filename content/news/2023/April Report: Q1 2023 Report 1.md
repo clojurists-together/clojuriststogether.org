@@ -1,5 +1,5 @@
 ---
-title: "April 2023: First Reports Q1 2023 Projects"
+title: "April 2023 First Reports Q1 2023 Projects"
 date: 2023-04-08T08:30:00+08:00
 summary: Aleph/Manifold, Clerk, Clojure_ts_mode, Donut, Exercism, Neanderthal
 author: Kathy Davis
