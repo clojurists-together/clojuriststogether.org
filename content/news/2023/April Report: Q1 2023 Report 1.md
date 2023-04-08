@@ -1,11 +1,10 @@
-@@ -1,6 +1,6 @@
 ---
 title: "April 2023 Updates: Q1 2023 Projects Report 1"
 date: 2023-04-08 T08:30:00+08:00
 summary: Updates from Aleph Manifold, Clerk, Clojure ts mode, Donut, Exercism, Neanderthal
 author: Kathy Davis
 draft: true
-
+---
 ## Project Aleph/Manifold: Matthew Davidson
 Update 1
 
