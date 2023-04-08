@@ -1,7 +1,7 @@
 ---
-title: "March 2023 Report: Jan. and Feb. Updates for 2023 Long Term Projects"
+title: "April 2023: First Reports Q1 2023 Projects"
 date: 2023-04-08T08:30:00+08:00
-summary: Updates from Bozhidar Batsov, Michiel Borkent, Sean Corfield, Eric Dallo, Christophe Grand, Thomas Heller, Nikita Prokopov, Tommi Reiman, Peter Stromberg, and Peter Taoussanis
+summary: Aleph/Manifold, Clerk, Clojure_ts_mode, Donut, Exercism, Neanderthal
 author: Kathy Davis
 draft: true
 
