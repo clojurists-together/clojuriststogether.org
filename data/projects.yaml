@@ -135,13 +135,6 @@
   date: 2022-09-01
   round: Q3 2022
   current: false
-- name: ClojureDart
-  url: https://github.com/Tensegritics/ClojureDart
-  tier: USD 9k
-  description: A port of Clojure that compiles to Dart
-  date: 2022-09-01
-  round: Q3 2022
-  current: false
 - name: Clojure Data Cookbook
   url: https://github.com/scicloj/clojure-data-cookbook
   tier: USD 9k
