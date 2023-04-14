@@ -27,7 +27,7 @@ please consider [applying](https://clojuriststogether.org/open-source/).
 As usual, we were inundated with responses to our April 2023 survey.
 
 ### Which platforms do you target?  
-
+![.]static/images/2023 April Survey/Survey April 2023 platform.png
 
 ### What areas of Clojure would you like to see improvement in?  
 
