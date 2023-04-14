@@ -3,7 +3,7 @@ title: "Q2 2023 Call for Proposals. April Survey Results."
 date: 2023-04-13 T08:30:00+08:00
 summary: We're accepting proposals for our next funding round. Our members weigh in on priorities.
 author: Kathy Davis
-draft: true
+draft:
 ---
 ## Call for Proposals  
 Clojurists Together is pleased to announce that we are opening our Q2 2023 funding round
@@ -27,9 +27,9 @@ please consider [applying](https://clojuriststogether.org/open-source/).
 As usual, we were inundated with responses to our April 2023 survey.
 
 ### Which platforms do you target?  
-![ ](https://github.com/clojurists-together/clojuriststogether.org/master/static/images/2023 April Survey/Survey April 2023 platform.png)  
-  
-  
+![](static/images/2023 April Survey/Survey April 2023 platform.png)  
+<img src="static/images/2023 April Survey/Survey April 2023 platform.png>
+
 ### What areas of Clojure would you like to see improvement in?  
 
 
