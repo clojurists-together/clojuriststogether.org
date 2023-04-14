@@ -27,18 +27,15 @@ please consider [applying](https://clojuriststogether.org/open-source/).
 As usual, we were inundated with responses to our April 2023 survey.
 
 ### Which platforms do you target?  
-![static/images](2023 April Survey/April 2023 Survey platforms.jpg)
-
+![](static/images/2023/AprilSurvey/Platform.jpg)
   
 ### What areas of Clojure would you like to see improvement in?  
+![](static/images/2023/AprilSurvey/improvements.jpg)
 
-
-### What areas of ClojureScript would you like to see improvement in?  
-
+### What areas of ClojureScript would you like to see improvement in?   
+![](static/images/2023/AprilSurvey/clojurescript.jpg
 
 ### What areas of the Clojure and ClojureScript ecosystem need support?  
-
-
 **Growing and Supporting New and Beginning Developers**
 - Growing the userbase and general advocacy to attract new talent
 - Getting started documentation and tutorials that include materials that help guide beginners
