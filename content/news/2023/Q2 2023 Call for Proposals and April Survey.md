@@ -5,9 +5,9 @@ summary: We're accepting proposals for our next funding round. Our members weigh
 author: Kathy Davis
 draft: true
 ---
-### Call for Proposals  
+## Call for Proposals  
 Clojurists Together is pleased to announce that we are opening our Q2 2023 funding round
-for Clojure Open Source Projects. Applications are open until the 24th of April 2023. **Apply today!**
+for Clojure Open Source Projects. Applications are open until the 24th of April 2023. [**Apply today!**](https://clojuriststogether.org/open-source/) 
 
 We will be awarding a total of $44,000 USD for 8 projects – 4 projects at $2,000 each 
 and 4 projects at $9,000 each. The $2k funding tier is for experimental projects or 
@@ -21,21 +21,21 @@ Thanks as always – it is extremely helpful in ensuring thatthe community is a
 vital source of input.
 
 If you work on a Clojure open source project, especially one mentioned as a focus area for our members,
-please consider applying.
+please consider [applying](https://clojuriststogether.org/open-source/).
 
-### Survey Responses  
+## Survey Responses  
 As usual, we were inundated with responses to our April 2023 survey.
 
-#### Which platforms do you target?  
+### Which platforms do you target?  
 
 
-#### What areas of Clojure would you like to see improvement in?  
+### What areas of Clojure would you like to see improvement in?  
 
 
-#### What areas of ClojureScript would you like to see improvement in?  
+### What areas of ClojureScript would you like to see improvement in?  
 
 
-#### What areas of the Clojure and ClojureScript ecosystem need support?  
+### What areas of the Clojure and ClojureScript ecosystem need support?  
 
 
 **Growing and Supporting New and Beginning Developers**
@@ -66,7 +66,7 @@ even simple things like updating dependencies failing to be done.
 - A larger set of tooling and ecosystem around Node.js
   
     
-#### What areas of the Clojure and ClojureScript ecosystem are strong?  
+### What areas of the Clojure and ClojureScript ecosystem are strong?  
 - Great community 💯 We are a stable and wonderful community, building fun projects.
 - Stability. Simplicity. Getting things done.
 - Build tooling and linting is getting very solid.
@@ -76,7 +76,7 @@ even simple things like updating dependencies failing to be done.
 - The core libraries are strong, and the Clojure build tooling is pretty strong now.
   
     
-#### Are there any particular libraries, tools, or projects that are important to you that you would like to see supported?  
+### Are there any particular libraries, tools, or projects that are important to you that you would like to see supported?  
 aleph  
 Babashka  
 buddy  
@@ -96,7 +96,7 @@ Reitit
 Ring  
 shadow-cljs  
 
-#### What would you like to be different in the Clojure community in the next 12 months?  
+### What would you like to be different in the Clojure community in the next 12 months?  
 Growth of the Community was the focus of many comments:
 - Increased user growth.
 - I'd like to see more newcomers for the long-term health of Clojure.
