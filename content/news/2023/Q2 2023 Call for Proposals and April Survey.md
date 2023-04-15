@@ -1,6 +1,6 @@
 ---
 title: "Q2 2023 Call for Proposals plus April Survey Results"
-date: 2023-04-15 T08:32:00+08:00
+date: 2023-04-15T08:32:00+08:00
 summary: Apply for our next funding round and check out feedback from our members.
 author: Kathy Davis
 ---
