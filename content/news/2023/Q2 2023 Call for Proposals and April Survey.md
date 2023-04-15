@@ -17,7 +17,7 @@ as needed. We expect projects to start for this round between May 1 and June 1, 
 
 In early April, we surveyed our members - to find out what types of initiatives they
 would like us to focus on for this round of funding. Their responses are summarized below. 
-Thanks as always – it is extremely helpful in ensuring thatthe community is a 
+Thanks as always – it is extremely helpful in ensuring that the community is a 
 vital source of input.
 
 If you work on a Clojure open source project, especially one mentioned as a focus area for our members,
