@@ -27,17 +27,17 @@ please consider [applying](https://clojuriststogether.org/open-source/).
 As usual, we were inundated with responses to our April 2023 survey.
 
 ### Which platforms do you target?   
-![](/images/2023/AprilSurvey/Platform.jpg)  
+![Platform](https://user-images.githubusercontent.com/14980147/232254782-e18b8482-f87e-45df-9283-4e631061b3dd.jpg)  
 <br>
 <br>
   
 ### What areas of Clojure would you like to see improvement in?  
-![](/images/2023/AprilSurvey/improvements.jpg) 
+![improvements](https://user-images.githubusercontent.com/14980147/232254792-5bc388a1-07a0-48c2-b823-e1e013436f0d.jpg)  
 <br>
 <br>
 
 ### What areas of ClojureScript would you like to see improvement in?   
-![](/images/2023/AprilSurvey/clojurescript.jpg)
+![clojurescript](https://user-images.githubusercontent.com/14980147/232254815-1604e6bb-07fb-4c6e-b0b7-05f711b2420a.jpg)  
 <br>
 <br>  
 
