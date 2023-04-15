@@ -28,6 +28,8 @@ As usual, we were inundated with responses to our April 2023 survey.
 
 ### Which platforms do you target?  
 ![](static/images/2023/AprilSurvey/Platform.jpg)  
+![Platform](https://user-images.githubusercontent.com/14980147/232230427-147accc0-a3a1-428b-a7d2-db38f3456fb4.jpg)
+
 <br>
 <br>
   
