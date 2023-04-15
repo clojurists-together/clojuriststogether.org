@@ -3,8 +3,8 @@ title: "Q2 2023 Call for Proposals. April Survey Results."
 date: 2023-04-15 T08:30:00+08:00
 summary: Apply for our next funding round and check out feedback from our members.
 author: Kathy Davis
-draft: True
 ---
+
 ## Call for Proposals  
 Clojurists Together is pleased to announce that we are opening our Q2 2023 funding round
 for Clojure Open Source Projects. Applications are open until the 24th of April 2023. [**Apply today!**](https://clojuriststogether.org/open-source/) 
