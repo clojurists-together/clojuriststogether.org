@@ -1,7 +1,7 @@
 ---
 title: "April 2023 Project Updates"
-date: 2023-04-27 T08:30:00+08:00
-summary: Updates from Aleph/Manifold, Clerk, Clojure_ts-mode, Donut, Exercism, Neanderthal, Tablecloth
+date: 2023-04-27T08:30:00+08:00
+summary: Updates from Aleph/Manifold, Clerk, Clojure_ts_mode, Donut, Exercism, Neanderthal, Tablecloth
 author: Kathy Davis
 draft: true
 ---
@@ -41,8 +41,9 @@ Check out the updates from Matthew Davidson, Dragan Djuric, Danny Freeman, Danie
 
 - Helped debug tricky connection timeout issue  
 
-Update March 31, 2023  
+Update March 31, 2023<br>  
 
+---
 
 ## Project Clerk: Martin Kavalar (Update 1)
 **Issue Gardening** 
@@ -80,8 +81,9 @@ We've reworked the Composing Viewers section in the [Book of Clerk](https://book
 
 We also had the chance to [present a Clerk essay](https://px23.clerk.vision) at the [Programming Experience workshop](https://2023.programming-conference.org/home/px-2023/). The essay is written with Clerk and published with [Garden](https://clerk.garden). We've also been able to [generate a PDF](https://storage.clerk.garden/nextjournal/clerk-px23@eace4eb4123b1f791e188205e77aa07dc136b9c9/README.pdf) (via [nextjournal/markdown](https://github.com/nextjournal/markdown), [Pandoc](https://pandoc.org) and LaTeX) which will be included in the ACM Digital Archives. If you're interested in how this works, check out the [source code](https://github.com/mk/clerk-px23).  
 
-Update April 5, 2023  
+Update April 5, 2023<br>  
 
+---
 
 ## Project Clojure_ts_mode: Danny Freeman (Update 1)  
 **So far I have working:**
@@ -99,10 +101,11 @@ Update April 5, 2023
 - More testing, basic major mode things I might have missed
 - A good readme  
 
-Update March 15, 2023   
+Update March 15, 2023<br>
+
+---
 
 ## Project Donut: Daniel Higginbotham (Update 1)  
-
 For late January / February I mostly focused on
 https://github.com/donut-party/system. The immediate goal is to get it ready for
 a 1.0 release. Changes include:
@@ -145,8 +148,10 @@ a 1.0 release. Changes include:
   I've made numerous improvements to the README to make it easier to learn how
   to use the library and to cover more use cases, like mocking components.  
 
-Update April 8, 2023  
- 
+Update April 8, 2023<br>  
+
+---
+
 ## Project Exercism: Bobbi Towers (Update 1)
 The work proposed included expanding the track syllabus by teaching additional concepts, and improving the automated analysis tooling to provide better feedback.<br> 
 
@@ -156,8 +161,9 @@ An area of improvement *not* mentioned in the proposal, but certainly valuable i
 
 The Clojure representer is responsible for grouping exercise submissions into common approaches. It does this by running the code through a series of normalizations, like formatting, names and macro-expansion. This enables automated feedback comments to be attached to approaches, which is done using the dashboard available to a select group of super-mentors. The representer is functioning well and usage statistics are available on the build status page which at the time of writing reflects that 1637 representer comments have been shown from the 47 feedback submissions I've written so far. <br>  
 
-Update March 15, 2023.  
+Update March 15, 2023<br>
 
+---
 
 ## Project Neanderthal: Dragan Djuric (Update 1)  
 My goal with this round is to implement Sparse Matrix support in Neanderthal.
@@ -172,7 +178,7 @@ I compiled neanderthal-native to work with recent MKL that is compatible with Ja
 I released Neandeathal and neanderthal-native 0.46.0 as a starting point for this project.
 
 Since the support for sparse matrices will be based on JavaCPP, while the rest of neanderthal is still on my custom bindings,
-I decided that the sparse parts fit into a new add-on library neanderthal-sparse (https://github.com/uncomplicate/neanderhtal-sparse), which might eventually be merged into Neanderthal.
+I decided that the sparse parts fit into a new add-on library neanderthal-sparse (https://github.com/uncomplicate/neanderthal-sparse), which might eventually be merged into Neanderthal.
 
 JavaCPP might be a good base for integrating many native libraries other than MKL, so I decided to create a dedicated library Clojure CPP. It integrates the general parts of JavaCPP into the Clojure ecosystem.
 
@@ -204,7 +210,9 @@ Particularly, this has been achieved in the past month.
 - Fixed various issues along the way that were not the problem in Neanderthal, but that would have made future features more difficult to support.
 - I've probably forgot to mention something, but the important thing is that a lot of grunt preparation work has been done to make the implementation of the actual sparse matrices smooth and straightforward.
 
-Update March 31, 2023  
+Update March 31, 2023<br>  
+
+---
 
 ## Project Tablecloth: Ethan Miller  
 During the last quarter, my focus has been on building consensus around what an MVP for the Tablecloth \`column\` API should be and working to complete that MVP. I discussed this with members of Clojurians Slack [here](<https://clojurians.zulipchat.com/#narrow/stream/236259-tech.2Eml.2Edataset.2Edev/topic/tablecloth.20columns.20project/near/329028436>).
