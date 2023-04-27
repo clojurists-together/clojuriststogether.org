@@ -3,7 +3,7 @@ title: "April 2023 Project Updates"
 date: 2023-04-27T08:30:00+08:00
 summary: Updates from Aleph/Manifold, Clerk, Clojure_ts_mode, Donut, Exercism, Neanderthal, Tablecloth
 author: Kathy Davis
-draft: true
+
 ---
 
 Check out the updates from Matthew Davidson, Dragan Djuric, Danny Freeman, Daniel Higginbotham, Martin Kavalar, Ethan Miller, and Bobbi Towers.  
