@@ -1,6 +1,6 @@
 ---
 title: "April 2023 Project Updates"
-date: 2023-04-27 T08:30:00+08:00
+date: 2023-04-27T08:30:00+08:00
 summary: Updates from Aleph/Manifold, Clerk, Clojure_ts-mode, Donut, Exercism, Neanderthal, Tablecloth
 author: Kathy Davis
 draft: true
