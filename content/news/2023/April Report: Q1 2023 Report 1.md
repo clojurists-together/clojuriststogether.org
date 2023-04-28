@@ -13,7 +13,7 @@ Check out the updates from Matthew Davidson, Dragan Djuric, Danny Freeman, Danie
 
 ### HTTP/2 support
 
-- Draft HTTP/2 ADR published [here] (https://github.com/clj-commons/aleph/blob/feature/http2/adr/adr-001-http2.adoc). Comments welcome in `#aleph` on Clojurians. I'd like to hear what people are hoping for re HTTP/2 in Aleph.
+- Draft HTTP/2 ADR published [here](https://github.com/clj-commons/aleph/blob/feature/http2/adr/adr-001-http2.adoc). Comments welcome in `#aleph` on Clojurians. I'd like to hear what people are hoping for re HTTP/2 in Aleph.
 - Initial HTTP/2 support implemented on the client-side. SSL/TLS ALPN is working, Netty pipeline setup is working, input is implemented, and currently debugging codec issue on output side.
   - Long-overdue clean-up of internals to support moving forward.
 
