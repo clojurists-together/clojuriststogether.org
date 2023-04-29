@@ -50,7 +50,7 @@ Update March 31, 2023<br>
 We took the Clojurists Together funding (which I'm very grateful for 🙏) as an opportunity to do housekeeping in Clerk's issues.
 We took inspiration from how José Valim manages to keep Elixir's issue count below the threshold of a [single page on GitHub (25)](https://github.com/elixir-lang/elixir/issues). 
  
-I'm happy that we've been able to [close 49 issues since the beginning of Feburary](https://github.com/nextjournal/clerk/issues?q=is%3Aissue+is%3Aclosed+closed%3A%3E2023-02-01)) and are now also well [below this threshold](https://github.com/nextjournal/clerk/issues). We hope to be able to respond more quickly to issues that folks encounter going forward. 🤞 
+I'm happy that we've been able to [close 49 issues since the beginning of February](https://github.com/nextjournal/clerk/issues?q=is%3Aissue+is%3Aclosed+closed%3A%3E2023-02-01)) and are now also well [below this threshold](https://github.com/nextjournal/clerk/issues). We hope to be able to respond more quickly to issues that folks encounter going forward. 🤞 
 We've updated [Clerk's changelog](https://github.com/nextjournal/clerk/blob/17df9a51028b8ab046f3080aba685ee72c8f4257/CHANGELOG.md#unreleased) (it's big!) and we're improving error messages to ease the upgrade process before cutting a release.  
 Besides the various smaller fixes, the highlight features of this release will be: 
 * 👁 Simplifying Clerk's Viewer API by switching viewer names and render-fns to fully-qualified symbols that support jump to definition add clarity
