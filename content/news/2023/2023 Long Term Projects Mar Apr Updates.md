@@ -327,7 +327,8 @@ The main highlights for this release are:<br>
 - We now have a new edn tree visualization from `documentSymbolfeature`, showing all keyords of a edn for faster navigation/visualization!
 - Adds support for completion of Static java classes (for now only for classes from .class, not .java, check print), I'm working on improvements on clj-kondo and clojure-lsp to improve that even further being able to see docs of java methods and more, stay tuned! 
 
-![](edn-tree.png)  
+![Dallo ed-tree.png](https://github.com/clojurists-together/clojuriststogether.org/commit/4bc4163a02ca3349c0c87bb124abf16369d9c356#diff-f7e596d0587247b090fd632480287d84a2c5e2dea84b4f4862ba5b7c09ab28e2)  
+
 
 #### 2023.04.19-12.43.29<br>      
 **General:**
@@ -391,9 +392,9 @@ Chunked seqs on vectors (twice!), inconsistent hash values across platforms (web
 * We have found a path allowing a Flutter-only REPL could be hacked in a couple of days, is it worth the hack?  
 * Look into porting Datascript and SCI to ClojureDart  
 * New APIs to leverage our persistent data structures:  
-** maps (hash and sorted) in ClojureDart are original implementations (not the same as CLJ/CLJS) -- hash maps could be seen as another refinement of the original, sorted maps constitute a novel implementation.  
-** Sorted colls should be good enough for direct use by Datascript.  
-** Both hash and sorted maps can support accelerated merge/diff/join/etc. operations.  
+    - maps (hash and sorted) in ClojureDart are original implementations (not the same as CLJ/CLJS) -- hash maps could be seen as another refinement of the original, sorted maps constitute a novel implementation.   
+    - Sorted colls should be good enough for direct use by Datascript.  
+    - Both hash and sorted maps can support accelerated merge/diff/join/etc. operations.  
 * Multimethods  
 * Dart 3 support  
 * `cljd` CLI written in `cljd` for easier project creation etc.  
@@ -415,12 +416,13 @@ Current shadow-cljs version: 2.23.3 [Changelog](https://github.com/thheller/shad
 
 ## Nikita Prokopov    
 (Published 1 May 2023)  
+  
 Three big things happened in the last two months:  
 - Clojure Sublimed 3.0 release with new pluggable REPL infrastructure and Socket Server REPL support  
 - Proper accented input support in JWM on macOS  
 - Majority of research for new state implementation and component DSL for Humble UI  
 
-### [Humble UI]([https://github.com/HumbleUI/HumbleUI](https://github.com/HumbleUI/HumbleUI)):  
+### [Humble UI](https://github.com/HumbleUI/HumbleUI) 
 - Text fields now support accented input with ApplePressAndHoldEnabled on macOS  
 - Basic paragraph impl (!)  
 - Fixed linux dependencies #72  
@@ -432,7 +434,7 @@ Three big things happened in the last two months:
 - Switched to Socket REPL  
 - hash-p for easier debugging  
 
-### [JWM]([https://github.com/HumbleUI/JWM](https://github.com/HumbleUI/JWM))   
+### [JWM](https://github.com/HumbleUI/JWM) 
 - macOS: Fixed missed trackpad clicks when tap to click is enabled. This has been annoying me and few other folks for quite a while, turned out you can’t trust AppKit API, but luckily can work around it.  
 - macOS: Reworked text input system to support accented input with ApplePressAndHoldEnabled. Also quite a ride, at some point I had to dig into OpenJDK sources and use same proprietary APIs Apple built into macOS just for AWT (accented input was added much later than JDK).  
 - Windows: Merged Window::bringToFront & ::isFront #266  
@@ -469,7 +471,7 @@ Three big things happened in the last two months:
 
 ### Malli CHANGELOG  
 
-### 0.11.0 (2023-04-12)  
+#### 0.11.0 (2023-04-12)  
 * BREAKING: remove map syntax: `mu/from-map-syntax`, `mu/to-map-syntax`. Note that AST syntax and lite syntax remain unchanged.  
 * BREAKING: walking a `:schema` with an `id` no longer passes `[id]` instead of `children` to the walker function [#884] (https://github.com/metosin/malli/issues/884)  
 * Support converting recursive malli schemas to json-schema [#464](https://github.com/metosin/malli/issues/464) [#868](https://github.com/metosin/malli/issues/868)  
@@ -478,10 +480,10 @@ Three big things happened in the last two months:
 * Simplify uuid regex for accept non-standard and zero uuids [#889](https://github.com/metosin/malli/pull/889)  
 * Fix clj-doc API import [#887](https://github.com/metosin/malli/pull/887)  
 
-### 0.10.4 (2023-03-19)  
+#### 0.10.4 (2023-03-19)  
 * FIX `malli.swagger` ns, broken test on reitit.  
 
-### 0.10.3 (2023-03-18)  
+#### 0.10.3 (2023-03-18)  
 * Add support for default branch `::m/default` for `:map` schema
   [#871](https://github.com/metosin/malli/pull/871), see [docs](README.md#map-with-default-schemas).
 
@@ -530,7 +532,7 @@ borkdude/edamame 1.1.17 -> 1.3.20
 
 ```
 
-### 0.10.2 (2023-03-05)  
+#### 0.10.2 (2023-03-05)  
 * Implement `malli.experimental.time` schemas for clojurescript using js-joda [#853](https://github.com/metosin/malli/pull/853)  
 * Allow instrumenting external functions [#841](https://github.com/metosin/malli/pull/841)  
 * Add clj-kondo support for cljs function schemas [#833](https://github.com/metosin/malli/pull/833)  
@@ -583,7 +585,7 @@ During the past months both Brandon Ringe and I have gotten increasingly fed up 
 ---
 
 ## Peter Taoussanis  
-(Published 29 April 2023)  
+(Published 25 April 2023)  
   
 **Mar/Apr 2023 updates** for [Peter Taoussanis](https://www.taoensso.com/)
 More details now also at [taoensso.com/clojure/2023](https://www.taoensso.com/clojure/2023) 👍  
@@ -596,8 +598,7 @@ This is the first major http-kit release since June 2022, and includes work from
 - Several important **stability fixes**  
 - Client+server support for **Unix Domain Sockets**  
 - **SNI client** is now enabled by default on Java 8+  
-- A new [wiki](https://github.com/http-kit/http-kit/wiki) for community documentation  
-See the [release notes](https://github.com/http-kit/http-kit/releases/tag/v2.7.0-beta2) for more info.  
+- A new [wiki](https://github.com/http-kit/http-kit/wiki) for community documentation  See the [release notes](https://github.com/http-kit/http-kit/releases/tag/v2.7.0-beta2) for more info.  
 
 ### Tempel  
 One of my major open-source goals for this year is the release of a new **data security framework**, currently [planned](https://www.taoensso.com/clojure/2023) for August. This will be the first major all-new Clojure work I've put out in over 7 years, and has been my main focus so far this year.  
@@ -610,11 +611,11 @@ As part of that work, I've started rolling out **GitHub wikis** for community do
 I'll be seeding these myself over time, but ultimately my hope is to make it easier and more sustainable for each project's own community to contribute documentation and tips. Tempel (mentioned above) will be my first release to be built from the start with this wiki-focused documentation concept in mind.  
 
 ### What's next:  
-The current [plan](https://www.taoensso.com/clojure/2023):  
+The current [plan](https://www.taoensso.com/clojure/2023):<br>  
 - A major [Sente](https://github.com/ptaoussanis/sente) release in May.  
 - A major [Carmine](https://github.com/ptaoussanis/carmine) release in June.  
-- The first Tempel release in August.  
-- Additional Carmine work through EoY.  
+- The first Tempel release in August.
+- Additional Carmine work through EoY.<br>  
 
 A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nubank](https://nubank.com.br/), [lambdaschmiede](https://www.lambdaschmiede.com/), and [other sponsors](https://github.com/sponsors/ptaoussanis#sponsors) of my open-source work 🙏 
 
