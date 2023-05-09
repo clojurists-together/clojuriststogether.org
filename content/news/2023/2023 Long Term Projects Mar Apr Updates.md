@@ -10,6 +10,7 @@ and Peter Taoussanis.
   
 
 ## Bozhidar Batsov  
+(Published 29 April 2023)  
 
 ### CIDER  
 
@@ -39,6 +40,7 @@ and Peter Taoussanis.
 
 ---
 
+
 ## Michiel Borkent  
 
 ### Sponsors  
@@ -53,7 +55,7 @@ But first off, I'd like to thank all the sponsors and contributors that make thi
 
 If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work in the following ways. Thank you!  
 * [Github Sponsors](https://github.com/sponsors/borkdude)
-* The [[Babaska](https://opencollective.com/babashka)](https://opencollective.com/babashka) or [Clj-kondo](https://opencollective.com/clj-kondo) OpenCollective
+* The [Babaska](https://opencollective.com/babashka) or [Clj-kondo](https://opencollective.com/clj-kondo) OpenCollective
 * [Ko-fi](https://ko-fi.com/borkdude)
 * [Patreon](https://www.patreon.com/borkdude)
 * [Clojurists Together](https://www.clojuriststogether.org/)  
@@ -118,7 +120,7 @@ New release: 0.7.39 (2023-03-07)
 * [#874](https://github.com/babashka/sci/issues/874): Keyword arguments as map support for CLJS  
 See [changelog](https://github.com/babashka/sci/blob/master/CHANGELOG.md) for more.  
 
-### Contributions to other projects  
+### Contributions to other projects:    
 * [clojurescript](https://github.com/clojure/clojurescript):
     * [PR 202](https://github.com/clojure/clojurescript/pull/202): a `macroexpand` fix
     * [PR 203](https://github.com/clojure/clojurescript/pull/203): a symbol optimization fix
@@ -127,7 +129,7 @@ See [changelog](https://github.com/babashka/sci/blob/master/CHANGELOG.md) for 
 * [promesa](https://github.com/funcool/promesa/commit/18fea52fd99b24a65927907eff6879b970c71dfd): fix GraalVM native-image compilation
 * [etaoin](https://github.com/clj-commons/etaoin/commit/706f342216af69d23de671803ac67c3e1f515941): JDK 19 + babashka issue  
 
-### Brief mentions    
+### Brief mentions:    
 The following projects also got updates, mostly in the form of maintenance and performance improvements. This post would get too long if I had to go into detail about them, so I'll briefly mention them in random order:  
 * [CLI](https://github.com/babashka/cli): Turn Clojure functions into CLIs!
 * [quickdoc](https://github.com/borkdude/quickdoc): Quick and minimal API doc generation for Clojure
@@ -142,7 +144,7 @@ The following projects also got updates, mostly in the form of maintenance and p
 * [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN, YAML and Transit using Clojure
 * [http-client](https://github.com/babashka/http-client): Babashka's http-client  
 
-### Other projects   
+### Other projects:     
 These are (some of the) other projects I'm involved with but little to no activity happened in the past month.   
 * [cljs-showcase](https://github.com/borkdude/cljs-showcase): Showcase CLJS libs using SCI
 * [carve](https://github.com/borkdude/carve) - Remove unused Clojure vars
@@ -161,7 +163,7 @@ These are (some of the) other projects I'm involved with but little to no activi
 Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).  _Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)_
 
 ### April 2023 Report  
-(Published: 30 April, 2023)  
+(Published: 30 April 2023)  
 
 In this post I'll give updates about open source I worked on during April 2023. To see previous OSS updates, go [here](https://blog.michielborkent.nl/tags/oss-updates.html).  
 
@@ -206,7 +208,7 @@ The following projects had updates in the last month. Note that only highlights 
 * [deps.clj](https://github.com/borkdude/deps.clj): A faithful port of the clojure CLI bash script to Clojure
     * Catch up with clojure CLI changes  
 
-### Contributions to other projects   
+### Contributions to other projects:     
 * [clojurescript](https://github.com/clojure/clojurescript):
     * [PR 202](https://github.com/clojure/clojurescript/pull/202): a `macroexpand` fix
     * [PR 203](https://github.com/clojure/clojurescript/pull/203): a symbol optimization fix
@@ -214,7 +216,7 @@ The following projects had updates in the last month. Note that only highlights 
 * [clerk](https://github.com/nextjournal/clerk/commit/cb079b14213185d27c5a2d1cc1e80943521a4fb5): cherry integration
 * [clojure-lsp](https://github.com/clojure-lsp/clojure-lsp/commit/60d67cca59f0747e8b68802157afbe7f61440c7f): integrated a new clj-kondo feature: showing the languages in a CLJC context  
 
-### Other projects    
+### Other projects:      
 These are (some of the) other projects I'm involved with but little to no activity happened in the past month.  
 * [process](https://github.com/babashka/process): Clojure library for shelling out / spawning sub-processes
 * [quickdoc](https://github.com/borkdude/quickdoc): Quick and minimal API doc generation for Clojure
@@ -245,25 +247,24 @@ Discuss this post [here](https://github.com/borkdude/blog/discussions/categorie
 ---
 
 ### Sean Corfield  
-(Published 30 April, 2023)
-tags {["clojure" "clojure-doc.org" "open source" "tools.build" "community"]}  
+(Published 30 April 2023)  
 
-In my [previous Long-Term Funding update]([https://corfield.org/blog/2023/02/28/long-term-funding-1/](https://corfield.org/blog/2023/02/28/long-term-funding-1/)) I said that I planned "to review and/or overhaul the Getting Started, Introduction, and Web Development sections, with a focus on the latter." (of the [clojure-doc.org](https://clojure-doc.org) website).  
+In my [previous Long-Term Funding update](https://corfield.org/blog/2023/02/28/long-term-funding-1/)) I said that I planned "to review and/or overhaul the Getting Started, Introduction, and Web Development sections, with a focus on the latter." (of the [clojure-doc.org](https://clojure-doc.org) website).  
 I mostly achieved that goal but didn't get to the additional goal I set of writing a `tools.build` cookbook. I have sketched out the topics I hope to cover in that cookbook, however.  
 
 How did the past two months go?  
 
-### `clojure-doc.org`  
+### clojure-doc.org  
 I updated [Getting Started with Clojure](https://clojure-doc.org/articles/tutorials/getting_started/) to talk about both Leiningen **and** the Clojure CLI and wrote a new [Getting Started with the Clojure CLI](https://clojure-doc.org/articles/tutorials/getting_started_cli/) page that also covers `tools.build` / `build.clj` and building uberjars. Both pages now have a new section highlighting **Interactive Development** (as opposed to "just" using a REPL).  
 
 I reviewed the [Introduction to Clojure](https://clojure-doc.org/articles/tutorials/introduction/) and decided it was mostly sound, but added more examples, tweaked the formatting, and added references to the Clojure CLI.  
 
 I reworked John Gabriele's excellent [Basic Web Development guide](https://clojure-doc.org/articles/tutorials/basic_web_development/) to use the Clojure CLI, updated all the library references, and reordered the sections to work bottom-up so that code could always be evaluated in the REPL. I didn't get as far as I wanted with the `tools.build` cookbook due to a combination of writer's block (and stress over my mother being taken to hospital unexpectedly for a fractured hip -- she's nearly 90, has osteoporosis, and her oxygen levels are too low/precarious for surgery at this point; she's home now but it's been a rough few weeks).  
 
-### `deps-new`  
+### deps-new 
 As the [Practical.li project templates](https://github.com/practicalli/project-templates) were being developed, John found a bug in the `template` project which I fixed and in turn I reviewed drafts of his [articles about creating project templates using `deps.new`](https://practical.li/blog/posts/create-deps-new-template-for-clojure-cli-projects/), both of which are now linked from the `deps-new` README and documentation.  
 
-### `honeysql`  
+### honeysql 
 
 During March/April, HoneySQL saw four new releases, which were mostly an even
 split between improving documentation and expanding ANSI SQL support.  
@@ -279,12 +280,12 @@ improvements around `DO UPDATE SET` and a number of other constructs.
 I'd also like to give a special shout-out to [Eugene Pakhomov](https://github.com/p-himik)
 who contributed three pull requests to the release that went out in early March.   
 
-### `next.jdbc`  
+### next.jdbc  
 `next.jdbc` also saw four releases, which provided a mix of bug fixes,
 compatibility improvements (with `clojure.java.jdbc`, to ease migration),
 documentation improvements, and a few enhancements.  
 
-### `next.jdbc.xt`  
+### next.jdbc.xt  
 The [Juxt](https://www.juxt.pro/) team were present in force at
 [Clojure/conj](https://2023.clojure-conj.org/) this year and announced
 early access to [XTDB 2.0]([https://www.xtdb.com/blog/2x-early-access](https://www.xtdb.com/blog/2x-early-access)).  
@@ -303,12 +304,15 @@ hopefully support batch operations and perhaps full transaction support, if poss
 
 ### What's Next?  
 In May/June, I hope to get the `tools.build` cookbook written and
-to review/overhaul the Libraries pages (both authoring and the directory).<BR>
+to review/overhaul the Libraries pages (both authoring and the directory).
+
+tags:"clojure" "clojure-doc.org" "open source" "tools.build" "community"<BR>
 
 ---
 
 ## Eric Dallo  
-
+(Published 1 May 2023)  
+  
 These 2 months I spent a considerable time improving java interop support in both clj-kondo and clojure-lsp, so LSP can understand it better and provide completion, definition, hover and other features in a close future as mentioned below.  
 
 ### [clojure-lsp](https://clojure-lsp.io/)  
@@ -320,13 +324,13 @@ The main highlights for this release are:
 ![](edn-tree.png)  
 
 ### 2023.04.19-12.43.29  
-**General**
+**General:**
   - Fix reflection issue in JDK19 with `Thread/sleep` #1520  
   - Bump clj-kondo to `2023.04.15-20230418.173453-3`, fixing analysis inconsistencies with `schema.core`  
   - Ignore vars defined wrongly via config. #1510  
   - Add support for `:output {:langs true}` in clj-kondo config to show `.cljc` language contexts  
 
-**Editor**  
+**Editor:**  
   - Fix classpath issue message to properly ignore or retry after user input. #1500  
   - Decreate debounce time for calculating changes and diagnostics, improving UX in cost of performance, it doesn't seem to highly affect performance though.  
   - Add new setting to change diagnostics range type. #1530  
@@ -345,11 +349,11 @@ I gave a talk at ClojureConj about how to use clojure-lsp as a linter for multip
 ---
 
 ## Christophe Grand  
-(Published 4 May, 2023)  
+(Published 4 May 2023)  
 
 ### ClojureDart  
 The period ended with the Conj and our ClojureDart talk was well received 🎉.
-Still it's worth repeating the core message: ClojureDart is useable *righ now*!
+Still it's worth repeating the core message: ClojureDart is useable *right now*!
 You can use it to write mobile or desktop apps, CLIs and lambdas. Web even.
 It doesn't mean our work is done but language-wise the only missing feature are multimethods.
 Macros do work but sometimes need some annotations -- this will be fixed once we are self-hosted.
@@ -359,7 +363,7 @@ Speaking of self-hosted, the reader rewrite (the previous one was accidentally q
 
 A lot of time was spent fixing bugs or making usability improvements (I'm looking forward to porting gen tests from CLJ/CLJS) and helping users on Slack. More often than not fixes/improvements were an answer to users experiences.  
 
-### Fixes  
+### Fixes:  
 Chunked seqs on vectors (twice!), inconsistent hash values across platforms (web vs others), fixed cross-nses protocols which AOT compiled fine but failed on hot-reload, fixed bug with collisions on transient maps, fixed issue with comparator fns.  
 
 ### Improvements: 
@@ -369,12 +373,12 @@ Chunked seqs on vectors (twice!), inconsistent hash values across platforms (web
 * tear-off support: unlike in JS, in Dart `obj.meth` returns a function closing over `obj` as `this` --   like `obj.meth.bind(obj)` would do in JS. That's what they call "tear-offs" in Dart. We have added (or rather re-enabled) support for tear-offs in Dart. More work needs to be done for better type inference of the returned function.
 * removed `nullWriter` usage which required Java 11 and caused bad first experiences for some users. So now Java 8 is enough.  
 
-### New features  
+### New features:  
 * sorted colls are at parity with Clojure's: rseq, subseq, rsubseq support have been added.
 * rseq on subvecs
 * in `cljd.flutter`, `:watch` accepts an `:as` option for the common case of local state, e.g. `:watch [the-value (atom nil) :as the-atom]` . Previously the more involved `:managed [the-atom (atom nil) :dispose nil] :watch [the-value the-atom]` was required and non-obvious to many users. While we are on it `:dispose nil` (or `false`) is new too: previously to have the same effect (no disposal) you had to write hacks such as `:dispose comment`, `:dispose do`, `:dispose ->`...  
 
-###Future work  
+### Future work:  
 
 ### ClojureDart  
 * Finish the new chunked reader  
@@ -392,7 +396,7 @@ Chunked seqs on vectors (twice!), inconsistent hash values across platforms (web
 ---
 
 ## Thomas Heller  
-(Published x, xxx, 2023)  
+(Published 3 May 2023)  
 
 ### shadow-cljs  
 Time was mostly spent on doing maintenance work and some bugfixes. As well as helping people out via the typical channels (eg. Clojurians Slack).  
@@ -404,6 +408,7 @@ Current shadow-cljs version: 2.23.3 [Changelog](https://github.com/thheller/shad
 ---
 
 ## Nikita Prokopov    
+(Published 1 May, 2023)  
 Three big things happened in the last two months:  
 - Clojure Sublimed 3.0 release with new pluggable REPL infrastructure and Socket Server REPL support  
 - Proper accented input support in JWM on macOS  
@@ -421,16 +426,16 @@ Three big things happened in the last two months:
 - Switched to Socket REPL  
 - hash-p for easier debugging  
 
-### [JWM]([https://github.com/HumbleUI/JWM](https://github.com/HumbleUI/JWM)):   
+### [JWM]([https://github.com/HumbleUI/JWM](https://github.com/HumbleUI/JWM))   
 - macOS: Fixed missed trackpad clicks when tap to click is enabled. This has been annoying me and few other folks for quite a while, turned out you can’t trust AppKit API, but luckily can work around it.  
 - macOS: Reworked text input system to support accented input with ApplePressAndHoldEnabled. Also quite a ride, at some point I had to dig into OpenJDK sources and use same proprietary APIs Apple built into macOS just for AWT (accented input was added much later than JDK).  
 - Windows: Merged Window::bringToFront & ::isFront #266  
 
-### [Clojure Sublimed]([https://github.com/tonsky/Clojure-Sublimed](https://github.com/tonsky/Clojure-Sublimed)):   
+### [Clojure Sublimed](https://github.com/tonsky/Clojure-Sublimed)   
 - Released 3.0.0 and some quick fixes (3.1.0) after that.  
 - Documented my journey at [Adventures in REPL implementation](https://tonsky.me/blog/clojure-sublimed-3/)  
 
-### [Sublime Executor]([https://github.com/tonsky/Sublime-Executor](https://github.com/tonsky/Sublime-Executor)):   
+### [Sublime Executor](https://github.com/tonsky/Sublime-Executor)  
 - Convenience: executor_repeat_last will now automatically stop current process if present. Stop + start again now is a single command! 
 - Execute any shell command #4  [Uberdeps](https://github.com/tonsky/uberdeps):  
 - Fixed merging data_readers.cljc with reader conditionals #51
@@ -442,7 +447,7 @@ Three big things happened in the last two months:
 ---
 
 ## Tommi Reiman  
-(Published 03-04/2023)  
+(Published 03 April 2023)  
 
 ### Malli  
 * pushed out 3 patch and 1 minor releases (0.10.2, 0.10.3, 0.10.4 and 0.11.0) with lot's of stuff in
@@ -472,9 +477,9 @@ Three big things happened in the last two months:
 * Add support for default branch `::m/default` for `:map` schema
   [#871](https://github.com/metosin/malli/pull/871), see [docs](README.md#map-with-default-schemas).
 
-```clojure
-
-(m/validate
+```clojure  
+  
+(m/validate  
 
  [:map
 
@@ -540,12 +545,12 @@ borkdude/edamame 1.0.0 -> 1.1.17
 ### Something else  
 Retuning from my first Conj, really enjoyed the trip!
 
-![conj]([https://user-images.githubusercontent.com/567532/235355537-22aa71c6-1d3f-4660-9458-0686bba0156b.jpg](https://user-images.githubusercontent.com/567532/235355537-22aa71c6-1d3f-4660-9458-0686bba0156b.jpg))  <br>
+![conj](https://user-images.githubusercontent.com/567532/235355537-22aa71c6-1d3f-4660-9458-0686bba0156b.jpg)<br>
 
 ---
 
 ## Peter Stromberg  
-(Published xx xx 2023)  
+(Published 3 May 2023)  
 
 It's fantastic being sponsored to work on something I love to work with, for people I love to work for. These two month I have been even more user feedback driven than usual. Letting the conversations with users inform me where Calva could help them better. I have then quite immediately addressed the things I think I understand how to address.  
 
@@ -570,7 +575,8 @@ During the past months both Brandon Ringe and I have gotten increasingly fed up 
 ---
 
 ## Peter Taoussanis  
-
+(Published 29 April 2023)  
+  
 **Mar/Apr 2023 updates** for [Peter Taoussanis](https://www.taoensso.com/)
 More details now also at [taoensso.com/clojure/2023](https://www.taoensso.com/clojure/2023) 👍  
 
@@ -578,12 +584,11 @@ More details now also at [taoensso.com/clojure/2023](https://www.taoensso.com/cl
 [http-kit v2.7.0-beta2](https://github.com/http-kit/http-kit/releases/tag/v2.7.0-beta2) has been released 🎉
 This is the first major http-kit release since June 2022, and includes work from 15 contributors.  
 
-Improvements include:  
+**Improvements include:**  
 - Several important **stability fixes**  
 - Client+server support for **Unix Domain Sockets**  
 - **SNI client** is now enabled by default on Java 8+  
 - A new [wiki](https://github.com/http-kit/http-kit/wiki) for community documentation  
-
 See the [release notes](https://github.com/http-kit/http-kit/releases/tag/v2.7.0-beta2) for more info.  
 
 ### Tempel  
@@ -596,7 +601,7 @@ As part of that work, I've started rolling out **GitHub wikis** for community do
 
 I'll be seeding these myself over time, but ultimately my hope is to make it easier and more sustainable for each project's own community to contribute documentation and tips. Tempel (mentioned above) will be my first release to be built from the start with this wiki-focused documentation concept in mind.  
 
-### What's next  
+### What's next:  
 The current [plan](https://www.taoensso.com/clojure/2023):  
 - A major [Sente](https://github.com/ptaoussanis/sente) release in May.  
 - A major [Carmine](https://github.com/ptaoussanis/carmine) release in June.  
