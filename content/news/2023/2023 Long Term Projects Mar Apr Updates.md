@@ -80,8 +80,8 @@ I've been working on several PRs to include cherry as an additional evaluator in
 This is a new project by Jack Rusher and I've helped him with the SCI integration.  
 
 ### [clj2el](https://borkdude.github.io/clj2el/) 
-*Transpile clojure to elisp.*   
-A brand new project to transpile Clojure to Elisp. It might be of value for those who know Clojure better than Elisp and want to have something to get started. It's far from complete. Try it in the playground [here](https://borkdude.github.io/clj2el/).  
+*Transpile clojure to elisp. A brand new project to transpile Clojure to Elisp.*  
+It might be of value for those who know Clojure better than Elisp and want to have something to get started. It's far from complete. Try it in the playground [here](https://borkdude.github.io/clj2el/).  
 
 ### [deflet](https://github.com/borkdude/deflet)  
 *Make let-expressions REPL-friendly!*   
@@ -106,8 +106,7 @@ I worked together with the maintainers of the following libraries to make them c
 ### [clj-kondo](https://github.com/clj-kondo/clj-kondo)   
 *Static analyzer and linter for Clojure code that sparks joy*  
 
-New release: 2023.03.17      
-**Some highlights:** 
+**New release: 2023.03.17   Some highlights:** 
 * [#2010](https://github.com/clj-kondo/clj-kondo/issues/2010): Support inline macro configuration. See [docs](https://github.com/clj-kondo/clj-kondo/blob/master/doc/config.md#inline-macro-configuration)
 * [#2010](https://github.com/clj-kondo/clj-kondo/issues/2010): Short syntax to disable linters: `{:ignore [:unresolved-symbol]}` or `{:ignore true}`, valid in ns-metadata, `:config-in-ns`, `:config-in-call`
 * [#2009](https://github.com/clj-kondo/clj-kondo/issues/2009): new `:var-same-name-except-case` linter: warn when vars have names that differ only in case (important for AOT compilation and case-insensitive filesystems)
@@ -120,8 +119,8 @@ New release: 2023.03.17
 *Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs*  
 
 New release: 0.7.39 (2023-03-07)  
-* [#874](https://github.com/babashka/sci/issues/874): Keyword arguments as map support for CLJS  
-See [changelog](https://github.com/babashka/sci/blob/master/CHANGELOG.md) for more.  
+* [#874](https://github.com/babashka/sci/issues/874): Keyword arguments as map support for CLJS 
+* See [changelog](https://github.com/babashka/sci/blob/master/CHANGELOG.md) for more.  
 
 ### Contributions to other projects:    
 * [clojurescript](https://github.com/clojure/clojurescript):
@@ -162,8 +161,9 @@ These are (some of the) other projects I'm involved with but little to no activi
 * [fs](https://github.com/babashka/fs) - File system utility library for Clojure
 * [process](https://github.com/babashka/process): Clojure library for shelling out / spawning sub-processes
 * [pod-babashka-lanterna](https://github.com/babashka/pod-babashka-lanterna): Interact with clojure-lanterna from babashka
-* [joyride](https://github.com/BetterThanTomorrow/joyride): VSCode CLJS scripting and REPL (via [SCI](https://github.com/babashka/sci))    
-Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).  _Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)_
+* [joyride](https://github.com/BetterThanTomorrow/joyride): VSCode CLJS scripting and REPL (via [SCI](https://github.com/babashka/sci))   <br>
+
+Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).<br> Tagged: *[clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)*
 
 ### April 2023 Report  
 (Published: 30 April 2023)  
@@ -171,7 +171,8 @@ Discuss this post [here](https://github.com/borkdude/blog/discussions/categorie
 In this post I'll give updates about open source I worked on during April 2023. To see previous OSS updates, go [here](https://blog.michielborkent.nl/tags/oss-updates.html).  
 
 ### [Babashka-conf](https://babashka.org/conf/)   
-Babashka-conf is happening June 10th in Berlin. Save the date and/or submit your babashka/clojure-related talk or workshop in the CfP!    
+Babashka-conf is happening June 10th in Berlin. Save the date and/or submit your babashka/clojure-related talk or workshop in the CfP!<br>          
+### Projects  
 The following projects had updates in the last month. Note that only highlights are mentioned and not a full overview of all changes. See the project's changelogs for all changes.  
 * [clj-kondo](https://github.com/clj-kondo/clj-kondo): static analyzer and linter for Clojure code that sparks joy.
     * [#1196](https://github.com/clj-kondo/clj-kondo/issues/1196): show language context in `.cljc` files with `:output {:langs true}`. See [docs](https://github.com/clj-kondo/clj-kondo/blob/master/doc/config.md#show-language-context-in-cljc-files).
@@ -211,7 +212,7 @@ The following projects had updates in the last month. Note that only highlights 
 * [deps.clj](https://github.com/borkdude/deps.clj): A faithful port of the clojure CLI bash script to Clojure
     * Catch up with clojure CLI changes  
 
-### Contributions to other projects:     
+### Contributions to other projects:  
 * [clojurescript](https://github.com/clojure/clojurescript):
     * [PR 202](https://github.com/clojure/clojurescript/pull/202): a `macroexpand` fix
     * [PR 203](https://github.com/clojure/clojurescript/pull/203): a symbol optimization fix
@@ -243,26 +244,28 @@ These are (some of the) other projects I'm involved with but little to no activi
 * [joyride](https://github.com/BetterThanTomorrow/joyride): VSCode CLJS scripting and REPL (via [SCI](https://github.com/babashka/sci))
 * [clj2el](https://borkdude.github.io/clj2el/): transpile Clojure to elisp
 * [deflet](https://github.com/borkdude/deflet): make let-expressions REPL-friendly!
-* [babashka.json](https://github.com/babashka/json): babashka JSON library/adapter  
+* [babashka.json](https://github.com/babashka/json): babashka JSON library/adapter   
 
-Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).  _Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)<br>
+Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).<br>
+Tagged: *[clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)*<br>
 
 ---
 
 ### Sean Corfield  
 (Published 30 April 2023)  
 
-In my [previous Long-Term Funding update](https://corfield.org/blog/2023/02/28/long-term-funding-1/)) I said that I planned "to review and/or overhaul the Getting Started, Introduction, and Web Development sections, with a focus on the latter." (of the [clojure-doc.org](https://clojure-doc.org) website).  
-I mostly achieved that goal but didn't get to the additional goal I set of writing a `tools.build` cookbook. I have sketched out the topics I hope to cover in that cookbook, however.  
+In my [previous Long-Term Funding update](https://corfield.org/blog/2023/02/28/long-term-funding-1/)) I said that I planned "to review and/or overhaul the Getting Started, Introduction, and Web Development sections, with a focus on the latter." (of the [clojure-doc.org](https://clojure-doc.org) website). I mostly achieved that goal but didn't get to the additional goal I set of writing a `tools.build` cookbook. I have sketched out the topics I hope to cover in that cookbook, however.<br>    
 
 How did the past two months go?  
 
 ### clojure-doc.org  
-I updated [Getting Started with Clojure](https://clojure-doc.org/articles/tutorials/getting_started/) to talk about both Leiningen **and** the Clojure CLI and wrote a new [Getting Started with the Clojure CLI](https://clojure-doc.org/articles/tutorials/getting_started_cli/) page that also covers `tools.build` / `build.clj` and building uberjars. Both pages now have a new section highlighting **Interactive Development** (as opposed to "just" using a REPL).  
+I updated [Getting Started with Clojure](https://clojure-doc.org/articles/tutorials/getting_started/) to talk about both Leiningen **and** the Clojure CLI and wrote a new [Getting Started with the Clojure CLI](https://clojure-doc.org/articles/tutorials/getting_started_cli/) page that also covers `tools.build` / `build.clj` and building uberjars. Both pages now have a new section highlighting **Interactive Development** (as opposed to "just" using a REPL).<br>    
 
 I reviewed the [Introduction to Clojure](https://clojure-doc.org/articles/tutorials/introduction/) and decided it was mostly sound, but added more examples, tweaked the formatting, and added references to the Clojure CLI.  
 
-I reworked John Gabriele's excellent [Basic Web Development guide](https://clojure-doc.org/articles/tutorials/basic_web_development/) to use the Clojure CLI, updated all the library references, and reordered the sections to work bottom-up so that code could always be evaluated in the REPL. I didn't get as far as I wanted with the `tools.build` cookbook due to a combination of writer's block (and stress over my mother being taken to hospital unexpectedly for a fractured hip -- she's nearly 90, has osteoporosis, and her oxygen levels are too low/precarious for surgery at this point; she's home now but it's been a rough few weeks).  
+I reworked John Gabriele's excellent [Basic Web Development guide](https://clojure-doc.org/articles/tutorials/basic_web_development/) to use the Clojure CLI, updated all the library references, and reordered the sections to work bottom-up so that code could always be evaluated in the REPL.<br>  
+
+I didn't get as far as I wanted with the `tools.build` cookbook due to a combination of writer's block (and stress over my mother being taken to hospital unexpectedly for a fractured hip -- she's nearly 90, has osteoporosis, and her oxygen levels are too low/precarious for surgery at this point; she's home now but it's been a rough few weeks).  
 
 ### deps-new 
 As the [Practical.li project templates](https://github.com/practicalli/project-templates) were being developed, John found a bug in the `template` project which I fixed and in turn I reviewed drafts of his [articles about creating project templates using `deps.new`](https://practical.li/blog/posts/create-deps-new-template-for-clojure-cli-projects/), both of which are now linked from the `deps-new` README and documentation.  
@@ -270,15 +273,15 @@ As the [Practical.li project templates](https://github.com/practicalli/project-t
 ### honeysql 
 
 During March/April, HoneySQL saw four new releases, which were mostly an even
-split between improving documentation and expanding ANSI SQL support.  
+split between improving documentation and expanding ANSI SQL support.<br>    
 Many of the questions I see about HoneySQL on Slack (and other places) suggest
 deficiencies in the documentation so, while I try to answer those questions
 directly on Slack, I also tend to create GitHub issues for them to see if I
-can improve the documentation in those areas.  
+can improve the documentation in those areas.<br>   
 Some of the ANSI SQL improvements including support for `INTERVAL`,
 keyword arguments in function calls, nested `JOIN`, standardizing `TRUNCATE` syntax,
 and `WITH ORDINALITY`. There were also bug fixes and documentation
-improvements around `DO UPDATE SET` and a number of other constructs.  
+improvements around `DO UPDATE SET` and a number of other constructs.<br>  
 
 I'd also like to give a special shout-out to [Eugene Pakhomov](https://github.com/p-himik)
 who contributed three pull requests to the release that went out in early March.   
@@ -291,42 +294,42 @@ documentation improvements, and a few enhancements.
 ### next.jdbc.xt  
 The [Juxt](https://www.juxt.pro/) team were present in force at
 [Clojure/conj](https://2023.clojure-conj.org/) this year and announced
-early access to [XTDB 2.0]([https://www.xtdb.com/blog/2x-early-access](https://www.xtdb.com/blog/2x-early-access)).  
+early access to [XTDB 2.0]([https://www.xtdb.com/blog/2x-early-access](https://www.xtdb.com/blog/2x-early-access)).<br>    
 I think this will be a very exciting release, with improved bitemporality
 (including temporal joins and range scans), a new columnar architecture,
 and -- the part that interests me the most -- a dynamic relation engine
-that provides both a Datalog API **and** a SQL API.  
+that provides both a Datalog API **and** a SQL API.<br>   
 That inspired me to create a new project, offering experimental support
 for XTDB 2.0 in `next.jdbc`: [`next.jdbc.xt`](https://github.com/seancorfield/next.jdbc.xt).
 This allows you to treat an XTDB client "node" as a "connectable" so
 you can call `execute!`, `execute-one!`, and `plan` on it (as well as the
-full range of "friendly SQL functions").  
+full range of "friendly SQL functions").<br>  
 
 As XTDB 2.0 evolves, I plan to continue to enhance this new project to
-hopefully support batch operations and perhaps full transaction support, if possible.  
+hopefully support batch operations and perhaps full transaction support, if possible.<br>    
 
 ### What's Next?  
 In May/June, I hope to get the `tools.build` cookbook written and
 to review/overhaul the Libraries pages (both authoring and the directory).
 
-tags:"clojure" "clojure-doc.org" "open source" "tools.build" "community"<BR>
+Tags:*"clojure" "clojure-doc.org" "open source" "tools.build" "community"*<BR>
 
 ---
 
 ## Eric Dallo  
 (Published 1 May 2023)  
-  
+
 These 2 months I spent a considerable time improving java interop support in both clj-kondo and clojure-lsp, so LSP can understand it better and provide completion, definition, hover and other features in a close future as mentioned below.  
 
 ### [clojure-lsp](https://clojure-lsp.io/)  
-The main highlights for this release are:  
+The main highlights for this release are:<br>  
 - clojure-lsp feedback for Editor UI is faster (Emacs users you may notice that reducing `lsp-idle-delay` to something lower like `0.05`)
 - We now have a new edn tree visualization from `documentSymbolfeature`, showing all keyords of a edn for faster navigation/visualization!
 - Adds support for completion of Static java classes (for now only for classes from .class, not .java, check print), I'm working on improvements on clj-kondo and clojure-lsp to improve that even further being able to see docs of java methods and more, stay tuned! 
 
 ![](edn-tree.png)  
 
-### 2023.04.19-12.43.29  
+#### 2023.04.19-12.43.29<br>      
 **General:**
   - Fix reflection issue in JDK19 with `Thread/sleep` #1520  
   - Bump clj-kondo to `2023.04.15-20230418.173453-3`, fixing analysis inconsistencies with `schema.core`  
@@ -440,7 +443,9 @@ Three big things happened in the last two months:
 
 ### [Sublime Executor](https://github.com/tonsky/Sublime-Executor)  
 - Convenience: executor_repeat_last will now automatically stop current process if present. Stop + start again now is a single command! 
-- Execute any shell command #4  [Uberdeps](https://github.com/tonsky/uberdeps):  
+- Execute any shell command #4  
+
+### [Uberdeps](https://github.com/tonsky/uberdeps):  
 - Fixed merging data_readers.cljc with reader conditionals #51
 
 ### Blogging:  
@@ -466,7 +471,7 @@ Three big things happened in the last two months:
 
 ### 0.11.0 (2023-04-12)  
 * BREAKING: remove map syntax: `mu/from-map-syntax`, `mu/to-map-syntax`. Note that AST syntax and lite syntax remain unchanged.  
-* BREAKING: walking a `:schema` with an `id` no longer passes `[id]` instead of `children` to the walker function [#884 (https://github.com/metosin/malli/issues/884)  
+* BREAKING: walking a `:schema` with an `id` no longer passes `[id]` instead of `children` to the walker function [#884] (https://github.com/metosin/malli/issues/884)  
 * Support converting recursive malli schemas to json-schema [#464](https://github.com/metosin/malli/issues/464) [#868](https://github.com/metosin/malli/issues/868)  
 * Add cherry as alternative CLJS evaluator [#888](https://github.com/metosin/malli/pull/888)  
 * Replace `goog/mixin` with `Object.assign` [#890](https://github.com/metosin/malli/pull/890)  
