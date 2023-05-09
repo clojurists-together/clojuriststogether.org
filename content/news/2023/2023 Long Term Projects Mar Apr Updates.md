@@ -66,7 +66,7 @@ If you're used to sponsoring through some other means which isn't listed above, 
  (Published 07 April 2023)  
 
 ### [cherry](https://github.com/squint-cljs/cherry)  
-Experimental ClojureScript to ES6 module compiler  
+*Experimental ClojureScript to ES6 module compiler*    
 This month I've been preparing cherry as a compiler that you can embed in your existing CLJS / shadow-cljs applications. This makes cherry an additional alternative to [SCI](https://github.com/babashka/sci) and self-hosted CLJS.  
 
 Read about embedding cherry into your application [here](https://github.com/squint-cljs/cherry/blob/main/doc/embed.md).  
@@ -76,20 +76,22 @@ I've been working on several PRs to include cherry as an additional evaluator in
 * One project that is still unpublished but will be coming soon!  
 
 ### [scimacs](https://github.com/jackrusher/scimacs)   
-The Small Clojure Interpreter (SCI) integrated with emacs as a loadable module.  
+*The Small Clojure Interpreter (SCI) integrated with emacs as a loadable module.*   
 This is a new project by Jack Rusher and I've helped him with the SCI integration.  
 
 ### [clj2el](https://borkdude.github.io/clj2el/) 
-Transpile clojure to elisp. A brand new project to transpile Clojure to Elisp. It might be of value for those who know Clojure better than Elisp and want to have something to get started. It's far from complete. Try it in the playground [here](https://borkdude.github.io/clj2el/).  
+*Transpile clojure to elisp.*   
+A brand new project to transpile Clojure to Elisp. It might be of value for those who know Clojure better than Elisp and want to have something to get started. It's far from complete. Try it in the playground [here](https://borkdude.github.io/clj2el/).  
 
 ### [deflet](https://github.com/borkdude/deflet)  
-Make let-expressions REPL-friendly!  
+*Make let-expressions REPL-friendly!*   
 The `deflet` macro lets your write inline-def expressions, while expanding those to regular let expressions, giving you the benefits of REPL-driven development without polluting production code with top level vars.
 
 ### [babashka](https://github.com/babashka/babashka)   
-Native, fast starting Clojure interpreter for scripting  
+*Native, fast starting Clojure interpreter for scripting*  
+
 New release: 1.3.175 (2023-03-18)), 1.3.176 (2023-03-18)  
-**Highlights:**  
+Highlights: 
 * The `clojure.core.async/go` macro now uses virtual threads.
 * Many small fixes and upgrades.
 * See the complete [CHANGELOG](https://github.com/babashka/babashka/blob/master/CHANGELOG.md).
@@ -102,7 +104,7 @@ I worked together with the maintainers of the following libraries to make them c
 * [martian](https://github.com/oliyh/martian/commit/f0f7679364f58eb4ef558e9ad2340274b9742542): HTTP abstraction library for Clojure/script, supporting OpenAPI, Swagger, Schema, re-frame and more  
 
 ### [clj-kondo](https://github.com/clj-kondo/clj-kondo)   
-Static analyzer and linter for Clojure code that sparks joy
+*Static analyzer and linter for Clojure code that sparks joy*  
 
 New release: 2023.03.17      
 **Some highlights:** 
@@ -115,7 +117,8 @@ New release: 2023.03.17
 [Check the changelog](https://github.com/clj-kondo/clj-kondo/blob/master/CHANGELOG.md) for details.  
 
 ### [SCI](https://github.com/babashka/sci)  
-Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs  
+*Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs*  
+
 New release: 0.7.39 (2023-03-07)  
 * [#874](https://github.com/babashka/sci/issues/874): Keyword arguments as map support for CLJS  
 See [changelog](https://github.com/babashka/sci/blob/master/CHANGELOG.md) for more.  
@@ -408,7 +411,7 @@ Current shadow-cljs version: 2.23.3 [Changelog](https://github.com/thheller/shad
 ---
 
 ## Nikita Prokopov    
-(Published 1 May, 2023)  
+(Published 1 May 2023)  
 Three big things happened in the last two months:  
 - Clojure Sublimed 3.0 release with new pluggable REPL infrastructure and Socket Server REPL support  
 - Proper accented input support in JWM on macOS  
