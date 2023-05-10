@@ -4,11 +4,21 @@ date: 2023-05-10T08:30:00+08:00
 summary: Reports from our 10 developers working on 2023 long term projects
 author: Kathy Davis
 draft: True
----
-There is a lot to catch up on! Check out the March and April 2023 updates from Bozhidar Batsov, Michiel Borkent, Sean Corfield, Eric Dallo, Christophe Grand, Thomas Heller, Nikita Prokopov, Tommi Reiman, Peter Stromberg,
-and Peter Taoussanis.  
-  
+---  
 
+There is a lot to catch up on! Check out the March and April 2023 updates from:  
+[Bozhidar Batsov](#bozhidar-batsov)  
+[Michiel Borkent](#michiel-borkent)  
+[Sean Corfield](#sean-corfield)  
+[Eric Dallo](#eric-dallo)  
+[Christophe Grand](#christophe-grand)  
+[Thomas Heller](#thomas-heller)  
+[Nikita Prokopov](#nikita-prokopov)  
+[Tommi Reiman](#tommi-reiman)  
+[Peter Stromberg](#peter-stromberg)  
+[Peter Taoussanis](#peter-taoussanis)<br>  
+
+  
 ## Bozhidar Batsov  
 (Published 29 April 2023)  
 
