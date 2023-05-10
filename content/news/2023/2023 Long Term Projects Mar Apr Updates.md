@@ -337,9 +337,7 @@ These 2 months I spent a considerable time improving java interop support in bot
 The main highlights for this release are:<br>  
 - clojure-lsp feedback for Editor UI is faster (Emacs users you may notice that reducing `lsp-idle-delay` to something lower like `0.05`)
 - We now have a new edn tree visualization from `documentSymbolfeature`, showing all keyords of a edn for faster navigation/visualization!
-- Adds support for completion of Static java classes (for now only for classes from .class, not .java, check print), I'm working on improvements on clj-kondo and clojure-lsp to improve that even further being able to see docs of java methods and more, stay tuned! 
-
-![edntreedallo](https://github.com/clojurists-together/clojuriststogether.org/blob/0bafca20801b4550c10dc2d25bd89203dc498a61/static/images/2023/edntreedallo.png)  
+- Adds support for completion of Static java classes (for now only for classes from .class, not .java, check print), I'm working on improvements on clj-kondo and clojure-lsp to improve that even further being able to see docs of java methods and more, stay tuned! <br>  
 
 
 #### 2023.04.19-12.43.29<br>      
