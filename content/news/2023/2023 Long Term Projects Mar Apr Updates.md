@@ -7,7 +7,18 @@ draft: True
 ---
 There is a lot to catch up on! Check out the March and April 2023 updates from Bozhidar Batsov, Michiel Borkent, Sean Corfield, Eric Dallo, Christophe Grand, Thomas Heller, Nikita Prokopov, Tommi Reiman, Peter Stromberg,
 and Peter Taoussanis.  
-  
+
+[Bozhidar Batsov](https://github.com/clojurists-together/clojuriststogether.org/edit/master/content/news/2023/2023%20Long%20Term%20Projects%20Mar%20Apr%20Updates.md#bozhidar-batsov)  
+[Michiel Borkent](https://github.com/clojurists-together/clojuriststogether.org/edit/master/content/news/2023/2023%20Long%20Term%20Projects%20Mar%20Apr%20Updates.md#michiel-borkent)
+[Sean Corfield](
+[Eric Dallo]
+[Christophe Grand]
+[Thomas Heller]
+[Nikita Prokopov]
+[Tommi Reiman]
+[Peter Stromberg]
+[Peter Taoussanis]
+
 
 ## Bozhidar Batsov  
 (Published 29 April 2023)  
