@@ -5,7 +5,9 @@ summary: Reports from our 10 developers working on 2023 long term projects
 author: Kathy Davis
 draft: True
 ---  
-TEST
+<br> 
+
+
 There is a lot to catch up on! Check out the March and April 2023 updates from:  
 [Bozhidar Batsov](#bozhidar-batsov)  
 [Michiel Borkent](#michiel-borkent)  
@@ -337,7 +339,7 @@ The main highlights for this release are:<br>
 - We now have a new edn tree visualization from `documentSymbolfeature`, showing all keyords of a edn for faster navigation/visualization!
 - Adds support for completion of Static java classes (for now only for classes from .class, not .java, check print), I'm working on improvements on clj-kondo and clojure-lsp to improve that even further being able to see docs of java methods and more, stay tuned! 
 
-![https://github.com/clojurists-together/clojuriststogether.org/static/images/2023/edn-tree(1).png](https://github.com/clojurists-together/clojuriststogether.org/blob/61e6e06a1134062af81ff12407ec801caa7803e9/static/images/2023/edn-tree%20(1).png)  
+![edntreedallo](https://github.com/clojurists-together/clojuriststogether.org/blob/0bafca20801b4550c10dc2d25bd89203dc498a61/static/images/2023/edntreedallo.png)  
 
 
 #### 2023.04.19-12.43.29<br>      
