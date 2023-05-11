@@ -339,7 +339,8 @@ The main highlights for this release are:<br>
 - We now have a new edn tree visualization from `documentSymbolfeature`, showing all keyords of a edn for faster navigation/visualization!
 - Adds support for completion of Static java classes (for now only for classes from .class, not .java, check print), I'm working on improvements on clj-kondo and clojure-lsp to improve that even further being able to see docs of java methods and more, stay tuned! <br>  
 
-
+![endtreedallo](https://github.com/clojurists-together/clojuriststogether.org/blob/555abb2d7364f38d307e5fe57a7572f66e9325fe/static/images/2023/endtreedallo.png)
+  
 #### 2023.04.19-12.43.29<br>      
 **General:**
   - Fix reflection issue in JDK19 with `Thread/sleep` #1520  
