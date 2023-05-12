@@ -306,7 +306,7 @@ documentation improvements, and a few enhancements.
 ### next.jdbc.xt  
 The [Juxt](https://www.juxt.pro/) team were present in force at
 [Clojure/conj](https://2023.clojure-conj.org/) this year and announced
-early access to [XTDB 2.0]([https://www.xtdb.com/blog/2x-early-access](https://www.xtdb.com/blog/2x-early-access)).<br>    
+early access to ([XTDB 2.0](https://www.xtdb.com/blog/2x-early-access).<br>    
 I think this will be a very exciting release, with improved bitemporality
 (including temporal joins and range scans), a new columnar architecture,
 and -- the part that interests me the most -- a dynamic relation engine
@@ -359,7 +359,7 @@ The main highlights for this release are:<br>
   - Show edn tree when in edn files via `documentSymbol` feature.  
   - Improve java db cache consistency + analysis performance.  
 
-### [clj-kondo]([https://github.com/clj-kondo/clj-kondo/](https://github.com/clj-kondo/clj-kondo/))  
+### [clj-kondo](https://github.com/clj-kondo/clj-kondo/)  
 [#2503](https://github.com/clj-kondo/clj-kondo/pull/2053): parse java files via javaparser to produce java-member-definitions analysis
 [#1983](https://github.com/clj-kondo/clj-kondo/issues/1983): add support for java member analysis, via new java-member-definitions bucket (@ericdallo).  
 
@@ -498,7 +498,7 @@ Three big things happened in the last two months:
 
 #### 0.10.3 (2023-03-18)  
 * Add support for default branch `::m/default` for `:map` schema
-  [#871](https://github.com/metosin/malli/pull/871), see [docs](README.md#map-with-default-schemas).
+  [#871](https://github.com/metosin/malli/pull/871), see docs: README.md#map-with-default-schemas.
 
 ```clojure  
   
