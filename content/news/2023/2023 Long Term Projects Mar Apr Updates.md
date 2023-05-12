@@ -498,7 +498,7 @@ Three big things happened in the last two months:
 
 #### 0.10.3 (2023-03-18)  
 * Add support for default branch `::m/default` for `:map` schema
-  [#871](https://github.com/metosin/malli/pull/871), see docs: README.md#map-with-default-schemas.
+  [#871](https://github.com/metosin/malli/pull/871), see [docs](https://github.com/metosin/malli#map-with-default-schemas).
 
 ```clojure  
   
