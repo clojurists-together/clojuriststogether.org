@@ -306,7 +306,7 @@ documentation improvements, and a few enhancements.
 ### next.jdbc.xt  
 The [Juxt](https://www.juxt.pro/) team were present in force at
 [Clojure/conj](https://2023.clojure-conj.org/) this year and announced
-early access to ([XTDB 2.0](https://www.xtdb.com/blog/2x-early-access).<br>    
+early access to [XTDB 2.0](https://www.xtdb.com/blog/2x-early-access).<br>    
 I think this will be a very exciting release, with improved bitemporality
 (including temporal joins and range scans), a new columnar architecture,
 and -- the part that interests me the most -- a dynamic relation engine
