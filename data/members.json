@@ -1157,11 +1157,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Swaney",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Stoffel",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1374,6 +1369,6 @@
   } ],
   "member_stats" : {
     "company" : 51,
-    "developer" : 199
+    "developer" : 198
   }
 }
