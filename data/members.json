@@ -457,11 +457,6 @@
     "level" : "contributing",
     "founding" : true
   }, {
-    "name" : "Didier Arslanian",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : true
-  }, {
     "name" : "Michiel Borkent",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1369,6 +1364,6 @@
   } ],
   "member_stats" : {
     "company" : 51,
-    "developer" : 198
+    "developer" : 197
   }
 }
