@@ -1356,9 +1356,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Xiong",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 51,
-    "developer" : 196
+    "developer" : 197
   }
 }
