@@ -73,13 +73,11 @@ people to try out. Through this funding project I've implemented the following f
 
 Additionally I've been working on the documentation to make getting started 
 with clojure-ts-mode easier.  It is available for install now through package-vc on Emacs 29  
-
 ```
 
 (package-vc-install "https://github.com/clojure-emacs/clojure-ts-mode")
 
 ```
-
 And should be available on MELPA package repository soon.   
 
 ### Next steps  
@@ -147,11 +145,11 @@ task was to figure out how to best integrate it into the existing [Ruby on Rails
 The learning exercise test suites now include metadata linking each test case to its respective task in the instructions. This enables a better user experience, because now after the tests are run, there is a button to return the student to the proper place.  
 
 ### Gratitude  
-Besides allowing me to work on this full-time, the funding enabled me to adopt two beautiful kitty cats! Now, coding is even more fun. Many thanks to all who made this possible.  
+Besides allowing me to work on this full-time, the funding enabled me to adopt two beautiful kitty cats! Now, coding is even more fun. Many thanks to all who made this possible.<br>  
 
-```
+---
 
-## Project Kaocha: Arne Brasseur  <br>  
+## Project Kaocha: Arne Brasseur<br>  
 Update: 4 May 2023; Final Report<br>
 Funding Round: Q3 2022<br>
 
@@ -230,7 +228,7 @@ forward, to make sure it's relevant, visible, and sustainable, so stay tuned!
 -  [breaking] Support only metabase version >= `0.46.1`
 -  Change the API call parameters on `/api/dashboard/:id/cards<br>  
 
----` 
+--- 
 
 ## Project Uncomplicate Neanderthal: Dragan Duric<br>   
 Project Update: 28 April 2023; Final Report<br>
@@ -249,11 +247,11 @@ Regarding sparse matrices, the domain is larger than I expected, which was not h
 
 interfaces that make sense with sparseness, the Float and Double engines with sparse vector operations, and the Float and Double engines with CSR operations for GE CSR matrices. I tested a lot of this, but it still needs polishing.  
 
-I could only release snapshots, as I discovered a few omissions in JavaCPP MKL preset that are then fixed in the new version 1.5.9, which is still only a snapshot, so Neanderthal Sparse is still only available only as a snapshot on GitHub [https://github.com/uncomplicate/neanderthal-sparse](https://github.com/uncomplicate/neanderthal-sparse).  
+I could only release snapshots, as I discovered a few omissions in JavaCPP MKL preset that are then fixed in the new version 1.5.9, which is still only a snapshot, so Neanderthal Sparse is still only available only as a snapshot on [GitHub](https://github.com/uncomplicate/neanderthal-sparse).  
 
 All in all, I am satisfied with what has been done in this round. It may not be exactly what I imagined when I started, but become much broader, with a huge chunk of work that is more general and will benefit Uncomplicate libraries in future.  
 
-** In short, Q12023 resulted in:**  
+**In short, Q12023 resulted in:**  
 - The core of [Spare Matrix and Vectors implementations](https://github.com/uncomplicate/neanderthal-sparse) that is not as complete and polished as the rest of Neanderthal but that is a great first milestone.   
 
 - The port of the core Neanderthal CPU engine (GE matrices and vectors) to JavaCPP, which will be the base of porting the rest of Neanderthal's CPU and CUDA implementation to JavaCPP.  
