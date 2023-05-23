@@ -1,6 +1,6 @@
 ---
 title: "May 2023: Short Term Project Updates"
-date: 2023-05-24 T08:30:00+08:00
+date: 2023-05-24T08:30:00+08:00
 summary: Updates from Clerk, Clojure-ts-mode, Exercism, Kaocha, Neanderthal
 author: Kathy Davis
 draft: true
@@ -11,15 +11,12 @@ Clerk, Clojure-ts-mode, Exercism, Kaocha, and Uncomplicate Neanderthal.
 Great work all!  As always thanks for your commitment and 
 contributions to the Clojurists Together community.
 
-[Project Clerk: Martin Kavalar](#bookmark=id.govgqzve473c)
+[Project Clerk: Martin Kavalar](#project-clerk-:-martin-kavalar)<br>
+[Project Clojure-ts-mode: Danny Freeman](#bookmark=id.bmixb7ooctz6)<br>
+[Project Exercism: Bobbi Towers](#bookmark=id.9vgf9knesmxi)<br>
+[Project Kaocha: Arne Brasseur](#bookmark=id.qifrrzdqfnwc)<br>
+[Project Uncomplicate Neanderthal: Dragan Duric](#bookmark=id.8515ud8t034p)>br>
 
-[Project Clojure-ts-mode: Danny Freeman](#bookmark=id.bmixb7ooctz6)
-
-[Project Exercism: Bobbi Towers](#bookmark=id.9vgf9knesmxi)
-
-[Project Kaocha: Arne Brasseur](#bookmark=id.qifrrzdqfnwc)
-
-[Project Uncomplicate Neanderthal: Dragan Duric](#bookmark=id.8515ud8t034p)
 
 ## Project Clerk: Martin Kavalar  
 
