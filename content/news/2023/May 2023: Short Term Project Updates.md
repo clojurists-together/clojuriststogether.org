@@ -11,15 +11,11 @@ Clerk, Clojure-ts-mode, Exercism, Kaocha, and Uncomplicate Neanderthal.
 Great work all!  As always thanks for your commitment and 
 contributions to the Clojurists Together community.
 
-[Project Clerk: Martin Kavalar](#bookmark=id.govgqzve473c)
-
-[Project Clojure-ts-mode: Danny Freeman](#bookmark=id.bmixb7ooctz6)
-
-[Project Exercism: Bobbi Towers](#bookmark=id.9vgf9knesmxi)
-
-[Project Kaocha: Arne Brasseur](#bookmark=id.qifrrzdqfnwc)
-
-[Project Uncomplicate Neanderthal: Dragan Duric](#bookmark=id.8515ud8t034p)
+[Clerk: Martin Kavalar](#project-clerk-martin-kavalar)<br>
+[Clojure-ts-mode: Danny Freeman](#project-clojure-ts-mode-danny-freeman)<br>
+[Exercism: Bobbi Towers](#project-exercism-bobbi-towers)<br>
+[Kaocha: Arne Brasseur](#project-kaocha-arne-brasseur)<br>
+[Uncomplicate Neanderthal: Dragan Duric](#project-uncomplicate-neanderthal-dragan-duric)
 
 ## Project Clerk: Martin Kavalar  
 
@@ -304,7 +300,7 @@ forward, to make sure it's relevant, visible, and sustainable, so stay tuned!
 
 -  Change the API call parameters on `/api/dashboard/:id/cards` 
 
-## Project Uncomplcate Neanderthal: Dragan Duric  
+## Project Uncomplicate Neanderthal: Dragan Duric  
 
 Project Update: 28 April 2023; Final Report
 
