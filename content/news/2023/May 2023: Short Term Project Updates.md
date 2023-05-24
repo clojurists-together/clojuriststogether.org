@@ -13,9 +13,9 @@ contributions to the Clojurists Together community.
 
 [Project Clerk: Martin Kavalar](#project-clerk-martin-kavalar)<br>
 [Project Clojure-ts-mode: Danny Freeman](#project-clojure-ts-mode-danny-freeman)<br>
-[Exercism: Bobbi Towers](#project-exercism-bobbi-towers)<br>
-[Kaocha: Arne Brasseur](#project-kaocha-arne-brasseur)<br>
-[Uncomplicate Neanderthal: Dragan Duric](#project-uncomplicate-neanderthal-dragan-duric)
+[Project Exercism: Bobbi Towers](#project-exercism-bobbi-towers)<br>
+[Project Kaocha: Arne Brasseur](#project-kaocha-arne-brasseur)<br>
+[Project Uncomplicate Neanderthal: Dragan Duric](#project-uncomplicate-neanderthal-dragan-duric)
 
 ## Project Clerk: Martin Kavalar  
 Update: 2 May 2023; Final Report<br>
@@ -98,7 +98,7 @@ for people that do not have MELPA configured.<br>
 
 ---
 
-## Project Exercism: Bobbi Towers<br>  
+## Project Exercism: Bobbi Towers  
 Update 29 April 2023: Final Report<br>
 Funding Round: Q1 2023<br> 
 
@@ -149,7 +149,7 @@ Besides allowing me to work on this full-time, the funding enabled me to adopt t
 
 ---
 
-## Project Kaocha: Arne Brasseur<br>  
+## Project Kaocha: Arne Brasseur  
 Update: 4 May 2023; Final Report<br>
 Funding Round: Q3 2022<br>
 
@@ -230,7 +230,7 @@ forward, to make sure it's relevant, visible, and sustainable, so stay tuned!
 
 --- 
 
-## Project Uncomplicate Neanderthal: Dragan Duric<br>   
+## Project Uncomplicate Neanderthal: Dragan Duric   
 Project Update: 28 April 2023; Final Report<br>
 Funding Round: Q1 2023<br>  
 
