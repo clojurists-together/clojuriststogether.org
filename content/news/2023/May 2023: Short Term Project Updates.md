@@ -180,14 +180,14 @@ the [ClojureScript Podcast with Jacek Schae Ep30](https://podcasts.apple.com/us/
 (since renamed to ClojureStream) where Arne and Jacek talk at length about these Topics.  
 
 April also saw the first release of [Plenish](https://github.com/lambdaisland/plenish) a tool we (the Gaiwan Team)
-
 have been using to help one of our clients do analytics over Datomic. It lets
-you can transfer your Datomic database to a Postgres database, allowing for
+you transfer your Datomic database to a Postgres database, allowing for
 analytical workloads to run on Postgres. For a, watch [Arne's talk about it](https://www.youtube.com/watch?v=BxK44tRhKMQ). A related project is EmbedKit,
 which allows you to use Metabase as a dashboard engine, which is also mentioned
 in Arne's talk, and which also saw a maintenance release in April.  
 
-Finally we released a new version of Ornament, our css-in-clj(s) styled component libraries, improving support for Tailwind 3 classnames.
+Finally we released a new version of Ornament, our css-in-clj(s) styled component libraries, improving support for Tailwind 3 classnames.  
+
 We want to thank the community for putting their trust in us, and allowing us to
 work on these different projects over the last 6 months. And a huge thanks to
 the people who support us directly on
@@ -199,7 +199,7 @@ forward, to make sure it's relevant, visible, and sustainable, so stay tuned!
 ### [Kaocha](https://github.com/lambdaisland/kaocha) 1.83.1314 (2023-05-05 / 1438ce7)
 -  The watcher now prints the output from plugins, eg. `bin/kaocha --watch --plugin kaocha.plugin/profiling` 
 
-### [Kaocha-cljs](https://github.com/lambdaisland/kaocha-cljs) 1.5.154 (2023-04-17 / f969eae)
+### [Kaocha-cljs](https://github.com/lambdaisland/kaocha-cljs) 1.5.154 (2023-04-17 / f969eae)  
 -  Add documentation of common issue when trying to run tests that reference the DOM in a context without a DOM (e.g., Node.js).
 
 -  Add documentation for using Kaocha-cljs with Node.js dependencies.
@@ -235,17 +235,17 @@ Project Update: 28 April 2023; Final Report<br>
 Funding Round: Q1 2023<br>  
 
 My goal with this round was to implement Sparse Matrix support in Neanderthal.  
-During the initial phases of the project, I realized that the domain area is bigger than I thought.
 
-I also decided to use JavaCPP MKL bindings instead writing my own JNI C code. This prompted me to create the ClojureCPP library, with lots of helpers and convenience functions. It proved a great help when dealing with JavaCPP pointers and native shenanigans.  
+During the initial phases of the project, I realized that the domain area is bigger than I thought. I also
+decided to use JavaCPP MKL bindings instead writing my own JNI C code. This prompted me to create
+the ClojureCPP library, with lots of helpers and convenience functions. It proved a great help when
+dealing with JavaCPP pointers and native shenanigans.  
 
 Since Neanderthal is not based on JavaCPP pointers, I needed to create a port of Neanderthal's native CPU engine. I could have attached the new JavaCPP parts to the existing ByteBuffer-based engines, but that would introduce complexity in code. So I decided to take the opportunity and implement a prototype of native CPU implementation of a part of Neanderthal core that is based on JavaCPP. This helped me in learning how to deal with JavaCPP itself, since it has sparse documentation and a ton of functionality.  
 
 So all this work went into another new project, Neanderthal Sparse, which I eventually plan to merge into Neanderthal. It contains both the port of existing CPU engines for vectors and GE matrices to JavaCPP, and the new sparse vector and sparse matrix implementations.  
 
-Regarding sparse matrices, the domain is larger than I expected, which was not helped by extreme sparseness of the documentation, and even related information on the Internet in general. I had to discover many things by poking and experimenting (Clojure REPL wins big here!). In the end, I managed to implement compressed sparse vectors (CSV), and compressed sparse row matrices (CSR) (with both row and column layout support), all related data structure
-
-interfaces that make sense with sparseness, the Float and Double engines with sparse vector operations, and the Float and Double engines with CSR operations for GE CSR matrices. I tested a lot of this, but it still needs polishing.  
+Regarding sparse matrices, the domain is larger than I expected, which was not helped by extreme sparseness of the documentation, and even related information on the Internet in general. I had to discover many things by poking and experimenting (Clojure REPL wins big here!). In the end, I managed to implement compressed sparse vectors (CSV), and compressed sparse row matrices (CSR) (with both row and column layout support), all related data structure interfaces that make sense with sparseness, the Float and Double engines with sparse vector operations, and the Float and Double engines with CSR operations for GE CSR matrices. I tested a lot of this, but it still needs polishing.  
 
 I could only release snapshots, as I discovered a few omissions in JavaCPP MKL preset that are then fixed in the new version 1.5.9, which is still only a snapshot, so Neanderthal Sparse is still only available only as a snapshot on [GitHub](https://github.com/uncomplicate/neanderthal-sparse).  
 
