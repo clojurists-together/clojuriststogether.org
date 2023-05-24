@@ -11,13 +11,13 @@ Clerk, Clojure-ts-mode, Exercism, Kaocha, and Uncomplicate Neanderthal.
 Great work all!  As always thanks for your commitment and 
 contributions to the Clojurists Together community.
 
-[Clerk: Martin Kavalar](#project-clerk-martin-kavalar)<br>
-[Clojure-ts-mode: Danny Freeman](#project-clojure-ts-mode-danny-freeman)<br>
+[Project Clerk: Martin Kavalar](#project-clerk-martin-kavalar)<br>
+[Project Clojure-ts-mode: Danny Freeman](#project-clojure-ts-mode-danny-freeman)<br>
 [Exercism: Bobbi Towers](#project-exercism-bobbi-towers)<br>
 [Kaocha: Arne Brasseur](#project-kaocha-arne-brasseur)<br>
 [Uncomplicate Neanderthal: Dragan Duric](#project-uncomplicate-neanderthal-dragan-duric)
 
-## Project Clerk: Martin Kavalar<br>  
+## Project Clerk: Martin Kavalar  
 Update: 2 May 2023; Final Report<br>
 Funding Round: Q1 2023<br>
 
@@ -54,7 +54,7 @@ Clerk with this funding! 🙏
 ___
   
   
-## Project clojure-ts-mode: Danny Freeman<br>
+## Project clojure-ts-mode: Danny Freeman
 Update: 15 May 2023; Final Report<br>
 Funding Round: Q1 2023  
 
