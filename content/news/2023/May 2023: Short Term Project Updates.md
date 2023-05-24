@@ -1,9 +1,9 @@
 ---
 title: "May 2023: Short Term Project Updates"
-date: 2023-05-24 T08:30:00+08:00
+date: 2023-05-24T08:30:00+08:00
 summary: Updates from Clerk, Clojure-ts-mode, Exercism, Kaocha, Neanderthal
 author: Kathy Davis
-draft: true
+
 ---  
 
 With several project cycles winding down, we have final reports in from 
