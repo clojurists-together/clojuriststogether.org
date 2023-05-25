@@ -120,6 +120,12 @@ In short, I propose to implement:
 ---
  
 ## [clj-nix](https://github.com/jlesquembre/clj-nix): José Luis Lafuente<br>
+
+**Why is this project important to the Clojure community?**
+Nix is a great tool to build and deploy software, but Clojure is not well supported in 
+the Nix ecosystem. clj-nix makes easier to integrate Clojure on a Nix project.
+
+**What are you wanting to achieve with this funding?**  
 I want to refactor the CLI to be more granular about the dependencies used at build time. 
 Currently, all dependencies in all aliases are added to the lock file. I want to add some 
 flags to the CLI to allow users to manually define the `deps.edn` files, and the aliases to use. 
