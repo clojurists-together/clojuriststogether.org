@@ -1,7 +1,7 @@
 ---
 title: "Q2 2023 Funding Announcement"
 date: 2023-05-29T08:30:00+08:00
-summary: "We're funding 8 projects for a total of $44K USD in Q2 2023."
+summary: "We are funding 8 projects for a total of $44K USD in Q2 2023."
 author: Kathy Davis
 
 ---
