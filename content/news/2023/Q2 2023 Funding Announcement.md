@@ -6,7 +6,7 @@ author: Kathy Davis
 draft: True
 ---
 Greetings all. We’re excited to announce the projects we'll be funding for the Q2 2023 round. (8 projects $44K USD  in total).
-There were a lot of great proposals - so making a decision was, as usual, difficult. The good news, however, is
+There were a lot of great projects - so making a decision was, as usual, difficult. The good news, however, is
 that proposals will automatically be reconsidered for the next 2 cycles.
 We have supported many projects in the past that did not make it in the initial round - so stay tuned!
 Thanks to everyone for your thoughtful proposals - this is the kind of thinking and sharing that makes the Clojurist Together community so awesome! 
@@ -28,7 +28,7 @@ Thanks to everyone for your thoughtful proposals - this is the kind of thinking 
 
 
 ## [Emmy](http://github.com/sicmutils/sicmutils): Sam Ritchie
-What are you wanting to achieve with this funding? I want to make the SICMUtils computer algebra system into a best-in-class, modular set of tools for doing serious work and exploration in math and physics, and sharing that work in the browser. When used with NextJournal's Clerk, https://maria.cloud/, and the components I built with last quarter's funding, I think SICMUtils could take the place of Mathematica for students and educators and help cement Clojure as a serious contender for top data science language. 
+I want to make the SICMUtils computer algebra system into a best-in-class, modular set of tools for doing serious work and exploration in math and physics, and sharing that work in the browser. When used with NextJournal's Clerk, https://maria.cloud/, and the components I built with last quarter's funding, I think SICMUtils could take the place of Mathematica for students and educators and help cement Clojure as a serious contender for top data science language. 
 
 Concretely, I would use the quarter to:  
  - Rebrand SICMUtils as "Emmy" after [Emmy Noether](https://en.wikipedia.org/wiki/Emmy_Noether)
@@ -58,11 +58,11 @@ that produces a 3-vector of the XYZ coordinates of a `(p, q)` torus knot wrapped
 - Help with clj-kondo configuration for Electric Clojure 
 - Numerous other issues, there's always plenty to do! 
 See the [clj-kondo project board:](https://github.com/clj-kondo/clj-kondo/projects/1) and 
-see [here for a list of most upvoted issues:](https://github.com/clj-kondo/clj-kondo/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions- %2B1-desc) 
+see [here for a list of most upvoted issues:](https://github.com/clj-kondo/clj-kondo/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc) 
 - As clj-kondo is the foundation for the static analysis in clojure-lsp: improvements in the interaction between the two, most specifically the analysis data. 
 
 ### [Babashka](https://github.com/babashka/babashka)  
- - Make it easier to use scripts in projects from anywhere on the system. bbin (https://github.com/babashka/bbin) is already helping a lot with this. However, if we allow scripts that are on the path to be combined with their relative `bb.edn` file to be invoked while taking into account the dependencies from `bb.edn`, this would be a lower bar of entry for having system wide scripts and might also simplify the implementation of bbin itself. Eventually I'd like to include some of bbin's features into babashka itself, as a `bb install` command and this would be the first step towards that.
+ - Make it easier to use scripts in projects from anywhere on the [system. bbin](https://github.com/babashka/bbin) is already helping a lot with this. However, if we allow scripts that are on the path to be combined with their relative `bb.edn` file to be invoked while taking into account the dependencies from `bb.edn`, this would be a lower bar of entry for having system wide scripts and might also simplify the implementation of bbin itself. Eventually I'd like to include some of bbin's features into babashka itself, as a `bb install` command and this would be the first step towards that.
  ### Port Clojure 1.12 features to babashka   
 - Allow user-land middleware to participate in the babashka nREPL server
 - babashka.http-client: this library is now included in babashka but still needs some better configuration options for SSL contexts and http proxy. 
@@ -72,7 +72,7 @@ see [here for a list of most upvoted issues:](https://github.com/clj-kondo/clj-k
 - Several other issues: https://github.com/babashka/babashka/issues 
 
 ### [Cherry](https://github.com/squint-cljs/cherry)
- - Cherry is a CLJS compiler that can be used as a standalone tool but also to (partially) replace self-hosted CLJS in exising projects. This mode is known as cherry.embed: https://github.com/squint-cljs/cherry/blob/main/doc/embed.md The embed mode is already used in malli as an alternative to SCI: instead of interpreted CLJS we now get compiled CLJS for serializable functions. To be more generally useful, cherry needs to emit namespaced functions which it currently doesn't. Eventually something like scittle (https://github.com/babashka/scittle) may be implemented using cherry which would give the same convenience but a smaller bundle and better performance.   
+ - Cherry is a CLJS compiler that can be used as a standalone tool but also to (partially) replace self-hosted CLJS in exising projects. This mode is known as [cherry.embed:](https://github.com/squint-cljs/cherry/blob/main/doc/embed.md) The embed mode is already used in malli as an alternative to SCI: instead of interpreted CLJS we now get compiled CLJS for serializable functions. To be more generally useful, cherry needs to emit namespaced functions which it currently doesn't. Eventually something like [scittle](https://github.com/babashka/scittle) may be implemented using cherry which would give the same convenience but a smaller bundle and better performance.   
 
 ### [SCI](https://github.com/babashka/sci): 
 - Add the ability to request the stacktrace at arbitrary execution points in user land (https://github.com/babashka/sci/issues/871) (also related to the babashka issue about clojure.test locations) 
@@ -81,27 +81,34 @@ see [here for a list of most upvoted issues:](https://github.com/clj-kondo/clj-k
 ---
 
 ## [Clojure Camp](https://theclouncil.com): Daniel Higginbotham 
-HOLDING ####
-**What are you wanting to achieve with this funding?**  
-Our Vision: At Clojure Camp, we are creating a free learning community to help people of all backgrounds enrich their
-lives by discovering the joy of programming with Clojure - in a positive, beginner-friendly, inclusive environment. Our team includes three women, two men, and two people of color, and we hope to model a positive tech environment through a commitment to diversity and through our emphasis on creating a fun, friendly, supportive, and kind environment.  
+ **Vision**  
+At Clojure Camp, we are creating a free learning community to help new developers of all backgrounds build a secure foundation for professional programming success — with Clojure! We hope to model a positive tech environment through a commitment to diversity and through our emphasis on creating a fun, friendly, supportive, and kind environment.  
+
+Clojure Camp is rooted in an equity ethos: it's open to all while prioritizing the experience of those who face the most hurdles in tech. Our Community is a place where Women, BIPOC folks, and LGBTQ+ folks belong.  
 
 We believe that learning Clojure is a great long-term investment because it helps people learn a better way of approaching programming, and because it brings creative satisfaction. We want to make it accessible to more people.  
 
-We believe this will have a long-term positive impact on the Clojure community by improving our reputation as a welcoming and helpful community, and by increasing the pool of Clojure developers.  
+We believe this will have a long-term positive impact on the Clojure community by improving our reputation as a welcoming and helpful community, and by increasing the pool of Clojure developers. <br>  
 
-### The Product
-For the next six months, we are focusing on creating two “products”: a bi-weekly, recorded zoom meetup and a study group matchmaking service.  
+**Product**<br>
+For the next six months, we are focusing on two “products”: a study group matchmaking service and a metacircular project incubator.  <br>
 
-Bi-weekly, recorded Zoom meetups:
-These will be similar to the meetups in our first “season”, where attendees ask  experienced developers to try to answer them. 
-For the next round of meetups, we will follow a loose curriculum that will be published beforehand
-Each meetup is 60-90 minutes
-Videos are posted to YouTube and serve as educational materials for all
-Study Group Directory: We are building a service to serve as a central location for finding and creating Clojure study groups. Our hypothesis is that this will be a great way for people to continue learning Clojure in smaller, possibly more comfortable settings, and that will yield richer discussions in the bi-weekly Zoom meetups.  
+**Study Group Matchmaking**  
+We have created a study group format and matchmaking service that’s proving to be effective with our initial cohort of learners. About five learners are paired with two mentors who guide the learners during weekly video calls, reviewing the work the learners have done over the previous week. In between video calls, learners use a tool to match them with other learners in their group for pair programming and support.  
 
-** Why is this project important to the Clojure community?**  
-We think this project has huge potential to position Clojure as a beginner-friendly community and to grow our numbers <br>  
+We want to continue building out this model by refining the curriculum and developing other avenues of learning and collaboration. Also, we want to start doing some outreach to attract new developers to participate. We’ve received a lot of interest from potential mentors; now we just need to find some students for them!<br>  
+
+**Metacircular Project Incubator**  
+We’ve designed Clojure Camp to be a kind of project incubator, where motivated volunteers can propose their learning projects and get our support. The kinds of support we provide include:
+• **Implementation feedback.** We are available to brainstorm ideas or otherwise spend time chatting with project leaders to help them refine their offering.  
+• **Networking.** We can refer project leaders to others who might be able to help, and we run a discord server for project leaders to reach out to each other.  
+• **Moral Support.** Part of our motivation for creating this structure is that we want to help people avoid burnout. It’s a lot easier to do this sustainably when you’re in community.  
+• **Advertising.** We help project leaders get their projects in front of a qualified audience, allowing them to focus on what they do best: helping people learn!  
+
+Our core team already has a number of projects we’ve begun working on in this spirit, including:
+- Speaker coaching
+- Email newsletter <Br>
+<br>  
 
 ---
 
