@@ -3,7 +3,7 @@ title: "Q2 2023 Funding Announcement"
 date: 2023-05-29T08:30:00+08:00
 summary: "We're funding 8 projects for a total of $44K USD in Q2 2023."
 author: Kathy Davis
-draft: True
+
 ---
 Greetings all. We’re excited to announce the projects we'll be funding for the Q2 2023 round. (8 projects $44K USD  in total).
 There were a lot of great projects - so making a decision was, as usual, difficult. The good news, however, is
