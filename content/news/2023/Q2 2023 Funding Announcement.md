@@ -13,7 +13,7 @@ Thanks to everyone for your thoughtful proposals - this is the kind of thinking 
 
 ### Projects Awarded $9K USD<br>
 **Emmy:** Sam Ritchie<br>
-**Clj-kondo, babashka, cherry, nbb:** Michiel Borkent<br>
+**Clj-kondo, babashka, cherry, SCI:** Michiel Borkent<br>
 **Clojure Camp:**  Daniel Higginbotham<br>
 **Neanderthal, Clojure CUDA, Deep Diamond:** Dragan Duric<br>
 
@@ -39,8 +39,14 @@ Concretely, I would use the quarter to:
 - Modules for mathematical objects like polynomials, rational functions, quaternions, and geometric algebra
  - Differential geometry code used in general relativity research   
 
-With last quarter's funding, I produced a number of components for creating and interacting with 2d and 3d visualizations, as well as tooling for NextJournal's Clerk to make it easy to create interactive documents embedding these components. I'll extend this work by building out a library of Clerk viewers that make it easy to visualize and work with interactive versions of all of the important mathematical objects in the SICMUtils library. Finally, I'll use the system to produce a series of interactive essays that explore mathematics and physics, as a way of showing off the power of the system.   
-A stretch goal would be to ship these interactive essays both using Clerk and using https://www.maria.cloud/, so that all text and code would become interactive as well. As an example of what is possible, see [this interactive visualization of a (p, q) torus knot](https://mathbox.mentat.org/dev/mathbox/examples/math/pq_knot.html).   
+With last quarter's funding, I produced a number of components for creating and interacting with 2d and 3d visualizations, as well as tooling for NextJournal's Clerk to make it easy to create interactive documents embedding these components. 
+
+I'll extend this work by building out a library of Clerk viewers that make it easy to visualize and work with interactive versions of all of the important mathematical objects in the SICMUtils library. 
+
+Finally, I'll use the system to produce a series of interactive essays that explore mathematics and physics, as a way of showing off the power of the system.   
+A stretch goal would be to ship these interactive essays both using Clerk and using https://www.maria.cloud/, so that all text and code would become interactive as well. 
+
+As an example of what is possible, see [this interactive visualization of a (p, q) torus knot](https://mathbox.mentat.org/dev/mathbox/examples/math/pq_knot.html).   
 
 I was able to use the SICMUtils automatic differentiation and function compilation features to turn the following inefficient 
 description of the curve for one of these knots into a highly optimized JavaScript function that ran 10-20x faster 
@@ -49,12 +55,11 @@ that produces a 3-vector of the XYZ coordinates of a `(p, q)` torus knot wrapped
 
 ---
 
-## Clj-kondo, babashka, cherry, nbb: Michiel Borkent  
+## Clj-kondo, babashka, cherry, SCI: Michiel Borkent  
 
 ### [Clj-kondo](https://github.com/clj-kondo/clj-kondo):
  - Support an arbitrary amount of reader conditionals in .cljc files via configuration. This is mostly useful for ClojureDart (`:cljd`), 
- - babashka (`:bb`), nbb (`:org.babashka/nbb`) and shadow-cljs targets like `:node`. It's often not selfevident if people are writing 
- - both for JVM Clojure + ClojureScript (which is how clj-kondo by default understands `.cljc` files) or for other combinations of Clojure dialects. I want to add support for configuring what Clojure dialects apply to your project and what Clojure dialects should be linted as (e.g. `:node` should just be linted as `:cljs`). If necessary I'll also add support for specific dialects like ClojureDart. 
+ - babashka (`:bb`), nbb (`:org.babashka/nbb`) and shadow-cljs targets like `:node`. It's often not selfevident if people are writing both for JVM Clojure + ClojureScript (which is how clj-kondo by default understands `.cljc` files) or for other combinations of Clojure dialects. I want to add support for configuring what Clojure dialects apply to your project and what Clojure dialects should be linted as (e.g. `:node` should just be linted as `:cljs`). If necessary I'll also add support for specific dialects like ClojureDart. 
 - Help with clj-kondo configuration for Electric Clojure 
 - Numerous other issues, there's always plenty to do! 
 See the [clj-kondo project board:](https://github.com/clj-kondo/clj-kondo/projects/1) and 
@@ -99,7 +104,7 @@ We have created a study group format and matchmaking service that’s proving to
 We want to continue building out this model by refining the curriculum and developing other avenues of learning and collaboration. Also, we want to start doing some outreach to attract new developers to participate. We’ve received a lot of interest from potential mentors; now we just need to find some students for them!<br>  
 
 **Metacircular Project Incubator**  
-We’ve designed Clojure Camp to be a kind of project incubator, where motivated volunteers can propose their learning projects and get our support. The kinds of support we provide include:
+We’ve designed Clojure Camp to be a kind of project incubator, where motivated volunteers can propose their learning projects and get our support. The kinds of support we provide include:<br>
 • **Implementation feedback.** We are available to brainstorm ideas or otherwise spend time chatting with project leaders to help them refine their offering.  
 • **Networking.** We can refer project leaders to others who might be able to help, and we run a discord server for project leaders to reach out to each other.  
 • **Moral Support.** Part of our motivation for creating this structure is that we want to help people avoid burnout. It’s a lot easier to do this sustainably when you’re in community.  
@@ -186,6 +191,6 @@ through the use cases and expose modularise the functionality. <br>
 I will use the funding to improve the experience for new users. Specifically I will add some self-hosted documentation such that Portfolio can guide users via its UI once set up. I will also improve Portofolio's error handling and make it provide more helpful pointers when things go wrong. If time permits, I will keep working on a recently started accessibility testing feature for Portfolio.  
 
 **Why is this project important to the Clojure community?** 
-The community has voiced a desire for more developer tooling. Portfolio is a developer tool for frontend ClojureScript work. While it is good that Clojure(Script) makes it easy to use tools built for the underlying platform (e.g. Storybook), strong native CLJ(S) tooling is necessary to fully harness the power of our amazing language and runtime, and make it an attractive alternative. My hope is that Portfolio eventually is one piece of what makes ClojureScript the greatest frontend toolkit out there
+The community has voiced a desire for more developer tooling. Portfolio is a developer tool for frontend ClojureScript work. While it is good that Clojure(Script) makes it easy to use tools built for the underlying platform (e.g. Storybook), strong native CLJ(S) tooling is necessary to fully harness the power of our amazing language and runtime, and make it an attractive alternative. My hope is that Portfolio eventually is one piece of what makes ClojureScript the greatest frontend toolkit out there.
 
 
