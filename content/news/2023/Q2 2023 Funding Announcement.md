@@ -3,7 +3,7 @@ title: "Q2 2023 Funding Announcement"
 date: 2023-05-29T08:30:00+08:00
 summary: "We're funding 8 projects for a total of $44K USD in Q2 2023."
 author: Kathy Davis
-draft: True
+
 ---
 Greetings all. We’re excited to announce the projects we'll be funding for Q2 2023. (8 projects $44K USD  in total).
 There were a lot of great projects - so making a decision was, as usual, difficult. The good news, however, is
@@ -12,16 +12,16 @@ We have supported many projects in the past that did not make it in the initial 
 Thanks to everyone for your thoughtful proposals - this is the kind of thinking and sharing that makes the Clojurist Together community so awesome! 
 
 ### Projects Awarded $9K USD<br>
-[**Emmy:** Sam Ritchie](#emmy-sam-ritchie)<br>
-[**Clj-kondo, babashka, cherry, SCI:** Michiel Borkent](#clj-kondo-babashka-cherry-sci-michiel-borkent)<br>
-[**Clojure Camp:**  Daniel Higginbotham](#clojure-camp-daniel-higginbotham)<br>
-[**Neanderthal, Clojure CUDA, Deep Diamond:** Dragan Duric](#neanderthal-clojure-cuda-deep-diamond-dragan-duric)<br>
+**Emmy:** Sam Ritchie<br>
+**Clj-kondo, babashka, cherry, SCI:** Michiel Borkent<br>
+**Clojure Camp:**  Daniel Higginbotham<br>
+**Neanderthal, Clojure CUDA, Deep Diamond:** Dragan Duric<br>
 
 ### Projects Awarded $2K USD<br>
-[**clj-nix:** José Luis Lafuente](#clj-nix-jose-luis-lafuente)<br>
-[**Jank:** Jeaye Wilkerson](#jank-jeaye-wilkerson)<br>
-[**Lucene Grep:** Dainius Jocas](#lucene-grep-dainius-jocas)<br>
-[**Portfolio:** Christian Johansen](#portfolio-christian-johansen)<br>
+**clj-nix:** José Luis Lafuente<br>
+**Jank:** Jeaye Wilkerson<br>
+**Lucene Grep:** Dainius Jocas<br>
+**Portfolio:** Christian Johansen<br>
 
 ### LARGER PROJECTS AWARDED $9K USD<br>
 ---
