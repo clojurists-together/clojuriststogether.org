@@ -9,7 +9,7 @@ Greetings all. We’re excited to announce the projects we'll be funding for Q2 
 There were a lot of great projects - so making a decision was, as usual, difficult. The good news, however, is
 that proposals will automatically be reconsidered for the next 2 cycles.
 We have supported many projects in the past that did not make it in the initial round - so stay tuned!
-Thanks to everyone for your thoughtful proposals - this is the kind of thinking and sharing that makes the Clojurist Together community so awesome! 
+Thanks to everyone for your thoughtful proposals - this is the kind of thinking and sharing that makes the Clojurists Together community so awesome! 
 
 ### Projects Awarded $9K USD<br>
 **Emmy:** Sam Ritchie<br>
