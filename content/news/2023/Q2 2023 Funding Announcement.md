@@ -18,7 +18,7 @@ Thanks to everyone for your thoughtful proposals - this is the kind of thinking 
 [**Neanderthal, Clojure CUDA, Deep Diamond:** Dragan Duric](#neanderthal-clojure-cuda-deep-diamond-dragan-duric)<br>
 
 ### Projects Awarded $2K USD<br>
-[**clj-nix:** José Luis Lafuente](#clj-nix-josé-luis-lafuente)<br>
+[**clj-nix:** José Luis Lafuente](#clj-nix-jose-luis-lafuente)<br>
 [**Jank:** Jeaye Wilkerson](#jank-jeaye-wilkerson)<br>
 [**Lucene Grep:** Dainius Jocas](#lucene-grep-dainius-jocas)<br>
 [**Portfolio:** Christian Johansen](#portfolio-christian-johansen)<br>
