@@ -1337,11 +1337,6 @@
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "Brian Takei",
-    "member_type" : "developer",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Lari Saukkonen",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1364,6 +1359,6 @@
   } ],
   "member_stats" : {
     "company" : 51,
-    "developer" : 197
+    "developer" : 196
   }
 }
