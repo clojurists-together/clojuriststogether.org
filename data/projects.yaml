@@ -80,7 +80,7 @@
   tier: USD 9k
   date: 2023-06-01
   round: Q2 2023
-  description: 
+  description: Implement ports of Neanderthal's MKL engines to JavaCPP, ClojureCUDA to JavaCPP's CUDA, and Neanderthal's GPU matrix engine to new, JavaCPP-based ClojureCUDA. Update Deep Diamond to use new infrastructure. 
   current: true
   
 - name: clj-Nix
