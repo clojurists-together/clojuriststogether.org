@@ -65,7 +65,7 @@
   date: 2023-02-01
   round: Q1 2023
   description: Clerk takes a Clojure namespace and turns it into a notebook
-  current: true
+  current: false
 - name: Donut
   url: https://github.com/donut-party/system
   tier: USD 9k
@@ -79,14 +79,14 @@
   date: 2023-02-01
   round: Q1 2023
   description: Implement and provide a full range of documentation for Sparse Matrix support in Neanderthal, a Clojure library for fast matrix computations.
-  current: true
+  current: false
 
 - name: Clojure-ts-mode
   tier: USD 2k
   date: 2023-02-01
   round: Q1 2023
   description: Reimplement clojure-mode's functionality to work with the tree-sitter integration that is being released with the upcoming version of Emacs (version 29).
-  current: true
+  current: false
 - name: Doxa
   tier: USD 2k
   date: 2023-02-01
@@ -98,7 +98,7 @@
   date: 2023-02-01
   round: Q1 2023
   description: Expand the Exercism track syllabus by teaching additional concepts, and improve the automated analysis tooling to provide better feedback.
-  current: true
+  current: false
   
 - name: Biff
   url: https://github.com/jacobobryant/biff
