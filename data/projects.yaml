@@ -1,6 +1,7 @@
 # Long term funding 2023
 # Q3 2022
 # Q1 2023
+# Q2 2023
 
 - name: Bozhidar Batsov
   tier: Long-term (USD 1.5k/month)
@@ -53,6 +54,34 @@
   round: Long-term 2023
   current: true
 
+- name:Clj-kondo, babashka, cherry, SCI, nbb 
+  url: https://github.com/borkdude
+  tier: USD 9k
+  date: 2023-06-01
+  round: Q2 2023
+  description: A linter for Clojure code that sparks joy.
+  current: true
+  - name: Clojure Camp
+  url: https://theclouncil.com
+  tier: USD 9k
+  date: 2023-06-01
+  round: Q2 2023
+  description: Free learning community to help new developers of all backgrounds build a secure foundation for professional programming success - with this project focusing on a study group matchmaking service and a metacircular project incubator.
+  current: true
+  - name: Emmy
+  url: http://github.com/sicmutils/sicmutils
+  tier: USD 9k
+  date: 2023-06-01
+  round: Q2 2023
+  description: Work to make SICMUtils computer algebra system into a best-in-class, modular set of tools for doing serious work and exploration in math and physics, and sharing that work in the browser.
+  current: true
+- name: Neanderthal,Clojure CUDA, Deep Diamond
+  url: https://github.com/uncomplicate
+  tier: USD 9k
+  date: 2023-06-01
+  round: Q2 2023
+  description: 
+  current: true
 - name: Aleph/Manifold
   tier: USD 9k
   date: 2023-02-01
@@ -65,7 +94,7 @@
   date: 2023-02-01
   round: Q1 2023
   description: Clerk takes a Clojure namespace and turns it into a notebook
-  current: true
+  current: false
 - name: Donut
   url: https://github.com/donut-party/system
   tier: USD 9k
@@ -79,14 +108,14 @@
   date: 2023-02-01
   round: Q1 2023
   description: Implement and provide a full range of documentation for Sparse Matrix support in Neanderthal, a Clojure library for fast matrix computations.
-  current: true
+  current: false
 
 - name: Clojure-ts-mode
   tier: USD 2k
   date: 2023-02-01
   round: Q1 2023
   description: Reimplement clojure-mode's functionality to work with the tree-sitter integration that is being released with the upcoming version of Emacs (version 29).
-  current: true
+  current: false
 - name: Doxa
   tier: USD 2k
   date: 2023-02-01
@@ -98,7 +127,7 @@
   date: 2023-02-01
   round: Q1 2023
   description: Expand the Exercism track syllabus by teaching additional concepts, and improve the automated analysis tooling to provide better feedback.
-  current: true
+  current: false
   
 - name: Biff
   url: https://github.com/jacobobryant/biff
