@@ -109,7 +109,7 @@
   tier: USD 2k
   date: 2023-06-01
   round: Q2 2023
-  description: Improve the Portfolio’s error handling and the  experience for new users by adding self-hosted documentation to guide users via its UI once set up. 
+  description: Improve Portfolio’s error handling and the  experience for new users by adding self-hosted documentation to guide users via its UI once set up. 
   current: true
   
 - name: Aleph/Manifold
