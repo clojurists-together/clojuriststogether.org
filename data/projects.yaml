@@ -145,6 +145,7 @@
   description:  A fully functional version and documentation of Doxa with examples of how to use with `re-frame` and `reagent` 
   current: false
 - name: Exercism
+  url: https://github.com/bobbicodes/clojure-eval
   tier: USD 2k
   date: 2023-02-01
   round: Q1 2023
