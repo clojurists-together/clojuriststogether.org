@@ -507,11 +507,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Timothy Myrtle",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Ryan McCuaig",
     "member_type" : "developer",
     "level" : "contributing",
@@ -532,11 +527,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Kent OHASHI",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Dieter Komendera",
     "member_type" : "developer",
     "level" : "contributing",
@@ -553,11 +543,6 @@
     "founding" : false
   }, {
     "name" : "Jeffrey Simon",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "August Lilleaas",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
@@ -799,7 +784,7 @@
   }, {
     "name" : "Raphael Saunier",
     "member_type" : "developer",
-    "level" : "developer",
+    "level" : "contributing",
     "founding" : false
   }, {
     "name" : "Emin Hasanov",
@@ -1359,6 +1344,6 @@
   } ],
   "member_stats" : {
     "company" : 51,
-    "developer" : 196
+    "developer" : 193
   }
 }
