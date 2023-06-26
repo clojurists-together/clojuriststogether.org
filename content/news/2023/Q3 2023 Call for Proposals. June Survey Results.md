@@ -22,7 +22,15 @@ If you work on a Clojure open source project, especially one mentioned as a focu
 ## Our Members Speak: Feedback from the June Survey.  
 <br>
 <br>  
-![ImproveAreas](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/4cd60f30-303c-4a32-a266-8a4713565103)
+![CScriptImprove](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/eb0da71b-cb67-4449-9d0f-fd16baf1d28d)
+
+
+
+
+
+
+
+
 
 
 
