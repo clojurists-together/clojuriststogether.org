@@ -62,9 +62,14 @@ If you work on a Clojure open source project, especially one mentioned as a focu
 - I think it's rather hard to discover all the cool libraries clojure has to offer. There are enough amazing resources to learn the basics, but next step when one starts to build apps is underserved. You can find frameworks like biff or kit to get you started, and they're great start, but discovering things beyond their default choices is hard. Probably some lib finder tools on top of clojars can help?  
 - It seems that having a more standard, official, well-documented way to create new projects using templates is something that could help with adoption, or at least with getting started. Developers from other languages are used to having that kind of tooling, and while it exists in the Clojure world, it's not quite as straightforward in my experience (maybe that has changed more recently). People are still starting out with Leiningen and I think that's partly because it still seems more straightforward to them in terms of creating new projects and running tests than does the Clojure CLI.  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The responsibility for improving the official tooling is more on the Clojure core team, but I think the community could improve this by creating more guides that discuss the existing tools around the Clojure CLI, like for using clj-new. Library and tooling authors can also add examples for the Clojure CLI, rather than just having Leiningen examples (or in some cases maybe they should even get rid of the Leiningen examples in favor of the Clojure CLI).  
+    The responsibility for improving the official tooling is more on the Clojure core team, but I think the community could improve this by<br>
+    creating more guides that discuss the existing tools around the Clojure CLI, like for using clj-new. Library and tooling authors can also <br>
+    add examples for the Clojure CLI, rather than just having Leiningen examples (or in some cases maybe they should even get rid of the <br>
+    Leiningen examples in favor of the Clojure CLI).  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This sort of dichotomy, while not a big deal to seasoned Clojure devs, seems to create some friction for beginners. They're immediately hit with a decision they may feel is pretty important - "Which build tool should I use?" - and for which they may have a hard time deciding. They pick one, but inevitably find examples for the other for things they're trying to do.  
+    This sort of dichotomy, while not a big deal to seasoned Clojure devs, seems to create some friction for beginners. They're immediately hit<br>
+    with a decision they may feel is pretty important - "Which build tool should I use?" - and for which they may have a hard time deciding.<br>
+    They pick one, but inevitably find examples for the other for things they're trying to do.  <br>
 
 **Comprehensive, Multi-media Clojure Resource and Destination**   
 - I wish there was something like what Onyx was trying to be. 
