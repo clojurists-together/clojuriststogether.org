@@ -44,6 +44,14 @@ If you work on a Clojure open source project, especially one mentioned as a focu
 - NYC Clojure Meetup and other Meetups
 - r/programming subreddit
 - Youtube channels and content creators  
+<br>
+### What would you like to be different in the Clojure community in the next 12 months?  
+<br>
+**Documentation**  
+-  about documentation. The documentation is completely unacceptable for the language and for most libraries. It is often poorly written, entirely absent, or lacking examples.
+- Much better and slicker documentation and outreach. Documentation that is slick and fun and makes it clear how you enter into using the language and why.
+
+
 
 
 
