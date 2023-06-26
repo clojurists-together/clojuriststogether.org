@@ -18,3 +18,10 @@ We surveyed our members in late June - to find out what types of initiatives the
 Their responses are summarized below. Thanks as always – it is extremely helpful in ensuring that the community is a vital source of input.
 
 If you work on a Clojure open source project, especially one mentioned as a focus area for our members, please consider [applying](https://clojuriststogether.org/open-source/).
+
+## Our Members Speak: Feedback from the June Survey.  
+<br>
+<br>
+![](/images/2023/JuneSurvey/ImproveAreas.png)  
+
+
