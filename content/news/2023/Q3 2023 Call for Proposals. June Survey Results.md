@@ -24,13 +24,26 @@ If you work on a Clojure open source project, especially one mentioned as a focu
 <br>
 ![CScriptImprove](https://github.com/clojurists-together/clojuriststogether.org/blob/master/static/images/2023/JuneSurvey/CScriptImprove.png)
 <br>
-![UserYears](https://github.com/clojurists-together/clojuriststogether.org/blob/master/static/images/2023/JuneSurvey/UserYears.png)
+![UserYears](https://github.com/clojurists-together/clojuriststogether.org/blob/master/static/images/2023/JuneSurvey/UserYears.PNG)
 <br>
 ![UserSupport](https://github.com/clojurists-together/clojuriststogether.org/blob/master/static/images/2023/JuneSurvey/UserSupport.png)
 <br>
-![libraryprojecttool](https://github.com/clojurists-together/clojuriststogether.org/blob/master/static/images/2023/JuneSurvey/libraryprojecttool.png)
+![libraryprojecttool](https://github.com/clojurists-together/clojuriststogether.org/blob/master/static/images/2023/JuneSurvey/libraryprojecttool.PNG)
 <br>
-
+### What groups, meetups, or sites do you visit regularly that might be a good place to introduce both beginning and seasoned Clojurists to our work? (outside of  Clojurians Slack, GitHub, Reddit - /r/clojure, and Twitter)?  
+- Clojure Berlin
+- Clojure Hispano group at Telegram
+- clojure-toolbox 
+- clojureverse
+- clojuredocs
+- Clojurians Zulip
+- Hacker News
+- lobste.rs
+- London Clojurians
+- Mastodon
+- NYC Clojure Meetup and other Meetups
+- r/programming subreddit
+- Youtube channels and content creators  
 
 
 
