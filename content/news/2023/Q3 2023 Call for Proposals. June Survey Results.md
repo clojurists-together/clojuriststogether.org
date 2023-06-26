@@ -1,7 +1,7 @@
 ---
 title: "Call for New Proposals. June Survey Results."
 date: 2023-06-26T08:30:00+08:00
-summary: We're accepting proposals for our next $44K funding round. Our members speak.
+summary: We are accepting proposals for our next $44K funding round. Our members speak.
 author: Kathy Davis
 draft: true
 ---
@@ -22,6 +22,8 @@ If you work on a Clojure open source project, especially one mentioned as a focu
 ## Our Members Speak: Feedback from the June Survey.  
 <br>
 <br>
-![](/images/2023/JuneSurvey/ImproveAreas.png)  
+(static/images/2023/JuneSurvey/ImproveAreas.png)  
+<br>
+
 
 
