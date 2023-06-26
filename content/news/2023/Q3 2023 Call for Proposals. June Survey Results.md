@@ -22,8 +22,12 @@ If you work on a Clojure open source project, especially one mentioned as a focu
 ## Our Members Speak: Feedback from the June Survey.  
 <br>
 <br>
-(static/images/2023/JuneSurvey/ImproveAreas.png)  
+![ImproveAreas](https://github.com/clojurists-together/clojuriststogether.org/static/images/2023/JuneSurvey/ImproveAreas.png)
+
 <br>
+
+
+
 
 
 
