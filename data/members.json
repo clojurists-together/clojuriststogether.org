@@ -912,6 +912,11 @@
     "level" : "contributing",
     "founding" : false
   }, {
+    "name" : "Steven Harms",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
     "name" : "Julien Bille",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1344,6 +1349,6 @@
   } ],
   "member_stats" : {
     "company" : 51,
-    "developer" : 193
+    "developer" : 194
   }
 }
