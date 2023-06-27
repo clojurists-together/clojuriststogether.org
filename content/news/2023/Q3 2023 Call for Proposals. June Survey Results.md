@@ -6,7 +6,7 @@ author: Kathy Davis
 draft: true
 ---
 ## Call for Proposals
-Clojurists Together is pleased to announce that we are opening our Q3 2023 funding round for Clojure Open Source Projects. 
+Test Clojurists Together is pleased to announce that we are opening our Q3 2023 funding round for Clojure Open Source Projects. 
 Applications are open until the 20th of July 2023. [**Apply today!**](https://clojuriststogether.org/open-source/)
 
 We will be awarding a total of $44,000 USD for 8 projects – 4 projects at $2,000 each and 4 projects at $9,000 each. 
