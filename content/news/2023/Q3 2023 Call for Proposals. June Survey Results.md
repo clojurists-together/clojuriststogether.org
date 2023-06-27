@@ -20,7 +20,9 @@ Their responses are summarized below. Thanks as always – it is extremely helpf
 If you work on a Clojure open source project, especially one mentioned as a focus area for our members, please consider [applying](https://clojuriststogether.org/open-source/).
 
 ## Our Members Speak: Feedback from the June Survey.   
-![ImproveAreas](https://github.com/clojurists-together/clojuriststogether.org/blob/master/static/images/2023/JuneSurvey/ImproveAreas.jpg)
+
+![ImproveAreas](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/5c803ab5-dbe9-4a81-b49e-1c1f614510a2)
+
 <br>
 ![CScriptImprove](https://github.com/clojurists-together/clojuriststogether.org/blob/master/static/images/2023/JuneSurvey/CScriptImprove.png)
 <br>
