@@ -23,15 +23,17 @@ If you work on a Clojure open source project, especially one mentioned as a focu
 
 ![ImproveAreas](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/5c803ab5-dbe9-4a81-b49e-1c1f614510a2)
 
-<br>
-![CScriptImprove](https://github.com/clojurists-together/clojuriststogether.org/blob/master/static/images/2023/JuneSurvey/CScriptImprove.png)
-<br>
-![UserYears](https://github.com/clojurists-together/clojuriststogether.org/blob/master/static/images/2023/JuneSurvey/UserYears.PNG)
-<br>
-![UserSupport](https://github.com/clojurists-together/clojuriststogether.org/blob/master/static/images/2023/JuneSurvey/UserSupport.png)
-<br>
-![libraryprojecttool](https://github.com/clojurists-together/clojuriststogether.org/blob/master/static/images/2023/JuneSurvey/libraryprojecttool.PNG)
-<br>
+![CScriptImprove](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/03109a64-501f-4c79-9049-c8eec4acb5e8)
+
+![UserYears](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/789e7124-3b25-4bad-8a49-df3b4c04850c)
+
+![UserSupport](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/7ff369e4-8121-4b1e-94c2-53b2022cc2e1)
+
+![libraryprojecttool](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/1b3dc5f5-038d-4022-b978-fe09574ec316)
+
+
+
+
 ### What groups, meetups, or sites do you visit regularly that might be a good place to introduce both beginning and seasoned Clojurists to our work? (outside of  Clojurians Slack, GitHub, Reddit - /r/clojure, and Twitter)?  
 - Clojure Berlin
 - Clojure Hispano group at Telegram
