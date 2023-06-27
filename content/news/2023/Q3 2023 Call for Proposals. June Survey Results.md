@@ -1,9 +1,8 @@
 ---
 title: "Call for New Proposals. June Survey Results."
-date: 2023-06-26T08:30:00+08:00
+date: 2023-06-27T08:30:00+08:00
 summary: We are accepting proposals for our next $44K funding round. Our members speak.
 author: Kathy Davis
-draft: true
 ---
 ## Call for Proposals
 Clojurists Together is pleased to announce that we are opening our Q3 2023 funding round for Clojure Open Source Projects. 
