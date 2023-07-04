@@ -377,6 +377,13 @@
     "level" : "cons",
     "founding" : false
   }, {
+    "name" : "Thorax informatieprojecten & advies",
+    "member_type" : "company",
+    "url" : "https://www.thorax.nl",
+    "logo" : null,
+    "level" : "assoc",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1346,9 +1353,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Thierry Smeekes",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
-    "company" : 51,
-    "developer" : 194
+    "company" : 52,
+    "developer" : 195
   }
 }
