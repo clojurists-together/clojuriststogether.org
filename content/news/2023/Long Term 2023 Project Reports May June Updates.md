@@ -43,36 +43,40 @@ In other news:
 - There's a small new bugfix release of clojure-mode (see https://github.com/clojure-emacs/clojure-mode/blob/master/CHANGELOG.md#5161-2023-06-26)
 - There are also new releases of orchard and cider-nrepl
 - We're working on some improvements for refactor-nrepl and enrich-classpath  
-<br>
-__
-<br>
+
+---
 
 
-## Michiel Borkent: May 2023 Update
-(Published 30 May 2023)  
-In this post, I'll give updates about open source I worked on during May 2023.  
-To see previous OSS updates, go here.  
 
-** Sponsors**
+
+
+
+## Michiel Borkent
+ 
+In this post, I'll give updates about open source I worked on during May 2023 (Published 30 May 2023).  To see previous OSS updates, go here.  
+
+#### Sponsors
 I'd like to thank all the sponsors and contributors that make this work possible! Open the details section for more info.
-Top sponsors:
-Clojurists Together
+Top sponsors:  
+[Clojurists Together
 Roam Research
 Nextjournal
 Toyokumo
 Cognitect
 Kepler16
-Adgoji
-If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work in the following ways. Thank you!
-Github Sponsors
-The Babaska or Clj-kondo OpenCollective
-Ko-fi
-Patreon
-Clojurists Together
-If you're used to sponsoring through some other means which isn't listed above, please get in touch.
-On to the projects that I've been working on!
+Adgoji]
 
-May 2023 Updates
+If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work in the following ways. Thank you!
+ 
+#### Github Sponsors
+- The Babaska or Clj-kondo OpenCollective
+- Ko-fi
+- Patreon
+- Clojurists Together  
+If you're used to sponsoring through some other means which isn't listed above, please get in touch.
+On to the projects that I've been working on!  
+
+### May 2023 Updates
 The following projects had updates in the last month. Note that only highlights are mentioned and not a full overview of all changes. See the project's changelogs for all changes.
 Preparations for babashka conf are in full swing and I'm preparing a talk with the title 'Growing an ecosystem'.
 This month I've had the honor to visit the JUXT 10 year anniversary in London and met a lot of fellow Clojurians over there.
