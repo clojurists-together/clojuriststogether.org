@@ -47,11 +47,9 @@ In other news:
 ---
 
 ## Michiel Borkent  
-### May 2023 Update  
 In this post I'll give updates about open source I worked on during May and June 2023. To see previous OSS updates, go [here](https://blog.michielborkent.nl/tags/oss-updates.html).  
 
-### Sponsors
-
+### Sponsors  
 I'd like to thank all the sponsors and contributors that make this work possible! Open the details section for more info.
 
 **Top sponsors:**  
@@ -65,7 +63,7 @@ I'd like to thank all the sponsors and contributors that make this work possible
 
 If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work in the following ways. Thank you!
 
-**[Github Sponsors](https://github.com/sponsors/borkdude)**
+**[Github Sponsors](https://github.com/sponsors/borkdude):**
 * The [Babaska](https://opencollective.com/babashka) or [Clj-kondo](https://opencollective.com/clj-kondo) OpenCollective
 * [Ko-fi](https://ko-fi.com/borkdude)
 * [Patreon](https://www.patreon.com/borkdude)
@@ -74,9 +72,8 @@ If you want to ensure that the projects I work on are sustainably maintained, yo
 If you're used to sponsoring through some other means which isn't listed above, please get in touch. On to the projects that I've been working on!
 
 
-### May 2023 Updates
-(Published 30 May 2023).
-The following projects had updates in May 2023. Note that only highlights are mentioned and not a full overview of all changes. See the project's changelogs for all changes.
+### May 2023 Updates  
+The following projects had updates in May 2023 (Published 30 May 2023).  Note that only highlights are mentioned and not a full overview of all changes. See the project's changelogs for all changes.
 
 * Preparations for [babashka conf](https://github.com/babashka/conf) are in full swing and I'm preparing a talk with the title 'Growing an ecosystem'.
 * This month I've had the honor to visit the JUXT 10 year anniversary in London and met a lot of fellow Clojurians over there.
@@ -160,8 +157,7 @@ These are (some of the) other projects I'm involved with but little to no activi
 
 
 ### June 2023 Updates  
-(Published 30 June 2023)
-First a few updates of what I've been up to outside of sitting behind a screen. June was packed with two trips and a vacation so there aren't as many updates as usual.  
+(Published 30 June 2023) First a few updates of what I've been up to outside of sitting behind a screen. June was packed with two trips and a vacation so there aren't as many updates as usual.  
 * [Babashka-conf](https://babashka.org/conf/) happened June 10th in Berlin. It was more than I could have hoped for: a professionally organized event with the creative, positive, welcoming spirit we're used to from other Clojure conferences. Thanks everybody for coming out, especially to the speakers, organization and Malcolm + staff for recording the videos. You can view all the talks [here](https://www.youtube.com/playlist?list=PLaN-rC-CjQqDu1AVhGdGOoEqsSAhd2W6t). To see photos, comments, etc you can look for the #babashka_conf hash-tag on social media.
 * I've had the pleasure to visit the JUXT 10th year anniversary this month in London. Check out [this wonderful talk](https://www.youtube.com/watch?v=fT28NeZtaAg) by Alexander Davis on the state of frontend, with some nice comments about squint at the end.
 * End of June and beginning of July I'm away on a [vacation](https://twitter.com/borkdude/status/1674401271372042240) to Switzerland to recover a bit from all of this fun. I hope to take it easy on the coding and just relax a bit and recharge for what is to come next.
@@ -197,7 +193,7 @@ The following projects had updates in June. Note that only highlights are mentio
     * 1579: add `clojure.tools.reader/resolve-symbol` built-in
 
 ### Other projects  
-These are (some of the) other projects I'm involved with but little to no activity happened in the past month.
+These are (some of the) other projects I'm involved with but little to no activity happened in the past month.  
 * [scittle](https://github.com/babashka/scittle): Execute Clojure(Script) directly from browser script tags via SCI
 * [nbb](https://github.com/babashka/nbb): Scripting in Clojure on Node.js using SCI
 * [http-client](https://github.com/babashka/http-client): Babashka's http-client
@@ -234,62 +230,45 @@ Discuss this post [here](https://github.com/borkdude/blog/discussions/categories
 ### shadow-cljs 
 Time was mostly spent on doing maintenance work and some bugfixes. As well as helping people out via the typical channels (eg. Clojurians Slack).
 
-**Current shadow-cljs version: 2.24.1**
-
+**Current shadow-cljs version: 2.24.1**  
 [Changelog](https://github.com/thheller/shadow-cljs/blob/master/CHANGELOG.md)
 
-**Notable Updates**
+**Notable Updates**  
+- Added full support for `package.json` `"exports"` since its use has become more widespread.<br>
 
-- Added full support for `package.json` `"exports"` since its use has become more widespread.
+---
 
+## Nikita Prokopov  
+Less releases these last two months, more research and reports.  
 
-## Nikita Prokopov
-
-(Published 30 June 2023 )
-
-Less releases these last two months, more research and reports.
-
-
-### [DataScript](https://github.com/tonsky/datascript):
-
+### [DataScript](https://github.com/tonsky/datascript):  
 - Lots of small optimizations for ClojureScript version (who would’ve thought that declare or case could be slow?), with roughly up to 7% perf improvements across the board. 
+- Prototyping faster “index sub-slicing” for cases when you e.g. need to find values of the same attribute accross many entities. Seeing up to 30% improvements for this particular case on Roam 3M datoms graph.  
 
-- Prototyping faster “index sub-slicing” for cases when you e.g. need to find values of the same attribute accross many entities. Seeing up to 30% improvements for this particular case on Roam 3M datoms graph.
+### [Humble UI](https://github.com/HumbleUI/HumbleUI):  
+- Prototyping state management solution based on signals  
 
-
-### [Humble UI](https://github.com/HumbleUI/HumbleUI):
-
-- Prototyping state management solution based on signals
-
-
-### [Clojure Sublimed](https://github.com/tonsky/clojure-sublimed):
-
-- Better indenting of reader conditionals (turned out they use parentheses, but their content is more like a map).
+### [Clojure Sublimed](https://github.com/tonsky/clojure-sublimed):  
+- Better indenting of reader conditionals (turned out they use parentheses, but their content is more like a map).  
 
 
-### Blogging:
-
+### Blogging:  
 - [Humble Chronicles: Managing State with Signals](https://tonsky.me/blog/humble-signals/). Some research about what to do with components in Humble UI.
+- [A Case for ClojureScript 2.0](https://tonsky.me/blog/clojurescript-2/). Some reflection on why ClojureScript feels so different from Clojure and where I think it should be going.  
 
-- [A Case for ClojureScript 2.0](https://tonsky.me/blog/clojurescript-2/). Some reflection on why ClojureScript feels so different from Clojure and where I think it should be going.
+---
 
+## Peter Stromberg  
 
-## Peter Stromberg
+As usual the bulk of my open source energy is poured into [Calva](https://calva.io/), a [Clojure](https://clojure.org/)/[ClojureScript](https://clojurescript.org/)/[ClojureCLR](https://github.com/clojure/clojure-clr)/[ClojureDart](https://github.com/Tensegritics/ClojureDart)/[Babashka](https://babashka.org/)/[nbb](https://github.com/babashka/nbb)/[Joyride](https://marketplace.visualstudio.com/items?itemName%253Dbetterthantomorrow.joyride)/etcetera development environment that [takes Interactive Programming seriously](https://www.youtube.com/watch?v%253DL0-yDtVUWMQ).  
 
-(Published 30 June 2023)  
-
-As usual the bulk of my open source energy is poured into [Calva](https://calva.io/), a [Clojure](https://clojure.org/)/[ClojureScript](https://clojurescript.org/)/[ClojureCLR](https://github.com/clojure/clojure-clr)/[ClojureDart](https://github.com/Tensegritics/ClojureDart)/[Babashka](https://babashka.org/)/[nbb](https://github.com/babashka/nbb)/[Joyride](https://marketplace.visualstudio.com/items?itemName%253Dbetterthantomorrow.joyride)/etcetera development environment that [takes Interactive Programming seriously](https://www.youtube.com/watch?v%253DL0-yDtVUWMQ).
-
-I also got to contribute to Clojure-related starter projects + was interviewed for Flexiana's new **Clojure Corner** series: [Clojure Corner with Peter Strömberg](https://flexiana.com/2023/06/clojure-corner-with-pez)
+I also got to contribute to Clojure-related starter projects + was interviewed for Flexiana's new **Clojure Corner** series: [Clojure Corner with Peter Strömberg](https://flexiana.com/2023/06/clojure-corner-with-pez)  
 
 ## Calva  
-
 Over at Twitter someone asked me if I was up to something exciting. Implicitly wondering if Calva was about to get some cool new big thing (I think). My answer was that it is mostly about maintenance currently. However,
+**I find Calva maintenance exciting**!  
 
-**I find Calva maintenance exciting**!
-
-Maintenance has many aspects. Is the documentation helpful? Are there bugs that create that extra friction making them priority? Is there some feature that could be made more powerful with some change? What about some new feature I feel curious about and that I can finish with one or two late night hacking sessions? The best part: **I get to talk to Calva users** and consider their feedback, questions and suggestions.
-
+Maintenance has many aspects. Is the documentation helpful? Are there bugs that create that extra friction making them priority? Is there some feature that could be made more powerful with some change? What about some new feature I feel curious about and that I can finish with one or two late night hacking sessions? The best part: **I get to talk to Calva users** and consider their feedback, questions and suggestions.  
 Here's a summary of Calva maintenance May + June 2023. I'm including some of the rationales, to give you a feel for how we reason when maintaining Calva. Wall of text:
 
 * Calva now makes an effort to try **format code with incomplete structure** (missing opening or closing brackets). This is common when formatting a selection, or formatting pasted code. It gets extra important for beginners who do not ”see” the structure as clearly as us with experience from Clojure or some other LISP(s). Not being familiar with the structure also makes you less likely to use Calva's structural editing power. Having the broken code formatted helps in highlighting the structure and what is missing from it. While at it we also got some glitches with format-on-paste feature fixed. It's a bit more complicated than you might think, as [this issue](https://github.com/BetterThanTomorrow/calva/issues/2236) might illustrate. Thanks [Alexander Kouznetsov](https://github.com/mrkam2) for the help in figuring this out!
@@ -358,54 +337,33 @@ Anyway. This period around I created one new starter project and gave some love 
 
 * [Clojurists Together](https://www.clojuriststogether.org/): This long term sponsoring is fantastic. It makes wonders for how I can fit open source contributions into my family life.
 
-* [Github Sponsors](https://github.com/sponsors/PEZ#sponsors): Same here, it's long term and it makes my family respect Clojure, Calva, Open Source and that I want to spend time with it.
+* [Github Sponsors](https://github.com/sponsors/PEZ#sponsors): Same here, it's long term and it makes my family respect Clojure, Calva, Open Source and that I want to spend time with it.<br>
+
+---
 
 
-## Tommi Reiman
-
-(Published 30 June 2023)
-
+## Tommi Reiman  
 Had a busy 2 months and did not have enough focus time to deliver the things I planned on OS. Just started my 9 week summer vacation, will be few weeks off the grid, but then will jump back into OS.
 
-## Malli  
-
+### Malli  
 * Continued with the [new effective type system](https://github.com/metosin/malli/issues/264) - WIP
+* Working with Schema inheritance (optional, solving real-world problems), WIP  
 
-* Working with Schema inheritance (optional, solving real-world problems), WIP
-
-## Reitit  
-
+## Reitit   
 * Work on with the upcoming 0.7.0 Version, with 5 new alpha releases. Thanks for all the alpha-testers!
-
 * Managed to fix [a foundational issue](https://github.com/metosin/reitit/issues/422) by [Introducing two-phase Schema compilation](https://github.com/metosin/reitit/pull/626)
-
-* Goal wast to ship the 0.7.0 out on June, but ended up not being happy with the new syntax and started to do [a big refactor](https://github.com/metosin/reitit/pull/628) on it. Almost done.
+* Goal wast to ship the 0.7.0 out on June, but ended up not being happy with the new syntax and started to do [a big refactor](https://github.com/metosin/reitit/pull/628) on it. Almost done.  
 
 # Someting else  
-
 Summer.
 
 ![summer](https://user-images.githubusercontent.com/567532/250184909-55f636ae-5e3a-4a10-b6fc-38c4749ce2fb.png)
 
+<br>
 
-## Sean Corfield
+---
 
-(Published 29 June 2023)
-
-{:title "Long-Term Funding, Update #3",
-
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: Definition &darr;&darr; outside of definition list. Missing preceding term(s)? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
- :date "2023-06-29 11:50:00",
-
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: Definition &darr;&darr; outside of definition list. Missing preceding term(s)? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
- :tags ["clojure" "clojure-doc.org" "honeysql" "clojure-clr" "jdbc" "open source" "community" "clojurists together"]}
-
+## Sean Corfield  
 In my [previous Long-Term Funding update](https://corfield.org/blog/2023/04/30/long-term-funding-2/)
 
 I said I would review/overhaul the Libraries pages (both authoring and the directory) and write the `tools.build` cookbook.
@@ -531,55 +489,40 @@ top of her other issues. She's had a blood transfusion and seems to be
 doing better but we don't know when she'll be home. It's times like these
 
 when I really do feel the five and a half thousand miles between us...
+ :tags ["clojure" "clojure-doc.org" "honeysql" "clojure-clr" "jdbc" "open source" "community" "clojurists together"]}<br>
 
+---
 
-## Peter Taoussanis
+## Peter Taoussanis  
+**May/Jun 2023 updates** for [Peter Taoussanis](https://www.taoensso.com/)  
 
-(Published 30 June 2023)
-
-**May/Jun 2023 updates** for [Peter Taoussanis](https://www.taoensso.com/)
-
-
-### Recent releases include:
-
+### Recent releases include:  
 - [Sente](https://github.com/ptaoussanis/sente): `v1.18.0` - see [release notes](https://github.com/ptaoussanis/sente/releases) for details
-
 - [Timbre](https://github.com/ptaoussanis/timbre): `v6.2.1` - see [release notes](https://github.com/ptaoussanis/timbre/releases) for details
+- [http-kit](https://github.com/http-kit/http-kit): `v2.7.0` - see [release notes](https://github.com/http-kit/http-kit/releases) for details  
 
-- [http-kit](https://github.com/http-kit/http-kit): `v2.7.0` - see [release notes](https://github.com/http-kit/http-kit/releases) for details
 
-
-### Upcoming work:
-
+### Upcoming work:  
 - [Carmine](https://github.com/ptaoussanis/carmine) `v3.3.0-RC1` will be out in the first week of July. This includes a rewrite of Carmine's message queue system, with major improvements in mq performance, observability, and documentation.
-
 - [Tempel](https://github.com/ptaoussanis/tempel) `v1.0.0-beta1` is still on track for end of August, more info on that closer the time.
-
 - Moving forward, all my libraries will include testing for GraalVM when relevant. Thanks to Michiel Borkent for Babashka, and for his assistance with testing.
+As usual, my current open-source plan is available [here](https://www.taoensso.com/clojure/2023).  
 
-As usual, my current open-source plan is available [here](https://www.taoensso.com/clojure/2023).
+A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nubank](https://nubank.com.br/), [lambdaschmiede](https://www.lambdaschmiede.com/), and [other sponsors](https://github.com/sponsors/ptaoussanis#sponsors) of my open-source work 🙏 <br>
 
-A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nubank](https://nubank.com.br/), [lambdaschmiede](https://www.lambdaschmiede.com/), and [other sponsors](https://github.com/sponsors/ptaoussanis#sponsors) of my open-source work 🙏
+---
 
 
-## Eric Dallo
-
-(Published 3 July 2023)
-
+## Eric Dallo  
 During these 2 months, I mainly focused on improving  clojure-lsp, fixing bugs and adding some features mentioned above, especially improving the java support.
-
-Also, I've been working for some months now in a new Intellij plugin called __clojure-lsp-intellij__, which I should finish the alpha and announce soon!  
+Also, I've been working for some months now in a new Intellij plugin called __clojure-lsp-intellij__, which I should finish the alpha and announce soon!   
 
 ## [clojure-lsp]([https://clojure-lsp.io/](https://clojure-lsp.io/))   
 
-Main highlights:
-
+**Main highlights:**  
 - Recently I focused on java interop improvements in both clojure-lsp and clj-kondo, so now we have more java analysis to provide features, we have now hover doc (pic1) and completion for java static members! We still have to enhance clj-kondo and lsp to be able to provide for all java usages besides static ones only, but it's a huge start!
-
 - Keywords completions are now smarter, checking other namespaces and sorting better.
-
 - We have more visual feedbacks when LSP is doing post start tasks in the editor.
-
 - clojure-lsp now understand ClojureDart projects!
 
 ![](hover-java-signature.png)
@@ -658,28 +601,18 @@ Main highlights:
 
 ## [jet.el](https://github.com/ericdallo/jet.el)
 
-[#7](https://github.com/ericdallo/jet.el/issues/7): json with ' (single quote) fails to convert to edn.
+[#7](https://github.com/ericdallo/jet.el/issues/7): json with ' (single quote) fails to convert to edn.<br>
+
+---
 
 
-# Q2 2023 Project Updates
+# Q2 2023 Project Updates  
 
+## Project Donut: Daniel Higganbotham   
 
-## Project Donut: Daniel Higganbotham  
+(Report 2 Published 25 May, 2023)  
 
-Report 2 Published 25 May, 2023
-
-# Clojurists Together Donut project update 2023-05-25
-
-Over the last couple months I've made a lot of changes across the Donut
-
-ecosystem to get the framework closer to realizing the vision of providing a
-
-foundation for building single-page apps. I've focused on creating a
-
-cookie-based auth plugin that provides both backend API endpoints and frontend
-
-components.
-
+Over the last couple months I've made a lot of changes across the Donut ecosystem to get the framework closer to realizing the vision of providing a foundation for building single-page apps. I've focused on creating a cookie-based auth plugin that provides both backend API endpoints and frontend components.  
 Per-repo changes include:
 
 ## [donut-party/endpoint]([https://github.com/donut-party/endpoint](https://github.com/donut-party/endpoint))  
@@ -808,25 +741,16 @@ Updates:
 
 
 ## Aleph/Manifold: Matthew Davidson  
+(Report 2 Published 30 June 2023_
 
-Report 2 Published 30 June 2023
-
-##Aleph updates  
-
+## Aleph updates  
 ### HTTP/2 support  
-
 - Client-side HTTP/2 is now generally available, as of 0.7.0-alpha1
-
-- H2C cleartext is now supported (use with caution)
+- H2C cleartext is now supported (use with caution)  
 
 ### Other Aleph changes  
-
 - *Massive* refactoring of Aleph internals
-
 - Much better documented
-
 - Split up pipelines for multiplex codec
-
 - Added helper Java classes for channel initialization and ALPN negotiation
-
 - Added pr support for Netty classes
