@@ -474,13 +474,15 @@ Also, I've been working for some months now in a new Intellij plugin called __cl
 ### [clojure-lsp]([https://clojure-lsp.io/](https://clojure-lsp.io/))   
 **Main highlights:**  
 - Recently I focused on java interop improvements in both clojure-lsp and clj-kondo, so now we have more java analysis to provide features, we have now hover doc (pic1) and completion for java static members! We still have to enhance clj-kondo and lsp to be able to provide for all java usages besides static ones only, but it's a huge start!
+
 - Keywords completions are now smarter, checking other namespaces and sorting better.
 - We have more visual feedbacks when LSP is doing post start tasks in the editor.
 - clojure-lsp now understand ClojureDart projects!
+![hover-java-signature](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/23e47178-ee3b-433c-981b-36ecd05983a8)
 
-![](hover-java-signature.png)
 
-### 2023.05.04-19.38.01
+
+#### 2023.05.04-19.38.01
 - General
   - Bump clj-kondo to `2023.04.15-20230503.152749-8`  
 
@@ -495,7 +497,7 @@ Also, I've been working for some months now in a new Intellij plugin called __cl
   - Avoid enabling unecessary analysis features for API/CLI lint, improving memory usage.
 
   
-### 2023.07.01-22.35.41  
+#### 2023.07.01-22.35.41  
 - General
   - Update flake.nix to build with babashka. #1373
   - Bump clj-kondo to `2023.06.02-20230630.144012-16`.
@@ -532,7 +534,7 @@ Also, I've been working for some months now in a new Intellij plugin called __cl
 
 # Q2 2023 Project Updates  
 
-## Donut: Daniel Higganbotham   
+## Donut: Daniel Higginbotham   
 
 (Report 2 Published 25 May, 2023)  
 Over the last couple months I've made a lot of changes across the Donut ecosystem to get the framework closer to realizing the vision of providing a foundation for building single-page apps. I've focused on creating a cookie-based auth plugin that provides both backend API endpoints and frontend components.  
