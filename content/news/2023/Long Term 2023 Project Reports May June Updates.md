@@ -399,6 +399,56 @@ I mentioned in the previous update that my mother was in hospital and I want to 
 
 ---
 
+## Christophe Grand  
+### ClojureDart
+The period started on the Conj heels and we were all pumped up. We're seeing a steady influx of new users. With more users we spent more time supporting them but experienced users are starting to help too, and we are getting more PRs, it's a good sign!
+
+Two of the "future work" items of previous update have landed during this period: Dart 3 support and the new reader.
+
+Last, we started publishing short videos on Youtube https://www.youtube.com/@clojuredart/shorts (Don't check your speakers they don't have audio.)
+
+#### Fixes
+Several fixes to the compiler, cljd.core or flutter.cljd.
+
+Amongst them:
+* `rseq` wasn't behaving properly on vectors whose size was a multiple of 32,
+* some code was improperly optimized away when a `throw` appeared in some nested `if`s in statement position,
+* widgets below a `:vsync` were not refresh on app state changes, only on animation updates,
+* issues with `set!` expressions used in argument position,
+* potential double evaluation when casting to a nullable type,
+* ...
+
+#### Improvements
+* Tear-offs of default constructors. Dart has this feature that a method (or even a constructor) can be "torn off": if you don't specify an argument list you get a closure over the object with the same signature as the method (same idea for constructors -- if you don't know Dart: Dart doesn't support overloading so constructors (but the default) are named, they are just static methods).
+* Documentation on generics
+* Documenting the fact that defs are initialized on demand and not eagerly.
+* We started populating a FAQ
+* We spent a lot of time improving compilation time (we found a lot of small gains until we finally found the function with a quadratic runtime), some users saw their recompilation time go from almost 2 minutes to a couple of seconds.
+* more samples (Wevbiew, FFI to C)
+* require named
+* `some` and `every?` are now based on `reduce` to avoid sequences
+* inst literals can now appear in source code
+
+#### New features
+* Dart 3. Dart 3 supports landed in two times: first a couple of days after the release of Dart 3 which made sure that ClojrueDart was compiling to proper Dart 3 (because Dart 3 has breaking changes over Dart 2.12 -- but we can still target Dart 2, we autodetect which one is used). Then in a second time we got records support -- Dart records are immutable typed tuples and are a new feature of Dart 3.
+* Finally the new reader (which can be used asynchronously if a stream is consue but synchronously when reading a string) landed. Support for tagged literals is still in the work.
+* We ported `clojure.set` (and its tests) as `cljd.set`, it was mostly a copy/paste & tweak port.
+
+#### Future work: ClojureDart
+* Add tagged literals to the reader
+* We have found a path allowing a Flutter-only REPL could be hacked in a couple of days, is it still worth the hack?
+* Look into porting Datascript and SCI to ClojureDart
+* New APIs to leverage our persistent data structures:
+** maps (hash and sorted) in ClojureDart are original implementations (not the same as CLJ/CLJS) -- hash maps could be seen as another refinement of the original, sorted maps constitute a novel implementation.
+** Sorted colls should be good enough for direct use by Datascript.
+** Both hash and sorted maps can support accelerated merge/diff/join/etc. operations.
+* Multimethods
+* `cljd` CLI written in `cljd` for easier project creation etc.
+* gen tests
+* ...<br>
+
+---
+
 ## Peter Taoussanis  
 **May/Jun 2023 updates** for [Peter Taoussanis](https://www.taoensso.com/)  
 
