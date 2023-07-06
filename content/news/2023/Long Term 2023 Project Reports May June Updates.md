@@ -12,19 +12,20 @@ There is a lot of work to catch up on! Our 10 developers working on long-term pr
 ### 2023 Long-Term Projects  
 Bozhidar Batsov  
 Michiel Borkent  
+Sean Corfield  
+Eric Dallo  
+Christophe Grand
 Thomas Heller  
 Nikita Prokopov  
-Peter Stromberg  
-Tommi Reiman  
-Sean Corfield  
-Christophe Grand (waiting for report)  
+Tommi Reiman 
+Peter Stromberg   
 Peter Taoussanis  
-Eric Dallo  
+
 <br>
 
 ### Q1 2023  
+Aleph/Manifold: Matthew Davidson 
 Project Donut: Daniel Higginbotham  
-Aleph/Manifold: Matthew Davidson  
 <br>
 
 ## Bozhidar Batsov  
@@ -225,6 +226,158 @@ Discuss this post [here](https://github.com/borkdude/blog/discussions/categories
 
 ---
 
+## Sean Corfield  
+In my [previous Long-Term Funding update](https://corfield.org/blog/2023/04/30/long-term-funding-2/) I said I would review/overhaul the Libraries pages (both authoring and the directory) and write the `tools.build` cookbook.
+
+The [library authoring guide](https://clojure-doc.org/articles/ecosystem/libraries_authoring/) has been rewritten to use the Clojure CLI, `deps-new`, and `deps-deploy` and was well-received by the community, who provided some useful feedback that I have also incorporated into the guide. The information from the library directory has been integrated into [The Clojure Toolbox](https://www.clojure-toolbox.com/) via a couple of Pull Requests that [added optional tool-tip descriptions](https://github.com/weavejester/clojure-toolbox.com/pull/470) and [libraries that were on `clojure-doc`](https://github.com/weavejester/clojure-toolbox.com/pull/472) but missing from the Toolbox. Thanks to James Reeves for accepting those PRs!
+
+What else did I get done?&lt;!--more-->
+
+### ClojureCLR, HoneySQL  
+
+There's been quite a bit of activity around [ClojureCLR](https://github.com/clojure/clojure-clr) recently, so I've been testing .NET-related things on Windows and on Ubuntu. David Miller submitted a patch to `tools.cli` to add CLR support which I released as [`tools.cli` v1.0.219](https://github.com/clojure/tools.cli/releases/tag/v1.0.219) and I updated HoneySQL to add CLR support:
+[`honeysql` v2.4.1033](https://github.com/seancorfield/honeysql/releases/tag/v2.4.1033).
+
+`tools.nrepl` has been ported to ClojureCLR and Peter Strömberg (maintainer of Calva) has created a [ClojureCLR starter project for VS Code/Calva](https://github.com/PEZ/clojure-clr-starter)
+
+which I've also been helping to test on Windows and Ubuntu. HoneySQL saw another release, mostly improving documentation and docstrings, near the end of the this period: [v2.4.1045](https://github.com/seancorfield/honeysql/releases/tag/v2.4.1045). Both releases improved the experience with `:on-conflict` clauses.
+
+## `next.jdbc`  
+[`next.jdbc` v1.3.883](https://github.com/seancorfield/next-jdbc/releases/tag/v1.3.883) was also released in this period, also mostly improving documentation and docstrings, and adding an `active-tx?` predicate to expose whether `next.jdbc` thinks you are currently in a `with-transaction` context.
+
+## `clojure-doc.org`  
+All of the content from the library directory has been incorporated into The Clojure Toolbox at this point. Every library that was previously listed on `clojure-doc.org` is now listed on the Toolbox and all of the one-line descriptions have been added to the Toolbox as well (which now show up as tooltips when you hover over the library name/link). The Toolbox still has a lot of libraries listed without descriptions so, hopefully, that's something the community can add over time (or help James with automating, using project descriptions from GitHub, perhaps?).
+
+The library authoring guide has been substantially rewritten to use the Clojure CLI, `deps.edn`, and `build.clj`. The old Leiningen-based library authoring guide has been lightly updated and is still available, linked from the new guide.
+
+In addition to the library work mentioned above, I've been working on the [`tools.build` cookbook](https://clojure-doc.org/articles/cookbooks/cli_build_projects/). I shared an early draft to get community feedback and then shared the completed version this week. The whole thing is over 3,000 words now, with a lot of code examples. I've tried to distill everything I've learned about `tools.build` into a single document that covers various scenarios that go beyond what is in the [official `tools.build` guide](https://clojure.org/guides/tools_build).
+
+Some additional community feedback has already been incorporated and more will be incorporated over the next few weeks, I expect.
+
+### What's Next?  
+In July/August, I'm hoping to complete a review and update of both the "ecosystem" and "tutorials" section of clojure-doc.org, and then in the two remaining periods, I'll tackle the "cookbooks" and "language" sections.
+
+### On a personal note…  
+I mentioned in the previous update that my mother was in hospital and I want to thank everyone who reached out to me with kind words and support. She came home and was doing well for a while but then she had another fall and she's back in hospital as I write this, this time with severe anemia on top of her other issues. She's had a blood transfusion and seems to be doing better but we don't know when she'll be home. It's times like these when I really do feel the five and a half thousand miles between us...<br>
+
+ tags ["clojure" "clojure-doc.org" "honeysql" "clojure-clr" "jdbc" "open source" "community" "clojurists together"]}<br>
+
+--- 
+
+## Eric Dallo  
+During these 2 months, I mainly focused on improving clojure-lsp, fixing bugs and adding some features mentioned above, especially improving the java support.
+Also, I've been working for some months now in a new Intellij plugin called __clojure-lsp-intellij__, which I should finish the alpha and announce soon!   
+
+### [clojure-lsp]([https://clojure-lsp.io/](https://clojure-lsp.io/))   
+**Main highlights:**  
+- Recently I focused on java interop improvements in both clojure-lsp and clj-kondo, so now we have more java analysis to provide features, we have now hover doc (pic1) and completion for java static members! We still have to enhance clj-kondo and lsp to be able to provide for all java usages besides static ones only, but it's a huge start!
+
+- Keywords completions are now smarter, checking other namespaces and sorting better.
+- We have more visual feedbacks when LSP is doing post start tasks in the editor.
+- clojure-lsp now understand ClojureDart projects!
+![hover-java-signature](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/23e47178-ee3b-433c-981b-36ecd05983a8)
+
+
+
+#### 2023.05.04-19.38.01
+- General
+  - Bump clj-kondo to `2023.04.15-20230503.152749-8`  
+
+- Editor  
+  - Fix edn tree to consider symbols. #1556
+
+  - Fix edn tree to consider vector root nodes. #1557
+
+  - Fix edn tree to handle invalid edn code and not throw exceptions while typing code.  
+
+- API/CLI  
+  - Avoid enabling unecessary analysis features for API/CLI lint, improving memory usage.
+
+  
+#### 2023.07.01-22.35.41  
+- General
+  - Update flake.nix to build with babashka. #1373
+  - Bump clj-kondo to `2023.06.02-20230630.144012-16`.
+  - Improve support for ClojureDart `.cljd` files. #1589
+  - Slightly reduce OutOfMemory exceptions that may happen with the JVM version.
+  - Support ignore unused-public-vars via `:linters :clojure-lsp/unused-public-var :exclude-when-contains-meta` clj-kondo setting.
+  - Fix restructure-keys when map has an `:or`. #1583
+  - Bump lsp4clj to `1.8.0`.
+  - Add post startup tasks progress feedbacks, like "Generating stubs", "Analyzing JDK source" and "Fetching Clojars".
+  - Bump cljfmt to `0.10.6`. #1605  
+
+- Editor
+  - New code actions: `Replace ':refer :all' with ':refer [my-refer]'` and `Replace ':refer :all' with alias`. #1575
+  - Enhance java support for hover and completion of static class members.
+  - Improve `:paths-ignore-regex` to ignore features avoiding impact in huge files that are intented to be excluded.
+  - Fixed semantic-tokens for full qualified namespace
+  - Add `score` to completion items for a better completion client sorting. #1595
+  - Revamp keyword completion. #1599
+  - Avoid LSP errors when cleaning a file without namespaces. #1603  
+
+- API/CLI
+  - New feature: Find all references via API and CLI. #1572
+
+### [clj-kondo](https://github.com/clj-kondo/clj-kondo/)
+
+[#2106](https://github.com/clj-kondo/clj-kondo/pull/2106): Support `.cljd` files as source files.  
+
+### [jet.el](https://github.com/ericdallo/jet.el)
+
+[#7](https://github.com/ericdallo/jet.el/issues/7): json with ' (single quote) fails to convert to edn.<br>
+
+---
+
+## Christophe Grand  
+### ClojureDart
+The period started on the Conj heels and we were all pumped up. We're seeing a steady influx of new users. With more users we spent more time supporting them but experienced users are starting to help too, and we are getting more PRs, it's a good sign!
+
+Two of the "future work" items of previous update have landed during this period: Dart 3 support and the new reader.
+
+Last, we started publishing short videos on Youtube https://www.youtube.com/@clojuredart/shorts (Don't check your speakers they don't have audio.)
+
+#### Fixes
+Several fixes to the compiler, cljd.core or flutter.cljd.
+
+Amongst them:
+* `rseq` wasn't behaving properly on vectors whose size was a multiple of 32,
+* some code was improperly optimized away when a `throw` appeared in some nested `if`s in statement position,
+* widgets below a `:vsync` were not refresh on app state changes, only on animation updates,
+* issues with `set!` expressions used in argument position,
+* potential double evaluation when casting to a nullable type,
+* ...
+
+#### Improvements
+* Tear-offs of default constructors. Dart has this feature that a method (or even a constructor) can be "torn off": if you don't specify an argument list you get a closure over the object with the same signature as the method (same idea for constructors -- if you don't know Dart: Dart doesn't support overloading so constructors (but the default) are named, they are just static methods).
+* Documentation on generics
+* Documenting the fact that defs are initialized on demand and not eagerly.
+* We started populating a FAQ
+* We spent a lot of time improving compilation time (we found a lot of small gains until we finally found the function with a quadratic runtime), some users saw their recompilation time go from almost 2 minutes to a couple of seconds.
+* more samples (Wevbiew, FFI to C)
+* require named
+* `some` and `every?` are now based on `reduce` to avoid sequences
+* inst literals can now appear in source code,br>
+
+#### New features
+* Dart 3. Dart 3 supports landed in two times: first a couple of days after the release of Dart 3 which made sure that ClojrueDart was compiling to proper Dart 3 (because Dart 3 has breaking changes over Dart 2.12 -- but we can still target Dart 2, we autodetect which one is used). Then in a second time we got records support -- Dart records are immutable typed tuples and are a new feature of Dart 3.
+* Finally the new reader (which can be used asynchronously if a stream is consue but synchronously when reading a string) landed. Support for tagged literals is still in the work.
+* We ported `clojure.set` (and its tests) as `cljd.set`, it was mostly a copy/paste & tweak port.
+
+#### Future work: ClojureDart
+* Add tagged literals to the reader
+* We have found a path allowing a Flutter-only REPL could be hacked in a couple of days, is it still worth the hack?
+* Look into porting Datascript and SCI to ClojureDart
+* New APIs to leverage our persistent data structures:
+** maps (hash and sorted) in ClojureDart are original implementations (not the same as CLJ/CLJS) -- hash maps could be seen as another refinement of the original, sorted maps constitute a novel implementation.
+** Sorted colls should be good enough for direct use by Datascript.
+** Both hash and sorted maps can support accelerated merge/diff/join/etc. operations.
+* Multimethods
+* `cljd` CLI written in `cljd` for easier project creation etc.
+* gen tests
+* ...<br>
+
+---
+
 ## Thomas Heller  
 
 ### shadow-cljs 
@@ -253,9 +406,28 @@ Less releases these last two months, more research and reports.
 
 ### Blogging:  
 - [Humble Chronicles: Managing State with Signals](https://tonsky.me/blog/humble-signals/). Some research about what to do with components in Humble UI.
-- [A Case for ClojureScript 2.0](https://tonsky.me/blog/clojurescript-2/). Some reflection on why ClojureScript feels so different from Clojure and where I think it should be going.  
+- [A Case for ClojureScript 2.0](https://tonsky.me/blog/clojurescript-2/). Some reflection on why ClojureScript feels so different from Clojure and where I think it should be going.<br>
 
 ---
+
+## Tommi Reiman  
+Had a busy 2 months and did not have enough focus time to deliver the things I planned on OS. Just started my 9 week summer vacation, will be few weeks off the grid, but then will jump back into OS.
+
+### Malli  
+* Continued with the [new effective type system](https://github.com/metosin/malli/issues/264) - WIP
+* Working with Schema inheritance (optional, solving real-world problems), WIP  
+
+## Reitit   
+* Work on with the upcoming 0.7.0 Version, with 5 new alpha releases. Thanks for all the alpha-testers!
+* Managed to fix [a foundational issue](https://github.com/metosin/reitit/issues/422) by [Introducing two-phase Schema compilation](https://github.com/metosin/reitit/pull/626)
+* Goal wast to ship the 0.7.0 out on June, but ended up not being happy with the new syntax and started to do [a big refactor](https://github.com/metosin/reitit/pull/628) on it. Almost done.  
+
+# Something else  
+Summer.
+
+![summer](https://user-images.githubusercontent.com/567532/250184909-55f636ae-5e3a-4a10-b6fc-38c4749ce2fb.png)
+
+<br>
 
 ## Peter Stromberg  
 
@@ -340,115 +512,6 @@ Anyway. This period around I created one new starter project and gave some love 
 
 ---
 
-
-## Tommi Reiman  
-Had a busy 2 months and did not have enough focus time to deliver the things I planned on OS. Just started my 9 week summer vacation, will be few weeks off the grid, but then will jump back into OS.
-
-### Malli  
-* Continued with the [new effective type system](https://github.com/metosin/malli/issues/264) - WIP
-* Working with Schema inheritance (optional, solving real-world problems), WIP  
-
-## Reitit   
-* Work on with the upcoming 0.7.0 Version, with 5 new alpha releases. Thanks for all the alpha-testers!
-* Managed to fix [a foundational issue](https://github.com/metosin/reitit/issues/422) by [Introducing two-phase Schema compilation](https://github.com/metosin/reitit/pull/626)
-* Goal wast to ship the 0.7.0 out on June, but ended up not being happy with the new syntax and started to do [a big refactor](https://github.com/metosin/reitit/pull/628) on it. Almost done.  
-
-# Something else  
-Summer.
-
-![summer](https://user-images.githubusercontent.com/567532/250184909-55f636ae-5e3a-4a10-b6fc-38c4749ce2fb.png)
-
-<br>
-
----
-
-## Sean Corfield  
-In my [previous Long-Term Funding update](https://corfield.org/blog/2023/04/30/long-term-funding-2/) I said I would review/overhaul the Libraries pages (both authoring and the directory) and write the `tools.build` cookbook.
-
-The [library authoring guide](https://clojure-doc.org/articles/ecosystem/libraries_authoring/) has been rewritten to use the Clojure CLI, `deps-new`, and `deps-deploy` and was well-received by the community, who provided some useful feedback that I have also incorporated into the guide. The information from the library directory has been integrated into [The Clojure Toolbox](https://www.clojure-toolbox.com/) via a couple of Pull Requests that [added optional tool-tip descriptions](https://github.com/weavejester/clojure-toolbox.com/pull/470) and [libraries that were on `clojure-doc`](https://github.com/weavejester/clojure-toolbox.com/pull/472) but missing from the Toolbox. Thanks to James Reeves for accepting those PRs!
-
-What else did I get done?&lt;!--more-->
-
-### ClojureCLR, HoneySQL  
-
-There's been quite a bit of activity around [ClojureCLR](https://github.com/clojure/clojure-clr) recently, so I've been testing .NET-related things on Windows and on Ubuntu. David Miller submitted a patch to `tools.cli` to add CLR support which I released as [`tools.cli` v1.0.219](https://github.com/clojure/tools.cli/releases/tag/v1.0.219) and I updated HoneySQL to add CLR support:
-[`honeysql` v2.4.1033](https://github.com/seancorfield/honeysql/releases/tag/v2.4.1033).
-
-`tools.nrepl` has been ported to ClojureCLR and Peter Strömberg (maintainer of Calva) has created a [ClojureCLR starter project for VS Code/Calva](https://github.com/PEZ/clojure-clr-starter)
-
-which I've also been helping to test on Windows and Ubuntu. HoneySQL saw another release, mostly improving documentation and docstrings, near the end of the this period: [v2.4.1045](https://github.com/seancorfield/honeysql/releases/tag/v2.4.1045). Both releases improved the experience with `:on-conflict` clauses.
-
-## `next.jdbc`  
-[`next.jdbc` v1.3.883](https://github.com/seancorfield/next-jdbc/releases/tag/v1.3.883) was also released in this period, also mostly improving documentation and docstrings, and adding an `active-tx?` predicate to expose whether `next.jdbc` thinks you are currently in a `with-transaction` context.
-
-## `clojure-doc.org`  
-All of the content from the library directory has been incorporated into The Clojure Toolbox at this point. Every library that was previously listed on `clojure-doc.org` is now listed on the Toolbox and all of the one-line descriptions have been added to the Toolbox as well (which now show up as tooltips when you hover over the library name/link). The Toolbox still has a lot of libraries listed without descriptions so, hopefully, that's something the community can add over time (or help James with automating, using project descriptions from GitHub, perhaps?).
-
-The library authoring guide has been substantially rewritten to use the Clojure CLI, `deps.edn`, and `build.clj`. The old Leiningen-based library authoring guide has been lightly updated and is still available, linked from the new guide.
-
-In addition to the library work mentioned above, I've been working on the [`tools.build` cookbook](https://clojure-doc.org/articles/cookbooks/cli_build_projects/). I shared an early draft to get community feedback and then shared the completed version this week. The whole thing is over 3,000 words now, with a lot of code examples. I've tried to distill everything I've learned about `tools.build` into a single document that covers various scenarios that go beyond what is in the [official `tools.build` guide](https://clojure.org/guides/tools_build).
-
-Some additional community feedback has already been incorporated and more will be incorporated over the next few weeks, I expect.
-
-### What's Next?  
-In July/August, I'm hoping to complete a review and update of both the "ecosystem" and "tutorials" section of clojure-doc.org, and then in the two remaining periods, I'll tackle the "cookbooks" and "language" sections.
-
-### On a personal note…  
-I mentioned in the previous update that my mother was in hospital and I want to thank everyone who reached out to me with kind words and support. She came home and was doing well for a while but then she had another fall and she's back in hospital as I write this, this time with severe anemia on top of her other issues. She's had a blood transfusion and seems to be doing better but we don't know when she'll be home. It's times like these when I really do feel the five and a half thousand miles between us...
- :tags ["clojure" "clojure-doc.org" "honeysql" "clojure-clr" "jdbc" "open source" "community" "clojurists together"]}<br>
-
----
-
-## Christophe Grand  
-### ClojureDart
-The period started on the Conj heels and we were all pumped up. We're seeing a steady influx of new users. With more users we spent more time supporting them but experienced users are starting to help too, and we are getting more PRs, it's a good sign!
-
-Two of the "future work" items of previous update have landed during this period: Dart 3 support and the new reader.
-
-Last, we started publishing short videos on Youtube https://www.youtube.com/@clojuredart/shorts (Don't check your speakers they don't have audio.)
-
-#### Fixes
-Several fixes to the compiler, cljd.core or flutter.cljd.
-
-Amongst them:
-* `rseq` wasn't behaving properly on vectors whose size was a multiple of 32,
-* some code was improperly optimized away when a `throw` appeared in some nested `if`s in statement position,
-* widgets below a `:vsync` were not refresh on app state changes, only on animation updates,
-* issues with `set!` expressions used in argument position,
-* potential double evaluation when casting to a nullable type,
-* ...
-
-#### Improvements
-* Tear-offs of default constructors. Dart has this feature that a method (or even a constructor) can be "torn off": if you don't specify an argument list you get a closure over the object with the same signature as the method (same idea for constructors -- if you don't know Dart: Dart doesn't support overloading so constructors (but the default) are named, they are just static methods).
-* Documentation on generics
-* Documenting the fact that defs are initialized on demand and not eagerly.
-* We started populating a FAQ
-* We spent a lot of time improving compilation time (we found a lot of small gains until we finally found the function with a quadratic runtime), some users saw their recompilation time go from almost 2 minutes to a couple of seconds.
-* more samples (Wevbiew, FFI to C)
-* require named
-* `some` and `every?` are now based on `reduce` to avoid sequences
-* inst literals can now appear in source code
-
-#### New features
-* Dart 3. Dart 3 supports landed in two times: first a couple of days after the release of Dart 3 which made sure that ClojrueDart was compiling to proper Dart 3 (because Dart 3 has breaking changes over Dart 2.12 -- but we can still target Dart 2, we autodetect which one is used). Then in a second time we got records support -- Dart records are immutable typed tuples and are a new feature of Dart 3.
-* Finally the new reader (which can be used asynchronously if a stream is consue but synchronously when reading a string) landed. Support for tagged literals is still in the work.
-* We ported `clojure.set` (and its tests) as `cljd.set`, it was mostly a copy/paste & tweak port.
-
-#### Future work: ClojureDart
-* Add tagged literals to the reader
-* We have found a path allowing a Flutter-only REPL could be hacked in a couple of days, is it still worth the hack?
-* Look into porting Datascript and SCI to ClojureDart
-* New APIs to leverage our persistent data structures:
-** maps (hash and sorted) in ClojureDart are original implementations (not the same as CLJ/CLJS) -- hash maps could be seen as another refinement of the original, sorted maps constitute a novel implementation.
-** Sorted colls should be good enough for direct use by Datascript.
-** Both hash and sorted maps can support accelerated merge/diff/join/etc. operations.
-* Multimethods
-* `cljd` CLI written in `cljd` for easier project creation etc.
-* gen tests
-* ...<br>
-
----
-
 ## Peter Taoussanis  
 **May/Jun 2023 updates** for [Peter Taoussanis](https://www.taoensso.com/)  
 
@@ -467,72 +530,23 @@ A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nub
 
 ---
 
-## Eric Dallo  
-During these 2 months, I mainly focused on improving clojure-lsp, fixing bugs and adding some features mentioned above, especially improving the java support.
-Also, I've been working for some months now in a new Intellij plugin called __clojure-lsp-intellij__, which I should finish the alpha and announce soon!   
+# Q2 2023 Project Updates  
 
-### [clojure-lsp]([https://clojure-lsp.io/](https://clojure-lsp.io/))   
-**Main highlights:**  
-- Recently I focused on java interop improvements in both clojure-lsp and clj-kondo, so now we have more java analysis to provide features, we have now hover doc (pic1) and completion for java static members! We still have to enhance clj-kondo and lsp to be able to provide for all java usages besides static ones only, but it's a huge start!
+## Aleph/Manifold: Matthew Davidson  
+(Report 2 Published 30 June 2023)  
 
-- Keywords completions are now smarter, checking other namespaces and sorting better.
-- We have more visual feedbacks when LSP is doing post start tasks in the editor.
-- clojure-lsp now understand ClojureDart projects!
-![hover-java-signature](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/23e47178-ee3b-433c-981b-36ecd05983a8)
+### HTTP/2 support  
+- Client-side HTTP/2 is now generally available, as of 0.7.0-alpha1
+- H2C cleartext is now supported (use with caution)  
 
-
-
-#### 2023.05.04-19.38.01
-- General
-  - Bump clj-kondo to `2023.04.15-20230503.152749-8`  
-
-- Editor  
-  - Fix edn tree to consider symbols. #1556
-
-  - Fix edn tree to consider vector root nodes. #1557
-
-  - Fix edn tree to handle invalid edn code and not throw exceptions while typing code.  
-
-- API/CLI  
-  - Avoid enabling unecessary analysis features for API/CLI lint, improving memory usage.
-
-  
-#### 2023.07.01-22.35.41  
-- General
-  - Update flake.nix to build with babashka. #1373
-  - Bump clj-kondo to `2023.06.02-20230630.144012-16`.
-  - Improve support for ClojureDart `.cljd` files. #1589
-  - Slightly reduce OutOfMemory exceptions that may happen with the JVM version.
-  - Support ignore unused-public-vars via `:linters :clojure-lsp/unused-public-var :exclude-when-contains-meta` clj-kondo setting.
-  - Fix restructure-keys when map has an `:or`. #1583
-  - Bump lsp4clj to `1.8.0`.
-  - Add post startup tasks progress feedbacks, like "Generating stubs", "Analyzing JDK source" and "Fetching Clojars".
-  - Bump cljfmt to `0.10.6`. #1605  
-
-- Editor
-  - New code actions: `Replace ':refer :all' with ':refer [my-refer]'` and `Replace ':refer :all' with alias`. #1575
-  - Enhance java support for hover and completion of static class members.
-  - Improve `:paths-ignore-regex` to ignore features avoiding impact in huge files that are intented to be excluded.
-  - Fixed semantic-tokens for full qualified namespace
-  - Add `score` to completion items for a better completion client sorting. #1595
-  - Revamp keyword completion. #1599
-  - Avoid LSP errors when cleaning a file without namespaces. #1603  
-
-- API/CLI
-  - New feature: Find all references via API and CLI. #1572
-
-### [clj-kondo](https://github.com/clj-kondo/clj-kondo/)
-
-[#2106](https://github.com/clj-kondo/clj-kondo/pull/2106): Support `.cljd` files as source files.  
-
-### [jet.el](https://github.com/ericdallo/jet.el)
-
-[#7](https://github.com/ericdallo/jet.el/issues/7): json with ' (single quote) fails to convert to edn.<br>
+### Other Aleph changes  
+- *Massive* refactoring of Aleph internals
+- Much better documented
+- Split up pipelines for multiplex codec
+- Added helper Java classes for channel initialization and ALPN negotiation
+- Added pr support for Netty classes<br>
 
 ---
-
-
-# Q2 2023 Project Updates  
 
 ## Donut: Daniel Higginbotham   
 
@@ -597,19 +611,4 @@ Updates:
 * **Added component caching**  
   Sometimes you don't want to constantly stop and restart components. For example, you probably don't want to stop and start a threadpool for every test. This addition lets you cache a component, preserving a component instance across stops and starts. Clearing the cache will make the component respond to the next stop signal.<br>
 
----
 
-  
-## Aleph/Manifold: Matthew Davidson  
-(Report 2 Published 30 June 2023)  
-
-### HTTP/2 support  
-- Client-side HTTP/2 is now generally available, as of 0.7.0-alpha1
-- H2C cleartext is now supported (use with caution)  
-
-### Other Aleph changes  
-- *Massive* refactoring of Aleph internals
-- Much better documented
-- Split up pipelines for multiplex codec
-- Added helper Java classes for channel initialization and ALPN negotiation
-- Added pr support for Netty classes
