@@ -1,7 +1,7 @@
 ---
 title: "2023 Long Term Projects: May and June Updates"
-date: 2023-07-05T08:30:00+08:00
-summary: Hear from the 10 developers working on long term projects and a few shorter term project updates
+date: 2023-07-06T08:30:00+08:00
+summary: Hear from the 10 developers working on long term projects and a few Q1 2023 project updates
 author: Kathy Davis
 draft: true
 ---  
@@ -24,14 +24,14 @@ Peter Taoussanis
 <br>
 
 ### Q1 2023  
-Aleph/Manifold: Matthew Davidson 
-Project Donut: Daniel Higginbotham  
+Aleph/Manifold: Matthew Davidson  
+Donut: Daniel Higginbotham  
 <br>
 
 ## Bozhidar Batsov  
 
 ### CIDER  
-For the past few months the primary focus of my Clojure-related work was CIDER. We've made some important steps towards the next release:
+For the past few months the primary focus of my Clojure-related work was CIDER. We've made some important steps toward the next release:
 
 - We're working on a "debug on error" functionality (see https://github.com/clojure-emacs/cider/pull/3337). This also resulted in some internal improvements to the existing debugger codebase. 
 - We're working on a new way to interact with application logs from CIDER, which we currently call "cider-log-mode" (see https://github.com/clojure-emacs/cider/pull/3352)
@@ -43,7 +43,7 @@ As usual the next release will also feature a few smaller improvements and bugfi
 In other news:
 - There's a small new bugfix release of clojure-mode (see https://github.com/clojure-emacs/clojure-mode/blob/master/CHANGELOG.md#5161-2023-06-26)
 - There are also new releases of orchard and cider-nrepl
-- We're working on some improvements for refactor-nrepl and enrich-classpath  
+- We're working on some improvements for refactor-nrepl and enrich-classpath<br>  
 
 ---
 
@@ -51,7 +51,7 @@ In other news:
 In this post I'll give updates about open source I worked on during May and June 2023. To see previous OSS updates, go [here](https://blog.michielborkent.nl/tags/oss-updates.html).  
 
 ### Sponsors  
-I'd like to thank all the sponsors and contributors that make this work possible! Open the details section for more info.
+I'd like to thank all the sponsors and contributors that make this work possible!  
 
 **Top sponsors:**  
 * [Clojurists Together](https://clojuriststogether.org/)
@@ -70,12 +70,10 @@ If you want to ensure that the projects I work on are sustainably maintained, yo
 * [Patreon](https://www.patreon.com/borkdude)
 * [Clojurists Together](https://www.clojuriststogether.org/)
 
-If you're used to sponsoring through some other means which isn't listed above, please get in touch. On to the projects that I've been working on!
-
+If you're used to sponsoring through some other means which isn't listed above, please get in touch. On to the projects that I've been working on!  
 
 ### May 2023 Updates  
-The following projects had updates in May 2023.  Note that only highlights are mentioned and not a full overview of all changes. See the project's changelogs for all changes.
-
+The following projects had updates in May 2023.  Note that only highlights are mentioned and not a full overview of all changes. See the project's changelogs for all changes.  
 * Preparations for [babashka conf](https://github.com/babashka/conf) are in full swing and I'm preparing a talk with the title 'Growing an ecosystem'.
 * This month I've had the honor to visit the JUXT 10 year anniversary in London and met a lot of fellow Clojurians over there.
 * Babashka and SCI will be featured at the last iteration of [Strange Loop](https://www.thestrangeloop.com/)!
@@ -238,9 +236,9 @@ What else did I get done?&lt;!--more-->
 There's been quite a bit of activity around [ClojureCLR](https://github.com/clojure/clojure-clr) recently, so I've been testing .NET-related things on Windows and on Ubuntu. David Miller submitted a patch to `tools.cli` to add CLR support which I released as [`tools.cli` v1.0.219](https://github.com/clojure/tools.cli/releases/tag/v1.0.219) and I updated HoneySQL to add CLR support:
 [`honeysql` v2.4.1033](https://github.com/seancorfield/honeysql/releases/tag/v2.4.1033).
 
-`tools.nrepl` has been ported to ClojureCLR and Peter Strömberg (maintainer of Calva) has created a [ClojureCLR starter project for VS Code/Calva](https://github.com/PEZ/clojure-clr-starter)
+`tools.nrepl` has been ported to ClojureCLR and Peter Strömberg (maintainer of Calva) has created a [ClojureCLR starter project for VS Code/Calva](https://github.com/PEZ/clojure-clr-starter) which I've also been helping to test on Windows and Ubuntu. 
 
-which I've also been helping to test on Windows and Ubuntu. HoneySQL saw another release, mostly improving documentation and docstrings, near the end of the this period: [v2.4.1045](https://github.com/seancorfield/honeysql/releases/tag/v2.4.1045). Both releases improved the experience with `:on-conflict` clauses.
+HoneySQL saw another release, mostly improving documentation and docstrings, near the end of the this period: [v2.4.1045](https://github.com/seancorfield/honeysql/releases/tag/v2.4.1045). Both releases improved the experience with `:on-conflict` clauses.
 
 ## `next.jdbc`  
 [`next.jdbc` v1.3.883](https://github.com/seancorfield/next-jdbc/releases/tag/v1.3.883) was also released in this period, also mostly improving documentation and docstrings, and adding an `active-tx?` predicate to expose whether `next.jdbc` thinks you are currently in a `with-transaction` context.
@@ -260,7 +258,7 @@ In July/August, I'm hoping to complete a review and update of both the "ecosyste
 ### On a personal note…  
 I mentioned in the previous update that my mother was in hospital and I want to thank everyone who reached out to me with kind words and support. She came home and was doing well for a while but then she had another fall and she's back in hospital as I write this, this time with severe anemia on top of her other issues. She's had a blood transfusion and seems to be doing better but we don't know when she'll be home. It's times like these when I really do feel the five and a half thousand miles between us...<br>
 
- tags ["clojure" "clojure-doc.org" "honeysql" "clojure-clr" "jdbc" "open source" "community" "clojurists together"]}<br>
+ {:tags ["clojure" "clojure-doc.org" "honeysql" "clojure-clr" "jdbc" "open source" "community" "clojurists together"]}<br>
 
 --- 
 
@@ -270,32 +268,27 @@ Also, I've been working for some months now in a new Intellij plugin called __cl
 
 ### [clojure-lsp]([https://clojure-lsp.io/](https://clojure-lsp.io/))   
 **Main highlights:**  
-- Recently I focused on java interop improvements in both clojure-lsp and clj-kondo, so now we have more java analysis to provide features, we have now hover doc (pic1) and completion for java static members! We still have to enhance clj-kondo and lsp to be able to provide for all java usages besides static ones only, but it's a huge start!
-
+- Recently I focused on java interop improvements in both clojure-lsp and clj-kondo, so now we have more java analysis to provide features, we have now hover doc (pic1) and completion for java static members! We still have to enhance clj-kondo and lsp to be able to provide for all java usages besides static ones only, but it's a huge start!  
 - Keywords completions are now smarter, checking other namespaces and sorting better.
 - We have more visual feedbacks when LSP is doing post start tasks in the editor.
-- clojure-lsp now understand ClojureDart projects!
+- clojure-lsp now understands ClojureDart projects!  
 ![hover-java-signature](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/23e47178-ee3b-433c-981b-36ecd05983a8)
 
-
-
 #### 2023.05.04-19.38.01
-- General
+**General**
   - Bump clj-kondo to `2023.04.15-20230503.152749-8`  
 
-- Editor  
+**Editor** 
   - Fix edn tree to consider symbols. #1556
-
   - Fix edn tree to consider vector root nodes. #1557
-
   - Fix edn tree to handle invalid edn code and not throw exceptions while typing code.  
 
-- API/CLI  
+**API/CLI** 
   - Avoid enabling unecessary analysis features for API/CLI lint, improving memory usage.
 
   
 #### 2023.07.01-22.35.41  
-- General
+**General**
   - Update flake.nix to build with babashka. #1373
   - Bump clj-kondo to `2023.06.02-20230630.144012-16`.
   - Improve support for ClojureDart `.cljd` files. #1589
@@ -306,7 +299,7 @@ Also, I've been working for some months now in a new Intellij plugin called __cl
   - Add post startup tasks progress feedbacks, like "Generating stubs", "Analyzing JDK source" and "Fetching Clojars".
   - Bump cljfmt to `0.10.6`. #1605  
 
-- Editor
+**Editor**
   - New code actions: `Replace ':refer :all' with ':refer [my-refer]'` and `Replace ':refer :all' with alias`. #1575
   - Enhance java support for hover and completion of static class members.
   - Improve `:paths-ignore-regex` to ignore features avoiding impact in huge files that are intented to be excluded.
@@ -315,7 +308,7 @@ Also, I've been working for some months now in a new Intellij plugin called __cl
   - Revamp keyword completion. #1599
   - Avoid LSP errors when cleaning a file without namespaces. #1603  
 
-- API/CLI
+**API/CLI**
   - New feature: Find all references via API and CLI. #1572
 
 ### [clj-kondo](https://github.com/clj-kondo/clj-kondo/)
@@ -367,16 +360,17 @@ Amongst them:
 * Add tagged literals to the reader
 * We have found a path allowing a Flutter-only REPL could be hacked in a couple of days, is it still worth the hack?
 * Look into porting Datascript and SCI to ClojureDart
-* New APIs to leverage our persistent data structures:
-** maps (hash and sorted) in ClojureDart are original implementations (not the same as CLJ/CLJS) -- hash maps could be seen as another refinement of the original, sorted maps constitute a novel implementation.
-** Sorted colls should be good enough for direct use by Datascript.
-** Both hash and sorted maps can support accelerated merge/diff/join/etc. operations.
+* New APIs to leverage our persistent data structures:  
+  - maps (hash and sorted) in ClojureDart are original implementations (not the same as CLJ/CLJS) -- hash maps could be seen as another refinement of the original, sorted maps constitute a novel implementation.
+  - Sorted colls should be good enough for direct use by Datascript.  
+  - Both hash and sorted maps can support accelerated merge/diff/join/etc. operations.  
 * Multimethods
 * `cljd` CLI written in `cljd` for easier project creation etc.
 * gen tests
 * ...<br>
 
 ---
+
 
 ## Thomas Heller  
 
@@ -418,9 +412,9 @@ Had a busy 2 months and did not have enough focus time to deliver the things I p
 * Working with Schema inheritance (optional, solving real-world problems), WIP  
 
 ## Reitit   
-* Work on with the upcoming 0.7.0 Version, with 5 new alpha releases. Thanks for all the alpha-testers!
+* Work on the upcoming 0.7.0 Version, with 5 new alpha releases. Thanks for all the alpha-testers!
 * Managed to fix [a foundational issue](https://github.com/metosin/reitit/issues/422) by [Introducing two-phase Schema compilation](https://github.com/metosin/reitit/pull/626)
-* Goal wast to ship the 0.7.0 out on June, but ended up not being happy with the new syntax and started to do [a big refactor](https://github.com/metosin/reitit/pull/628) on it. Almost done.  
+* Goal was to ship the 0.7.0 out in June, but ended up not being happy with the new syntax and started to do [a big refactor](https://github.com/metosin/reitit/pull/628) on it. Almost done.  
 
 # Something else  
 Summer.
@@ -435,11 +429,12 @@ As usual the bulk of my open source energy is poured into [Calva](https://calva.
 
 I also got to contribute to Clojure-related starter projects and was interviewed for Flexiana's new **Clojure Corner** series: [Clojure Corner with Peter Strömberg](https://flexiana.com/2023/06/clojure-corner-with-pez)  
 
-## Calva  
+### Calva  
 Over at Twitter someone asked me if I was up to something exciting. Implicitly wondering if Calva was about to get some cool new big thing (I think). My answer was that it is mostly about maintenance currently. However,
 **I find Calva maintenance exciting**!  
 
-Maintenance has many aspects. Is the documentation helpful? Are there bugs that create that extra friction making them priority? Is there some feature that could be made more powerful with some change? What about some new feature I feel curious about and that I can finish with one or two late night hacking sessions? The best part: **I get to talk to Calva users** and consider their feedback, questions and suggestions.  
+Maintenance has many aspects. Is the documentation helpful? Are there bugs that create that extra friction making them a priority? Is there some feature that could be made more powerful with some change? What about some new features I feel curious about and that I can finish with one or two late-night hacking sessions? The best part: **I get to talk to Calva users** and consider their feedback, questions and suggestions.  
+
 Here's a summary of Calva maintenance May + June 2023. I'm including some of the rationales, to give you a feel for how we reason when maintaining Calva. Wall of text:
 
 * Calva now makes an effort to try **format code with incomplete structure** (missing opening or closing brackets). This is common when formatting a selection, or formatting pasted code. It gets extra important for beginners who do not ”see” the structure as clearly as us with experience from Clojure or some other LISP(s). Not being familiar with the structure also makes you less likely to use Calva's structural editing power. Having the broken code formatted helps in highlighting the structure and what is missing from it. While at it we also got some glitches with format-on-paste feature fixed. It's a bit more complicated than you might think, as [this issue](https://github.com/BetterThanTomorrow/calva/issues/2236) might illustrate. Thanks [Alexander Kouznetsov](https://github.com/mrkam2) for the help in figuring this out!
@@ -484,7 +479,7 @@ Here's a summary of Calva maintenance May + June 2023. I'm including some of the
 
 * For a few days of this period I was [fire fighting](https://hbr.org/2000/07/stop-fighting-fires). My changes introduced regressions, and my fixes for the regressions introduced regressions. Nothing super major, but there is a promise we want to keep with Calva: **We prioritize regressions that we introduce.** As can be picked up in [The Tao of Calva](https://calva.io/tao/): Moving fast is great. Breaking things is fine, **as long as you fix them fast**.
 
-## Starter projects  
+### Starter projects  
 
 I am a big fan of small starter projects. They can load a lot of experimentation and failure experience into a simple and approachable package that is easy for beginners and non-beginners alike to pick up and use. Hopefully for a quicker and smoother experience than the starter project creator had. Hereby I am encouraging you all to consider this when you have experimented with some tech stack, or tech stack component. It is my experience that I learn better from creating them as well. Both by the activity of structuring the project and writing the README in a way that I can hope is understandable, and from the feedback and contributions I get from others trying to use my project.
 
@@ -498,22 +493,18 @@ Anyway. This period around I created one new starter project and gave some love 
 
   * The dependency bumps were the result of me adding [React Navigation](https://reactnavigation.org/) to the project. This makes sense for a lot of projects and is easy enough to rip out if your project does not need it. There is now also [a branch](https://github.com/PEZ/rn-rf-shadow/blob/pez/try-countdown-circle-timer/src/main/example/app.cljs#L37) demonstrating how to use React Native libraries, in this case the [react-native-countdown-timer](https://www.npmjs.com/package/react-native-countdown-circle-timer) (no README update for this yet).
 
-## Please follow me  
-
+### Please follow me  
 * I'm [@PEZ](https://github.com/PEZ) on Github.
-
 * I'm [@pappapez](https://twitter.com/pappapez) on Twitter.
 
-## Thanks for sponsoring me! ❤️
-
+### Thanks for sponsoring me! ❤️  
 * [Clojurists Together](https://www.clojuriststogether.org/): This long term sponsoring is fantastic. It makes wonders for how I can fit open source contributions into my family life.
-
 * [Github Sponsors](https://github.com/sponsors/PEZ#sponsors): Same here, it's long term and it makes my family respect Clojure, Calva, Open Source and that I want to spend time with it.<br>
 
 ---
 
 ## Peter Taoussanis  
-**May/Jun 2023 updates** for [Peter Taoussanis](https://www.taoensso.com/)  
+You can read more from Peter at [Peter Taoussanis](https://www.taoensso.com/)  
 
 ### Recent releases include:  
 - [Sente](https://github.com/ptaoussanis/sente): `v1.18.0` - see [release notes](https://github.com/ptaoussanis/sente/releases) for details
@@ -530,10 +521,10 @@ A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nub
 
 ---
 
-# Q2 2023 Project Updates  
+## Q2 2023 Project Updates  
 
 ## Aleph/Manifold: Matthew Davidson  
-(Report 2 Published 30 June 2023)  
+(Report 2. Published 30 June 2023)  
 
 ### HTTP/2 support  
 - Client-side HTTP/2 is now generally available, as of 0.7.0-alpha1
@@ -548,20 +539,17 @@ A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nub
 
 ---
 
-## Donut: Daniel Higginbotham   
-
+## Donut: Daniel Higginbotham    
 (Report 2 Published 25 May, 2023)  
 Over the last couple months I've made a lot of changes across the Donut ecosystem to get the framework closer to realizing the vision of providing a foundation for building single-page apps. I've focused on creating a cookie-based auth plugin that provides both backend API endpoints and frontend components.  
-Per-repo changes include:  
 
+Per-repo changes include:  
 ### [donut-party/endpoint]([https://github.com/donut-party/endpoint](https://github.com/donut-party/endpoint))  
 This repo provides components you can add to your system to configure it for serving HTTP API requests.  
 * **Added `ServerComponent` donut.system components**  
   This encapsulates a default configuration for running a jetty server
-
 * **Added `HTTPComponentGroup` donut.system component group and `http-plugin` plugin**  
   These make it possible for a developer to add a collection of donut.system components to their system with just a lien of code
-
 * **Improved docstrings**  
 
 ### [donut-party/endpoint-test]([https://github.com/donut-party/endpoint-test](https://github.com/donut-party/endpoint-test))  
@@ -573,10 +561,8 @@ This repo provides a test harness for applications that use donut.system and don
 Updates:  
 * **Updated plugin definition to use latest syntax from donut.system**
   I'd updated donut.system's plugin syntax to be more readable and more data-oriented, and this required an update to `donut.endpoint.test.harness/test-harness-plugin`. The plugin provides some default configuration for the library's helpers.  
-
 * **Revised interface for request helpers**  
   I significantly rewrote the interface for request handlers to take a single argument, a map, rather than relying on variadic positional arguments. I found the positional arguments too difficult to remember and not as readable.  
-
 * **Added a README**
 * **Added support for edn content-type**
 
@@ -587,27 +573,17 @@ Updates:
 * **Update XHR handling to add auth header when token present**
   The frontend library has a lot of tools for performing XHR requests. I updated them to include an `Authorization` HTTP header when an auth token is present in the re-frame app db.
 
-  
-
 ### [donut-party/donut-cli](https://github.com/donut-party/donut-cli)
-
 * **Updated project generator**
   Updated the template used for new projects, and updated the CLI to use the updated templated.
 
-  
-
 ### [donut-party/system]([https://github.com/donut-party/system](https://github.com/donut-party/system))  
-
 * **Added `dependency-pairs` function**  
   This makes it easier to grok depedencies and put them in a graph
-
 * **Added ability to specify repl system**  
-  Previously, the tools in `donut.system.repl` required you to use a named-system named `:donut.system/repl`. This change makes it possible to pass in the name of any named system and use that.
-
-  
+  Previously, the tools in `donut.system.repl` required you to use a named-system named `:donut.system/repl`. This change makes it possible to pass in the name of any named system and use that. 
 * **Added namespace for visualizing the dep graph with visjs**  
   Calling `(donut.view.visjs/show your-system)` will open a browser window that uses visjs to show a dependency graph of your system.
-
 * **Added component caching**  
   Sometimes you don't want to constantly stop and restart components. For example, you probably don't want to stop and start a threadpool for every test. This addition lets you cache a component, preserving a component instance across stops and starts. Clearing the cache will make the component respond to the next stop signal.<br>
 
