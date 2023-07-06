@@ -23,8 +23,8 @@ There is a lot of work to catch up on! Our 10 developers working on long-term pr
 <br>
 
 ### Q1 2023 Projects
-[Aleph/Manifold: Matthew Davidson](#aleph/manifold:matthew-davidson)  
-[Donut: Daniel Higginbotham](#donur:daniel-higginbotham)
+[Aleph/Manifold: Matthew Davidson](#alephmanifold-matthew-davidson)  
+[Donut: Daniel Higginbotham](#donut-daniel-higginbotham)
 <br>
 
 ## Bozhidar Batsov  
