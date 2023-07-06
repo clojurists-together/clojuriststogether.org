@@ -3,7 +3,7 @@ title: "2023 Long Term Projects: May and June Updates"
 date: 2023-07-06T08:30:00+08:00
 summary: Hear from the 10 developers working on long term projects and a few Q1 2023 project updates
 author: Kathy Davis
-draft: true
+
 ---  
 <br>
 There is a lot of work to catch up on! Our 10 developers working on long-term projects check in with their May and June project updates. We also have two updates from Q1 2023 projects (Donut and Adelph/Manifold).  
