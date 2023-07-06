@@ -6,7 +6,7 @@ author: Kathy Davis
 draft: true
 ---  
 <br>
-There is a lot of work to catch up on! Our 10 developers working on long-term projects check in with their May and June project updates. We also have two updates from shorter Q1 2023 projects (Donut and Adelph/Manifold).  
+There is a lot of work to catch up on! Our 10 developers working on long-term projects check in with their May and June project updates. We also have two updates from Q1 2023 projects (Donut and Adelph/Manifold).  
 <br>
 
 ### 2023 Long-Term Projects  
@@ -20,10 +20,9 @@ Nikita Prokopov
 Tommi Reiman 
 Peter Stromberg   
 Peter Taoussanis  
-
 <br>
 
-### Q1 2023  
+### Q1 2023 Projects
 Aleph/Manifold: Matthew Davidson  
 Donut: Daniel Higginbotham  
 <br>
@@ -411,12 +410,12 @@ Had a busy 2 months and did not have enough focus time to deliver the things I p
 * Continued with the [new effective type system](https://github.com/metosin/malli/issues/264) - WIP
 * Working with Schema inheritance (optional, solving real-world problems), WIP  
 
-## Reitit   
+### Reitit   
 * Work on the upcoming 0.7.0 Version, with 5 new alpha releases. Thanks for all the alpha-testers!
 * Managed to fix [a foundational issue](https://github.com/metosin/reitit/issues/422) by [Introducing two-phase Schema compilation](https://github.com/metosin/reitit/pull/626)
 * Goal was to ship the 0.7.0 out in June, but ended up not being happy with the new syntax and started to do [a big refactor](https://github.com/metosin/reitit/pull/628) on it. Almost done.  
 
-# Something else  
+### Something else  
 Summer.
 
 ![summer](https://user-images.githubusercontent.com/567532/250184909-55f636ae-5e3a-4a10-b6fc-38c4749ce2fb.png)
@@ -480,7 +479,6 @@ Here's a summary of Calva maintenance May + June 2023. I'm including some of the
 * For a few days of this period I was [fire fighting](https://hbr.org/2000/07/stop-fighting-fires). My changes introduced regressions, and my fixes for the regressions introduced regressions. Nothing super major, but there is a promise we want to keep with Calva: **We prioritize regressions that we introduce.** As can be picked up in [The Tao of Calva](https://calva.io/tao/): Moving fast is great. Breaking things is fine, **as long as you fix them fast**.
 
 ### Starter projects  
-
 I am a big fan of small starter projects. They can load a lot of experimentation and failure experience into a simple and approachable package that is easy for beginners and non-beginners alike to pick up and use. Hopefully for a quicker and smoother experience than the starter project creator had. Hereby I am encouraging you all to consider this when you have experimented with some tech stack, or tech stack component. It is my experience that I learn better from creating them as well. Both by the activity of structuring the project and writing the README in a way that I can hope is understandable, and from the feedback and contributions I get from others trying to use my project.
 
 Anyway. This period around I created one new starter project and gave some love to an old and still popular one.
