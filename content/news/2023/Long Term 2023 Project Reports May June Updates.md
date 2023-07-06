@@ -10,21 +10,21 @@ There is a lot of work to catch up on! Our 10 developers working on long-term pr
 <br>
 
 ### 2023 Long-Term Projects  
-Bozhidar Batsov  
-Michiel Borkent  
-Sean Corfield  
-Eric Dallo  
-Christophe Grand
-Thomas Heller  
-Nikita Prokopov  
-Tommi Reiman 
-Peter Stromberg   
-Peter Taoussanis  
+[Bozhidar Batsov](#bozhidar-batsov)  
+[Michiel Borkent](#michiel-borkent)  
+[Sean Corfield](#sean-corfield)   
+[Eric Dallo](#eric-dallo)   
+[Christophe Grand](#christophe-grand)  
+[Thomas Heller](#thomas-heller)  
+[Nikita Prokopov](#nikita-prokopov)  
+[Tommi Reiman](#tommi-reiman)  
+[Peter Stromberg](#peter-stromberg)   
+[Peter Taoussanis](#peter-taoussanis)   
 <br>
 
 ### Q1 2023 Projects
-Aleph/Manifold: Matthew Davidson  
-Donut: Daniel Higginbotham  
+[Aleph/Manifold: Matthew Davidson](#aleph/manifold:matthew-davidson)  
+[Donut: Daniel Higginbotham](#donur:daniel-higginbotham)
 <br>
 
 ## Bozhidar Batsov  
