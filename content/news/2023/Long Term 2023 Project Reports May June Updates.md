@@ -32,7 +32,7 @@ There is a lot of work to catch up on! Our 10 developers working on long-term pr
 ### CIDER  
 For the past few months the primary focus of my Clojure-related work was CIDER. We've made some important steps toward the next release:
 
-- We're working on a "debug on error" functionality (see https://github.com/clojure-emacs/cider/pull/3337). This also resulted in some internal improvements to the existing debugger codebase. 
+- We're working on a "debug on error" functionality (see https://github.com/clojure-emacs/cider/pull/3337) This also resulted in some internal improvements to the existing debugger codebase. 
 - We're working on a new way to interact with application logs from CIDER, which we currently call "cider-log-mode" (see https://github.com/clojure-emacs/cider/pull/3352)
 	- This also resulted in the creation of the standalone library [logjam](https://github.com/clojure-emacs/logjam/), which CIDER uses internally.
 - We're now using the latest version of `compliment`, which comes which a bunch of code completion improvements (see https://github.com/alexander-yakushev/compliment/blob/master/CHANGELOG.md#0315-2023-06-22)
@@ -265,7 +265,7 @@ I mentioned in the previous update that my mother was in hospital and I want to 
 During these 2 months, I mainly focused on improving clojure-lsp, fixing bugs and adding some features mentioned above, especially improving the java support.
 Also, I've been working for some months now in a new Intellij plugin called __clojure-lsp-intellij__, which I should finish the alpha and announce soon!   
 
-### [clojure-lsp]([https://clojure-lsp.io/](https://clojure-lsp.io/))   
+### [clojure-lsp](https://clojure-lsp.io)  
 **Main highlights:**  
 - Recently I focused on java interop improvements in both clojure-lsp and clj-kondo, so now we have more java analysis to provide features, we have now hover doc (pic1) and completion for java static members! We still have to enhance clj-kondo and lsp to be able to provide for all java usages besides static ones only, but it's a huge start!  
 - Keywords completions are now smarter, checking other namespaces and sorting better.
@@ -424,7 +424,7 @@ Summer.
 
 ## Peter Stromberg  
 
-As usual the bulk of my open source energy is poured into [Calva](https://calva.io/), a [Clojure](https://clojure.org/)/[ClojureScript](https://clojurescript.org/)/[ClojureCLR](https://github.com/clojure/clojure-clr)/[ClojureDart](https://github.com/Tensegritics/ClojureDart)/[Babashka](https://babashka.org/)/[nbb](https://github.com/babashka/nbb)/[Joyride](https://marketplace.visualstudio.com/items?itemName%253Dbetterthantomorrow.joyride)/etcetera development environment that [takes Interactive Programming seriously](https://www.youtube.com/watch?v%253DL0-yDtVUWMQ).  
+As usual the bulk of my open source energy is poured into [Calva](https://calva.io/), a [Clojure](https://clojure.org/)/[ClojureScript](https://clojurescript.org/)/[ClojureCLR](https://github.com/clojure/clojure-clr)/[ClojureDart](https://github.com/Tensegritics/ClojureDart)/[Babashka](https://babashka.org/)/[nbb](https://github.com/babashka/nbb)/[Joyride](https://marketplace.visualstudio.com/items?itemName=betterthantomorrow.joyride) /etcetera development environment that [takes Interactive Programming seriously](https://www.youtube.com/watch?v%253DL0-yDtVUWMQ).  
 
 I also got to contribute to Clojure-related starter projects and was interviewed for Flexiana's new **Clojure Corner** series: [Clojure Corner with Peter Strömberg](https://flexiana.com/2023/06/clojure-corner-with-pez)  
 
@@ -542,7 +542,7 @@ A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nub
 Over the last couple months I've made a lot of changes across the Donut ecosystem to get the framework closer to realizing the vision of providing a foundation for building single-page apps. I've focused on creating a cookie-based auth plugin that provides both backend API endpoints and frontend components.  
 
 Per-repo changes include:  
-### [donut-party/endpoint]([https://github.com/donut-party/endpoint](https://github.com/donut-party/endpoint))  
+### [donut-party/endpoint](https://github.com/donut-party/endpoint)
 This repo provides components you can add to your system to configure it for serving HTTP API requests.  
 * **Added `ServerComponent` donut.system components**  
   This encapsulates a default configuration for running a jetty server
@@ -550,7 +550,7 @@ This repo provides components you can add to your system to configure it for ser
   These make it possible for a developer to add a collection of donut.system components to their system with just a lien of code
 * **Improved docstrings**  
 
-### [donut-party/endpoint-test]([https://github.com/donut-party/endpoint-test](https://github.com/donut-party/endpoint-test))  
+### [donut-party/endpoint-test](https://github.com/donut-party/endpoint-test)
 This repo provides a test harness for applications that use donut.system and donut.endpoint to define API handlers. It handles system setup/teardown and provides helpers to:
 * Construct endpoint paths
 * Send requests to your app's request handler
@@ -564,7 +564,7 @@ Updates:
 * **Added a README**
 * **Added support for edn content-type**
 
-### [donut-party/frontend]([https://github.com/donut-party/frontend](https://github.com/donut-party/frontend))  
+### [donut-party/frontend](https://github.com/donut-party/frontend)  
 * **Added support for auth responses**
   The frontend framework can handle API responses structured to convey an auth token to the frontend, and store that token in the re-frame app db.
 
@@ -575,7 +575,7 @@ Updates:
 * **Updated project generator**
   Updated the template used for new projects, and updated the CLI to use the updated templated.
 
-### [donut-party/system]([https://github.com/donut-party/system](https://github.com/donut-party/system))  
+### [donut-party/system](https://github.com/donut-party/system)  
 * **Added `dependency-pairs` function**  
   This makes it easier to grok depedencies and put them in a graph
 * **Added ability to specify repl system**  
