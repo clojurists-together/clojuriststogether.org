@@ -28,14 +28,14 @@ For the first half of the funding round, I refactored the
 [clj-nix](https://github.com/jlesquembre/clj-nix) CLI interface, which is used
 to generate the `deps-lock.json` files. Now, if your project has multiple
 `deps.edn` files and aliases, you can define what dependencies to include in the
-lock file.
+lock file.  
 
 The CLI added the following flags: `--deps-include`, `--deps-exclude`,
-`--alias-include` and `--alias-exclude`.
+`--alias-include` and `--alias-exclude`.  
 
 An optimized lock file saves bandwidth and speeds up the nix build. I also added
 support to use Babashka as a build tool. To do that, use the `--bb` flag, see
-the [clj-nix](https://github.com/jlesquembre/clj-nix) README for more info.
+the [clj-nix](https://github.com/jlesquembre/clj-nix) README for more info.  
 
 As part of the work to support Babashka, I updated Babahska in nixpkgs
 [PR NixOS/nixpkgs#241119](https://github.com/NixOS/nixpkgs/pull/241119). Those
@@ -196,27 +196,40 @@ that interesting and would like to get involved, please let me know!<br>
 ## Jank: Jeaye Wilkerson
 Published 13 July 2023.  Q2 2023 Funding Round Report 1.
 
-The terms of the work are to research a new object model for jank, with the goal of optimizing allocations, while also making jank code faster across the board. This is a half-way report and I'm excited to share my results!
-Please note that I have a very detailed breakdown of my work, the design choices made, and the implementation details here: https://jank-lang.org/blog/2023-07-08-object-model/
+The terms of the work are to research a new object model for jank, with the goal of optimizing allocations, while also making jank code faster across the board. This is a half-way report and I'm excited to share my results!  
+
+Please note that I have a very detailed breakdown of my work, the design choices made, and the implementation details here: https://jank-lang.org/blog/2023-07-08-object-model/  
+
 To briefly summarize, I spent the first half of this quarter:
-Exploring the top ECS frameworks as an option for jank's object model
-Prototyping a tagged object implementation
-Benchmarking everything along the way
-ECS
-The ECS frameworks aren't going to be a good fit, since they'll require multiple allocations per object and the key metric I'm trying to shrink here is object allocation time. However, there are good learnings to be had around their data locality designs and judicious usage of compile-time computation to set the runtime up to be fast.
-Tagged objects
-Most Clojure code is built using the same numbers, strings, maps, vectors, and lists. The hyper-polymorphic cases of completely custom types and protocols is not the general case and shouldn't have to impact the performance of it. I've prototyped a solution which optimizes the default case of using Clojure's built-in types, while still allowing for entirely dynamic objects.
-The results have been very promising.
-Map allocations
+1. Exploring the top ECS frameworks as an option for jank's object model
+2. Prototyping a tagged object implementation
+3. Benchmarking everything along the way
+   
+### ECS
+The ECS frameworks aren't going to be a good fit, since they'll require multiple allocations per object and the key metric I'm trying to shrink here is object allocation time. However, there are good learnings to be had around their data locality designs and judicious usage of compile-time computation to set the runtime up to be fast.  
+
+### Tagged objects
+Most Clojure code is built using the same numbers, strings, maps, vectors, and lists. The hyper-polymorphic cases of completely custom types and protocols is not the general case and shouldn't have to impact the performance of it. I've prototyped a solution which optimizes the default case of using Clojure's built-in types, while still allowing for entirely dynamic objects.  
+
+The results have been very promising.  
+
+### Map allocations
 Map allocations were the primary target. Details for why they were slow are in my blog post, but the new object model brings us within a very small margin of Clojure.
 
-Map utilities
-Map utilities like count and get were already very fast, but the new object model cuts them down even more.
+### Map utilities
+Map utilities like count and get were already very fast, but the new object model cuts them down even more.  
 
-What's left?
-I'm now ripping apart the jank runtime to add in the tagged object system. At the end of the quarter, I'll have holistic benchmarks showing the improvements across the board. These benefits, once integrated into jank, will impact every jank object. Numbers, strings, vectors, maps, lists, and so on will all be significantly faster to both allocate and use.<br>
+
+<object type="image/svg+xml" data="https://jank-lang.org/img/blog/2023-07-08-object-model/allocations-tagged.plot.svg" width="50%">
+  <img src="https://jank-lang.org/img/blog/2023-07-08-object-model/allocations-tagged.plot.svg" width="50%"></img>
+</object>
+
+### What's left?  
+I'm now ripping apart the jank runtime to add in the tagged object system. At the end of the quarter, I'll have holistic benchmarks showing the improvements across the board. These benefits, once integrated into jank, will impact every jank object. Numbers, strings, vectors, maps, lists, and so on will all be significantly faster to both allocate and use.<br>  
+
 
 ---
+
 
 ## Lucene Grep: Dainius Jocas
 Published 15 July 2023.  Q2 2023 Funding Round Report 1.
@@ -226,13 +239,13 @@ It was a little busy lately so my update is a bit uneventful.
 But my summer holidays are coming and I hope to spend some quality time working on making the Lucene library a little easier to use for the fellow Clojurists.
 
 ### Context  
-The goal of the project is to tear apart `lucene-grep` project into a bunch of libraries.
+The goal of the project is to tear apart `lucene-grep` project into a bunch of libraries.  
 `lucene-grep` is a CLI app that was created to scratch an itch of making Lucene to be compiled by GraalVM native image during the COVID lockdowns.
 Due to the nature of the effort the code was not designed to be used elsewhere.
 By participating in the Clojurist Together I want to refactor and re-design the existing codebase for reuse.
 
 ### Updates  
-As of now, out of the `lucene-grep` 3 libraries are extracted:
+As of now, out of the `lucene-grep` 3 libraries are extracted:  
 - [lucene-custom-analyzer](https://github.com/dainiusjocas/lucene-custom-analyzer): data-driven Lucene Analyzers; 
 - [lucene-query-parsing](https://github.com/dainiusjocas/lucene-query-parsing): data-driven Lucene Query Parsers;
 - [lucene-text-analysis](https://github.com/dainiusjocas/lucene-text-analysis): helpers to play with the Lucene Analyzers.
@@ -259,7 +272,7 @@ In the coming months I want to design a Clojure library to use the Lucene Monito
 
 ---
 
-## Uncomplicate Neanderthal, Clojure CUDA, Deep Diamond: Dragan Djuric
+## Uncomplicate Neanderthal, Clojure CUDA, Deep Diamond to JavaCPP: Dragan Djuric
 Published 30 June 2023.  Q2 2023 Funding Round Report 1.
 
 My goal with this round is to port Neanderthal, ClojureCUDA, and Deep Diamond to JavaCPP-based native libraries.
@@ -315,7 +328,7 @@ it. But when you do, you have relevant references close at hand.
 
 Portfolio's React adapter has been upgraded with an error boundary that
 integrates with the above described error handling features. It now also
-supports using hooks directly in `defscene`.
+supports using hooks directly in `defscene`.  
 
 I added a small REPL utility to Portfolio. You can now `tap>` a component
 instance, and Portfolio will render it in a temporary REPL folder.
