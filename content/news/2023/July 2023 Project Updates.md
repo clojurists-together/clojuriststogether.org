@@ -15,7 +15,7 @@ Hope all of you are having a great summer (or winter in the lower hemisphere)..H
 [Emmy: Sam Ritchie](#emmy-sam-ritchie)  
 [Jank: Jeaye Wilkerson](#jank-jeaye-wilkerson)   
 [Lucene Grep: Dainius Jocas](lucene-grep-dainius-jocas)    
-[Uncomplicate Neanderthal, Clojure CUDA, Deep Diamond to JavaCPP: Dragan Djuric](#uncomplicate-neanderthal-clojure-cuda-deep-diamond-to-javacpp-dragan-djuric)   
+[Uncomplicate Neanderthal, Clojure CUDA, Deep Diamond: Dragan Djuric](#uncomplicate-neanderthal-clojure-cuda-deep-diamond-dragan-djuric)   
 [Portfolio: Christian Johansen](#portfolio-christian-johansen)  <br>
 <br>
 
@@ -276,7 +276,7 @@ In the coming months I want to design a Clojure library to use the Lucene Monito
 
 ---
 
-## Uncomplicate Neanderthal, Clojure CUDA, Deep Diamond to JavaCPP: Dragan Djuric
+## Uncomplicate Neanderthal, Clojure CUDA, Deep Diamond: Dragan Djuric
 Published 30 June 2023.  Q2 2023 Funding Round Report 1.
 
 My goal with this round is to port Neanderthal, ClojureCUDA, and Deep Diamond to JavaCPP-based native libraries.
