@@ -8,9 +8,9 @@ draft: true
 <br>
 
 ## Q2 2023 Project Updates
-clj-Nix - José Luis Lafuente Esquembre   
-Clojure Camp - Daniel Higginbotham    
-Emmy - Sam Ritchie  
+[clj-Nix: José Luis Lafuente Esquembre][(#clj-nix-josé-luis-lafuente-esquembre])   
+[Clojure Camp: Daniel Higginbotham][(#clojure-camp-daniel-higginbotham)    
+[Emmy: Sam Ritchie][(#emmy-sam-ritchie)   
 Jank  - Jeaye Wilkerson  
 Lucene Grep - Dainius Jocas  
 Neanderthal, Clojure CUDA, Deep Diamond - Dragan Duric  
