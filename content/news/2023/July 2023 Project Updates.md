@@ -11,7 +11,6 @@ draft: true
 clj-Nix - José Luis Lafuente Esquembre   
 Clojure Camp - Daniel Higginbotham    
 Emmy - Sam Ritchie  
-FireFox Developer Tools - Sebastian Zartner (Q3 2022)  
 Jank  - Jeaye Wilkerson  
 Lucene Grep - Dainius Jocas  
 Neanderthal, Clojure CUDA, Deep Diamond - Dragan Duric  
