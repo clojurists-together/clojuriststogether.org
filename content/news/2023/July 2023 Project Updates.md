@@ -8,29 +8,20 @@ draft: true
 <br>
 
 ## Q2 2023 Project Updates
-Clojure Camp - Daniel Higginbotham
-clj-Nix - José Luis Lafuente Esquembre
-Emmy - Sam Ritchie
-FireFox Developer Tools - Sebastian Zartner (Q3 2022)
-Jank  - Jeaye Wilkerson
-Lucene Grep - Dainius Jocas
-Neanderthal, Clojure CUDA, Deep Diamond - Dragan Duric
-Portfolio - Christian Johansen
+clj-Nix - José Luis Lafuente Esquembre   
+Clojure Camp - Daniel Higginbotham    
+Emmy - Sam Ritchie  
+FireFox Developer Tools - Sebastian Zartner (Q3 2022)  
+Jank  - Jeaye Wilkerson  
+Lucene Grep - Dainius Jocas  
+Neanderthal, Clojure CUDA, Deep Diamond - Dragan Duric  
+Portfolio - Christian Johansen  <br>
+<br>
 
-## Clojure Camp: Daniel Higginbotham
-Published 30 June 2023. Report 1 Q2 2023 Funding Round.
 
-We are so grateful to Clojurists Together for funding Clojure Camp! Our next milestone is to expand our program to include two more study groups,  with two mentors and five students each. Over the past month, we’ve focused on clarifying and documenting the systems we’ve been using to effectively run a study group and help people learn Clojure.
-
-**Accomplishments include:**
-- Conducted weekly study group sessions with our first batch of learners
-- Began migrating ClojoDojo, a study partner pairing app, over to Clojure Camp
-- Made progress on setting up Clojure Camp operations, building out our digital workspaces for knowledge management
-- Documented our curriculum
-- Updated learner exercises
 
 ## clj-Nix: José Luis Lafuente Esquembre
-Published 12 July 2023.   Report 1 Q2 2023 Funding Round. 
+Published 12 July 2023.  Q2 2023 Funding Round Report 1.
 
 ### Updates
 
@@ -87,11 +78,26 @@ machinery of `clj-nix`. (The `NixOS modules` name is misleading, you can use
 modules without NixOS. Projects like [devenv](https://devenv.sh/) or
 [home-manager](https://nix-community.github.io/home-manager/) use that
 approach). This is a big change, I don't think I'll be able to finish it in the
-second half of the roundReport 1 Q2 2023 Funding Round. , but I'll start to work on it.
+second half of the roundReport 1 Q2 2023 Funding Round. , but I'll start to work on it.<br>
 
+---
+
+## Clojure Camp: Daniel Higginbotham
+Published 30 June 2023.  Q2 2023 Funding Round Report 1.
+
+We are so grateful to Clojurists Together for funding Clojure Camp! Our next milestone is to expand our program to include two more study groups,  with two mentors and five students each. Over the past month, we’ve focused on clarifying and documenting the systems we’ve been using to effectively run a study group and help people learn Clojure.
+
+**Accomplishments include:**
+- Conducted weekly study group sessions with our first batch of learners
+- Began migrating ClojoDojo, a study partner pairing app, over to Clojure Camp
+- Made progress on setting up Clojure Camp operations, building out our digital workspaces for knowledge management
+- Documented our curriculum
+- Updated learner exercises<br>
+
+---
 
 ## Emmy: Sam Ritchie
-Published 3 July 2023.   Q2 2023 Funding Round Report 1.
+Published 3 July 2023.  Q2 2023 Funding Round Report 1.
 
 ### Done in June
 I cut a first release of the
@@ -184,10 +190,12 @@ integrating with https://maria.cloud/.
 
 Finally, there is a lot of work on the plotting API that would be great for new
 contributors, like adding support for color schemes to the 3D plots. If you find
-that interesting and would like to get involved, please let me know!
+that interesting and would like to get involved, please let me know!<br>
+
+---
 
 ## FireFox Developer Tools: Sebastian Zartner
-Published 8 July 2023. Q3 2022 Funding Round. Report 4.  
+Published 8 July 2023. Q3 2022 Funding Round Report 4.  
 
 ###  Custom Formatters for Firefox
 
@@ -222,12 +230,13 @@ While the project took way longer than expected, I am happy that the feature fin
 
 And that wouldn't have been possible without the help of Nicolas Chevobbe from the Firefox DevTools team and the creator of the CLJS DevTools, Antonin Hildebrand. Also Jan 'Honza' Odvarko from the Firefox DevTools team helped coordinate the implementation and tracking the progress. So, a big thank you! Also, thanks to Daniel who reached out to me for that project and for supporting me!
 
-I've learned a lot during that project. And I hope you find this feature helpful.
+I've learned a lot during that project. And I hope you find this feature helpful.<br>
 
+---
 
 
 ## Jank: Jeaye Wilkerson
-Published 13 July 2023.Q2 2023 Funding Round Report 1.
+Published 13 July 2023.  Q2 2023 Funding Round Report 1.
 
 The terms of the work are to research a new object model for jank, with the goal of optimizing allocations, while also making jank code faster across the board. This is a half-way report and I'm excited to share my results!
 Please note that I have a very detailed breakdown of my work, the design choices made, and the implementation details here: https://jank-lang.org/blog/2023-07-08-object-model/
@@ -247,25 +256,24 @@ Map utilities
 Map utilities like count and get were already very fast, but the new object model cuts them down even more.
 
 What's left?
-I'm now ripping apart the jank runtime to add in the tagged object system. At the end of the quarter, I'll have holistic benchmarks showing the improvements across the board. These benefits, once integrated into jank, will impact every jank object. Numbers, strings, vectors, maps, lists, and so on will all be significantly faster to both allocate and use.
+I'm now ripping apart the jank runtime to add in the tagged object system. At the end of the quarter, I'll have holistic benchmarks showing the improvements across the board. These benefits, once integrated into jank, will impact every jank object. Numbers, strings, vectors, maps, lists, and so on will all be significantly faster to both allocate and use.<br>
+
+---
+
 ## Lucene Grep: Dainius Jocas
 Published 15 July 2023.  Q2 2023 Funding Round Report 1.
-# Clojurist Together Update 1
 
-### TL;DR
-
+### TL;DR  
 It was a little busy lately so my update is a bit uneventful.
 But my summer holidays are coming and I hope to spend some quality time working on making the Lucene library a little easier to use for the fellow Clojurists.
 
-### Context
-
+### Context  
 The goal of the project is to tear apart `lucene-grep` project into a bunch of libraries.
 `lucene-grep` is a CLI app that was created to scratch an itch of making Lucene to be compiled by GraalVM native image during the COVID lockdowns.
 Due to the nature of the effort the code was not designed to be used elsewhere.
 By participating in the Clojurist Together I want to refactor and re-design the existing codebase for reuse.
 
-### Updates
-
+### Updates  
 As of now, out of the `lucene-grep` 3 libraries are extracted:
 - [lucene-custom-analyzer](https://github.com/dainiusjocas/lucene-custom-analyzer): data-driven Lucene Analyzers; 
 - [lucene-query-parsing](https://github.com/dainiusjocas/lucene-query-parsing): data-driven Lucene Query Parsers;
@@ -274,28 +282,27 @@ As of now, out of the `lucene-grep` 3 libraries are extracted:
 All these libraries were updated to depend on the newest Lucene version.
 I hope to write proper blog posts and/or demo apps with potential uses of the libraries.
 
-### Other things I've worked on
-
+### Other things I've worked on  
 I've been having fun with other hacks.
 
-#### The new GraalVM
-
+#### The new GraalVM  
 I've upgrade `lucene-grep` to be compiled with the new [GraalVM](https://github.com/dainiusjocas/lucene-grep/commit/7343db1413ef5d3c1c89547b091a1bdb7c5d2fe2).
 The biggest adventure there was that GraalVM changed the way how compile time environment variables are used.
 Now, the env vars should be passed with `-E` [property](https://www.graalvm.org/latest/reference-manual/native-image/overview/BuildOptions/#non-standard-options) e.g. `-ELMGREP_FEATURE_STEMPEL=true`.
 
-#### Clerk based publishing 
-
+#### Clerk based publishing  
 I've set up a publishing system based on [Clerk](https://github.com/nextjournal/clerk) and Github Pages: [journal](https://www.jocas.lt/journal/), [source](https://github.com/dainiusjocas/journal).
 Hopefully, in the Journal I'll publish proper writeups and presentations of the work I'm about to do in this project.
 
-### What is next?
-
+### What is next?  
 In the coming months I want to design a Clojure library to use the Lucene Monitor Library.
 
-### That is it!
-## Uncomplicate Neanderthal, Clojure CUDA, Deep Diamond: Dragan Duric
-Published  30 June 2023.  Q2 2023 Funding Round Report 1.
+### That is it!<br>
+
+---
+
+## Uncomplicate Neanderthal, Clojure CUDA, Deep Diamond: Dragan Djuric
+Published 30 June 2023.  Q2 2023 Funding Round Report 1.
 
 My goal with this round is to port Neanderthal, ClojureCUDA, and Deep Diamond to JavaCPP-based native libraries.
 
@@ -318,10 +325,12 @@ What's equally important, I'm using every opportunity to *improve* everything th
 instead of just taking the shortest cut at every corner. So the benefits will be felt long-term in
 these libraries, as well as this domain in Clojure.
 
-I released most of the resulting code in a couple of gigantic commits instead of many smaller ones because I didn't want any release to contain broken, non-compilable library.
+I released most of the resulting code in a couple of gigantic commits instead of many smaller ones because I didn't want any release to contain broken, non-compilable library.<br>
+
+---
 
 ## Portfolio - Christian Johansen
-Published 14 July 2023   Q2 2023 Funding Round Report 1.
+Published 14 July 2023.   Q2 2023 Funding Round Report 1.
 
 In the first half of the Q2 funding period I have focused my work on the main
 aspirations from my application: error handling, and improved first use
