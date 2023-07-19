@@ -218,14 +218,19 @@ Most Clojure code is built using the same numbers, strings, maps, vectors, and l
 The results have been very promising.  
 
 ### Map allocations
-Map allocations were the primary target. Details for why they were slow are in my blog post, but the new object model brings us within a very small margin of Clojure.
+Map allocations were the primary target. Details for why they were slow are in my blog post, but the new object model brings us within a very small margin of Clojure.  
+
+<object type="image/svg+xml" data="https://jank-lang.org/img/blog/2023-07-08-object-model/allocations-tagged.plot.svg" width="50%">
+  <img src="https://jank-lang.org/img/blog/2023-07-08-object-model/allocations-tagged.plot.svg" width="50%"></img>
+</object>  
+
 
 ### Map utilities
 Map utilities like count and get were already very fast, but the new object model cuts them down even more.  
 
 
-<object type="image/svg+xml" data="https://jank-lang.org/img/blog/2023-07-08-object-model/allocations-tagged.plot.svg" width="50%">
-  <img src="https://jank-lang.org/img/blog/2023-07-08-object-model/allocations-tagged.plot.svg" width="50%"></img>
+<object type="image/svg+xml" data="https://jank-lang.org/img/blog/2023-07-08-object-model/extra-benchmarks.plot.svg" width="50%">
+  <img src="https://jank-lang.org/img/blog/2023-07-08-object-model/extra-benchmarks.plot.svg" width="50%"></img>
 </object>
 
 ### What's left?  
