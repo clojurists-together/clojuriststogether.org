@@ -2,11 +2,11 @@
 title: "July 2023 Project Updates"
 date: 2023-07-19T08:30:00+08:00
 summary: clj-Nix, Clojure Camp, Emmy, Jank, Lucene Grep, Neanderthal, Portfolio
-author: Kathy Davis
-draft: true
+author: Kathy Davis  
+
 ---  
 <br>
-Hope all of you are having a great summer (or winter in the lower hemisphere)..Here is the first round of reporting from our Q2 2023 project developers. Catch up on all of their great work!   
+Hope all of you are having a great summer (or winter in the southern hemisphere)..Here is the first round of reporting from our Q2 2023 project developers. Catch up on all of their great work!   
 
 
 ## Q2 2023 Project Updates
