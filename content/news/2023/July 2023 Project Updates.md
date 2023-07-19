@@ -6,11 +6,11 @@ author: Kathy Davis
 draft: true
 ---  
 <br>
-Hope all of you are having a great summer (or winter in the lower hemisphere)..Here is the first round of reporting from our Q2 2023 project developers. Catch up on all of their great work!   
+Hope all of you are having a great summer (or winter in the southern hemisphere)..Here is the first round of reporting from our Q2 2023 project developers. Catch up on all of their great work!   
 
 
 ## Q2 2023 Project Updates
-[clj-Nix: Jose Luis Lafuente Esquembre](clj-nix-jose-luis-lafuente-esquembre)  
+[clj-Nix: Jose Luis Lafuente Esquembre](#clj-nix-jose-luis-lafuente-esquembre)  
 [Clojure Camp: Daniel Higginbotham](#clojure-camp-daniel-higginbotham)  
 [Emmy: Sam Ritchie](#emmy-sam-ritchie)  
 [Jank: Jeaye Wilkerson](#jank-jeaye-wilkerson)   
@@ -19,8 +19,7 @@ Hope all of you are having a great summer (or winter in the lower hemisphere)..H
 [Portfolio: Christian Johansen](#portfolio-christian-johansen)  <br>
 <br>
 
-
-## clj-Nix: Jose Luis Lafuente Esquembre   
+## clj-Nix: Jose Luis LaFuente Esquembre  
 
 Published 12 July 2023.  Q2 2023 Funding Round Report 1.
 
