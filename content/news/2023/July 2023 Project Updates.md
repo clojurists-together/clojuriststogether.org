@@ -3,7 +3,7 @@ title: "July 2023 Project Updates"
 date: 2023-07-19T08:30:00+08:00
 summary: clj-Nix, Clojure Camp, Emmy, Jank, Lucene Grep, Neanderthal, Portfolio
 author: Kathy Davis
-draft: true
+
 ---  
 <br>
 Hope all of you are having a great summer (or winter in the lower hemisphere)..Here is the first round of reporting from our Q2 2023 project developers. Catch up on all of their great work!   
@@ -14,7 +14,7 @@ Hope all of you are having a great summer (or winter in the lower hemisphere)..H
 [Clojure Camp: Daniel Higginbotham](#clojure-camp-daniel-higginbotham)  
 [Emmy: Sam Ritchie](#emmy-sam-ritchie)  
 [Jank: Jeaye Wilkerson](#jank-jeaye-wilkerson)   
-[Lucene Grep: Dainius Jocas](lucene-grep-dainius-jocas)    
+[Lucene Grep: Dainius Jocas](#lucene-grep-dainius-jocas)    
 [Uncomplicate Neanderthal, Clojure CUDA, Deep Diamond: Dragan Djuric](#uncomplicate-neanderthal-clojure-cuda-deep-diamond-dragan-djuric)   
 [Portfolio: Christian Johansen](#portfolio-christian-johansen)  <br>
 <br>
