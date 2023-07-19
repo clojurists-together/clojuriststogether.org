@@ -8,18 +8,18 @@ draft: true
 <br>
 
 ## Q2 2023 Project Updates
-[clj-Nix: José Luis Lafuente Esquembre][(#clj-nix-josé-luis-lafuente-esquembre])   
-[Clojure Camp: Daniel Higginbotham][(#clojure-camp-daniel-higginbotham)    
-[Emmy: Sam Ritchie][(#emmy-sam-ritchie)   
-Jank  - Jeaye Wilkerson  
-Lucene Grep - Dainius Jocas  
-Neanderthal, Clojure CUDA, Deep Diamond - Dragan Duric  
-Portfolio - Christian Johansen  <br>
+[clj-Nix: Jose Luis Lafuente Esquembre](clj-nix-jose-luis-lafuente-esquembre)  
+[Clojure Camp: Daniel Higginbotham](#clojure-camp-daniel-higginbotham)  
+[Emmy: Sam Ritchie](#emmy-sam-ritchie)  
+[Jank: Jeaye Wilkerson](#jank-jeaye-wilkerson)   
+[Lucene Grep: Dainius Jocas](lucene-grep-dainius-jocas)    
+[Uncomplicate Neanderthal, Clojure CUDA, Deep Diamond to JavaCPP: Dragan Djuric](#uncomplicate-neanderthal-clojure-cuda-deep-diamond-to-javacpp-dragan-djuric)   
+[Portfolio: Christian Johansen](#portfolio-christian-johansen)  <br>
 <br>
 
 
+## clj-Nix: Jose Luis Lafuente Esquembre   
 
-## clj-Nix: José Luis Lafuente Esquembre
 Published 12 July 2023.  Q2 2023 Funding Round Report 1.
 
 ### Updates
@@ -81,7 +81,8 @@ second half of the roundReport 1 Q2 2023 Funding Round. , but I'll start to work
 
 ---
 
-## Clojure Camp: Daniel Higginbotham
+## Clojure Camp: Daniel Higginbotham  
+
 Published 30 June 2023.  Q2 2023 Funding Round Report 1.
 
 We are so grateful to Clojurists Together for funding Clojure Camp! Our next milestone is to expand our program to include two more study groups,  with two mentors and five students each. Over the past month, we’ve focused on clarifying and documenting the systems we’ve been using to effectively run a study group and help people learn Clojure.
@@ -95,7 +96,8 @@ We are so grateful to Clojurists Together for funding Clojure Camp! Our next mil
 
 ---
 
-## Emmy: Sam Ritchie
+## Emmy: Sam Ritchie  
+
 Published 3 July 2023.  Q2 2023 Funding Round Report 1.
 
 ### Done in June
@@ -300,7 +302,7 @@ I released most of the resulting code in a couple of gigantic commits instead of
 
 ---
 
-## Portfolio - Christian Johansen
+## Portfolio: Christian Johansen
 Published 14 July 2023.   Q2 2023 Funding Round Report 1.
 
 In the first half of the Q2 funding period I have focused my work on the main
