@@ -1111,11 +1111,6 @@
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "Josh Lemer",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Justin Tirrell",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1383,6 +1378,6 @@
   } ],
   "member_stats" : {
     "company" : 53,
-    "developer" : 198
+    "developer" : 197
   }
 }
