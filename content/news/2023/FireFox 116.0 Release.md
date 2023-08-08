@@ -13,7 +13,7 @@ author: Sebastian Zartner
 It's been quite a while since my last post regarding custom formatters in Firefox. Though the long wait is finally over. Firefox 116.0 ships with custom formatters support!  
 
 In addition to the overview below, you can review the [Firefox 116 release notes]( https://www.mozilla.org/en-US/firefox/116.0/releasenotes/) and the [tweets]( https://twitter.com/FirefoxDevTools/status/1686383218143240192?t=YU3ARV88wolWF9cwBVLrmQ&s=09) and [blog]( https://fxdx.dev/firefox-devtools-newsletter-116/) by the Firefox DevTools team.
-For more background and the initial decision to fund this important project, check out Clojurists Together’s [post](https://clojars.slack.com/archives/D04EH0UMJAE/p1691149708318019) from July 2022.
+For more background and the initial decision to fund this important project, check out Clojurists Together’s [post](https://clojars.slack.com/archives/D04EH0UMJAE/p1691149708318019) from February 2022.
 
 **So let's get to it!!**  
 
