@@ -17,14 +17,14 @@ For more background and the initial decision to fund this important project, che
 
 **So let's get to it!!**  
 
-The main point of bringing custom formatters to Firefox was to allow the [CLJS DevTools](https://github.com/binaryage/cljs-devtools) (custom formatters for ClosureScript) to work in Firefox.
+The main point of bringing custom formatters to Firefox was to allow the [CLJS DevTools](https://github.com/binaryage/cljs-devtools) (custom formatters for ClojureScript) to work in Firefox.
 To get to that point required a lot of work. First, I needed to find a way how to [parse the custom formatters](https://bugzilla.mozilla.org/show_bug.cgi?id=1734840) defined in a website in a safe way. To allow executing the code in a safe context, I've re-used a functionality that was already used by the Web Console to support [instant evaluation](https://firefox-source-docs.mozilla.org/devtools-user/web_console/the_command_line_interpreter/index.html#instant-evaluation). Though I had to [lift some of the restrictions imposed by that functionality](https://bugzilla.mozilla.org/show_bug.cgi?id=1801040). 
 
 After that, I switched the logic behind their display from the normal tree view used in o ther places within the Firefox DevTools [to a custom component](https://bugzilla.mozilla.org/show_bug.cgi?id=1801045). This simplified the logic behind them, allows to align the display to Chrome's implementation and paved the way to [handle the config object](https://bugzilla.mozilla.org/show_bug.cgi?id=1764443).  
 
 Also, once the basic functionality of the feature was there, I [added a way to gracefully handle errors within formatters](https://bugzilla.mozilla.org/show_bug.cgi?id=1764439) by logging them to the console.  
 
-Initially, my focus lied on the display within the [Web Console](https://firefox-source-docs.mozilla.org/devtools-user/web_console/ui_tour/index.html). Though the Web Console isn't the only part where custom formatters are supported. I've also [added support for them within the tooltips shown when hovering variables in the Debugger](https://bugzilla.mozilla.org/show_bug.cgi?id=1820333) while script execution is stopped. Thanks to the DevTools team, there's also [support for them within the Scopes](https://bugzilla.mozilla.org/show_bug.cgi?id=1828511) and [Watch Expressions panel](https://bugzilla.mozilla.org/show_bug.cgi?id=1828509	). All those changes included creating automated test cases for this new feature.  
+Initially, my focus lay on the display within the [Web Console](https://firefox-source-docs.mozilla.org/devtools-user/web_console/ui_tour/index.html). Though the Web Console isn't the only part where custom formatters are supported. I've also [added support for them within the tooltips shown when hovering variables in the Debugger](https://bugzilla.mozilla.org/show_bug.cgi?id=1820333) while script execution is stopped. Thanks to the DevTools team, there's also [support for them within the Scopes](https://bugzilla.mozilla.org/show_bug.cgi?id=1828511) and [Watch Expressions panel](https://bugzilla.mozilla.org/show_bug.cgi?id=1828509	). All those changes included creating automated test cases for this new feature.  
 
 Once those steps were finished, I could finally [remove the experimental flag](https://bugzilla.mozilla.org/show_bug.cgi?id=1752760), behind which this feature was implemented.
 And last but not least, I've also [added some documentation of the feature](https://bugzilla.mozilla.org/show_bug.cgi?id=1773035).
@@ -39,7 +39,7 @@ Once that's done, custom formatters are available the next time you open the Fir
 
 Download the latest version of the CLJS DevTools and integrate them into your project.
 
-With that, ClosureScript variables are displayed in a much more readable way in the DevTools. Here's an example that covers pretty much everything they do:  
+With that, ClojureScript variables are displayed in a much more readable way in the DevTools. Here's an example that covers pretty much everything they do:  
 
 ![image](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/05773116-4df6-4c96-9afa-d00b1fc2e1f2)
 
