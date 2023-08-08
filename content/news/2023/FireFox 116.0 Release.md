@@ -3,10 +3,9 @@ title: "FireFox 116.0 Release"
 date: 2023-08-08T08:30:00+08:00
 summary: Firefox 116.0 released with custom formatters support
 author: Sebastian Zartner
-draft: True
 
 ---  
-<br>
+
 
 ## Custom Formatters for Firefox  
 
@@ -40,7 +39,8 @@ Once that's done, custom formatters are available the next time you open the Fir
 
 Download the latest version of the CLJS DevTools and integrate them into your project.
 
-With that, ClosureScript variables are displayed in a much more readable way in the DevTools. Here's an example that covers pretty much everything they do:
+With that, ClosureScript variables are displayed in a much more readable way in the DevTools. Here's an example that covers pretty much everything they do:  
+
 ![image](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/05773116-4df6-4c96-9afa-d00b1fc2e1f2)
 
  
