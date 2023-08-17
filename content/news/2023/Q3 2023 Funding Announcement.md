@@ -15,17 +15,17 @@ Thanks to everyone for your hard work and creativity in putting these proposals 
 that makes the Clojurist Together community so awesome! 
 
 ### Projects Awarded $9K USD<br>
-**Bosquet:** Zygis Medelis<br>
-**Emmy:** Sam Ritchie<br>
-**Neanderthal, Diamond, ClojureCUDA, ClojureCL, ClojureCPP:** Dragan Djuric<br>
-**Quil:** Jack Rusher and Charles Comstock<br>
+[**Bosquet:** Zygis Medelis](#bosquet-zygis-medelis)<br>
+[**Emmy:** Sam Ritchie](#emmy-sam-ritchie)<br>
+[**Neanderthal, Diamond, ClojureCUDA, ClojureCL, ClojureCPP:** Dragan Djuric](#neanderthal-dragan-djuric)<br>
+[**Quil:** Jack Rusher and Charles Comstock](#quil-jack-rusher-and-charles-comstock)<br>
 
 
 ### Projects Awarded $2K USD<br>
-**Biff:** Jacob O'Bryant<br>
-**Deps-try:** Gert Goet<br>
-**GDL:** Michael Sappler<br>
-**Jank:** Jeaye Wilkerson<br>
+[**Biff:** Jacob O'Bryant](#biff-jacob-obryant)<br>
+[**Deps-try:** Gert Goet](#deps-try-gert-goet)<br>
+[**GDL:** Michael Sappler](#gdl-michael-sappler)<br>
+[**Jank:** Jeaye Wilkerson](#jank-jeaye-wilkerson)<br>
 
 ### LARGER PROJECTS AWARDED $9K USD<br>
 ---
@@ -84,7 +84,7 @@ Quil is often used to teach beginners, rapidly prototype visualizations and GUIs
 
 ---
 
-## EXPERIMENTAL OR SHORT-TERM PROJECTS AWARDED $2K USD <br>
+### EXPERIMENTAL OR SHORT-TERM PROJECTS AWARDED $2K USD <br>
 
 
 ## [Biff:](https://github.com/jacobobryant/biff) Jacob O’Bryant  
