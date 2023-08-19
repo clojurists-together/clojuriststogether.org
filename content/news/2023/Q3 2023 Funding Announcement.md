@@ -129,7 +129,7 @@ My original proposal was one project gdx. Since then I have created 3 public rep
 
 Right now there is not much to the game in terms of content (although much more is not shown). I am working on all 3 projects at once and trying to find the most simple and effective way to organise game code. Cyber Dungeon Quest is around 8500 lines of code and it was 10K a few months ago and I just focused only on cleaning the code and understanding the best way to do things.  
 
-More information can be found on my [GitHub] (https://GitHub.com/damn).  
+More information can be found on my [GitHub](https://GitHub.com/damn).  
 
 My near-term goals are to integrate the component system in cyber Dungeon Quest and make all the hard-coded values configurable and save most of the game state in only one place, and then build a ui to easily edit the domain objects. 
 Next is to find a way to reduce the amount of Side effects by using some kind of transaction system that is close in spirit to datomic architecture. I am not sure yet if I can directly use datomic for performance reasons, but it would make a lot of things quite easy like replays, timetravel, networking etc. 
