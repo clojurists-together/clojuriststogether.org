@@ -147,7 +147,6 @@
   cache, no class paths for looking up modules, no dependency loading, etc.  After this 
   work is done, jank will be in a position to integrate with leiningen and actually
   be used for multi-project files.
-
   current: true
   
 - name: Clj-kondo, babashka, cherry, SCI, nbb 
