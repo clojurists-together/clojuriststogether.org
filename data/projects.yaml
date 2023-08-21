@@ -60,7 +60,7 @@
   round: Long-term 2023
   current: true
 
-- Bosquet
+- name: Bosquet
   url: https://github.com/zmedelis/bosquet/
   tier: USD 9k
   date: 2023-09-01
@@ -69,7 +69,7 @@
   There are many types of AI applications and equally many approaches to building them. The scope
   of this work is to expand AI agent-based architecture support in Bosquet.
   current: true
-- Emmy
+- name: Emmy
   url: https://github.com/mentat-collective/emmy
   tier: USD 9k
   date: 2023-09-01
@@ -80,7 +80,7 @@
   visualizations, where multiple users can work together on the same page, save and share
   the work they’ve created and build on existing mathematical play and exploration.
   current: true
-- Neanderthal
+- name: Neanderthal
   url: https://github.com/uncomplicate
   tier: USD 9k
   date: 2023-09-01
@@ -90,7 +90,7 @@
   include a thorough re-visiting of existing code, writing more tests for edge cases, 
   discovering and fixing bugs while improving code, and improving documentation.
   current: true
-- Quil
+- name: Quil
   url: https://github.com/quil
   tier: USD 9k
   date: 2023-09-01
@@ -102,7 +102,7 @@
   improve the quality of the codebase (maintainability, testing, &c), and update 
   the examples/playground website.
   current: true
-- Biff
+- name: Biff
   url: https://github.com/jacobobryant/biff
   tier: USD 2k
   date: 2023-09-01
@@ -113,7 +113,7 @@
   a web app in the style of Biff without actually using any Biff code. 
   See a list of target content for this and future projects in the Roadmap section of Biff’s [content library](https://biffweb.com/docs/library/). 
   current: true
-- Deps-try  
+- name: Deps-try  
   url: https://github.com/eval/deps-try
   tier: USD 2k
   date: 2023-09-01
@@ -124,7 +124,7 @@
   would make it easy for someone to ‘step through’ some code. E.g. library authors could 
   add such a recipe-file to their repositories to demonstrate how to use a library.
   current: true
-- GDL  
+- name: GDL  
   url: https://github.com/damn/gdl  
   tier: USD 2k  
   date: 2023-09-01  
@@ -136,7 +136,7 @@
   the domain objects. Next, tackle a way to reduce the amount of Side effects by using 
   some kind of transaction system that is close in spirit to datomic architecture. 
   current: true
-- Jank
+- name: Jank
   url: https://github.com/jank-lang/jank
   tier: USD 2k
   date: 2023-09-01
