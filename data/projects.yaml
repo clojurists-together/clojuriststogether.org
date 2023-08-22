@@ -1,7 +1,7 @@
 # Long term funding 2023
-# Q3 2022
 # Q1 2023
 # Q2 2023
+# Q3 2023
 
 - name: Bozhidar Batsov
   tier: Long-term (USD 1.5k/month)
@@ -115,6 +115,16 @@
   date: 2023-06-01
   round: Q2 2023
   description: Improve Portfolio’s error handling and the  experience for new users by adding self-hosted documentation to guide users via its UI once set up. 
+  current: true
+
+- name: Bosquet
+  url: https://github.com/zmedelis/bosquet/
+  tier: USD 9k
+  date: 2023-08-21
+  round: Q3 2023
+  description: Bosquet’s goal is to make AI/LLM-based application building simple and productive. 
+  There are many types of AI applications and equally many approaches to building them. The scope
+  of this work is to expand AI agent-based architecture support in Bosquet.
   current: true
   
 - name: Aleph/Manifold
