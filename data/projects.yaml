@@ -63,7 +63,7 @@
 - name: Bosquet
   url: https://github.com/zmedelis/bosquet/
   tier: USD 9k
-  date: 2023-09-01
+  date: 2023-08-21
   round: Q3 2023
   description: Bosquet’s goal is to make AI/LLM-based application building simple and productive. 
   There are many types of AI applications and equally many approaches to building them. The scope
@@ -72,7 +72,7 @@
 - name: Emmy
   url: https://github.com/mentat-collective/emmy
   tier: USD 9k
-  date: 2023-09-01
+  date: 2023-08-21
   round: Q3 2023
   description: Last quarter, the visualization tools powered by Emmy’s mathematical functions
   were shipped in the Emmy-Viewers library.  This round will focus on a build-out of
@@ -83,7 +83,7 @@
 - name: Neanderthal
   url: https://github.com/uncomplicate
   tier: USD 9k
-  date: 2023-09-01
+  date: 2023-08-21
   round: Q3 2023
   description: The goal of this round is to polish the current Uncomplicate libraries
   (mainly Neanderthal, Deep Diamond, ClojureCUDA, ClojureCL, ClojureCPP). Work will
@@ -93,7 +93,7 @@
 - name: Quil
   url: https://github.com/quil
   tier: USD 9k
-  date: 2023-09-01
+  date: 2023-08-21
   round: Q3 2023
   description: Quil is a wrapper around the Processing computer graphics system that’s 
   used by artists and teachers around the world. It has been moribund for the last 
@@ -105,7 +105,7 @@
 - name: Biff
   url: https://github.com/jacobobryant/biff
   tier: USD 2k
-  date: 2023-09-01
+  date: 2023-08-21
   round: Q3 2023
   description: Write and post how-to articles and background essays that will help 
   Biff to bring more people into the Clojure Community.  This includes
@@ -139,7 +139,7 @@
 - name: Jank
   url: https://github.com/jank-lang/jank
   tier: USD 2k
-  date: 2023-09-01
+  date: 2023-09-01 
   round: Q3 2023
   description: Focus on implementing clojure.core/require and everything involved. 
   Right now, jank compiles everything from one file (and re-compiles clojure.core every
