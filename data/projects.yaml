@@ -88,6 +88,7 @@
   round: Q3 2023
   description: Quil is a wrapper around the Processing computer graphics system that’s used by artists and teachers around the world. It has been moribund for the last years, does not work with the latest version of Processing, nor on JVMs >1.8, nor on Apple arm processors. We would like to fix all of that, improve the quality of the codebase (maintainability, testing, &c), and update the examples/playground website.
   current: true
+  
 - name: Biff
   url: https://github.com/jacobobryant/biff
   tier: USD 2k
