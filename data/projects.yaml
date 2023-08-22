@@ -90,7 +90,7 @@
   include a thorough re-visiting of existing code, writing more tests for edge cases, 
   discovering and fixing bugs while improving code, and improving documentation.
   current: true
-- name: Quil
+- name: QUIL
   url: https://github.com/quil
   tier: USD 9k
   date: 2023-08-21
