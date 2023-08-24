@@ -65,14 +65,14 @@
   tier: USD 9k
   date: 2023-08-20
   round: Q3 2023
-  description: Bosquet’s goal is to make AI/LLM-based application building simple and productive.
+  description: The goal of Bosquet is to make AI/LLM-based application building simple and productive.
   current: true
 - name: Emmy
   url: https://github.com/mentat-collective/emmy
   tier: USD 9k
   date: 2023-08-20
   round: Q3 2023
-  description:This round will focus on a build-out of Google Docs-style experience for interactive documents with sophisticated mathematical visualizations, where multiple users can work together on the same page, save and share the work they’ve created and build on existing mathematical play and exploration.
+  description: This round will focus on a build-out of Google Docs-style experience for interactive documents with sophisticated mathematical visualizations, where multiple users can work together on the same page, save and share the work they’ve created and build on existing mathematical play and exploration.
   current: true
 - name: Neanderthal
   url: https://github.com/uncomplicate
@@ -145,7 +145,6 @@
   round: Q2 2023
   description: Implement ports of Neanderthal's MKL engines to JavaCPP, ClojureCUDA to JavaCPP's CUDA, and Neanderthal's GPU matrix engine to new, JavaCPP-based ClojureCUDA. Update Deep Diamond to use new infrastructure. 
   current: false
-  
 - name: clj-Nix
   url: https://github.com/jlesquembre/clj-nix
   tier: USD 2k
