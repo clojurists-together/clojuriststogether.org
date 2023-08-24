@@ -1,7 +1,7 @@
 ---
 title: "2023 Board Nominations and Our Annual Meeting"
 date: 2023-08-24T08:30:00+08:00
-summary: "Stand up for the 2023 elections and check in on our Annual Meeting"
+summary: "Stand for our 2023 elections and attend the Annual Meeting"
 author: Kathy Davis
 draft: true
 ---
@@ -13,20 +13,20 @@ Clojurists Together is having our third board elections, and our third annual me
 **Board nominations close:** Sept. 15, 2023  
 **Voting opens:** a few days after submissions close and the board has nominated candidates  
 **Voting closes:** Sept. 29, 2023  
-**Annual members meeting:** Oct. 10, 2023 - 10 am Pacific time  
+**Annual members meeting:** [Oct. 10, 2023 - 10 am Pacific time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Clojurists+Together+Members+Meeting&iso=20231010T10&p1=224&ah=1)  
 
 ### Board Elections
-As part of our commitment to transparency and community governance, Clojurists Together holds elections for board members. The Committee is responsible for governing the projects, selecting which projects are sponsored, administering the projects, and interacting with sponsors.
+As part of our commitment to [transparency](https://www.clojuriststogether.org/transparency/) and community governance, Clojurists Together holds elections for board members. The Committee is responsible for governing the projects, selecting which projects are sponsored, administering the projects, and interacting with sponsors.
 
 Committee members are elected for a two-year term. Each election cycle, half of our board seats come up for re-election. This year there are four seats available.
 
-If you are interested in standing for election, please fill out this form by Sept. 15th, 2023 -  5 pm Pacific Time. If you can’t access the form, contact us, and we can accept your nomination by email. Nominations are open to anyone, you don’t have to be a Clojurists Together member to stand for election. Our bylaws do require you to be a member if elected to the board, though we provide a stipend that offsets the cost of your membership.
+If you are interested in standing for election, please fill out this [form](https://forms.gle/h7ZzLFSZsq9NLShu9) by Sept. 15th, 2023 -  5 pm Pacific Time. If you can’t access the form, [contact us](https://www.clojuriststogether.org/contact), and we can accept your nomination by email. Nominations are open to anyone, you don’t have to be a Clojurists Together member to stand for election. Our bylaws do require you to be a member if elected to the board, though we provide a stipend that offsets the cost of your membership.
 
 You don’t have to have lots of experience with Clojure to apply. We want a committee made up of a cross-section of the Clojure community so that we have a wide range of perspectives when making decisions on which projects to fund.
 
 As part of the nomination, if we get more than 12 candidates for board membership, the board will nominate no more than 12 candidates. Our bylaws state:
 
-The Board shall nominate no more than 12 candidates seeking board membership in any given election. In nominating candidates for Director positions and in choosing the number of candidates to nominate overall, the Board shall use reasonable efforts to maintain a Board composition consisting of at least: (1) 25% female Directors, (2) 25% non-Caucasian Directors, and (3) 35% from any category(ies) of persons (e.g., race, gender, ability) commonly considered to have suffered from discrimination at some time and then-currently under-represented in the technology industry, in each case as determined by the Board in its reasonable discretion.
+>The Board shall nominate no more than 12 candidates seeking board membership in any given election. In nominating candidates for Director positions and in choosing the number of candidates to nominate overall, the Board shall use reasonable efforts to maintain a Board composition consisting of at least: (1) 25% female Directors, (2) 25% non-Caucasian Directors, and (3) 35% from any category(ies) of persons (e.g., race, gender, ability) commonly considered to have suffered from discrimination at some time and then-currently under-represented in the technology industry, in each case as determined by the Board in its reasonable discretion.
 
 **The main responsibilities of a committee member are:**
 - Participate in the general discussions of the month-to-month running of the program
@@ -39,7 +39,7 @@ Our bylaws requires that we do not have more than two committee members from any
 Elections will be held once the candidates are announced, and all Clojurists Together members will be eligible to vote.
 
 ### Annual Members Meeting
-We are also holding our third members meeting at 10 am  Pacific time, October 10, 2023. This will be an opportunity for Clojurists Together to share information about 2023 to date and discuss future plans, present the new board members, and most importantly take questions from and engage with members.
+We are also holding our third members meeting at [10 am Pacific time, October 10, 2023](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Clojurists+Together+members+meeting&iso=20221129T09&p1=224&ah=1). This will be an opportunity for Clojurists Together to share information about 2023 to date and discuss future plans, present the new board members, and most importantly take questions from and engage with members.
 
 **More details on this will follow including a videoconferencing link.**
 
