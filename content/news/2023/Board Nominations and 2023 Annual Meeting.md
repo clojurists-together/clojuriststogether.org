@@ -4,6 +4,7 @@ date: 2023-08-24T08:30:00+08:00
 summary: "Stand for our 2023 elections and attend the Annual Meeting"
 author: Kathy Davis
 
+
 ---
 Clojurists Together is having our third board elections, and our third annual members meeting.
 
