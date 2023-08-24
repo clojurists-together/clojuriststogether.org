@@ -102,13 +102,6 @@
   round: Q3 2023
   description: The plan is to add a possibility to deps-try (a CLI to start a rebel-readline powered REPL with libraries you want to try) to load recipes. A recipe  (i.e. a local or remote Clojure file) essentially seeds the REPL-history which would make it easy for someone to ‘step through’ some code. E.g. library authors could  add such a recipe-file to their repositories to demonstrate how to use a library.
   current: true
-- name: GDL
-  url: https://github.com/damn/gdl
-  tier: USD 2k
-  date: 2023-08-20
-  round: Q3 2023
-  description: The objective of GDL is to connect two things that are not connected: game development and clojure. Near-term goals are to integrate the component system in cyber Dungeon Quest and make all the hard-coded values configurable and save most of the game state in only one place, and then build a ui to easily edit the domain objects. Next, tackle a way to reduce the amount of Side effects by using some kind of transaction system that is close in spirit to datomic architecture.
-  current: true
 - name: Jank
   url: https://github.com/jank-lang/jank
   tier: USD 2k
