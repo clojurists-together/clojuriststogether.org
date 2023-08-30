@@ -1376,9 +1376,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Espen Amble Kolstad",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 53,
-    "developer" : 197
+    "developer" : 198
   }
 }
