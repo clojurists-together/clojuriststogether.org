@@ -1,12 +1,12 @@
 ---
 title: "August 2023 Short Term Project Updates" 
 date: 2023-09-02T08:30:00+08:00 
-summary: Aleph, clj Nix, Clojure Camp, Donut, Jank, Lucene Grep, Portfolio
+summary: Aleph, clj Nix, Clojure Camp, Donut, Jank, Lucene Grep, Neanderthal, Portfolio
 author: Kathy Davis
 draft: true
 
 ---
-Check out the latest from the projects funded in Q1 and Q2 of this year. We've got updates from Christian Johansen, Danius Jocas, Matthew Davidson, Daniel Higginbotham, José Luis Lafuente, and Jeaye Wilkerson. 
+Check out the latest from the projects funded in Q1 and Q2 of this year. We've got updates from Christian Johansen, Danius Jocas, Dragan Duric, Matthew Davidson, Daniel Higginbotham, José Luis Lafuente, and Jeaye Wilkerson. 
 
 ## Aleph/Manifold: Matthew Davidson  
 Q1 2023 Funding Round: Report 3
@@ -220,6 +220,50 @@ system that does monitoring in a scalable and distributed mode.
 - A blog post on using the shiny new [Word2VecSynonymFilter](https://lucene.apache.org/core/9_7_0/analysis/common/org/apache/lucene/analysis/synonym/word2vec/Word2VecSynonymFilter.html) from Clojure. <br>
 
 ---
+
+## Neanderthal: Dragan Duric  
+Q2 2023 Funding Round: Report 3  
+
+My goal with this round was to port Neanderthal, ClojureCUDA, and Deep Diamond to JavaCPP-based native libraries.
+
+More specifically, I proposed to implement:
+- a port of Neanderthal's MKL engines and CPU related stuff to JavaCPP instead of neanderhtal-native (for sure).
+- a port of ClojureCUDA to JavaCPP's CUDA. (probably, depending how 1 goes)
+- a port of Neanderthal's GPU matrix engine to new, JavaCPP-based ClojureCUDA (almost sure, if ClojureCUDA port goes well)
+- update Deep Diamond to use new infrastructure.
+- improve relevant internal parts of Neanderthal code with more macrology (double-edged sword, I know, but also concentrates bugs at one place each).
+- TESTS! to make sure everything works as well as before (of course!)
+
+In the third month, I continued with porting the Neandrthal's CUDA engine. This wasn't without challenges,
+but, surprisingly, it went well after all. After this, I hoped that Deep Diamond's port would be
+a bit easier, since a lot of internal details are behind the Neanderhtal's and ClojureCUDA's API.
+However, for proper MKL API support in JavaCPP I had to use the very latest 1.5.10 snapshots.
+These snapshots then mandate DNNL (Intel's tensor and DL library) upgrade to 3.2 (from the 2.7 that
+was used in Deep Diamond previously). Alas, Intel introduced many breaking changes in the API and
+implementation, so I have to play the good old discover-how-it-works-by-poking-around,
+and do the full blown re-implementation of DNNL API internal support in Deep Diamond,
+instead of just porting a few internals to JavaCPP's way of doing things. I've started
+doing that, and as of this writing, I've discovered how to solve most tricky changes, and
+I am in the middle of swithcing the internal/dnnl part of Deep Diamond.
+
+More specifically, here's the status by the proposed bullet points:
+- DONE: a port of Neanderthal's MKL engines and CPU related stuff to JavaCPP instead of neanderhtal-native (for sure).
+- DONE: a port of ClojureCUDA to JavaCPP's CUDA. (probably, depending how 1 goes)
+- DONE: a port of Neanderthal's GPU matrix engine to new, JavaCPP-based ClojureCUDA (almost sure, if ClojureCUDA port goes well)
+- PARTIAL (in progress): update Deep Diamond to use new infrastructure.
+- DONE: improve relevant internal parts of Neanderthal code with more macrology (double-edged sword, I know, but also concentrates bugs at one place each).
+- DONE (but of course, this is something that is ongoing anyway): TESTS! to make sure everything works as well as before (of course!)
+
+In short, although I haven't managed to do everything that I hoped I will, I'm satisfied
+since I've done the major parts, and the unexpected DNNL upgrade would have to be done anyway
+eventually.
+
+As I've been lucky to be granted one more CT funding round, which is centered on improving
+the overall quality of Uncomplicate libraries, upgrading the Deep Diamond support for DNNL
+and new CUDA infrastructure would fit well with the tasks that I'm planing to do in the Q3
+round anyway, so I expect that by the end of it I'd be very satisfied with the result.<br>
+
+----
 
 ## Portfolio: Christian Johansen  
 Q2 2023 Funding Round: Report 2
