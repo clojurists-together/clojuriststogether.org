@@ -222,7 +222,38 @@ system that does monitoring in a scalable and distributed mode.
 ---
 
 ## Neanderthal: Dragan Duric  
-Q2 2023 Funding Round: Report 3  
+**Published 31 July 2023. Q2 2023 Funding Round: Report 2.**  
+
+My goal with this round is to port Neanderthal, ClojureCUDA, and Deep Diamond to JavaCPP-based native libraries.
+
+This second month was dedicated to porting the CPU data structures and engines from DirectByteBuffer-based
+custom C bindings (Neanderthal Native) to JavaCPP-based MKL bindings. I managed to port all structures
+and engines, and make all related tests pass. I also hoped to do the CUDA engines and data structures
+to JavaCPP from the old JCUDA bindings, but I'm late on that. It's something that I hope to do in the
+first half of the third month.
+
+Of course, that wasn't a straight port. On one hand, I had to make internal changes and adaptations
+to support JavaCPP's way of doing things. On the other hand, I used this as an opportunity to
+explore avenues to decrease the code size through more macrology and to push more intensely towards
+"don't repeat yourself" style. It's a double-edged sword, I know, but MKL and other similar APIs
+are massive, and I am a sole person who has to support all these exotic obscure functionalities...
+
+Next month will be dedicated to porting Neanderthal's CUDA backend to use JavaCPP (via ClojureCPP).
+
+All in all, I feel that the project is still on track even though I would have liked to achieve more
+in the first two months, but it is what it is. I still think I'll be able to port ClojureCUDA, Neanderthal,
+and Deep Diamond to ClojureCPP by the end of the third month, or at least everything except Deep Diamond.
+
+What's equally important, I'm using every opportunity to *improve* everything that I could,
+instead of just taking the shortest cut at every corner. So the benefits will be felt long-term in
+these libraries, as well as this domain in Clojure.
+
+I released most of the resulting code in a couple of gigantic commits instead of many smaller ones
+because I didn't want any release to contain a completely broken library.<br>
+
+
+
+**Published 31 August 2023.  Q2 2023 Funding Round: Report 3** 
 
 My goal with this round was to port Neanderthal, ClojureCUDA, and Deep Diamond to JavaCPP-based native libraries.
 
