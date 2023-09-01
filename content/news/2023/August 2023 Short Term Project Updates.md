@@ -1,7 +1,10 @@
 ---
-title: "July 2023 Project Updates"
-date: 2023-05-10T08:30:00+08:00
-summary: clj-Nix, Clojure Camp, Emmy, 
-summary: clj-Nix, Clojure Camp, Emmy, FireFox, Jank, Lucene Grep, Neanderthal, Portfolio
+title: "August 2023 Short Term Project Updates" 
+date: 2023-09-02T08:30:00+08:00 
+summary: Aleph, clj Nix, Clojure Camp, Donut, Jank, Lucene Grep, Portfolio
 author: Kathy Davis
 draft: true
+
+---
+
+
