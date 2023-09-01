@@ -6,7 +6,7 @@ author: Kathy Davis
 draft: true
 
 ---
-Check out the latest from the projects funded in Q1 and Q2 of this year. We've got updates from Matthew Davidson, Daniel Higginbotham, xxxx,xxx,xxxx.
+Check out the latest from the projects funded in Q1 and Q2 of this year. We've got updates from Christian Johansen, Danius Jocas, Matthew Davidson, Daniel Higginbotham, José Luis Lafuente, and Jeaye Wilkerson. 
 
 ## Aleph/Manifold: Matthew Davidson  
 Q1 2023 Funding Round: Report 3
