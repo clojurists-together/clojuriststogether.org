@@ -192,7 +192,7 @@ All these libraries were updated to the newest Lucene version.
 
 ### Other things I've worked on
 
-### Lucene Grep  
+### Lucene Grep: Dainius Jocas  
 The `lucene-grep` was updated and released with these improvements:
 - Lucene 9.7.0;
 - The prepared Lucene Analyzers can now be added and loaded via SPI.  
