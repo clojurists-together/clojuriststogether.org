@@ -6,7 +6,7 @@ author: Kathy Davis
 draft: true
 
 ---
-Check out the latest from the projects funded in Q1 and Q2 of this year. We've got updates from Christian Johansen, Danius Jocas, Dragan Duric, Kira McLean, Matthew Davidson, Daniel Higginbotham, José Luis Lafuente, and Jeaye Wilkerson. 
+Check out the latest from the shorter term projects we funded in Q1 and Q2 2023 and Q3 2022. We've got updates from Christian Johansen, Danius Jocas, Dragan Duric, Kira McLean, Matthew Davidson, Daniel Higginbotham, José Luis Lafuente, and Jeaye Wilkerson. 
 
 ## Aleph/Manifold: Matthew Davidson  
 Project Update: 31 August 2023  
