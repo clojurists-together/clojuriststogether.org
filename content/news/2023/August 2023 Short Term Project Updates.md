@@ -9,7 +9,7 @@ draft: true
 Check out the latest from the projects funded in Q1 and Q2 of this year. We've got updates from Christian Johansen, Danius Jocas, Dragan Duric, Kira McLean, Matthew Davidson, Daniel Higginbotham, José Luis Lafuente, and Jeaye Wilkerson. 
 
 ## Aleph/Manifold: Matthew Davidson  
-Project Update: 31 August 2023
+Project Update: 31 August 2023  
 Q1 2023 Funding Round: Report 3
 
 ### HTTP/2 – server  
@@ -48,7 +48,7 @@ Q1 2023 Funding Round: Report 3
 
 
 ## clj-Nix: José Luis Lafuente
-Project Update: 30 August 2023
+Project Update: 30 August 2023  
 Q2 2023 Funding Round: Report 2  
   
 In the second half of this funding round, I worked on making the project more user-friendly.
@@ -78,8 +78,8 @@ I also spent some time fixing some bugs and doing some minor improvements, see t
 ---
 
 ## Clojure Camp: Daniel Higginbotham  
-Project Update: 31 July 2023
-Q2 2023 Funding Round: Report 2
+Project Update: 31 July 2023  
+Q2 2023 Funding Round: Report 2  
 
 At Clojure Camp we continue to build our materials for mentors and students and to hold a study group. We’ve also begun reaching out to industry stakeholders and mentors to shape a long-term roadmap for this effort that increases the likelihood that participants will be able to find paid work.  
 ### Accomplishments include:
@@ -91,25 +91,25 @@ At Clojure Camp we continue to build our materials for mentors and students and 
 --- 
 
 ## Clojure Cookbook: Kira McLean  
-Project Updates: 1 June and 2 September 2023
-Q3 2022 Funding Round: Reports 2 & 3
+Project Updates: 1 June and 2 September 2023  
+Q3 2022 Funding Round: Reports 2 & 3  
 
-**Report 2** 
+**Report 2:** 
 The last few months of development on the Clojure Data Cookbook have been focused on filling out the main reasons for the book, which have been translated in to some of the introductory chapters, as well as implementing more of the examples that are the core of the book. Whilst development has been slower than I would like due to the nature of being an adult with a hectic life, I'm excited about the progress that's been made and look forward to polishing the first three chapters over the summer. Some specific work that's been done in this last phase includes:
 - Sub-chapters 2.2 and 2.3 have been filled out more, along with more of the introductory part of the book. Examples for working with different types of databases are implemented as well as ones for exporting data from a notebook. Commits including this output are available on github.
 - Much effort has gone into coming to a consensus within the community around what default data science "stack" to implicitly endorse by its inclusion and usage in the book. We've settled on tablecloth for tabular data processing, Hanami for data visualisation, Neanderthal for math, along with several other libraries that are emerging as the "standard" ones for certain tasks working with data in Clojure.
  - This, and much of the thought that went into the introductory chapters, was mostly what formed the core of the talk I gave at the conj this year. More of the libraries that will be used are on slide 6 in the talk.
 - An initial solution for publishing the book online has been implemented. I'll want to improve the process as updates are published more regularly, but for now a basic skeleton of the book website is available online here: https://scicloj.github.io/clojure-data-cookbook/ (URL is likely to change for the final version, this one should work from June 1, 2023 for at least few months.)  
 
-**Report 3**
+**Report 3:** 
 In the last couple of months I've made progress toward completing the contents of the cookbook, but I've had to admit to myself that I took on more than I could realistically do in my spare time. Despite my best efforts there is still much work to be done compiling the book into a consumable format. I will continue this work indefinitely and still plan on finishing this project, but the demands of work and other commitments on my time have meant that progress is slower than I would have hoped on this side project. For now, the information is mostly complete and, with help from the community, best practices for performing a variety of data manipulation and analysis tasks are now documented in the cookbook repo. These are not filled in yet with prose or detailed explanations and not organized in a way that would be ideal to consume for someone who wasn't already comfortable navigating a Clojure codebase. But progress has definitely been made. The contents of the first three chapters are ready to be edited into a consumable format -- the examples are written, the code works, and the steps are documented. The next task on my list is organizing all of the code into sensible sections with explainer text surrounding them so that the book can be published somewhere online.<br>
 
 ---
 
 
 ## Donut: Daniel Higginbotham  
-Project Update: 6 August 2023
-Q1 2023 Funding Round: Report 3
+Project Update: 6 August 2023  
+Q1 2023 Funding Round: Report 3  
 
 Since the last update I've made progress on creating an auth plugin. There are implementations in place for cookie-based auth and a Sign In With Google button. The next step is to abstract these for more general usage.  
 Per-repo changes include:
@@ -158,8 +158,8 @@ I appreciate the support of Clojurists Together and the donut community!<br>
 ---
 
 ## Jank: Jeaye Wilkerson  
-Project Update: 26 August 2023
-Q2 2023 Funding Round: Report 2
+Project Update: 26 August 2023  
+Q2 2023 Funding Round: Report 2   
  
 The terms of this work were to research a new object model for jank, with the goal
 of optimizing allocations, while also making jank code faster across the board.
@@ -224,8 +224,8 @@ will only add to the momentum I currently have. <br>
 ---
 
 ## Lucene Grep: Dainius Jocas  
-Project Update: 1 September 2023
-Q2 2023 Funding Round: Report 2
+Project Update: 1 September 2023  
+Q2 2023 Funding Round: Report 2  
 
 The highlight of this update is the release of the [lucene-monitor](https://github.com/dainiusjocas/lucene-monitor) Clojure library.
 
@@ -234,7 +234,7 @@ I've tried to make the library simple to get started and flexible **when** neede
 `lucene-monitor` provides a pretty tasty data-driven API and, given my recent interest in Clojure transducers, a transducer compatible API.
 Check it out and let me know what you think!  
 
-## Updates  
+### Updates  
 
 As of now, 4 Clojure libraries are extracted out of the `lucene-grep`:  
 - [lucene-monitor](https://github.com/dainiusjocas/lucene-monitor): a wrapper for the Lucene Monitor framework;
@@ -244,9 +244,7 @@ As of now, 4 Clojure libraries are extracted out of the `lucene-grep`:
 
 All these libraries were updated to the newest Lucene version.  
 
-### Other things I've worked on
-
-### Lucene Grep: Dainius Jocas  
+### Other things I've worked on:  
 The `lucene-grep` was updated and released with these improvements:
 - Lucene 9.7.0;
 - The prepared Lucene Analyzers can now be added and loaded via SPI.  
@@ -276,10 +274,10 @@ system that does monitoring in a scalable and distributed mode.
 ---
 
 ## Neanderthal: Dragan Duric  
-Project Update: 31 July and 31 August 2023
-Q2 2023 Funding Round: Reports 2 and 3
+Project Update: 31 July and 31 August 2023  
+Q2 2023 Funding Round: Reports 2 and 3  
 
-**Report 2**  
+**Report 2:**
 My goal with this round is to port Neanderthal, ClojureCUDA, and Deep Diamond to JavaCPP-based native libraries.
 
 This second month was dedicated to porting the CPU data structures and engines from DirectByteBuffer-based
@@ -309,7 +307,7 @@ because I didn't want any release to contain a completely broken library.<br>
 
 
 
-**Report 3** 
+**Report 3:** 
 My goal with this round was to port Neanderthal, ClojureCUDA, and Deep Diamond to JavaCPP-based native libraries.
 
 More specifically, I proposed to implement:
@@ -352,8 +350,8 @@ round anyway, so I expect that by the end of it I'd be very satisfied with the r
 ----
 
 ## Portfolio: Christian Johansen  
-Project Update: 31 August 2023
-Q2 2023 Funding Round: Report 2
+Project Update: 31 August 2023  
+Q2 2023 Funding Round: Report 2  
 
 ## Portfolio project update  
 In the second half of the Q2 funding period I have worked on the plugin capabilities in Portfolio, the new accessibility plugin, and barked up some wrong trees in an attempt at fixing a tricky problem 😅
