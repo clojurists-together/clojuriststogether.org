@@ -8,6 +8,10 @@ draft: true
 ---
 Check out the latest from the shorter term projects we funded in Q1 and Q2 2023 and Q3 2022. We've got updates from Christian Johansen, Danius Jocas, Dragan Duric, Kira McLean, Matthew Davidson, Daniel Higginbotham, José Luis Lafuente Esquembre, and Jeaye Wilkerson. 
 
+A quick reminder to seriously consider volunteering for a 2-year term on our board. We have 4 positions opening up this year. The deadline for submitting your name is Sept. 15. You can help us to support all the great work underway and continue to get the word out about the Clojurists Together funding opporunities and awesome community. Find more information [here](https://www.clojuriststogether.org/news/2023-board-nominations-and-our-annual-meeting).
+
+
+
 ## Aleph/Manifold: Matthew Davidson  
 Project Update: 31 August 2023  
 Q1 2023 Funding Round: Report 3
