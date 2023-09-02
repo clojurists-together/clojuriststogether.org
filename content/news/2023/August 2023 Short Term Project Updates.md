@@ -6,7 +6,7 @@ author: Kathy Davis
 draft: true
 
 ---
-Check out the latest from the shorter term projects we funded in Q1 and Q2 2023 and Q3 2022. We've got updates from Christian Johansen, Danius Jocas, Dragan Duric, Kira McLean, Matthew Davidson, Daniel Higginbotham, José Luis Lafuente, and Jeaye Wilkerson. 
+Check out the latest from the shorter term projects we funded in Q1 and Q2 2023 and Q3 2022. We've got updates from Christian Johansen, Danius Jocas, Dragan Duric, Kira McLean, Matthew Davidson, Daniel Higginbotham, José Luis Lafuente Esquembre, and Jeaye Wilkerson. 
 
 ## Aleph/Manifold: Matthew Davidson  
 Project Update: 31 August 2023  
@@ -47,7 +47,7 @@ Q1 2023 Funding Round: Report 3
 ---
 
 
-## clj-Nix: José Luis Lafuente
+## clj-Nix: José Luis Lafuente Esquembre
 Project Update: 30 August 2023  
 Q2 2023 Funding Round: Report 2  
   
@@ -102,7 +102,11 @@ The last few months of development on the Clojure Data Cookbook have been focuse
 - An initial solution for publishing the book online has been implemented. I'll want to improve the process as updates are published more regularly, but for now a basic skeleton of the book website is available online here: https://scicloj.github.io/clojure-data-cookbook/ (URL is likely to change for the final version, this one should work from June 1, 2023 for at least few months.)  
 
 **Report 3:** 
-In the last couple of months I've made progress toward completing the contents of the cookbook, but I've had to admit to myself that I took on more than I could realistically do in my spare time. Despite my best efforts there is still much work to be done compiling the book into a consumable format. I will continue this work indefinitely and still plan on finishing this project, but the demands of work and other commitments on my time have meant that progress is slower than I would have hoped on this side project. For now, the information is mostly complete and, with help from the community, best practices for performing a variety of data manipulation and analysis tasks are now documented in the cookbook repo. These are not filled in yet with prose or detailed explanations and not organized in a way that would be ideal to consume for someone who wasn't already comfortable navigating a Clojure codebase. But progress has definitely been made. The contents of the first three chapters are ready to be edited into a consumable format -- the examples are written, the code works, and the steps are documented. The next task on my list is organizing all of the code into sensible sections with explainer text surrounding them so that the book can be published somewhere online.<br>
+In the last couple of months I've made progress toward completing the contents of the cookbook, but I've had to admit to myself that I took on more than I could realistically do in my spare time. Despite my best efforts there is still much work to be done compiling the book into a consumable format.  
+
+I will continue this work indefinitely and still plan on finishing this project, but the demands of work and other commitments on my time have meant that progress is slower than I would have hoped on this side project.  
+
+For now, the information is mostly complete and, with help from the community, best practices for performing a variety of data manipulation and analysis tasks are now documented in the cookbook repo. These are not filled in yet with prose or detailed explanations and not organized in a way that would be ideal to consume for someone who wasn't already comfortable navigating a Clojure codebase. But progress has definitely been made. The contents of the first three chapters are ready to be edited into a consumable format -- the examples are written, the code works, and the steps are documented. The next task on my list is organizing all of the code into sensible sections with explainer text surrounding them so that the book can be published somewhere online.<br>
 
 ---
 
@@ -214,7 +218,7 @@ I'm very happy to know that Clojurists Together is sponsoring jank development
 *again*, for the upcoming quarter. The sponsored work will be focused on
 building out jank's module system, implementing `clojure.core/require`,
 preparing for iterative compilation, and setting the stage for AOT compilation
-and leiningen integration.
+and leiningen integration.  
 
 After this work, using jank for multi-file projects will be possible. Soon after
 that, I hope, we can start using leiningen to manage jank projects. This will
@@ -245,6 +249,8 @@ As of now, 4 Clojure libraries are extracted out of the `lucene-grep`:
 All these libraries were updated to the newest Lucene version.  
 
 ### Other things I've worked on:  
+
+### Lucene Grep  
 The `lucene-grep` was updated and released with these improvements:
 - Lucene 9.7.0;
 - The prepared Lucene Analyzers can now be added and loaded via SPI.  
@@ -311,16 +317,16 @@ because I didn't want any release to contain a completely broken library.<br>
 My goal with this round was to port Neanderthal, ClojureCUDA, and Deep Diamond to JavaCPP-based native libraries.
 
 More specifically, I proposed to implement:
-- a port of Neanderthal's MKL engines and CPU related stuff to JavaCPP instead of neanderhtal-native (for sure).
+- a port of Neanderthal's MKL engines and CPU related stuff to JavaCPP instead of neanderthal-native (for sure).
 - a port of ClojureCUDA to JavaCPP's CUDA. (probably, depending how 1 goes)
 - a port of Neanderthal's GPU matrix engine to new, JavaCPP-based ClojureCUDA (almost sure, if ClojureCUDA port goes well)
 - update Deep Diamond to use new infrastructure.
 - improve relevant internal parts of Neanderthal code with more macrology (double-edged sword, I know, but also concentrates bugs at one place each).
 - TESTS! to make sure everything works as well as before (of course!)
 
-In the third month, I continued with porting the Neandrthal's CUDA engine. This wasn't without challenges,
+In the third month, I continued with porting the Neanderthal's CUDA engine. This wasn't without challenges,
 but, surprisingly, it went well after all. After this, I hoped that Deep Diamond's port would be
-a bit easier, since a lot of internal details are behind the Neanderhtal's and ClojureCUDA's API.
+a bit easier, since a lot of internal details are behind the Neanderthal's and ClojureCUDA's API.
 However, for proper MKL API support in JavaCPP I had to use the very latest 1.5.10 snapshots.
 These snapshots then mandate DNNL (Intel's tensor and DL library) upgrade to 3.2 (from the 2.7 that
 was used in Deep Diamond previously). Alas, Intel introduced many breaking changes in the API and
@@ -328,10 +334,10 @@ implementation, so I have to play the good old discover-how-it-works-by-poking-a
 and do the full blown re-implementation of DNNL API internal support in Deep Diamond,
 instead of just porting a few internals to JavaCPP's way of doing things. I've started
 doing that, and as of this writing, I've discovered how to solve most tricky changes, and
-I am in the middle of swithcing the internal/dnnl part of Deep Diamond.
+I am in the middle of switching the internal/dnnl part of Deep Diamond.
 
 More specifically, here's the status by the proposed bullet points:
-- DONE: a port of Neanderthal's MKL engines and CPU related stuff to JavaCPP instead of neanderhtal-native (for sure).
+- DONE: a port of Neanderthal's MKL engines and CPU related stuff to JavaCPP instead of neanderthal-native (for sure).
 - DONE: a port of ClojureCUDA to JavaCPP's CUDA. (probably, depending how 1 goes)
 - DONE: a port of Neanderthal's GPU matrix engine to new, JavaCPP-based ClojureCUDA (almost sure, if ClojureCUDA port goes well)
 - PARTIAL (in progress): update Deep Diamond to use new infrastructure.
@@ -344,7 +350,7 @@ eventually.
 
 As I've been lucky to be granted one more CT funding round, which is centered on improving
 the overall quality of Uncomplicate libraries, upgrading the Deep Diamond support for DNNL
-and new CUDA infrastructure would fit well with the tasks that I'm planing to do in the Q3
+and new CUDA infrastructure would fit well with the tasks that I'm planning to do in the Q3
 round anyway, so I expect that by the end of it I'd be very satisfied with the result.<br>
 
 ----
@@ -355,7 +361,7 @@ Q2 2023 Funding Round: Report 2
 
 In the second half of the Q2 funding period I have worked on the plugin capabilities in Portfolio, the new accessibility plugin, and barked up some wrong trees in an attempt at fixing a tricky problem 😅
 
-Plugins can now inject JavaScripts into the iframe document where Portfolio renders your "scenes" (your component examples). In order for these scripts to be able to do something useful, Portfolio will use `window.postMessage` to announce when components have been rendered, and listen for commands via the same channel - allowing custom scripts to interact with Portfolio's data storage (and, by extension render interesting things in its UI).
+Plugins can now inject JavaScripts into the iframe document where Portfolio renders your "scenes" (your component examples). In order for these scripts to be able to do something useful, Portfolio will use `window.postMessage` to announce when components have been rendered, and listen for commands via the same channel - allowing custom scripts to interact with Portfolio's data storage (and, by extension render interesting things in its UI).  
 
 I built a new accessibility extension on top of the new capabilities. It uses
 [axe-core](https://github.com/dequelabs/axe-core) to assess your components. Validation can be switched on and off in the UI (or completely disabled in
@@ -365,7 +371,7 @@ the left-hand menu, which should make it easier to track down non-conforming
 components.
 
 The accessibility feature isn't quite ready yet, but I'm expecting to release it in September.
-As for my barking at trees, I have tried to solve an outstanding issue in Portfolio's rendering. Portfolio invokes components in the main process, then renders the result in an iframed document. This breaks down for components that are side-effecty, such as some solutions for CSS-in-CLJS (which stick style tags
+As for my barking at trees, I have tried to solve an outstanding issue in Portfolio's rendering. Portfolio invokes components in the main process, then renders the result in an iframed document. This breaks down for components that are side-effects, such as some solutions for CSS-in-CLJS (which stick style tags
 in `<head>`). I have tried to a few ways to solve this in a way that supports the current API, but all of them have had worse side-effects than the current situation, so I have put this issue on the back-burner.  
 
 Once again thank you so much for the support. Portfolio is a much better tool thanks to it.
