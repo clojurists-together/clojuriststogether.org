@@ -3,7 +3,7 @@ title: "August 2023 Short Term Project Updates"
 date: 2023-09-02T08:30:00+08:00 
 summary: Aleph, clj Nix, Clojure Camp, Clojure Cookbook, Donut, Jank, Lucene Grep, Neanderthal, Portfolio
 author: Kathy Davis
-draft: true
+
 
 ---
 Check out the latest from the shorter term projects we funded in Q1 and Q2 2023 and Q3 2022. We've got updates from Christian Johansen, Danius Jocas, Dragan Duric, Kira McLean, Matthew Davidson, Daniel Higginbotham, José Luis Lafuente Esquembre, and Jeaye Wilkerson. 
