@@ -161,34 +161,65 @@ I appreciate the support of Clojurists Together and the donut community!<br>
 Project Update: 26 August 2023
 Q2 2023 Funding Round: Report 2
  
-The terms of this work were to research a new object model for jank, with the goal of optimizing allocations, while also making jank code faster across the board. This is my second and final report and I'm excited to share my results!
+The terms of this work were to research a new object model for jank, with the goal
+of optimizing allocations, while also making jank code faster across the board.
+This is my second and final report and I'm excited to share my results!
 
-Please note that I have a very detailed breakdown of my results, with several more graphs, here: https://jank-lang.org/blog/2023-08-26-object-model/
+Please note that I have a very detailed breakdown of my results, with several
+more graphs, here: https://jank-lang.org/blog/2023-08-26-object-model/
 
-** To briefly summarize, this quarter I:**
-•	Prototyped a new object model for jank
-•	Ported the whole jank compiler and runtime to the new object model
-•	Benchmarked thoroughly and continuously
+To briefly summarize, this quarter I:
 
-### Overall ray tracing speeds  
-I'm very pleased to report that jank is now nearly twice as fast at running the same ray tracing code as Clojure JVM, with jank clocking in at 36.96ms versus Clojure's 69.44ms. Since jank was only marginally faster than Clojure at the start of the quarter, this also means the improvements in the past quarter have been nearly 2x overall.
+* Prototyped a new object model for jank
+* Ported the whole jank compiler and runtime to the new object model
+* Benchmarked thoroughly and continuously
 
- 
-### Other runtime objects  
-Maps, vectors, and strings have all seen performance improvements to both allocations and usage. Some improvements were marginal, while others were in the 2x region. My full post linked above goes more into detail and talks about potential future gains.
+### Overall ray tracing speeds
+I'm very pleased to report that **jank is now nearly twice as fast at running the same ray tracing code as Clojure JVM**,
+with jank clocking in at 36.96ms versus Clojure's 69.44ms. Since jank was only
+marginally faster than Clojure at the start of the quarter, this also means the
+improvements in the past quarter have been nearly 2x overall.
 
-### Fast math  
-Math has sped up the most out of anything, which bodes very well for our ray tracing numbers. Here are the results for fully boxed subtraction, where no type info is known, subtraction between an unknown box and an unboxed double, and fully unboxed subtraction. In all cases, jank is now significantly faster than Clojure JVM. These wins apply across the board for all binary math operations.
+<object type="image/svg+xml" data="https://jank-lang.org/img/blog/2023-08-26-object-model/ray-tracing.plot.svg" width="50%">
+  <img src="https://jank-lang.org/img/blog/2023-08-26-object-model/ray-tracing.plot.svg" width="50%"></img>
+</object>
 
- 
-### Thank you!  
-Thank you, Clojurists Together, for sponsoring this work. jank has climbed quite the mountain of performance gains to now challenge the JVM in these benchmarks.
+### Other runtime objects
+Maps, vectors, and strings have all seen performance improvements to both
+allocations and usage. Some improvements were marginal, while others were in the
+2x region. My full post linked above goes more into detail and talks about
+potential future gains.
 
-This is the last performance-oriented bout of work for a while. jank is where it needs to be, I think, in order for me to start investing more in pushing the compiler and runtime features closer to parity with Clojure JVM.
+### Fast math
+Math has sped up the most out of anything, which bodes very well for our ray
+tracing numbers. Here are the results for fully boxed subtraction, where no
+type info is known, subtraction between an unknown box and an unboxed
+double, and fully unboxed subtraction. In all cases, jank is now significantly
+faster than Clojure JVM. These wins apply across the board for all binary math
+operations.
 
-I'm very happy to know that Clojurists Together is sponsoring jank development again, for the upcoming quarter. The sponsored work will be focused on building out jank's module system, implementing clojure.core/require, preparing for iterative compilation, and setting the stage for AOT compilation and leiningen integration.
+<object type="image/svg+xml" data="https://jank-lang.org/img/blog/2023-08-26-object-model/boxed-sub.plot.svg" width="50%">
+  <img src="https://jank-lang.org/img/blog/2023-08-26-object-model/boxed-sub.plot.svg" width="50%"></img>
+</object>
 
-After this work, using jank for multi-file projects will be possible. Soon after that, I hope, we can start using leiningen to manage jank projects. This will mean adventurous devs can start actually using jank themselves, which I expect will only add to the momentum I currently have. <br>  
+### Thank you!
+Thank you, Clojurists Together, for sponsoring this work. jank has climbed quite
+the mountain of performance gains to now challenge the JVM in these benchmarks.
+
+This is the last performance-oriented bout of work for a while. jank is where it
+needs to be, I think, in order for me to start investing more in pushing the
+compiler and runtime features closer to parity with Clojure JVM.  
+
+I'm very happy to know that Clojurists Together is sponsoring jank development
+*again*, for the upcoming quarter. The sponsored work will be focused on
+building out jank's module system, implementing `clojure.core/require`,
+preparing for iterative compilation, and setting the stage for AOT compilation
+and leiningen integration.
+
+After this work, using jank for multi-file projects will be possible. Soon after
+that, I hope, we can start using leiningen to manage jank projects. This will
+mean adventurous devs can start actually using jank themselves, which I expect
+will only add to the momentum I currently have. <br>  
 
 ---
 
