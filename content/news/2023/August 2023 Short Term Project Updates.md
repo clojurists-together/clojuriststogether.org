@@ -3,10 +3,11 @@ title: "August 2023 Short Term Project Updates"
 date: 2023-09-02T08:30:00+08:00 
 summary: Aleph, clj Nix, Clojure Camp, Clojure Cookbook, Donut, Jank, Lucene Grep, Neanderthal, Portfolio
 author: Kathy Davis
-draft: true
+
 
 ---
-Check out the latest from the shorter term projects we funded in Q1 and Q2 2023 and Q3 2022. We've got updates from Christian Johansen, Danius Jocas, Dragan Duric, Kira McLean, Matthew Davidson, Daniel Higginbotham, José Luis Lafuente Esquembre, and Jeaye Wilkerson. 
+
+Check out the latest from the shorter term projects we funded in Q1 and Q2 2023 and Q3 2022. We've got updates from Christian Johansen, Daniel Higginbotham, Danius Jocas, Dragan Duric, Jeaye Wilkerson, José Luis Lafuente Esquembre, Kira McLean, and Matthew Davidson.
 
 A quick reminder to seriously consider volunteering for a 2-year term on our board. We have 4 positions opening up this year. The deadline for submitting your name is Sept. 15. You can help us to support all the great work underway and continue to get the word out about the Clojurists Together funding opportunities and our awesome community. Find more information [here](https://www.clojuriststogether.org/news/2023-board-nominations-and-our-annual-meeting).<br>
 
