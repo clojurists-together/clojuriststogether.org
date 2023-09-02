@@ -353,7 +353,6 @@ round anyway, so I expect that by the end of it I'd be very satisfied with the r
 Project Update: 31 August 2023  
 Q2 2023 Funding Round: Report 2  
 
-## Portfolio project update  
 In the second half of the Q2 funding period I have worked on the plugin capabilities in Portfolio, the new accessibility plugin, and barked up some wrong trees in an attempt at fixing a tricky problem 😅
 
 Plugins can now inject JavaScripts into the iframe document where Portfolio renders your "scenes" (your component examples). In order for these scripts to be able to do something useful, Portfolio will use `window.postMessage` to announce when components have been rendered, and listen for commands via the same channel - allowing custom scripts to interact with Portfolio's data storage (and, by extension render interesting things in its UI).
