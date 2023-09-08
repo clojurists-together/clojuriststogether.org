@@ -27,9 +27,9 @@ The biggest change was one I thought would be really tiny. We upgraded our depen
 
 ### Lingy
 
-When testing and providing feedback on the development of [Lingy, a new Clojure implementation running on Perl](https://github.com/lingy-lang/lingy), I wanted to be able to connect Calva to the Lingy REPL. So that caused me to start and participate in the development of a [Lingy nREPL server](https://github.com/lingy-lang/lingy#nrepl-support). Now users of Calva, and any other nREPL client, can interact with their Lingy application from the editor. (Yes, so this was partly about Calva 😄.) <br>  
+When testing and providing feedback on the development of [Lingy, a new Clojure implementation running on Perl](https://github.com/lingy-lang/lingy), I wanted to be able to connect Calva to the Lingy REPL. So that caused me to start and participate in the development of a [Lingy nREPL server](https://github.com/lingy-lang/lingy#nrepl-support). Now users of Calva, and any other nREPL client, can interact with their Lingy application from the editor. (Yes, so this was partly about Calva 😄.)<br>  
 
-—
+---
 
 ## Carmine V4: Peter Taoussanis  
 
@@ -66,11 +66,9 @@ My current [roadmap](https://www.taoensso.com/clojure/roadmap) includes:
 - **September**: stable [Nippy](https://www.taoensso.com/nippy) v3.3 and [Carmine](https://www.taoensso.com/carmine) v3.3 releases.
 - **October**: first public release of [Tempel](https://www.taoensso.com/tempel), a new **data security framework** that I plan to talk more about closer the time.
 
-I'll also be continuing work on the new telemetry library (currently named [Telemere](https://taoensso.com/telemere)), and on the ongoing documentation improvements.
+I'll also be continuing work on the new telemetry library (currently named [Telemere](https://taoensso.com/telemere)), and on the ongoing documentation improvements. <br>
 
-\- [Peter Taoussanis](https://www.taoensso.com) <br>
-
-—
+---
 
 ## CIDER: Bohzidar Batsov  
 The last couple of months were very productive for CIDER and all of its related projects. This was mostly due to our long-term contributor `vemv` being between jobs and eager to tackle some of the major items on our TODO list. I've decided to use a sizeable chunk of the donation money CIDER had accumulated over at OpenCollective to fund `vemv`'s work on CIDER & friends, and the results were great. Some highlights:
@@ -92,7 +90,7 @@ On an unrelated note - `clojure-ts-mode` is now available on NonGNU ELPA. Its su
 
 That's all I have for you today! I expect to write a few more detailed blog posts on some of the topics I mentioned here once CIDER 1.8 has been released. <br>
 
-—
+---
 
 ## clj-Kondo: Michiel Borkent  
 
@@ -282,7 +280,8 @@ Click for more details
 Published: 2023-08-30
 Tagged: clojure oss updates  <br>
 
-—
+---
+
 ## Clojars: Toby Crawley  
                                                                                                                                                                          
 **Commit Logs:** [`clojars-web`](https://github.com/clojars/clojars-web/compare/5fdef58b17d710fdf6b2ea886a520c84e45af624...0a5eb2175e7b417fc9e64bcb6fb87f6d15cbddbc), [`infrastructure`](https://github.com/clojars/infrastructure/compare/5d2811bdfd95cf1320af2a2bea2fed2ce0cf9b87...ad8335b312a81567a4c78ef4fe1587741794534c)
@@ -302,9 +301,9 @@ And a few quality of life improvements:
 
 The [CHANGELOG file](https://github.com/clojars/clojars-web/blob/main/CHANGELOG.org) also covers any user-facing changes.
 
-_Note: this report is also available on [tcrawley.org](https://tcrawley.org/clojars-worklog/2023/index.html#aug-2023) <br>
+Note: this report is also available on [tcrawley.org](https://tcrawley.org/clojars-worklog/2023/index.html#aug-2023) <br>
 
-—
+---
 
 ## ClojureDart: Christophe Grandet
 
@@ -348,7 +347,7 @@ Amongst them:
   The intent is to allow to retry failed IO (or trigger refreshes) and be able to tie a spinner lifetime to the current try.
 * the compiler now watches for changes into `:local/root` deps to ease codevelopment of libs and apps.
 
-### Future work
+### Future Work  
 ### ClojureDart
 * Publish the Flutter-only REPL
 * Multimethods to allow some libs to be ported
@@ -361,10 +360,9 @@ Amongst them:
 * gen tests
 * …<br>  
 
-—
-## Clojar.org: Sean Corfield  
+---
 
- :tags ["clojure" "clojure-doc.org" "honeysql" "clj-commons" "open source" "community" "clojurists together" "polylith"]}
+## Clojar.org: Sean Corfield  
 
 In my [previous Long-Term Funding update](https://corfield.org/blog/2023/06/30/long-term-funding-3/)
 I said I would review/overhaul the "ecosystem" and "tutorials" sections.<!--more-->
@@ -482,12 +480,14 @@ information is all on the main website now:
 In September/October, I'm hoping to complete a review and update of the
 "tutorials" and "ecosystem" sections of clojure-doc.org, and then in the
 remaining period, I'll tackle the "cookbooks" section and make another
-pass of "TBD" items in the "language" section.<br>  
+pass of "TBD" items in the "language" section.  
 
-—
+:tags ["clojure" "clojure-doc.org" "honeysql" "clj-commons" "open source" "community" "clojurists together" "polylith"]}
+<br>  
+
+---
 
 ## Clojure - lsp: Eric Dallo  
-# Eric Dallo
 
 During this year I've been working on clojure-lsp support for IntelliJ, it was the only mainstream editor that didn't have a good way to use clojure-lsp features, it was really hard to integrate with the LSP protocol because of Intellij's API but making the plugin in Clojure helped a little bit with that, so after a lot of work, I'm excited and happy to announce [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij), a new plugin for IntelliJ to have all clojure-lsp features available!
 
@@ -539,67 +539,10 @@ The main highlight are performance and memory improvement, also we had formattin
   - Improve memory usage during cache save, avoiding "Out of memory" exceptions.
   - Prevent file rename when a namespace is defined in multiple files #1574
   - Fix user formatti
-Last two months have been DataScript-focused. I’ve implemented a major new feature: pluggable durable storages. I’ve also wrote SQL adapter for them and migrated Grumpy Website to DataScript + SQLite to battle-test the implementation.
+Last two months have been DataScript-focused. I’ve implemented a major new feature: pluggable durable storages. I’ve also wrote SQL adapter for them and migrated Grumpy Website to DataScript + SQLite to battle-test the implementation.<br>
 
-It has been working well so far (~2 weeks, lots of updates).
 
-[DataScript](https://github.com/tonsky/datascript):
-
-- New incremental/lazy storage implementation. Store large databases on disk/in other DBs efficiently, load back only the parts you actually use, all completely transparent for user. It even has docs!
-- [New SQL storage implementations](https://github.com/tonsky/datascript-storage-sql), supporting MySQL, PostgreSQL, H2 and SQLite.
-- Schema altering (compatible changes only) via `d/reset-schema!` or `d/with-schema`
-- JVM: `branching-factor` can now be set per-database
-- New API: `d/find-datom`. Works like `d/datoms`, but only returns single datom and is faster than `(first (d/datoms ...))`
-- CLJS: Optimized various parts of CLJS version related to compilation and index access
-- Do not throw from `d/touch` when finding hanging refs
-
-[Grumpy Website](https://github.com/tonsky/grumpy/):
-
-- Migrate from storing posts in EDN to storing them in DataScript + persist in SQLite storage
-- Battle-test DataScript storage
-- Migrate from Component to Mount
-- Implement full-text search, powered by Lucene
-- Cross-post to Mastodon
-- Highlight mentions and tags in posts
-- Pagination, suggest, subscribe and about pages
-- Accumulate and render [statistics](https://mastodon.online/@nikitonsky/110980158381537112)
-
-[Skija](https://github.com/HumbleUI/Skija/):
-
-- Catch up with current Skia version (m109 → m116, ~year of updates)
-- Extract library file atomically #54 #56 w/ @dzaima
-
-[Humble UI](https://github.com/HumbleUI/HumbleUI):
-
-- OkLCH example
-- Fixed NPE in text-field undo #80
-- Non-macos Ctrl + X/C/V/Y #81
-
-[Sublime-Executor](https://github.com/tonsky/Sublime-Executor/):
-
-- Kill running process on Sublime exit
-- Strip away escape sequences from output
-- Better gitignore matching
-- Allow running any command on top of another one, implicitly killing previous one
-
-[Clojure Sublimed](https://github.com/tonsky/Clojure-Sublimed):
-
-- Show file/line/column information when `clojure_sublimed_eval_code` fails
-
-New project — [Dark Mode Toggle](https://github.com/tonsky/DarkModeToggle):
-
-- A simple menubar utility to quickly switch between dark and light modes
-ng setting being override by :style/indent metadata in macros.
-  - Bump cljfmt to `0.11.2`. #1634
-  - Bump lsp4clj to `1.8.1`.
-
-- Editor
-  - Avoid returning all known keywords on empty keywords completion for performance reasons.
-  
-- API/CLI
-  - Improve mem/cpu usage using less analysis for tasks.<br>
-
-—
+---
 
 ## Humble UI: Nikita Prokopov  
 
@@ -654,7 +597,7 @@ New project — [Dark Mode Toggle](https://github.com/tonsky/DarkModeToggle):
 
 - A simple menubar utility to quickly switch between dark and light modes <br>
 
-—
+---
 
 ## Malli: Tommi Reiman  
 
@@ -695,15 +638,14 @@ borkdude/edamame 1.3.20 -> 1.3.23
 ### Something else
 
 The coffee store is closed -look
+![image](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/211439c2-56db-4fe4-9708-a86eef7dd301)
 
-![image](https://user-images.githubusercontent.com/567532/264794943-400b736b-6962-4df7-8168-485989ecabb5.png)
+![image](https://user-images.githubusercontent.com/567532/264794943-400b736b-6962-4df7-8168-485989ecabb5.png) width="60%" height="30%"
 <br>
 
-—
+---
 
 ## Shadow - cljs: Thomas Heller  
-
-## shadow-cljs Update July - August 2023
 
 Time was mostly spent on doing maintenance work and some bugfixes. As well as helping people out via the typical channels (eg. Clojurians Slack).
 
