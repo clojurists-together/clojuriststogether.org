@@ -1032,11 +1032,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Nick Jones",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Orlando J. Mendoza",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1379,6 +1374,6 @@
   } ],
   "member_stats" : {
     "company" : 53,
-    "developer" : 197
+    "developer" : 196
   }
 }
