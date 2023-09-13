@@ -93,192 +93,97 @@ That's all I have for you today! I expect to write a few more detailed blog post
 ---
 
 ## clj-Kondo: Michiel Borkent  
-
-REPL adventures
-A blog mostly about Clojure and ClojureScript.
-OSS updates July 2023
-In this post I'll give updates about open source I worked on during July 2023.
-To see previous OSS updates, go here.
-Sponsors
-I'd like to thank all the sponsors and contributors that make this work possible! Open the details section for more info.
-Sponsors
-I'd like to thank all the sponsors and contributors that make this work possible! Open the details section for more info.
-Sponsor infoTop sponsors:
-•	Clojurists Together
-•	Roam Research
-•	Nextjournal
-•	Toyokumo
-•	Cognitect
-•	Kepler16
-•	Adgoji
-If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work in the following ways. Thank you!
-•	Github Sponsors
-•	The Babaska or Clj-kondo OpenCollective
-•	Ko-fi
-•	Patreon
-•	Clojurists Together
+**Sponsors:** 
+I'd like to thank all the sponsors and contributors that make this work possible! Open the details section for more info.  
+Top sponsors:  
+• [Clojurists Together](https://clojuriststogether.org/)  
+• Roam Research  
+• Nextjournal  
+• Toyokumo  
+• Cognitect  
+• Kepler16  
+• Adgoji  
+If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work in the following ways. Thank you!  
+• Github Sponsors  
+• The Babaska or Clj-kondo OpenCollective  
+• Ko-fi  
+• Patreon  
+• Clojurists Together  
 If you're used to sponsoring through some other means which isn't listed above, please get in touch.
-On to the projects that I've been working on!
-Updates
-•	clj-kondo: static analyzer and linter for Clojure code that sparks joy.
-o	A big fat new release: 2023.07.23. Several new linting rules and lots of fixes. See changelogs here.
-•	http-client: Babashka's http-client
-o	Added a websocket API, a fix for the :ssl-context {:insecure true} option and more. See CHANGELOG.
-•	pod-babashka-fswatcher: babashka filewatcher pod
-o	The events emitted from the file watcher are now automatically deduplicated.
-o	An aarch64 binary for Mac is now available Thanks to @fjsousa and @lispyclouds.
-•	edamame: Configurable EDN/Clojure parser with location metadata
-o	A small bugfix release around reading malformed reader conditional expressions
-•	lein-clj-kondo: a leiningen plugin for clj-kondo
-o	This plugin now follows the version number of clj-kondo
-•	squint: CLJS syntax to JS compiler and cherry Experimental ClojureScript to ES6 module compiler
-o	Add defclass in squint, inspired by shadow-cljs
-o	More work on getting squint and cherry to work in one build
-o	Provide UMD build which works better in Firefox Webworkers
-o	cherry can now be used in a playground at livecodes.io
-o	Fix doseq and add doall and dorun in squint
-•	lein2deps: leiningen to deps.edn converter
-o	Allow anonymous function literals in project.clj
-•	babashka: native, fast starting Clojure interpreter for scripting.
-o	Version 1.3.182 released, mostly library bumps and small bugfixes. See changelogs here.
-•	deps.clj: A faithful port of the clojure CLI bash script to Clojure
-o	More robust handling of downloading and unzipping tools jar
-•	scittle: Execute Clojure(Script) directly from browser script tags via SCI
-o	Fixed a small bug with evaluating tags: when there would be whitespace + a "src" attribute, the whitespace would be executed and the attribute was ignored.
-•	tools-deps-native and tools.bbuild
-o	This EXPERIMENTAL combo allows you to use tools.build from babashka. In this release a reflection issue was addressed.
-•	nbb: Scripting in Clojure on Node.js using SCI
-o	Add missing function to promesa
-•	jet: CLI to transform between JSON, EDN, YAML and Transit using Clojure
-o	Release version 0.7.27 (see changelogs) with missing 1.11 functions and options for easier kebab/camel/etc. casing.
-Other projects
-These are (some of the) other projects I'm involved with but little to no activity happened in the past month.
-Click for more details
-•	sql pods: babashka pods for SQL databases
-•	CLI: Turn Clojure functions into CLIs!
-•	cljs-showcase: Showcase CLJS libs using SCI
-•	fs - File system utility library for Clojure
-•	SCI: Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs
-o	Support :require-macros
-o	Introduce eval-string+ which received an optional initial :ns key and also returns the last active :ns so you can preserve the namespace state over multiple evaluations.
-o	Released v0.8.40
-•	process: Clojure library for shelling out / spawning sub-processes
-o	Implement :out :bytes to receive output as bytes (thanks Hans Bugge Grathwohl)
-o	Make :dir option accept java.nio.file.Path
-•	sci.configs: A collection of ready to be used SCI configs.
-•	babashka.book: Babashka manual
-•	pod-babashka-go-sqlite3: A babashka pod for interacting with sqlite3
-•	instaparse-bb
-•	quickdoc: Quick and minimal API doc generation for Clojure
-•	rewrite-clj: Rewrite Clojure code and edn
-•	pod-babashka-buddy: A pod around buddy core (Cryptographic Api for Clojure).
-•	gh-release-artifact: Upload artifacts to Github releases idempotently
-•	neil: A CLI to add common aliases and features to deps.edn-based projects
-•	carve - Remove unused Clojure vars
-•	grasp: Grep Clojure code using clojure.spec regexes
-•	quickblog: Light-weight static blog engine for Clojure and babashka
-•	4ever-clojure - Pure CLJS version of 4clojure, meant to run forever!
-•	pod-babashka-lanterna: Interact with clojure-lanterna from babashka
-•	joyride: VSCode CLJS scripting and REPL (via SCI)
-•	clj2el: transpile Clojure to elisp
-•	deflet: make let-expressions REPL-friendly!
-•	babashka.json: babashka JSON library/adapter
-•	deps.add-lib: Clojure 1.12's add-lib feature for leiningen and/or other environments without a specific version of the clojure CLI
-Discuss this post here.
-Published: 2023-08-02
-Tagged: clojure oss updates
+On to the projects that I've been working on!  
 
-REPL adventures
-A blog mostly about Clojure and ClojureScript.
-OSS updates August 2023
-In this post I'll give updates about open source I worked on during August 2023.
-To see previous OSS updates, go here.
-Sponsors
-I'd like to thank all the sponsors and contributors that make this work possible! Open the details section for more info.
-Sponsor infoTop sponsors:
-•	Clojurists Together
-•	Roam Research
-•	Nextjournal
-•	Toyokumo
-•	Cognitect
-•	Kepler16
-•	Pitch
-If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work in the following ways. Thank you!
-•	Github Sponsors
-•	The Babaska or Clj-kondo OpenCollective
-•	Ko-fi
-•	Patreon
-•	Clojurists Together
-If you're used to sponsoring through some other means which isn't listed above, please get in touch.
-On to the projects that I've been working on!
-Updates
-Currently my attention is mostly directed at the upcoming Strange loop talk. I'm very excited to be part of the last iteration of this conference. It will also be my first time flying to the USA!
-Rahul De and Anupriya Johari will be giving a workshop at JavaZone on Tuesday the 5th of September. Check the details here.
-Here are updates about the projects/libraries I've worked on last month.
-•	jet: CLI to transform between JSON, EDN, YAML and Transit using Clojure
-o	Release version 0.7.27 (see changelogs) with missing 1.11 functions and options for easier kebab/camel/etc. casing.
-•	quickdoc: Quick and minimal API doc generation for Clojure
-o	No update in quickdoc, but happy to see that Github have resolved a bug on their side with local anchors in HTML, which quickdoc relies on
-o	Require clojure 1.11 as the minimal clojure version
-•	sci.configs: A collection of ready to be used SCI configs.
-o	Worked together with @niwinz to make sci.configs upgradable to promesa 10 and 11. Many thanks to Andrey for making promesa backward-compatible again, since sci.configs relies on Clojure libraries to be always upgradable without breaking changes.
-•	nbb: Scripting in Clojure on Node.js using SCI
-o	Bumped sci.configs and promesa
-•	deps.clj: A faithful port of the clojure CLI bash script to Clojure
-o	The tools jar relocated to Github releases so deps.clj was updated to this new location, with backward compatibility
-o	Per my request, Alex added a .sha256 file to Github releases so the downloaded jar file could be verified against corruption
-•	SCI: Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs
-o	Clojure compatibility: allow (def foo/foo 1) in namespace foo
-o	Clojure compatibility: reset file metadata on var when it's re-evaluated from other file
-o	Add sci.async/eval-form and sci.async/eval-form+
-•	babashka: native, fast starting Clojure interpreter for scripting.
-o	expose sci.core in babashka
-o	Asahi linux support (linux on Apple m1/m2)
-o	Several other library upgrades and Clojure compatibility fixes
-o	Compatibility with the newest integrant version
-•	pod-babashka-go-sqlite3: A babashka pod for interacting with sqlite3
-o	Upgrade sqlite version so it supports json fields
-•	cherry
-o	Add defclass to cherry (similar to squint)
-o	Expose clojure.string and clojure.walk namespaces
-o	Fix overriding core vars
-•	clj-kondo: static analyzer and linter for Clojure code that sparks joy.
-o	working towards a new release with a large number of small bug fixes, see upcoming changelog
-•	http-client: babashka's http-client
-o	A number of small bugfixes and additions
-Other projects
-These are (some of the) other projects I'm involved with but little to no activity happened in the past month.
-Click for more details
-•	pod-babashka-fswatcher: babashka filewatcher pod
-•	edamame: Configurable EDN/Clojure parser with location metadata
-•	lein-clj-kondo: a leiningen plugin for clj-kondo
-•	squint: CLJS syntax to JS compiler and cherry Experimental ClojureScript to ES6 module compi
-•	lein2deps: leiningen to deps.edn converter
-•	scittle: Execute Clojure(Script) directly from browser script tags via SCI
-•	tools-deps-native and tools.bbuild
-•	sql pods: babashka pods for SQL databases
-•	CLI: Turn Clojure functions into CLIs!
-•	cljs-showcase: Showcase CLJS libs using SCI
-•	fs - File system utility library for Clojure
-•	process: Clojure library for shelling out / spawning sub-processes
-•	babashka.book: Babashka manual
-•	instaparse-bb
-•	rewrite-clj: Rewrite Clojure code and edn
-•	pod-babashka-buddy: A pod around buddy core (Cryptographic Api for Clojure).
-•	gh-release-artifact: Upload artifacts to Github releases idempotently
-•	neil: A CLI to add common aliases and features to deps.edn-based projects
-•	carve - Remove unused Clojure vars
-•	grasp: Grep Clojure code using clojure.spec regexes
-•	quickblog: Light-weight static blog engine for Clojure and babashka
-•	4ever-clojure - Pure CLJS version of 4clojure, meant to run forever!
-•	pod-babashka-lanterna: Interact with clojure-lanterna from babashka
-•	joyride: VSCode CLJS scripting and REPL (via SCI)
-•	clj2el: transpile Clojure to elisp
-•	deflet: make let-expressions REPL-friendly!
-•	babashka.json: babashka JSON library/adapter
-•	deps.add-lib: Clojure 1.12's add-lib feature for leiningen and/or other environments without a specific version of the clojure CLI
-Published: 2023-08-30
-Tagged: clojure oss updates  <br>
+### Updates
+• clj-kondo: static analyzer and linter for Clojure code that sparks joy.  
+o	A big fat new release: 2023.07.23. Several new linting rules and lots of fixes. See changelogs here.  
+• http-client: Babashka's http-client  
+o	Added a websocket API, a fix for the :ssl-context {:insecure true} option and more. See CHANGELOG.  
+• pod-babashka-fswatcher: babashka filewatcher pod  
+o	The events emitted from the file watcher are now automatically deduplicated.  
+o	An aarch64 binary for Mac is now available Thanks to @fjsousa and @lispyclouds.  
+• edamame: Configurable EDN/Clojure parser with location metadata  
+o	A small bugfix release around reading malformed reader conditional expressions  
+• lein-clj-kondo: a leiningen plugin for clj-kondo  
+o	This plugin now follows the version number of clj-kondo  
+• squint: CLJS syntax to JS compiler and cherry Experimental ClojureScript to ES6 module compiler  
+o	Add defclass in squint, inspired by shadow-cljs  
+o	More work on getting squint and cherry to work in one edit  
+o	Provide UMD build which works better in Firefox Webworkers  
+o	cherry can now be used in a playground at livecodes.io  
+o	Fix doseq and add doall and dorun in squint  
+• lein2deps: leiningen to deps.edn converter  
+o	Allow anonymous function literals in project.clj  
+• babashka: native, fast starting Clojure interpreter for scripting.  
+o	Version 1.3.182 released, mostly library bumps and small bugfixes. See changelogs here.  
+• deps.clj: A faithful port of the clojure CLI bash script to Clojure  
+o	More robust handling of downloading and unzipping tools jar  
+• scittle: Execute Clojure(Script) directly from browser script tags via SCI  
+o	Fixed a small bug with evaluating tags: when there would be whitespace + a "src" attribute, the whitespace would be executed and the attribute was ignored.  
+• tools-deps-native and tools.bbuild  
+o	This EXPERIMENTAL combo allows you to use tools.build from babashka. In this release a reflection issue was addressed.  
+• nbb: Scripting in Clojure on Node.js using SCI  
+o	Add missing function to promesa  
+• jet: CLI to transform between JSON, EDN, YAML and Transit using Clojure  
+o	Release version 0.7.27 (see changelogs) with missing 1.11 functions and options for easier kebab/camel/etc. casing.  
+
+### Other projects:  
+These are (some of the) other projects I'm involved with but little to no activity happened in the past month.  
+Click for more details:  
+• sql pods: babashka pods for SQL databases  
+• CLI: Turn Clojure functions into CLIs!  
+• cljs-showcase: Showcase CLJS libs using SCI  
+• fs - File system utility library for Clojure  
+• SCI: Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs  
+o	Support :require-macros  
+o	Introduce eval-string+ which received an optional initial :ns key and also returns the last active :ns so you can preserve the namespace state over multiple evaluations.  
+o	Released v0.8.40  
+• process: Clojure library for shelling out / spawning sub-processes  
+o	Implement :out :bytes to receive output as bytes (thanks Hans Bugge Grathwohl)  
+o	Make :dir option accept java.nio.file.Path  
+• sci.configs: A collection of ready to be used SCI configs.  
+• babashka.book: Babashka manual  
+• pod-babashka-go-sqlite3: A babashka pod for interacting with sqlite3  
+• instaparse-bb  
+• quickdoc: Quick and minimal API doc generation for Clojure  
+• rewrite-clj: Rewrite Clojure code and edn  
+• pod-babashka-buddy: A pod around buddy core (Cryptographic Api for Clojure).  
+• gh-release-artifact: Upload artifacts to Github releases idempotently  
+• neil: A CLI to add common aliases and features to deps.edn-based projects  
+• carve - Remove unused Clojure vars  
+• grasp: Grep Clojure code using clojure.spec regexes  
+• quickblog: Light-weight static blog engine for Clojure and babashka  
+• 4ever-clojure - Pure CLJS version of 4clojure, meant to run forever!  
+• pod-babashka-lanterna: Interact with clojure-lanterna from babashka  
+• joyride: VSCode CLJS scripting and REPL (via SCI)  
+• clj2el: transpile Clojure to elisp  
+• deflet: make let-expressions REPL-friendly!  
+• babashka.json: babashka JSON library/adapter  
+• deps.add-lib: Clojure 1.12's add-lib feature for leiningen and/or other environments without a specific version of the clojure CLI  
+Discuss this post here.  
+Published: 2023-08-02  
+Tagged: clojure oss updates    <br>
+
+
+
 
 ---
 
@@ -638,9 +543,8 @@ borkdude/edamame 1.3.20 -> 1.3.23
 ### Something else
 
 The coffee store is closed -look
-![image](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/211439c2-56db-4fe4-9708-a86eef7dd301)
 
-![image](https://user-images.githubusercontent.com/567532/264794943-400b736b-6962-4df7-8168-485989ecabb5.png) width="60%" height="30%"
+![image](https://user-images.githubusercontent.com/567532/264794943-400b736b-6962-4df7-8168-485989ecabb5.png) 
 <br>
 
 ---
