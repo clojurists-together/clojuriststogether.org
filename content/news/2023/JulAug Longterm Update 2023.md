@@ -9,17 +9,17 @@ draft: true
 
 Even though it was vacation season, our developers share an incredible outpouring of work on their 2023 long term projects! Check it out.<br>
 
-[Calva: Peter Stromberg](##calva-peter-stromberg)  
-[Carmine V4: Peter Taoussanis](##carmine-v4-peter-taoussanis)  
-[CIDER/REPL: Bohzidar Batsov](##ciderrepl-bohzidar-batsov)
-[clj-Kondo, babashka, nbb, SCI, Cherry, Squint: Michiel Borkent](##clj-kondo-babashka-nbb-sci-cherry-squint-michiel-borkent)
-[Clojars: Toby Crawley](##clojars-toby-crawley)  
-[ClojureDart: Christophe Grande](##clojuredart-christophe-grande)  
-[clojure.org: Sean Corfield](##clojure.org-sean-corfield)  
-[CLojure-lsp: Eric Dallo](##clojure-lsp-eric-dallo)  
-[Humble UI: Nikita Prokopov](##humble-ui-nikita-prokopov)  
-[Malli: Tommi Reiman](##malli-tommi-reiman)  
-[Shadow-cljs: Thomas Heller](##shadow-cljs-thomas-heller)  
+[Calva: Peter Stromberg](#calva-peter-stromberg)  
+[Carmine V4: Peter Taoussanis](#carmine-v4-peter-taoussanis)  
+[CIDER/REPL: Bohzidar Batsov](#ciderrepl-bohzidar-batsov)
+[clj-Kondo, babashka, nbb, SCI, Cherry, Squint: Michiel Borkent](#clj-kondo-babashka-nbb-sci-cherry-squint-michiel-borkent)  
+[Clojars: Toby Crawley](#clojars-toby-crawley)  
+[ClojureDart: Christophe Grande](#clojuredart-christophe-grande)  
+[Clojar.org: Sean Corfield](#clojarorg-sean-corfield)  
+[Clojure-lsp: Eric Dallo](#clojure-lsp-eric-dallo)  
+[Humble UI: Nikita Prokopov](#humble-ui-nikita-prokopov)  
+[Malli: Tommi Reiman](#malli-tommi-reiman)  
+[Shadow-cljs: Thomas Heller](#shadow-cljs-thomas-heller)  
 <br>  
 
 ---
