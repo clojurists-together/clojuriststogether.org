@@ -113,7 +113,7 @@ If you want to ensure that the projects I work on are sustainably maintained, yo
 •	[Clojurists Together](https://www.clojuriststogether.org/)  
 
 If you're used to sponsoring through some other means which isn't listed above, please get in touch.  
-On to the projects that I've been working on!  
+On to the projects that I worked on in July!  
 
 ### July Updates
 - **[clj-kondo](https://github.com/clj-kondo/clj-kondo):** static analyzer and linter for Clojure code that sparks joy.  
@@ -181,17 +181,15 @@ Click for more details:
 - [deflet](https://github.com/borkdude/deflet): make let-expressions REPL-friendly!  
 - [babashka.json](https://github.com/babashka/json): babashka JSON library/adapter  
 - [deps.add-lib](https://github.com/borkdude/deps.add-lib): Clojure 1.12's add-lib feature for leiningen and/or other environments without a specific version of the clojure CLI  
-
-Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).  
 Published: 2023-08-02  
 
 
 ### August Updates  
-Currently my attention is mostly directed at the upcoming [Strange loop](https://www.thestrangeloop.com/2023/babashka-a-meta-circular-clojure-interpreter-for-the-command-line.html) talk. I'm very excited to be part of the last iteration of this conference. It will also be my first time flying to the USA!  
+In August,  my attention was mostly directed at the upcoming [Strange loop](https://www.thestrangeloop.com/2023/babashka-a-meta-circular-clojure-interpreter-for-the-command-line.html) talk. I'm very excited to be part of the last iteration of this conference. It will also be my first time flying to the USA!  
 
 Rahul De and Anupriya Johari will be giving a workshop at JavaZone on Tuesday the 5th of September. Check the details [here](https://2023.javazone.no/program/19a5cab3-7afd-4dc1-b60a-bea8562d3186).  
 
-Here are updates about the projects/libraries I've worked on last month.  
+Here are updates about the projects/libraries I've worked in August:    
 
 - **[jet](https://github.com/borkdude/jet):** CLI to transform between JSON, EDN, YAML and Transit using Clojure  
 	* Release version 0.7.27 (see [changelogs](https://github.com/borkdude/jet/blob/master/CHANGELOG.md#0727-2023-08-02)) with missing 1.11 functions and options for easier kebab/camel/etc. casing.  
@@ -202,7 +200,7 @@ Require clojure 1.11 as the minimal clojure version
 	* Worked together with [@niwinz](https://github.com/niwinz) to make sci.configs upgradable to promesa 10 and 11. Many thanks to Andrey for making promesa backward-compatible again, since sci.configs relies on Clojure libraries to be always upgradable without breaking changes.  
 - **[nbb](https://github.com/babashka/nbb):** Scripting in Clojure on Node.js using SCI. Bumped sci.configs and promesa  
 - **[deps.clj](https://github.com/borkdude/deps.clj):** A faithful port of the clojure CLI bash script to Clojure    
-	* The tools jar relocated to Github releases so deps.clj was updated to this new location, with backward compatibility  
+	* The tools jar relocated to Github releases so deps.clj was updated to this new location, with backward compatibility. 
 Per my request, Alex added a .sha256 file to Github releases so the downloaded jar file could be verified against corruption   
 - **[SCI](https://github.com/babashka/sci):** Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs  
 	* Clojure compatibility: allow (def foo/foo 1) in namespace foo  
@@ -221,9 +219,9 @@ Per my request, Alex added a .sha256 file to Github releases so the downloaded j
 	* Fix overriding core vars  
 - **[clj-kondo](https://github.com/clj-kondo/clj-kondo):** static analyzer and linter for Clojure code that sparks joy.  
 	* working towards a new release with a large number of small bug fixes, see upcoming [changelog](https://github.com/clj-kondo/clj-kondo/blob/master/CHANGELOG.md)
-[http-client](https://github.com/babashka/http-client): babashka's http-client  
+- **http-client](https://github.com/babashka/http-client):** babashka's http-client  
 	* A number of small bugfixes and additions
- * 
+ 
 ### Other projects  
 These are (some of the) other projects I'm involved with but little to no activity happened in the past month. Click for more details.   
 - [pod-babashka-fswatcher](https://github.com/babashka/pod-babashka-fswatcher): babashka filewatcher pod  
@@ -240,28 +238,25 @@ These are (some of the) other projects I'm involved with but little to no activi
 - [process](https://github.com/babashka/process): Clojure library for shelling out / spawning sub-processes  
 - [babashka.book](https://github.com/babashka/book): Babashka manual  
 - [instaparse-bb](https://github.com/babashka/instaparse-bb)  
-[rewrite-clj](https://github.com/clj-commons/rewrite-clj): Rewrite Clojure code and edn  
-[pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy): A pod around buddy core (Cryptographic Api for Clojure).  
-[gh-release-artifact](https://github.com/borkdude/gh-release-artifact): Upload artifacts to Github releases idempotently  
-[neil](https://github.com/babashka/neil): A CLI to add common aliases and features to deps.edn-based projects  
-[carve](https://github.com/borkdude/carve) - Remove unused Clojure vars  
-[grasp](https://github.com/borkdude/grasp): Grep Clojure code using clojure.spec regexes  
-[quickblog](https://github.com/borkdude/quickblog): Light-weight static blog engine for Clojure and babashka  
-[4ever-clojure](https://github.com/oxalorg/4ever-clojure) - Pure CLJS version of 4clojure, meant to run forever!  
-[pod-babashka-lanterna](https://github.com/babashka/pod-babashka-lanterna): Interact with clojure-lanterna from babashka  
-[joyride](https://github.com/BetterThanTomorrow/joyride): VSCode CLJS scripting and REPL (via [SCI](https://github.com/babashka/sci))  
-[clj2el](https://borkdude.github.io/clj2el/): transpile Clojure to elisp  
-[deflet](https://github.com/borkdude/deflet): make let-expressions REPL-friendly!  
-[babashka.json](https://github.com/babashka/json): babashka JSON library/adapter  
-[deps.add-lib](https://github.com/borkdude/deps.add-lib): Clojure 1.12's add-lib feature for leiningen and/or other environments without a specific version of the clojure CLI  
-Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).  
-
+- [rewrite-clj](https://github.com/clj-commons/rewrite-clj): Rewrite Clojure code and edn  
+- [pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy): A pod around buddy core (Cryptographic Api for Clojure).  
+- [gh-release-artifact](https://github.com/borkdude/gh-release-artifact): Upload artifacts to Github releases idempotently  
+- [neil](https://github.com/babashka/neil): A CLI to add common aliases and features to deps.edn-based projects  
+- [carve](https://github.com/borkdude/carve) - Remove unused Clojure vars  
+- [grasp](https://github.com/borkdude/grasp): Grep Clojure code using clojure.spec regexes  
+- [quickblog](https://github.com/borkdude/quickblog): Light-weight static blog engine for Clojure and babashka  
+- [4ever-clojure](https://github.com/oxalorg/4ever-clojure) - Pure CLJS version of 4clojure, meant to run forever!  
+- [pod-babashka-lanterna](https://github.com/babashka/pod-babashka-lanterna): Interact with clojure-lanterna from babashka  
+- [joyride](https://github.com/BetterThanTomorrow/joyride): VSCode CLJS scripting and REPL (via [SCI](https://github.com/babashka/sci))  
+- [clj2el](https://borkdude.github.io/clj2el/): transpile Clojure to elisp  
+- [deflet](https://github.com/borkdude/deflet): make let-expressions REPL-friendly!  
+- [babashka.json](https://github.com/babashka/json): babashka JSON library/adapter  
+- [deps.add-lib](https://github.com/borkdude/deps.add-lib): Clojure 1.12's add-lib feature for leiningen and/or other environments without a specific version of the clojure CLI  
 Published: 2023-08-30  
 
-Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)
+Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)  
 
-
-
+Discuss these posts [here](https://github.com/borkdude/blog/discussions/categories/posts).  
 
 ---
 
@@ -288,7 +283,7 @@ Note: this report is also available on [tcrawley.org](https://tcrawley.org/cloja
 
 ---
 
-## ClojureDart: Christophe Grandet
+## ClojureDart: Christophe Grande
 
 ### ClojureDart
 ClojureDart keeps to steadily get new users. [We got featured on a Youtube channel for Flutter devs](https://www.youtube.com/watch?v=ziPIzvA60co). Hopefully we increase the reach of Clojure both by allowing Clojurists to reach mobile/desktop but also by drawing more people to Clojure.
@@ -621,9 +616,7 @@ borkdude/edamame 1.3.20 -> 1.3.23
 ### Something else
 
 The coffee store is closed -look
-
-![image](https://user-images.githubusercontent.com/567532/264794943-400b736b-6962-4df7-8168-485989ecabb5.png) 
-<br>
+![image](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/e98dadeb-42fd-4038-a7a1-c5f51d95809d)  
 
 ---
 
