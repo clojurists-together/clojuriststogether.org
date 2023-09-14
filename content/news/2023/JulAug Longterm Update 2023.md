@@ -467,9 +467,10 @@ pass of "TBD" items in the "language" section.
 
 ## Clojure - lsp: Eric Dallo  
 
-During this year I've been working on clojure-lsp support for IntelliJ, it was the only mainstream editor that didn't have a good way to use clojure-lsp features, it was really hard to integrate with the LSP protocol because of Intellij's API but making the plugin in Clojure helped a little bit with that, so after a lot of work, I'm excited and happy to announce [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij), a new plugin for IntelliJ to have all clojure-lsp features available!
+During this year I've been working on clojure-lsp support for IntelliJ, it was the only mainstream editor that didn't have a good way to use clojure-lsp features, it was really hard to integrate with the LSP protocol because of Intellij's API but making the plugin in Clojure helped a little bit with that, so after a lot of work, I'm excited and happy to announce [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij), a new plugin for IntelliJ to have all clojure-lsp features available!<br>
 
-![](./clojure-lsp-intellij.png)
+![eric dallo image](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/efebc614-912d-4f69-b60d-d073154f134c)
+
 
 ## [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij)
 
