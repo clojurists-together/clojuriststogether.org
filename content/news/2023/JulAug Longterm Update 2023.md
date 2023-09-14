@@ -258,15 +258,13 @@ Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates
                                                                                                                                                                          
 **Commit Logs:** [`clojars-web`](https://github.com/clojars/clojars-web/compare/5fdef58b17d710fdf6b2ea886a520c84e45af624...0a5eb2175e7b417fc9e64bcb6fb87f6d15cbddbc), [`infrastructure`](https://github.com/clojars/infrastructure/compare/5d2811bdfd95cf1320af2a2bea2fed2ce0cf9b87...ad8335b312a81567a4c78ef4fe1587741794534c)
                                                                                                                                                                        
-I took this month to clean up some long-standing issues:
-
+I took this month to clean up some long-standing issues:  
 -   [Fixed an issue with error reporting from the repository routes](https://github.com/clojars/clojars-web/issues/659)
 -   [Include release date for each version in feed.clj](https://github.com/clojars/clojars-web/issues/563)
 -   [Include scm tag for each version in feed.clj](https://github.com/clojars/clojars-web/issues/564)
 -   [Require MFA group wide to deploy](https://github.com/clojars/clojars-web/issues/823)
 
-And a few quality of life improvements:
-
+And a few quality-of-life improvements:  
 -   [Add denylist to email sender](https://github.com/clojars/clojars-web/commit/0d33a469744f71aa965eac40c6a9cdebd44edefa)
 -   [Migrate from project.clj to deps.edn](https://github.com/clojars/clojars-web/pull/872)
 -   [Upgraded to latest clj-kondo for code linting](https://github.com/clojars/clojars-web/commit/0a5eb2175e7b417fc9e64bcb6fb87f6d15cbddbc)
@@ -276,6 +274,7 @@ The [CHANGELOG file](https://github.com/clojars/clojars-web/blob/main/CHANGELOG.
 Note: this report is also available on [tcrawley.org](https://tcrawley.org/clojars-worklog/2023/index.html#aug-2023) <br>
 
 ---
+
 
 ## ClojureDart: Christophe Grande
 
@@ -291,46 +290,45 @@ The lack of multimethods begins to feel like a blocker for porting existing libs
 Last, we keep publishing short videos on Youtube https://www.youtube.com/@clojuredart/shorts and we also started a newsletter on ClojureDart and nerdy stuff.
 
 ### Fixes
-Several fixes to the compiler, cljd.core or flutter.cljd.
+Several fixes to the compiler, cljd.core or flutter.cljd. Amongst them:  
+* fix CI for Dart 2 which was broken by tests for records support (which are a Dart 3 feature)  
+* allow destructuring in the arg list of protocol implementations  
+* fix type-inference regression on a combination of `if` and `recur`  
+* `*-array*` functions were not properly hinted  
+* workaround for a Dart parser bug https://github.com/dart-lang/sdk/issues/52904  
+* fix aliases in emitted code for when a protocol is extended from another namespace  
+* fix hot reloading error when a protocol extension is removed -- this issue and the previous one were triggered by the REPL work  
+* make `set!` more robust (the implementation was a bit hacky and didn't perform some checks)  
+* `rseq` wasn't behaving properly on vectors whose size was a multiple of 32    
+* some code was improperly optimized away when a `throw` appeared in some nested `if`s in statement position   
+* widgets below a `:vsync` were not refresh on app state changes, only on animation updates    
+* issues with `set!` expressions used in argument position   
+* potential double evaluation when casting to a nullable type  
+* ...  
 
-Amongst them:
-* fix CI for Dart 2 which was broken by tests for records support (which are a Dart 3 feature)
-* allow destructuring in the arg list of protocol implementations
-* fix type-inference regression on a combination of `if` and `recur`
-* `*-array*` functions were not properly hinted
-* workaround for a Dart parser bug https://github.com/dart-lang/sdk/issues/52904
-* fix aliases in emitted code for when a protocol is extended from another namespace
-* fix hot reloading error when a protocol extension is removed -- this issue and the previous one were triggered by the REPL work
-* make `set!` more robust (the implementation was a bit hacky and didn't perform some checks)
-
-* `rseq` wasn't behaving properly on vectors whose size was a multiple of 32,
-* some code was improperly optimized away when a `throw` appeared in some nested `if`s in statement position,
-* widgets below a `:vsync` were not refresh on app state changes, only on animation updates,
-* issues with `set!` expressions used in argument position,
-* potential double evaluation when casting to a nullable type,
-* ...
-
-### Improvements
-* refactoring of the Subscribable protocol in `cljd.flutter` (breaking change but almost no users had implemented it) to simplify the handling of default values by pushing the responsibility to the consumer rather than to the producer.
-* support of namespaced maps in the reader (the cljd one used at runtime, not the clj one used to read source).
-* `retriable`/`retry!`: `(retriable expr)` behaves a bit like `future`, except that:
-  - its body is the one of a `try`, you can have `catch`es and `finally`: `(retriable expr (catch Object o st ...))`
-  - it can be retried by calling `retry!` on it -- returning a future which yields when the current trry is done (compleetd or failed).
-  The intent is to allow to retry failed IO (or trigger refreshes) and be able to tie a spinner lifetime to the current try.
-* the compiler now watches for changes into `:local/root` deps to ease codevelopment of libs and apps.
+### Improvements  
+* refactoring of the Subscribable protocol in `cljd.flutter` (breaking change but almost no users had implemented it) to simplify the handling of default values by pushing the responsibility to the consumer rather than to the producer.  
+* support of namespaced maps in the reader (the cljd one used at runtime, not the clj one used to read source).  
+* `retriable`/`retry!`: `(retriable expr)` behaves a bit like `future`, except that:  
+	* its body is the one of a `try`, you can have `catch`es and `finally`: `(retriable expr (catch Object o st ...))`
+	* it can be retried by calling `retry!` on it -- returning a future which yields when the current retry is done (completed or failed).
+  The intent is to allow to retry failed IO (or trigger refreshes) and be able to tie a spinner lifetime to the current try.  
+* the compiler now watches for changes into `:local/root` deps to ease codevelopment of libs and apps.  
 
 ### Future Work  
-### ClojureDart
-* Publish the Flutter-only REPL
-* Multimethods to allow some libs to be ported
-* Look into porting Datascript and SCI to ClojureDart
-* New APIs to leverage our persistent data structures:
-** maps (hash and sorted) in ClojureDart are original implementations (not the same as CLJ/CLJS) -- hash maps could be seen as another refinement of the original, sorted maps constitute a novel implementation.
-** Sorted colls should be good enough for direct use by Datascript.
-** Both hash and sorted maps can support accelerated merge/diff/join/etc. operations.
-* `cljd` CLI written in `cljd` for easier project creation etc.
-* gen tests
-* …<br>  
+
+### ClojureDart  
+* Publish the Flutter-only REPL  
+* Multi-methods to allow some libs to be ported  
+* Look into porting Datascript and SCI to ClojureDart  
+* New APIs to leverage our persistent data structures:  
+	* maps (hash and sorted) in ClojureDart are original implementations (not the same as CLJ/CLJS)  
+        * hash maps could be seen as another refinement of the original, sorted maps constitute a novel implementation.  
+	* Sorted colls should be good enough for direct use by Datascript.  
+	* Both hash and sorted maps can support accelerated merge/diff/join/etc. operations.  
+* `cljd` CLI written in `cljd` for easier project creation etc.  
+* gen tests  
+* …<br>   
 
 ---
 
@@ -339,7 +337,7 @@ Amongst them:
 In my [previous Long-Term Funding update](https://corfield.org/blog/2023/06/30/long-term-funding-3/)
 I said I would review/overhaul the "ecosystem" and "tutorials" sections.<!--more-->
 
-## On a personal note...
+### On a personal note...
 
 I ended the previous update with a personal note but I'm going to start this
 update with one. It's been a very difficult couple of months. My mother
@@ -360,7 +358,7 @@ get all your shots and boosters!
 
 Consequently, I didn't get as much done as I'd hoped in the past two months.
 
-## `clojure-doc.org`
+### `clojure-doc.org`
 
 I incorporated feedback from the community on the `tools.build` cookbook.
 Many thanks, in particular, to [@phronmophobic](https://github.com/phronmophobic)
@@ -392,8 +390,7 @@ possible, or changing the error messages shown to match the current behavior
 I still need to make additional passes over several of these pages to address
 the remaining "TBD" items (mostly adding more examples).
 
-## HoneySQL
-
+### HoneySQL  
 Several complicated changes were made to HoneySQL this period, leading to the
 [2.4.1066 release](https://github.com/seancorfield/honeysql/releases/tag/v2.4.1066),
 which included the first pass at supporting temporal queries, and reworking
@@ -401,31 +398,28 @@ how `:insert-into`, `:columns`, and `:values` work together which should
 make it easier to avoid generating invalid SQL as well as making it easier
 to extend HoneySQL to support additional features around `INSERT` statements.
 
-## Polylith
-
+### Polylith  
 The [Polylith project](https://github.com/polyfy/polylith)
 (and documentation) was still using my old (archived) `build-clj`
 wrapper so I worked on a Pull Request to switch everything to plain
 `tools.build` usage as a better example for the community. That has been
 merged in and updated documentation will be released soon (on cljdoc.org
-instead of GitBook!).
+instead of GitBook!).  
 
-## `clj-new`
-
+### `clj-new`  
 This project also still used `build-clj` so I updated all the project
 templates to use `tools.build` directly and released version
 1.2.404 so that, going forward, newly-generated projects will be better
 examples for the community. `deps-new` had previously been updated to
 generate projects using `tools.build` directly.
 
-## `clj-commons`
-
+### `clj-commons`  
 Information about CLJ Commons governance was spread across the
 [`clj-commons`](https://clj-commons.org) website and the
 [`meta`](https://github.com/clj-commons/meta) repository's `README`
 and other pages.
 Based on some community feedback in June, I wanted to consolidate
-that information and bring it up to date.
+that information and bring it up to date.  
 
 As I started on that, I realized that the
 [`clj-commons` project list](https://clj-commons.org/projects.html)
@@ -454,7 +448,7 @@ In September/October, I'm hoping to complete a review and update of the
 remaining period, I'll tackle the "cookbooks" section and make another
 pass of "TBD" items in the "language" section.  
 
-:tags ["clojure" "clojure-doc.org" "honeysql" "clj-commons" "open source" "community" "clojurists together" "polylith"]}
+:tags "clojure" "clojure-doc.org" "honeysql" "clj-commons" "open source" "community" "clojurists together" "polylith"
 <br>  
 
 ---
@@ -466,62 +460,61 @@ During this year I've been working on clojure-lsp support for IntelliJ, it was t
 ![eric dallo image](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/efebc614-912d-4f69-b60d-d073154f134c)
 
 
-## [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij)
+### [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij)
 
-## 0.1.0 - 0.9.0
+### 0.1.0 - 0.9.0  
+- Avoid noisy exception after startup  
+- Add `textDocument/codeAction` support. #3  
+- Add support for refactorings via workspace/executeCommand. #4  
+- Add support for textDocument/rename feature. #6  
+- Add support for workspace/applyEdit. #7  
+- Add support for LSP notification window/showMessage and request window/showMessageRequest.  
+- Improve status bar to show icon instead of text.  
+- Add troubleshooting section to 'Tools > Clojure LSP'  
+- Add brace matcher for `[]`, `{}` and `()`  
+- Fix completion of items with `/`  
+- Add support for comments.    
+- Add support for quote handlers.  
+- Add support for completion. #2  
+- Support find defintion of external dependencies. #1  
+- Fix LSP startup messages to properly mention the task being done  
+- Require plugin restart after install because of Clojure load in Classloader.  
+- Support more intellij versions until 2021.3  
+- Improvements to plugin compatibility  
+- Support `initialize` and subsequent requests.  
+- Support `textDocument/didChange`, `textDocument/didClose`, `textDocument/didOpen`.  
+- Support `textDocument/hover`.  
+- Support `textDocument/references`.  
+- Support `textDocument/formatting`.  
+- Support `textDocument/codeLens` and `codeLens/resolve`.  
+- Add status bar with support for restarting server.    
 
-- Avoid noisy exception after startup
-- Add `textDocument/codeAction` support. #3
-- Add support for refactorings via workspace/executeCommand. #4
-- Add support for textDocument/rename feature. #6
-- Add support for workspace/applyEdit. #7
-- Add support for LSP notification window/showMessage and request window/showMessageRequest.
-- Improve status bar to show icon instead of text.
-- Add troubleshooting section to 'Tools > Clojure LSP'
-- Add brace matcher for `[]`, `{}` and `()`
-- Fix completion of items with `/`
-- Add support for comments.
-- Add support for quote handlers.
-- Add support for completion. #2
-- Support find defintion of external dependencies. #1
-- Fix LSP startup messages to properly mention the task being done
-- Require plugin restart after install because of Clojure load in Classloader.
-- Support more intellij versions until 2021.3
-- Improvements to plugin compatibility
-- Support `initialize` and subsequent requests.
-- Support `textDocument/didChange`, `textDocument/didClose`, `textDocument/didOpen`.
-- Support `textDocument/hover`.
-- Support `textDocument/references`.
-- Support `textDocument/formatting`.
-- Support `textDocument/codeLens` and `codeLens/resolve`.
-- Add status bar with support for restarting server.
-
-## [clojure-lsp](https://clojure-lsp.io/)
-
+### [clojure-lsp](https://clojure-lsp.io/)  
 The main highlight are performance and memory improvement, also we had formatting improvements to match latest cljfmt features.
 
-## 2023.08.06-00.28.06
+### 2023.08.06-00.28.06
 
 **General**
-- Fix truncation of namespaced keywords #1640
-- Add rewrite-clj node to cursor-info. - Fixing semantic-tokens, collons not managed by lsp anymore. #1550
-- Fix `:paths-ignore-regex` setting to consider settings reload.
-- Bump clj-kondo to `2023.07.14-20230717.090255-3`. #1624
-- Fix inconsistencies with `:defined-by->lint-as`.
-- Improve memory usage during cache save, avoiding "Out of memory" exceptions.
-- Prevent file rename when a namespace is defined in multiple files #1574
-- Fix user formatting setting being override by :style/indent metadata in macros.
-- Bump cljfmt to `0.11.2`. #1634
-- Bump lsp4clj to `1.8.1`.
+- Fix truncation of namespaced keywords #1640  
+- Add rewrite-clj node to cursor-info. - Fixing semantic-tokens, collons not managed by lsp anymore. #1550  
+- Fix `:paths-ignore-regex` setting to consider settings reload 
+- Bump clj-kondo to `2023.07.14-20230717.090255-3`. #1624  
+- Fix inconsistencies with `:defined-by->lint-as`  
+- Improve memory usage during cache save, avoiding "Out of memory" exceptions.  
+- Prevent file rename when a namespace is defined in multiple files #1574  
+- Fix user formatting setting being override by :style/indent metadata in macros  
+- Bump cljfmt to `0.11.2`. #1634  
+- Bump lsp4clj to `1.8.1`  
 
-**Editor**
-- Avoid returning all known keywords on empty keywords completion for performance reasons.
+**Editor**  
+- Avoid returning all known keywords on empty keywords completion for performance reasons.  
   
-**API/CLI**
-- Improve mem/cpu usage using less analysis for tasks.<br>
+**API/CLI**  
+- Improve mem/cpu usage using less analysis for tasks.<br>  
 
 
 ---
+
 
 ## Humble UI: Nikita Prokopov  
 
@@ -529,52 +522,45 @@ Last two months have been DataScript-focused. I’ve implemented a major new fea
 
 It has been working well so far (~2 weeks, lots of updates).
 
-[DataScript](https://github.com/tonsky/datascript):
+### [DataScript](https://github.com/tonsky/datascript):**  
+- New incremental/lazy storage implementation. Store large databases on disk/in other DBs efficiently, load back only the parts you actually use, all completely transparent for user. It even has docs!  
+- [New SQL storage implementations](https://github.com/tonsky/datascript-storage-sql), supporting MySQL, PostgreSQL, H2 and SQLite.  
+- Schema altering (compatible changes only) via `d/reset-schema!` or `d/with-schema`  
+- JVM: `branching-factor` can now be set per-database  
+- New API: `d/find-datom`. Works like `d/datoms`, but only returns single datom and is faster than `(first (d/datoms ...))`  
+- CLJS: Optimized various parts of CLJS version related to compilation and index access  
+- Do not throw from `d/touch` when finding hanging refs  
 
-- New incremental/lazy storage implementation. Store large databases on disk/in other DBs efficiently, load back only the parts you actually use, all completely transparent for user. It even has docs!
-- [New SQL storage implementations](https://github.com/tonsky/datascript-storage-sql), supporting MySQL, PostgreSQL, H2 and SQLite.
-- Schema altering (compatible changes only) via `d/reset-schema!` or `d/with-schema`
-- JVM: `branching-factor` can now be set per-database
-- New API: `d/find-datom`. Works like `d/datoms`, but only returns single datom and is faster than `(first (d/datoms ...))`
-- CLJS: Optimized various parts of CLJS version related to compilation and index access
-- Do not throw from `d/touch` when finding hanging refs
+### [Grumpy Website](https://github.com/tonsky/grumpy/):**  
+- Migrate from storing posts in EDN to storing them in DataScript + persist in SQLite storage  
+- Battle-test DataScript storage  
+- Migrate from Component to Mount  
+- Implement full-text search, powered by Lucene  
+- Cross-post to Mastodon  
+- Highlight mentions and tags in posts  
+- Pagination, suggest, subscribe and about pages  
+- Accumulate and render [statistics](https://mastodon.online/@nikitonsky/110980158381537112)  
 
-[Grumpy Website](https://github.com/tonsky/grumpy/):
+### [Skija](https://github.com/HumbleUI/Skija/):  
+- Catch up with current Skia version (m109 → m116, ~year of updates)  
+- Extract library file atomically #54 #56 w/ @dzaima  
 
-- Migrate from storing posts in EDN to storing them in DataScript + persist in SQLite storage
-- Battle-test DataScript storage
-- Migrate from Component to Mount
-- Implement full-text search, powered by Lucene
-- Cross-post to Mastodon
-- Highlight mentions and tags in posts
-- Pagination, suggest, subscribe and about pages
-- Accumulate and render [statistics](https://mastodon.online/@nikitonsky/110980158381537112)
+### [Humble UI](https://github.com/HumbleUI/HumbleUI):  
+- OkLCH example  
+- Fixed NPE in text-field undo #80  
+- Non-macos Ctrl + X/C/V/Y #81  
 
-[Skija](https://github.com/HumbleUI/Skija/):
+### [Sublime-Executor](https://github.com/tonsky/Sublime-Executor/):  
+- Kill running process on Sublime exit  
+- Strip away escape sequences from output  
+- Better gitignore matching  
+- Allow running any command on top of another one, implicitly killing previous one  
 
-- Catch up with current Skia version (m109 → m116, ~year of updates)
-- Extract library file atomically #54 #56 w/ @dzaima
+### Clojure Sublimed](https://github.com/tonsky/Clojure-Sublimed):  
+- Show file/line/column information when `clojure_sublimed_eval_code` fails  
 
-[Humble UI](https://github.com/HumbleUI/HumbleUI):
-
-- OkLCH example
-- Fixed NPE in text-field undo #80
-- Non-macos Ctrl + X/C/V/Y #81
-
-[Sublime-Executor](https://github.com/tonsky/Sublime-Executor/):
-
-- Kill running process on Sublime exit
-- Strip away escape sequences from output
-- Better gitignore matching
-- Allow running any command on top of another one, implicitly killing previous one
-
-[Clojure Sublimed](https://github.com/tonsky/Clojure-Sublimed):
-
-- Show file/line/column information when `clojure_sublimed_eval_code` fails
-
-New project — [Dark Mode Toggle](https://github.com/tonsky/DarkModeToggle):
-
-- A simple menubar utility to quickly switch between dark and light modes <br>
+### New project — [Dark Mode Toggle](https://github.com/tonsky/DarkModeToggle):  
+- A simple menubar utility to quickly switch between dark and light modes <br>  
 
 ---
 
@@ -582,63 +568,53 @@ New project — [Dark Mode Toggle](https://github.com/tonsky/DarkModeToggle):
 
 I was off the grid on July, back to OS on August.
 
-### Malli
+### Malli  
+* Continued with the [new effective type system](https://github.com/metosin/malli/issues/264) - WIP  
+* Small fixes and reviews and released 0.12.0:  
 
-* Continued with the [new effective type system](https://github.com/metosin/malli/issues/264) - WIP
-* Small fixes and reviews and released 0.12.0:
-
-#### 0.12.0 (2023-08-31)
-
-* FIX: retain order with `:catn` unparse, fixes [#925](https://github.com/metosin/malli/issues/925)
-* **BREAKING**: Do not require timezone data directly for cljs [#898](https://github.com/metosin/malli/pull/898) with `malli.experimental.time`
-* Remove non-root swagger definitions [#900](https://github.com/metosin/malli/pull/900)
-* FIX: `malli.core/-comp` keeps interceptor order with long chains [#905](https://github.com/metosin/malli/pull/905)
-* FIX: `malli.dev/start!` exception does not contain source [#896](https://github.com/metosin/malli/issues/896)
-* FIX: don't add extra :schema nil to swagger :parameters [#939](https://github.com/metosin/malli/pull/939)
-* Add `:gen/return` support in malli.generator [#933](https://github.com/metosin/malli/pull/933)
-* Make uuid transformer to be case insensitive [#929](https://github.com/metosin/malli/pull/929)
-* Add `:default/fn` prop for default-value-transformer [#927](https://github.com/metosin/malli/pull/927)
-* Updated dependencies:
-
+#### 0.12.0 (2023-08-31)  
+* FIX: retain order with `:catn` unparse, fixes [#925](https://github.com/metosin/malli/issues/925)  
+* **BREAKING**: Do not require timezone data directly for cljs [#898](https://github.com/metosin/malli/pull/898) with `malli.experimental.time`  
+* Remove non-root swagger definitions [#900](https://github.com/metosin/malli/pull/900)  
+* FIX: `malli.core/-comp` keeps interceptor order with long chains [#905](https://github.com/metosin/malli/pull/905)  
+* FIX: `malli.dev/start!` exception does not contain source [#896](https://github.com/metosin/malli/issues/896)  
+* FIX: don't add extra :schema nil to swagger :parameters [#939](https://github.com/metosin/malli/pull/939)  
+* Add `:gen/return` support in malli.generator [#933](https://github.com/metosin/malli/pull/933)  
+* Make uuid transformer to be case insensitive [#929](https://github.com/metosin/malli/pull/929)  
+* Add `:default/fn` prop for default-value-transformer [#927](https://github.com/metosin/malli/pull/927)  
+* Updated dependencies:  
 ```clojure
 borkdude/edamame 1.3.20 -> 1.3.23
 ```
 
-### Reitit
+### Reitit  
+* OpenApi3-support ended to be a a much bigger change than anticipated, still alpha  
+* Got the [big refactor](https://github.com/metosin/reitit/pull/628) done  
+* Paired with [Joel](https://github.com/opqdonut) on remaining issues & reviewed lot of issues, soon....  
 
-* OpenApi3-support ended to be a a much bigger change than anticipated, still alpha
-* Got the [big refactor](https://github.com/metosin/reitit/pull/628) done
-* Paired with [Joel](https://github.com/opqdonut) on remaining issues & reviewed lot of issues, soon....
+### Spec-tools  
+* First new release in 30 months! [0.10.6](https://github.com/metosin/spec-tools/blob/master/CHANGELOG.md#0106-2023-08-28)  
 
-### Spec-tools
-
-* First new release in 30 months! [0.10.6](https://github.com/metosin/spec-tools/blob/master/CHANGELOG.md#0106-2023-08-28)
-
-### Something else
-
-The coffee store is closed -look
+### Something else  
+The coffee store is closed-look
 ![image](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/2ed1848f-be0c-4a6f-94a3-14129c2601a7)
 
 ---
 
 ## Shadow - cljs: Thomas Heller  
+Time was mostly spent on doing maintenance work and some bugfixes. As well as helping people out via the typical channels (eg. Clojurians Slack).  
 
-Time was mostly spent on doing maintenance work and some bugfixes. As well as helping people out via the typical channels (eg. Clojurians Slack).
+Current shadow-cljs version: 2.52.3 [Changelog](https://github.com/thheller/shadow-cljs/blob/master/CHANGELOG.md)  
 
-Current shadow-cljs version: 2.52.3 [Changelog](https://github.com/thheller/shadow-cljs/blob/master/CHANGELOG.md)
+### Blog Posts  
+Wrote a blog series about CLJS Frontend development alternatives to full Single Page Apps.  
+- [The Lost Arts of CLJS Frontend](https://code.thheller.com/blog/shadow-cljs/2023/07/13/the-lost-arts-of-cljs-frontend.html)  
+- [Applying the Art of CLJS Frontend](https://code.thheller.com/blog/shadow-cljs/2023/07/16/applying-the-art-of-cljs-frontend.html)  
+- [Mastering the Art of CLJS Frontend](https://code.thheller.com/blog/shadow-cljs/2023/07/18/mastering-the-art-of-cljs-frontend.html)  
+- [shadow-graft: A Case Study](https://code.thheller.com/blog/shadow-cljs/2023/07/21/shadow-graft-a-case-study.html)  
 
-### Blog Posts
-
-Wrote a blog series about CLJS Frontend development alternatives to full Single Page Apps.
-
-- [The Lost Arts of CLJS Frontend](https://code.thheller.com/blog/shadow-cljs/2023/07/13/the-lost-arts-of-cljs-frontend.html)
-- [Applying the Art of CLJS Frontend](https://code.thheller.com/blog/shadow-cljs/2023/07/16/applying-the-art-of-cljs-frontend.html)
-- [Mastering the Art of CLJS Frontend](https://code.thheller.com/blog/shadow-cljs/2023/07/18/mastering-the-art-of-cljs-frontend.html)
-- [shadow-graft: A Case Study](https://code.thheller.com/blog/shadow-cljs/2023/07/21/shadow-graft-a-case-study.html)
-
-### Notable Updates
-
-- Replaced the babel-js based ES Module -> CommonJS rewriter, which is used for ESM based npm modules. This had been [planned for a long time](https://clojureverse.org/t/shadow-cljs-2-25-2-looking-for-testers/10206) and was the only remaining part of shadow-cljs that actually required `node` at runtime. Now this is done entirely within the JVM, which as a side benefit got a bit faster. The old behavior is still available in case problems arise, but will be removed in the future.
+### Notable Updates  
+- Replaced the babel-js based ES Module -> CommonJS rewriter, which is used for ESM based npm modules. This had been [planned for a long time](https://clojureverse.org/t/shadow-cljs-2-25-2-looking-for-testers/10206) and was the only remaining part of shadow-cljs that actually required `node` at runtime. Now this is done entirely within the JVM, which as a side benefit got a bit faster. The old behavior is still available in case problems arise, but will be removed in the future.   
 
 
 
