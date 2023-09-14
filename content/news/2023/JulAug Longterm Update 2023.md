@@ -11,11 +11,11 @@ Even though it was vacation season, our developers share an incredible outpourin
 
 [Calva: Peter Stromberg](#calva-peter-stromberg)  
 [Carmine V4: Peter Taoussanis](#carmine-v4-peter-taoussanis)  
-[CIDER/REPL: Bohzidar Batsov](#ciderrepl-bohzidar-batsov)
+[CIDER/REPL: Bohzidar Batsov](#ciderrepl-bohzidar-batsov)  
 [clj-Kondo, babashka, nbb, SCI, Cherry, Squint: Michiel Borkent](#clj-kondo-babashka-nbb-sci-cherry-squint-michiel-borkent)  
+[Clojar.org: Sean Corfield](#clojarorg-sean-corfield)  
 [Clojars: Toby Crawley](#clojars-toby-crawley)  
 [ClojureDart: Christophe Grande](#clojuredart-christophe-grande)  
-[Clojar.org: Sean Corfield](#clojarorg-sean-corfield)  
 [Clojure-lsp: Eric Dallo](#clojure-lsp-eric-dallo)  
 [Humble UI: Nikita Prokopov](#humble-ui-nikita-prokopov)  
 [Malli: Tommi Reiman](#malli-tommi-reiman)  
@@ -274,83 +274,6 @@ Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates
 
 ---
 
-## Clojars: Toby Crawley  
-                                                                                                                                                                         
-**Commit Logs:** [`clojars-web`](https://github.com/clojars/clojars-web/compare/5fdef58b17d710fdf6b2ea886a520c84e45af624...0a5eb2175e7b417fc9e64bcb6fb87f6d15cbddbc), [`infrastructure`](https://github.com/clojars/infrastructure/compare/5d2811bdfd95cf1320af2a2bea2fed2ce0cf9b87...ad8335b312a81567a4c78ef4fe1587741794534c)
-                                                                                                                                                                       
-I took this month to clean up some long-standing issues:  
--   [Fixed an issue with error reporting from the repository routes](https://github.com/clojars/clojars-web/issues/659)
--   [Include release date for each version in feed.clj](https://github.com/clojars/clojars-web/issues/563)
--   [Include scm tag for each version in feed.clj](https://github.com/clojars/clojars-web/issues/564)
--   [Require MFA group wide to deploy](https://github.com/clojars/clojars-web/issues/823)
-
-And a few quality-of-life improvements:  
--   [Add denylist to email sender](https://github.com/clojars/clojars-web/commit/0d33a469744f71aa965eac40c6a9cdebd44edefa)
--   [Migrate from project.clj to deps.edn](https://github.com/clojars/clojars-web/pull/872)
--   [Upgraded to latest clj-kondo for code linting](https://github.com/clojars/clojars-web/commit/0a5eb2175e7b417fc9e64bcb6fb87f6d15cbddbc)
-
-The [CHANGELOG file](https://github.com/clojars/clojars-web/blob/main/CHANGELOG.org) also covers any user-facing changes.
-
-Note: this report is also available on [tcrawley.org](https://tcrawley.org/clojars-worklog/2023/index.html#aug-2023) <br>
-
----
-
-
-## ClojureDart: Christophe Grande
-
-### ClojureDart
-ClojureDart keeps to steadily get new users. [We got featured on a Youtube channel for Flutter devs](https://www.youtube.com/watch?v=ziPIzvA60co). Hopefully we increase the reach of Clojure both by allowing Clojurists to reach mobile/desktop but also by drawing more people to Clojure.
-
-We are also glad to have received quality PRs adding missing functions or fixing divergences in the way things print.
-
-We started working on a REPL (limited to Flutter apps for now), we expect to make it public in September.
-
-The lack of multimethods begins to feel like a blocker for porting existing libs so it's another tppic we should address in the next two months/
-
-Last, we keep publishing short videos on Youtube https://www.youtube.com/@clojuredart/shorts and we also started a newsletter on ClojureDart and nerdy stuff.
-
-### Fixes
-Several fixes to the compiler, cljd.core or flutter.cljd. Amongst them:  
-* fix CI for Dart 2 which was broken by tests for records support (which are a Dart 3 feature)  
-* allow destructuring in the arg list of protocol implementations  
-* fix type-inference regression on a combination of `if` and `recur`  
-* `*-array*` functions were not properly hinted  
-* workaround for a Dart parser bug https://github.com/dart-lang/sdk/issues/52904  
-* fix aliases in emitted code for when a protocol is extended from another namespace  
-* fix hot reloading error when a protocol extension is removed -- this issue and the previous one were triggered by the REPL work  
-* make `set!` more robust (the implementation was a bit hacky and didn't perform some checks)  
-* `rseq` wasn't behaving properly on vectors whose size was a multiple of 32    
-* some code was improperly optimized away when a `throw` appeared in some nested `if`s in statement position   
-* widgets below a `:vsync` were not refresh on app state changes, only on animation updates    
-* issues with `set!` expressions used in argument position   
-* potential double evaluation when casting to a nullable type  
-* ...  
-
-### Improvements  
-* refactoring of the Subscribable protocol in `cljd.flutter` (breaking change but almost no users had implemented it) to simplify the handling of default values by pushing the responsibility to the consumer rather than to the producer.  
-* support of namespaced maps in the reader (the cljd one used at runtime, not the clj one used to read source).  
-* `retriable`/`retry!`: `(retriable expr)` behaves a bit like `future`, except that:  
-	* its body is the one of a `try`, you can have `catch`es and `finally`: `(retriable expr (catch Object o st ...))`
-	* it can be retried by calling `retry!` on it -- returning a future which yields when the current retry is done (completed or failed).
-  The intent is to allow to retry failed IO (or trigger refreshes) and be able to tie a spinner lifetime to the current try.  
-* the compiler now watches for changes into `:local/root` deps to ease codevelopment of libs and apps.  
-
-### Future Work  
-
-### ClojureDart  
-* Publish the Flutter-only REPL  
-* Multi-methods to allow some libs to be ported  
-* Look into porting Datascript and SCI to ClojureDart  
-* New APIs to leverage our persistent data structures:  
-	* maps (hash and sorted) in ClojureDart are original implementations (not the same as CLJ/CLJS)  
-        * hash maps could be seen as another refinement of the original, sorted maps constitute a novel implementation.  
-	* Sorted colls should be good enough for direct use by Datascript.  
-	* Both hash and sorted maps can support accelerated merge/diff/join/etc. operations.  
-* `cljd` CLI written in `cljd` for easier project creation etc.  
-* gen tests  
-* …<br>   
-
----
 
 ## Clojar.org: Sean Corfield  
 
@@ -470,6 +393,83 @@ pass of "TBD" items in the "language" section.
 
 :tags "clojure" "clojure-doc.org" "honeysql" "clj-commons" "open source" "community" "clojurists together" "polylith"
 <br>  
+
+## Clojars: Toby Crawley  
+                                                                                                                                                                         
+**Commit Logs:** [`clojars-web`](https://github.com/clojars/clojars-web/compare/5fdef58b17d710fdf6b2ea886a520c84e45af624...0a5eb2175e7b417fc9e64bcb6fb87f6d15cbddbc), [`infrastructure`](https://github.com/clojars/infrastructure/compare/5d2811bdfd95cf1320af2a2bea2fed2ce0cf9b87...ad8335b312a81567a4c78ef4fe1587741794534c)
+                                                                                                                                                                       
+I took this month to clean up some long-standing issues:  
+-   [Fixed an issue with error reporting from the repository routes](https://github.com/clojars/clojars-web/issues/659)
+-   [Include release date for each version in feed.clj](https://github.com/clojars/clojars-web/issues/563)
+-   [Include scm tag for each version in feed.clj](https://github.com/clojars/clojars-web/issues/564)
+-   [Require MFA group wide to deploy](https://github.com/clojars/clojars-web/issues/823)
+
+And a few quality-of-life improvements:  
+-   [Add denylist to email sender](https://github.com/clojars/clojars-web/commit/0d33a469744f71aa965eac40c6a9cdebd44edefa)
+-   [Migrate from project.clj to deps.edn](https://github.com/clojars/clojars-web/pull/872)
+-   [Upgraded to latest clj-kondo for code linting](https://github.com/clojars/clojars-web/commit/0a5eb2175e7b417fc9e64bcb6fb87f6d15cbddbc)
+
+The [CHANGELOG file](https://github.com/clojars/clojars-web/blob/main/CHANGELOG.org) also covers any user-facing changes.
+
+Note: this report is also available on [tcrawley.org](https://tcrawley.org/clojars-worklog/2023/index.html#aug-2023) <br>
+
+---
+
+
+## ClojureDart: Christophe Grande
+
+### ClojureDart
+ClojureDart keeps to steadily get new users. [We got featured on a Youtube channel for Flutter devs](https://www.youtube.com/watch?v=ziPIzvA60co). Hopefully we increase the reach of Clojure both by allowing Clojurists to reach mobile/desktop but also by drawing more people to Clojure.
+
+We are also glad to have received quality PRs adding missing functions or fixing divergences in the way things print.
+
+We started working on a REPL (limited to Flutter apps for now), we expect to make it public in September.
+
+The lack of multimethods begins to feel like a blocker for porting existing libs so it's another tppic we should address in the next two months/
+
+Last, we keep publishing short videos on Youtube https://www.youtube.com/@clojuredart/shorts and we also started a newsletter on ClojureDart and nerdy stuff.
+
+### Fixes
+Several fixes to the compiler, cljd.core or flutter.cljd. Amongst them:  
+* fix CI for Dart 2 which was broken by tests for records support (which are a Dart 3 feature)  
+* allow destructuring in the arg list of protocol implementations  
+* fix type-inference regression on a combination of `if` and `recur`  
+* `*-array*` functions were not properly hinted  
+* workaround for a Dart parser bug https://github.com/dart-lang/sdk/issues/52904  
+* fix aliases in emitted code for when a protocol is extended from another namespace  
+* fix hot reloading error when a protocol extension is removed -- this issue and the previous one were triggered by the REPL work  
+* make `set!` more robust (the implementation was a bit hacky and didn't perform some checks)  
+* `rseq` wasn't behaving properly on vectors whose size was a multiple of 32    
+* some code was improperly optimized away when a `throw` appeared in some nested `if`s in statement position   
+* widgets below a `:vsync` were not refresh on app state changes, only on animation updates    
+* issues with `set!` expressions used in argument position   
+* potential double evaluation when casting to a nullable type  
+* ...  
+
+### Improvements  
+* refactoring of the Subscribable protocol in `cljd.flutter` (breaking change but almost no users had implemented it) to simplify the handling of default values by pushing the responsibility to the consumer rather than to the producer.  
+* support of namespaced maps in the reader (the cljd one used at runtime, not the clj one used to read source).  
+* `retriable`/`retry!`: `(retriable expr)` behaves a bit like `future`, except that:  
+	* its body is the one of a `try`, you can have `catch`es and `finally`: `(retriable expr (catch Object o st ...))`
+	* it can be retried by calling `retry!` on it -- returning a future which yields when the current retry is done (completed or failed).
+  The intent is to allow to retry failed IO (or trigger refreshes) and be able to tie a spinner lifetime to the current try.  
+* the compiler now watches for changes into `:local/root` deps to ease codevelopment of libs and apps.  
+
+### Future Work  
+
+### ClojureDart  
+* Publish the Flutter-only REPL  
+* Multi-methods to allow some libs to be ported  
+* Look into porting Datascript and SCI to ClojureDart  
+* New APIs to leverage our persistent data structures:  
+	* maps (hash and sorted) in ClojureDart are original implementations (not the same as CLJ/CLJS)  
+        * hash maps could be seen as another refinement of the original, sorted maps constitute a novel implementation.  
+	* Sorted colls should be good enough for direct use by Datascript.  
+	* Both hash and sorted maps can support accelerated merge/diff/join/etc. operations.  
+* `cljd` CLI written in `cljd` for easier project creation etc.  
+* gen tests  
+* …<br>   
+
 
 ---
 
