@@ -1,11 +1,31 @@
 ---
-title: "July August 2023 Long Term Project Updates" 
+title: "July and August 2023 Long Term Project Updates" 
 date: 2023-09-08T08:30:00+08:00 
 summary: Check out reports from our 11 developers.
 author: Kathy Davis
 draft: true
 
 ---
+
+Even though it was vacation season, our developers share an incredible outpouring of work on their 2023 long term projects! Check it out.<br>
+
+[Calva: Peter Stromberg](##calva-peter-stromberg)  
+[Carmine V4: Peter Taoussanis](##carmine-v4-peter-taoussanis)  
+[CIDER/REPL: Bohzidar Batsov](##ciderrepl-bohzidar-batsov)
+[clj-Kondo, babashka, nbb, SCI, Cherry, Squint: Michiel Borkent](##clj-kondo-babashka-nbb-sci-cherry-squint-michiel-borkent)
+[Clojars: Toby Crawley](##clojars-toby-crawley)  
+[ClojureDart: Christophe Grande](##clojuredart-christophe-grande)  
+[clojure.org: Sean Corfield](##clojure.org-sean-corfield)  
+[CLojure-lsp: Eric Dallo](##clojure-lsp-eric-dallo)  
+[Humble UI: Nikita Prokopov](##humble-ui-nikita-prokopov)  
+[Malli: Tommi Reiman](##malli-tommi-reiman)  
+[Shadow-cljs: Thomas Heller](##shadow-cljs-thomas-heller)  
+<br>  
+
+---
+
+
+
 ## Calva: Peter Stromberg  
 
 These two months were not just about Calva. 😀
@@ -453,7 +473,7 @@ pass of "TBD" items in the "language" section.
 
 ---
 
-## Clojure - lsp: Eric Dallo  
+## Clojure-lsp: Eric Dallo  
 
 During this year I've been working on clojure-lsp support for IntelliJ, it was the only mainstream editor that didn't have a good way to use clojure-lsp features, it was really hard to integrate with the LSP protocol because of Intellij's API but making the plugin in Clojure helped a little bit with that, so after a lot of work, I'm excited and happy to announce [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij), a new plugin for IntelliJ to have all clojure-lsp features available!<br>
 
@@ -601,7 +621,7 @@ The coffee store is closed-look
 
 ---
 
-## Shadow - cljs: Thomas Heller  
+## Shadow-cljs: Thomas Heller  
 Time was mostly spent on doing maintenance work and some bugfixes. As well as helping people out via the typical channels (eg. Clojurians Slack).  
 
 Current shadow-cljs version: 2.52.3 [Changelog](https://github.com/thheller/shadow-cljs/blob/master/CHANGELOG.md)  
