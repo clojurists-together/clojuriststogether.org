@@ -616,7 +616,7 @@ borkdude/edamame 1.3.20 -> 1.3.23
 ### Something else
 
 The coffee store is closed -look
-![image](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/e98dadeb-42fd-4038-a7a1-c5f51d95809d)  
+![image](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/2ed1848f-be0c-4a6f-94a3-14129c2601a7)
 
 ---
 
