@@ -16,48 +16,41 @@ The biggest change was one I thought would be really tiny. We upgraded our depen
 
 **Some more changes:**
 
-- Support for workflows involving Fiddle Files, of [Clojure Design Podcast fame](https://clojuredesign.club/episode/014-fiddle-with-the-repl/), was added. Please let us know if you use this support and how you fare with it!
+- Support for workflows involving Fiddle Files, of [Clojure Design Podcast fame](https://clojuredesign.club/episode/014-fiddle-with-the-repl/), was added. Please let us know if you use this support and how you fare with it!  
 - Improve nREPL message diagnostics.
 - Fixing issues around shadow-cljs REPL start and connect
-- Restructure and complement the docs around using Calva with shadow-cljs
-- Improvements with evaluating expressions inside Rich Comment Forms
-- Improvements in how the nREPL server collects output side effects from the REPL process, following CIDER's model
-- Improvements in the handling of, and messaging around, clojure-lsp binary downloads
+- Restructure and complement the docs around using Calva with shadow-cljs  
+- Improvements with evaluating expressions inside Rich Comment Forms  
+- Improvements in how the nREPL server collects output side effects from the REPL process, following CIDER's model  
+- Improvements in the handling of, and messaging around, clojure-lsp binary downloads  <br>
 
 
-### Lingy
+### Lingy  
 
 When testing and providing feedback on the development of [Lingy, a new Clojure implementation running on Perl](https://github.com/lingy-lang/lingy), I wanted to be able to connect Calva to the Lingy REPL. So that caused me to start and participate in the development of a [Lingy nREPL server](https://github.com/lingy-lang/lingy#nrepl-support). Now users of Calva, and any other nREPL client, can interact with their Lingy application from the editor. (Yes, so this was partly about Calva 😄.)<br>  
+
 
 ---
 
 ## Carmine V4: Peter Taoussanis  
 
-### Open source update
-
+### Open source update  
 A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nubank](https://nubank.com.br/), [lambdaschmiede](https://www.lambdaschmiede.com/), and [other sponsors](/sponsors) of my open source work!
 
-### Recent work
-
-This was a productive couple months! Managed to dedicate 100% of my time to open source.
-
-Recent work includes:
+### Recent work  
+This was a productive couple of months! Managed to dedicate 100% of my time to open source. Recent work includes:  
 
 - [14 library updates](https://www.taoensso.com/clojure/news), including pre-releases for major updates to [Nippy](https://github.com/taoensso/nippy/releases/tag/v3.3.0-RC1) and [Carmine](https://github.com/taoensso/carmine/releases/tag/v3.3.0-RC1).
 - Significant improvements to all **library documentation** are underway, including:
 	- Cross-platform API docs via a [Codox fork](https://github.com/taoensso/codox) (work also [submitted upstream](https://github.com/weavejester/codox/issues/216)).
-	- Improved compatibility with [clj-doc](https://cljdoc.org/). Thanks to [Lee Read](https://github.com/lread) for assistance with some [upstream improvements](https://github.com/cljdoc/cljdoc/issues/779) and troubleshooting advice 🙏.
-	- After much experimentation, I've settled on new tooling and a new workflow for writing documentation.
-	  
-	  This'll allow me to much more easily write and maintain docs moving forward.
-	  
-	  The first change that will be apparent is the move to a wiki format ([example](https://github.com/taoensso/sente/wiki)) that allows more structure and easier searching.
-   	- Relatedly- I've started updating and expanding all pre-existing docs, with a focus on more beginner-oriented info. I'm tackling this in steps, so it'll take some time to migrate and update everything.
-- I've moved all my open source under a dedicated [GitHub group](https://github.com/taoensso) to help keep things organized and more easily searchable.
-- I've updated my homepage to include [better info](https://www.taoensso.com/clojure) on my open source - including [release news](https://www.taoensso.com/clojure/news).
- - I've started added basic GraalVM compatibility (and tests) to all libraries. Many are already covered, the rest will be covered whenever they get their next release.
- - (Just for fun) - I made a [new logo](https://github.com/http-kit/http-kit/blob/master/http-kit-logo.png) for [http-kit](https://www.taoensso.com/http-kit).
- - I've been deep in experimentation on a new telemetry library that I'm quite excited about. I'll have more to share on this in future, but in the meantime I can say that I'm very happy with how the initial prototype is coming along 👍
+	- Improved compatibility with [clj-doc](https://cljdoc.org/). Thanks to [Lee Read](https://github.com/lread) for assistance with some [upstream improvements](https://github.com/cljdoc/cljdoc/issues/779) & troubleshooting advice 🙏.  
+	- After much experimentation, I've settled on new tooling and a new workflow for writing documentation.  This'll allow me to much more easily write and maintain docs moving forward.  The first change that will be apparent is the move to a wiki format ([example](https://github.com/taoensso/sente/wiki)) that allows more structure and easier searching.  
+   	- Relatedly- I've started updating and expanding all pre-existing docs, with a focus on more beginner-oriented info. I'm tackling this in steps, so it'll take some time to migrate and update everything. 
+- I've moved all my open source under a dedicated [GitHub group](https://github.com/taoensso) to help keep things organized and more easily searchable.  
+- I've updated my homepage to include [better info](https://www.taoensso.com/clojure) on my open source - including [release news](https://www.taoensso.com/clojure/news).  
+- I've started added basic GraalVM compatibility (and tests) to all libraries. Many are already covered, the rest will be covered whenever they get their next release.  
+- (Just for fun) - I made a [new logo](https://github.com/http-kit/http-kit/blob/master/http-kit-logo.png) for [http-kit](https://www.taoensso.com/http-kit).  
+- I've been deep in experimentation on a new telemetry library that I'm quite excited about. I'll have more to share on this in future, but in the meantime I can say that I'm very happy with how the initial prototype is coming along 👍  
 
 ### Upcoming work
 
@@ -66,37 +59,39 @@ My current [roadmap](https://www.taoensso.com/clojure/roadmap) includes:
 - **September**: stable [Nippy](https://www.taoensso.com/nippy) v3.3 and [Carmine](https://www.taoensso.com/carmine) v3.3 releases.
 - **October**: first public release of [Tempel](https://www.taoensso.com/tempel), a new **data security framework** that I plan to talk more about closer the time.
 
-I'll also be continuing work on the new telemetry library (currently named [Telemere](https://taoensso.com/telemere)), and on the ongoing documentation improvements. <br>
+I'll also be continuing work on the new telemetry library (currently named [Telemere](https://www.taoensso.com/telemere)), and on the ongoing documentation improvements. - [Peter Taoussanis](https://www.taoensso.com) <br>
+
 
 ---
 
-## CIDER: Bohzidar Batsov  
-The last couple of months were very productive for CIDER and all of its related projects. This was mostly due to our long-term contributor `vemv` being between jobs and eager to tackle some of the major items on our TODO list. I've decided to use a sizeable chunk of the donation money CIDER had accumulated over at OpenCollective to fund `vemv`'s work on CIDER & friends, and the results were great. Some highlights:
+## CIDER/REPL: Bohzidar Batsov  
+The last couple of months were very productive for CIDER and all of its related projects. This was mostly due to our long-term contributor `vemv` being between jobs and eager to tackle some of the major items on our TODO list. I've decided to use a sizeable chunk of the donation money CIDER had accumulated over at OpenCollective to fund `vemv`'s work on CIDER & friends, and the results were great. Some highlights:  
 
-- We've got a brand new and much improved https://github.com/clojure-emacs/enrich-classpath Now CIDER support using `enrich-classpath` with Clojure's CLI (`tools.deps`) as well.
-- The test runner now has a fail-fast mode and shows timing information about the tests
-- We finally started to make use of Clojure 1.10's improved error message. (see https://github.com/clojure-emacs/cider/issues/3418) This prevents stacktraces from showing up whenever the [:clojure.error/phase](https://clojure.org/reference/repl_and_main#_at_repl) indicates that it's a compilation error.
-- Add new customization variable `cider-clojurec-eval-destination` to allow specifying which REPL CLJC evals are sent to.
-- CIDER can now infer the indentation for many macros, without the need to provide indentation metadata for them (similar to how SLIME works for Common Lisp)
-- There have been many small improvements around the ClojureScript support
+- We've got a brand new and much improved https://github.com/clojure-emacs/enrich-classpath Now CIDER support using `enrich-classpath` with Clojure's CLI (`tools.deps`) as well.  
+- The test runner now has a fail-fast mode and shows timing information about the tests  
+- We finally started to make use of Clojure 1.10's improved error message. (see https://github.com/clojure-emacs/cider/issues/3418) This prevents stacktraces from showing up whenever the [:clojure.error/phase](https://clojure.org/reference/repl_and_main#_at_repl) indicates that it's a compilation error.  
+- Add new customization variable `cider-clojurec-eval-destination` to allow specifying which REPL CLJC evals are sent to.  
+- CIDER can now infer the indentation for many macros, without the need to provide indentation metadata for them (similar to how SLIME works for Common Lisp)  
+- There have been many small improvements around the ClojureScript support  
 
-We've also did a big cleanup of the backlog and got the open issues under 100 for the first time in quite some time!
+We've also did a big cleanup of the backlog and got the open issues under 100 for the first time in quite some time!  
 
 There are also a ton of other small improvements and bug-fixes that have been implemented in those two months. I encourage everyone to check the full list of changes [here](https://github.com/clojure-emacs/cider/blob/master/CHANGELOG.md#master-unreleased). All this work is the reason why CIDER 1.8 is still not out - we want to pack more into this release before we focus on CIDER 2.0  
 
-Right now it seems that CIDER 1.8 will be the biggest and most important CIDER release in the past 2-3 years! The release should happen any day now (this time for real)!
+Right now it seems that CIDER 1.8 will be the biggest and most important CIDER release in the past 2-3 years! The release should happen any day now (this time for real)!  
 
-On an unrelated note - `clojure-ts-mode` is now available on NonGNU ELPA. Its submission there triggered a few long conversations about potentially including `clojure-mode` and/or `clojure-ts-mode` in Emacs itself. It's a complex topic that we'll be discussing with the `clojure-emacs` maintainers and our users in the months to come. 
+On an unrelated note - `clojure-ts-mode` is now available on NonGNU ELPA. Its submission there triggered a few long conversations about potentially including `clojure-mode` and/or `clojure-ts-mode` in Emacs itself. It's a complex topic that we'll be discussing with the `clojure-emacs` maintainers and our users in the months to come.  
 
 That's all I have for you today! I expect to write a few more detailed blog posts on some of the topics I mentioned here once CIDER 1.8 has been released. <br>
 
 ---
 
-## clj-Kondo: Michiel Borkent  
+
+## clj-Kondo, babashka, nbb, SCI, Cherry, Squint: Michiel Borkent  
 
 **Sponsors**
-I'd like to thank all the sponsors and contributors that make this work possible! Open the details section for more info.
-Sponsor infoTop sponsors:  
+I'd like to thank all the sponsors and contributors that make this work possible! 
+Top sponsors:  
 •	[Clojurists Together](https://clojuriststogether.org/)  
 •	[Roam Research](https://roamresearch.com/)  
 •	[Nextjournal](https://nextjournal.com/)  
@@ -139,18 +134,17 @@ On to the projects that I worked on in July!
 	* Version 1.3.182 released, mostly library bumps and small bugfixes. See changelogs [here](https://github.com/babashka/babashka/blob/master/CHANGELOG.md#13182-2023-07-20).  
 - **[deps.clj](https://github.com/borkdude/deps.clj):** A faithful port of the clojure CLI bash script to Clojure
 	* More robust handling of downloading and unzipping tools jar
-- **[scittle](https://github.com/babashka/scittle):** Execute Clojure(Script) directly from browser script tags via SCI
+- **[scittle](https://github.com/babashka/scittle):** Execute Clojure(Script) directly from browser script tags via SCI  
 	* Fixed a small bug with evaluating tags: when there would be whitespace + a "src" attribute, the whitespace would be executed and the attribute was ignored.
--** [tools-deps-native](https://github.com/babashka/tools-deps-native) and [tools.bbuild](https://github.com/babashka/tools.bbuild):**
-	* This EXPERIMENTAL combo allows you to use tools.build from babashka. In this release a reflection issue was addressed.
-- **[nbb](https://github.com/babashka/nbb):** Scripting in Clojure on Node.js using SCI
-	* Add missing function to promesa
-- **[jet](https://github.com/borkdude/jet):** CLI to transform between JSON, EDN, YAML and Transit using Clojure
-        * Release version 0.7.27 (see [changelogs](https://github.com/borkdude/jet/blob/master/CHANGELOG.md#0727-2023-08-02)) with missing 1.11 functions and options for easier kebab/camel/etc. casing.  
+- **[tools-deps-native](https://github.com/babashka/tools-deps-native) and [tools.bbuild](https://github.com/babashka/tools.bbuild):**
+	* This EXPERIMENTAL combo allows you to use tools.build from babashka. In this release a reflection issue was addressed.  
+- **[nbb](https://github.com/babashka/nbb):** Scripting in Clojure on Node.js using SCI  
+	* Add missing function to promesa  
+- **[jet](https://github.com/borkdude/jet):** CLI to transform between JSON, EDN, YAML and Transit using Clojure    
+	* Release version 0.7.27 (see [changelogs](https://github.com/borkdude/jet/blob/master/CHANGELOG.md#0727-2023-08-02)) with missing 1.11 functions and options for easier kebab/camel/etc. casing.  
 
 **Other projects:**  
-These are (some of the) other projects I'm involved with but little to no activity happened in the past month.  
-Click for more details:  
+These are (some of the) other projects I'm involved with but little to no activity happened in July.  Click for more details:  
 - [sql pods](https://github.com/babashka/babashka-sql-pods): babashka pods for SQL databases  
 - [CLI](https://github.com/babashka/cli): Turn Clojure functions into CLIs!  
 - [cljs-showcase](https://github.com/borkdude/cljs-showcase): Showcase CLJS libs using SCI  
@@ -181,27 +175,28 @@ Click for more details:
 - [deflet](https://github.com/borkdude/deflet): make let-expressions REPL-friendly!  
 - [babashka.json](https://github.com/babashka/json): babashka JSON library/adapter  
 - [deps.add-lib](https://github.com/borkdude/deps.add-lib): Clojure 1.12's add-lib feature for leiningen and/or other environments without a specific version of the clojure CLI  
+
 Published: 2023-08-02  
 
 
 ### August Updates  
-In August,  my attention was mostly directed at the upcoming [Strange loop](https://www.thestrangeloop.com/2023/babashka-a-meta-circular-clojure-interpreter-for-the-command-line.html) talk. I'm very excited to be part of the last iteration of this conference. It will also be my first time flying to the USA!  
+In August, my attention was mostly directed at the upcoming [Strange loop](https://www.thestrangeloop.com/2023/babashka-a-meta-circular-clojure-interpreter-for-the-command-line.html) talk. I'm very excited to be part of the last iteration of this conference. It will also be my first time flying to the USA!  
 
 Rahul De and Anupriya Johari will be giving a workshop at JavaZone on Tuesday the 5th of September. Check the details [here](https://2023.javazone.no/program/19a5cab3-7afd-4dc1-b60a-bea8562d3186).  
 
 Here are updates about the projects/libraries I've worked in August:    
-
 - **[jet](https://github.com/borkdude/jet):** CLI to transform between JSON, EDN, YAML and Transit using Clojure  
 	* Release version 0.7.27 (see [changelogs](https://github.com/borkdude/jet/blob/master/CHANGELOG.md#0727-2023-08-02)) with missing 1.11 functions and options for easier kebab/camel/etc. casing.  
 - **[quickdoc](https://github.com/borkdude/quickdoc):** Quick and minimal API doc generation for Clojure  
 	* No update in quickdoc, but happy to see that Github have resolved a bug on their side with local anchors in HTML, which quickdoc relies on
-Require clojure 1.11 as the minimal clojure version  
+	* Require clojure 1.11 as the minimal clojure version  
 - **[sci.configs](https://github.com/babashka/sci.configs):** A collection of ready to be used SCI configs.  
 	* Worked together with [@niwinz](https://github.com/niwinz) to make sci.configs upgradable to promesa 10 and 11. Many thanks to Andrey for making promesa backward-compatible again, since sci.configs relies on Clojure libraries to be always upgradable without breaking changes.  
-- **[nbb](https://github.com/babashka/nbb):** Scripting in Clojure on Node.js using SCI. Bumped sci.configs and promesa  
+- **[nbb](https://github.com/babashka/nbb):** Scripting in Clojure on Node.js using SCI.
+	* Bumped sci.configs and promesa  
 - **[deps.clj](https://github.com/borkdude/deps.clj):** A faithful port of the clojure CLI bash script to Clojure    
-	* The tools jar relocated to Github releases so deps.clj was updated to this new location, with backward compatibility. 
-Per my request, Alex added a .sha256 file to Github releases so the downloaded jar file could be verified against corruption   
+	* The tools jar relocated to Github releases so deps.clj was updated to this new location, with backward compatibility.  
+	* Per my request, Alex added a .sha256 file to Github releases so the downloaded jar file could be verified against corruption   
 - **[SCI](https://github.com/babashka/sci):** Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs  
 	* Clojure compatibility: allow (def foo/foo 1) in namespace foo  
 	* Clojure compatibility: reset file metadata on var when it's re-evaluated from other file  
@@ -220,14 +215,14 @@ Per my request, Alex added a .sha256 file to Github releases so the downloaded j
 - **[clj-kondo](https://github.com/clj-kondo/clj-kondo):** static analyzer and linter for Clojure code that sparks joy.  
 	* working towards a new release with a large number of small bug fixes, see upcoming [changelog](https://github.com/clj-kondo/clj-kondo/blob/master/CHANGELOG.md)
 - **http-client](https://github.com/babashka/http-client):** babashka's http-client  
-	* A number of small bugfixes and additions
+	* A number of small bugfixes and additions  
  
 ### Other projects  
-These are (some of the) other projects I'm involved with but little to no activity happened in the past month. Click for more details.   
+These are (some of the) other projects I'm involved with but little to no activity happened in August. Click for more details.   
 - [pod-babashka-fswatcher](https://github.com/babashka/pod-babashka-fswatcher): babashka filewatcher pod  
 - [edamame](https://github.com/borkdude/edamame): Configurable EDN/Clojure parser with location metadata  
 - [lein-clj-kondo](https://github.com/clj-kondo/lein-clj-kondo): a leiningen plugin for clj-kondo  
-- squint](https://github.com/squint-cljs/squint): CLJS syntax to JS compiler and [cherry](https://github.com/squint-cljs/cherry) Experimental ClojureScript to ES6 module compi  
+- [squint](https://github.com/squint-cljs/squint): CLJS syntax to JS compiler and [cherry](https://github.com/squint-cljs/cherry) Experimental ClojureScript to ES6 module compi  
 - [lein2deps](https://github.com/borkdude/lein2deps): leiningen to deps.edn converter  
 - [scittle](https://github.com/babashka/scittle): Execute Clojure(Script) directly from browser script tags via SCI  
 - [tools-deps-native](https://github.com/babashka/tools-deps-native) and [tools.bbuild](https://github.com/babashka/tools.bbuild)  
@@ -254,9 +249,8 @@ These are (some of the) other projects I'm involved with but little to no activi
 - [deps.add-lib](https://github.com/borkdude/deps.add-lib): Clojure 1.12's add-lib feature for leiningen and/or other environments without a specific version of the clojure CLI  
 Published: 2023-08-30  
 
-Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)  
+Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)  Discuss these posts [here](https://github.com/borkdude/blog/discussions/categories/posts).  To see previous [posts](https://blog.michielborkent.nl/tags/oss-updates.html) go here.<br>
 
-Discuss these posts [here](https://github.com/borkdude/blog/discussions/categories/posts).  
 
 ---
 
