@@ -507,17 +507,23 @@ The main highlight are performance and memory improvement, also we had formattin
 
 ## 2023.08.06-00.28.06
 
-- General
-  - Fix truncation of namespaced keywords #1640
-  - Add rewrite-clj node to cursor-info.
-  - Fixing semantic-tokens, collons not managed by lsp anymore. #1550
-  - Fix `:paths-ignore-regex` setting to consider settings reload.
-  - Bump clj-kondo to `2023.07.14-20230717.090255-3`. #1624
-  - Fix inconsistencies with `:defined-by->lint-as`.
-  - Improve memory usage during cache save, avoiding "Out of memory" exceptions.
-  - Prevent file rename when a namespace is defined in multiple files #1574
-  - Fix user formatti
-Last two months have been DataScript-focused. I’ve implemented a major new feature: pluggable durable storages. I’ve also wrote SQL adapter for them and migrated Grumpy Website to DataScript + SQLite to battle-test the implementation.<br>
+**General**
+- Fix truncation of namespaced keywords #1640
+- Add rewrite-clj node to cursor-info. - Fixing semantic-tokens, collons not managed by lsp anymore. #1550
+- Fix `:paths-ignore-regex` setting to consider settings reload.
+- Bump clj-kondo to `2023.07.14-20230717.090255-3`. #1624
+- Fix inconsistencies with `:defined-by->lint-as`.
+- Improve memory usage during cache save, avoiding "Out of memory" exceptions.
+- Prevent file rename when a namespace is defined in multiple files #1574
+- Fix user formatting setting being override by :style/indent metadata in macros.
+- Bump cljfmt to `0.11.2`. #1634
+- Bump lsp4clj to `1.8.1`.
+
+**Editor**
+- Avoid returning all known keywords on empty keywords completion for performance reasons.
+  
+**API/CLI**
+- Improve mem/cpu usage using less analysis for tasks.<br>
 
 
 ---
