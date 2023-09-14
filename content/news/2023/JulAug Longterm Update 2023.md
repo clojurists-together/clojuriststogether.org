@@ -6,6 +6,15 @@ author: Kathy Davis
 draft: true
 
 ---
+Check out this incredible body of work from our developers working on long projects in 2023.  
+
+
+
+[Calva: Peter Stromberg](##calva-peter-stromberg)  
+
+
+
+
 ## Calva: Peter Stromberg  
 
 These two months were not just about Calva. 😀
