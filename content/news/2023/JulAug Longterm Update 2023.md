@@ -1,11 +1,12 @@
 ---
 title: "July and August 2023 Long Term Project Updates" 
-date: 2023-09-14T08:30:00+08:00 
+date: 2023-09-15T08:30:00+08:00 
 summary: Check out the latest from our 11 developers.
-author: Kathy Davis
+author: Kathy Davis  
 
----
-<br> 
+---  
+
+
 Even though it was vacation season, our developers share their progress (and challenges) for an incredible outpouring of work on their 2023 long term projects! Check it out.<br>  
 
 [Calva: Peter Stromberg](#calva-peter-stromberg)  
