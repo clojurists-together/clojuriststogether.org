@@ -376,6 +376,9 @@ pass of "TBD" items in the "language" section.
 :tags "clojure" "clojure-doc.org" "honeysql" "clj-commons" "open source" "community" "clojurists together" "polylith"
 <br>  
 
+---
+
+
 ## Clojars: Toby Crawley  
                                                                                                                                                                          
 **Commit Logs:** [`clojars-web`](https://github.com/clojars/clojars-web/compare/5fdef58b17d710fdf6b2ea886a520c84e45af624...0a5eb2175e7b417fc9e64bcb6fb87f6d15cbddbc), [`infrastructure`](https://github.com/clojars/infrastructure/compare/5d2811bdfd95cf1320af2a2bea2fed2ce0cf9b87...ad8335b312a81567a4c78ef4fe1587741794534c)
@@ -558,7 +561,7 @@ It has been working well so far (~2 weeks, lots of updates).
 - Better gitignore matching  
 - Allow running any command on top of another one, implicitly killing previous one  
 
-### Clojure Sublimed](https://github.com/tonsky/Clojure-Sublimed):  
+### [Clojure Sublimed](https://github.com/tonsky/Clojure-Sublimed):  
 - Show file/line/column information when `clojure_sublimed_eval_code` fails  
 
 ### New project — [Dark Mode Toggle](https://github.com/tonsky/DarkModeToggle):  
