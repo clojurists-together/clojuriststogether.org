@@ -164,11 +164,7 @@ On to the projects that I worked on in July!
 	* Release version 0.7.27 (see [changelogs](https://github.com/borkdude/jet/blob/master/CHANGELOG.md#0727-2023-08-02)) with missing 1.11 functions and options for easier kebab/camel/etc. casing.  
 
 **Other projects:**  
-These are (some of the) other projects I'm involved with but little to no activity happened in July.  Click for more details:  
-- [sql pods](https://github.com/babashka/babashka-sql-pods): babashka pods for SQL databases  
-- [CLI](https://github.com/babashka/cli): Turn Clojure functions into CLIs!  
-- [cljs-showcase](https://github.com/borkdude/cljs-showcase): Showcase CLJS libs using SCI  
-- [fs](https://github.com/babashka/fs) - File system utility library for Clojure  
+These are (some of the) other projects I'm involved with but little activity in July.  Click for more details:  
 - [SCI](https://github.com/babashka/sci): Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs  
 	* Support :require-macros  
 	* Introduce eval-string+ which received an optional initial :ns key and also returns the last active :ns so you can preserve the namespace state over multiple evaluations.  
@@ -176,26 +172,9 @@ These are (some of the) other projects I'm involved with but little to no activi
 - [process](https://github.com/babashka/process): Clojure library for shelling out / spawning sub- processes  
 	* Implement :out :bytes to receive output as bytes (thanks Hans Bugge Grathwohl)  
 	* Make :dir option accept java.nio.file.Path  
-- [sci.configs](https://github.com/babashka/sci.configs): A collection of ready to be used SCI configs.  
-- [babashka.book](https://github.com/babashka/book): Babashka manual  
-- [pod-babashka-go-sqlite3](https://github.com/babashka/pod-babashka-go-sqlite3): A babashka pod for interacting with sqlite3  
-- [instaparse-bb](https://github.com/babashka/instaparse-bb)  
-- [quickdoc](https://github.com/borkdude/quickdoc): Quick and minimal API doc generation for Clojure  
-- [rewrite-clj](https://github.com/clj-commons/rewrite-clj): Rewrite Clojure code and edn  
-- [pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy): A pod around buddy core (Cryptographic Api for Clojure).  
-- [gh-release-artifact](https://github.com/borkdude/gh-release-artifact): Upload artifacts to Github releases idempotently  
-- [neil](https://github.com/babashka/neil): A CLI to add common aliases and features to deps.edn-based projects  
-- [carve](https://github.com/borkdude/carve) - Remove unused Clojure vars  
-- [grasp](https://github.com/borkdude/grasp): Grep Clojure code using clojure.spec regexes  
-- [quickblog](https://github.com/borkdude/quickblog): Light-weight static blog engine for Clojure and babashka  
-- [4ever-clojure](https://github.com/oxalorg/4ever-clojure) - Pure CLJS version of 4clojure, meant to run forever!  
-- [pod-babashka-lanterna](https://github.com/babashka/pod-babashka-lanterna): Interact with clojure-lanterna from babashka  
-- [joyride](https://github.com/BetterThanTomorrow/joyride): VSCode CLJS scripting and REPL (via [SCI](https://github.com/babashka/sci))  
-- [clj2el](https://borkdude.github.io/clj2el/): transpile Clojure to elisp  
-- [deflet](https://github.com/borkdude/deflet): make let-expressions REPL-friendly!  
-- [babashka.json](https://github.com/babashka/json): babashka JSON library/adapter  
-- [deps.add-lib](https://github.com/borkdude/deps.add-lib): Clojure 1.12's add-lib feature for leiningen and/or other environments without a specific version of the clojure CLI  
-
+- [sci.configs](https://github.com/babashka/sci.configs): A collection of ready to be used SCI configs.
+- [pod-babashka-go-sqlite3](https://github.com/babashka/pod-babashka-go-sqlite3): A babashka pod for interacting with sqlite3   
+- [quickdoc](https://github.com/borkdude/quickdoc): Quick and minimal API doc generation for Clojure   
 Published: 2023-08-02  
 
 
@@ -246,6 +225,9 @@ These are (some of the) other projects I'm involved with but little to no activi
 - [lein2deps](https://github.com/borkdude/lein2deps): leiningen to deps.edn converter  
 - [scittle](https://github.com/babashka/scittle): Execute Clojure(Script) directly from browser script tags via SCI  
 - [tools-deps-native](https://github.com/babashka/tools-deps-native) and [tools.bbuild](https://github.com/babashka/tools.bbuild)  
+
+### Other projects  
+These are (some of the) other projects I'm involved with but with little or no activity in July or August. Click for more details.  
 - [sql pods](https://github.com/babashka/babashka-sql-pods): babashka pods for SQL databases  
 - [CLI](https://github.com/babashka/cli): Turn Clojure functions into CLIs!  
 - [cljs-showcase](https://github.com/borkdude/cljs-showcase): Showcase CLJS libs using SCI  
