@@ -227,11 +227,12 @@ These are (some of the) other projects I'm involved with but little to no activi
 - [tools-deps-native](https://github.com/babashka/tools-deps-native) and [tools.bbuild](https://github.com/babashka/tools.bbuild)  
 
 ### Other projects  
-These are (some of the) other projects I'm involved with but with little or no activity in July or August. Click for more details.  
+These are (some of the) other projects I'm involved with but with little or no activity in July and August. Click for more details.  
 - [sql pods](https://github.com/babashka/babashka-sql-pods): babashka pods for SQL databases  
 - [CLI](https://github.com/babashka/cli): Turn Clojure functions into CLIs!  
 - [cljs-showcase](https://github.com/borkdude/cljs-showcase): Showcase CLJS libs using SCI  
-- [fs](https://github.com/babashka/fs) - File system utility library for Clojure  
+- [fs](https://github.com/babashka/fs) - File system utility library for Clojure
+- 
 - [process](https://github.com/babashka/process): Clojure library for shelling out / spawning sub-processes  
 - [babashka.book](https://github.com/babashka/book): Babashka manual  
 - [instaparse-bb](https://github.com/babashka/instaparse-bb)  
