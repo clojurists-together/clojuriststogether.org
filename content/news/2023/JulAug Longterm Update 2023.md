@@ -3,7 +3,7 @@ title: "July and August 2023 Long Term Project Updates"
 date: 2023-09-14T08:30:00+08:00 
 summary: Check out the latest from our 11 developers.
 author: Kathy Davis
-draft: True
+
 
 ---
 
