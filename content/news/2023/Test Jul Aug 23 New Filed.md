@@ -1,10 +1,13 @@
 ---
-title: "July and August 2023 Long Term Project Updates"
-date: 2023-09-15T10:30:00+08:00
-summary: Check out the latest from our developers
+title: "2023 Long Term Projects: Jul and August Updates"
+date: 2023-09-15T08:30:00+08:00
+summary: Reports from our 11 developers working on 2023 long term projects
 author: Kathy Davis
 draft: True
----
+---  
+<br> 
+
+
 
 Even though it was vacation season, our developers share their progress (and challenges) for an incredible outpouring of work on their 2023 long term projects! Check it out.<br>
 
