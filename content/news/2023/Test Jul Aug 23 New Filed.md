@@ -6,6 +6,7 @@ author: Kathy Davis
 draft: True
 ---
 
+
 Even though it was vacation season, our developers share their progress (and challenges) for an incredible outpouring of work on their 2023 long term projects! Check it out.<br>
 
 [Calva: Peter Stromberg](#calva-peter-stromberg)  
