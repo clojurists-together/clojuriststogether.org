@@ -7,6 +7,20 @@ author: Kathy Davis
 Even though it was vacation season, our developers share their progress (and challenges) for an incredible outpouring of work on their 2023 long term projects! Check it out.<br>
 
 
+[Calva: Peter Stromberg](#calva-peter-stromberg)  
+[Carmine V4: Peter Taoussanis](#carmine-v4-peter-taoussanis)  
+[CIDER/REPL: Bohzidar Batsov](#ciderrepl-bohzidar-batsov)  
+[clj-Kondo, babashka, nbb, SCI, Cherry, Squint: Michiel Borkent](#clj-kondo-babashka-nbb-sci-cherry-squint-michiel-borkent)  
+[Clojar.org: Sean Corfield](#clojarorg-sean-corfield)  
+[Clojars: Toby Crawley](#clojars-toby-crawley)  
+[ClojureDart: Christophe Grande](#clojuredart-christophe-grande)  
+[Clojure-lsp: Eric Dallo](#clojure-lsp-eric-dallo)  
+[Humble UI: Nikita Prokopov](#humble-ui-nikita-prokopov)  
+[Malli: Tommi Reiman](#malli-tommi-reiman)  
+[Shadow-cljs: Thomas Heller](#shadow-cljs-thomas-heller)  
+<br>  
+
+---
 
 ## Calva: Peter Stromberg  
 
@@ -602,7 +616,9 @@ Wrote a blog series about CLJS Frontend development alternatives to full Single 
 - [shadow-graft: A Case Study](https://code.thheller.com/blog/shadow-cljs/2023/07/21/shadow-graft-a-case-study.html)  
 
 ### Notable Updates  
-- Replaced the babel-js based ES Module -> CommonJS rewriter, which is used for ESM based npm modules. This had been [planned for a long time](https://clojureverse.org/t/shadow-cljs-2-25-2-looking-for-testers/10206) and was the only remaining part of shadow-cljs that actually required `node` at runtime. Now this is done entirely within the JVM, which as a side benefit got a bit faster. The old behavior is still available in case problems arise, but will be removed in the future.   
+- Replaced the babel-js based ES Module -> CommonJS rewriter, which is used for ESM based npm modules. This had been [planned for a long time](https://clojureverse.org/t/shadow-cljs-2-25-2-looking-for-testers/10206) and was the only remaining part of shadow-cljs that actually required `node` at runtime. Now this is done entirely within the JVM, which as a side benefit got a bit faster. The old behavior is still available in case problems arise, but will be removed in the future.
+
+  
 
 
 
