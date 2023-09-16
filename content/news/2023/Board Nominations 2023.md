@@ -8,8 +8,8 @@ draft: True
 
 Clojurists Together is in the process of [electing new board members](https://www.clojuriststogether.org/news/2023-board-nominations-and-our-annual-meeting/) as four members of our board are finishing their 2-year term.
 
-After opening applications for nominations, we received 6 applications from candidates. These candidates are all talented Clojurists that we would love to have on the board.
-The board has nominated the following 6 candidates for the current board election:
+After opening applications for nominations, we received 7 applications from candidates. These candidates are all talented Clojurists that we would love to have on the board.
+The board has nominated the following 7 candidates for the current board election:
 
 * xx
 * xx
@@ -23,8 +23,7 @@ The board has nominated the following 6 candidates for the current board electio
 
 All current Clojurists Together members will be shortly receiving their ballot to vote via email. If you haven't received a ballot by Monday, 25th September please contact hi@clojuriststogether.org.
 
-Voting will close on Friday, 29th September 2023 at midnight Pacific Time. The top four candidates, as voted on by members will win. We will announce the winners shortly afterwards and you'll be able to meet them at the Annual members meeting at[10 am Pacific time, October 10th 2023]
-https://www.timeanddate.com/worldclock/fixedtime.html?msg=Clojurists+Together+Members+Meeting&iso=20231010T10&p1=224&ah=1).
+Voting will close on Friday, 29th September 2023 at midnight Pacific Time. The top four candidates, as voted on by members will win. We will announce the winners shortly afterwards and you'll be able to meet them at the Annual members meeting at [10 am Pacific time, October 10th 2023](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Clojurists+Together+Members+Meeting&iso=20231010T10&p1=224&ah=1).
 ## Candidate Profiles
 
 Below we have published the candidates applications:
