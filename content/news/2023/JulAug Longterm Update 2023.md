@@ -257,7 +257,7 @@ Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates
 ## Clojar.org: Sean Corfield  
 
 In my [previous Long-Term Funding update](https://corfield.org/blog/2023/06/30/long-term-funding-3/)
-I said I would review/overhaul the "ecosystem" and "tutorials" sections.<!--more-->
+I said I would review/overhaul the "ecosystem" and "tutorials" sections.
 
 ### On a personal note...
 
