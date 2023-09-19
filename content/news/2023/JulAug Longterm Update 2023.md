@@ -1,11 +1,11 @@
 ---
 title: "July and August 2023 Long Term Project Updates"
 date: 2023-09-15T10:30:00+08:00
-summary: Check out the latest from our developers
+summary: Check out the latest from our funded developers
 author: Kathy Davis
 ---
 
-Even though it was vacation season, our developers share their progress (and challenges) for an incredible outpouring of work on their 2023 long term projects! Check it out.<br>
+Even though it was vacation season, our developers share their progress (and challenges) for an incredible outpouring of work on their 2023 long term projects! Check it out.
 
 [Calva: Peter Stromberg](#calva-peter-stromberg)  
 [Carmine V4: Peter Taoussanis](#carmine-v4-peter-taoussanis)  
@@ -38,7 +38,7 @@ The biggest change was one I thought would be really tiny. We upgraded our depen
 - Restructure and complement the docs around using Calva with shadow-cljs  
 - Improvements with evaluating expressions inside Rich Comment Forms  
 - Improvements in how the nREPL server collects output side effects from the REPL process, following CIDER's model  
-- Improvements in the handling of, and messaging around, clojure-lsp binary downloads  <br>
+- Improvements in the handling of, and messaging around, clojure-lsp binary downloads 
 
 
 ### Lingy  
@@ -257,7 +257,7 @@ Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates
 ## Clojar.org: Sean Corfield  
 
 In my [previous Long-Term Funding update](https://corfield.org/blog/2023/06/30/long-term-funding-3/)
-I said I would review/overhaul the "ecosystem" and "tutorials" sections.<!--more-->
+I said I would review/overhaul the "ecosystem" and "tutorials" sections.
 
 ### On a personal note...
 
