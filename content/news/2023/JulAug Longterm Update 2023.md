@@ -11,7 +11,7 @@ Even though it was vacation season, our developers share their progress (and cha
 [Carmine V4: Peter Taoussanis](#carmine-v4-peter-taoussanis)  
 [CIDER/REPL: Bohzidar Batsov](#ciderrepl-bohzidar-batsov)  
 [clj-Kondo, babashka, nbb, SCI, Cherry, Squint: Michiel Borkent](#clj-kondo-babashka-nbb-sci-cherry-squint-michiel-borkent)  
-[Clojar.org: Sean Corfield](#clojarorg-sean-corfield)  
+[Clojar-doc.org: Sean Corfield](#clojar-docorg-sean-corfield)  
 [Clojars: Toby Crawley](#clojars-toby-crawley)  
 [ClojureDart: Christophe Grande](#clojuredart-christophe-grande)  
 [Clojure-lsp: Eric Dallo](#clojure-lsp-eric-dallo)  
@@ -254,7 +254,8 @@ Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates
 ---
 
 
-## Clojar.org: Sean Corfield  
+## Clojar-doc.org: Sean Corfield  
+
 
 In my [previous Long-Term Funding update](https://corfield.org/blog/2023/06/30/long-term-funding-3/)
 I said I would review/overhaul the "ecosystem" and "tutorials" sections.
