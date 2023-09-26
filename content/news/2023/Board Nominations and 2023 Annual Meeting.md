@@ -12,7 +12,7 @@ Clojurists Together is having our third board elections, and our third annual me
 
 **Board nominations close:** Sept. 15, 2023  
 **Voting opens:** a few days after submissions close and the board has nominated candidates  
-**Voting closes:** Sept. 29, 2023  
+**Voting closes:** October 7, 2023  
 **Annual members meeting:** [Oct. 10, 2023 - 10 am Pacific time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Clojurists+Together+Members+Meeting&iso=20231010T10&p1=224&ah=1)  
 
 ### Board Elections
