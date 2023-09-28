@@ -6,7 +6,7 @@ summary: "Clojurists Together Members Can Now Vote for the Next Board Members."
 
 ---
 
-Clojurists Together is in the process of [electing new board members](https://www.clojuriststogether.org/news/2023-board-nominations-and-our-annual-meeting/) of electing board members to fill the four volunteer positions that are expiring this year. These positions are for two-year terms. 
+Clojurists Together is in the process of [electing new board members](https://www.clojuriststogether.org/news/2023-board-nominations-and-our-annual-meeting/) to fill the four volunteer positions that are expiring this year. These positions are for two-year terms. 
 
 The board is responsible for governing the organization,  selecting and administering the projects that are sponsored,  and interacting with sponsors. It also facilitates decision-making and implementation for the future plans of Clojurists Together.  
 
