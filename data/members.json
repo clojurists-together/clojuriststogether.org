@@ -392,6 +392,13 @@
     "founding" : false,
     "tagline" : "Kroo is the first UK bank designed to be trusted and loved by its customers. We're using technology to create products that enable our customers to be financially better off."
   }, {
+    "name" : "Grammarly",
+    "member_type" : "company",
+    "url" : "http://grammarly.com",
+    "logo" : null,
+    "level" : "filter",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1368,7 +1375,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 53,
+    "company" : 54,
     "developer" : 195
   }
 }
