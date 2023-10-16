@@ -91,13 +91,6 @@
   }, {
     "name" : "Grammarly",
     "member_type" : "company",
-    "url" : "https://www.grammarly.com/",
-    "logo" : null,
-    "level" : "into",
-    "founding" : false
-  }, {
-    "name" : "Grammarly",
-    "member_type" : "company",
     "url" : "https://grammarly.com",
     "logo" : "/logos/grammarly.png",
     "level" : "filter",
@@ -1370,7 +1363,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 54,
+    "company" : 53,
     "developer" : 194
   }
 }
