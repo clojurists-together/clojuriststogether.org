@@ -1182,11 +1182,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Gabriel Marote",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Arnaud Geiser",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1369,6 +1364,6 @@
   } ],
   "member_stats" : {
     "company" : 53,
-    "developer" : 195
+    "developer" : 194
   }
 }
