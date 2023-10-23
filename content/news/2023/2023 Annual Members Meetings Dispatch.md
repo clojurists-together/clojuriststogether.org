@@ -29,8 +29,9 @@ In addition, two board members have 1 year remaining of their board term:
 - The hiring of a program manager has increased overhead slightly but improved the timeliness of payment and communication (Daniel was trying to do it all as a volunteer in his “spare time”). However, administrative expenses at 7% of revenue continue to run under average for non profits (15-20%) and Open Collective fees (10%).
 
 
-**Summary of Funding Activities:**
-![Alt text](image-1.png)
+**Summary of Funding Activities:**  
+
+
 
 **Summary of 2023 Funding:**  
 **- Long-term funding:** 10 developers, $18k each, $180k in total.
