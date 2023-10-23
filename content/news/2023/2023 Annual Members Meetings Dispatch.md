@@ -30,8 +30,7 @@ In addition, two board members have 1 year remaining of their board term:
 
 
 **Summary of Funding Activities:**  
-content/news/2023/projects202223.png
-
+<img width="600" alt="projects202223" src="https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/10045d85-62dc-4c37-b2b5-53425a491ace">
 
 
 **Summary of 2023 Funding:**  
