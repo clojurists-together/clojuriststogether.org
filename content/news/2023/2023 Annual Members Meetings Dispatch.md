@@ -44,12 +44,15 @@ Bozhidar Batsov, Michiel Borkent, Sean Corfield, Eric Dallo, Christophe Grand, T
 
 
 **Membership Overview:**
-Thanks to all our company members (Map, Transduce, Filter Memberships)
+Thanks to all our company members (Map, Transduce, Filter Memberships)  
+
+
+
 
 
 **Individual Members:**  
 While we need to work on growing both our individual and company memberships to support more projects, our retention rate (95%) is incredibly high.  
-
+![membership2023](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/6dc699a8-d411-4a85-9230-e467bc3df1df)
 
 
 
