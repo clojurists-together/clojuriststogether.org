@@ -30,6 +30,7 @@ In addition, two board members have 1 year remaining of their board term:
 
 
 **Summary of Funding Activities:**  
+content/news/2023/projects202223.png
 
 
 
