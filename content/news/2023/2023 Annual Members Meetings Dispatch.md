@@ -63,9 +63,10 @@ While we need to work on growing both our individual and company memberships to 
 **Discussion and Follow-Up:**  
 *Has the board solicited major projects in the past - and how could we incorporate this approach as part of the funding model in addition to the open proposal model?*  
 
-The board has solicited specific projects in the past (FireFox release a good example), however, it has been difficult to find developers that have both the specific expertise and the bandwidth to commit to major projects. 
+The board has solicited specific projects in the past (FireFox release a good example), however, it has been difficult to find developers that have both the specific expertise and the bandwidth to commit to major projects.  
 **Follow-Up:** We can include more specific questions in the Long Term Survey about the types of projects we should champion.  
-**Follow-Up:** We can connect with sponsor companies to understand more about their use and needs related to targeted platforms, developer tools, resources, etc.  
+**Follow-Up:** We can connect with sponsor companies to understand more about their use and needs related to targeted platforms, developer tools, resources, etc.  <br>
+
 
 *Is the current reporting format meeting the needs of the membership - are there suggestions for improvement? (The reports are quite detailed and are written and submitted by the developers on a regular basis).*  
 
