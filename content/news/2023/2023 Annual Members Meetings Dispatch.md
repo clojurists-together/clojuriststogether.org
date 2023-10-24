@@ -29,8 +29,9 @@ In addition, two board members have 1 year remaining of their board term:
 - The hiring of a program manager has increased overhead slightly but improved the timeliness of payment and communication (Daniel was trying to do it all as a volunteer in his “spare time”). However, administrative expenses at 7% of revenue continue to run under average for non profits (15-20%) and Open Collective fees (10%).
 
 
-**Summary of Funding Activities:**
-![Alt text](image-1.png)
+**Summary of Funding Activities:**  
+<img width="600" alt="projects202223" src="https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/10045d85-62dc-4c37-b2b5-53425a491ace">
+
 
 **Summary of 2023 Funding:**  
 **- Long-term funding:** 10 developers, $18k each, $180k in total.
@@ -43,12 +44,15 @@ Bozhidar Batsov, Michiel Borkent, Sean Corfield, Eric Dallo, Christophe Grand, T
 
 
 **Membership Overview:**
-Thanks to all our company members (Map, Transduce, Filter Memberships)
+Thanks to all our company members (Map, Transduce, Filter Memberships)  
+
+
+
 
 
 **Individual Members:**  
 While we need to work on growing both our individual and company memberships to support more projects, our retention rate (95%) is incredibly high.  
-
+![membership2023](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/6dc699a8-d411-4a85-9230-e467bc3df1df)
 
 
 
@@ -64,7 +68,8 @@ While we need to work on growing both our individual and company memberships to 
 
 The board has solicited specific projects in the past (FireFox release a good example), however, it has been difficult to find developers that have both the specific expertise and the bandwidth to commit to major projects.  
 **Follow-Up:** We can include more specific questions in the Long Term Survey about the types of projects we should champion.  
-**Follow-Up:** We can connect with sponsor companies to understand more about their use and needs related to targeted platforms, developer tools, resources, etc.  
+**Follow-Up:** We can connect with sponsor companies to understand more about their use and needs related to targeted platforms, developer tools, resources, etc.  <br>
+
 
 
 *Is the current reporting format meeting the needs of the membership - are there suggestions for improvement? (The reports are quite detailed and are written and submitted by the developers on a regular basis).*  
