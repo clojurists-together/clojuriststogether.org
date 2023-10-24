@@ -24,14 +24,17 @@ In addition, two board members have 1 year remaining of their board term:
 
 **Summary of Presentation:**
 - In 2023, we were able to draw down a significant reserve by funding more long-term developers and short-term projects - benefiting the Clojurists community and as a by-product providing some stability in a tech marketplace that has experienced major layoffs in the last year.
-- If we assume a minimal reserve and a similar level of membership revenue in 2024, we will need to slightly decrease our funding of projects going forward - or focus on ways to increase company and individual memberships and/or membership contributions. 
+- If we assume a minimal reserve and a similar level of membership revenue in 2024, we will need to decrease our funding of projects slightly  going forward - or focus on ways to increase company and individual memberships and/or membership contributions. 
 - While growth of new memberships (both company and individuals) has slowed from previous years, our retention rate is remarkably high. (95%+)  
 - We have been able to fund an incredible amount of quality work that has real value to both companies and individual developers. With added oversight of the board and regular input from the Clojurist community, the overall value and return on investment is very high. We provide proof of concept that “Sustainable open-source is sustainable”.  
-- The hiring of a program manager has increased overhead slightly but improved the timeliness of payment and communication (Daniel was trying to do it all as a volunteer in his “spare time”). However, administrative expenses at 7% of revenue continue to run under average for non profits (15-20%) and Open Collective fees (10%).
+- The hiring of a program manager has increased overhead slightly but improved the timeliness of payments and communication (Daniel was trying to do it all as a volunteer in his “spare time”). However, administrative expenses at 7% of revenue continue to run under average for non profits (15-20%) and Open Collective fees (10%).
+<br>  
 
 
 **Summary of Funding Activities:**  
 <img width="600" alt="projects202223" src="https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/10045d85-62dc-4c37-b2b5-53425a491ace">
+<br>  
+<br>
 
 
 **Summary of 2023 Funding:**  
@@ -42,27 +45,28 @@ Bozhidar Batsov, Michiel Borkent, Sean Corfield, Eric Dallo, Christophe Grand, T
 **- Q2 2023:** clj-kondo et al, clj-Nix, Clojure Camp, Emmy, Jank, Portfolio, Lucene Grep, Neanderthal  
 **- Q3 2023:** Biff, Bosquet, Deps-try, Emmy, GDL, Jank , Neanderthal, Quil  
 **- Firefox Custom Formatters:** Sebastian Zartner continued work to add Custom Formatters to Firefox. Released August, 2023. ($18k)  
+<br>  
 
 
-**Membership Overview:**
+**Company Membership:**
 Thanks to all our company members (Map, Transduce, Filter Memberships)  
+![companysponsors2023a](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/3e9ccdea-cdd5-4848-b70e-996949a35ebe)
 
-
-
+<br>
 
 
 **Individual Members:**  
 While we need to work on growing both our individual and company memberships to support more projects, our retention rate (95%) is incredibly high.  
 ![membership2023](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/84360755-c046-4836-8a5f-9319495acb58)
 
+<br>
 
 
+**Summary of Financials:**  
+![finances2023](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/ada062bd-4812-4186-ae63-35a2d242db9b)
 
 
-
-
-**Summary of Financials:** 
-
+<br>
 
 
 **Discussion and Follow-Up:**  
