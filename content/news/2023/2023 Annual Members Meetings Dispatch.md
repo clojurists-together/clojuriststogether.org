@@ -13,10 +13,10 @@ Clojurists Together held its Annual Membership meeting on 10 October 2023 (10-11
 
 **Board Elections:** The first order of business was to acknowledge our new board members and thank our departing members Chris Nuernberger and Ikuru Kanuma. 
 In October, Members elected 4 board members for two-year terms:  
-- Daniel Compton, Secretary-Treasurer (returning member)
-- Heather Moore-Farley (returning member)
-- Felix Barbalet (new to the board)
-- Max Penet (new to the board)  
+- [Daniel Compton, Secretary-Treasurer (returning member)](http://github.com/danielcompton)
+- [Heather Moore-Farley (returning member)](https://github.com/tophat8855)
+- [Felix Barbalet (new to the board)](https://github.com/xlfe)
+- [Max Penet (new to the board)](https://github.com/mpenet)  
 
 In addition, two board members have 1 year remaining of their board term:  
 - Laurens Van Houtven, President
