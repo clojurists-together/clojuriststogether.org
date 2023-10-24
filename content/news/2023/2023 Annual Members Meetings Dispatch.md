@@ -19,7 +19,7 @@ In October, Members elected 4 board members for two-year terms:
 - Max Penet (new to the board)
 
 In addition, two board members have 1 year remaining of their board term:  
-- Laurens Van Houtven, President
+- lvh (Laurens Van Houtven), President
 - Maria Geller
 <br>
 
