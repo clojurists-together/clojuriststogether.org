@@ -20,7 +20,9 @@ In October, Members elected 4 board members for two-year terms:
 
 In addition, two board members have 1 year remaining of their board term:  
 - Laurens Van Houtven, President
-- Maria Geller  
+- Maria Geller
+<br>
+
 
 **Summary of Presentation:**
 - In 2023, we were able to draw down a significant reserve by funding more long-term developers and short-term projects - benefiting the Clojurists community and as a by-product providing some stability in a tech marketplace that has experienced major layoffs in the last year.
