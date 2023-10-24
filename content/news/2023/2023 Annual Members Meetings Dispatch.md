@@ -7,10 +7,11 @@ draft: True
 
 ---  
 <br>
-Clojurists Together held its Annual Membership meeting on 10 October 2023 (10-11 a.m. Pacific Time). A big thanks to all of you who were able to attend. For those of you who couldn’t, here is a summary of the meeting and subsequent discussion. <br>
+Clojurists Together held its Annual Membership meeting on 10 October 2023 (10-11 a.m. Pacific Time). A big thanks to all of you who were able to attend. For those of you who couldn’t, here is a summary of the meeting and subsequent discussion.<br>     
+<br>  
+
 
 **Board Elections:** The first order of business was to acknowledge our new board members and thank our departing members Chris Nuernberger and Ikuru Kanuma. 
-
 In October, Members elected 4 board members for two-year terms:  
 - Daniel Compton, Secretary-Treasurer (returning member)
 - Heather Moore-Farley (returning member)
@@ -52,7 +53,8 @@ Thanks to all our company members (Map, Transduce, Filter Memberships)
 
 **Individual Members:**  
 While we need to work on growing both our individual and company memberships to support more projects, our retention rate (95%) is incredibly high.  
-![membership2023](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/6dc699a8-d411-4a85-9230-e467bc3df1df)
+![membership2023](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/84360755-c046-4836-8a5f-9319495acb58)
+
 
 
 
