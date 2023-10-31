@@ -232,13 +232,6 @@
     "founding" : false,
     "tagline" : "Griffin is an API-first bank and technology platform helping companies bring financial products to market quickly and safely."
   }, {
-    "name" : "Commsor",
-    "member_type" : "company",
-    "url" : "https://www.commsor.com/",
-    "logo" : null,
-    "level" : "cons",
-    "founding" : false
-  }, {
     "name" : "Edgewood Software Corp.",
     "member_type" : "company",
     "url" : "https://edgewoodsoftwarecorp.s3.us-east-2.amazonaws.com/CoalesceIntroduction.mp4",
@@ -1363,7 +1356,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 53,
+    "company" : 52,
     "developer" : 194
   }
 }
