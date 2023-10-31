@@ -89,7 +89,7 @@ Memory is implemented via Clojure protocols to enable pluggable memory storage, 
 
 
 ### Documentation  
-Bosquet already covers different and complex concepts of working with LLMs. It has accumulated out-of-order documents, descriptions that are obscure, or superseded. To address the lack of good Bosquet work explanations, I have started preparing a new documentation site https://github.com/zmedelis/bosquet/blob/main/docs/index.md  
+Bosquet already covers different and complex concepts of working with LLMs. It has accumulated out-of-order documents, descriptions that are obscure, or superseded. To address the lack of good Bosquet work explanations, I have started preparing a new documentation site https://zmedelis.github.io/bosquet/ 
 <br>
 
 ---
