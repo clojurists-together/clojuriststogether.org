@@ -17,7 +17,7 @@ Check out the latest reports from our developers working on shorter-term project
 [GDL: Michael Sappler](#gdl-michael-sappler)   
 [Jank: Jeaye Wilkerson](#jank-jeaye-wilkerson)   
 [Neanderthal: Dragan Duric](#neanderthal-dragan-duric)    
-[Quil: Jack Rusher and Charles Compton](#quil-jack-rusher-and-charles-compton)  
+[Quil: Jack Rusher and Charles Comstock](#quil-jack-rusher-and-charles-comstock)  
 
 
 ## Biff: Jacob O’Bryant  
