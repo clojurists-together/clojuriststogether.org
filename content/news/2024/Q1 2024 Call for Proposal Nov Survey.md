@@ -16,7 +16,7 @@ We will be awarding a total of $44,000 USD for 8 projects – 4 projects at $2,0
 
 We recently surveyed our members to find out what types of initiatives they would like us to focus on for this round of funding. Their responses are summarized below.  Thanks as always – it is extremely helpful in ensuring that the community is a vital source of input.  
 
-If you are working on a Clojure open source project or have a new one in mind, especially one mentioned as a focus area for our members, please consider applying. Or if you know someone that might be interested, please pass this information along.  
+If you are working on a Clojure open source project or have a new one in mind, especially one mentioned as a focus area for our members, please consider applying. Or if you know someone that might be interested, please pass this information along. Let's get the word out!  
 
 ## Our Members Speak: Feedback from the October/November 2023 Survey.  
 ![Platformchart](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/1e95be5c-b0ec-429a-a9fa-9b2e2de47549)  
