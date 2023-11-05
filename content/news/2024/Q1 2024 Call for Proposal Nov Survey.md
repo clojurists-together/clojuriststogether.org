@@ -19,6 +19,12 @@ We recently surveyed our members to find out what types of initiatives they woul
 If you are working on a Clojure open source project or have a new one in mind, especially one mentioned as a focus area for our members, please consider applying. Or if you know someone that might like to apply, please pass this information along.  
 
 ## Our Members Speak: Feedback from the October/November 2023 Survey.  
+![](Platformchart.jpg)
+
+![](clojureimprovechart-2.jpg)
+
+
+![](clojurescriptimprovechart.jpg)
 
 
 ## What areas of the Clojure and ClojureScript ecosystem need support?
