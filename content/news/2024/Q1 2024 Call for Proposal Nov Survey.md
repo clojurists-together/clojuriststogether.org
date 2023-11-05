@@ -1,10 +1,10 @@
 ---
-
 title: "Call for Proposals. November 2023 Survey"
 date: 2023-11-04T08:30:00+08:00u
 summary: "We have $44K for Q1 2024 Projects"
 author: Kathy Davis
 draft: True
+
 
 ---  
 <br>
