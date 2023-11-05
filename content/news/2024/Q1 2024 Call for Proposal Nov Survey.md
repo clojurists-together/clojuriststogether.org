@@ -1,22 +1,22 @@
 ---
 title: "Call for Proposals. November 2023 Member Survey"
-date: 2023-11-04T08:30:00+08:00
+date: 2023-11-05T08:30:00+08:00
 summary: "We have $44K for Q1 2024 Projects"
 author: Kathy Davis
-draft: True
+
 
 
 ---  
 <br>
 
 ## Call for Proposals. 
-Clojurists Together is pleased to announce that we are opening our Q1 2024 funding round for Clojure Open Source Projects. Applications are open until the 24th of November 2023 (midnight Pacific Time). We are looking forward to reviewing your proposals! [Complete information and the Application can be found here!](https://clojuriststogether.org/open-source/)
+Clojurists Together is pleased to announce that we are opening our Q1 2024 funding round for Clojure Open Source Projects. Applications are open until the 24th of November 2023 (midnight Pacific Time). We are looking forward to reviewing your proposals! [More information and the application can be found here.](https://clojuriststogether.org/open-source/)
 
 We will be awarding a total of $44,000 USD for 8 projects – 4 projects at $2,000 each and 4 projects at $9,000 each. The $2k funding tier is for experimental projects or smaller proposals, whereas the $9k tier is for those that are more established. Projects generally run 3 months, however, the $9K projects can run between 3 and 12 months as needed. We expect projects to start on January 1, 2024.  
 
 We recently surveyed our members to find out what types of initiatives they would like us to focus on for this round of funding. Their responses are summarized below.  Thanks as always – it is extremely helpful in ensuring that the community is a vital source of input.  
 
-If you are working on a Clojure open source project or have a new one in mind, especially one mentioned as a focus area for our members, please consider applying. Or if you know someone that might like to apply, please pass this information along.  
+If you are working on a Clojure open source project or have a new one in mind, especially one mentioned as a focus area for our members, please consider applying. Or if you know someone that might be interested, please pass this information along.  
 
 ## Our Members Speak: Feedback from the October/November 2023 Survey.  
 ![Platformchart](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/1e95be5c-b0ec-429a-a9fa-9b2e2de47549)  
