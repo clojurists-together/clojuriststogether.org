@@ -43,8 +43,8 @@ If you are working on a Clojure open source project or have a new one in mind, e
 •	I think it's time for a Rails-/Django-/Phoenix- like framework :-) Maybe more companies would jump in and use the language. I know it's a difficult thing to balance because if *I* were to build it I'd base it on Hiccup, HTMX, HoneySQL and Component but the community likes to reinvent the Component library a lot. That would also not cover the database layer that well.  
 •	I would love to see improved support for primitive math operations. I'm constantly vexed by boxed loop variables.  
 •	I would just generally say I find the experimental ClojureScript work Michiel Borkent is doing to be heading in a very interesting direction and would love to see it continue to be supported.  
-•	I would like to get the "feel" that Clojure is modern. I many areas it feels like it has entered the 21st century.  
-•	I feel like I am using xargs or sed for which I can never remember the arguments and have look them up again and again."  
+•	I would like to get the "feel" that Clojure is modern. In many areas it feels like it has entered the 21st century.  
+•	I feel like I am using xargs or sed for which I can never remember the arguments and have look them up again and again.  
 •	The core language itself should be shored up: there are too many open bugs  
 •	Anything that keeps Clojure/Clojurescript viable as a full stack ecosystem.  
 •	Libs and tools around Datomic. Emacs IDEs which are not CIDER.  
@@ -62,8 +62,8 @@ o	IDE support, java 21 support
 •	Stability, ability to use non-Clojure libraries via interop, I don't have to upgrade my build tooling every 3 weeks. Dev. Experience.  
 •	Core library and frameworks. Both Clojure core and many libs are of high (code) quality (not always the documentation though)  
 •	Routing libraries and React Wrappers (there are so many)  
-•	Dedicated community. Clojurian Slack."  
-•	Probably the most senior developers who love their language,
+•	Dedicated community. Clojurian Slack  
+•	Probably the most senior developers who love their language
 •	Building end user applications  
 •	Clojure in general is excellent for my work!  
 •	At this time I can do pretty much everything I want to do with full stack ClojureScript which is why I haven't nominated anything that needs attention in the previous questions. Everything is great already!  
