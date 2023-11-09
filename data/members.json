@@ -385,6 +385,13 @@
     "founding" : false,
     "tagline" : "Kroo is the first UK bank designed to be trusted and loved by its customers. We're using technology to create products that enable our customers to be financially better off."
   }, {
+    "name" : "QA Wolf, Inc",
+    "member_type" : "company",
+    "url" : "https://www.qawolf.com",
+    "logo" : null,
+    "level" : "into",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1356,7 +1363,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 52,
+    "company" : 53,
     "developer" : 194
   }
 }
