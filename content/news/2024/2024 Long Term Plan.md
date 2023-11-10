@@ -9,7 +9,6 @@ author: Kathy Davis
 ---  
 <br>
 
-## Long-Term Funding For 2024  
 
 Clojurists Together is excited to announce that we will be awarding each of 7 developers $1,500 USD/month for 12 months in 2024 (a total of $126,000).    
 
