@@ -616,7 +616,7 @@ As a not-too-frequent user of JavaScript, I often find myself lacking an easy wa
 
 ### Polylith Real World example in the browser  
 
-When helping Joakim Tengstrand with feedback on an article about Polylith (pending), we realized that it would be very good with a way to test Polylith without having to set your machine up for Clojure development. So I created an experience for that, leveraging Gitpod and [Furkan Bayraktar](furkan3ayraktar)'s Real World example app.  
+When helping Joakim Tengstrand with feedback on an article about Polylith (pending), we realized that it would be very good with a way to test Polylith without having to set your machine up for Clojure development. So I created an experience for that, leveraging Gitpod and [Furkan Bayraktar](https://github.com/furkan3ayraktar)'s Real World example app.  
 * [Hack on Real World Polylith in your Browser](https://github.com/furkan3ayraktar/clojure-polylith-realworld-example-app/blob/master/gitpod.md)  
 * CalvaTV: [The Polylith Real World Example, with an IDE Running in The Browser](https://www.youtube.com/watch?v=FjdXjwcXaZg)  
 
@@ -658,7 +658,7 @@ This was another productive period with 100% of my time going to open source. Hi
     - [http-kit v2.8.0-beta2](https://github.com/http-kit/http-kit/releases/tag/v2.8.0-beta2) with auto Java 21+ virtual threads for both client+server, extensive new [benchmark suite and results](https://github.com/http-kit/http-kit/wiki/4-Benchmarking), early support for Ring-style async handlers, and more.  
 - Continued work on [Tempel](https://www.taoensso.com/tempel), an upcoming **data security framework** for Clojure.  
 - Continued work on [Telemere](https://www.taoensso.com/telemere), an upcoming **structured telemetry library** for Clojure/Script.  
-- Did an interview with [Daniel Compton](https://twitter.com/danielwithmusic) (still to be published).  
+- Did an interview with [Daniel Compton](https://twitter.com/danielwithmusic) to be published soon. 
 
 ### Upcoming work  
 
