@@ -632,11 +632,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Jelmer de Ronde",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Phillips Wolr",
     "member_type" : "developer",
     "level" : "developer",
@@ -1364,6 +1359,6 @@
   } ],
   "member_stats" : {
     "company" : 53,
-    "developer" : 194
+    "developer" : 193
   }
 }
