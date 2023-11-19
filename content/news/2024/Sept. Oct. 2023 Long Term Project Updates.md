@@ -9,12 +9,14 @@ draft: True
 ---  
 <br>  
 
+Thanks to our 11 long-term developers for reporting on this amazing body of work. This is the 5th report for 2023 - with one more to come around the new year.  
+
 [Bozhidar Batsov:](#bozhidar-batsov) CIDER/REPL     
 [Michiel Borkent:](#michiel-borkent) clj-kondo,babashka, squint, neil, CLI,clojure-mode, and more..  
 [Sean Corfield:](#sean-corfield)clojure-doc.org, toolsbuild, deps-new, honey-SQL, expectations      
 [Toby Crawley:](#toby-crawley) Clojars  
 [Eric Dallo:](#eric-dallo) Clojure-lsp, intellij   
-[Cristophe Grand:](#christophe-grand) ClojureDart et.al.  
+[Christophe Grand:](#christophe-grand) ClojureDart et.al.  
 [Thomas Heller:](#thomas-heller) Shadow-cljs     
 [Nikita Prokopov:](#nikita-prokopov) new projects, Sublimed, DataScript  
 [Tommi Reiman:](#tommi-reiman) Malli, Reitit, Jsonista   
