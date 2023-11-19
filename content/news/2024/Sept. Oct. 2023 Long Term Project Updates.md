@@ -1,9 +1,9 @@
 ---
 title: "September & October 2023 Long-Term Project Updates"
-date: 2023-11-18T08:30:00+08:00
+date: 2023-11-19T08:30:00+08:00
 summary: "Cider/REPL, clj-kondo, basbashka, clojars, clojure-lsp, shadow, calva, malli, carmine V4, Humble UI and more ."
 author: Kathy Davis
-draft: True
+
 
 
 ---  
@@ -13,7 +13,7 @@ Thanks to our 2023 long-term developers for this amazing body of work. This is t
 
 [Bozhidar Batsov:](#bozhidar-batsov) CIDER/REPL     
 [Michiel Borkent:](#michiel-borkent) clj-kondo,babashka, squint, neil, CLI,clojure-mode, and more..  
-[Sean Corfield:](#sean-corfield)clojure-doc.org, toolsbuild, deps-new, honey-SQL, expectations      
+[Sean Corfield:](#sean-corfield) clojure-doc.org, toolsbuild, deps-new, honey-SQL, expectations      
 [Toby Crawley:](#toby-crawley) Clojars  
 [Eric Dallo:](#eric-dallo) Clojure-lsp, intellij   
 [Christophe Grand:](#christophe-grand) ClojureDart et.al.  
