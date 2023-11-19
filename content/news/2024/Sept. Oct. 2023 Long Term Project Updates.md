@@ -573,8 +573,8 @@ Working mostly with Malli and Reitit. Will do an open source retreat to get plan
 
 #### 0.7.0-alpha6 (2023-09-11)  
 * **BREAKING**: require Clojure 1.11, drop support for Clojure 1.10  
-* **BREAKING**: new syntax for `:request` and `:response` per-content-type coercions. See [coercion.md](doc/ring/coercion.md).  [#627](https://github.com/metosin/reitit/issues/627)
-* **BREAKING**: replace the openapi `:content-types` keyword with separate `:openapi/request-content-types` and `:openapi/response-content-types`. See [openapi.md](doc/ring/openapi.md)  
+* **BREAKING**: new syntax for `:request` and `:response` per-content-type coercions. See [coercion.md](https://github.com/metosin/reitit/blob/master/doc/ring/coercion.md). [#627](https://github.com/metosin/reitit/issues/627)
+* **BREAKING**: replace the openapi `:content-types` keyword with separate `:openapi/request-content-types` and `:openapi/response-content-types`. See [openapi.md](https://github.com/metosin/reitit/blob/master/doc/ring/openapi.md)
 * **NOTE!**: all reitit libraries are now under the `fi.metosin` group on clojars instead of `metosin`. Use `fi.metosin/reitit` in your dependencies instead of `metosin/reitit` to get new versions.  
     - **Reverted in alpha7 due to problems with renaming artifacts**
 
