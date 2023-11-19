@@ -1,5 +1,5 @@
 ---
-title: "Sept. & Oct. 2023 Long-Term Project Updates"
+title: "September & October 2023 Long-Term Project Updates"
 date: 2023-11-18T08:30:00+08:00
 summary: "Cider/REPL, clj-kondo, basbashka, clojars, clojure-lsp, shadow, calva, malli, carmine V4, Humble UI and more ."
 author: Kathy Davis
@@ -9,7 +9,7 @@ draft: True
 ---  
 <br>  
 
-Thanks to our 11 long-term developers for reporting on this amazing body of work. This is the 5th report for 2023 - with one more to come around the new year.  
+Thanks to our 2023 long-term developers for this amazing body of work. This is the 5th report of the year - with one more to come around the new year. (Projects listed are only some of what they are covering in this post). 
 
 [Bozhidar Batsov:](#bozhidar-batsov) CIDER/REPL     
 [Michiel Borkent:](#michiel-borkent) clj-kondo,babashka, squint, neil, CLI,clojure-mode, and more..  
@@ -18,7 +18,7 @@ Thanks to our 11 long-term developers for reporting on this amazing body of work
 [Eric Dallo:](#eric-dallo) Clojure-lsp, intellij   
 [Christophe Grand:](#christophe-grand) ClojureDart et.al.  
 [Thomas Heller:](#thomas-heller) Shadow-cljs     
-[Nikita Prokopov:](#nikita-prokopov) new projects, Sublimed, DataScript  
+[Nikita Prokopov:](#nikita-prokopov) new projects, Clojure Sublimed, DataScript, Sublime Executor  
 [Tommi Reiman:](#tommi-reiman) Malli, Reitit, Jsonista   
 [Peter Stromberg:](#peter-stromberg) Calva, JavaScript REPL, Polylith    
 [Peter Taoussanis:](#peter-taoussanis) Carmine, Nippy, http-kit, Tempel, Telemere   
@@ -61,8 +61,7 @@ If you want to ensure that the projects I work on are sustainably maintained, yo
 If you're used to sponsoring through some other means which isn't listed above, please get in touch. On to the projects that I've been working on!
 
 ### September Updates  
-
-Last week I delivered my babashka talk at [Strange loop](https://www.thestrangeloop.com/2023/babashka-a-meta-circular-clojure-interpreter-for-the-command-line.html) talk and much of my attention went to the preparation of that (slides [here](https://speakerdeck.com/borkdude/babashka-a-meta-circular-clojure-interpreter-for-the-command-line-at-strange-loop-2023)). The talk is now available [here](https://www.youtube.com/watch?v=DHtRfO3Bp90).
+ I delivered my babashka talk at [Strange loop](https://www.thestrangeloop.com/2023/babashka-a-meta-circular-clojure-interpreter-for-the-command-line.html) talk and much of my attention went to the preparation of that (slides [here](https://speakerdeck.com/borkdude/babashka-a-meta-circular-clojure-interpreter-for-the-command-line-at-strange-loop-2023)). The talk is now available [here](https://www.youtube.com/watch?v=DHtRfO3Bp90).
 
 I did manage to get some coding done as well, despite testing positive for COVID when I arrived back home... Here are updates about the projects/libraries I've worked in September.  
 
@@ -223,11 +222,11 @@ Lots of stuff happened in October with squint!
 
 
 ### Other projects  
-These are (some of the) other projects I'm involved with but little to no activity happened in September and October.  See detail in the final section of each report names “Other Projects” for details.  
+These are (some of the) other projects I'm involved with but little to no activity happened in September and October.  See final section of each report (“Other Projects”) for details.  
 https://blog.michielborkent.nl/oss-updates-sep-2023.html    
 https://blog.michielborkent.nl/oss-updates-oct-2023.html  
 
-Discuss this post here.  
+Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts)  
 Published: 31 October and 30 September, 2023  
 Tagged: clojure oss updates  <br>  
 
@@ -478,10 +477,7 @@ Several fixes to the compiler, cljd.core.  Amongst them:
 ---
 
 
-
-
 ## Thomas Heller  
-
 ### shadow-cljs  
 Time was mostly spent on doing maintenance work and some bugfixes. As well as helping people out via the typical channels (e.g. Clojurians Slack).  
 
