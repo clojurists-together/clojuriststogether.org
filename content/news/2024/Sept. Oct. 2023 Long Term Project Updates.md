@@ -40,7 +40,7 @@ Now that this is done, my focus will switch to completing the support for `cloju
 ## Michiel Borkent  
 
 In this post I'll give updates about open source I worked on during September and October 2023.  
-To see previous OSS updates, go here.  
+To see previous OSS updates, [go here](https://blog.michielborkent.nl/tags/oss-updates.html).  
 
 
 * [Roam Research](https://roamresearch.com/)
