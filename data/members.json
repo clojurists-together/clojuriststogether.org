@@ -1337,11 +1337,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Nõmm",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Kirsten",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1359,6 +1354,6 @@
   } ],
   "member_stats" : {
     "company" : 53,
-    "developer" : 193
+    "developer" : 192
   }
 }
