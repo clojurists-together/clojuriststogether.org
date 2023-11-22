@@ -8,6 +8,12 @@ draft: True
 
 ---  
 <br>  
+Greetings Members!
+Nominations are final for our 2024 Long-Term Funding election. You should have received an email containing a link to your Ranked Vote ballot. Yu only need to select 5 nominees. We will use Ranked Voting to select the final 7 developers to receive $1.5K monthly in 2024. The deadline for voting is December 9, midnight Pacific Time.  
+
+You'll find each developer's Github address and a partial list of prjects they have been involved with to help you sort through the list and make your selection. The list is also included in the bottom portion of the ballot to make it a bit easier.
+
+We're excited to see the upcoming results. Happy Voting! 
 
 | Nominee                   | GitHub Address                                                                     | Projects                                                                         |
 | :-----------------------------    | :----------------------------------------------------------------------------- | :------------------------------------------------------------------------------------- |
