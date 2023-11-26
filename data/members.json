@@ -977,11 +977,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Daniel Compton",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Avi Flax",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1354,6 +1349,6 @@
   } ],
   "member_stats" : {
     "company" : 53,
-    "developer" : 192
+    "developer" : 191
   }
 }
