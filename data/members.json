@@ -1304,7 +1304,7 @@
   }, {
     "name" : "Lari Saukkonen",
     "member_type" : "developer",
-    "level" : "contributing",
+    "level" : "cons",
     "founding" : false
   }, {
     "name" : "Siebenlist",
@@ -1346,9 +1346,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Dennis Heihoff",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 53,
-    "developer" : 191
+    "developer" : 192
   }
 }
