@@ -9,10 +9,11 @@ draft: True
 
 
 Biff: Jacob O’Bryant  
-Bosquet : Zygis Medelis  
+Bosquet: Žygis Medelis  
 Clj-kondo: Michiel Borkent  
 Deps-try: Gert Goet  
 GDL: Michael Sappler  
+Quil: Jack Rusher and Charles Comstock  
 Uncomplicate Neanderthal: Dragan Duric 
 
 ## Biff: Jacob O’Bryant  
@@ -41,9 +42,28 @@ Anyway: thank you for the grant! I'm really happy with where Biff's documentatio
 ---
 
 
-## Bosquet: Zygis Medelis  
-2023 Q3 Report x. Published 11 November 2023  
+## Bosquet: Žygis Medelis  
 
+**2023 Q3 Report 2. Published 30 October 2023.**  
+1. Settle on Clerk-generated static content, published on GH Pages as the home for Bosquet documentation.
+2. [Documentation](https://zmedelis.github.io/bosquet/):
+   1. Getting Started guide
+   2. Configuration. Bosquet relies heavily on declaring how AI generation is executed. The parameter setting is getting quite rich.
+   3. Use cases. Generating interpretable code for math calculations
+   4. Papers. Implementation of various academic papers discussing LLM techniques.
+   5. Guide on how to use Short-term memory
+3. Substantial time was spent on a dead end trying to work out local embedding vector generation. The rationale was to have a self-contained system offering embeddings. **Deeplearning4j** and **StandfordNLP** Java libs proved to be too opaque, with no good implementations for this task.
+4. Support for *OpenAI* **embeddings** added to Bosquet. Now library users can create and use OAI embeddings as part of memory-driven workflows.
+5. To store and use Embeddings we need **Vector DB**. I have settled on using [Qdrant](https://qdrant.tech/) as the database of choice. The implementation is still to be tested and changed with more rigorous testing and possibly various LLM papers implementations (see 'Papers' in documentation)
+6. With that done, two types of memory are now introduced
+   1. **Short-term memory** acts as a simple illustration of memory and retrieval concepts
+   2. **Long-term memory** using Qdrant and OAI embeddings (as noted above likely to evolve and change). Follow `:memory/long-term-embeddings` in `system.edn` to see how it is built.
+7. To aid in embeddingless (simple memory) scenarios, I have added **similarity metrics** support to compare different texts. It is based on [Apache Commons](https://commons.apache.org/proper/commons-text/apidocs/org/apache/commons/text/similarity/package-summary.html) text package.
+8. The **caching** of generation results is reintroduced. Now LLM requests can be fulfilled from the cache if prompt and parameters do not change. Great to boost development speed development and save on some costs.
+9. **Output coercion**. To achieve more complex chained prompt executions (or in agent use cases) where outputs the output from one LLM step needs to feed into the other we need well-defined in and out formats. Bosquet introduced the coercing of LLM outputs into *JSON* and *EDN* formats. See [Chain of Density](https://zmedelis.github.io/bosquet/notebook/papers/chain_of_density) paper implementation for details.  
+
+
+**2023 Q3 Report 3. Published 30 November 2023**  
 * [Hugging Face data set loader](https://github.com/zmedelis/hfds-clj). For the work related to memory and embedding handling, I needed easy access to HF datasets. An implementation used to download and cache them was initially done in Bosquet but then moved to an independent small lib.  
 * [Text splitters](https://zmedelis.github.io/bosquet/notebook/text_splitting). Building RAGs or dealing with long texts requires splitting them into chunks. Bosquet text splitting API supports choosing splitting units: sentence, token, and character. API allows specifying overlap between chunks counted in selected text units.  
 * [Document loaders](https://zmedelis.github.io/bosquet/notebook/document_loading/index.html). PDF, DOC any other sane format loading into LLM processing is now supported via the Apache Tika wrapping component.  
@@ -289,11 +309,77 @@ So it is quite interesting that refactoring the play-sound function would lead t
 
 ---
 
+## Quil: Jack Rusher and Charles Comstock  
+2023 Q3 Report 2. Published 20 November 2023  
+
+In this cycle, we've made an official release of version 4.3.1323!
+Here are the release highlights:  
+* New automated test harness for assertions of Processing and P5js behaviors
+* Clojar release automation using Github Actions to generate snapshot and tagged jar files
+* Github Actions test harness for existing lein test (Linux)
+* Fix for #cljs.core/abs compile warning
+* Implement fract calculation
+* Fix canvas resize and fullscreen behavior for p5js sketches
+* Fix exception on exit when the applet has no window
+* Added :mouse-buttons option to navigation-2d
+* New calculation tests that don't require image generation
+* Modernized quil-examples and tested them on Linux amd64/MacOS M1
+* Added initial Clojure CLI documentation (was `lein`-only)
+* Added the SCM block to pom + add a tag version if the release is not a SNAPSHOT build
+* Pushed an updated version of the `lein` templates for new projects
+  that uses this release. Currently, this is only for JVM projects
+  because we don't yet have access to the right Clojars group for the
+  CLJS template 🙈
+* Triaged many old issues  
+
+**Upcoming work:** 
+
+* Continue to improve the test harness, try to get CI working for
+  MacOS/M1
+* Complete Clojure CLI docs for quil (both in the repo and wiki)
+* Update interactive website and quil.info/api
+* Quil deps-new templates for cljs and clj
+
+
 
 ## Uncomplicate Neanderthal: Dragan Duric  
-2023 Q3 Report 3. Published xx November 2023  
+**2023 Q3 Report 2. Published 31 October 2023**  
+My goal with this round is to polish Uncomplicate libraries (mainly Neanderthal, Deep Diamond, ClojureCUDA, ClojureCL, ClojureCPP),
+rather than develop new functionality.  
+
+In this month, I've continued with Deep Diamond coding related to the port to JavaCPP. I've updated DNNL
+to version 3.3, ported dense and RNN layers in the DNNL engine to (Clojure CPP) JavaCPP, updated tests
+and made them pass. Then I ported the cuDNN GPU engine to Clojure CPP, and made all tensor,
+directed and RNN tests pass. Along the way, I fixed many bugs caused by differences between how JavaCPP
+and JCuda work. I updated Fluokitten support.
+
+While working on Deep Diamond's port, I've discovered many opportunities to improve and polish Clojure CPP,
+so my major efforts went toward understanding and fixing everything in Clojure CPP, so it's ready for
+the first release. This includes complete documentation and test suite.
+
+I've also cleaned up and polished new version of ClojureCUDA that is based on Clojure CPP. I completed
+documentation and polished the test suite. I've cleaned up Neanderthal's port to Clojure CPP, worked
+on some bugs/issues, and managed to polish the transition to Clojure CPP, and fixed the test suite..
+
+Assorted bugfixes and improvements in all libraries. I've also identified places for further improvements and cleanups.
+
+Although there's places for countless improvements in all libraries, the current progress in the short
+term is:
+- Commons: fairly ready for release and documented
+- Clojure CPP: fairly ready for release and documented
+- ClojureCUDA: fairly ready for release and documented
+- Neanderthal: almost ready but needs more polishing, and documentation update
+- Deep Diamond: needs more testing and bugfixing, and new documentation
+
+In the third month, the majority of my efforts will go to Deep Diamond and Neanderthal.
+
+The non-snapshot release will have to wait for the next release of JavaCPP, as now most Uncomplicate
+projects use its dependencies, which I expect in the following
+few months. Hopefully by the end of the year.
 
 
+
+**2023 Q3 Report 3. Published 30 November 2023**  
 My goal with this round was to polish Uncomplicate libraries (mainly Neanderthal, Deep Diamond, ClojureCUDA, ClojureCL, ClojureCPP), rather than develop new functionality.  
 
 In the third month, the majority of my efforts went to Deep Diamond. I wrote documentation, fixed lots of bugs, updated deps to new versions, and wrote fluokitten implementation. I've resolved some outstanding issuses.
