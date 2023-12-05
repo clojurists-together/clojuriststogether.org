@@ -1,5 +1,5 @@
 ---
-title: "November 2023 Short Term Project Updates"
+title: "November 2023 Short-Term Project Updates"
 date: 2023-12-04T08:30:00+08:00
 summary: "The latest from "
 author: Kathy Davis
@@ -7,9 +7,6 @@ draft: True
 
 ---  
 
-
-
-# November 2023 Short-Term Project Reports
 
 Biff: Jacob O’Bryant  
 Bosquet : Zygis Medelis  
@@ -19,7 +16,8 @@ GDL: Michael Sappler
 Uncomplicate Neanderthal: Dragan Duric 
 
 ## Biff: Jacob O’Bryant  
-2023 Q3 Report x. Published x November 2023
+2023 Q3 Report x. Published x November 2023  
+
 Since the [first update](https://www.clojuriststogether.org/news/october-2023-project-updates/#biff-jacob-o'bryant), I have completed:  
 - wrote the second half of [XTDB compared to other databases](https://biffweb.com/p/xtdb-compared-to-other-databases).  
 - published another essay, [Philosophy of Biff](https://biffweb.com/p/philosophy-of-biff/).
@@ -38,7 +36,9 @@ AWS/Azure/GCP/Kubernetes makes sense. As such, my plan is to get that example re
 I will say that I am excited about Fly.io. Of all the "next-gen Heroku" platforms I'm aware of (Fly, Render, Railway, DO App Platform), Fly is IMO the most promising. Making it easy to run any Docker-based app at the edge (instead of e.g. just Javascript apps) is a particularly good fit for apps that use htmx (like Biff apps, by default). I'm guessing that the issues I've experienced with Fly are due to them [still having lots of growth and having trouble keeping up with it](https://community.fly.io/t/reliability-its-not-great/11253), which seems like not the worst problem you could
 have! After they've become as reliable as DO droplets, I think there's a good chance I'll have Biff use them as the default deployment option.  
 
-Anyway: thank you for the grant! I'm really happy with where Biff's documentation is now--it solidly covers the [four main areas](https://documentation.divio.com/) of tutorials, reference, how-to guides and explanation (essays). I've also been receiving some really kind feedback from the community as I've been publishing these articles ([for example](https://www.reddit.com/r/Clojure/comments/17qqnav/philosophy_of_biff).  
+Anyway: thank you for the grant! I'm really happy with where Biff's documentation is now--it solidly covers the [four main areas](https://documentation.divio.com/) of tutorials, reference, how-to guides and explanation (essays). I've also been receiving some really kind feedback from the community as I've been publishing these articles ([for example](https://www.reddit.com/r/Clojure/comments/17qqnav/philosophy_of_biff).<br>
+
+---
 
 
 ## Bosquet: Zygis Medelis  
@@ -51,7 +51,10 @@ Anyway: thank you for the grant! I'm really happy with where Biff's documentatio
 * **Long-term memory**. Qdrant and OAI embeddings-based memory implementation. Long-term memory is configured as a Bosquet component and LLM apps or agents can use it to create embeddings, store, and query them. See Evaluation and Scicloj recording for example use.  
 * [Local LLM support](https://zmedelis.github.io/bosquet/notebook/using_llms/index.html). Bosquet supports calling models hosted locally via [LM Studio](https://lmstudio.ai).  
 * [Scicloj Meetup 6](https://www.youtube.com/watch?v=2JGQt9iW6dk): 'LLMs as Optimizers' (OPRO) implementation with Bosquet  
-* Bug fixing component initialization and error handling  
+* Bug fixing component initialization and error handling  <br>
+
+---
+
 
 
 ## Clj:kodo: Michiel Borkent  
@@ -212,8 +215,9 @@ Click for more [details]( https://github.com/borkdude/blog/discussions/categorie
 
 Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).
 
-_Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) _
+_Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) _<br>
 
+---
 
 
 
@@ -284,14 +288,14 @@ So it is quite interesting that refactoring the play-sound function would lead t
 
 * game.entities.animation => game.entities.audiovisual  
 
-* Move audiovisual effects into properties.edn  
+* Move audiovisual effects into properties.edn  <br>
+
+---
 
 
 ## Uncomplicate Neanderthal: Dragan Duric  
 2023 Q3 Report 3. Published xx November 2023  
 
-
-# Uncomplicate Q3-2023 report 3
 
 My goal with this round was to polish Uncomplicate libraries (mainly Neanderthal, Deep Diamond, ClojureCUDA, ClojureCL, ClojureCPP), rather than develop new functionality.  
 
