@@ -87,8 +87,7 @@ If you want to ensure that the projects I work on are sustainably maintained, yo
 
 If you're used to sponsoring through some other means which isn't listed above, please get in touch.  
 
-### October 2023 Update  
-[https://blog.michielborkent.nl/oss-updates-oct-2023.html](https://blog.michielborkent.nl/oss-updates-oct-2023.html)
+### [October 2023 Update](https://blog.michielborkent.nl/oss-updates-oct-2023.html)
 
 
 * [babashka](https://github.com/babashka/babashka): native, fast starting Clojure interpreter for scripting.  
@@ -168,8 +167,7 @@ Lots of stuff happened in October with squint!
     * Fix `classpath` op  
     * Implement `ns-list` op  
 
-### November 2023 Update  
-https://blog.michielborkent.nl/oss-updates-nov-2023.html
+### [November 2023 Update](https://blog.michielborkent.nl/oss-updates-nov-2023.html)
 
 ### Advent of Code
 
@@ -238,18 +236,20 @@ There's more recipes in draft and a lot of ways I can see this functionality bei
 A big thanks to (everyone supporting) Clojurists Together 🙏!
 
 Built-in recipes:
-| NAME                   | TITLE                                                                                 |
-| ---------------------- | ------------------------------------------------------------------------------------- |
-| deps-try/recipes       | Introducing recipes                                                                   |
-| malli/malli-select     | Introduction to malli-select, a library for spec2-inspired selection of Malli-schemas |
-| next-jdbc/intro-sqlite | A next-jdbc introduction using SQLite                                                 |
-| portal/intro           | Introduction to portal, a Clojure tool to navigate data      
-                         |
+| NAME                         | TITLE                                                                                    |
+| :------------------------------------------ | :-------------------------------------------------------------------------------------------------- |
+| deps-try/recipes             | Introducing recipes                                                                            |
+| malli/malli-select           | Introduction to malli-select, a library for spec2-inspired selection of Malli-schemas          |
+| next-jdbc/intro-sqlite          | A next-jdbc introduction using SQLite                                                  |
+| portal/intro                 | Introduction to portal, a Clojure tool to navigate data           
+ |
 <br>
 
+---
 
 
-##GDL: Michael Sappler  
+
+## GDL: Michael Sappler  
 2023 Q3 Report x. Published xx November 2023  
 
 I am taking an experimental approach to developing this game&engine by working bottom-up and fixing/evolving the code before focusing on new/more features.  
