@@ -243,11 +243,8 @@ Built-in recipes:
 | next-jdbc/intro-sqlite          | A next-jdbc introduction using SQLite                                                  |
 | portal/intro                 | Introduction to portal, a Clojure tool to navigate data           
  |
+ |_________________________|____________________________________________________________________|
 <br>
-
----
-
-
 
 ## GDL: Michael Sappler  
 2023 Q3 Report x. Published xx November 2023  
