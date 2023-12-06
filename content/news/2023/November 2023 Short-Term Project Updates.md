@@ -1,7 +1,7 @@
 ---
 title: "November 2023 Short-Term Project Updates"
 date: 2023-12-06T08:30:00+08:00
-summary: "The latest from "
+summary: "The latest from Biff, Bosquet, Clj-kondo, Deps-try,GDL,Quil, Uncomplicate "
 author: Kathy Davis
 draft: True
 
@@ -9,16 +9,16 @@ draft: True
 
 Check out the latest updates from Q2 and Q3 2023 Short Term Project developers. Thanks to members for your support - and making this work possible! 
 
-Biff: Jacob O’Bryant  
-Bosquet: Žygis Medelis  
-Clj-kondo: Michiel Borkent  
-Deps-try: Gert Goet  
-GDL: Michael Sappler  
-Quil: Jack Rusher and Charles Comstock  
-Uncomplicate: Dragan Duric 
+[Biff: Jacob O’Bryant](#biff-jacob-obryant)  
+[Bosquet: Žygis Medelis](#bosquet-žygis-medelis)  
+[Clj-kondo, babashka, cherry, SCI: Michiel Borkent](#clj-kondo-babashka-cherry-sci-michiel-borkent)   
+[Deps-try: Gert Goet](#deps-try-gert-goet)  
+[GDL: Michael Sappler](#gdl-michael-sappler)  
+[Quil: Jack Rusher and Charles Comstock](#quil-jack-rusher-and-charles-comstock)  
+[Uncomplicate: Dragan Duric](#uncomplicate-dragan-duric)  
 
 ## Biff: Jacob O’Bryant  
-2023 Q3 Report 2. Published 30 November 2023  
+**2023 Q3 Report 2. Published 30 November 2023.**  
 
 Since the [first update](https://www.clojuriststogether.org/news/october-2023-project-updates/#biff-jacob-o'bryant), I have completed:  
 - wrote the second half of [XTDB compared to other databases](https://biffweb.com/p/xtdb-compared-to-other-databases).  
@@ -44,8 +44,7 @@ Anyway: thank you for the grant! I'm really happy with where Biff's documentatio
 
 
 ## Bosquet: Žygis Medelis  
-
-#### 2023 Q3 Report 2. Published 30 October 2023. 
+**2023 Q3 Report 2. Published 30 October 2023.**   
 1. Settle on Clerk-generated static content, published on GH Pages as the home for Bosquet documentation.
 2. [Documentation](https://zmedelis.github.io/bosquet/):
    1. Getting Started guide
@@ -79,16 +78,14 @@ Anyway: thank you for the grant! I'm really happy with where Biff's documentatio
 
 
 
-## Clj:kodo: Michiel Borkent  
-2023 Q2 Report 3. Published 31 October and 30 November 2023  
+## Clj-kondo, babashka, cherry, SCI: Michiel Borkent  
+**2023 Q2 Report 3. Published 31 October and 30 November 2023.**    
 To see previous OSS updates, go [here](https://blog.michielborkent.nl/tags/oss-updates.html).  
 
-
 ### Sponsors  
-
 I'd like to thank all the sponsors and contributors that make this work possible! Open the details section for more info.  
 
-Sponsor infoTop sponsors:  
+**Top sponsors:**    
 * [Clojurists Together](https://clojuriststogether.org)  
 * [Roam Research](https://roamresearch.com)  
 * [Nextjournal](https://nextjournal.com)  
@@ -200,8 +197,10 @@ You can read more about the playground [here](https://blog.michielborkent.nl/squ
     * [Playing Advent of Code with Squint](https://blog.michielborkent.nl/squint-advent-of-code.html).  
 * [squint](https://github.com/squint-cljs/squint): CLJS _syntax_ to JS compiler \
 Lots of stuff happened in November with squint! You could say that I've grown a little addicted to improving this project currently, driven by how users use it and also while developing the [playground](https://squint-cljs.github.io/squint/examples/aoc/index.html), a lot of potential improvements emerged.  
+
 <details> 
-<summary>Squint Details</summary>  
+<summary>Open for Squint Details</summary>  
+
 * Restore backward compatibility with code that is compiled with older versions of squint  
 * Optimize various outputs for smaller size  
 * Add js-in  
@@ -258,7 +257,7 @@ Lots of stuff happened in November with squint! You could say that I've grown a 
 * Add clojure.string's triml, trimr, replace  
 * Fix examples/vite-react by adding public/index.html  
 * Add find, bounded-count, boolean?, merge-with, meta, with-meta, int?, ex-message, ex-cause, ex-info  
-* Fix munging of reserved symbols in function arguments    
+* Fix munging of reserved symbols in function arguments  
 </details>  
 
 * [scittle-hoplon](https://jsfiddle.net/xbgj6v1q/1/): a custom scittle distribution with Hoplon. I helped developing the SCI configuration for Hoplon.  
@@ -275,7 +274,8 @@ Lots of stuff happened in November with squint! You could say that I've grown a 
     * The re-frame configuration now has support for `re-frame.alpha`. See [playground](https://babashka.org/sci.configs/).  
 * [babashka](https://github.com/babashka/babashka): native, fast starting Clojure interpreter for scripting. A new release: 1.3.186!  
 <details> 
-<summary> Babashka Details</summary>  
+<summary> Open for Babashka Details</summary>  
+
 * Support self-contained binaries as uberjars!  
 * Add java.security.KeyFactory, java.security.spec.PKCS8EncodedKeySpec, java.net.URISyntaxException, javax.crypto.spec.  
 * IvParameterSpec  
@@ -293,10 +293,27 @@ Lots of stuff happened in November with squint! You could say that I've grown a 
 * Add java.util.ScheduledFuture   
 * Support Runnable to be used without import   
 * Allow catch to be used as var name    
-</detail>  
+</details>  
+
 
 * [SCI](https://github.com/babashka/sci): Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs \
 Released version 0.8.41  
+<details>  
+<summary> Open for SCI Details</summary>  
+
+* Bump edamame to 1.3.23  
+* #889: allow (def foo/foo 1) when inside namespace foo  
+* #891: reset file metadata on var when it's re-evaluated from other file  
+* #893: expose sci.async/eval-form and sci.async/eval-form+  
+* Improve sci.async/eval-string, respect top-level do forms  
+* Add experimental new :static-methods option to override how static methods get evaluated.  
+* Expose destructure  
+* Macroexpand (.foo bar) form  
+* Optimize deref, swap!, reset! for host values  
+* Add time macro to core namespace  
+* #896: allow catch to be used as var name  
+</details>  
+
 * [cherry](https://github.com/squint-cljs/cherry): Experimental ClojureScript to ES6 module compiler  
     * Released version 0.1.10 which catches up with the latest compiler improvements in squint  
 * [clj-kondo](https://github.com/clj-kondo/clj-kondo): static analyzer and linter for Clojure code that sparks joy.  
@@ -304,16 +321,15 @@ Released version 0.8.41
 
 ### Other projects  
 
-These are (some of the) other projects I'm involved with but little to no activity happened in the past month.  
-Click for more [details]( https://github.com/borkdude/blog/discussions/categories/posts)  
-Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).  
+These are (some of the) other projects I'm involved with but little to no activity happened in the past month.
+Click for more [details]( https://github.com/borkdude/blog/discussions/categories/posts). Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).  
 _Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) <br>
 
 ---
 
 
 ## Deps-try: Gert Goet  
-2023 Q3 Report 2. Published 4 December 2023.  
+**2023 Q3 Report 2. Published 4 December 2023.**    
 
 
 I've been working on recipe functionality for deps-try (a tool to quickly try out Clojure libraries on rebel-readline), and I am happy to announce this functionality got released as deps-try v0.10.0.  
@@ -338,9 +354,8 @@ Built-in recipes:
  |
  |_________________________|________________________________________________________________|
 <br>
-
 ## GDL: Michael Sappler  
-2023 Q3 Report 2. Published x30 November 2023  
+**2023 Q3 Report 2. Published 30 November 2023**     
 
 I am taking an experimental approach to developing this game&engine by working bottom-up and fixing/evolving the code before focusing on new/more features.  
 
@@ -373,12 +388,13 @@ So it is quite interesting that refactoring the play-sound function would lead t
 
 * game.entities.animation => game.entities.audiovisual  
 
-* Move audiovisual effects into properties.edn  <br>
+* Move audiovisual effects into properties.edn<br>  
 
 ---
 
+
 ## Quil: Jack Rusher and Charles Comstock  
-2023 Q3 Report 2. Published 20 November 2023  
+**2023 Q3 Report 2. Published 20 November 2023**    
 
 In this cycle, we've made an official release of version 4.3.1323!
 Here are the release highlights:  
@@ -406,12 +422,13 @@ Here are the release highlights:
   MacOS/M1
 * Complete Clojure CLI docs for quil (both in the repo and wiki)
 * Update interactive website and quil.info/api
-* Quil deps-new templates for cljs and clj
+* Quil deps-new templates for cljs and clj<br>  
 
-
+---
 
 ## Uncomplicate: Dragan Duric  
-**2023 Q3 Report 2. Published 31 October 2023**  
+**2023 Q3 Report 2. Published 31 October 2023**    
+
 My goal with this round is to polish Uncomplicate libraries (mainly Neanderthal, Deep Diamond, ClojureCUDA, ClojureCL, ClojureCPP),
 rather than develop new functionality.  
 
@@ -447,7 +464,7 @@ few months. Hopefully by the end of the year.
 
 
 
-**2023 Q3 Report 3. Published 30 November 2023**  
+**2023 Q3 Report 3. Published 30 November 2023**     
 My goal with this round was to polish Uncomplicate libraries (mainly Neanderthal, Deep Diamond, ClojureCUDA, ClojureCL, ClojureCPP), rather than develop new functionality.  
 
 In the third month, the majority of my efforts went to Deep Diamond. I wrote documentation, fixed lots of bugs, updated deps to new versions, and wrote fluokitten implementation. I've resolved some outstanding issuses.
