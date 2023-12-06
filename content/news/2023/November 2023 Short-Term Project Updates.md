@@ -6,7 +6,7 @@ author: Kathy Davis
 draft: True
 
 ---  
-
+Check out the latest updates from Q2 and Q3 2023 Short Term Project developers. Thanks to members for your support - and making this work possible! 
 
 Biff: Jacob O’Bryant  
 Bosquet: Žygis Medelis  
@@ -14,10 +14,10 @@ Clj-kondo: Michiel Borkent
 Deps-try: Gert Goet  
 GDL: Michael Sappler  
 Quil: Jack Rusher and Charles Comstock  
-Uncomplicate Neanderthal: Dragan Duric 
+Uncomplicate: Dragan Duric 
 
 ## Biff: Jacob O’Bryant  
-2023 Q3 Report x. Published x November 2023  
+2023 Q3 Report 2. Published 30 November 2023  
 
 Since the [first update](https://www.clojuriststogether.org/news/october-2023-project-updates/#biff-jacob-o'bryant), I have completed:  
 - wrote the second half of [XTDB compared to other databases](https://biffweb.com/p/xtdb-compared-to-other-databases).  
@@ -44,7 +44,7 @@ Anyway: thank you for the grant! I'm really happy with where Biff's documentatio
 
 ## Bosquet: Žygis Medelis  
 
-**2023 Q3 Report 2. Published 30 October 2023.**  
+#### 2023 Q3 Report 2. Published 30 October 2023. 
 1. Settle on Clerk-generated static content, published on GH Pages as the home for Bosquet documentation.
 2. [Documentation](https://zmedelis.github.io/bosquet/):
    1. Getting Started guide
@@ -63,7 +63,8 @@ Anyway: thank you for the grant! I'm really happy with where Biff's documentatio
 9. **Output coercion**. To achieve more complex chained prompt executions (or in agent use cases) where outputs the output from one LLM step needs to feed into the other we need well-defined in and out formats. Bosquet introduced the coercing of LLM outputs into *JSON* and *EDN* formats. See [Chain of Density](https://zmedelis.github.io/bosquet/notebook/papers/chain_of_density) paper implementation for details.  
 
 
-**2023 Q3 Report 3. Published 30 November 2023**  
+
+#### 2023 Q3 Report 3. Published 30 November 2023    
 * [Hugging Face data set loader](https://github.com/zmedelis/hfds-clj). For the work related to memory and embedding handling, I needed easy access to HF datasets. An implementation used to download and cache them was initially done in Bosquet but then moved to an independent small lib.  
 * [Text splitters](https://zmedelis.github.io/bosquet/notebook/text_splitting). Building RAGs or dealing with long texts requires splitting them into chunks. Bosquet text splitting API supports choosing splitting units: sentence, token, and character. API allows specifying overlap between chunks counted in selected text units.  
 * [Document loaders](https://zmedelis.github.io/bosquet/notebook/document_loading/index.html). PDF, DOC any other sane format loading into LLM processing is now supported via the Apache Tika wrapping component.  
@@ -78,9 +79,7 @@ Anyway: thank you for the grant! I'm really happy with where Biff's documentatio
 
 
 ## Clj:kodo: Michiel Borkent  
-2023 Q3 Report 3. Published 1 November and x December 2023  
-
-
+2023 Q2 Report 3. Published 31 October and 30 November 2023  
 To see previous OSS updates, go [here](https://blog.michielborkent.nl/tags/oss-updates.html).  
 
 
@@ -107,9 +106,7 @@ If you want to ensure that the projects I work on are sustainably maintained, yo
 
 If you're used to sponsoring through some other means which isn't listed above, please get in touch.  
 
-### [October 2023 Update](https://blog.michielborkent.nl/oss-updates-oct-2023.html)
-
-
+#### [October 2023 Update](https://blog.michielborkent.nl/oss-updates-oct-2023.html)  
 * [babashka](https://github.com/babashka/babashka): native, fast starting Clojure interpreter for scripting.  
     * [Support self-contained binaries as uberjars!](https://github.com/babashka/babashka/wiki/Self-contained-executable#uberjar)  
     * Add `java.security.KeyFactory`, `java.security.spec.PKCS8EncodedKeySpec`, `java.net.URISyntaxException`  
@@ -187,22 +184,82 @@ Lots of stuff happened in October with squint!
     * Fix `classpath` op  
     * Implement `ns-list` op  
 
-### [November 2023 Update](https://blog.michielborkent.nl/oss-updates-nov-2023.html)
 
-### Advent of Code
-
+#### [November 2023 Update](https://blog.michielborkent.nl/oss-updates-nov-2023.html)  
+#### Advent of Code  
 It is Advent of Code time of year again. You can solve puzzles in an online [squint](https://github.com/squint-cljs/squint) or [cherry](https://github.com/squint-cljs/cherry) playground [here](https://squint-cljs.github.io/squint/examples/aoc/index.html).  
 
 Change the `/squint/` part of the url to `/cherry/` to switch ClojureScript dialect versions.  
 
 You can read more about the playground [here](https://blog.michielborkent.nl/squint-advent-of-code.html).  
 
-
+#### November Updates  
 * [blog](https://blog.michielborkent.nl/archive.html) I've written two blog posts this month:  
     * [Writing a Cloudflare worker with squint and bun](https://blog.michielborkent.nl/squint-cloudflare-bun.html)  
     * [Playing Advent of Code with Squint](https://blog.michielborkent.nl/squint-advent-of-code.html).  
 * [squint](https://github.com/squint-cljs/squint): CLJS _syntax_ to JS compiler \
-Lots of stuff happened in November with squint! You could say that I've grown a little addicted to improving this project currently, driven by how users use it and also while developing the [playground](https://squint-cljs.github.io/squint/examples/aoc/index.html), a lot of potential improvements emerged..  
+Lots of stuff happened in November with squint! You could say that I've grown a little addicted to improving this project currently, driven by how users use it and also while developing the [playground](https://squint-cljs.github.io/squint/examples/aoc/index.html), a lot of potential improvements emerged.  
+<details> 
+<summary>Squint Details</summary>  
+* Restore backward compatibility with code that is compiled with older versions of squint  
+* Optimize various outputs for smaller size  
+* Add js-in  
+* Support into + xform  
+* Support sort on strings  
+* #386: allow expression in value position in map literal  
+* Improvements with respect to laziness in mapcat and concat  
+* Do not array mutate argument in reverse  
+* Escape JSX attribute vector value (and more)  
+* map + transduce support  
+* Fix for in REPL mode  
+* Throw when object is not iterable in for  
+* Make next lazy when input is lazy  
+* Fix playground shim (fixes issue in older versions of Safari)  
+* Add js-mod and quot  
+* #380: Don't emit space in between #jsx tags  
+* Add re-find  
+* Add condp macro  
+* Use compare as default compare function in sort (which fixes numerical sorting)  
+* Allow assoc! to be called on arbitrary classes (regression)  
+* Improve get to call get method when present.  
+* Allow keywords and collections to be used as functions in HOFs  
+* Make filter, etc aware of truthiness  
+* Reduce code size for truthiness checks  
+* Add str/split-lines  
+* Add partition-by  
+* Add parse-long  
+* Add sort-by  
+* Fix top level await  
+* Support multiple dimensions in aset  
+* Add coercive-= as alias for ==  
+* Add js-delete  
+* Fix min-key and max-key and improve tests  
+* Add min-key and max-key  
+* Fix defonce in REPL-mode  
+* Fix doseq and for when binding name clashes with core var  
+* Several REPL improvements  
+* Improve https://squint-cljs.github.io/squint/  
+* Allow alias name to be used as object in REPL mode    
+* Copy resources when using squint compile or squint watch    
+* Return map when select-keys is called with nil  
+* nREPL server: print values through cljs.pprint (@PEZ)  
+* Initial (incomplete!) nREPL server on Node.js: npx squint nrepl-server :port 1888  
+* Update/refactor threejs example  
+* #360: assoc-in! should not mutate objects in the middle if they already exist  
+* Evaluate lazy-seq body just once  
+* Avoid stackoverflow with min and max  
+* #360: fix assoc-in! with immutable objects in the middle  
+* Add mod, object?  
+* Optimize get  
+* Add threejs example  
+* #357: fix version in help text  
+* Fix iterating over objects  
+* Add clojure.string's triml, trimr, replace  
+* Fix examples/vite-react by adding public/index.html  
+* Add find, bounded-count, boolean?, merge-with, meta, with-meta, int?, ex-message, ex-cause, ex-info  
+* Fix munging of reserved symbols in function arguments    
+</details>  
+
 * [scittle-hoplon](https://jsfiddle.net/xbgj6v1q/1/): a custom scittle distribution with Hoplon. I helped developing the SCI configuration for Hoplon.  
 * [gespensterfelder](https://squint-cljs.github.io/squint/examples/threejs/playground.html): a demo that Jack Rusher wrote using Three.js ported to squint.  
 * [neil](https://github.com/babashka/neil): A CLI to add common aliases and features to deps.edn-based projects Version 0.2.63 released which adds mvn search and some bugfixes  
@@ -216,7 +273,29 @@ Lots of stuff happened in November with squint! You could say that I've grown a 
     * A helper macro was improved such that you can define macros that are usable in SCI  
     * The re-frame configuration now has support for `re-frame.alpha`. See [playground](https://babashka.org/sci.configs/).  
 * [babashka](https://github.com/babashka/babashka): native, fast starting Clojure interpreter for scripting. A new release: 1.3.186!  
-* 
+<details> 
+<summary> Babashka Details</summary>  
+* Support self-contained binaries as uberjars!  
+* Add java.security.KeyFactory, java.security.spec.PKCS8EncodedKeySpec, java.net.URISyntaxException, javax.crypto.spec.  
+* IvParameterSpec  
+* Fix babashka.process/exec wrt babashka.process/*defaults*  
+* #1632: Partial fix for (.readPassword (System/console))  
+* Enable producing self-contained binaries using uberjars  
+* Bump httpkit to 2.8.0-beta3 (fixes GraalVM issue with virtual threads)  
+* Bump deps.clj and fs  
+* Expose taoensso.timbre.appenders.core  
+* nREPL: implement ns-list op  
+* SCI: optimize swap!, deref and reset! for normal atoms (rather than user-created IAtoms)  
+* Add test for #1639  
+
+                                                                                                                                                     
+* Upgrade to GraalVM 21.0.1  
+* **Still unreleased:**  
+* Add java.util.ScheduledFuture   
+* Support Runnable to be used without import   
+* Allow catch to be used as var name    
+</detail>  
+
 * [SCI](https://github.com/babashka/sci): Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs \
 Released version 0.8.41  
 * [cherry](https://github.com/squint-cljs/cherry): Experimental ClojureScript to ES6 module compiler  
@@ -226,17 +305,12 @@ Released version 0.8.41
 
 ### Other projects  
 
-These are (some of the) other projects I'm involved with but little to no activity happened in the past month.
-
+These are (some of the) other projects I'm involved with but little to no activity happened in the past month.  
 Click for more [details]( https://github.com/borkdude/blog/discussions/categories/posts)  
-
-
-Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).
-
-_Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) _<br>
+Discuss this post [here](https://github.com/borkdude/blog/discussions/categories/posts).  
+_Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) <br>
 
 ---
-
 
 
 ## Deps-try: Gert Goet  
@@ -263,11 +337,11 @@ Built-in recipes:
 | next-jdbc/intro-sqlite          | A next-jdbc introduction using SQLite                                                  |
 | portal/intro                 | Introduction to portal, a Clojure tool to navigate data           
  |
- |_________________________|____________________________________________________________________|
+ |_________________________|________________________________________________________________|
 <br>
 
 ## GDL: Michael Sappler  
-2023 Q3 Report x. Published xx November 2023  
+2023 Q3 Report 2. Published x30 November 2023  
 
 I am taking an experimental approach to developing this game&engine by working bottom-up and fixing/evolving the code before focusing on new/more features.  
 
@@ -287,21 +361,16 @@ So it is quite interesting that refactoring the play-sound function would lead t
 
 ### The game [Cyber Dungeon Quest](https://github.com/damn/Cyber-Dungeon-Quest)  
 
-* Cleanup: Remove a lot of unused code/files  
-
-* Remove data-based hitpoints/mana effects and just directly change those entity values  
-
+* Cleanup: Remove a lot of unused code/files
+* Remove data-based hitpoints/mana effects and just directly change those entity values
 * In data.val-max (functions for operating on health/mana/damage values) removed the complicated 'affect-val-max-stat!' function  
-
 * Simplify deal-damage! swaps! (Use 1 instead of 3)  
-
 * Simplify game.utils.counter (only work with maps, atom swaps! move to higher level code)  
-
 * Add skill usable-state function for player info messages -
-    return exact keywords for skill usage so can display info messages/sounds later
-        -> also simplifies skills component by moving player handling more 'up'
-            skill is  either on :cooldown, :not-enough-mana, :invalid-params, or :usable
-                skill effect params are for example the skill requires a target chosen or a free space  
+    - return exact keywords for skill usage so can display info messages/sounds later
+    - also simplifies skills component by moving player handling more 'up'  
+    - skill is  either on :cooldown, :not-enough-mana, :invalid-params, or :usable  
+    - skill effect params are for example the skill requires a target chosen or a free space  
 
 * game.entities.animation => game.entities.audiovisual  
 
@@ -342,7 +411,7 @@ Here are the release highlights:
 
 
 
-## Uncomplicate Neanderthal: Dragan Duric  
+## Uncomplicate: Dragan Duric  
 **2023 Q3 Report 2. Published 31 October 2023**  
 My goal with this round is to polish Uncomplicate libraries (mainly Neanderthal, Deep Diamond, ClojureCUDA, ClojureCL, ClojureCPP),
 rather than develop new functionality.  
