@@ -1,11 +1,12 @@
 ---
 title: "November 2023 Short-Term Project Updates"
-date: 2023-12-04T08:30:00+08:00
+date: 2023-12-06T08:30:00+08:00
 summary: "The latest from "
 author: Kathy Davis
 draft: True
 
 ---  
+
 Check out the latest updates from Q2 and Q3 2023 Short Term Project developers. Thanks to members for your support - and making this work possible! 
 
 Biff: Jacob O’Bryant  
@@ -286,9 +287,7 @@ Lots of stuff happened in November with squint! You could say that I've grown a 
 * Expose taoensso.timbre.appenders.core  
 * nREPL: implement ns-list op  
 * SCI: optimize swap!, deref and reset! for normal atoms (rather than user-created IAtoms)  
-* Add test for #1639  
-
-                                                                                                                                                     
+* Add test for #1639               
 * Upgrade to GraalVM 21.0.1  
 * **Still unreleased:**  
 * Add java.util.ScheduledFuture   
@@ -475,6 +474,8 @@ In short, here's the final state of what I've proposed to do:
 
 In even shorter terms, I proposed to do some hammock time, combined with some un-exciting chores that enhance the stability and user-friendliness of Uncomplicate libraries. I completed a lot of chores, and lots of development of the loose ends from the previous round. I am satisfied how I managed to fulfill this for Clojure CPP, ClojureCUDA, Neanderthal, and Fluokitten, fairly satisfied with ClojureCL,
 and almost satisfied with Deep Diamond (where I had to deal with changes in new DNNL and cuDNN versions while porting to JavaCPP, so I did not manage to iron out RNN).  
+
+
 
 
 
