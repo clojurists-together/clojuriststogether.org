@@ -3,11 +3,11 @@ title: "November 2023 Short-Term Project Updates"
 date: 2023-12-06T08:30:00+08:00
 summary: "The latest from Biff, Bosquet, Clj-kondo, Deps-try,GDL,Quil, Uncomplicate "
 author: Kathy Davis
-draft: True
+
 
 ---  
 
-Check out the latest updates from Q2 and Q3 2023 Short Term Project developers. Thanks to members for your support - and making this work possible! 
+Check out the latest updates from Q2 and Q3 2023 Short Term Project developers. Thanks to members for your support - making this work possible! 
 
 [Biff: Jacob O’Bryant](#biff-jacob-obryant)  
 [Bosquet: Žygis Medelis](#bosquet-žygis-medelis)  
