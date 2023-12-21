@@ -405,11 +405,6 @@
     "level" : "contributing",
     "founding" : true
   }, {
-    "name" : "Leon Mergen",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : true
-  }, {
     "name" : "Ikuru Kanuma",
     "member_type" : "developer",
     "level" : "contributing",
@@ -851,11 +846,6 @@
     "founding" : false
   }, {
     "name" : "Filipe Silva",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Dominic Monroe",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
@@ -1347,6 +1337,6 @@
   } ],
   "member_stats" : {
     "company" : 52,
-    "developer" : 192
+    "developer" : 190
   }
 }
