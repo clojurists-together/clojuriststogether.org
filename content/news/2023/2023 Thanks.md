@@ -46,7 +46,8 @@ We are truly an international group bringing a wide range of experience. From Q1
 **In 2023, our shorter-term projects included:** Aleph/Manifold, Biff, Bosquet, Clerk, clj-kondo et al, clj-Nix, Clojure Camp, clojure-ts-mode, Custom Formatters/Firefox. Deps-try. Donut, Doxa, Emmy, Exercism, GDL, Jank, Lucene Grep, Uncomplicate Neanderthal, Deep Diamond, Portfolio, and Quil.
 
 **Finally, a shout-out to the companies and organizations who have supported our work throughout the year and most for many years.** They believe in Open Source development and have made a commitment to Clojure as an important tool for their product, service, and organizational projects. If your company might consider becoming a sponsoring member, please contact Daniel Compton at daniel@clojuriststogether.org  to explore further. 
-![Alt text](<CO Members 2023-1.jpg>)
+![image](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/2a4f571c-3394-4a19-855a-a0b2b5da3aae)
+
 
 
 Let’s join in celebrating this wonderful community - and hoping for peace in the New Year. 
