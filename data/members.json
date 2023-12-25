@@ -1130,6 +1130,11 @@
     "level" : "contributing",
     "founding" : false
   }, {
+    "name" : "Vedang Manerikar",
+    "member_type" : "developer",
+    "level" : "assoc",
+    "founding" : false
+  }, {
     "name" : "Daw-Ran Liou",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1337,6 +1342,6 @@
   } ],
   "member_stats" : {
     "company" : 52,
-    "developer" : 190
+    "developer" : 191
   }
 }
