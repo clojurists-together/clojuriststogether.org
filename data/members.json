@@ -1160,11 +1160,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Mitesh Shah",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Maria Geller",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1342,6 +1337,6 @@
   } ],
   "member_stats" : {
     "company" : 52,
-    "developer" : 191
+    "developer" : 190
   }
 }
