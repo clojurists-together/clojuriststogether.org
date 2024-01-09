@@ -282,14 +282,6 @@
     "level" : "into",
     "founding" : false
   }, {
-    "name" : "Stylitics",
-    "member_type" : "company",
-    "url" : "https://www.stylitics.com",
-    "logo" : "/logos/stylitics.svg",
-    "level" : "transduce",
-    "founding" : false,
-    "tagline" : "Outfitting technology for modern retail, powered by Clojure"
-  }, {
     "name" : "doctronic GmbH & Co. KG",
     "member_type" : "company",
     "url" : "https://www.doctronic.de",
@@ -1331,7 +1323,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 52,
+    "company" : 51,
     "developer" : 189
   }
 }
