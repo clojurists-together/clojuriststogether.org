@@ -8,34 +8,38 @@ draft: True
 ---
 
 Greetings as we start the new year! We’re excited to announce the projects we'll be funding for Q1 2024. (8 projects $44K USD in total).  
+
 There was a groundswell of great project proposals - so making a decision was definitely not easy. 
 The good news, however, is that new proposals will be automatically reconsidered for the next project cycle. We have supported many projects in the past that were funded in 2nd or even 3rd review.  
 
 Thanks to everyone for your hard work and creativity in putting these proposals together - this is the kind of thinking and sharing that makes the Clojurist Together community so awesome! 
 
-## Projects Awarded $9K USD<br>
-CIDER - VEMV
-Clojure-lsp – Eric Dallo
-Instaparse – Mark Engelberg
-Scicloj – Daniel Slutsky
+### Q1 2024 Projects Awarded $9K USD<br>
+CIDER – VEMV  
+Clojure-lsp – Eric Dallo  
+Instaparse – Mark Engelberg  
+Scicloj – Daniel Slutsky  
 
-## Projects Awarded $2K USD<br>
-Jank – Jeaye Wilkerson
-Sitefox – Chris McCormick
-UnifyBio 0 Benjamin Kamphaus
-Wolframite – Thomas Clark and Jakub
+### Q1 2024 Projects Awarded $2K USD<br>
+Jank – Jeaye Wilkerson  
+Sitefox – Chris McCormick  
+UnifyBio – Benjamin Kamphaus  
+Wolframite – Thomas Clark and Jakub Thomas  
+
+Please join us in congratulating this talented group. We're looking forward to their project updates  in the coming months. 
 
 
-## CIDER – VEMV
+### Q1 2024 Projects Awarded $9K USD  
+### CIDER – VEMV
 Work will be based on CIDER's issue trackers (cider, cider-nrepl, orchard), based on the daily rate that's been reflected for the majority of the https://opencollective.com/cider collaboration.
 Some of the larger themes will be: cider-inspector-mode refinements, cider-log-mode refinements, and refactoring our Java parsing machinery (https://github.com/clojureemacs/orchard/issues/211)  
 
-Why is this project important to the Clojure community? It Is the main tool for static analysis in a editor that supports all/most of IDE features, it's the base for Calva, clojure-lsp-intellij and other plugins as it provides completion, diagnostics, code navigation and lots of other features.  <br> 
+**Why is this project important to the Clojure community?** It Is the main tool for static analysis in a editor that supports all/most of IDE features. It's the base for Calva, clojure-lsp-intellij and other plugins as it provides completion, diagnostics, code navigation and lots of other features.  <br> 
 
 ---
 
 
-## Clojure-lsp: Eric Dallo  
+### Clojure-lsp: Eric Dallo  
 I will work on clojure-lsp project and related ones like lein-clojure-lsp, lsp4clj, and clojure-lsp-
 intellij. My project will include adding missing LSP features, options to create clojure project from scratch for fast onboarding, better performance and stability.  
 
@@ -53,8 +57,7 @@ Besides those tasks, I'll keep actively helping the community in slack and githu
 ---
 
 
-
-## Instaparse: Mark Engleberg  
+### Instaparse: Mark Engleberg  
 My focus  will be on evaluating and incorporating pull requests for instaparse. Then, I will look at new features requested by the community. Along the way, I will make sure to keep the documentation updated.  
 
 **Why is this project important to the Clojure community?** Instaparse has been incorporated into a number of other libraries, including some of the routing libraries (for parsing URLs) in some web stacks. Knowing how many libraries rely on its stability has placed an additional burden on me to carefully review and test pull requests. <br>
@@ -62,7 +65,7 @@ My focus  will be on evaluating and incorporating pull requests for instaparse. 
 ---
 
 
-## Scicloj – Daniel Slutsky  
+### Scicloj – Daniel Slutsky  
 Scicloj is a Clojure group developing a stack of tools & libraries for data science.
 Alongside the technical challenges, community building has been an essential part of its
 efforts since the beginning of 2019.  
@@ -70,6 +73,7 @@ Its current main community-oriented goal is making the existing data-science sta
 use. In particular, we need example-based documentation, easy setup, and recommended
 workflows for common tasks. All these, and the tools to support them, need to grow
 organically, driven by real-world use-cases.  
+
 I am currently working, in collaboration with others, on various components to support these
 needs:  
 1. [maintaining the Scicloj website](https://scicloj.github.io/)  
@@ -89,11 +93,12 @@ and some convenience functions around it.
 4. running public meetups.  
 5. helping out individuals to get started with data science in Clojure.   
 
-In Jan 2024, I will start shifting my attention to two additional projects:  
+Starting in Jan 2024, I am concentrating on two additional projects:  
 6. clojure-data-scrapbook -- a community space for documenting data analysis workflows --
 similar to the clojure-data-cookbook, but less curated and more community-driven.  
 7. real-world-data -- a study group where individuals will bring their own data problems and
 collaborate on common practices.  
+
 The proposal is to initiate items 6 & 7 as a core activity of Scicloj to and keep maintaining
 items 1-5, driven by the needs realised in 6 & 7. Everything will be done.  
 
@@ -109,9 +114,9 @@ As a byproduct of our documentation efforts, some useful tools are emerging. We 
 
 ---
 
-## Q1 2024 $2K Grants  
+### Q1 2024 Projects Awarded $2K USD<br>
 
-## Jank – Jeaye Wilkerson  
+### Jank – Jeaye Wilkerson  
 There are some crucial missing pieces in jank which have been getting in the way of me reaching parity with Clojure. In order of importance, we have:  
 
 **Dynamic vars**  
@@ -131,13 +136,13 @@ jank doesn't currently support ^:foo or ^{:foo true} meta hints on forms, though
 **Normalized interpolation syntax** 
 Within a native/raw, one can reach back into jank using the #{ foo } interpolation syntax. However, the community has pointed out that CLJS already uses ~{ foo } and it'd be more consistent for jank to do the same. On top of that, jank's parsing for these interpolation forms is pretty rough right now and there is C++ code which would trip it up. It can be improved by hooking more tightly into jank's parser, but that will require adding metadata to the parsed forms to convey their line/column info.  
 
-**Why is this project important to the Clojure community?** jank is the *only* native Clojure dialect which has its own JIT and embraces interactive programming. It unlocks REPL-driven development for a whole ecosystem previously unserved by Clojure.  
+**Why is this project important to the Clojure community?** jank is the *only* native Clojure dialect which has its own JIT and embraces interactive programming. It unlocks REPL-driven development for a whole ecosystem previously unserved by Clojure.   
+
 Clojurists have demonstrated their desire for native executables with their use of GraalVM. Compared to Graal, jank will offer REPL support, better performance, better native interop, smaller binaries, and faster compilation times.  <br>
 
 ---
 
-
-## Sitefox – Chris McCormick  
+### Sitefox – Chris McCormick  
 Here's what I would like to accomplish in Sitefox using the Clojurists Together funding:   
 * Bring dependencies up to date.   
 * Tidy up the key-value database module & write basic tests.   
@@ -152,10 +157,14 @@ Here's what I would like to accomplish in Sitefox using the Clojurists Together 
 ---
 
  
-## UnifyBio – Benjamin Kamphaus  
-Broad project scope: Converting the CANDELBio ecosystem I helped create at the Parker Institute for Cancer Immunotherapy from its open source, but semi-abandoned state to UnifyBio, a world class data harmonization platform: Clojure-first and permissively open source (Apache 2.0). The successor to CANDELBio’s pret tool will be the more generally useful Unify, at https://github.com/vendekagon-labs/unify and broadly useful for data harmonization or importing data into datalog-oriented stores. I’ll be streaming the dev process over video and sharing selection of this via YouTube.   
+### UnifyBio – Benjamin Kamphaus  
+Broad project scope: Converting the CANDELBio ecosystem I helped create at the Parker Institute for Cancer Immunotherapy from its open source, but semi-abandoned state to UnifyBio, a world class data harmonization platform: Clojure-first and permissively open source (Apache 2.0). 
 
-The first major need I will be addressing under Clojurists Together funding is a documentation and tutorial overhaul: building out examples, CLI/API and use documentation, end-to-end tutorials, likely example Clerk notebooks (or comparable) showing all the steps from raw data collection, to the data-driven import process, to query, then analysis and visualization. I'll also be getting an automated release process in place, with supporting CI/CD, etc. From there, I'll be looking to harden the existing functionality with better example systems and tests covering more use cases beyond biology.   
+The successor to CANDELBio’s pret tool will be the more generally useful Unify, at https://github.com/vendekagon-labs/unify and broadly useful for data harmonization or importing data into datalog-oriented stores. I’ll be streaming the dev process over video and sharing selection of this via YouTube.   
+
+The first major need I will be addressing under Clojurists Together funding is a documentation and tutorial overhaul: building out examples, CLI/API and use documentation, end-to-end tutorials, likely example Clerk notebooks (or comparable) showing all the steps from raw data collection, to the data-driven import process, to query, then analysis and visualization. 
+
+I'll also be getting an automated release process in place, with supporting CI/CD, etc. From there, I'll be looking to harden the existing functionality with better example systems and tests covering more use cases beyond biology.   
 
 From there, the priorities are:  
  - Vetting integration with other components of the Clojure data science stack and supporting use of data integrated via Unify (eg access data through tech.ml.dataset's api surface).   
@@ -171,9 +180,8 @@ The streams and dev blogs will also give provide a helpful resource for anyone w
 
 ---
 
-
-## Wolframite – Thomas Clark and Jakub Thomas  
-Currently, there is an existing library for wolfram<>clojure interop but it's lack of documentation, reliability and usability mean that it is not widely used or known of. We hope to fix all of these issues and so bring wolfram interop up to the standards of similar bridges like clojisr and libpython-clj. Specifically, fundamental goals would be to:    
+### Wolframite – Thomas Clark and Jakub Thomas  
+Currently, there is an existing library for wolfram<>clojure interop but it's lack of documentation, reliability and usability mean that it is not widely used or known.  We hope to fix all of these issues and so bring wolfram interop up to the standards of similar bridges like clojisr and libpython-clj. Specifically, fundamental goals would be to:  
 - merge recent work  
 - create comprehensive inline documentation  
 - create big-picture example namespaces: including onboarding tutorials and real-world examples (publically available in visible places like the sci-cloj website and high-impact blogs).  
@@ -184,7 +192,9 @@ Currently, there is an existing library for wolfram<>clojure interop but it's la
 
 **Why is this project important to the Clojure community?** Of the areas of desired improvement that the Clojure survey highlighted, this project would address the specific categories of data analysis, documentation and user growth.  
 
-Data analysis/processing, as also expressed by the Clojure leadership team, is a key growth area for the language but library coverage can be fragmented, with missing depth of functionality. Having access to specialised algorithms/functions however, can make or break analysis projects and so reestablishing a stable bridge between clojure and a first-in-class analysis language like Wolfram would go a long way in reassuring language choosers that Clojure can always meet their needs, even when there is no pure clojure library available.  
+Data analysis/processing, as also expressed by the Clojure leadership team, is a key growth area for the language but library coverage can be fragmented, with missing depth of functionality. 
+
+Having access to specialised algorithms/functions however, can make or break analysis projects and so reestablishing a stable bridge between clojure and a first-in-class analysis language like Wolfram would go a long way in reassuring language choosers that Clojure can always meet their needs, even when there is no pure clojure library available.  
 
 Another key community area is the expansion of the community itself. Following on from above, there is a large section of the numerical scientific community who are not programmers but who rely on tools like Mathematica and Matlab and so interop in these areas will be crucial for community cross-over in the future. Generalized language interop is particurly important for safe onboarding of new users and experience suggests that there is a willing 'market' for integreating specialist tools within more comfortable general languages like Clojure.  
 
