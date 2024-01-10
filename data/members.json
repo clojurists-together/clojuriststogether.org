@@ -907,11 +907,6 @@
     "level" : "developer",
     "founding" : true
   }, {
-    "name" : "Bartosz Warzecha",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Don Jackson",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1319,6 +1314,6 @@
   } ],
   "member_stats" : {
     "company" : 51,
-    "developer" : 188
+    "developer" : 187
   }
 }
