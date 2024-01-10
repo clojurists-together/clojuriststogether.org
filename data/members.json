@@ -1037,11 +1037,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Asko Nõmm",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Haokang Den",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1324,6 +1319,6 @@
   } ],
   "member_stats" : {
     "company" : 51,
-    "developer" : 189
+    "developer" : 188
   }
 }
