@@ -15,22 +15,22 @@ The good news, however, is that new proposals will be automatically reconsidered
 Thanks to everyone for your hard work and creativity in putting these proposals together - this is the kind of thinking and sharing that makes the Clojurist Together community so awesome! 
 
 ### Q1 2024 Projects Awarded $9K USD<br>
-CIDER – VEMV  
-Clojure-lsp – Eric Dallo  
-Instaparse – Mark Engelberg  
-Scicloj – Daniel Slutsky  
+[CIDER – VEMV](#cider-vemv)  
+[Clojure-lsp – Eric Dallo](#clojure-lsp-eric-dallo)  
+[Instaparse – Mark Engelberg](#instaparse-mark-engelberg)  
+[Scicloj – Daniel Slutsky](#scicloj-daniel-slutsky)   
 
 ### Q1 2024 Projects Awarded $2K USD<br>
-Jank – Jeaye Wilkerson  
-Sitefox – Chris McCormick  
-UnifyBio – Benjamin Kamphaus  
-Wolframite – Thomas Clark and Jakub Thomas  
+[Jank – Jeaye Wilkerson](#jank-jeaye-wilkerson)    
+[Sitefox – Chris McCormick](#sitefox-chris-mccormick). See his video.  
+[UnifyBio – Benjamin Kamphaus](#unifybio-benjamin-kamphaus)     
+[Wolframite – Thomas Clark and Jakub THoly](#wolframite-thomas-clark-and-jakub-holy)  
 
 Please join us in congratulating this talented group. We're looking forward to their project updates  in the coming months. 
 
 
 ### Q1 2024 Projects Awarded $9K USD  
-### CIDER – VEMV
+### CIDER: VEMV
 Work will be based on CIDER's issue trackers (cider, cider-nrepl, orchard), based on the daily rate that's been reflected for the majority of the https://opencollective.com/cider collaboration.
 Some of the larger themes will be: cider-inspector-mode refinements, cider-log-mode refinements, and refactoring our Java parsing machinery.
 
@@ -57,7 +57,7 @@ Besides those tasks, I'll keep actively helping the community in slack and githu
 ---
 
 
-### Instaparse: Mark Engleberg  
+### Instaparse: Mark Engelberg  
 My focus  will be on evaluating and incorporating pull requests for instaparse. Then, I will look at new features requested by the community. Along the way, I will make sure to keep the documentation updated.  
 
 **Why is this project important to the Clojure community?** Instaparse has been incorporated into a number of other libraries, including some of the routing libraries (for parsing URLs) in some web stacks. Knowing how many libraries rely on its stability has placed an additional burden on me to carefully review and test pull requests. <br>
@@ -65,7 +65,7 @@ My focus  will be on evaluating and incorporating pull requests for instaparse. 
 ---
 
 
-### Scicloj – Daniel Slutsky  
+### Scicloj: Daniel Slutsky  
 Scicloj is a Clojure group developing a stack of tools & libraries for data science.
 Alongside the technical challenges, community building has been an essential part of its
 efforts since the beginning of 2019.  
@@ -116,7 +116,7 @@ As a byproduct of our documentation efforts, some useful tools are emerging. We 
 
 ### Q1 2024 Projects Awarded $2K USD<br>
 
-### Jank – Jeaye Wilkerson  
+### Jank: Jeaye Wilkerson  
 There are some crucial missing pieces in jank which have been getting in the way of me reaching parity with Clojure. In order of importance, we have:  
 
 **Dynamic vars**  
@@ -142,7 +142,7 @@ Clojurists have demonstrated their desire for native executables with their use 
 
 ---
 
-### Sitefox – Chris McCormick  
+### Sitefox: Chris McCormick  
 Hear from Chris first-hand. **Check out Chris' video about his Clojurists Together project [here.](https://youtu.be/DPT_METwf70?feature=shared)**
 
 Here's what I would like to accomplish in Sitefox using the Clojurists Together funding:   
@@ -159,7 +159,7 @@ Here's what I would like to accomplish in Sitefox using the Clojurists Together 
 ---
 
  
-### UnifyBio – Benjamin Kamphaus  
+### UnifyBio: Benjamin Kamphaus  
 Broad project scope: Converting the CANDELBio ecosystem I helped create at the Parker Institute for Cancer Immunotherapy from its open source, but semi-abandoned state to UnifyBio, a world class data harmonization platform: Clojure-first and permissively open source (Apache 2.0). 
 
 The successor to CANDELBio’s pret tool will be the more generally useful Unify, at https://github.com/vendekagon-labs/unify and broadly useful for data harmonization or importing data into datalog-oriented stores. I’ll be streaming the dev process over video and sharing selection of this via YouTube.   
@@ -182,7 +182,7 @@ The streams and dev blogs will also give provide a helpful resource for anyone w
 
 ---
 
-### Wolframite – Thomas Clark and Jakub Thomas  
+### Wolframite: Thomas Clark and Jakub Holy  
 Currently, there is an existing library for wolfram<>clojure interop but it's lack of documentation, reliability and usability mean that it is not widely used or known.  We hope to fix all of these issues and so bring wolfram interop up to the standards of similar bridges like clojisr and libpython-clj. Specifically, fundamental goals would be to:  
 - merge recent work  
 - create comprehensive inline documentation  
