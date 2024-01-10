@@ -32,7 +32,7 @@ Please join us in congratulating this talented group. We're looking forward to t
 ### Q1 2024 Projects Awarded $9K USD  
 ### CIDER – VEMV
 Work will be based on CIDER's issue trackers (cider, cider-nrepl, orchard), based on the daily rate that's been reflected for the majority of the https://opencollective.com/cider collaboration.
-Some of the larger themes will be: cider-inspector-mode refinements, cider-log-mode refinements, and refactoring our Java parsing machinery (https://github.com/clojureemacs/orchard/issues/211)  
+Some of the larger themes will be: cider-inspector-mode refinements, cider-log-mode refinements, and refactoring our Java parsing machinery.
 
 **Why is this project important to the Clojure community?** It Is the main tool for static analysis in a editor that supports all/most of IDE features. It's the base for Calva, clojure-lsp-intellij and other plugins as it provides completion, diagnostics, code navigation and lots of other features.  <br> 
 
@@ -99,7 +99,7 @@ similar to the clojure-data-cookbook, but less curated and more community-driven
 7. real-world-data -- a study group where individuals will bring their own data problems and
 collaborate on common practices.  
 
-The proposal is to initiate items 6 & 7 as a core activity of Scicloj to and keep maintaining
+The project is to initiate items 6 & 7 as a core activity of Scicloj to and keep maintaining
 items 1-5, driven by the needs realised in 6 & 7. Everything will be done.  
 
 **Why is this project important to the Clojure community?** Clojure has a huge potential as a data science platform thanks to its REPL, simplicity, data-driven approach, visual support, interop support, and stability. This potential may apply not only to software developers and not only to scientists, but also to much broader crowds, practically anybody who has a data question.  
@@ -143,6 +143,8 @@ Clojurists have demonstrated their desire for native executables with their use 
 ---
 
 ### Sitefox – Chris McCormick  
+Hear from Chris first-hand. **Check out Chris' video about his Clojurists Together project [here.](https://youtu.be/DPT_METwf70?feature=shared)**
+
 Here's what I would like to accomplish in Sitefox using the Clojurists Together funding:   
 * Bring dependencies up to date.   
 * Tidy up the key-value database module & write basic tests.   
@@ -196,7 +198,7 @@ Data analysis/processing, as also expressed by the Clojure leadership team, is a
 
 Having access to specialised algorithms/functions however, can make or break analysis projects and so reestablishing a stable bridge between clojure and a first-in-class analysis language like Wolfram would go a long way in reassuring language choosers that Clojure can always meet their needs, even when there is no pure clojure library available.  
 
-Another key community area is the expansion of the community itself. Following on from above, there is a large section of the numerical scientific community who are not programmers but who rely on tools like Mathematica and Matlab and so interop in these areas will be crucial for community cross-over in the future. Generalized language interop is particurly important for safe onboarding of new users and experience suggests that there is a willing 'market' for integreating specialist tools within more comfortable general languages like Clojure.  
+Another key community area is the expansion of the community itself. Following on from above, there is a large section of the numerical scientific community who are not programmers but who rely on tools like Mathematica and Matlab and so interop in these areas will be crucial for community cross-over in the future. Generalized language interop is particurly important for safe onboarding of new users and experience suggests that there is a willing 'market' for integrating specialist tools within more comfortable general languages like Clojure.  
 
 Finally, this project would not only have its own benefits but it could lay the groundwork for future integration with the 'emmy' symbolic physics library. The emmy system is bringing open-source symbolic computation to both the back- and front-ends but it is missing key features and advanced libraries. A wolfram bridge could serve as a sure foundation and help create the real possibility of an almost unique physics programming space that clojure would be a great fit for but is not quite ready for.  
 
