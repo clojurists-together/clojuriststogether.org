@@ -31,7 +31,7 @@ Please join us in congratulating this talented group. We're looking forward to t
 
 ### Q1 2024 Projects Awarded $9K USD  
 ### CIDER: VEMV
-Work will be based on CIDER's issue trackers (cider, cider-nrepl, orchard), based on the daily rate that's been reflected for the majority of the https://opencollective.com/cider collaboration.
+Work will be based on CIDER's issue trackers (cider, cider-nrepl, orchard).
 Some of the larger themes will be: cider-inspector-mode refinements, cider-log-mode refinements, and refactoring our Java parsing machinery.
 
 **Why is this project important to the Clojure community?** Member [survey](https://www.clojuriststogether.org/news/call-for-proposals.-november-2023-member-survey/) in Novemeber suggests there is a need for this work.   <br> 
