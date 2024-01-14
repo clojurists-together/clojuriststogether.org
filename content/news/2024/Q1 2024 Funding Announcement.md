@@ -24,7 +24,7 @@ Thanks to everyone for your hard work and creativity in putting these proposals 
 [Jank – Jeaye Wilkerson](#jank-jeaye-wilkerson)    
 [Sitefox – Chris McCormick](#sitefox-chris-mccormick). See his video.  
 [UnifyBio – Benjamin Kamphaus](#unifybio-benjamin-kamphaus)     
-[Wolframite – Thomas Clark and Jakub THoly](#wolframite-thomas-clark-and-jakub-holy)  
+[Wolframite – Thomas Clark and Jakub Holy](#wolframite-thomas-clark-and-jakub-holy)  
 
 Please join us in congratulating this talented group. We're looking forward to their project updates  in the coming months. 
 
@@ -34,7 +34,7 @@ Please join us in congratulating this talented group. We're looking forward to t
 Work will be based on CIDER's issue trackers (cider, cider-nrepl, orchard).
 Some of the larger themes will be: cider-inspector-mode refinements, cider-log-mode refinements, and refactoring our Java parsing machinery.
 
-**Why is this project important to the Clojure community?** Member [survey](https://www.clojuriststogether.org/news/call-for-proposals.-november-2023-member-survey/) in Novemeber suggests there is a need for this work.   <br> 
+**Why is this project important to the Clojure community?** Member [survey](https://www.clojuriststogether.org/news/call-for-proposals.-november-2023-member-survey/) in November suggests there is a need for this work.   <br> 
 
 ---
 
