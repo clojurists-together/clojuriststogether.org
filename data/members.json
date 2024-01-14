@@ -1311,9 +1311,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Owen Riddy",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 51,
-    "developer" : 187
+    "developer" : 188
   }
 }
