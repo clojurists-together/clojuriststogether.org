@@ -315,7 +315,7 @@ I wanted to help test Squint and used it for solving some Advent of Code problem
 
 ## Peter Taoussanis  
 
-A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nubank](https://nubank.com.br/), [lambdaschmiede](https://www.lambdaschmiede.com/), and [other sponsors](/sponsors) of my open source work!
+A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nubank](https://nubank.com.br/), [lambdaschmiede](https://www.lambdaschmiede.com/), and other sponsors of my open source work!
 
 
 ### Recent work
