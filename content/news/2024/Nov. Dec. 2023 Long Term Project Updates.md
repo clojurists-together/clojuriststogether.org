@@ -3,7 +3,7 @@ title: "November and December 2023 Project Updates"
 date: 2024-01-22T08:30:00+08:00
 summary: "Cider/REPL, clj-kondo, basbashka, clojars, clojure-lsp, shadow, calva, malli, carmine V4, Humble UI and more ."
 author: Kathy Davis
-draft: True
+
 
 
 ---  
@@ -507,7 +507,6 @@ On the infrastructure front, I added [disk space and SQS queue delay alarms](htt
 can be better informed of when things go wrong.  <br>  
 
 ---
-
 
 
 ### Tommi Reiman  
