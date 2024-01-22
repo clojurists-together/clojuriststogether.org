@@ -1,6 +1,6 @@
 ---
-title: "Novemner and December 2023 Project Updates"
-date: 2024-01-20T08:30:00+08:00
+title: "November and December 2023 Project Updates"
+date: 2024-01-22T08:30:00+08:00
 summary: "Cider/REPL, clj-kondo, basbashka, clojars, clojure-lsp, shadow, calva, malli, carmine V4, Humble UI and more ."
 author: Kathy Davis
 draft: True
@@ -9,14 +9,18 @@ draft: True
 ---  
 <br>  
 There is a lot of work to report on folks! We're closing 2023 with two groups of updates:  
-* the 6th and final reports from our 2023 long-term developers
-* final updates from Q3 2023 projects Jank and Quil 
-Thanks to all our 2023 developers for their incredible work throughout the year. 
 
-**2023 Long-Term Develpers:**
-[Bozhidar Batsov:](#bozhidar-batsov) CIDER/REPL  
-[Christophe Grand:](#christophe-grand) ClojureDart et.al.   
-[Eric Dallo:](#eric-dallo) Clojure-lsp, intellij   
+*  the 6th and final reports from our 2023 long-term developers 
+* final updates from Q3 2023 projects Jank and Quil 
+
+Thanks to all our 2023 developers for their incredible work throughout the year. We're looking forward to an awesome 2024! 
+
+
+
+
+**2023 Long-Term Developers:**  
+[Bozhidar Batsov:](#bozhidar-batsov) CIDER/REPL    
+[Eric Dallo:](#eric-dallo) Clojure-lsp, clojure-repl-intellij, clojure-lsp-intellij   
 [Michiel Borkent:](#michiel-borkent) clj-kondo,babashka, squint, neil, CLI,clojure-mode, and more..  
 [Nikita Prokopov:](#nikita-prokopov) new projects, Clojure Sublimed, DataScript, Sublime Executor  
 [Peter Stromberg:](#peter-stromberg) Calva, JavaScript REPL, Polylith    
@@ -26,16 +30,16 @@ Thanks to all our 2023 developers for their incredible work throughout the year.
 [Toby Crawley:](#toby-crawley) Clojars   
 [Tommi Reiman:](#tommi-reiman) Malli, Reitit, Jsonista   
 
-**Q3 2023 Updates:** 
-[Jeaye Wilkerson:Jank]()
-[Charles Comstock and Jack Rusher: Quil]( )  <br>
+**Q3 2023 Updates:**  
+[Jeaye Wilkerson:Jank](#jeaye-wilkerson-jank)  
+[Charles Comstock and Jack Rusher: Quil](#charles-comstock-and-jack-rusher-quil )  <br>
 
 ---
 
 
-## Final Reports 2023 Long-Term Developers  
+### Final Reports 2023 Long-Term Developers  
 
-## Bozhidar Batsov  
+### Bozhidar Batsov  
 
 Happy New Year, everyone!  
 
@@ -48,7 +52,7 @@ I also wrote [an article on using clojure-lsp alongside CIDER](https://metaredux
 
 ---
 
-## Eric Dallo
+### Eric Dallo
 
 During these 2 months I spent a considerable time doing mostly 2 things:  
 
@@ -70,7 +74,6 @@ clojure-lsp-intellij is way more stable, compatible with multiple intellij versi
 ![](./clojure-lsp-intellij-wizard.png)
 
 #### 0.13.1 - 0.14.1  
-
 - Bump clojure-lsp to `2023.12.29-12.09.27`.
 - Add wizzard to create multiple Clojure types of projects directly via Intellij.
 - Fix format for non clojure files. #28
@@ -85,26 +88,25 @@ clojure-lsp-intellij is way more stable, compatible with multiple intellij versi
 The main highlights are performance improvements and fixes, there is a huge improvements in clojure-lsp API for the format task.
 
 #### 2023.12.29-12.09.27
-
-- General
+**General**  
   - Fix deep-merge of client settings with project settings.
   - Fix `max-line-length` on clean-ns feature not respecting some lines when contains a lot of refers. #1729
   - Bump cljfmt to 0.12.0.
-  - Bump clj-kondo to `2023.12.15`.
-  
-- Editor
+  - Bump clj-kondo to `2023.12.15`.  
+
+**Editor**  
   - Fix edn tree visualization for keys with same name in the same level. #1558
   - Make clear when `hover` feature is in a calling and not in a specific symbol. #1281
   - Exclude keys that are already included in the function call from completion suggestions. #1720
 
-- API/CLI
+**API/CLI**  
   - Drastically improves performance of `format` task matching `cljfmt`, avoiding analyzing the project. #1723
 
 Happy new year, and thank you all for this amazing journey!  <br>
 
 ---
 
-## Michiel Borkent  
+### Michiel Borkent  
 ### Happy new year!  
 First all, as this is the last day of 2023, I wish you all a happy new year. Hopefully many goods things may happen in the Clojure ecosystem. I'm grateful many of you have sponsored my work in 2023!  
 
@@ -118,14 +120,14 @@ I'd like to thank all the sponsors and contributors that make this work possible
 * [Kepler16](https://kepler16.com/)
 * [Pitch](https://github.com/pitch-io)
 
-If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work in the following ways. Thank you!  
+If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work in the following ways.  Thank you!  
 * [Github Sponsors](https://github.com/sponsors/borkdude)
 * The [Babaska](https://opencollective.com/babashka) or [Clj-kondo](https://opencollective.com/clj-kondo) OpenCollective
 * [Ko-fi](https://ko-fi.com/borkdude)
 * [Patreon](https://www.patreon.com/borkdude)
 * [Clojurists Together](https://www.clojuriststogether.org/)  
 
-If you're used to sponsoring through some other means which isn't listed above, please get in touch. Thank you! On to the projects that I've been working on!  
+If you're used to sponsoring through some other means which isn't listed above, please get in touch.  Thank you! On to the projects that I've been working on!  
  
 ### Advent of Code  
 
@@ -153,8 +155,7 @@ Change the `/squint/` part of the url to `/cherry/` to switch ClojureScript dial
     * A helper macro was improved such that you can define macros that are usable in SCI
     * The re-frame configuration now has support for `re-frame.alpha`. See [playground](https://babashka.org/sci.configs/).
 * [babashka](https://github.com/babashka/babashka): native, fast starting Clojure interpreter for scripting. A new release: 1.3.186! [See blog for more detail]( https://blog.michielborkent.nl/oss-updates-nov-2023.html)  
-* [SCI](https://github.com/babashka/sci): Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs \
- Released version 0.8.41
+* [SCI](https://github.com/babashka/sci): Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs \ Released version 0.8.41  [See blog for more detail]( https://blog.michielborkent.nl/oss-updates-nov-2023.html)
 * [cherry](https://github.com/squint-cljs/cherry): Experimental ClojureScript to ES6 module compiler
     * Released version 0.1.10 which catches up with the latest compiler improvements in squint
 * [clj-kondo](https://github.com/clj-kondo/clj-kondo): static analyzer and linter for Clojure code that sparks joy.
@@ -202,19 +203,17 @@ Change the `/squint/` part of the url to `/cherry/` to switch ClojureScript dial
 
 ### Other projects  
 These are (some of the) other projects I’m involved with but little to no activity happened in November and December. See final section of each report (“Other Projects”) for details. \
-[ https://blog.michielborkent.nl/oss-updates-nov-2023.html \
- https://blog.michielborkent.nl/oss-updates-dec-2023.html](https://blog.michielborkent.nl/oss-updates-nov-2023.html)
+[https://blog.michielborkent.nl/oss-updates-nov-2023.html]  
+[https://blog.michielborkent.nl/oss-updates-dec-2023.html]
 
 Discuss this post [here \
-](https://github.com/borkdude/blog/discussions/categories/posts) Published: 1 and 31 December, 2023 \
- Tagged: clojure oss updates 
-
+](https://github.com/borkdude/blog/discussions/categories/posts) Published: 1 and 31 December, 2023 \ Tagged: clojure oss updates 
 
 <br>
 
 ---
 
-## Nikita Prokopov  
+### Nikita Prokopov  
 
 Last update of the passing year, so pour yourself a warm drink, cover yourself with a cozy wool blanket and let’s see what are we ending the year with.
 
@@ -266,7 +265,7 @@ Happy New Year!  <br>
 
 ---
 
-## Peter Stromberg  
+### Peter Stromberg  
 
 This summarizes my last two month of long term funding 2023. I can't find words for how great this has been for me. Clojurists Together ROCKS! ❤️
 
@@ -296,12 +295,12 @@ The changes to Calva were mostly about fixing bugs. User support revealed quite 
 
 ### Joyride
 
-Clojure language support updates
+**Clojure language support updates:**
 
 * Add Clojure functions `tap>`, `add-tap`, and `remove-tap`
 * Conditional readers
 
-Developer tooling
+**Developer tooling:**  
 
 * Auto-create configuration and instructions for better clojure-lsp support
   for Joyride scripts
@@ -329,9 +328,7 @@ It offers a *particularly* high-level API focused on common tasks including logi
 
 For lots more info (incl. beginner-oriented documentation), see the [Tempel GitHub page](https://github.com/taoensso/tempel).
 
-Since then, I've been mostly concentrating on [Telemere](https://www.taoensso.com/telemere) - another all-new library focused on providing an idiomatic and flexible Clojure/Script API for structured telemetry. Support is planned for [OpenTelemetry](https://opentelemetry.io/) and others.
-
-Will share more info on this at release.
+Since then, I've been mostly concentrating on [Telemere](https://www.taoensso.com/telemere) - another all-new library focused on providing an idiomatic and flexible Clojure/Script API for structured telemetry. Support is planned for [OpenTelemetry](https://opentelemetry.io/) and others.  Will share more info on this at release.
 
 ### Upcoming work
 
@@ -347,7 +344,7 @@ I'm happy to say that 2023 was a really productive year for my open source work.
 
 In particular, I took the opportunity to target some larger/hairier tasks that would have otherwise been infeasible. Some of that work has already borne fruit, some of it will bear fruit in the coming year.
 
-Some notable results this year:
+**Some notable results this year:**
 
 - 37 public library [releases](https://www.taoensso.com/news#open-source), incl. 1 all-new library and another to come soon.
 - Major improvements to my workflow for writing and maintaining documentation.
@@ -359,7 +356,7 @@ Some notable results this year:
 
 ---
 
-## Sean Corfield  
+### Sean Corfield  
 
 In my [previous Long-Term Funding update](https://corfield.org/blog/2023/10/31/long-term-funding-5/)
 I said I would review and update of the
@@ -378,9 +375,9 @@ fixing the broken ones).
 
 For the **Mathematics** cookbook, that meant rewriting the content that previously used Java interop and/or [math.numeric-tower](https://github.com/clojure/math.numeric-tower/) to use the new-in-1.11 `clojure.math` namespace.  
 
-Several cookbooks got minor updates to take advantage of functions in `clojure.core` and `clojure.string` that have been added since Clojure 1.4, when most of the original material on `clojure-doc` was written.  
+**Several cookbooks got minor updates** to take advantage of functions in `clojure.core` and `clojure.string` that have been added since Clojure 1.4, when most of the original material on `clojure-doc` was written.  
 
-I also went through all the Java documentation links and updated those to
+**I also went through all the Java documentation links** and updated those to
 point to the Java 17 versions (they were mostly pointing at Java 7 previously!).
 These will get updated again once use of JDK 21 has become more widespread.  
 
@@ -474,36 +471,36 @@ library has a new release, 1.1.103, which removes the dependency on
 `org.clojure/tools.logging` -- which in turn means that `next.jdbc` no longer
 depends on `tools.logging`, reducing the chance of conflicts for users of
 either library.
-
 <br>
 
 ---
 
-## Tommi Reiman  
+### Tommi Reiman  
 Many improvements are in the works, but no releases on libraries. My work spread over the following:  
 
-* working with Malli
+**Working with Malli:**
   - enchanced development mode, new extension apis & pretty printing everything possible (screenshots below)
   - little progress on the [new effective type system](https://github.com/metosin/malli/issues/264)
   - thinking about schemas and global identity, entities and values. Goal is to allow decomplecting maps/keys/values with using local data / schema properties
-  - learning how to program with TypeScript Types
-* drafting a Clojure spesification for a 1:1 [x-state](https://xstate.js.org/) compatible FSM implementation([xstate v5 released in december](https://stately.ai/blog/2023-12-01-xstate-v5))
-  - why? have used FSMs for 10+ years with Clojure with great results, mostly copy-pasting the project-spesific engine from one project to another
-  - we have already many [great FSM libraries](https://clojurians.slack.com/archives/C01C7RJA81M/p1649760505661159) for Clojure, but all differ with design objectives. I'll reach out to the library maintainers, e.g. could we have one new/great tool instead of many small ones? we have already depreceated [tilakone](https://github.com/metosin/tilakone).
+  - learning how to program with TypeScript Types  
+
+**Drafting a Clojure specification for a 1:1 [x-state](https://xstate.js.org/) compatible FSM implementation([xstate v5 released in december](https://stately.ai/blog/2023-12-01-xstate-v5))**
+  - Why? have used FSMs for 10+ years with Clojure with great results, mostly copy-pasting the project-spesific engine from one project to another
+  - We have already many [great FSM libraries](https://clojurians.slack.com/archives/C01C7RJA81M/p1649760505661159) for Clojure, but all differ with design objectives. I'll reach out to the library maintainers, e.g. could we have one new/great tool instead of many small ones? we have already depreceated [tilakone](https://github.com/metosin/tilakone).
 * organizing open source & stable libraries in general - getting new maintainters for some of the projects
 * reviewing and merging pull requests
 
-## Malli Development Mode
+### Malli Development Mode
 
-### Coercion
+#### Coercion
 
 ![coercion](https://gist.githubusercontent.com/ikitommi/a1e62b3a35359259bfef94433ec2730b/raw/7e038854006f274cddcea212da566090dc370dc2/malli-coercion.png)
 
-### Schema creation
+#### Schema creation
 
 ![schema-creation](https://gist.githubusercontent.com/ikitommi/a1e62b3a35359259bfef94433ec2730b/raw/7e038854006f274cddcea212da566090dc370dc2/malli-schema-creation.png)
 
-# Something else
+### Something else
 
 Looking forward to 2024! Lot's of interesting things in the OS pipeline and thanks to new long-term funding, will continue to work on them. Also, New year starts with crispy -20 (in Celcius).
 
@@ -512,9 +509,9 @@ Looking forward to 2024! Lot's of interesting things in the OS pipeline and than
 
 ---
 
-## Remaining Reports Q3 2023 Projects
+## Q3 2023 Project Reports
 
-## Charles Comstock and Jack Rusher: Quil  
+### Charles Comstock and Jack Rusher: Quil  
 We had hoped to have a new release by the time we submitted this
 update, but we -- by which I mean Charles -- are down in the weeds
 trying to get all of the test infrastructure to work for every major
@@ -533,20 +530,20 @@ Our plan is to continue the work a bit more in the new year to get
 everything clean and maintainable, then train some other devs in the
 community on the codebase.
 
-Thanks for much for your help, Clojurists Together! 
+Thanks for much for your help, Clojurists Together!  
 Published 27 December 2023 <br>  
 
 ---
 
-## Jeaye Wilkerson: Jank  
-'ve been quiet for the past couple of months, finishing up this work on jank's
+### Jeaye Wilkerson: Jank  
+I've been quiet for the past couple of months, finishing up this work on jank's
 module loading, class path handling, aliasing, and var referring. Along the way,
 I ran into some very interesting bugs and we're in for a treat of technical
 detail in this holiday edition of jank development updates! A warm shout out to
 my [Github sponsors](https://github.com/sponsors/jeaye)
 and [Clojurists Together](https://www.clojuriststogether.org/) for sponsoring this work.
 
-## Module loading progress
+### Module loading progress
 Ok, first and foremost, where is jank now with regard to module loading? I'm
 very pleased to say that everything I wanted to tackle this quarter has been
 finished and even more on top of that. There's a PR up for the full changes
