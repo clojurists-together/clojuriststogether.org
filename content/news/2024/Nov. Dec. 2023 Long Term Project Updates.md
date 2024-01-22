@@ -22,7 +22,7 @@ Thanks to all our 2023 developers for their incredible work throughout the year.
 [Bozhidar Batsov:](#bozhidar-batsov) CIDER/REPL    
 [Eric Dallo:](#eric-dallo) Clojure-lsp, clojure-repl-intellij, clojure-lsp-intellij   
 [Michiel Borkent:](#michiel-borkent) clj-kondo,babashka, squint, neil, CLI,clojure-mode, and more..  
-[Nikita Prokopov:](#nikita-prokopov) new projects, Clojure Sublimed, DataScript, Sublime Executor  
+[Nikita Prokopov:](#nikita-prokopov) Humble UI, Clojure Sublimed, DataScript, Sublime Executor  
 [Peter Stromberg:](#peter-stromberg) Calva, JavaScript REPL, Polylith    
 [Peter Taoussanis:](#peter-taoussanis) Carmine, Nippy, http-kit, Tempel, Telemere   
 [Sean Corfield:](#sean-corfield) clojure-doc.org, deps-new, honeySQL, expectations, next.jdbc, clj-Watson, org.clojure/java.data        
