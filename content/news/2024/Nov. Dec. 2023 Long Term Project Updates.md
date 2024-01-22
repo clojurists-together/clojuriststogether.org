@@ -64,14 +64,14 @@ Even so, I can say I'm proud of the ongoing work on IntelliJ side related to clo
 ### [clojure-repl-intellij](https://github.com/afucher/clojure-repl-intellij)  
 
 It's still pretty alpha and missing lots of REPL features, but this is how it's looking for now:  
+![clojure-repl-intellij-demo](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/59fab2a4-d828-4b3d-b888-954e3361f673)
 
-![](./clojure-repl-intellij-demo.png)
 
 ### [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij)  
 
 clojure-lsp-intellij is way more stable, compatible with multiple intellij versions and other plugins like vim-intellij, also the main feature highlight is the new wizard to create new Clojure projects from Intellij itself:  
+![clojure-lsp-intellij-wizard](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/3cc61bc3-b469-48c5-833c-09e338228692)
 
-![](./clojure-lsp-intellij-wizard.png)
 
 #### 0.13.1 - 0.14.1  
 - Bump clojure-lsp to `2023.12.29-12.09.27`.
