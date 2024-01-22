@@ -475,6 +475,41 @@ either library.
 
 ---
 
+### Thomas Heller  
+Time was mostly spent on doing maintenance work and some bugfixes. As well as helping people out via the typical channels (e.g. Clojurians Slack).
+
+Current shadow-cljs version: 2.26.2 [Changelog](https://github.com/thheller/shadow-cljs/blob/master/CHANGELOG.md)
+<br>  
+
+---
+
+### Toby Crawley  
+### November 2023  
+**Commit Logs:** [`clojars-web`](https://github.com/clojars/clojars-web/compare/d92cf1eb2f78e13894d37eb8e4b5fc070d9e00e0...efde442180ed43d323a3fff1061a2bd6f7dfd157), [`infrastructure`](https://github.com/clojars/infrastructure/compare/ad8335b312a81567a4c78ef4fe1587741794534c...30bab1d3eefea9963117496c9aa420680ee3efc2)  
+
+I [rewrote the permissions system](https://github.com/clojars/clojars-web/pull/877) this month to support [project-level scoping](https://github.com/clojars/clojars-web/issues/709),
+allowing delegation of deploy rights to a user for a subset of projects under a group. This was released in December.  
+
+I also made [improvements to the AMI release process](https://github.com/clojars/infrastructure/commit/30bab1d3eefea9963117496c9aa420680ee3efc2).  
+
+### December 2023  
+**Commit Logs:** [`clojars-web`](https://github.com/clojars/clojars-web/compare/efde442180ed43d323a3fff1061a2bd6f7dfd157...a24421654d39e01f8fadeaa7b7b878a3217ff581), [`infrastructure`](https://github.com/clojars/infrastructure/compare/30bab1d3eefea9963117496c9aa420680ee3efc2...f529f091d3b003d8a7d251c6afc6569e4fb607b4)
+
+This month I released the [permissions system rewrite](https://github.com/clojars/clojars-web/pull/877), updated the release logic
+to [require a license in the POM for all releases](https://github.com/clojars/clojars-web/pull/875), and made a few other minor improvements:  
+
+-   [Use long polling with SQS](https://github.com/clojars/clojars-web/commit/8d5b8e2c4b93771a34ecb1b14e5d5cbf62d2491e)  
+-   [Throw on SQS receive-loop exception to force prcess to exit](https://github.com/clojars/clojars-web/commit/b60afa3cf8c181fe511b71a1ade27bd04c46110f)  
+-   [Use mock mailer in development](https://github.com/clojars/clojars-web/commit/785266dbcbc0ea3fea4ccf55a8992f2ed62183f4)  
+-   [Update logback to address CVE-2023-6378](https://github.com/clojars/clojars-web/commit/d25bdccbfe32ad23b6b60906b596ed1b5d63cbad)  
+
+On the infrastructure front, I added [disk space and SQS queue delay alarms](https://github.com/clojars/infrastructure/compare/30bab1d3eefea9963117496c9aa420680ee3efc2...57142fd9726c1f6ba42abedfe696632893c58621) so we
+can be better informed of when things go wrong.  <br>  
+
+---
+
+
+
 ### Tommi Reiman  
 Many improvements are in the works, but no releases on libraries. My work spread over the following:  
 
