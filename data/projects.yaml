@@ -1,4 +1,4 @@
-# Long term funding 2023
+# Long term funding 2024
 # Q3 2022
 # Q1 2023
 # Q2 2023
@@ -6,59 +6,89 @@
 
 - name: Bozhidar Batsov
   tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
+  date: 2024-01-01
+  round: Long-term 2024
   current: true
 - name: Michiel Borkent
   tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
-  current: true
-- name: Sean Corfield
-  tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
+  date: 2024-01-01
+  round: Long-term 2024
   current: true
 - name: Toby Crawley
   tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
-  current: true
-- name: Eric Dallo
-  tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
-  current: true
-- name: Christophe Grand
-  tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
+  date: 2024-01-01
+  round: Long-term 2024
   current: true
 - name: Thomas Heller
   tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
+  date: 2024-01-01
+  round: Long-term 2024
+  current: true
+- name: Kira McLean
+  tier: Long-term (USD 1.5k/month)
+  date: 2024-01-01
+  round: Long-term 2024
   current: true
 - name: Nikita Prokopov
   tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
+  date: 2024-01-01
   round: Long-term 2023
   current: true
 - name: Tommi Reiman
   tier: Long-term (USD 1.5k/month)
+  date: 2024-01-01
+  round: Long-term 2024
+  current: true
+- name: Peter Taoussanis
+  tier: Long-term (USD 1.5k/month)
+  date: 2024-01-01
+  round: Long-term 2024
+  current: true
+
+- name: Bozhidar Batsov
+  tier: Long-term (USD 1.5k/month)
   date: 2023-01-01
   round: Long-term 2023
-  current: true
+- name: Michiel Borkent
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+- name: Sean Corfield
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+- name: Toby Crawley
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+- name: Eric Dallo
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+- name: Christophe Grand
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+- name: Thomas Heller
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+- name: Nikita Prokopov
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+- name: Tommi Reiman
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
 - name: Peter Stromberg
   tier: Long-term (USD 1.5k/month)
   date: 2023-01-01
   round: Long-term 2023
-  current: true
 - name: Peter Taoussanis
   tier: Long-term (USD 1.5k/month)
   date: 2023-01-01
   round: Long-term 2023
-  current: true
 
 - name: Bosquet
   url: https://github.com/zmedelis/bosquet
