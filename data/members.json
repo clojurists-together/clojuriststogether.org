@@ -1297,11 +1297,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Dennis Heihoff",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Pandit",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1314,6 +1309,6 @@
   } ],
   "member_stats" : {
     "company" : 51,
-    "developer" : 187
+    "developer" : 186
   }
 }
