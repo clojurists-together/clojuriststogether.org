@@ -60,14 +60,6 @@
     "founding" : false,
     "tagline" : "Adgoji is a media agency. We have built a Clojure based real-time bidding platform that buys targeted mobile advertising space from the largest market places in the world."
   }, {
-    "name" : "Pitch Software GmbH",
-    "member_type" : "company",
-    "url" : "https://pitch.io",
-    "logo" : "/logos/pitch.svg",
-    "level" : "transduce",
-    "founding" : false,
-    "tagline" : "Pitch is building the next generation presentation software for individuals and teams."
-  }, {
     "name" : "Xcoo",
     "member_type" : "company",
     "url" : "https://xcoo.jp",
@@ -155,16 +147,9 @@
     "level" : "assoc",
     "founding" : false
   }, {
-    "name" : "Petit Perou",
+    "name" : "Biotz SL",
     "member_type" : "company",
-    "url" : "https://www.petit-perou.tech",
-    "logo" : null,
-    "level" : "assoc",
-    "founding" : false
-  }, {
-    "name" : "Magnet",
-    "member_type" : "company",
-    "url" : "https://www.magnet.coop",
+    "url" : "www.biotz.io",
     "logo" : null,
     "level" : "cons",
     "founding" : false
@@ -547,11 +532,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "David Bernal",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "David Liepmann",
     "member_type" : "developer",
     "level" : "contributing",
@@ -622,19 +602,9 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Orestis Markou",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Joshua Miller",
     "member_type" : "developer",
     "level" : "assoc",
-    "founding" : false
-  }, {
-    "name" : "Vinai Kopp",
-    "member_type" : "developer",
-    "level" : "contributing",
     "founding" : false
   }, {
     "name" : "Andrea Crotti",
@@ -643,11 +613,6 @@
     "founding" : false
   }, {
     "name" : "David Whittington",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Nils Grunwald",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
@@ -725,11 +690,6 @@
     "name" : "Agzamkhodja Ibragimov",
     "member_type" : "developer",
     "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Victor Bjelkholm",
-    "member_type" : "developer",
-    "level" : "assoc",
     "founding" : false
   }, {
     "name" : "Amar Mehta",
@@ -842,11 +802,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Takeshi Nakamo",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Dan Sutton",
     "member_type" : "developer",
     "level" : "contributing",
@@ -867,17 +822,7 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Elias Schulze",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Justin Belanger",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Pablo Botelho",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
@@ -908,11 +853,6 @@
     "founding" : true
   }, {
     "name" : "Don Jackson",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "John Collins",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
@@ -953,11 +893,6 @@
     "founding" : false
   }, {
     "name" : "Ryan Zebian",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Mikhail Levchenko",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
@@ -1018,11 +953,6 @@
     "founding" : false
   }, {
     "name" : "Daniel Schleindlsperger",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Søren Sjørup",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
@@ -1162,16 +1092,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Asko Nõmm",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Georg Ekeberg",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "William Robinson",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1182,17 +1102,7 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Ivan Fedorov",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "McCormick",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Alex Watkinson",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
@@ -1308,7 +1218,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 51,
-    "developer" : 186
+    "company" : 49,
+    "developer" : 171
   }
 }
