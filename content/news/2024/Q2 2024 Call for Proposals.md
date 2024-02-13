@@ -3,7 +3,6 @@ title: "Call for Proposals. February 2024 Member Survey"
 date: 2024-02-13T08:30:00+08:00
 summary: "We are awarding up to $44K for Q2 2024 Projects"
 author: Kathy Davis  
-draft: True  
 
 
 
