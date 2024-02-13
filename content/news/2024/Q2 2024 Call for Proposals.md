@@ -25,3 +25,17 @@ We surveyed our members in February to find out what types of initiatives they w
 If you are working on a Clojure open source project or have a new one in mind, especially one mentioned as a focus area for our members, please consider applying. Or if you know someone that might be interested, please pass this information along. Let's get the word out!  If you have questions, please contact Kathy Davis at kdavis@clojuriststogether.org.
 
 ## Our Members Speak: Feedback from the February 2024 Survey.  
+
+![platforms targeted feb 24](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/761a93b3-c162-4b17-b7a9-e8ba124906fc)
+
+
+![clojure improvement feb 24](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/f67455b9-8fba-4701-b879-013568e50aae)
+
+
+![clojurescript improvements feb 24](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/0455fc0b-e743-4f5c-895d-c19b7b273f8d)
+
+
+
+
+
+
