@@ -19,6 +19,9 @@ We will be awarding up to $44,000 USD for a total of 6-8 projects. The $2k fundi
 
 We surveyed our members in February to find out what types of initiatives they would like us to focus on for this round of funding. Their responses are summarized below. In particular, it was great to see members' feedback relating to how often they used or referred to developers' work we have funded. Check this out!  
 
+![Use of work Feb 2024](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/988c9baf-2811-4993-ac14-455d06935e4c)
+
+
 If you are working on a Clojure open source project or have a new one in mind, especially one mentioned as a focus area for our members, please consider applying. Or if you know someone that might be interested, please pass this information along. Let's get the word out!  If you have questions, please contact Kathy Davis at kdavis@clojuriststogether.org.
 
 ## Our Members Speak: Feedback from the February 2024 Survey.  
