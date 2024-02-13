@@ -13,7 +13,7 @@ draft: True
 ## Call for Proposals. 
 Greetings All! It's that time again. 
 
-Clojurists Together is pleased to announce that we are opening our Q2 2024 funding round for Clojure Open Source Projects.  Applications are open until the 4th of March 2024 (midnight Pacific Time). We are looking forward to reviewing your proposals! [More information and the application can be found here.](https://clojuriststogether.org/open-source/)
+Clojurists Together is pleased to announce that we are opening our Q2 2024 funding round for Clojure Open Source Projects.  Applications will be accepted through the 4th of March 2024 (midnight Pacific Time). We are looking forward to reviewing your proposals! [More information and the application can be found here.](https://clojuriststogether.org/open-source/)
 
 We will be awarding up to $44,000 USD for a total of 6-8 projects. The $2k funding tier is for experimental projects or smaller proposals, whereas the $9k tier is for those that are more established. Projects generally run 3 months, however, the $9K projects can run between 3 and 12 months as needed. We expect projects to start on April 1, 2024.
 
@@ -22,7 +22,7 @@ We surveyed our members in February to find out what types of initiatives they w
 ![Use of work Feb 2024](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/988c9baf-2811-4993-ac14-455d06935e4c)
 
 
-If you are working on a Clojure open source project or have a new one in mind, especially one mentioned as a focus area for our members, please consider applying. Or if you know someone that might be interested, please pass this information along. Let's get the word out!  If you have questions, please contact Kathy Davis at kdavis@clojuriststogether.org.
+If you are working on a Clojure open source project or have a new one in mind, especially one mentioned as a focus area for our members, consider applying. Or if you know someone that might be interested, please pass this information along. Let's get the word out!  If you have questions, please contact Kathy Davis at kdavis@clojuriststogether.org.
 
 ## Our Members Speak: Feedback from the February 2024 Survey.  
 
