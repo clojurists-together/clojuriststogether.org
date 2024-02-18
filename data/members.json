@@ -1221,9 +1221,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Gleb Zakharov",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 49,
-    "developer" : 172
+    "developer" : 173
   }
 }
