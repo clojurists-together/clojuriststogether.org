@@ -231,13 +231,6 @@
     "level" : "assoc",
     "founding" : false
   }, {
-    "name" : "Gatheround",
-    "member_type" : "company",
-    "url" : "https://gatheround.com",
-    "logo" : null,
-    "level" : "into",
-    "founding" : false
-  }, {
     "name" : "LegalMate",
     "member_type" : "company",
     "url" : "https://legalmate.co",
@@ -857,11 +850,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Donavan-Ross Costaras",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Sergey Shvets",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1228,7 +1216,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 49,
-    "developer" : 173
+    "company" : 48,
+    "developer" : 172
   }
 }
