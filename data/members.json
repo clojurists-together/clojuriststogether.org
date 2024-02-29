@@ -1214,9 +1214,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Lars Kristian Maron Telle",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 48,
-    "developer" : 172
+    "developer" : 173
   }
 }
