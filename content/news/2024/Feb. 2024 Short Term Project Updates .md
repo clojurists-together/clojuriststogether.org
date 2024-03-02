@@ -1,23 +1,24 @@
 ---
 title: "Feb. 2024 Short-Term Project Updates"
 date: 2024-03-02T08:30:00+08:00
-summary: "CIDER, clojure-lsp, Jank, Scicloj, sitefox, UnifyBio"
+summary: "CIDER, clojure-lsp, Jank, Scicloj, Sitefox, UnifyBio"
 author: Kathy Davis  
-draft: True
+
 
 
 ---  
 <br>
 Our first round of reports are in from some of our Q1 2024 deveopers.  
 
-Benjamin Kamphaus: UnifyBio  
-Chris McCormack: sitefox  
-Daniel Slutsky: Scicloj  
-Eric Dallo: clojure-lsp  
-Jeaye  Wilkerson: Jank  
-VEMV: CIDER  
+[Benjamin Kamphaus: UnifyBio](#benjamin-kamphaus-unifybio)  
+[Chris McCormack: Sitefox](#chris-mccormack-sitefox)  
+[Daniel Slutsky: Scicloj](#daniel-slutsky-scicloj)   
+[Eric Dallo: clojure-lsp](#eric-dallo-clojure-lsp)   
+[Jeaye  Wilkerson: Jank](#jeaye-wilkerson-jank)   
+[VEMV: CIDER](#vemv-cider)  
 
-## Benjamin Kamphaus: Unify Bio
+
+## Benjamin Kamphaus: UnifyBio
 2024 Q1 Project Report 1. Published 15 February 2024.  
 
 **Accomplished so far:**
@@ -72,7 +73,7 @@ Thanks to Clojurists Together and the Rare Cancer Research Foundation for suppor
 
 ---
 
-## Chris McCormack: sitefox 
+## Chris McCormack: Sitefox 
 2024 Q1 Project Report 1. Published 15 February 2024. 
 
 Hello! The first half of my Clojurists Together funded work on Sitefox is complete. I made around 50 commits to the project since the start of the year and this is a quick summary of the progress I've made.
@@ -251,7 +252,7 @@ The main highlight is the new linter different-aliases helps guarantee consisten
 
 ---
 
-## Jeaye  Wilkerson: Jank   
+## Jeaye Wilkerson: Jank   
 2024 Q1 Project Report 1. Published 26 February 2024.
 
 tl;dr I'm well ahead of schedule, so far this quarter! There's a more detailed update
@@ -343,7 +344,7 @@ following:
 ---
 
 
-## VENV: CIDER  
+## VEMV: CIDER  
 2024 Q1 Project Report 1. Published 7 February 2024.
 
 January CT-sponsored work resulted in CIDER [1.13.0](https://github.com/clojure-emacs/cider/releases/tag/v1.13.0) ("Santiago") and a subsequent [1.13.1](https://github.com/clojure-emacs/cider/releases/tag/v1.13.1) bugfix release.  
