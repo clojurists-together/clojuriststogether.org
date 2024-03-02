@@ -192,9 +192,7 @@ If you have any thoughts about the current directions, or if you wish to discuss
 ### [clojure-lsp](https://clojure-lsp.io/)  
 The main highlight is the new custom project tree feature which shows project source-paths, dependencies, jars and namespaces!
 ![project-tree](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/f501b1a0-3ffe-41e7-8d69-a35d9a359d55)
-
 <br>  
-
 ### 2024.02.01-11.01.59  
 - General
   - Fix binary not wokring on some aarch64 linux. #1748
@@ -228,10 +226,7 @@ Besides the clojure-lsp work, I worked too on some related projects that I think
 ### [clojure-lsp](https://clojure-lsp.io/)  
 
 The main highlight is the new linter different-aliases helps guarantee consistency across alias in your codebase!  
-![different-aliases](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/940cd94d-8714-4d67-90d7-30f204bd45cf)
-
-<br>  
-
+![different-aliases](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/940cd94d-8714-4d67-90d7-30f204bd45cf)  
 ### 2024.03.01-11.37.51  
 - General  
   - Bump clj-kondo to `2024.02.13-20240228.191822-15`.
