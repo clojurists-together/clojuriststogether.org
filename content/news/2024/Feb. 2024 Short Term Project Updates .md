@@ -1,7 +1,7 @@
 ---
-title: "Feb. 2024 Short Term Project Updates"
+title: "Feb. 2024 Short-Term Project Updates"
 date: 2024-03-02T08:30:00+08:00
-summary: "CIDER, clojure-lsp, Jank, scicloj, sirefox, UnifyBio"
+summary: "CIDER, clojure-lsp, Jank, Scicloj, sitefox, UnifyBio"
 author: Kathy Davis  
 draft: True
 
@@ -12,7 +12,7 @@ Our first round of reports are in from some of our Q1 2024 deveopers.
 
 Benjamin Kamphaus: UnifyBio  
 Chris McCormack: sitefox  
-Daniel Slutsky: scicloj  
+Daniel Slutsky: Scicloj  
 Eric Dallo: clojure-lsp  
 Jeaye  Wilkerson: Jank  
 VEMV: CIDER  
@@ -35,8 +35,7 @@ VEMV: CIDER
 **For the short term, my goals are:**  
 - Prioritize dataset lifecycle management, dataset lifecycle scenario tests, tutorials
 - Delay work on additional backends and streaming processing until I hit a stable point re: ^
-
-![schema view](schema-view.png)
+<img width="1368" alt="schema-view" src="https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/0a5eb26d-14a1-488e-ad3a-bbecefccfba1">
 *View of the schema browser, now part of the local Unify system (adapted from alzabo by Mike Travers)
 
 At this point, Unify is in a decent shape as an alpha for prototyping/experimental work.
@@ -192,8 +191,9 @@ If you have any thoughts about the current directions, or if you wish to discuss
 
 ### [clojure-lsp](https://clojure-lsp.io/)  
 The main highlight is the new custom project tree feature which shows project source-paths, dependencies, jars and namespaces!
+![project-tree](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/f501b1a0-3ffe-41e7-8d69-a35d9a359d55)
 
-![project tree](./project-tree.png)
+<br>  
 
 ### 2024.02.01-11.01.59  
 - General
@@ -228,8 +228,9 @@ Besides the clojure-lsp work, I worked too on some related projects that I think
 ### [clojure-lsp](https://clojure-lsp.io/)  
 
 The main highlight is the new linter different-aliases helps guarantee consistency across alias in your codebase!  
+![different-aliases](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/940cd94d-8714-4d67-90d7-30f204bd45cf)
 
-![different-aliases](./different-aliases.png)
+<br>  
 
 ### 2024.03.01-11.37.51  
 - General  
