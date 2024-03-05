@@ -1,6 +1,6 @@
 ---
 title: "Feb. 2024 Short-Term Project Updates"
-date: 2024-03-02T08:30:00+08:00
+date: 2024-03-04T08:30:00+08:00
 summary: "CIDER, clojure-lsp, Jank, Scicloj, Sitefox, UnifyBio"
 author: Kathy Davis  
 
