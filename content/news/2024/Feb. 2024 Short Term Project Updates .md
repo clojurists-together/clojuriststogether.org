@@ -8,7 +8,7 @@ author: Kathy Davis
 
 ---  
 <br>
-Our first round of reports are in from some of our Q1 2024 deveopers.  
+Our first round of reports is in from some of our Q1 2024 deveopers.  
 
 [Benjamin Kamphaus: UnifyBio](#benjamin-kamphaus-unifybio)  
 [Chris McCormack: Sitefox](#chris-mccormack-sitefox)  
