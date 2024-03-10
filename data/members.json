@@ -1040,11 +1040,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Jesús Gómez",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Ed Bowler",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1222,6 +1217,6 @@
   } ],
   "member_stats" : {
     "company" : 48,
-    "developer" : 173
+    "developer" : 172
   }
 }
