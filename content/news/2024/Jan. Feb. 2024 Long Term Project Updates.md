@@ -1,9 +1,9 @@
 ---
-title: "Jan. & Feb. 2024 Long Term Project Updates"
+title: "January & February 2024 Long-Term Project Updates"
 date: 2024-03-11T14:00:00+12:00
 author: Kathy Davis
 summary: "The latest from Batsov, Borkent, Crawley, Heller, McLean, Nikitonsky, Reiman, Taoussanis"
-draft: True
+
 
 ---
 
