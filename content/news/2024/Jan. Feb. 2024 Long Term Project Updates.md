@@ -328,7 +328,7 @@ Teppo the Dog enjoying the Sun at [Näsijärvi](https://fi.wikipedia.org/wiki/N%
 
 ### Open source update
 
-A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nubank](https://nubank.com.br/), [lambdaschmiede](https://www.lambdaschmiede.com/), and [other sponsors](/sponsors) of my open source work!  
+A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nubank](https://nubank.com.br/), [lambdaschmiede](https://www.lambdaschmiede.com/), and other sponsors of my open source work!  
 
 It's been a productive start to the year! Have been focused almost entirely on open source. Output has included:  
 
