@@ -1,6 +1,6 @@
 ---
 title: "Jan. & Feb. 2024 Long Term Project Updates"
-date: 2024-03-209T14:00:00+12:00
+date: 2024-03-11T14:00:00+12:00
 author: Kathy Davis
 summary: "The latest from Batsov, Borkent, Crawley, Heller, McLean, Nikitonsky, Reiman, Taoussanis"
 draft: True
@@ -15,8 +15,8 @@ Toby Crawley: clojars
 Thomas Heller: shadow-cljs  
 Kira McLean: Scicloj Libraries  
 Nikita Prokopov: Humble UI  
-Tommi Reiman:  MALLI
-Peter Taoussanis: Telemere, Tempel, and more
+Tommi Reiman:  MALLI  
+Peter Taoussanis: Telemere, Tempel, and more  
 
 ## Bozhidar Batsov  
 Another busy couple of months with quite a few achievements, both big and small. This time around I even managed to write a few articles about the bigger achievements! Here are the highlights for this period:
@@ -177,7 +177,7 @@ Worked on a big new release of [Malli](https://github.com/metosin/malli) and wro
 
 Helped users to use and adopt the libs.  
 
-## 0.14.0 (2024-01-16)  
+### 0.14.0 (2024-01-16)  
 
 * Better development-time tooling  
   * `malli.dev/start!` captures all malli-thrown exceptions, see [README]([README.md#development-mode](https://github.com/metosin/malli/blob/master/README.md#development-mode) for details  
@@ -204,23 +204,17 @@ Teppo the Dog enjoying the Sun at [Näsijärvi](https://fi.wikipedia.org/wiki/N%
 ## Peter Taoussanis  
 # Open source update
 
-A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nubank](https://nubank.com.br/), [lambdaschmiede](https://www.lambdaschmiede.com/), and [other sponsors](/sponsors) of my open source work!
+A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nubank](https://nubank.com.br/), [lambdaschmiede](https://www.lambdaschmiede.com/), and [other sponsors](/sponsors) of my open source work!  
 
-## 2024 Jan - Feb
+It's been a productive start to the year! Have been focused almost entirely on open source. Output has included:  
 
-### Recent work  
-
-It's been a productive start to the year! Have been focused almost entirely on open source. 
-
-Output has included:  
-
-#### 7x library releases  
+### 7x library releases  
 
 This includes [http-kit v2.8.0-RC1](https://github.com/http-kit/http-kit/releases/tag/v2.8.0-RC1) (tons of new stuff in here!), [Tempel v1.0.0-RC1](https://github.com/taoensso/tempel/releases/tag/v1.0.0-RC1), [Nippy v3.4.0-RC2](https://github.com/taoensso/nippy/releases/tag/v3.4.0-RC2), and [Timbre v6.5.0](https://github.com/taoensso/timbre/releases/tag/v6.5.0).  
 
 See [here](https://www.taoensso.com/news#open-source) for the full list, and also [here](https://www.taoensso.com/roadmap) for a new GitHub-hosted **roadmap of my major upcoming open source work**.  
 
-#### New Tempel explainer video  
+### New Tempel explainer video  
 
 I recorded a short [video](https://www.youtube.com/watch?v=sULZVFhR848) to explain the new/upcoming [Tempel](https://www.taoensso.com/tempel) **data security framework**.  
 
@@ -232,7 +226,7 @@ It can be easier than you expect, and I detail one example pattern in the video.
 
 BTW please let me know if there's interest in me doing more of these kinds of videos in future.  
 
-#### London Clojurians Talk  
+### London Clojurians Talk  
 
 On 20 Feb I gave an online talk at the London Clojurians Group. The talk's now [on YouTube](https://www.youtube.com/watch?v=Jz9NcnQbH5I).  
 
@@ -246,13 +240,13 @@ Part of the talk's intention was to discuss some of the trade-offs that Clojure 
 
 Please ping if there's interest in me posting a write-up to summarize some of the key points discussed.  
 
-#### Interview with Daniel Compton  
+### Interview with Daniel Compton  
 
 Had a really nice [chat](https://t.co/VmwvbxAzC5) with [Daniel Compton](https://x.com/danielwithmusic) about my open source work and other projects. (Thanks Daniel!)  
 
 To avoid possible confusion re: discussed dates/timelines, please note that this was recorded at the end of last year (2023).  
 
-#### Lots of work On Telemere  
+### Lots of work On Telemere  
 
 Have been putting in a lot of work on the upcoming [Telemere](https://www.taoensso.com/telemere) **structured telemetry** library for Clojure/Script.  
 
