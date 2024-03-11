@@ -196,7 +196,6 @@ Current shadow-cljs version: 2.27.5 [Changelog](https://github.com/thheller/shad
 Notable Updates:
 - Tweaked `watch` recompile logic to also account for indirect var usages via macros. The usual recompile logic compiles a changed namespace, and then everything which directly required it. This is sometimes insufficient since macros can insert references to other namespaces, without the namespace using the macro having direct knowledge (or require) of that ns. Now all direct accessed vars (after analysis) are collected and used for this logic, making it much more accurate.  
 - Added limited support for npm modules using `import()` in their code. This is still fairly limited in support, and does not perform actual code splitting as `webpack` might, but it made some npm modules usable again that would previously just crash.
-  https://github.com/thheller/js-framework-shadow-grove  
 - Worked a lot on [shadow-grove](https://github.com/thheller/shadow-grove). Spent way too much time [benchmarking](https://github.com/thheller/js-framework-shadow-grove), but I feel confident now that performance is quite good and potentially the fastest CLJS `react`-equivalent available. Also updated the [playground](https://code.thheller.com/shadow-grove-playground/0.6.0/), which I plan on using as the basis for documentation. Still a couple of things to work out, but overall in good shape.  <br>
 
 ---
