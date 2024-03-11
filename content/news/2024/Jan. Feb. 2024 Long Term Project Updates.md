@@ -7,16 +7,16 @@ draft: True
 
 ---
 
-We're excited to post the first reports from our 2024 long-term developers. There is a lot of great work to report on, so let's dive in!  
+We're excited to post the first reports of the year from our 2024 long-term developers. There is a lot of great work to catch-up on, so dive in!  
 
-Bozhidar Batsov: CIDER   
-Michiel Borkent:  clj-kondo, babashka, SCI, squint/cherry, and more   
-Toby Crawley: clojars    
-Thomas Heller: shadow-cljs  
-Kira McLean: Scicloj Libraries  
-Nikita Prokopov: Humble UI  
-Tommi Reiman:  MALLI  
-Peter Taoussanis: Telemere, Tempel, and more  
+[Bozhidar Batsov:](#bozhidar-batsov) CIDER, Clojure-mode, clojure ts-mode     
+[Michiel Borkent:](#michiel-borkent) clj-kondo, babashka, SCI, squint, nbb, CLI, and more   
+[Toby Crawley:](#toby-crawley) clojars    
+[Thomas Heller:](#thomas-heller) shadow-cljs  
+[Kira McLean:](#kira-mclean) Scicloj Libraries  
+[Nikita Prokopov:](#nikita-prokopov) Humble UI, Clj-reload, Datascript, and more  
+[Tommi Reiman:](#tommi-reiman) Malli   
+[Peter Taoussanis:](#peter-taoussanis) Telemere, Tempel, and more  
 
 ## Bozhidar Batsov  
 Another busy couple of months with quite a few achievements, both big and small. This time around I even managed to write a few articles about the bigger achievements! Here are the highlights for this period:
@@ -38,7 +38,6 @@ P.S. Some of you might be interested to hear that in this period [I've also beco
 ## Michiel Borkent  
 
 In this post I'll give updates about open source I worked on during January and February 2024.
-
 To see previous OSS updates, go [here](https://blog.michielborkent.nl/tags/oss-updates.html).
 
 
@@ -47,25 +46,23 @@ To see previous OSS updates, go [here](https://blog.michielborkent.nl/tags/oss-u
 I'd like to thank all the sponsors and contributors that make this work possible. Like you can read on [Bozhidar Batsov](https://metaredux.com/posts/2024/02/15/cider-community-impact.html)'s blog these aren't the easiest times for Open Source sponsored software. I have no reason to complain, but I did see a similar drop in sponsoring in the last year. I'm thankful for those who sponsored my projects in the past and even more for those who keep doing so! Without _you_, the below projects would not be as mature or wouldn't exist or be maintained at all.  
 
 Current top tier sponsors:  
-* [Clojurists Together](https://clojuriststogether.org/)
-* [Roam Research](https://roamresearch.com/)
-* [Nextjournal](https://nextjournal.com/)
-* [Cognitect](https://www.cognitect.com/)
+* [Clojurists Together](https://clojuriststogether.org/)  
+* [Roam Research](https://roamresearch.com/)  
+* [Nextjournal](https://nextjournal.com/)  
+* [Cognitect](https://www.cognitect.com/)  
 
-Sponsor info: If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work in the following ways. 
-Thank you!
-[Clojurists Together](https://clojuriststogether.org/)
-[Github Sponsors](https://github.com/sponsors/borkdude)
-The [Babaska](https://opencollective.com/babashka) or [Clj-kondo](https://opencollective.com/clj-kondo) OpenCollective
-[Ko-fi](https://ko-fi.com/borkdude)
-[Patreon](https://www.patreon.com/borkdude)
-If you're used to sponsoring through some other means which isn't listed above, please get in touch.  
-On to the projects that I've been working on!  
+Additional sponsor info: If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work in the following ways. Thank you!  
+[Clojurists Together](https://clojuriststogether.org/)  
+[Github Sponsors](https://github.com/sponsors/borkdude)  
+The [Babaska](https://opencollective.com/babashka) or [Clj-kondo](https://opencollective.com/clj-kondo) OpenCollective  
+[Ko-fi](https://ko-fi.com/borkdude)  
+[Patreon](https://www.patreon.com/borkdude)  
+If you're used to sponsoring through some other means which isn't listed above, please get in touch.  On to the projects that I've been working on!  
 
 
 ### Updates
 
-Here are updates about the projects/libraries I've worked on last month.  
+Here are updates about the projects/libraries I've worked on last two months.  
 
 * [clj-kondo](https://github.com/clj-kondo/clj-kondo): static analyzer and linter for Clojure code that sparks joy. Released 2024.02.12
     * [#2276](https://github.com/clj-kondo/clj-kondo/issues/2276): New Clojure 1.12 array notation (`String*`) may occur outside of metadata
@@ -162,45 +159,9 @@ Here are updates about the projects/libraries I've worked on last month.
 
 
 ### Other projects  
-These are (some of the) other projects I'm involved with but little to no activity happened in the past month.
-* [http-server](https://github.com/babashka/http-server): serve static assets
-* [cherry](https://github.com/squint-cljs/cherry): Experimental ClojureScript to ES6 module compiler
-* [fs](https://github.com/babashka/fs) - File system utility library for Clojure
-* [neil](https://github.com/babashka/neil): A CLI to add common aliases and features to deps.edn-based projects
-* [squint-macros](https://github.com/squint-cljs/squint-macros): a couple of macros that stand-in for [applied-science/js-interop](https://github.com/applied-science/js-interop) and [promesa](https://github.com/funcool/promesa) to make CLJS projects compatible with squint and/or cherry.
-* [sci.configs](https://github.com/babashka/sci.configs): A collection of ready to be used SCI configs.
-* [grasp](https://github.com/borkdude/grasp): Grep Clojure code using clojure.spec regexes
-* [lein-clj-kondo](https://github.com/clj-kondo/lein-clj-kondo): a leiningen plugin for clj-kondo
-* [http-kit](https://github.com/http-kit/http-kit): Simple, high-performance event-driven HTTP client+server for Clojure.
-* [deps.clj](https://github.com/borkdude/deps.clj): A faithful port of the clojure CLI bash script to Clojure
-* [babashka.nrepl](https://github.com/babashka/babashka.nrepl): The nREPL server from babashka as a library, so it can be used from other SCI-based CLIs
-* [rewrite-edn](https://github.com/borkdude/rewrite-edn): Utility lib on top of rewrite-clj with common operations to update EDN while preserving whitespace and comments
-* [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN, YAML and Transit using Clojure
-* [quickdoc](https://github.com/borkdude/quickdoc): Quick and minimal API doc generation for Clojure
-* [pod-babashka-go-sqlite3](https://github.com/babashka/pod-babashka-go-sqlite3): A babashka pod for interacting with sqlite3
-* [pod-babashka-fswatcher](https://github.com/babashka/pod-babashka-fswatcher): babashka filewatcher pod
-* [lein2deps](https://github.com/borkdude/lein2deps): leiningen to deps.edn converter
-* [scittle](https://github.com/babashka/scittle): Execute Clojure(Script) directly from browser script tags via SCI
-* [sql pods](https://github.com/babashka/babashka-sql-pods): babashka pods for SQL databases
-* [cljs-showcase](https://github.com/borkdude/cljs-showcase): Showcase CLJS libs using SCI
-* [babashka.book](https://github.com/babashka/book): Babashka manual
-* [instaparse-bb](https://github.com/babashka/instaparse-bb)
-* [rewrite-clj](https://github.com/clj-commons/rewrite-clj): Rewrite Clojure code and edn
-* [pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy): A pod around buddy core (Cryptographic Api for Clojure).
-* [gh-release-artifact](https://github.com/borkdude/gh-release-artifact): Upload artifacts to Github releases idempotently
-* [carve](https://github.com/borkdude/carve) - Remove unused Clojure vars
-* [4ever-clojure](https://github.com/oxalorg/4ever-clojure) - Pure CLJS version of 4clojure, meant to run forever!
-* [pod-babashka-lanterna](https://github.com/babashka/pod-babashka-lanterna): Interact with clojure-lanterna from babashka
-* [joyride](https://github.com/BetterThanTomorrow/joyride): VSCode CLJS scripting and REPL (via [SCI](https://github.com/babashka/sci))
-* [clj2el](https://borkdude.github.io/clj2el/): transpile Clojure to elisp
-* [deflet](https://github.com/borkdude/deflet): make let-expressions REPL-friendly!
-* [deps.add-lib](https://github.com/borkdude/deps.add-lib): Clojure 1.12's add-lib feature for leiningen and/or other environments without a specific version of the clojure CLI
-
-_Published: 2024-02-29_
-
-_Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)_
-
-<br>  
+These are many other projects I'm involved with but that had little to no activity in the past month. Check out the Other Projects section (more details) of my [blog here](https://blog.michielborkent.nl/oss-updates-jan-feb-2024.html) to see a full list.  
+_Published: 2024-02-29_  
+_Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)_  <br>  
 
 ---
 
@@ -223,7 +184,6 @@ This month was a smattering of small changes/fixes:
 -   [Report validity to GitHub on secret scanning requests](https://github.com/clojars/clojars-web/commit/60c064f9612f98336aebf6bda2845d112ff2827c)
 -   [Add admin tooling to soft-delete users](https://github.com/clojars/clojars-web/commit/1655377c40927316c15cfd225dda5470cb801efb)
 -   [Upgrade postgresql driver to address CVE-2024-1597](https://github.com/clojars/clojars-web/commit/d3153018dda214f00569bc8276c9b9dbf28a46c8)
-
 <br>
 
 ---
@@ -233,7 +193,7 @@ Time was mostly spent on doing maintenance work and some bugfixes. As well as he
 
 Current shadow-cljs version: 2.27.5 [Changelog](https://github.com/thheller/shadow-cljs/blob/master/CHANGELOG.md)  
 
-Notable Updates:  
+Notable Updates:
 - Tweaked `watch` recompile logic to also account for indirect var usages via macros. The usual recompile logic compiles a changed namespace, and then everything which directly required it. This is sometimes insufficient since macros can insert references to other namespaces, without the namespace using the macro having direct knowledge (or require) of that ns. Now all direct accessed vars (after analysis) are collected and used for this logic, making it much more accurate.  
 - Added limited support for npm modules using `import()` in their code. This is still fairly limited in support, and does not perform actual code splitting as `webpack` might, but it made some npm modules usable again that would previously just crash.
   https://github.com/thheller/js-framework-shadow-grove  
@@ -365,7 +325,8 @@ Teppo the Dog enjoying the Sun at [Näsijärvi](https://fi.wikipedia.org/wiki/N%
 
 ---
 ## Peter Taoussanis  
-# Open source update
+
+### Open source update
 
 A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nubank](https://nubank.com.br/), [lambdaschmiede](https://www.lambdaschmiede.com/), and [other sponsors](/sponsors) of my open source work!  
 
