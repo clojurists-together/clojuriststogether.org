@@ -159,7 +159,7 @@ Here are updates about the projects/libraries I've worked on last two months.
 
 
 ### Other projects  
-These are many other projects I'm involved with but that had little to no activity in the past month. Check out the Other Projects section (more details) of my [blog here](https://blog.michielborkent.nl/oss-updates-jan-feb-2024.html) to see a full list.  
+There are many other projects I'm involved with but that had little to no activity in the past month. Check out the Other Projects section (more details) of my [blog here](https://blog.michielborkent.nl/oss-updates-jan-feb-2024.html) to see a full list.  
 _Published: 2024-02-29_  
 _Tagged: [clojure](https://blog.michielborkent.nl/tags/clojure.html) [oss updates](https://blog.michielborkent.nl/tags/oss-updates.html)_  <br>  
 
