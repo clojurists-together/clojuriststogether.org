@@ -383,7 +383,7 @@ I think the result is going to be really nice - and something possible only in C
 
 ### Upcoming work
 
-All major upcoming work is now documented live [here](https://taoensso.com/roadmap). In addition to all the usual maintenance and support, my biggest objectives for this year are definitely [Telemere](https://www.taoensso.com/telemere) and a major [Carmine](https:/taoensso.com/carmine)  update.  
+All major upcoming work is now documented live [here](https://taoensso.com/roadmap). In addition to all the usual maintenance and support, my biggest objectives for this year are definitely [Telemere](https://www.taoensso.com/telemere) and a major [Carmine](https://www.taoensso.com/carmine) update.  
 
 \- [Peter Taoussanis](https://www.taoensso.com)  
 
