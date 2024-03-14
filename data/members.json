@@ -45,13 +45,6 @@
     "level" : "assoc",
     "founding" : false
   }, {
-    "name" : "Reify Health",
-    "member_type" : "company",
-    "url" : "https://reifyhealth.com",
-    "logo" : null,
-    "level" : "assoc",
-    "founding" : false
-  }, {
     "name" : "Adgoji",
     "member_type" : "company",
     "url" : "http://www.adgoji.com",
@@ -1216,7 +1209,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 48,
+    "company" : 47,
     "developer" : 172
   }
 }
