@@ -1088,11 +1088,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Hall",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Leif Eric Fredheim",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1210,6 +1205,6 @@
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 172
+    "developer" : 171
   }
 }
