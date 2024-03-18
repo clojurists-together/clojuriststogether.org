@@ -758,11 +758,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Kevin Reierskog",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Iizuka Masashi",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1205,6 +1200,6 @@
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 171
+    "developer" : 170
   }
 }
