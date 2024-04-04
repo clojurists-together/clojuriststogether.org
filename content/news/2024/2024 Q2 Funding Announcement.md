@@ -56,7 +56,7 @@ Since 2019 compojure-api (and ring-swagger, a sister project) have not seen rele
 I believe many compojure-api users now use reitit for new projects (as recommended in the compojure-api README), but also have old projects that they wish they could convert to reitit. There are significant performance benefits to using reitit but not all compojure-api projects can be ported since compojure routing is more dynamic than reitit. Even if possible, manually migrating from compojure-api to reitit is error prone and difficult to do incrementally. I would like to build tools to aid converting an existing compojure-api project to reitit.  
 
 **Swagger 3.0**  
-I would like to investigate what is necessary for supporting Swagger/OpenAPI 3.0 and implement it if time permits. https://github.com/metosin/ringswagger/issues/121   <br>
+I would like to investigate what is necessary for supporting Swagger/OpenAPI 3.0 and implement it if time permits.   <br>
 
 ---
 
@@ -80,10 +80,10 @@ If there's time, I'll implement all of the craziness that go into the `for` and 
 ## Clj-merge tool: Kurt Harriger  
 Clojure syntax and style tend to create unnecessary merge conflicts due to bunching of ))) on single line for non-local changes. Manual resolution is often not performed by same person that wrote it and may not be well understood or (re)tested after merge resulting in errors such as moving a form in or out of a else or block changing the code behavior. My project will focus on developing a  git diff and merge tool for edn and clojure code with the aim of creating a git mergetool that can be used as a replacement for git's default merge tool for clj(s) and edn files.  
 
- Git's line based merge algorithms can result in frequent and unncessary conflicts due changes in whitespace and indentation.   
+ Git's line based merge algorithms can result in frequent and unnecessary conflicts due changes in whitespace and indentation.   
 
 **What will clj mergetool do differently?**  
- clj mergetool diffs the data structures rather then the lines of text, as a result conflicts resulting from whitespace and indentation changes are far less likley. One such structural diff/patch implementation used successfully in practice is editscript (https://github.com/jujiio/editscript).  
+ clj mergetool diffs the data structures rather then the lines of text, as a result conflicts resulting from whitespace and indentation changes are far less likely. One such structural diff/patch implementation used successfully in practice is editscript.  
  
  However, these structural edits do not preserve whitespace and a single line of code of output even reformatted is not good enough for source code. However, building on rewrite-clj and the associated zipper structure I believe it is possible to preserve essential whitespace when applying structural changes.<br>
 
@@ -109,7 +109,7 @@ My strategy aims to streamline my production process, elevate content quality, a
 ---
 
 ## Plexus: John Collins  
-I will be developing a solid modelling library called Plexus (https://github.com/SovereignShop/plexus), as well as dependent libraries that bring the full power of Manifold (a state-of-the-art CSG modelling library written in c++) to the Java and, most importantly, Clojure ecosystems. Plexus is an effort to define a declarative data model for solid modelling on top of a robust CSG foundation and combine that with the unmatched interactive development experience that Clojure provides.  
+I will be developing a solid modelling library called Plexus, as well as dependent libraries that bring the full power of Manifold (a state-of-the-art CSG modelling library written in c++) to the Java and, most importantly, Clojure ecosystems. Plexus is an effort to define a declarative data model for solid modeling on top of a robust CSG foundation and combine that with the unmatched interactive development experience that Clojure provides.  
 
 The library is usable today. The goal of this work will be to (1) smooth out rough edges and make plexus an approachable, hardened, well-document, well-presented, and well-tested library suitable for consumption by non-experts and (2) extend the functionality to make it more powerful (and possibly more extensible) than it is today.   
 
