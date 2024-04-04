@@ -100,7 +100,7 @@ Naturally, This implies creating a basic view and controller system. Hardly a co
 ---
 
 ## Lost in Lambduhhs Podcast: L. Jordan Miller  
-This proposal sets forth a strategic plan to rejuvenate the "Lost In Lambduhhs Podcast," an interview-style technology show for engineers and people working in tech. Through free form conversational style questions the audience gets the oppertunity to "meet the person behind the github".   
+This proposal sets forth a strategic plan to rejuvenate the "Lost In Lambduhhs Podcast," an interview-style technology show for engineers and people working in tech. Through free-form conversational style questions the audience gets the opportunity to "meet the person behind the github".   
 
 The goal of each episode is to illuminate the personal narratives and insights of tech luminaries, giving them a platform to share their perspectives while promoting their library or tool. Following a hiatus necessitated by the extensive demands of editing and production, the ambition is to leverage the learnings from the initial seasons, alongside the latest advancements in SaaS platforms and generative AI tools.   
 
@@ -109,7 +109,7 @@ My strategy aims to streamline my production process, elevate content quality, a
 ---
 
 ## Plexus: John Collins  
-I will be developing a solid modelling library called Plexus (https://github.com/SovereignShop/plexus), as well as dependent libraries that bring the full power of Manifold (a state-of-the-art CSG modelling library written in c++) to the Java and, most importantly, Clojure ecosystems. Plexus is an effort define a declarative data model for solid modelling on top of a robust CSG foundation and combine that with the unmatched interactive development experience that Clojure provides.  
+I will be developing a solid modelling library called Plexus (https://github.com/SovereignShop/plexus), as well as dependent libraries that bring the full power of Manifold (a state-of-the-art CSG modelling library written in c++) to the Java and, most importantly, Clojure ecosystems. Plexus is an effort to define a declarative data model for solid modelling on top of a robust CSG foundation and combine that with the unmatched interactive development experience that Clojure provides.  
 
 The library is usable today. The goal of this work will be to (1) smooth out rough edges and make plexus an approachable, hardened, well-document, well-presented, and well-tested library suitable for consumption by non-experts and (2) extend the functionality to make it more powerful (and possibly more extensible) than it is today.   
 
