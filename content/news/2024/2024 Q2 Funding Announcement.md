@@ -120,7 +120,7 @@ The library is usable today. The goal of this work will be to (1) smooth out rou
 3. Tutorials, including video tutorials.   
 4. Improved error handling and schema validation.   
 5. Examples gallery (mostly collected from things I've already built with it).   
-6. Substial improvement to the Loft algorithm to make it more general and potentially replace a lot of union operations.   
+6. Substantial improvement to the Loft algorithm to make it more general and potentially replace a lot of union operations.   
 7. Addition of text support to Manifold.   
 8. Three-point arcs.   
 9. Bezier curves.  
