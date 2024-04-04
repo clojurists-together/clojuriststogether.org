@@ -6,7 +6,7 @@ author: Kathy Davis
 
 
 ---
-Clojurists Together is excited to announce that  we will be funding 7 projects in Q2 2024 for a total of $35K USD (3 for $9K and 4 shorter or more experimental projects for $2K). To date in 2024, we are funding 25 projects or developers for a total of $223,000 USD. This includes the 8 long-term developers whose project work we are funding for the year. We expect to be able to fund another 7 projects this year for a grand total of $258,000. Thanks to all our members for making this happen!
+Clojurists Together is excited to announce that  we will be funding 7 projects in Q2 2024 for a total of $35K USD (3 for $9K and 4 shorter or more experimental projects for $2K). To date in 2024, we are funding 25 projects or developers for a total of $223,000 USD. This includes the 8 long-term developers whose project work we are supporting for the year. We expect to be able to fund another 7 projects this year for a grand total of $258,000. Thanks to all our members for making this happen!
 
 Based on our recent survey results we know that our members and larger Clojure community rely on this work on a regular (most on a daily) basis.  If we are able to engage more companies or individual developer members, we could support even more important work - so please get the word out.  
 
@@ -64,13 +64,14 @@ I would like to investigate what is necessary for supporting Swagger/OpenAPI 3.0
 At this point, jank has over 80% syntax parity with Clojure. Library parity with `clojure.core` is around 20%. The next step is to fill out the language to make it feel more like Clojure. There are just a few things remaining  which show up in every Clojure program which I will address in  Q2 2024 project:  
 **Lazy sequences**    
 Once we have these, we can implement all sorts of core function goodies, lazy like a cat.  
+
 **Loop/recur**   
 jank only has function-level `recur` right now, but `loop` is even more common.   
 
 **Destructuring:** This one's actually done at a macro level, but right now `let`, `defn`, and friends don't support any destructuring.  
 
-**Symbol**  
-interning This is a smaller one to tackle, but it's important for reaching parity. Clojure allocates all symbols separately right now, rather than interning them (though keywords and vars are interned).  
+**Symbol interning**  
+ This is a smaller one to tackle, but it's important for reaching parity. Clojure allocates all symbols separately right now, rather than interning them (though keywords and vars are interned).  
 
 **Bonus for and doseq magic**  
 If there's time, I'll implement all of the craziness that go into the `for` and `doseq` macros. All of this will get me where I want to be to start focusing on tooling, distribution, error handling, more robust interop, and overall usability. `clojure.core` bits will fill in over time and after this quarter we'll have even more of the essentials in there.<br>  
@@ -100,7 +101,7 @@ Naturally, This implies creating a basic view and controller system. Hardly a co
 ---
 
 ## Lost in Lambduhhs Podcast: L. Jordan Miller  
-This proposal sets forth a strategic plan to rejuvenate the "Lost In Lambduhhs Podcast," an interview-style technology show for engineers and people working in tech. Through free-form conversational style questions the audience gets the opportunity to "meet the person behind the github".   
+This proposal sets forth a strategic plan to rejuvenate the "Lost In Lambduhhs Podcast," an interview-style technology show for engineers and people working in tech. Through free-form conversational style questions the audience gets the opportunity to "meet the person behind the Github".   
 
 The goal of each episode is to illuminate the personal narratives and insights of tech luminaries, giving them a platform to share their perspectives while promoting their library or tool. Following a hiatus necessitated by the extensive demands of editing and production, the ambition is to leverage the learnings from the initial seasons, alongside the latest advancements in SaaS platforms and generative AI tools.   
 
