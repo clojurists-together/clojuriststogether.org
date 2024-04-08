@@ -19,7 +19,7 @@ As usual, we received a LOT of great proposals - so the decision-making was not 
 
 ## $2K Projects  
 [Clj-merge tool: Kurt Harriger](#clj-merge-tool-kurt-harriger)  
-[Enjure: Janice A. Carr](#enjure-janet-a-carr)  
+[Enjure: Janet A. Carr](#enjure-janet-a-carr)  
 [Lost in Lambduhhs Podcast: L. Jordan Miller](#lost-in-lambduhhs-podcast-l-jordan-miller)  
 [Plexus: John Collins](#plexus-john-collins)   
 
