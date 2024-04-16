@@ -15,6 +15,7 @@ Jank: Jeaye Wilkerson
 scicloj: Daniel Slutsky  
 SiteFox: Chris McCormick  
 UnifyBio: Benjamin Kamphaus  
+Wolframite: Thomas Clark
 
 ## clojure-lsp: Eric Dallo  
 Q1 2024 Funding. Report 2. Published March 1, 2024  
