@@ -5,6 +5,8 @@ summary: Updates from clojure lsp, Instaparse, Jank, scicloj, SiteFox, UnifyBio
 author: Kathy Davis
 draft: True
 
+
+---
 There are a lot of projects to report on this month - all funded in Q1 2024.
 
 clojure-lsp: Eric Dallo   
@@ -18,19 +20,18 @@ UnifyBio: Benjamin Kamphaus
 Q1 2024 Funding. Report 2. Published March 1, 2024  
 
 ### [clojure-lsp](https://clojure-lsp.io/)  
-The main highlight is the new linter different-aliases helps guarantee consistency across alias in your codebase!  
+The main highlight from my work in February is the new linter different-aliases helps guarantee consistency across alias in your codebase!  
 
 ![different-aliases](./different-aliases.png)
 
-### 2024.03.01-11.37.51  
-
-- General
+#### 2024.03.01-11.37.51  
+**General**  
   - Bump clj-kondo to `2024.02.13-20240228.191822-15`.  
   - Add `:clojure-lsp/different-aliases` linter. #1770  
   - Fix unused-public-var false positives for definterface methods. #1762  
   - Fix rename of records when usage is using an alias. #1756  
 
-- Editor  
+**Editor**  
   - Fix documentation resolve not working for clients without hover markdown support.  
   - Added setting to allow requires and imports to be added within the current comment form during code action and completion: `:add-missing :add-to-rcf` #1316  
   - Fix `suppress-diagnostics` not working on top-level forms when preceded by comment. #1678  
@@ -39,24 +40,20 @@ The main highlight is the new linter different-aliases helps guarantee consisten
   - Add support for adding missing requires and completion results referring to JS libraries which already have an alias in the project #1587   
   
 ### [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij)  
-
-### 1.14.8 - 1.14.10  
+#### 1.14.8 - 1.14.10  
 - Fix exception when starting server related to previous version.  
 - Fix some exceptions that can rarely occurr after startup.  
 - Bump clojure-lsp to `2024.02.01-11.01.59`.  
 
 ## clojure-lsp: Eric Dallo  
 Q1 2024 Funding. Report 3. Published April 1, 2024  
-
-### clojure-lsp
-
-This month I spent some time fixing and improving clojure-lsp for Calva, but most of the time working on the IntelliJ support for LSP and REPL, improving both `clojure-lsp-intellij` and `clojure-repl-intellij`.  
+ 
+In April I spent some time fixing and improving clojure-lsp for Calva, but most of the time working on the IntelliJ support for LSP and REPL, improving both `clojure-lsp-intellij` and `clojure-repl-intellij`.  
 
 ### [clojure-lsp](https://clojure-lsp.io/)  
 
-### 2024.03.31-19.10.13  
-
-- Editor
+#### 2024.03.31-19.10.13  
+**Editor**  
   - Adding require command fails for requires without alias. #1791  
   - Add require command without alias now add requires with brackets.  
   - Project tree feature now support keyword definitions like re-frame sub/reg.#1789  
@@ -64,20 +61,18 @@ This month I spent some time fixing and improving clojure-lsp for Calva, but mos
   - Improve `textDocument/documentSymbol` considering keyword definitions and returning flatten elements.  
   - Fix Add require/import usages count in code actions. #1794.  
 
-### 2024.03.13-13.11.00  
-- General  
+#### 2024.03.13-13.11.00  
+**General**    
   - Bump clj-kondo to `2024.03.13` fixing high memory usage issue.  
-
-- Editor  
+**Editor**    
   - Fix `workspace/didChangeConfiguration` exception causing noise on logs. #1784  
   
-## [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij)  
+### [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij)  
 
 There was a major change to how the plugin starts clojure-lsp, now it starts a clojure-lsp process under the hood (like all other editors) instead of using clojure-lsp as a JVM deps, this fixed a lot of macos bugs.  
 Also this adds support for "find implementations" of defmultis and protocols, something that it was never possible in any other IntelliJ plugin.  
 
-### 2.0.0 - 2.3.2  
-
+#### 2.0.0 - 2.3.2  
 - Use clojure-lsp externally instead of built-in since causes PATH issues sometimes. Fixes #25 and #26  
 - Fix multiple code lens for the same line. #29  
 - Fix os type for macos non aarch64 when downloading clojure-lsp server.  
@@ -93,15 +88,12 @@ Also this adds support for "find implementations" of defmultis and protocols, so
 - Add common shortcuts to DragForward and DragBackward.  
 - Fix race condition NPE when intellij starts slowly.  
 
-## [clojure-repl-intellij](https://github.com/afucher/clojure-repl-intellij)  
-
+#### [clojure-repl-intellij](https://github.com/afucher/clojure-repl-intellij)  
 Although this is not related with clojure-lsp, it's a critical library for IntelliJ usage since without it, there is no REPL usage using only LSP. 
 I spent a considerable time adding the missing feature to make this plugin good enough for a stable release.  
-
 Now the plugin has test support!  
 
-### 0.1.7 - master 
-
+##### 0.1.7 - master 
 - Use cider-nrepl middleware to support more features.  
 - Add test support. #46  
 - Fix freeze on evaluation. #48  
@@ -123,7 +115,7 @@ I also engaged with users who submitted issues where I needed more explanation o
 
 The most interesting issue I began looking at was a suggestion to incorporate namespaced non-terminals. This is an excellent suggestion because namespaced keywords have taken on much more importance in Clojure since the time instaparse was initially released, due to their critical role in Datomic and Spec. This will be my next area of focus.  
 
-I had hoped to complete more work on namespaced keywords, but I spent most of March ill with covid (my first time getting covid), which delayed my work on this more substantive issue. So, rather than wait for the completion of that work, I deployed a new release with the pull requests I had incorporated so far (actually two releases in quick succession: 1.4.13 and 1.4.14) and I look forward to making progress on namespaced keywords in the coming weeks.  
+I had hoped to complete more work on namespaced keywords, but I spent most of March ill with covid (my first time getting covid), which delayed my work on this more substantive issue. So, rather than wait for the completion of that work, I deployed a new release with the pull requests I had incorporated so far (actually two releases in quick succession: 1.4.13 and 1.4.14) and I look forward to making progress on namespaced keywords in the coming weeks. <br> 
 
 ---
 
