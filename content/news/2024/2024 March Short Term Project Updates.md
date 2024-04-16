@@ -25,7 +25,6 @@ The main highlight from my work in February is the new linter different-aliases 
 ![different-aliases (1)](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/d62f53f4-bebf-4a67-8657-ee7e2b5aa81d)
 
 
-
 In April I spent some time fixing and improving clojure-lsp for Calva, but most of the time working on the IntelliJ support for LSP and REPL, improving both `clojure-lsp-intellij` and `clojure-repl-intellij`. 
 
 #### 2024.03.01-11.37.51  
@@ -196,10 +195,8 @@ designed by [jaide](https://github.com/jaidetree), who was graciously patient
 with me and a joy to work with through the various iterations. With this logo, 
 we're capturing C++ on one side, Lisp on the other, and yet a
 functional core.  
+![image](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/9a44f422-c72c-498e-b42b-7b7a733c8990)
 
-<figure>
-  <img src="/img/blog/2024-03-29-syntax-quoting/logo.png" width="50%"></img>
-</figure>
 
 ### Transients  
 Back to code. In truth, there's more work going on. A lovely man named
