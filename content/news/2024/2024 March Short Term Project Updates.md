@@ -22,8 +22,9 @@ Q1 2024 Funding. Reports 2 & 3. Published March 1 and April 1, 2024
 
 ### [clojure-lsp](https://clojure-lsp.io/)  
 The main highlight from my work in February is the new linter different-aliases helps guarantee consistency across alias in your codebase!  
+![different-aliases (1)](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/d62f53f4-bebf-4a67-8657-ee7e2b5aa81d)
 
-![different-aliases](./different-aliases.png)
+
 
 In April I spent some time fixing and improving clojure-lsp for Calva, but most of the time working on the IntelliJ support for LSP and REPL, improving both `clojure-lsp-intellij` and `clojure-repl-intellij`. 
 
@@ -98,7 +99,8 @@ Now the plugin has test support!
 - Support multiple opened projects. #51  
 - Fix eval not using same session as load-file. #52  
 
-![Test Support](./clojure-repl-intellij-demo.png)  <br>
+![image](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/55f4914d-a690-4bd8-a912-ed2e41de4d5f)
+<br> 
 
 ---
 
