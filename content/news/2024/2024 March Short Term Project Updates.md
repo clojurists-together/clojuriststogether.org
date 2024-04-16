@@ -7,15 +7,15 @@ draft: True
 
 
 ---
-There are a lot of projects to report on this month - all funded in Q1 2024.
+We've got a lot of great work to report on - all projects funded in Q1 2024. 
 
-clojure-lsp: Eric Dallo   
-Instaparse: Mark Engelberg  
-Jank: Jeaye Wilkerson  
-Scicloj: Daniel Slutsky  
-SiteFox: Chris McCormick  
-UnifyBio: Benjamin Kamphaus  
-Wolframite: Thomas Clark
+[clojure-lsp: Eric Dallo](#clojure-lsp-eric-dallo)  
+[Instaparse: Mark Engelberg](#instaparse-mark-engelberg)  
+[Jank: Jeaye Wilkerson](#jank-jeaye-wilkerson)  
+[Scicloj: Daniel Slutsky](#scicloj-daniel-slutsky)  
+[SiteFox: Chris McCormick](#sitefox-chris-mccormick)  
+[UnifyBio: Benjamin Kamphaus](#unifybio-benjamin-kamphaus)  
+[Wolframite: Thomas Clark](#wolframite-thomas-clark)  
 
 ## clojure-lsp: Eric Dallo  
 Q1 2024 Funding. Reports 2 & 3. Published March 1 and April 1, 2024  
@@ -63,8 +63,6 @@ In April I spent some time fixing and improving clojure-lsp for Calva, but most 
 - Fix some exceptions that can rarely occurr after startup.  
 - Bump clojure-lsp to `2024.02.01-11.01.59`.  
 
-### [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij)  
-
 There was a major change to how the plugin starts clojure-lsp, now it starts a clojure-lsp process under the hood (like all other editors) instead of using clojure-lsp as a JVM deps, this fixed a lot of macos bugs.  
 Also this adds support for "find implementations" of defmultis and protocols, something that it was never possible in any other IntelliJ plugin.  
 
@@ -107,7 +105,7 @@ Now the plugin has test support!
 ## Instaparse: Mark Engelberg   
 Q1 2024 Funding. Report 1. Published March 30, 2024.
 
-Thanks to funding from Clojurists Together, I have been able to review Instaparse pull requests that have been submitted over the past couple of years. I began by incorporating some "low hanging fruit" pull requests, which addressed some quality of life issues raised by users with minimal changes to the code. Although these were small changes and code was contributed by other users, I needed to test the code and make sure the changes were adequately documented.  
+Thanks to funding from Clojurists Together, I have been able to review Instaparse pull requests that have been submitted over the past couple of years. I began by incorporating some "low hanging fruit" pull requests, which addressed some quality-of-life issues raised by users with minimal changes to the code. Although these were small changes and code was contributed by other users, I needed to test the code and make sure the changes were adequately documented.  
 
 I also engaged with users who submitted issues where I needed more explanation or input to carefully consider their proposals. In some cases, I spent time evaluating pull requests but eventually decided *not* to incorporate that pull request. A good example of this was tonsky's proposal to change the way that parsers and error messages print at the REPL. His proposal was logical but would be a breaking change, which posed a dilemma. After collecting information from him, I consulted with other Clojurists who are involved with instaparse as well as pretty printing and REPLs. I came to the conclusion that it was better to leave as-is.  
 
