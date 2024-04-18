@@ -583,11 +583,6 @@
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "Sasha Savchenko",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Joshua Miller",
     "member_type" : "developer",
     "level" : "assoc",
@@ -1194,6 +1189,11 @@
     "founding" : false
   }, {
     "name" : "Lars Kristian Maron Telle",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Shevchuk",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
