@@ -1,13 +1,13 @@
 ---
-title: "March 2024 Short Term Project Updates"
-date: 2024-04-14T08:30:00+08:00
+title: "March 2024 Short-Term Project Updates"
+date: 2024-04-17T08:30:00+08:00
 summary: Updates from clojure-lsp, Instaparse, Jank, Scicloj, SiteFox, UnifyBio, Wolframite
 author: Kathy Davis
-draft: True
+
 
 
 ---
-We've got a lot of great work to report on - all projects funded in Q1 2024. 
+We've got a lot of great work to report on - all projects funded in Q1 2024. Thanks to all!
 
 [clojure-lsp: Eric Dallo](#clojure-lsp-eric-dallo)  
 [Instaparse: Mark Engelberg](#instaparse-mark-engelberg)  
@@ -407,7 +407,7 @@ into three areas:
 I haven't completely wrapped these yet as of Mar 31, but I am very close on the first and last bullet. I will try to update Clojurists Together and the larger data sci/engineering and datomic communities when these things are all available.  
 
 Some of my time was spent figuring out what a sustainable long-term solution would be for continuing to develop the core of UnifyBio and to ensure it sees actual use in the life sciences. I had some discussions with different orgs and ended up accepting a full-time position at the Rare Cancer
-Research Foundation (just started at the end of this quarter), where I'll have support to further develop UnifyBio. This means the project will probably be moved to the RCRF repo, and there's a possibility it might be re-branded, or that the UnifyBio name and site might be brought under RCRF's umbrella. I'll update Clojurists Together when I have this information, so the project can be pointed to.  
+Research Foundation (just started at the end of this quarter), where I'll have support to further develop UnifyBio. This means the project will probably be moved to the RCRF repo, and there's a possibility it might be re-branded, or that the UnifyBio name and site might be brought under RCRF's umbrella. UnifyBio will remain open source, regardless of where it lives.  I'll update Clojurists Together when I have this information, so the project can be pointed to.  
 
 IMO this is an ideal place to be positioned coming out of this quarter where I've been working on the project as an independent, supported by a mix of client work and funding like the small grant provided to me by Clojurists Together. This change does mean I'll be spending more time on bio specific applications and not as much work focused on making Unify a generically useful tool for Clojure data science, but this won't be a 100% shift, as general use will continue to be helpful for the health of the open source data commons ecosystem I'll be building with RCRF.  
 
