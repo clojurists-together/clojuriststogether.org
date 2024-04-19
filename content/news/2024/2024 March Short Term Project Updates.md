@@ -85,7 +85,7 @@ Also this adds support for "find implementations" of defmultis and protocols, so
 
 ### [clojure-repl-intellij](https://github.com/afucher/clojure-repl-intellij)  
 Although this is not related with clojure-lsp, it's a critical library for IntelliJ usage since without it, there is no REPL usage using only LSP. 
-I spent a considerable time adding the missing feature to make this plugin good enough for a stable release.  
+I spent considerable time adding the missing feature to make this plugin good enough for a stable release.  
 Now the plugin has test support!  
 
 #### 0.1.7 - master 
@@ -105,7 +105,7 @@ Now the plugin has test support!
 ## Instaparse: Mark Engelberg   
 Q1 2024 Funding. Report 1. Published March 30, 2024.
 
-Thanks to funding from Clojurists Together, I have been able to review Instaparse pull requests that have been submitted over the past couple of years. I began by incorporating some "low hanging fruit" pull requests, which addressed some quality-of-life issues raised by users with minimal changes to the code. Although these were small changes and code was contributed by other users, I needed to test the code and make sure the changes were adequately documented.  
+Thanks to funding from Clojurists Together, I have been able to review Instaparse pull requests that have been submitted over the past couple of years. I began by incorporating some "low-hanging fruit" pull requests, which addressed some quality-of-life issues raised by users with minimal changes to the code. Although these were small changes and code was contributed by other users, I needed to test the code and make sure the changes were adequately documented.  
 
 I also engaged with users who submitted issues where I needed more explanation or input to carefully consider their proposals. In some cases, I spent time evaluating pull requests but eventually decided *not* to incorporate that pull request. A good example of this was tonsky's proposal to change the way that parsers and error messages print at the REPL. His proposal was logical but would be a breaking change, which posed a dilemma. After collecting information from him, I consulted with other Clojurists who are involved with instaparse as well as pretty printing and REPLs. I came to the conclusion that it was better to leave as-is.  
 
@@ -385,7 +385,7 @@ Near the end of February I gave a [talk about Sitefox to the London Clojurians m
 Finally, one of my goals was to create a "getting started" tutorial. I wrote the tutorial and shot a simple YouTube video, but then discovered the sound had some issues. I will re-record this video with better sound and upload it, as well as publishing the text version of the tutorial to help people get started with Sitefox.  
 
 ### What's next  
-Now that the funding period is complete I intend to continue Sitefox maintainance and updates. I have started by cutting a release (v0.0.19) with all of the changes made during the Q1 2024 Clojurists Together funding period.  
+Now that the funding period is complete I intend to continue Sitefox maintenance and updates. I have started by cutting a release (v0.0.19) with all of the changes made during the Q1 2024 Clojurists Together funding period.  
 
 One thing I am particularly interested in is building an RPC layer as an alternative to cumbersome REST or GraphQL communications. I hope this will make ClojureScript client-server code more natural to write and reason about without hiding away fundamental information about which computer the code is running on. Hopefully more on that later.  
 
@@ -411,7 +411,7 @@ Research Foundation (just started at the end of this quarter), where I'll have s
 
 IMO this is an ideal place to be positioned coming out of this quarter where I've been working on the project as an independent, supported by a mix of client work and funding like the small grant provided to me by Clojurists Together. This change does mean I'll be spending more time on bio specific applications and not as much work focused on making Unify a generically useful tool for Clojure data science, but this won't be a 100% shift, as general use will continue to be helpful for the health of the open source data commons ecosystem I'll be building with RCRF.  
 
-I want to thank Clojurists Together again for helping me bridge a time of uncertainty in this interim period while I was working on UnifyBio as a solo dev, and didn't yet have longer term support from a sponor or employer.  <br>  
+I want to thank Clojurists Together again for helping me bridge a time of uncertainty in this interim period while I was working on UnifyBio as a solo dev, and didn't yet have longer term support from a sponsor or employer.  <br>  
 
 ---
 
@@ -459,7 +459,7 @@ As well as updating the key, user-facing docs, we have also built a series of tr
 
 Finally, an important part of this early stage has simply been the necessary preparation for the second half, where the lion&rsquo;s share of our contribution is expected to be felt (particularly now that no more deliveries of small people are expected :) ). Such preparation has largely focused on learning and documenting the internal code structure, opening channels with the official Wolfram team and opening issues: both existing bugs and enhancements highlighted by test use cases.  
 
-In the short term, we plan to release wolframite-1.0.0-alpha very soon so that the next stage of development can benefit from community feedback. This should happen as soon as we finalize some getting started materials. These will be aimed at two target groups: Clojure developers interested in data science, and Mathematica / Wolfram users who would benefit from using the algorithms from Clojure (a real programming language!).  
+In the short term, we plan to release wolframite-1.0.0-alpha very soon so that the next stage of development can benefit from community feedback. This should happen as soon as we finalize some "getting-started" materials. These will be aimed at two target groups: Clojure developers interested in data science, and Mathematica / Wolfram users who would benefit from using the algorithms from Clojure (a real programming language!).  
 
 
 
