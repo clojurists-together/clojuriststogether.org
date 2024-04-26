@@ -783,11 +783,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Salam Elbilig",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Ryan Campbell",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1205,6 +1200,6 @@
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 171
+    "developer" : 170
   }
 }
