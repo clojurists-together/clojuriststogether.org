@@ -1197,9 +1197,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Pete Windle",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 170
+    "developer" : 171
   }
 }
