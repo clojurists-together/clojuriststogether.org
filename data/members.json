@@ -1202,9 +1202,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "James Williams",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 171
+    "developer" : 172
   }
 }
