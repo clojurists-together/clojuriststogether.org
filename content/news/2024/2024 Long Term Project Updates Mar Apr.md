@@ -2,12 +2,12 @@
 title: "March & April 2024 Long-Term Project Updates"
 date: 2024-05-08T14:00:00+12:00
 author: Kathy Davis
-summary: "The latest from Bozhidar Batsov, MIchiel Borkent, Toby Crawley, Thomas Heller, Kira McLean, Nikita Prokopov, Tommi Reiman, Peter Taoussanis"
+summary: "The latest from Bozhidar Batsov, MIchiel Borkent, Toby Crawley, Thomas Heller, Kira McLean, Nikita Prokopov, Tommi Reiman, Peter Taoussanis"  
 
 
 ---
 
-There is a lot of work to report on for March and April by our 2024 long-term developers. 
+Our 2024 long-term developers report on an incredible body of work for March and April. A heartfelt thanks to all!  
 
 [Bozhidar Batsov:](#bozhidar-batsov) CIDER       
 [Michiel Borkent:](#michiel-borkent) squint, neil, clj-kondo,nbb, CLI, and more   
