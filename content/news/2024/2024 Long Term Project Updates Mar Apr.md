@@ -1,38 +1,47 @@
 ---
 title: "March & April 2024 Long-Term Project Updates"
-date: 2024-05-03T14:00:00+12:00
+date: 2024-05-08T14:00:00+12:00
 author: Kathy Davis
-summary: "The latest from Batsov, Borkent, Crawley, Heller, McLean, Nikitonsky, Reiman, Taoussanis"
-draft: True
+summary: "The latest from Bozhidar Batsov, MIchiel Borkent, Toby Crawley, Thomas Heller, Kira McLean, Nikita Prokopov, Tommi Reiman, Peter Taoussanis"
+
 
 ---
 
 There is a lot of work to report on for March and April by our 2024 long-term developers. 
 
-[Bozhidar Batsov:](#bozhidar-batsov) CIDER, Clojure-mode, clojure ts-mode     
-[Michiel Borkent:](#michiel-borkent) clj-kondo, babashka, SCI, squint, nbb, CLI, and more   
-[Toby Crawley:](#toby-crawley) clojars    
+[Bozhidar Batsov:](#bozhidar-batsov) CIDER       
+[Michiel Borkent:](#michiel-borkent) squint, neil, clj-kondo,nbb, CLI, and more   
+[Toby Crawley:](#toby-crawley) clojars-web    
 [Thomas Heller:](#thomas-heller) shadow-cljs  
-[Kira McLean:](#kira-mclean) Scicloj Libraries  
-[Nikita Prokopov:](#nikita-prokopov) Humble UI, Clj-reload, Datascript, and more  
-[Tommi Reiman:](#tommi-reiman) Malli   
-[Peter Taoussanis:](#peter-taoussanis) Telemere, Tempel, interviews, and more  
+[Kira McLean:](#kira-mclean) Scicloj Libraries and more   
+[Nikita Prokopov:](#nikita-prokopov) Datascript, Clj-reload, Clojure Sublimed, and more  
+[Tommi Reiman:](#tommi-reiman) Reitit 7.0. Malli    
+[Peter Taoussanis:](#peter-taoussanis) http-kit, Nippy, Telemere, and more  
 
 ## Bozhidar Batsov  
-Copy to come after vacation   
+The biggest news in the past couple of months is that CIDER now supports clj-reload, as an alternative of clojure.tools.namespace! You can find the relevant PR [here](https://github.com/clojure-emacs/cider/pull/3624). 
 
-<br>
+Some other noteworthy changes:  
+
+- Introduced support for global CLI aliases ([more details](https://github.com/clojure-emacs/cider/pull/3623))  
+- Many small improvements to the Inspector (see Orchard's changelog, e.g. [this section](https://github.com/clojure-emacs/orchard/blob/master/CHANGELOG.md#0240-2024-04-30))
+- Dropped support for Clojure 1.9 (it's barely used these days and dropping it allows us to simplify the codebase and provide a better user experience)  
+- The inspector and code reloading now have dedicated pages in the CIDER's docs:  
+	- https://docs.cider.mx/cider/debugging/inspector.html  
+	- https://docs.cider.mx/cider/usage/code_reloading.html  
+
+Interested people should check out the recent changes in cider-nrepl and orchard, as that's where the bulk of the work has happened.  
+
+We've yet to release a new version of CIDER, but I'm expecting this will happen before the end of May.  
+
+P.S. We might be close to a solution for the broken `interrupt` functionality in nREPL on newer JDKs (20+). See [this](https://github.com/nrepl/nrepl/pull/318) for details.  <br>
 
 ---
-
 
 ## Michiel Borkent  
 
 **Updates**
-In this post I'll give updates about open source I worked on during March and April 2024.
-
-To see previous OSS updates, go [here](https://blog.michielborkent.nl/tags/oss-updates.html).
-
+In this post I'll give updates about open source I worked on during March and April 2024. To see previous OSS updates, go [here](https://blog.michielborkent.nl/tags/oss-updates.html).  
 
 ### Sponsors
 
@@ -162,13 +171,10 @@ There are many other projects I'm involved with but that had little to no activi
 Published: 2024-04-30
 Tagged: clojure oss updates  <br>  
 
-
-<br>
-
 ---
 
 
-## Toby Crawley:  
+## Toby Crawley  
 
 **April 2024**
 
@@ -195,7 +201,7 @@ Mostly maintenance work this month related to error handling and tighening error
 ---
 
 
-## Thomas Heller: shadow-cljs  
+## Thomas Heller   
 Time was mostly spent on doing maintenance work and some bugfixes. As well as helping people out via the typical channels (e.g. Clojurians Slack).
 
 Current shadow-cljs version: 2.28.4 [Changelog](https://github.com/thheller/shadow-cljs/blob/master/CHANGELOG.md)
@@ -208,7 +214,7 @@ Current shadow-cljs version: 2.28.4 [Changelog](https://github.com/thheller/shad
 ---
 
 
-## Kira McClean  
+## Kira McLean  
 This is a summary of the open source work I've spent my time on throughout March and April, 2024. Overall it was a really insightful couple of months for me, with lots of productive discussions and meetings happening among key contributors to Clojure's data science ecosystem and great progress toward some of our most ambitious goals.  
 
 ### Sponsors  
