@@ -858,11 +858,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Ryan Zebian",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Alexander Solovyov",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1220,6 +1215,6 @@
   } ],
   "member_stats" : {
     "company" : 47,
-    "developer" : 174
+    "developer" : 173
   }
 }
