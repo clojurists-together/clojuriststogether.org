@@ -333,14 +333,6 @@
     "level" : "assoc",
     "founding" : false
   }, {
-    "name" : "Kroo Bank Ltd",
-    "member_type" : "company",
-    "url" : "https://www.kroo.com/",
-    "logo" : "/logos/kroo.svg",
-    "level" : "filter",
-    "founding" : false,
-    "tagline" : "Kroo is the first UK bank designed to be trusted and loved by its customers. We're using technology to create products that enable our customers to be financially better off."
-  }, {
     "name" : "QA Wolf, Inc",
     "member_type" : "company",
     "url" : "https://www.qawolf.com",
@@ -1214,7 +1206,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 47,
+    "company" : 46,
     "developer" : 173
   }
 }
