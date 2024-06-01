@@ -5,6 +5,8 @@ summary: Updates from clj-lmerge, Compojure=api, Instaparse, Jank, Plexus, Lost 
 author: Kathy Davis
 draft: True  
 
+---
+
 We've got several updates to share from our Q1 and Q2 project developers. Check out the latest in the following April and May reports.  
 
 
