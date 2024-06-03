@@ -74,7 +74,6 @@ Thank you for your continued support and contributions to the clj-mergetool proj
 ---
 \
 &nbsp;
-
 ## Compojure-api: Ambrose Bonnaire-Sergeant  
 Q2 2024 Report No. 1. Published April 30, 2024  
 
