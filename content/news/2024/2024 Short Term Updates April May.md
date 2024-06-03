@@ -625,7 +625,8 @@ The Noj project bundles a few recommended libraries for data and science and add
 #### May goals  
 - implement the new data-visualization API (still in experimental stage)
 - improve documentation  
-
+\
+&nbsp;
 
 ### [translating books](https://clojureverse.org/t/learn-data-and-science-in-clojure-by-translating-a-book-together/)  
 In this project, we are renewing previous efforts to systematically review data science books in other programming languages and convert them to Clojure.  
@@ -639,7 +640,8 @@ The goal is twofold: figuring out what common data science needs are still missi
 #### May goals  
 - focus on [Modern Statistics with R](https://github.com/mthulin/mswr-book) by Måns Thulin
 - keep exploring other books with community members  
-
+\
+&nbsp;
 
 ### [visual-tools group](https://scicloj.github.io/docs/community/groups/visual-tools/)  
 
@@ -655,7 +657,8 @@ This group's goal is to create collaborations in learning and building Clojure t
 - keep the collaborations around HTMX-based layers
 - continue the grammar-of-graphics study sessions
 - clarify a proposal and a proof-of-concept for the long-term grammar-of-graphics project  
-
+\
+&nbsp;
 
 ### [Clojure Data Scrapbook](https://scicloj.github.io/clojure-data-scrapbook/)  
 The Clojure Data Scrapbook is intended to be a community-driven collection of tutorials around data and science in Clojure.  
@@ -668,7 +671,8 @@ The Clojure Data Scrapbook is intended to be a community-driven collection of tu
 #### May goals  
 - encourage and help community contributions to the scrapbook
 - keep adding content to support other projects  
-
+\
+&nbsp;
 
 ### [Clay](https://scicloj.github.io/clay/)  
 Clay is a minimalistic namespace-as-a-notebook tool for literate programming and data visualization.  
@@ -682,7 +686,8 @@ Clay is a minimalistic namespace-as-a-notebook tool for literate programming and
 - start working on additional visualizations, mostly Emmy.viewers integration
 - explore the extraction of the HTML and Markdown generation layer as a separate library
 - keep evolving by user needs  
-
+\
+&nbsp;
 
 ### [Kindly](https://scicloj.github.io/kindly-noted/)  
 Kindly is a proposed standard for requesting data visualizations in Clojure.  
@@ -696,7 +701,8 @@ Kindly is a proposed standard for requesting data visualizations in Clojure.
 #### May goals  
 - start working on Kindly support with the creators of new HTMX-based visual-tools
 - explore the option of a standalone Kindly implementation that is reusable in different tools (an alternative to the current approach of tool-specific implementations)  
-
+\
+&nbsp;
 
 ### [cmdstan-clj](https://github.com/scicloj/cmdstan-clj)  
 
@@ -708,7 +714,8 @@ Cmdstan-clj is a draft library for interop with [Stan](https://mc-stan.org/) (pr
 
 #### May goals  
 - practice usage with community members and keep developing by need  
-
+\
+&nbsp;
 
 ### [ClojisR](https://github.com/scicloj/clojisr)  
 
@@ -720,7 +727,8 @@ During this Month, @generateme released the first non-beta version of the librar
 
 #### May goals  
 - Migrate the [clojisr-examples](https://github.com/scicloj/clojisr-examples) project to the current workflow.  
-
+\
+&nbsp;
 
 ### [The Scicloj website](https://scicloj.github.io/)  
 
@@ -729,13 +737,16 @@ During this Month, @generateme released the first non-beta version of the librar
 
 #### May goals  
 - minor updates reflecting current projects and events  
-
+\
+&nbsp;
 
 ### Your feedback would help  
 
 Scicloj is in transition. On the one hand, quite a few of the core members have been very active recently, developing the emerging stack of libraries. At the same time, new friends are joining, and soon, more people will enjoy the Clojure for common data and science needs.  
 
 If you have any thoughts about the current directions, or if you wish to discuss how the evolving platform may fit your needs, please [reach out](https://scicloj.github.io/docs/community/contact/).  
+
+
 
 
 
