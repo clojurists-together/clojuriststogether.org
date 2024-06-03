@@ -611,7 +611,8 @@ The real-world-data group is a space for Clojure data and science practitioners 
 #### May goals  
 - have more one-on-one meetings, three more group meetings, and ad-hoc small topical meetings
 - help the participants take on active paths that connect their interests with community goals  
-
+\
+&nbsp;
 
 ### [Noj](https://scicloj.github.io/noj/)  
 The Noj project bundles a few recommended libraries for data and science and adds convenience layers and documentation for using them together.  
