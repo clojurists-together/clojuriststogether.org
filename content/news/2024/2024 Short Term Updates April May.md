@@ -1,7 +1,7 @@
 ---
 title: "April & May 2024 Short-Term Project Updates"
 date: 2024-06-03T08:30:00+08:00
-summary: Updates from clj-lmerge, Compojure=api, Instaparse, Jank, Plexus, Lost in Lambduhhs Podcast, Scicloj
+summary: Updates from clj-lmerge, Compojure-api, Instaparse, Jank, Plexus, Lost in Lambduhhs Podcast, Scicloj
 author: Kathy Davis
 draft: True  
 
@@ -85,7 +85,8 @@ Rajkumar Natarajan proposed [OpenAPI3 support](https://github.com/metosin/ring-s
 
 #### 1.0.0 (30.4.2024)  
 * Fix memory leaks via multimethods caching default dispatch values: https://github.com/metosin/compojure-api/issues/454  
-
+\
+&nbsp;
 
 
 ### compojure-api  
