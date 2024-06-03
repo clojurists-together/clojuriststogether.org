@@ -8,8 +8,7 @@ draft: True
 
 ---
 
-\
-&nbsp;
+
 
 We've got several updates to share from our Q1 and Q2 project developers. Check out the latest in their following April and May reports.  
 
@@ -21,6 +20,11 @@ Jank: Jeaye Wilkerson
 Plexus: John Collins  
 Lost in Lambduhhs Podast: L. Jordan Miller  
 Scicloj: Daniel Slutsky 
+\
+&nbsp;
+\
+&nbsp;
+
 
 ## Clj-merge: Kurt Harriger  
 Q2 2024 Report No. 1. Published May 15, 2023
