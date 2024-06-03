@@ -27,7 +27,7 @@ Scicloj: Daniel Slutsky
 
 
 ## Clj-merge: Kurt Harriger  
-Q2 2024 Report No. 1. Published May 15, 2023
+Q2 2024 Report No. 1. Published May 15, 2024
 
 ### Introduction  
 
