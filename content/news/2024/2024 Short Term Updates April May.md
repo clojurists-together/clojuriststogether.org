@@ -19,7 +19,7 @@ Plexus: John Collins
 Lost in Lambduhhs Podast: L. Jordan Miller  
 Scicloj: Daniel Slutsky 
 
-##Clj-merge: Kurt Harriger  
+## Clj-merge: Kurt Harriger  
 Q2 2024 Report No. 1, Published May 15, 2023
 
 ### Introduction  
@@ -58,7 +58,7 @@ The project was structured around several key milestones:
     - **Progress**: The project has been successfully compiled with GraalVM for fast startup. However, these are built during the install process and require GraalVM to be available at install.    
     - **Next Steps**: CICD process to publish the binaries for download.  
 
-# Future Vision and Calls to Action  
+### Future Vision and Calls to Action  
 
 Moving forward, enhancing diff visualization will be my primary focus. A more intuitive representation of changes will not only improve the tool's usability but also its adoption. I encourage everyone in the Clojure community to try clj-mergetool, especially in challenging merge scenarios, and share any issues or feedback. Your contributions are crucial for refining the tool and expanding its capabilities.  
 
@@ -66,11 +66,10 @@ Thank you for your continued support and contributions to the clj-mergetool proj
 
 ---
 
-##Compojure-api: Ambrose Bonnaire-Sergeant  
+## Compojure-api: Ambrose Bonnaire-Sergeant  
 Q2 2024 Report No. 1, Published April 30, 2024  
 
 ### ring-swagger  
-
 I have released ring-swagger 1.0.0, compojure-api 1.1.14 and 2.0.0-alpha33
 which all include a critical fix to prevent [this memory leak](https://github.com/metosin/compojure-api/issues/454).  
 
@@ -79,15 +78,16 @@ Rajkumar Natarajan proposed [OpenAPI3 support](https://github.com/metosin/ring-s
 #### 1.0.0 (30.4.2024)  
 * Fix memory leaks via multimethods caching default dispatch values: https://github.com/metosin/compojure-api/issues/454  
 
-### compojure-api  
 
+
+### compojure-api  
 My two main focuses with compojure-api have been to make 2.x backwards compatible with 1.x
 and implement performance improvements.  
 
 I have drafted some further performance ideas as [issues](https://github.com/metosin/compojure-api/issues)
 and the remaining tasks for 1.x compatilibity are [here](https://github.com/metosin/compojure-api/issues/462).  
 
-##### 2.0.0-alpha33 (2024-04-30)  
+#### 2.0.0-alpha33 (2024-04-30)  
 * Throw an error on malformed `:{body,query,headers}`, in particular if anything other than 2 elements was provided
 * Disable check with `-Dcompojure.api.meta.allow-bad-{body,query,headers}=true`
 * 50% reduction in the number of times `:{return,body,query,responses,headers,coercion,{body,form,header,query,path}-params}` schemas/arguments are evaluated/expanded
@@ -114,7 +114,7 @@ and the remaining tasks for 1.x compatilibity are [here](https://github.com/meto
 
 ---
 
-##Instaparse: Mark Engelberg   
+## Instaparse: Mark Engelberg   
 Q1 2024 Report 2   Published May 31, 2024  
 
 Thanks to funding from Clojurists Together, I have continued to review instaparse pull requests that have been submitted over the past couple of years.  
@@ -598,6 +598,7 @@ Below are the sub-projects that were addressed during April 2024. They are liste
 
 The new real-world-data group is ranked highest for its impact on community growth. This means the following. Assuming this group will (hopefully) grow well and demand attention, the goals of other projects will receive less attention and will be delayed. However, some of them (e.g., required extensions or bugfixes to libraries) will receive more attention if the real-world-data group requires them.  
 
+
 ### [The real-world-data group](https://scicloj.github.io/docs/community/groups/real-world-data/)  
 
 The real-world-data group is a space for Clojure data and science practitioners to bring their data projects, share experiences, and evolve common practices.  
@@ -611,6 +612,7 @@ The real-world-data group is a space for Clojure data and science practitioners 
 - have more one-on-one meetings, three more group meetings, and ad-hoc small topical meetings
 - help the participants take on active paths that connect their interests with community goals  
 
+
 ### [Noj](https://scicloj.github.io/noj/)  
 The Noj project bundles a few recommended libraries for data and science and adds convenience layers and documentation for using them together.  
 
@@ -622,6 +624,7 @@ The Noj project bundles a few recommended libraries for data and science and add
 #### May goals  
 - implement the new data-visualization API (still in experimental stage)
 - improve documentation  
+
 
 ### [translating books](https://clojureverse.org/t/learn-data-and-science-in-clojure-by-translating-a-book-together/)  
 In this project, we are renewing previous efforts to systematically review data science books in other programming languages and convert them to Clojure.  
@@ -635,6 +638,7 @@ The goal is twofold: figuring out what common data science needs are still missi
 #### May goals  
 - focus on [Modern Statistics with R](https://github.com/mthulin/mswr-book) by Måns Thulin
 - keep exploring other books with community members  
+
 
 ### [visual-tools group](https://scicloj.github.io/docs/community/groups/visual-tools/)  
 
@@ -651,6 +655,7 @@ This group's goal is to create collaborations in learning and building Clojure t
 - continue the grammar-of-graphics study sessions
 - clarify a proposal and a proof-of-concept for the long-term grammar-of-graphics project  
 
+
 ### [Clojure Data Scrapbook](https://scicloj.github.io/clojure-data-scrapbook/)  
 The Clojure Data Scrapbook is intended to be a community-driven collection of tutorials around data and science in Clojure.  
 
@@ -662,6 +667,7 @@ The Clojure Data Scrapbook is intended to be a community-driven collection of tu
 #### May goals  
 - encourage and help community contributions to the scrapbook
 - keep adding content to support other projects  
+
 
 ### [Clay](https://scicloj.github.io/clay/)  
 Clay is a minimalistic namespace-as-a-notebook tool for literate programming and data visualization.  
@@ -676,6 +682,7 @@ Clay is a minimalistic namespace-as-a-notebook tool for literate programming and
 - explore the extraction of the HTML and Markdown generation layer as a separate library
 - keep evolving by user needs  
 
+
 ### [Kindly](https://scicloj.github.io/kindly-noted/)  
 Kindly is a proposed standard for requesting data visualizations in Clojure.  
 
@@ -689,6 +696,7 @@ Kindly is a proposed standard for requesting data visualizations in Clojure.
 - start working on Kindly support with the creators of new HTMX-based visual-tools
 - explore the option of a standalone Kindly implementation that is reusable in different tools (an alternative to the current approach of tool-specific implementations)  
 
+
 ### [cmdstan-clj](https://github.com/scicloj/cmdstan-clj)  
 
 Cmdstan-clj is a draft library for interop with [Stan](https://mc-stan.org/) (probabilistic modeling through Bayesian statistics).  
@@ -700,6 +708,7 @@ Cmdstan-clj is a draft library for interop with [Stan](https://mc-stan.org/) (pr
 #### May goals  
 - practice usage with community members and keep developing by need  
 
+
 ### [ClojisR](https://github.com/scicloj/clojisr)  
 
 ClojisR is a bridge between Clojure and the R language for statistical computing.
@@ -710,6 +719,7 @@ During this Month, @generateme released the first non-beta version of the librar
 
 #### May goals  
 - Migrate the [clojisr-examples](https://github.com/scicloj/clojisr-examples) project to the current workflow.  
+
 
 ### [The Scicloj website](https://scicloj.github.io/)  
 
