@@ -69,10 +69,11 @@ The project was structured around several key milestones:
 
 Moving forward, enhancing diff visualization will be my primary focus. A more intuitive representation of changes will not only improve the tool's usability but also its adoption. I encourage everyone in the Clojure community to try clj-mergetool, especially in challenging merge scenarios, and share any issues or feedback. Your contributions are crucial for refining the tool and expanding its capabilities.  
 
-Thank you for your continued support and contributions to the clj-mergetool project.   <br>
+Thank you for your continued support and contributions to the clj-mergetool project. <br>
 
 ---
-
+\
+&nbsp;
 
 ## Compojure-api: Ambrose Bonnaire-Sergeant  
 Q2 2024 Report No. 1. Published April 30, 2024  
