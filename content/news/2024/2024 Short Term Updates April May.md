@@ -10,16 +10,16 @@ draft: True
 
 
 
-We've got several updates to share from our Q1 and Q2 project developers. Check out the latest in their following April and May reports.  
+We've got several updates to share from our Q1 and Q2 project developers. Check out the latest in their April and May reports.  
 
 
-clj-merge tool: Kurt Harriger  
-Compojure-api: Ambrose Bonnaire-Sergeant  
-Instaparse: Mark Engelberg  
-Jank: Jeaye Wilkerson  
-Plexus: John Collins  
-Lost in Lambduhhs Podast: L. Jordan Miller  
-Scicloj: Daniel Slutsky 
+[clj-merge tool: Kurt Harriger](#clj-merge-kurt-harriger)   
+[Compojure-api: Ambrose Bonnaire-Sergeant](#compojure-api-ambrose-bonnaire-sergeant)   
+[Instaparse: Mark Engelberg](#instaparse-mark-engelberg)  
+[Jank: Jeaye Wilkerson](#jank-jeaye-wilkerson)   
+[Plexus: John Collins](#plexus-john-collins)   
+[Lost in Lambduhhs Podast: L. Jordan Miller](#lost-in-lambduhhs-podast-l-jordan-miller)  
+[Scicloj: Daniel Slutsky](#scicloj-daniel-slutsky)  
 \
 &nbsp;
 \
