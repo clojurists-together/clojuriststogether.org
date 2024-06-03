@@ -7,7 +7,7 @@ draft: True
 
 ---
 
-We've got several updates to share from our Q1 and Q2 project developers. Check out the latest in the following April and May reports.  
+We've got several updates to share from our Q1 and Q2 project developers. Check out the latest in their following April and May reports.  
 
 
 clj-merge tool: Kurt Harriger  
