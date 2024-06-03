@@ -20,7 +20,7 @@ Lost in Lambduhhs Podast: L. Jordan Miller
 Scicloj: Daniel Slutsky 
 
 ## Clj-merge: Kurt Harriger  
-Q2 2024 Report No. 1, Published May 15, 2023
+Q2 2024 Report No. 1. Published May 15, 2023
 
 ### Introduction  
 
@@ -66,8 +66,9 @@ Thank you for your continued support and contributions to the clj-mergetool proj
 
 ---
 
+
 ## Compojure-api: Ambrose Bonnaire-Sergeant  
-Q2 2024 Report No. 1, Published April 30, 2024  
+Q2 2024 Report No. 1. Published April 30, 2024  
 
 ### ring-swagger  
 I have released ring-swagger 1.0.0, compojure-api 1.1.14 and 2.0.0-alpha33
@@ -114,8 +115,9 @@ and the remaining tasks for 1.x compatilibity are [here](https://github.com/meto
 
 ---
 
+
 ## Instaparse: Mark Engelberg   
-Q1 2024 Report 2   Published May 31, 2024  
+Q1 2024 Report 2. Published May 31, 2024  
 
 Thanks to funding from Clojurists Together, I have continued to review instaparse pull requests that have been submitted over the past couple of years.  
 
@@ -125,10 +127,11 @@ For the final third of my Clojurists Together time, I have my eye on a bug with 
 
 ---
 
-## Jank: Jeaye Wilkerson  
-Q2 2024 Reports 1&2, Published April 30 & May 31, 2024  
 
-### April 30, 2024 Report 1   
+## Jank: Jeaye Wilkerson  
+Q2 2024 Reports 1&2. Published April 30 & May 31, 2024  
+
+### Report 1: April 30, 2024    
 This quarter, I'm being funded by [Clojurists Together](https://www.clojuriststogether.org/)
 to build out jank's lazy sequences, special `loop*` form, destructuring, and
 support for the `for` and `doseq` macros. Going into this quarter, I had only a
@@ -304,8 +307,10 @@ sequences and `doseq`. I'll have time after that and I'd like to get atoms
 working, since most Clojure programs have some form of state. From there, I can
 look into strengthening native interop and making jank more easily
 distributable, but let's not get ahead of ourselves.  
+\
+&nbsp;
 
-### May 31, 2024 Report 2  
+### Report 2: May 31, 2024    
 
 Hey folks! I've been building on last month's addition of lazy sequences,
 `loop*`, destructuring, and more. This month, I've worked on rounding out
@@ -492,6 +497,7 @@ inspiration which keeps me going.  <br>
 
 ---
 
+
 ## Plexus: John Collins   
 Q2 2024 Report 1. Published May 15, 2024  
 
@@ -527,9 +533,9 @@ While continuing to tinker with this approach, I'll likely add support for more 
 
 I improved and updated example projects that demonstrate using plexus for real-world problems. These are:  
 
-  - A Simple rapidly printable hydroponic tower: https://github.com/SovereignShop/spiralized-hydroponic-tower  
+  - [A Simple rapidly printable hydroponic tower](https://github.com/SovereignShop/spiralized-hydroponic-tower)  
 
-  - Kossel delta printer: https://github.com/SovereignShop/kossel-printer/  
+  - [Kossel delta printer:](https://github.com/SovereignShop/kossel-printer/)    
 
 I will try more examples in the future.  
 
@@ -543,6 +549,7 @@ Documentation is still sorely lacking, but README's have been improved. There ar
 
 ---
 
+
 ## Lost in Lambduhhs Podast: L. Jordan Miller  
 Q2 2024 Report 1. Published May 15, 2024.  
 
@@ -550,17 +557,17 @@ Q2 2024 Report 1. Published May 15, 2024.
 
 I have made significant progress on my new podcast series, thanks to the support from Clojurists Together. Here are the key milestones I've achieved so far and my plans moving forward:  
 
-#### Platform Subscription  
+### Platform Subscription  
 - **Subscribed to Riverside.fm** as my podcasting platform to ensure high-quality audio recordings and ease of use for my guests.  
 
-#### Guest Coordination  
+### Guest Coordination  
 - **First Four Guests Identified and Scheduled:**  
   - David Nolan - Recorded on Monday, May 13.
   - Arne Brasseur - Scheduled to record on Wednesday, May 15.
   - Recia Roopnarine - Scheduled to record on Wednesday, May 21.
   - Raf Dittwald - Scheduled to record on Wednesday, May 21.  
 
-#### Recordings and Editing  
+### Recordings and Editing  
 - **Completed Recording:**  
   - My first session with David Nolan was successfully recorded.
 - **Current Task:**  
@@ -569,7 +576,7 @@ I have made significant progress on my new podcast series, thanks to the support
   - Recording with Arne Brasseur on May 15.
   - Recording with Recia Roopnarine and Raf Dittwald on May 21.  
 
-#### Release Schedule  
+### Release Schedule  
 - **Planned Release:**  
   - I plan to release the episode featuring David Nolan within the next week.
 
@@ -584,6 +591,7 @@ I have made significant progress on my new podcast series, thanks to the support
 I am on track with my project timeline and excited about the content I am creating. I will continue to provide updates as I progress further.  <br>
 
 ---
+
 
 ## Scicloj: Daniel Slutsky  
 Q1 2024 Report 3. Published April 30, 2024  
