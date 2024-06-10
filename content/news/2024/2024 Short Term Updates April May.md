@@ -75,8 +75,9 @@ Thank you for your continued support and contributions to the clj-mergetool proj
 
 
 ## Compojure-api: Ambrose Bonnaire-Sergeant  
-Q2 2024 Report No. 1. Published April 30, 2024  
+Q2 2024 Report No. 1 & 2. Published April 30 & June 7, 2024  
 
+### Report 1: April 2024   
 ### ring-swagger  
 I have released ring-swagger 1.0.0, compojure-api 1.1.14 and 2.0.0-alpha33
 which all include a critical fix to prevent [this memory leak](https://github.com/metosin/compojure-api/issues/454).  
@@ -119,7 +120,43 @@ and the remaining tasks for 1.x compatilibity are [here](https://github.com/meto
 * Add static context optimization coach
   * `-Dcompojure.api.meta.static-context-coach=print` to print hints
   * `-Dcompojure.api.meta.static-context-coach=assert` to assert hints
-* port unit tests from midje to clojure.test  <br>
+* port unit tests from midje to clojure.test   
+
+### Report 2: May 2024  
+### compojure-api   
+This month I concentrated on making compojure-api 2.x backwards compatible with 1.x.
+I approached this by both backporting features to the 1.x branch and reestablishing 1.x features
+in the 2.x branch. My hope is when feature-parity is achieved, I can release a stable 2.x
+and retire the 1.x branch.  
+
+This proved to be challenging and resulted in many false starts. The main success this month
+was [adding support for 1.x coercions in 2.x](https://github.com/metosin/compojure-api/commit/113263b05c4ecb5b63fe187a2e1830377d9b54b5).  
+
+My initial conceptualization of the problem was that the move from ring-middleware-format
+to muuntaja in 2.x was the main breaking change, and backwards compatbility would involve 
+restoring ring-middleware-format support in the 2.x branch. I am reexaminining this assumption,
+as I realized I conflated 1.x coercions with ring-middleware-format after successfully adding
+1.x coercions in 2.x, however this assumption directed most of my development this month.  
+
+I initially copied the 1.x test suite to the 2.x branch and attempted to directly change the 2.x
+branch until the tests pass. This proved overwhelming and highlighted that I did not deeply understand
+compojure-api's internals. I [abandoned this approach](https://github.com/metosin/compojure-api/pull/461).
+
+To better understand the changes from 1.x to 2.x, I [created a PR](https://github.com/metosin/compojure-api/pull/471)
+to compare the 1.x and 2.x branches. Using this PR, I [backported](https://github.com/metosin/compojure-api/compare/981c316b3de6d27ff1cbaedd93c20aa6bb13ebe2...8d3c17db11a5a70f287e63501dd8220348401d5d)
+many of the changes made in 2.x to 1.x until the major refactoring around coercions was the main difference.  
+
+From there, I [attempted to backport 2.x coercions into 1.x](https://github.com/metosin/compojure-api/pull/473). This proved very difficult to reason about
+since the code paths around coercion completely changed in 2.x.  
+
+It was a useful exercise, however, and I realized that 1.x coercions could unintrusively be [added to 2.x](https://github.com/metosin/compojure-api/pull/473),
+which was a key stumbling block in my initial attempts at having the 1.x test suite pass in the 2.x branch.  
+
+Next month I'm planning to continue on backwards compatibility. I think I may not need to add ring-middleware-format support which addresses [a user concern](https://github.com/metosin/compojure-api/issues/462#issuecomment-2074255931), so I will probably back out any ring-middleware-format related changes I added in 2.x.  
+
+* [#472](https://github.com/metosin/compojure-api/issues/472): I found and fixed a potential memory leak in compojure-api 2.x  
+* [Upgraded to spec-tools 0.10.6](https://github.com/metosin/compojure-api/commit/2577f7454608ddca22083bf742d69a960a12c674) and compensated for upstream changes  
+* [Fixed outdated docstring](https://github.com/metosin/compojure-api/commit/80b524b6d79ca6a29462e508a9e602ae44cff69e) around 2.x coercions that described 1.x coercions  <br>
 
 ---
 
