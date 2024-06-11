@@ -18,7 +18,7 @@ We've got several updates to share from our Q1 and Q2 project developers. Check 
 [Instaparse: Mark Engelberg](#instaparse-mark-engelberg)  
 [Jank: Jeaye Wilkerson](#jank-jeaye-wilkerson)   
 [Plexus: John Collins](#plexus-john-collins)   
-[Lost in Lambduhhs Podast: L. Jordan Miller](#lost-in-lambduhhs-podast-l-jordan-miller)  
+[Lost in Lambduhhs Podcast: L. Jordan Miller](#lost-in-lambduhhs-podcast-l-jordan-miller)  
 [Scicloj: Daniel Slutsky](#scicloj-daniel-slutsky)  
 \
 &nbsp;
@@ -595,7 +595,7 @@ Documentation is still sorely lacking, but README's have been improved. There ar
 ---
 
 
-## Lost in Lambduhhs Podast: L. Jordan Miller  
+## Lost in Lambduhhs Podcast: L. Jordan Miller  
 Q2 2024 Report 1. Published May 15, 2024.  
 
 ### Progress Overview  
