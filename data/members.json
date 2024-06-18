@@ -560,11 +560,6 @@
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "Josef Erben",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Sebastian Bensuasan",
     "member_type" : "developer",
     "level" : "contributing",
@@ -625,11 +620,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Nick Nichols",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Jakub Dundálek",
     "member_type" : "developer",
     "level" : "contributing",
@@ -651,11 +641,6 @@
     "founding" : false
   }, {
     "name" : "Eric Caspary",
-    "member_type" : "developer",
-    "level" : "developer",
-    "founding" : false
-  }, {
-    "name" : "Otis Clark",
     "member_type" : "developer",
     "level" : "developer",
     "founding" : false
@@ -701,6 +686,11 @@
     "founding" : false
   }, {
     "name" : "Josip Gracin",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Raphael Saunier",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
@@ -1207,6 +1197,6 @@
   } ],
   "member_stats" : {
     "company" : 46,
-    "developer" : 173
+    "developer" : 171
   }
 }
