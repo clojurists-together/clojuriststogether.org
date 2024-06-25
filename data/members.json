@@ -210,13 +210,6 @@
     "founding" : false,
     "tagline" : "Griffin is an API-first bank and technology platform helping companies bring financial products to market quickly and safely."
   }, {
-    "name" : "Edgewood Software Corp.",
-    "member_type" : "company",
-    "url" : "https://edgewoodsoftwarecorp.s3.us-east-2.amazonaws.com/CoalesceIntroduction.mp4",
-    "logo" : null,
-    "level" : "assoc",
-    "founding" : false
-  }, {
     "name" : "Vane GmbH",
     "member_type" : "company",
     "url" : "https://vane.capital/",
@@ -1196,7 +1189,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 46,
+    "company" : 45,
     "developer" : 171
   }
 }
