@@ -283,14 +283,6 @@
     "level" : "cons",
     "founding" : false
   }, {
-    "name" : "Logseq",
-    "member_type" : "company",
-    "url" : "https://logseq.com/",
-    "logo" : "/logos/logseq.png",
-    "level" : "transduce",
-    "founding" : false,
-    "tagline" : "A privacy-first, open-source platform for knowledge management and collaboration."
-  }, {
     "name" : "Eric Normand",
     "member_type" : "company",
     "url" : "https://ericnormand.me/",
@@ -1184,7 +1176,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 45,
+    "company" : 44,
     "developer" : 170
   }
 }
