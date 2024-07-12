@@ -42,10 +42,12 @@ If you are working on a Clojure open source project or have a new one in mind, e
 - It'd be great to learn about your decision making-process (which is so fruitful)!
 - I'd also be curious to know about your approach to supporting new contributors and people from underrepresented groups.  <br>
 
+---
+
 
 ### What areas of the Clojure and ClojureScript ecosystem need support?  
-- Although this doesn't affect me personally, it is always good to make it easier for newcomers, so may some articles/documentation aimed at them, and maybe support for things like Kit Framework so they can get going quickly. (3 comments)
-- A better test framework than clojure.test but ideally mostly compatible with current tooling.  
+- Although this doesn't affect me personally, it is always good to make it easier for newcomers, so may some articles/documentation aimed at them, and maybe support for things like Kit Framework so they can get going quickly. (4 comments)
+- A better test framework than clojure.test but ideally mostly compatible with current tooling. The implementation of clojure.test is borderline unreadable.  
 - AI copilots specific to clojure libraries  
 - Cloud deployment patterns & tooling  
 - JVM/Clojure runtime has seen catch up with the JDK platform, but ClojureScript runtime seems to be a bit "stuck", which makes me worried.  
@@ -56,21 +58,30 @@ If you are working on a Clojure open source project or have a new one in mind, e
 - Structural editing  
 - I'd love access to ClojureScript debugging within Emacs   
 - Data-science   
-- Making simple things easy, like Rails does.  <br>
-
-
+- Making simple things easy, like Rails does.
+- Calva support for simultaneous clojure+clojurescript from the same workspace
+- Test tooling
+- I was recently looking at test.check and clojure.spec.alpha and was having some trouble figuring out how (if at all) the two are related? Maybe some unification of these two concepts?
+- The usual issues that crop up every year, like getting newcomers, error messages, and community engagement. Core team output feels stagnant; nothing in 1.12 feels worthy of a major release. Plus, it seems like Clojure is falling behind in just keeping up with changes to Java.
+- Marketing. Rich's seminal talks were a fantastic advert for Clojure, but the tech market is fickle and nothing has really stepped in to replace these to attract companies in a position to create jobs.
+- Library maintenance
+- Documentation is still horrible for most libraries in the ecosystem- provided there is any at all. The core language is a central offender too. <br>
 
 - <br>
 
 ---
 
-
 ### What areas of the Clojure and ClojureScript ecosystem are strong? 
-- 
-- 
+- Core language itself  
+- Stability has been great (4).  
+- Expertise is strong - but especially on Slack, where it is quickly swept under the tide of time. Slack has some very patient people with great advice. The design work that went into the language is showing it's benefit. 
+- Good community, good tools and libraries developed by talented and experienced people, with a preference towards stability and backwards compatibility. Community is strong and welcoming. Documentation is there (though often in not always obvious places).
+- Babashka and it's ecosystem    
+- The libraries and general "can get things done with the language" abilities are super-strong.  
+- Web development  
+- Interactive developer tooling  <br>
 
 ---
-
 
 ### Are there any particular libraries, tools, or projects that are important to you that you would like to see supported?  
 (Number of mentions in parentheses):
