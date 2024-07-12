@@ -16,7 +16,7 @@ Clojurists Together is pleased to announce that we are opening our Q3 2024 fundi
 
 We will be awarding up to $44,000 USD for a total of 6-8 projects. The $2k funding tier is for experimental projects or smaller proposals, whereas the $9k tier is for those that are more established. Projects generally run 3 months, however, the $9K projects can run between 3 and 12 months as needed. We expect projects to start on Sept. 1, 2024.
 
-We surveyed our members again in June to find out what types of initiatives they would like us to focus on for this round of funding. Their responses are summarized below. In particular, it was great to see members' feedback relating to how often they used or referred to developers' work we have funded. Also noted that several of you plan to attend Heart of Clojure in Belgium in Sept. and Clojure/xxx in the US in October. Check this out!  
+We surveyed our members again in June to find out what types of initiatives they would like us to focus on for this round of funding. Their responses are summarized below. In particular, it was great to see members' feedback relating to how often they used or referred to developers' work we have funded. Also noted that several of you plan to attend Heart of Clojure in Belgium in Sept. and Clojure/Conj in the US in October. Check this out!  
 
 ![Usage by Members June 2024](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/b50b3f96-8457-4b50-9642-c5686b4cb704)
 
@@ -40,7 +40,7 @@ If you are working on a Clojure open source project or have a new one in mind, e
 - Your updates have been great. The current amount of information is good.
 - A roadmap of where clojurists together wants to go/grow to.
 - It'd be great to learn about your decision making-process (which is so fruitful)!
-- I'd also be curious to know about your approach to supporting new contributors and people from underrepresented groups.  <br>
+- I'd like to know more about your approach to supporting new contributors and people from underrepresented groups.  <br>
 
 ---
 
@@ -65,7 +65,7 @@ If you are working on a Clojure open source project or have a new one in mind, e
 - The usual issues that crop up every year, like getting newcomers, error messages, and community engagement. Core team output feels stagnant; nothing in 1.12 feels worthy of a major release. Plus, it seems like Clojure is falling behind in just keeping up with changes to Java.
 - Marketing. Rich's seminal talks were a fantastic advert for Clojure, but the tech market is fickle and nothing has really stepped in to replace these to attract companies in a position to create jobs.
 - Library maintenance
-- Documentation is still horrible for most libraries in the ecosystem- provided there is any at all. The core language is a central offender too. <br>
+- Documentation is still horrible for most libraries in the ecosystem. <br>
 
 - <br>
 
@@ -84,37 +84,42 @@ If you are working on a Clojure open source project or have a new one in mind, e
 ---
 
 ### Are there any particular libraries, tools, or projects that are important to you that you would like to see supported?  
-(Number of mentions in parentheses):
-- Malli (8) and code quality tools generally, things that address the misconception that dynamic typing is malpractice relative to stat  
-- Shadow-cljs (5) 
-- Cider (5)  
-- Babashka  (4) and more libraries useable in this domain (e.g. writing Excel files) 
-- Jank (4)  
-- Clojure-lsp (3)  
-- com.github.seancorfield/honeysql(3)  
-- com.github.seancorfield/next.jdbc(3)   
-- metosin/reiti(3)  
-- Clj-kondo (2)  
-- uix v2 (2)  
-- Calva (2) for an improved developer experience (not the same as more features).   
-- Tech.ml.dataset (2) is looking really good - Chris's projects need to be included  
-- Ring (4)  
-- Re-frame(2)  
-- Reagent(2)  
-- Flowstorm (2)  
-- Integrant (2)  
-- Borkdude (2)  
-- I still use lein for new projects because it is easy. It runs tests and the uberjar function is right there.  
-- (1 each) Pathom and related, Asami, nt, uncomplicate libs, Data science stack, Core.typed, nbb, Clojure-ts-mode, Duct , Taoensso (tufte, timbre, sente), Weavejester (ragtime, crypto-password), Luminus/ring-undertow-adapter, com.fzakaria/slf4j-timbre, Conjure, ‘com.widdindustries/cljc.java-time, Datahike, Migratus, Hiccup, Oz, Scicloj  
-- I would like a replacement for Oz to render vega/vega-lite, which isn't maintained anymore, and https://github.com/scicloj/viz.clj exists, which looks promising. Don't really care for the added layer of hanami in between-on top.  
-- This Clojure Conj 2023 made me think that Clojure could rock really rock Data Science(2): https://www.youtube.com/watch?v=MguatDl5u2Q   
-- I don't mind using Java interop now and again, but I would like to avoid having to write extensive Java in Clojure syntax.
-Currently high on my list: anything bbatsov does (Cider, of course)  
-- Nikita's Humble UI is a big deal for me - I hope it will get desktop app development going in a bigger way with Clojure  <br>
+(Number of mentions in parentheses):  
+- Cider (8)  
+- Malli (6)  
+- Shadow-cljs (5)  
+- Clj-kondo (5)  
+- Calva (4)   
+- Reiti (4)  
+- Ring (3)  
+- Babashka, Biff, buddy, cljfmt, clj-reload, Clojure-lsp, ClojureDart, Donut, Flowstorm, Re-frame (each 2)   
+- Async, badspreadsheet, Carmine cluster support, Clay, Clojure-spec, Clojure-ts mode, Cloverage, Conjure, Data Analysis processing framework, Datalevin, DataScript, Datasplash, Dtype-next, eMac, Fastmath, Fulcro, Hanami, Hanamicloth,  HoneySQL, HTMX projects, Humble UI, Jank, Kindly,  Langohr, Leinigen, libpython-clj, Metamorph.mi, nbb, Neanderthal, Neovim, next.jdbc, Noj, Parinfer, Pedestal, Polylith, Portal, Regeant, Reframe, ring-jetty9-adapter, SciCloj, Scittle, Spandex, Tablecloth, Tech.ml.dataset, uix, VIM integrations, All things Borkdude, Taoensso & Weavejester's projects (each 1)  
+- I am very impressed by clojurescript. With that said, I have been reading about unpoly and htmx of late. I'm not sure if it is a fad or not at this point, but it would be interesting to highlight if we have any special advantages or integrations between clojure and these frameworks. I especially like the "hypermedia first" narrative that htmx is pushing.  
+- The data-science thing.  Datascript's core insofar as it is reused in Datalevin. Datalevin might not be looking for funding, but it is(?) the obvious heir to the Datomic popular revolution (FOSS triple-store replacing SQL+Lucene without time-travel) and thus has the potential to bring lots of attention as the SQL ball-and-chain is finally clipped from developers' ankles.  
+- Mac version (M1+ apple). It's a great base for high-performance computing  
+- Some level of ClojureScript debugging support that could also work when developing for nbb via nrepl  
+- I would like the bi-quaterly updates to include a one line description of what the project is and a link to its website, before describing all that work that was done - to set the scene. Don't assume we know (and remember) all the cool Clojure projects.  <br>
+
 
 ---
 
 ### What would you like to be different in the Clojure community in the next 12 months?  
+-	Better AI / ML story  
+-	Maturing of the data-science stack  
+-	Coordinate more around certain standards like biff.    
+-	For 3rd party libraries that have commits, but no releases, or even open pull releases to fix issues are released!  
+-	kotlin interop, scala interop  
+-	Get rid of the perceived lack of adoption, bring companies before the curtain who use clojure.    
+-	Helping innovation like squintjs/cherry, or something similar, to strenghen the ClojureScript runtime story.    
+-	CT has funded people to be present on Slack and share expertise. A live answer is very nice, but the goodness will diminish as soon as funding stops, and completely vanish if Slack ceases to renew the free enterprise status. In a word, when the music stops there will not even be records to replay. What is a potential solution?
+-	 I notice many of the questions recur, over and over and over again. They are literally FAQs. Could CT encourage contributing to a FAQ?    
+-	 ClojureDart will be big: very big. As a toy, it is already impressive. My app came out super on mobile phones & tolerable as a website, totally bypassing the self-inflicted agonies of Javascript. CLJD is still missing a few key things - or maybe just multimethods - that a lot of Clojure software depends on.  Soon as that obstacle is past, I predict a tsunami of interest in CLJD-adapted CLJC of many Clojure libraries.  Clojurists Together may have a part in adapting long-stable libraries, in service of possibly really putting Clojure 'on the map', leapfrogging the labor quagmire of JS/CLJS while reusing tons of software already written for the JVM/JS hosts!"   
+-	The Clojure community is already pretty great. I think we must just continue to be a friendly community and continue to help each other and newcomers on Slack and AskClojure. Efforts like Clojurists Together is a wonderful way to support developers that work on important open source tools and libraries. Keep up the good work!  
+-	Attracting newcomers & find out what bumps are in onboarding . More advocacy and uptake of the language, I sense a lull not only due to the economy, but also due to Rich's retirement.  How can we grow the Clojure userbase? 
+-	Maybe more focus on getting started quickly for new Clojure projects? I am not sure exactly how, but maybe docker images or nix integrations that are just dead simple. I don't honestly have the answers here, but I think that a lot of people just dismiss Clojure because it has somewhat of a learning and setup cost. I think if you can just get it in front of people quickly then you can quickly impress them with language feature/design choices, but you have to get them to look at it. Getting started was a little easier then we could slowly grow our ranks a little more.   
+-	I'm personally not a fan of the community going to deps. Kind of feels like if the Java community moved back to ant.    
+-	Better transparency over the current state of Clojure libraries.  Are they being actively maintained?  Do they have stale dependencies that might have security issues?
+
 - 
 +
 
