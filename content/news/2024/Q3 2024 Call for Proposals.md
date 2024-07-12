@@ -16,7 +16,7 @@ Clojurists Together is pleased to announce that we are opening our Q3 2024 fundi
 
 We will be awarding up to $44,000 USD for a total of 6-8 projects. The $2k funding tier is for experimental projects or smaller proposals, whereas the $9k tier is for those that are more established. Projects generally run 3 months, however, the $9K projects can run between 3 and 12 months as needed. We expect projects to start on Sept. 1, 2024.
 
-We surveyed our members again in June to find out what types of initiatives they would like us to focus on for this round of funding. Their responses are summarized below. In particular, it was great to see members' feedback relating to how often they used or referred to developers' work we have funded. Also noted that several of you plan to attend Heart of Clojure in Belgium in Sept. and Check this out!  
+We surveyed our members again in June to find out what types of initiatives they would like us to focus on for this round of funding. Their responses are summarized below. In particular, it was great to see members' feedback relating to how often they used or referred to developers' work we have funded. Also noted that several of you plan to attend Heart of Clojure in Belgium in Sept. and Clojure/xxx in the US in October. Check this out!  
 
 ![Usage by Members June 2024](https://github.com/clojurists-together/clojuriststogether.org/assets/14980147/b50b3f96-8457-4b50-9642-c5686b4cb704)
 
@@ -35,10 +35,31 @@ If you are working on a Clojure open source project or have a new one in mind, e
 
 ---
 
+### What other information would you like to know about Clojurists Together and the work we fund?  
+
+- Your updates have been great. The current amount of information is good.
+- A roadmap of where clojurists together wants to go/grow to.
+- It'd be great to learn about your decision making-process (which is so fruitful)!
+- I'd also be curious to know about your approach to supporting new contributors and people from underrepresented groups.  <br>
 
 
 ### What areas of the Clojure and ClojureScript ecosystem need support?  
--   
+- Although this doesn't affect me personally, it is always good to make it easier for newcomers, so may some articles/documentation aimed at them, and maybe support for things like Kit Framework so they can get going quickly. (3 comments)
+- A better test framework than clojure.test but ideally mostly compatible with current tooling.  
+- AI copilots specific to clojure libraries  
+- Cloud deployment patterns & tooling  
+- JVM/Clojure runtime has seen catch up with the JDK platform, but ClojureScript runtime seems to be a bit "stuck", which makes me worried.  
+- Clojure Editor integrations  
+- ClojureDart, auth libs for web apps
+- Fairly bare-to-the-metal visualization. I'm still using Oz (vega, vega-lite), but it is not maintained. I am not that much interested in hanami, which is its own metalanguage on top of vega-lite, and I think cloj-viz wants to build on top of hanami again. At least oz I can debug by looking at vega/vega-lite code.
+- 3rd Party Libraries, some of which have merges for fixes but no releases!  
+- Structural editing  
+- I'd love access to ClojureScript debugging within Emacs   
+- Data-science   
+- Making simple things easy, like Rails does.  <br>
+
+
+
 - <br>
 
 ---
