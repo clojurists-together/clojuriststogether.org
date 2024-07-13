@@ -9,7 +9,6 @@ author: Kathy Davis
 ---  
 <br>
 
-## Call for Proposals. 
 Happy July! It's that time again. 
 
 Clojurists Together is pleased to announce that we are opening our Q3 2024 funding round for Clojure Open Source Projects.  Applications will be accepted through the 26th of July 2024 (midnight Pacific Time). We are looking forward to reviewing your proposals! [More information and the application can be found here.](https://clojuriststogether.org/open-source/)
