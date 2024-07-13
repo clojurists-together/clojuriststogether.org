@@ -1,9 +1,9 @@
 ---
 title: "Call for Proposals. June 2024 Member Survey"
-date: 2024-07-10T08:30:00+08:00
+date: 2024-07-12T08:30:00+08:00
 summary: "We are awarding up to $44K for Q3 2024 Projects"
 author: Kathy Davis  
-draft: True
+
 
 
 ---  
