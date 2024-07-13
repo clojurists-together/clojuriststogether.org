@@ -67,8 +67,6 @@ If you are working on a Clojure open source project or have a new one in mind, e
 - Library maintenance
 - Documentation is still horrible for most libraries in the ecosystem. <br>
 
-- <br>
-
 ---
 
 ### What areas of the Clojure and ClojureScript ecosystem are strong? 
@@ -110,7 +108,7 @@ If you are working on a Clojure open source project or have a new one in mind, e
 -	For 3rd party libraries that have commits, but no releases, or even open pull releases to fix issues are released!  
 -	kotlin interop, scala interop  
 -	Get rid of the perceived lack of adoption, bring companies before the curtain who use clojure.    
--	Helping innovation like squintjs/cherry, or something similar, to strenghen the ClojureScript runtime story.    
+-	Helping innovation like squintjs/cherry, or something similar, to strengthen the ClojureScript runtime story.    
 -	CT has funded people to be present on Slack and share expertise. A live answer is very nice, but the goodness will diminish as soon as funding stops, and completely vanish if Slack ceases to renew the free enterprise status. In a word, when the music stops there will not even be records to replay. What is a potential solution?
 -	 I notice many of the questions recur, over and over and over again. They are literally FAQs. Could CT encourage contributing to a FAQ?    
 -	 ClojureDart will be big: very big. As a toy, it is already impressive. My app came out super on mobile phones & tolerable as a website, totally bypassing the self-inflicted agonies of Javascript. CLJD is still missing a few key things - or maybe just multimethods - that a lot of Clojure software depends on.  Soon as that obstacle is past, I predict a tsunami of interest in CLJD-adapted CLJC of many Clojure libraries.  Clojurists Together may have a part in adapting long-stable libraries, in service of possibly really putting Clojure 'on the map', leapfrogging the labor quagmire of JS/CLJS while reusing tons of software already written for the JVM/JS hosts!"   
@@ -120,8 +118,6 @@ If you are working on a Clojure open source project or have a new one in mind, e
 -	I'm personally not a fan of the community going to deps. Kind of feels like if the Java community moved back to ant.    
 -	Better transparency over the current state of Clojure libraries.  Are they being actively maintained?  Do they have stale dependencies that might have security issues?
 
-- 
-+
 
 
 
