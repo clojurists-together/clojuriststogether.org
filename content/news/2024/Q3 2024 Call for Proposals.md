@@ -91,11 +91,11 @@ If you are working on a Clojure open source project or have a new one in mind, e
 - Ring (3)  
 - Babashka, Biff, buddy, cljfmt, clj-reload, Clojure-lsp, ClojureDart, Donut, Flowstorm, Re-frame (each 2)   
 - Async, badspreadsheet, Carmine cluster support, Clay, Clojure-spec, Clojure-ts mode, Cloverage, Conjure, Data Analysis processing framework, Datalevin, DataScript, Datasplash, Dtype-next, eMac, Fastmath, Fulcro, Hanami, Hanamicloth,  HoneySQL, HTMX projects, Humble UI, Jank, Kindly,  Langohr, Leinigen, libpython-clj, Metamorph.mi, nbb, Neanderthal, Neovim, next.jdbc, Noj, Parinfer, Pedestal, Polylith, Portal, Regeant, Reframe, ring-jetty9-adapter, SciCloj, Scittle, Spandex, Tablecloth, Tech.ml.dataset, uix, VIM integrations, All things Borkdude, Taoensso & Weavejester's projects (each 1)  
-- I am very impressed by clojurescript. With that said, I have been reading about unpoly and htmx of late. I'm not sure if it is a fad or not at this point, but it would be interesting to highlight if we have any special advantages or integrations between clojure and these frameworks. I especially like the "hypermedia first" narrative that htmx is pushing.  
+- I am very impressed by ClojureScript. With that said, I have been reading about unpoly and htmx of late. I'm not sure if it is a fad or not at this point, but it would be interesting to highlight if we have any special advantages or integrations between Clojure and these frameworks. I especially like the "hypermedia first" narrative that htmx is pushing.  
 - The data-science thing.  Datascript's core insofar as it is reused in Datalevin. Datalevin might not be looking for funding, but it is(?) the obvious heir to the Datomic popular revolution (FOSS triple-store replacing SQL+Lucene without time-travel) and thus has the potential to bring lots of attention as the SQL ball-and-chain is finally clipped from developers' ankles.  
 - Mac version (M1+ apple). It's a great base for high-performance computing  
 - Some level of ClojureScript debugging support that could also work when developing for nbb via nrepl  
-- I would like the bi-quaterly updates to include a one line description of what the project is and a link to its website, before describing all that work that was done - to set the scene. Don't assume we know (and remember) all the cool Clojure projects.  <br>
+- I would like the bi-quarterly updates to include a one line description of what the project is and a link to its website, before describing all that work that was done - to set the scene. Don't assume we know (and remember) all the cool Clojure projects.  <br>
 
 
 ---
@@ -106,7 +106,7 @@ If you are working on a Clojure open source project or have a new one in mind, e
 -	Coordinate more around certain standards like biff.    
 -	For 3rd party libraries that have commits, but no releases, or even open pull releases to fix issues are released!  
 -	kotlin interop, scala interop  
--	Get rid of the perceived lack of adoption, bring companies before the curtain who use clojure.    
+-	Get rid of the perceived lack of adoption, bring companies before the curtain who use Clojure.    
 -	Helping innovation like squintjs/cherry, or something similar, to strengthen the ClojureScript runtime story.    
 -	CT has funded people to be present on Slack and share expertise. A live answer is very nice, but the goodness will diminish as soon as funding stops, and completely vanish if Slack ceases to renew the free enterprise status. In a word, when the music stops there will not even be records to replay. What is a potential solution?
 -	 I notice many of the questions recur, over and over and over again. They are literally FAQs. Could CT encourage contributing to a FAQ?    
