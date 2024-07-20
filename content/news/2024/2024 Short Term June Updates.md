@@ -84,7 +84,91 @@ Thank you for your support and contributions to the clj-mergetool project.  <br>
 
 
 ## Compojure-api: Ambrose Bonnaire-Sergeant  
-Q2 2024 Report No. 3. Published July 8, 2024  
+Q2 2024 Report No. 3. Published July 8, 2024   
+
+Last month I successfully [added support](https://github.com/metosin/compojure-api/compare/23b96cb7ac39180160cb8e967889aa03b1d7c119...master)
+for compojure-api 1.x coercions in the 2.x branch. This is one of the last steps towards backwards-compatibility of 1.x code using the 2.x branch.
+I did not make any progress on this front this month, but the remaining steps are starting
+to crystalize, which I will talk a bit about here.  
+
+Implementation wise, a 1.x coercion is detected with `fn?`, and implies the Schema backend (Spec support was addedin 2.x). Such a coercion is a nested function with the shape `request->field->schema->coercer`, often
+often implemented like `(constantly nil)` or `(constantly {:body matcher})`.  
+
+Several insights during this 3 months project made backwards-compatibility particularly clean.  
+
+Once I grokked the main differences between 1.x and 2.x coercions at the end of month 2, I realized that
+my efforts to restore support for ring-middleware-format was misguided. I could instead
+translate 1.x coercions to muuntaja's expected format.  
+
+There are two steps to this. The first was to add support for "legacy" coercions in 2.x's coercion
+abstraction. This involved changing the `coerce-request` implementation in [compojure.api.coercion.schema](https://github.com/metosin/compojure-api/compare/23b96cb7ac39180160cb8e967889aa03b1d7c119...master#diff-7267ec6276ef7f826245f8be37898dcaa3b2ce6915d1cede0abec0aba8f5935a).  
+
+The second step is to translate ring-middleware-format's `:format` options to muuntaja's `:formats`.
+I have only done this for the default options, and currently any custom `:format` extensions do not work.  
+
+One wrinkle that is difficult to reconcile in all cases is that 2.x dropped implicit support for several coercion formats such as yaml. In order to maintain backwards compatibility with 1.x coercions, we want to ensure that yaml formats are supported by default for legacy coercions.  
+
+I have not completely solved this problem, but I identified that coercions are usually configured in terms of
+the `api-defaults` var, which is a map with containing `:format` in 1.x and `:formats` in 2.x.
+In both branches, I introduced a breaking change, renaming `api-default` to `api-defaults-v1` and `api-defaults-v2`
+using `:format` and `:formats` respectively. This might help decide whether to include yaml coercion by default, but requires more thought.  
+
+Finally, I removed any attempt to add ring-middleware-format support in the 2.x branch since I realized it was unnecessary.  
+
+### recompojure  
+
+As part of this 3-month project, I am releasing a [recompojure](https://github.com/frenchy64/recompojure), which is a library providing compojure-style macros that expand to reitit.  
+
+It does not have a stable release yet, but there are some interesting problems to solve.  
+
+I worked on recompojure for the first month of this project, but stopped after I ported it out of a corporate repo I prototyped it in. I realized that compojure-api has a different set of features than reitit, and decided that my time would be better served working on compojure-api itself.   
+
+One big difference between reitit and compojure-api is reitit accepts a local configuration (`opts`) map
+which compojure-api is extended using global state. To preserve this local configuration style, recompojure
+is structured as a macro-generating-macro that is passed a top-level options map. An additional subtlety is
+that this options map is needed at compile-time when compojure-api does most of its work.  
+
+For example, the `load-api` call here defines all the compojure-api macros such as `GET`, `POST`, `context`, etc., but their extensions can (eventually) be centralized in the `options` var. This attempts to
+address a common concern using compojure-api where care must be taken to ensure extension are loaded before
+any routing macros are expanded---this style should centralize extensions such that they are
+deterministic without further safe guards.  
+
+```clojure
+(ns com.recompojure.compojure-api1
+  "Exposes the API of compojure.api.core v1.1.13 but compiling to reitit."
+  (:require [com.recompojure.compojure-api1.impl :as impl]
+            [clojure.set :as set]))
+
+(def ^:private options {:impl :compojure-api1})
+
+(impl/load-api `options)
+```
+
+From here, I would like to add compojure-api 2.x support, and fully take advantage of the implicit options map
+as described. The next big feature would be to reconcile compojure-api and reitit's middleware support
+so that compojure-api-style applications can easily be translated to reitit via recompojure. In particular,
+most compojure-api app use the `api` function to create an app, but recompojure does not yet support translating this to reitit.  
+
+### Project Summary  
+
+This 3-month project had two main focuses.  
+
+The first half concentrated on performance of the 2.x branch of compojure-api and ensuring stable versions
+of security fixes were deployed.  
+
+My main goal for the second half of this 3-month project was to ease future maintenance of compojure-api by
+retiring the 1.x branch. That way, features need only be developed in the 2.x branch and can
+still be enjoyed by 1.x users.  
+
+This was much more challenging and onerous than I anticipated, and I would not have
+been able to invest time in this if Clojurists Together had not funded the project.
+My main activity was attempting to understand and compare two versions of the same project and reverse-engineer
+the evolution of the project.  
+
+I'd like to thank Clojurists Together for selecting this project for funding.  <br>
+
+---
+
 
 ## Jank: Jeaye Wilkerson  
 Q2 2024 Report 3. Published June 30, 2024  
