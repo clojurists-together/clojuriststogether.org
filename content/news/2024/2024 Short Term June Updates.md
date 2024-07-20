@@ -17,7 +17,7 @@ We've got several updates to share from our Q2 project developers. Check out the
 [Compojure-api: Ambrose Bonnaire-Sergeant](#compojure-api-ambrose-bonnaire-sergeant)     
 
 [Enjure: Janet A. Carr](#enjure-janet-a-carr)  
-[Enjure](https://github.com/janetacarr/enjure/blob/main/notes.org): This project focuses on MVP for the Enjure CLI tool and providing the ability to create new projects and view/controller templates as well as delete templates.  
+[This project](https://github.com/janetacarr/enjure/blob/main/notes.org)focuses on MVP for the Enjure CLI tool and providing the ability to create new projects and view/controller templates as well as delete templates.  
 
 [Jank: Jeaye Wilkerson](#jank-jeaye-wilkerson)   
 [Lost in Lambduhhs Podcast: L. Jordan Miller](#lost-in-lambduhhs-podcast-l-jordan-miller)  
