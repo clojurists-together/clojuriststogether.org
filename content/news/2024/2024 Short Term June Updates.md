@@ -12,12 +12,12 @@ draft: True
 
 We've got several updates to share from our Q2 project developers. Check out the latest in their June and July Reports.
 
-[clj-kondo, babashka and more: Michiel Borkent](#clj-kondo-babashka-and-more-michiel-borkent)
+[clj-kondo, babashka and more: Michiel Borkent](#clj-kondo-babashka-and-more-michiel-borkent)  
 [clj-merge tool: Kurt Harriger](#clj-merge-kurt-harriger)   
-[Compojure-api: Ambrose Bonnaire-Sergeant](#compojure-api-ambrose-bonnaire-sergeant)    
+[Compojure-api: Ambrose Bonnaire-Sergeant](#compojure-api-ambrose-bonnaire-sergeant)     
 
-[Enjure: Janet A. Carr](#enjure-janet-a-carr)
-{Enjure](https://github.com/janetacarr/enjure/blob/main/notes.org): This project focuses on MVP for the Enjure CLI tool and providing the ability to create new projects and view/controller templates as well as delete templates.  
+[Enjure: Janet A. Carr](#enjure-janet-a-carr)  
+[Enjure](https://github.com/janetacarr/enjure/blob/main/notes.org): This project focuses on MVP for the Enjure CLI tool and providing the ability to create new projects and view/controller templates as well as delete templates.  
 
 [Jank: Jeaye Wilkerson](#jank-jeaye-wilkerson)   
 [Lost in Lambduhhs Podcast: L. Jordan Miller](#lost-in-lambduhhs-podcast-l-jordan-miller)  
