@@ -9,7 +9,7 @@ draft: True
 ---
 
 
-We've got several updates to share from our Q2 project developers. Check out the latest in their June and July Reports following the project list below.  
+We've got several updates to share from our Q2 2024 project developers. Check out the latest in their June and July Reports following the project list below.  
 
 [clj-merge tool: Kurt Harriger](#clj-merge-kurt-harriger)   
 This project focuses on developing a git diff and merge tool for edn and clojure code with the aim of creating a [git mergetool](https://github.com/kurtharriger/clj-mergetool) that can be used as a replacement for git’s default merge tool for clj(s) and edn files.  
@@ -224,7 +224,7 @@ Not mandatory, the redirect macro supports redirecting to static paths/URLs, Enj
 Values from functions).  
 
 Ideally, resources would interact with the database through a data model supported by the framework.
-My ideas for this are still experimental and can be found in the repository under the internal â€œfrmâ€
+My ideas for this are still experimental and can be found in the repository under the internal “frm” 
 namespace. Currently, it's some simple templating of basic queries by querying the information_schema in
 Postgres, and interning the query functions as vars. These are queries I've seen regularly over the years,
 and I'm sure that, once implemented, will give developers a boost in productivity. Plus, there's the added
