@@ -1,7 +1,7 @@
 ---
 title: "June & July 2024 Short-Term Project Updates"
 date: 2024-07-20T08:30:00+08:00
-summary: Updates from clj-merge tool, Compojure-api, Enjure, Jank, Lost in Lambduhhs Podcast and more
+summary: Updates from clj-merge tool, Compojure-api, Enjure, Jank, and Lost in Lambduhhs Podcast
 author: Kathy Davis
 draft: True
 
@@ -31,8 +31,6 @@ Rejuvenate and streamline production of the [Lost In Lambduhhs Podcast](https://
 \
 &nbsp;
 
-## clj-kondo, babashka, squint/cherry: Michiel Borkent  
-Q2 2024 Report No. 1. Published June 30, 2024  
 
 ## Clj-merge: Kurt Harriger  
 Q2 2024 Report No. 2. Published July 1, 2024  
