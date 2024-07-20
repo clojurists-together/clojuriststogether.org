@@ -39,6 +39,49 @@ Q2 2024 Report No. 1. Published June 30, 2024
 
 ## Clj-merge: Kurt Harriger  
 Q2 2024 Report No. 2. Published July 1, 2024  
+### Introduction  
+This tool aims to reduce unnecessary conflicts due to whitespace and syntax peculiarities by using a more semantic approach to diffing and merging. I'm grateful for the support from ClojuristsTogether and the invaluable feedback and support from the Clojure community.  
+
+### Recent Progress  
+This month, I focused on the following improvements:  
+- **Bug Fixes**: Several bugs were fixed to enhance the stability of the tool.  
+- **CI/CD Pipeline**: A CI/CD pipeline was added to streamline the installation process and prevent additional regressions.  
+- **Error Reporting**: Simplified error reporting to make it easier for users to provide useful feedback when the tool does not work as expected.  
+Due to an exceptionally busy schedule, progress on diff visualization and project promotion was limited.  
+
+### Milestones Overview  
+The project was structured around several key milestones:  
+1. Development of the MVP - Mostly complete  
+2. Enhancement of diff handling and presentation - Ongoing  
+3. Community engagement and feedback integration - Ongoing  
+4. Performance optimization and cross-platform compatibility - Done  
+
+### Milestone Progress  
+1. **Development of the MVP**  
+    - **Goals**: To create a minimal viable product using `editscript` and `rewrite-clj`.  
+    - **Recent Updates**: Bug fixes were implemented to enhance the stability of the tool.  
+    - **Status**: Mostly Complete. From a technical perspective I have been able to test the feasibility of the implementation and learned a lot. Its hard to say when this is "done,"  I don't quite feel ready to push the adoption until more work has been done on the diff visualization.  
+
+1. **Enhancement of Diff Handling and Presentation**  
+    - **Goals**: To improve the readability and utility of diffs for developers.  
+    - **Recent Updates**: Limited progress on diff visualization due to time constraints.  
+    - **Status**: Much more work still needs to be done here.  
+
+1. **Community Engagement and Feedback Integration**  
+    - **Goals**: To actively engage with the community to gather detailed feedback and real-world merge conflict examples.  
+    - **Recent Updates**: Simplified error reporting to facilitate better feedback.  
+    - **Next Steps**: Increase efforts to engage the community and aim to present at a Clojure meetup in the near future.  
+
+1. **Performance Optimization and Cross-Platform Compatibility**  
+    - **Goals**: Simplify the installation process.  
+    - **Recent Updates**: A CI/CD pipeline was added to streamline the installation process.  
+    - **Status**: Done  
+
+### Conclusion  
+Thank you for your support and contributions to the clj-mergetool project.  <br>
+
+---
+
 
 ## Compojure-api: Ambrose Bonnaire-Sergeant  
 Q2 2024 Report No. 3. Published July 8, 2024  
