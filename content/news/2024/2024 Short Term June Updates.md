@@ -10,24 +10,32 @@ draft: True
 
 
 
-We've got several updates to share from our Q2 project developers. Check out the latest in their June and July Reports.
+We've got several updates to share from our Q2 project developers. Check out the latest in their June and July Reports following the project list below.  
 
-[clj-kondo, babashka and more: Michiel Borkent](#clj-kondo-babashka-and-more-michiel-borkent)  
+[clj-kondo, babashka, squint/cherry: Michiel Borkent](#clj-kondo-babashka-and-more-michiel-borkent)  
+[Several projects underway](https://github.com/borkdude) including Clj-kondo: support Clojure 1.12, other Clojure dialects, most wanted open tickets. Babashka: Support new Clojure 1.12 (interop) features, better error messages. Squint/Cherry: source map support, better nREPL support, better CLJS compatibility.  
+
 [clj-merge tool: Kurt Harriger](#clj-merge-kurt-harriger)   
+This project focuses on developing a git diff and merge tool for edn and clojure code with the aim of creating a [git mergetool](https://github.com/kurtharriger/clj-mergetool) that can be used as a replacement for git’s default merge tool for clj(s) and edn files.  
+
 [Compojure-api: Ambrose Bonnaire-Sergeant](#compojure-api-ambrose-bonnaire-sergeant)     
+[This project](https://github.com/metosin/compojure-api) will deploy the first new releases since 2019 (and include compojure-api 1.x, 2.0.0-alpha branch, ring-swagger), compojure-api/reitet migration tools, and Swagger 3.0.    
 
 [Enjure: Janet A. Carr](#enjure-janet-a-carr)  
-[This project](https://github.com/janetacarr/enjure/blob/main/notes.org)focuses on MVP for the Enjure CLI tool and providing the ability to create new projects and view/controller templates as well as delete templates.  
+This project focuses on MVP for the [Enjure CLI tool](https://github.com/janetacarr/enjure/blob/main/notes.org) and providing the ability to create new projects and view/controller templates as well as delete templates.  
 
 [Jank: Jeaye Wilkerson](#jank-jeaye-wilkerson)   
+[Jank's](https://github.com/jank-lang/jank) library parity with Clojure.core is around 20%. The next step is to fill out the language to make it feel more like Clojure - including Lazy sequences, Loop/recur, Destructuring, Symbol interning, and for and doseq macros.  
+
+
 [Lost in Lambduhhs Podcast: L. Jordan Miller](#lost-in-lambduhhs-podcast-l-jordan-miller)  
-
+Rejuvenate and streamline production of the [Lost In Lambduhhs Podcast](https://linktr.ee/lambduhhh), where the audience gets the opportunity to “meet the person behind the Github” -  illuminating the personal narratives and insights of tech luminaries, giving them a platform to share their perspectives while promoting their library or tool.  
 \
 &nbsp;
 \
 &nbsp;
 
-## clj-kondo, babashka and more: Michiel Borkent  
+## clj-kondo, babashka, squint/cherry: Michiel Borkent  
 Q2 2024 Report No. 1. Published June 30, 2024  
 
 ## Clj-merge: Kurt Harriger  
