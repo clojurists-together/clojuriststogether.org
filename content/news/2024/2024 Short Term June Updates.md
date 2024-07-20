@@ -9,7 +9,6 @@ draft: True
 ---
 
 
-
 We've got several updates to share from our Q2 project developers. Check out the latest in their June and July Reports following the project list below.  
 
 [clj-kondo, babashka, squint/cherry: Michiel Borkent](#clj-kondo-babashka-and-more-michiel-borkent)  
@@ -134,4 +133,37 @@ Finally, documentation of the project has become my lowest priority and definite
 
 ## Lost in Lambduhhs Podcast: L. Jordan Miller  
 Q2 2024 Report 2. Published June 27, 2024.  
+
+I have made continued progress on my new podcast series, thanks to the support from Clojurists Together. Here are the key milestones I've achieved since my last update and my plans moving forward:  
+
+### Theme Music and Audio Engineering  
+- **Created Theme Music and Audio Engineering Template:** Developed the theme music and an audio engineering template to ensure a consistent and professional sound for each episode.  
+
+### Riverside.fm Proficiency  
+- **Learned Riverside.fm Editing Software:** Gained proficiency in using Riverside.fm's editing software and created a workflow for efficiently editing audio.  
+
+### Episode Releases  
+- **Released Two Episodes:**  
+  - David Nolan  
+  - Arne Brasseur  
+
+### Guest Coordination and Diversity Efforts  
+- **Gender Diversity Challenge:** I am striving to ensure gender diversity in my episodes, which has been challenging.  
+- **Reached Out to Prospective Guests:** Contacted three prospective guests, with two having returned my communications.  
+
+### Recent Challenges  
+- **Scheduling Conflicts:** Faced scheduling conflicts due to a death in my family followed by getting sick with strep throat. I am now on day 8 of recovering from the sickness and have recordings scheduled for next week.  
+
+### Next Steps  
+- **Continue Outreach:** Continue to reach out to schedule recordings, ensuring a diverse lineup of guests.  
+- **Timely Editing and Release:** Edit and release episodes in a timely manner, promoting on Clojurians Slack, Clojure Weekly updates, LinkedIn, and Twitter.  
+- **Expand Promotion Channels:** Create a Mastodon account to help promote the podcast.  
+
+### Conclusion  
+
+Despite recent challenges, I am on track with my project timeline and excited about the content I am creating. I will continue to provide updates as I progress further.  <br>
+
+---
+
+
 
