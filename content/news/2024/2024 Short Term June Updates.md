@@ -3,7 +3,7 @@ title: "June & July 2024 Short-Term Project Updates"
 date: 2024-07-20T08:30:00+08:00
 summary: Updates from clj-merge tool, Compojure-api, Enjure, Jank, and Lost in Lambduhhs Podcast
 author: Kathy Davis
-draft: True
+
 
 
 ---
