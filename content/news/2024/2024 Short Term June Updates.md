@@ -84,12 +84,12 @@ Q2 2024 Report No. 3. Published July 8, 2024
 Last month I successfully [added support](https://github.com/metosin/compojure-api/compare/23b96cb7ac39180160cb8e967889aa03b1d7c119...master)
 for compojure-api 1.x coercions in the 2.x branch. This is one of the last steps towards backwards-compatibility of 1.x code using the 2.x branch.
 I did not make any progress on this front this month, but the remaining steps are starting
-to crystalize, which I will talk a bit about here.  
+to crystallize, which I will talk a bit about here.  
 
 Implementation wise, a 1.x coercion is detected with `fn?`, and implies the Schema backend (Spec support was addedin 2.x). Such a coercion is a nested function with the shape `request->field->schema->coercer`, often
 often implemented like `(constantly nil)` or `(constantly {:body matcher})`.  
 
-Several insights during this 3 months project made backwards-compatibility particularly clean.  
+Several insights during this 3-month project made backwards-compatibility particularly clean.  
 
 Once I grokked the main differences between 1.x and 2.x coercions at the end of month 2, I realized that
 my efforts to restore support for ring-middleware-format was misguided. I could instead
@@ -161,6 +161,90 @@ My main activity was attempting to understand and compare two versions of the sa
 the evolution of the project.  
 
 I'd like to thank Clojurists Together for selecting this project for funding.  <br>
+
+---
+
+## Enjure: Janet A. Carr  
+Q2 2024 Report. Published June 12, 2024  
+
+Progress has been good. I regularly stream Enjure to my audience on Twitch which seem to be bootstrapping Enjure's Github stars.  
+
+Despite the progress, I intentionally expanded the scope of the project by implementing an
+HTTP router for Enjure. I'm not entirely sure that this was a wise decision, but
+it adheres to Enjure's guiding philosophy. Enjure's HTTP router is implemented
+with a Radix tree and supports path parameters, in pure Clojure. I'm hoping to come up with a scheme for query, body, path, and form coercion soon, but I
+haven't decided on a scheme I like. The router lives in a dynamic var managed
+by Enjure and is updated by macros for defining pages and controllers.  
+
+Enjure has several macros enforcing a similar convention to define HTTP resources.
+The purpose of which brings together a resource's routes, contract, coercion and handling
+expressions to a single namespace. Often Clojure web applications are structured with several
+libraries. For example, Consider an application with Reitit with ring, next.jdbc with postgreSQL,
+The application will likely have its routes in one namespace, it's handlers in another namespace,
+its business logic in another namespace and data modification language (DML) in another namespace;
+Necessitating opening several source files to accomplish a small task. Rarely do the
+Routes, contracts, and handlers change. If they do, it's from minute changes.
+Bringing these together cuts down on the cyclomatic complexity of developing web
+Applications in Clojure. Thanks to homoiconicity, I can create constructs to help with
+Exactly this:  
+
+```clojure
+;; Example from Enjure repo
+(defpage user "/users/:user-id"
+  [req]
+  (let [{:keys [path-params]} req
+        {:keys [user-id]} path-params]
+    (format "<h1>Hello, %s</h1>" user-id)))
+
+```
+
+This "page" construct is simply a function var under the hood, but also manages the routing-table
+Var. There's no middleware required to update the routing table upon REPL reload. Simply evaluating
+The buffer/namespace will change the routing table. defpage expects a string as its return value as
+it's largely tied to the content-type text/html. In the future I hope to have other, similar view
+constructs to support other popular application mime types.  
+
+Similarly, there are actions, changes, and removals that correspond to POST, PUT, and DELETE
+HTTP methods, respectively. Since Enjure places a high emphasis on convention, I'll only show a
+Simple example of a Sign In action for a user:  
+
+```clojure
+(defaction signin "/signin"
+  [req]
+  (let [{:keys [email password]} (:form-params req)]
+    (if (check-db email password)
+      (redirect pages/home :see-other) ;; redirects to whatever route pages/home var has.
+      (pages/siginin req) ;; this is a page var to render
+  )))
+```
+Since resources in Enjure are just function vars, they can be called directly, and also reverse-routed
+to using some of the response macros. In the above example, if the signing check passes, redirect
+Redirects to whatever route pages/home has declared. (Reverse-routing is largely for convenience, and
+Not mandatory, the redirect macro supports redirecting to static paths/URLs, Enjure resources like pages, and
+Values from functions).  
+
+Ideally, resources would interact with the database through a data model supported by the framework.
+My ideas for this are still experimental and can be found in the repository under the internal â€œfrmâ€
+namespace. Currently, it's some simple templating of basic queries by querying the information_schema in
+Postgres, and interning the query functions as vars. These are queries I've seen regularly over the years,
+and I'm sure that, once implemented, will give developers a boost in productivity. Plus, there's the added
+benefit of being decoupled from whatever mechanism I choose for supporting migrations/entities in Enjure (still
+A TBD). However, this model does not alienate developers who opt to create more complex queries
+as those are supported as well with next.jdbc.  
+
+Another idea I've been experimenting with is something I call the ReactiveRecord. ReactiveRecord uses
+Software transactional memory to synchronize with the database, providing an in-memory DB representation.
+I think given the functional interface provided by FRM above and information schema data. It might be interesting, but I do believe this kind of transacting might be faux-pas or even dangerous, so more thought is needed here on my part.  
+
+All of this will ideally be controlled with the Enjure CLI. Enjure puts a heavy emphasis on reducing
+developer friction. Given a base installation of Clojure, installing Enjure should allow for the creation and
+management of Enjure projects very easily. I'll admit this is an area I've been slacking on a bit since I
+wanted to finished with other core components first. As of writing this, the Enjure CLI has two basic commands:
+Notes and help.  Notes search a project for comments containing NOTES, FIXME, TODO, and HACK. Help just
+prints out the help dialog. Soon enough Enjure CLI will support creating and deleting resources, migrations,
+Entities, dependencies, etc., as well as creating new projects. The Enjure CLI can already be installed to a user's path as a CLI utility written entirely in Clojure.  
+
+Finally, documentation of the project has become my lowest priority and definitely at risk. However, I'm not too concerned about the documentation faltering. In some sense, I'm a technical writer thanks to my blog, so I believe writing documentation for Enjure won't be as challenging as the rest of the project.  <br>
 
 ---
 
@@ -323,91 +407,6 @@ I'll continue working through the requirements to implement `clojure.test`,
 which is why I was implementing multimethods in the first place. From there, I
 can start testing my jank code using more jank code and the dogfooding cycle can
 really begin. Stay tuned, folks!  <br>
-
----
-
-
-## Enjure: Janet A. Carr  
-Q2 2024 Report. Published June 12, 2024  
-
-Progress has been good. I regularly stream Enjure to my audience on Twitch which seem to be bootstrapping Enjure's Github stars.  
-
-Despite the progress, I intentionally expanded the scope of the project by implementing an
-HTTP router for Enjure. I'm not entirely sure that this was a wise decision, but
-it adheres to Enjure's guiding philosophy. Enjure's HTTP router is implemented
-with a Radix tree and supports path parameters, in pure Clojure. I'm hoping to come up with a scheme for query, body, path, and form coercion soon, but I
-haven't decided on a scheme I like. The router lives in a dynamic var managed
-by Enjure and is updated by macros for defining pages and controllers.  
-
-Enjure has several macros enforcing a similar convention to define HTTP resources.
-The purpose of which brings together a resource's routes, contract, coercion and handling
-expressions to a single namespace. Often Clojure web applications are structured with several
-libraries. For example, Consider an application with Reitit with ring, next.jdbc with postgreSQL,
-The application will likely have its routes in one namespace, it's handlers in another namespace,
-its business logic in another namespace and data modification language (DML) in another namespace;
-Necessitating opening several source files to accomplish a small task. Rarely do the
-Routes, contracts, and handlers change. If they do, it's from minute changes.
-Bringing these together cuts down on the cyclomatic complexity of developing web
-Applications in Clojure. Thanks to homoiconicity, I can create constructs to help with
-Exactly this:  
-
-```clojure
-;; Example from Enjure repo
-(defpage user "/users/:user-id"
-  [req]
-  (let [{:keys [path-params]} req
-        {:keys [user-id]} path-params]
-    (format "<h1>Hello, %s</h1>" user-id)))
-
-```
-
-This "page" construct is simply a function var under the hood, but also manages the routing-table
-Var. There's no middleware required to update the routing table upon REPL reload. Simply evaluating
-The buffer/namespace will change the routing table. defpage expects a string as its return value as
-it's largely tied to the content-type text/html. In the future I hope to have other, similar view
-constructs to support other popular application mime types.  
-
-Similarly, there are actions, changes, and removals that correspond to POST, PUT, and DELETE
-HTTP methods, respectively. Since Enjure places a high emphasis on convention, I'll only show a
-Simple example of a Sign In action for a user:  
-
-```clojure
-(defaction signin "/signin"
-  [req]
-  (let [{:keys [email password]} (:form-params req)]
-    (if (check-db email password)
-      (redirect pages/home :see-other) ;; redirects to whatever route pages/home var has.
-      (pages/siginin req) ;; this is a page var to render
-  )))
-```
-Since resources in Enjure are just function vars, they can be called directly, and also reverse-routed
-to using some of the response macros. In the above example, if the signing check passes, redirect
-Redirects to whatever route pages/home has declared. (Reverse-routing is largely for convenience, and
-Not mandatory, the redirect macro supports redirecting to static paths/URLs, Enjure resources like pages, and
-Values from functions).  
-
-Ideally, resources would interact with the database through a data model supported by the framework.
-My ideas for this are still experimental and can be found in the repository under the internal â€œfrmâ€
-namespace. Currently, it's some simple templating of basic queries by querying the information_schema in
-Postgres, and interning the query functions as vars. These are queries I've seen regularly over the years,
-and I'm sure that, once implemented, will give developers a boost in productivity. Plus, there's the added
-benefit of being decoupled from whatever mechanism I choose for supporting migrations/entities in Enjure (still
-A TBD). However, this model does not alienate developers who opt to create more complex queries
-as those are supported as well with next.jdbc.  
-
-Another idea I've been experimenting with is something I call the ReactiveRecord. ReactiveRecord uses
-Software transactional memory to synchronize with the database, providing an in-memory DB representation.
-I think given the functional interface provided by FRM above and information schema data. It might be interesting, but I do believe this kind of transacting might be faux-pas or even dangerous, so more thought is needed here on my part.  
-
-All of this will ideally be controlled with the Enjure CLI. Enjure puts a heavy emphasis on reducing
-developer friction. Given a base installation of Clojure, installing Enjure should allow for the creation and
-management of Enjure projects very easily. I'll admit this is an area I've been slacking on a bit since I
-wanted to finished with other core components first. As of writing this, the Enjure CLI has two basic commands:
-Notes and help.  Notes search a project for comments containing NOTES, FIXME, TODO, and HACK. Help just
-prints out the help dialog. Soon enough Enjure CLI will support creating and deleting resources, migrations,
-Entities, dependencies, etc., as well as creating new projects. The Enjure CLI can already be installed to a user's path as a CLI utility written entirely in Clojure.  
-
-Finally, documentation of the project has become my lowest priority and definitely at risk. However, I'm not too concerned about the documentation faltering. In some sense, I'm a technical writer thanks to my blog, so I believe writing documentation for Enjure won't be as challenging as the rest of the project.  <br>
 
 ---
 
