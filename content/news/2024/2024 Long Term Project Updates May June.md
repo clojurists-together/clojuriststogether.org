@@ -273,8 +273,8 @@ New project: [AlleKinos.de](https://allekinos.de/), a no-nonsense movie showtime
 
 [Clojure Sublimed](https://github.com/tonsky/Clojure-Sublimed), Clojure support for Sublime Text 4:  
 
-- Fixed Socket REPL not working on Windows [95](https://github.com/tonsky/ClojureSublimed/issues/95)  
-- Fixed a bug when Clojure Sublimed would not work right after first install [109](https://github.com/tonsky/ClojureSublimed/issues/109)  
+- Fixed Socket REPL not working on Windows [95](https://github.com/tonsky/Clojure-Sublimed/issues/95)  
+- Fixed a bug when Clojure Sublimed would not work right after first install [109](https://github.com/tonsky/Clojure-Sublimed/issues/109)  
 
 [Sublime Executor](https://github.com/tonsky/Sublime-Executor), Sublime Text plugin to run any executable from your working dir:  
 
