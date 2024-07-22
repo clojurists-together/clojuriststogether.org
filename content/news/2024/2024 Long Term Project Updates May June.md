@@ -1,3 +1,4 @@
+---
 title: "May & June 2024 Long-Term Project Updates"
 date: 2024-07-21T14:00:00+12:00
 author: Kathy Davis
@@ -147,8 +148,10 @@ Released version 0.3.65 with the following changes:
 * [deps.clj](https://github.com/borkdude/deps.clj): A faithful port of the clojure CLI bash script to Clojure
     * Upgrade/sync with clojure CLI v1.11.3.1463
 
+### Other projects  
+There are many other projects I’m involved with but that had little to no activity in the past month. Check out the **Other Projects** section (more details) of [my blog here](https://blog.michielborkent.nl/oss-updates-may-jun-2024.html) to see a full list.
 
-
+Published 30-06-2024. <br>  
 
 
 ---
