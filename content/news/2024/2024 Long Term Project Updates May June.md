@@ -296,7 +296,7 @@ Niki  <br>
 
 ## Tommi Reiman  
 Started my 3 month sabbatical in June with a road-trip with the kids, a welcome reset! Now back to home, learning and doing.  
-Refreshed my knowledge of the latest [TypeScript](typescriptlang.org), [Zod](https://zod.dev/) and [XState](https://xstate.js.org/)
+Refreshed my knowledge of the latest [TypeScript](https://typescriptlang.org), [Zod](https://zod.dev/) and [XState](https://xstate.js.org/)
 with a goal to pull some of the good things to Clojure (into Malli + a fully Xstate-compatible FSM-library). Also working on a
 template-project with monorepo + malli + reitit, using Java21 and Virtual Threads.  
 
