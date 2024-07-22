@@ -15,10 +15,10 @@ A huge thank you to our 2024 long-term developers for their amazing work in May 
 [Bozhidar Batsov:](#bozhidar-batsov) CIDER       
 [Michiel Borkent:](#michiel-borkent) squint, babashka, neil, cherry, clj-kondo, and more   
 [Toby Crawley:](#toby-crawley) clojars-web    
-[Thomas Heller:](#thomas-heller) shadow-cljs  
+[Thomas Heller:](#thomas-heller) shadow-cljs, shadow-grove    
 [Kira McLean:](#kira-mclean) Scicloj Libraries. tcutils, Clojure Data Cookbook, and more   
 [Nikita Prokopov:](#nikita-prokopov) Humble UI, Datascript, AlleKinos, Clj-reload, and more  
-[Tommi Reiman:](#tommi-reiman) Reitit 7.0. Malli    
+[Tommi Reiman:](#tommi-reiman) Reitit 7.0. Malli, jsonista, and more    
 [Peter Taoussanis:](#peter-taoussanis) http-kit, Nippy, Telemere, and more  
 
 
@@ -343,4 +343,60 @@ If you are a user of spec-tools and want to help, feel free to ping me on Clojur
 
 Old abandoned Soviet-era sanatorium in Latvia.
 
-<img width="1728" alt="baltics" src="https://gist.githubusercontent.com/ikitommi/8c904bfaa17f3871f80d3e20ea84ebb7/raw/16c45e9af4d423c758f399db2f4d94c4cadf02d6/baltics.jpg">
+<img width="1728" alt="baltics" src="https://gist.githubusercontent.com/ikitommi/8c904bfaa17f3871f80d3e20ea84ebb7/raw/16c45e9af4d423c758f399db2f4d94c4cadf02d6/baltics.jpg"> <br>
+
+---
+
+## Peter Taoussanis  
+A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nubank](https://nubank.com.br/), [lambdaschmiede](https://www.lambdaschmiede.com/), and [other sponsors](https://www.taoensso.com/sponsors) of my open source work! I realise that it's a tough time for a lot of folks and businesses lately, and that sponsorships aren't always easy 🙏  
+
+### 2024 May - Jun  
+Hi folks! 👋  
+
+The last couple months have been light on big-ticket releases. Have been focused on maintenance, support, and groundwork for future releases. Output included:  
+
+### Nippy and Carmine security releases  
+
+If you haven't yet, please do try update to the latest versions of Nippy and/or Carmine when possible:  
+
+- [Nippy v3.4.2](https://github.com/taoensso/nippy/releases/tag/v3.4.2) released 2024-05-26  
+- [Carmine v3.4.1](https://github.com/taoensso/carmine/releases/tag/v3.4.1) released 2024-05-30  
+
+These include a fix to address a [security vulnerability](https://github.com/taoensso/nippy/security/advisories/GHSA-vw78-267v-588h) described in more detail in [Nippy's release notes](https://github.com/taoensso/nippy/releases/tag/v3.4.2).  
+
+In short: Carmine uses Nippy for its serialization, and Nippy uses a [Java compression library](https://github.com/airlift/aircompressor) for its compression. Earlier releases of that Java library may be vulnerable when decompressing **malicious data directly crafted by an attacker**. The attack is believed to require arbitrary control of the data provided to Nippy for thawing.  
+
+Relevant posts were made to the Clojure [subreddit](https://www.reddit.com/r/Clojure/comments/1d4q9k0/security_advisory_moderate_please_update_to_nippy/), Clojurians [Slack](https://clojurians.slack.com/archives/C06MAR553/p1717141613851239), and my X account.  
+
+### Telemere  
+
+Work has continued on [Telemere](https://www.taoensso.com/telemere), my new **structured logging and telemetry library** for Clojure/Script.  
+
+There were numerous minor beta releases to address various issues that came up, and to polish sharp edges and documentation, etc.  
+
+Instead of detailing all that here, I'll just point to the current release - [v1.0.0-beta14](https://github.com/taoensso/telemere/releases/tag/v1.0.0-beta14). The latest beta release will always include a summary of all major recent changes.  
+
+I'm aiming to try cut RC1 around the end of August, but won't needlessly rush. I'd like the API to be completely stable after v1 final is out, so I'd rather go a bit slower now to get things right.  
+
+Big thanks to early adopters and testers for all the valuable feedback so far! 🙏  
+
+### Carmine  
+
+Work has continued on Carmine v4. It's quite an undertaking, but I've recently updated and merged the first parts of the new v4 core into mainline.  
+
+The current plan is for all the new stuff to live in a parallel `taoensso.carmine-v4` namespace. This'll make it easier for me to roll out the new work in stages, and get feedback from early adopters without negatively impacting existing users.  
+
+There'll be a lot to say on Carmine v4, but that'll come later.  
+
+### Upcoming work  
+
+My current roadmap can always be found [here](https://www.taoensso.com/roadmap), and it's now also possible to [vote](https://www.taoensso.com/roadmap/vote) to help guide my priorities.  
+
+Current objectives for July-August include:  
+
+- Continued efforts on [Telemere](https://www.taoensso.com/telemere).  
+- Hopefully release the final stable version of [Tempel](https://www.taoensso.com/tempel) - my new **data security framework** for Clojure. Before the final release I'm planning to investigate support for [MFA](https://en.wikipedia.org/wiki/Multi-factor_authentication), extend the docs re: use with [OpenID](https://en.wikipedia.org/wiki/OpenID), [OWASP](https://en.wikipedia.org/wiki/OWASP), and make a few other last improvements. Originally had this planned for earlier, but rescheduled so that I could prioritise the Nippy security topic.  
+
+Cheers!  
+\- [Peter Taoussanis](https://www.taoensso.com)
+
