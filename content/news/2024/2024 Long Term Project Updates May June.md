@@ -19,7 +19,7 @@ A huge thank you to our 2024 long-term developers for their amazing work in May 
 [Kira McLean:](#kira-mclean) Scicloj Libraries. tcutils, Clojure Data Cookbook, and more   
 [Nikita Prokopov:](#nikita-prokopov) Humble UI, Datascript, AlleKinos, Clj-reload, and more  
 [Tommi Reiman:](#tommi-reiman) Reitit 7.0. Malli, jsonista, and more    
-[Peter Taoussanis:](#peter-taoussanis) http-kit, Nippy, Telemere, and more  
+[Peter Taoussanis:](#peter-taoussanis) Carmine, Nippy, Telemere, and more  
 
 
 ## Bozhidar Batsov   
@@ -31,7 +31,7 @@ This period was quite busy and productive for CIDER and friends. The highlights 
 - [nREPL 1.1.2](https://github.com/nrepl/nrepl/releases/tag/v1.1.2) (small bug-fix release)  
 - [nREPL 1.2.0](https://github.com/nrepl/nrepl/releases/tag/v1.2.0)  
 
-CIDER 1.14 is our most ambitious release since CIDER 1.8 ("Geneva"), that got released last autumn.  
+CIDER 1.14 is our most ambitious release since CIDER 1.8 ("Geneva"), which was released last autumn.  
 
 The single most notable user-visible change of this release is that CIDER is now more robust when evaluating and displaying large values. CIDER will no longer hang when `C-x C-e`ing a big value in a source buffer or stepping over such a value with CIDER debugger.  
 
@@ -67,7 +67,7 @@ If you want to ensure that the projects I work on are sustainably maintained, yo
 * [Patreon](https://www.patreon.com/borkdude)
 * [Clojurists Together](https://www.clojuriststogether.org/)
 
-If you're used to sponsoring through some other means which isn't listed above, please get in touch.
+If you're used to sponsoring through some other means which aren't listed above, please get in touch.
 
 On to the projects that I've been working on!
 
@@ -237,7 +237,7 @@ Thanks for reading. I always love hearing from people who are interested in any 
 ---
 
 ## Nikita Prokopov  
-Hi, I’m Nikitonsky and this is my open-source update for the past two month. Some good work was done on Humble UI (finally!), DataScript and new project — AlleKinos.de.  
+Hi, I’m Nikitonsky and this is my open-source update for the past two months. Some good work was done on Humble UI (finally!), DataScript and new project — AlleKinos.de.  
 
 New project: [AlleKinos.de](https://allekinos.de/), a no-nonsense movie showtimes site for the entire Germany:  
 - A simple view for all movie screenings in Germany, inspired by Bret Victor’s Magic Ink  
@@ -296,8 +296,8 @@ Niki  <br>
 
 ## Tommi Reiman  
 Started my 3 month sabbatical in June with a road-trip with the kids, a welcome reset! Now back to home, learning and doing.  
-Refreshed my knowledge of latest [TypeScript](typescriptlang.org), [Zod](https://zod.dev/) and [XState](https://xstate.js.org/)
-with an goal to pull some of the good things to Clojure (into Malli + a fully Xstate-compatible FSM-library). Also working on a
+Refreshed my knowledge of the latest [TypeScript](typescriptlang.org), [Zod](https://zod.dev/) and [XState](https://xstate.js.org/)
+with a goal to pull some of the good things to Clojure (into Malli + a fully Xstate-compatible FSM-library). Also working on a
 template-project with monorepo + malli + reitit, using Java21 and Virtual Threads.  
 
 ### Library Releases  
@@ -376,7 +376,7 @@ There were numerous minor beta releases to address various issues that came up, 
 
 Instead of detailing all that here, I'll just point to the current release - [v1.0.0-beta14](https://github.com/taoensso/telemere/releases/tag/v1.0.0-beta14). The latest beta release will always include a summary of all major recent changes.  
 
-I'm aiming to try cut RC1 around the end of August, but won't needlessly rush. I'd like the API to be completely stable after v1 final is out, so I'd rather go a bit slower now to get things right.  
+I'm aiming to try out RC1 around the end of August, but won't needlessly rush. I'd like the API to be completely stable after v1 final is out, so I'd rather go a bit slower now to get things right.  
 
 Big thanks to early adopters and testers for all the valuable feedback so far! 🙏  
 
