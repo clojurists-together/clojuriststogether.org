@@ -2,7 +2,7 @@
 title: "2024 Annual Members' Meeting"
 date: 2024-07-30T14:00:00+12:00
 author: Kathy Davis
-summary: "Hold the Date"
+summary: "Please Hold the Date!"
 
 
 ---
