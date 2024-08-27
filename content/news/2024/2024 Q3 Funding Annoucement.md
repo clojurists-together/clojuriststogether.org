@@ -13,13 +13,13 @@ Based on your input on our last two surveys, we know that our members and larger
 
 As usual, we received a LOT of great proposals - so the decision-making was not easy. However, proposals are returned to the pool for another 2 rounds for consideration. We're looking forward to developer updates over the next 3-6 months! Here is a general overview of what each developer plans to work on. We're looking forward to their regular updates as the projects progress.  
 
-### 9K Projects
+### $9K Projects
 [Clojure Goes Fast: Oleksandr Yakushev](#clojure-goes-fast-oleksandr-yakushev)  
 [Malli: Ambrose Bonnaire-Sergeant](#malli-constraints-and-humanization-ambrose-bonnaire-sergeant)  
 [Scicloj: Daniel Slutsky](#scicloj-daniel-slutsky)  
 
-### 2K Projects  
-[clj-nix, nixpkgs: Jose Luis Lafuente](#clj-nix-nixpkgs-jose-luis-lafuente)  
+### $2K Projects  
+[Clj-nix, nixpkgs: Jose Luis Lafuente](#clj-nix-nixpkgs-jose-luis-lafuente)  
 [Jank: Jeaye Wilkerson](#jank-jeaye-wilkerson)  
 [Kushi: Jeremiah Coyle](#kushi-jeremiah-coyle)   
 [Standard Clojure Style: Chris Oakman](#standard-clojure-style-chris-oakman)  
@@ -90,12 +90,12 @@ https://scicloj.github.io/docs/community/groups/ In the coming quarter, the foll
 - Stabilize cmdstan-clj -- a Clojure bridge to the Stan probabilistic programming language.  
 - Initiate the development of a grammar-of-graphics library (ggplot-inspired), continuing our experience with Hanamicloth.  
 
-### Maintain the Scicloj website:  
+#### Maintain the Scicloj website:  
 https://scicloj.github.io/  <br>
 
 ---
 
-## 2K Projects  
+## $2K Projects  
 
 ### Clj-nix, nixpkgs: Jose Luis Lafuente  
 I plan to add an alternative builder for Nix that uses Babashka/SCI instead of Bash. It provides a way for constructing complex Nix derivations using Babashka/SCI entirely, eliminating the need to write any Bash code. My plan is to initially develop the builder under the clj-nix project, but if it gains enough traction I'd consider extracting the new builder to its own project, or even upstreaming it to nixpkgs.   
