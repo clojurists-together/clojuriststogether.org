@@ -49,7 +49,6 @@
   round: Long-term 2024
   current: true
 
----
 
 - name: Clojure Goes Fast
   url: https://clojure-goes-fast.com
