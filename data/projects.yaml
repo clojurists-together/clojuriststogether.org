@@ -96,49 +96,49 @@
 
 - name: Clojure Goes Fast
   url: https://clojure-goes-fast.com
-  tier: USD 9K
+  tier: USD 9k
   date: 2024-08-26
   round: Q3 2024
   description: Address a backlog of improvements for Clojure Goes Fast tools including a brand new web application for clj-async-profilerthat will allow users to host and share the generated flamegraphs. Adding a new dynamic transforms for clj-async-rpofiler, improve aesthetics and the UX. For clj-java-decompiler, expanding the preprocessing abilities to present clearer results to the user. I also want to eventually integrate it more tightly with established Clojure IDEs like CIDER and Calva, which requires some groundwork.
   current: true
 - name: Malli
   url: https://github.com/frenchy64/malli/pull/12
-  tier: USD 9K
+  tier: USD 9k
   date: 2024-08-026
   round: Q3 2024
   description: This project aims to drastically improve the expressivity of Malli schemas to help address current user feedback and enable future extensions. The basic idea is to add a constraint language to each schema to express fine-grained invariants and then make this constraint language compatible with validators/explainers/generators/etc so that Malli users can write high-level, precise schemas without resorting to partial workarounds.
   current: true
 - name: Scicloj
   url: https://scicloj.github.io/
-  tier: USD 9K
+  tier: USD 9k
   date: 2024-08-26
   round: Q3 2024
   description: Stabilize the Noj v2 project: https://scicloj.github.io/noj Noj is an entry point for the main data and science libraries. Help with the documentation effort of Fastmath, develop current branches of Metamorph.ml., help with issues in Tablecloth (dataset processing). Stabilize and extend the API of Hanamicloth. Improve Noj documentation. Coordinate the Scicloj open-source mentoring program: https://scicloj.github.io/docs/community/groups/open-source-mentoring/
   current: true
 - name: Clj-nix, nixpkgs
   url: 
-  tier: USD 2K
+  tier: USD 2k
   date: 2024-08-26
   round: Q3 2024
   description: An alternative builder for Nix that uses Babashka / SCI instead of Bash. It provides a way for constructing complex Nix derivations using Babashka/SCI entirely, eliminating the need to write any Bash code. Add a Babashka writer to nixpkgs. Nixpkgs supports creating self-contained scripts, called "nix writers." Traditionally written in Bash, recent versions of nixpkgs include the ability to write these scripts in Python, Ruby, or Rust. 
   current: true
 - name: Jank
   url: https://github.com/jank-lang/jank
-  tier: USD 2K
+  tier: USD 2k
   date: 2024-06-026
   round: Q3 2024
   description: Build out jank's nREPL server, which involves implementing bencode support, `clojure.test`, improving native interop, supporting pre-compiled binary modules, and ultimately adding AOT compilation support.
   current: true
 - name: Kushi
   url: https://kushi.design/
-  tier: USD 2K
+  tier: USD 2k
   date: 2024-08-26
   round: Q3 2024
   description: Continued development of Kushi, a foundation for building web UI with ClojureScript. Work during the Q3 funding cycle will focus on finishing the new css transpilation pipeline, significant build system performance upgrades, and implementing a reimagined theming system.
   current: true
 - name: Standard Clojure Style
   url: https://github.com/oakmac/clojurefmt-js
-  tier: USD 2K
+  tier: USD 2k
   date: 2024-08-26
   round: Q3 2024
   description: Development of a Standard Clojure Style which is a “no config, runs everywhere, follows simple rules” formatter for Clojure code. More information about the genesis of the project can be found on Issue #1: https://github.com/oakmac/standard-clojure-style-js/issues/1
