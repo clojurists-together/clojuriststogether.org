@@ -1040,11 +1040,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Robert Kasanicky",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Andrew Huggins",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1167,6 +1162,6 @@
   } ],
   "member_stats" : {
     "company" : 44,
-    "developer" : 168
+    "developer" : 167
   }
 }
