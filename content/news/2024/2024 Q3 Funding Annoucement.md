@@ -3,7 +3,7 @@ title: "Q3 2024 Funding Announcement"
 date: 2024-08-27T08:30:00+08:00
 summary: "We are funding 7 projects for a total of $35K USD in Q3 2024."
 author: Kathy Davis
-draft: True
+
 
 ---
 
