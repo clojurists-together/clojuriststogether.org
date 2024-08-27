@@ -5,6 +5,7 @@
 # Q3 2023
 # Q1 2024
 # Q2 2024
+# Q3 2024
 
 
 - name: Bozhidar Batsov
@@ -93,56 +94,106 @@
   date: 2023-01-01
   round: Long-term 2023
 
-- name: clj-kondo, Babashka, Squint/Cherry
-  url: https://github.com/borkdude
-  tier: USD 9k
-  date: 2023-04-01
-  round: Q2 2024
-  description: Clj-kondo - support Clojure 1.12, other Clojure dialects, most wanted open tickets.
-   Babashka - Support new Clojure 1.12 (interop) features, better error messages. Squint/Cherry - source map support, better nREPL support, better CLJS compatibility
+- name: Clojure Goes Fast
+  url: https://clojure-goes-fast.com
+  tier: USD 9K
+  date: 2024-09-01
+  round: Q3 2024
+  description: Address a backlog of improvements for Clojure Goes Fast tools including a brand new web application for clj-async-profilerthat will allow users to host and share the generated flamegraphs. Adding a new dynamic transforms for clj-async-rpofiler, improve aesthetics and the UX. For clj-java-decompiler, expanding the preprocessing abilities to present clearer results to the user. I also want to eventually integrate it more tightly with established Clojure IDEs like CIDER and Calva, which requires some groundwork.
   current: true
-- name: Compojure-api
-  url: https://github.com/metosin/compojure-api
-  tier: USD 9k
-  date: 2023-04-01
-  round: Q2 2024
-  description: Compojure-api was a popular and actively maintained library used for web projects around 2014-2018. While its creators have moved on to reitit, there are many existing/legacy commercial projects that rely on compojure-api. This project will deploy the first new releases since 2019 (and include compojure-api 1.x, 2.0.0-alpha branch, ring-swagger), compojure-api/reitet migration tools, and Swagger 3.0
+- name: Malli
+  url: https://github.com/frenchy64/malli/pull/12
+  tier: USD 9K
+  date: 2024-09-01
+  round: Q3 2024
+  description: This project aims to drastically improve the expressivity of Malli schemas to help address current user feedback and enable future extensions. The basic idea is to add a constraint language to each schema to express fine-grained invariants and then make this constraint language compatible with validators/explainers/generators/etc so that Malli users can write high-level, precise schemas without resorting to partial workarounds.
+  current: true
+- name: Scicloj
+  url: https://scicloj.github.io/
+  tier: USD 9K
+  date: 2024-09-01
+  round: Q3 2024
+  description: Stabilize the Noj v2 project: https://scicloj.github.io/noj Noj is an entry point for the main data and science libraries. Help with the documentation effort of Fastmath, develop current branches of Metamorph.ml., help with issues in Tablecloth (dataset processing). Stabilize and extend the API of Hanamicloth. Improve Noj documentation. Coordinate the Scicloj open-source mentoring program: https://scicloj.github.io/docs/community/groups/open-source-mentoring/
+  current: true
+- name: Clj-nix, nixpkgs
+  url: https://github.com/jlesquembre/clj-nix
+  tier: USD 2K
+  date: 2024-09-01
+  round: Q3 2024
+  description: An alternative builder for Nix that uses Babashka / SCI instead of Bash. It provides a way for constructing complex Nix derivations using Babashka/SCI entirely, eliminating the need to write any Bash code. Add a Babashka writer to nixpkgs. Nixpkgs supports creating self-contained scripts, called "nix writers." Traditionally written in Bash, recent versions of nixpkgs include the ability to write these scripts in Python, Ruby, or Rust. 
   current: true
 - name: Jank
   url: https://github.com/jank-lang/jank
+  tier: USD 2K
+  date: 2024-09-01
+  round: Q3 2024
+  description: Build out jank's nREPL server, which involves implementing bencode support, `clojure.test`, improving native interop, supporting pre-compiled binary modules, and ultimately adding AOT compilation support.
+  current: true
+- name: Kushi
+  url: https://kushi.design/
+  tier: USD 2K
+  date: 2024-09-01
+  round: Q3 2024
+  description: Continued development of Kushi, a foundation for building web UI with ClojureScript. Work during the Q3 funding cycle will focus on finishing the new css transpilation pipeline, significant build system performance upgrades, and implementing a reimagined theming system.
+  current: true
+- name: Standard Clojure Style
+  url: https://github.com/oakmac/clojurefmt-js
+  tier: USD 2K
+  date: 2024-09-01
+  round: Q3 2024
+  description: Development of a Standard Clojure Style which is a “no config, runs everywhere, follows simple rules” formatter for Clojure code. More information about the genesis of the project can be found on Issue #1: https://github.com/oakmac/standard-clojure-style-js/issues/1
+  current: true
+
+- name: clj-kondo, Babashka, Squint/Cherry
+  url: https://github.com/borkdude
   tier: USD 9k
-  date: 2023-04-01
+  date: 2024-04-01
+  round: Q2 2024
+  description: Clj-kondo - support Clojure 1.12, other Clojure dialects, most wanted open tickets.
+   Babashka - Support new Clojure 1.12 (interop) features, better error messages. Squint/Cherry - source map support, better nREPL support, better CLJS compatibility
+  current: false
+- name: Compojure-api
+  url: https://github.com/metosin/compojure-api
+  tier: USD 9k
+  date: 2024-04-01
+  round: Q2 2024
+  description: Compojure-api was a popular and actively maintained library used for web projects around 2014-2018. While its creators have moved on to reitit, there are many existing/legacy commercial projects that rely on compojure-api. This project will deploy the first new releases since 2019 (and include compojure-api 1.x, 2.0.0-alpha branch, ring-swagger), compojure-api/reitet migration tools, and Swagger 3.0
+  current: false
+- name: Jank
+  url: https://github.com/jank-lang/jank
+  tier: USD 9k
+  date: 2024-04-01
   round: Q2 2024
   description: Jank has over 80% syntax parity with Clojure. Library parity with clojure.core is around 20%. The next step is to fill out the language to make it feel more like Clojure. There are just a few things remaining which show up in every Clojure program that will be addressed -  Lazy sequences, Loop/recur, Destructuring, Symbol interning, and for and doseq macros.
-  current: true
+  current: false
 - name: clj-merge tool
   url: https://github.com/kurtharriger/clj-mergetool
   tier: USD 2k
-  date: 2023-04-01
+  date: 20234-04-01
   round: Q2 2024
   description: Clojure syntax and style tend to create unnecessary merge conflicts due to bunching of ))) on single line for non-local changes. Manual resolution is often not performed by same person that wrote it and may not be well understood or (re)tested after merge - resulting in errors such as moving a form in or out of a else or block changing the code behavior. This project will focus on developing a git diff and merge tool for edn and clojure code with the aim of creating a git mergetool that can be used as a replacement for git’s default merge tool for clj(s) and edn files.
-  current: true
+  current: false
 - name: Enjure
   url: https://github.com/janetacarr/enjure/blob/main/notes.org
   tier: USD 2k
-  date: 2023-04-01
+  date: 2024-04-01
   round: Q2 2024
   description: This project will focus on MVP for the Enjure CLI tool and providing the ability to create new projects and view/controller templates as well as delete templates.
-  current: true
+  current: false
 - name: Lost in Lambduhhs
   url: https://linktr.ee/lambduhhh
   tier: USD 2k
-  date: 2023-04-01
+  date: 2024-04-01
   round: Q2 2024
   description: Rejuvenate and streamline production of the “Lost In Lambduhhs Podcast,” an interview-style technology show for engineers and people working in tech. Through free-form conversational style questions the audience gets the opportunity to “meet the person behind the Github”. The goal of each episode is to illuminate the personal narratives and insights of tech luminaries, giving them a platform to share their perspectives while promoting their library or tool. 
-  current: true
+  current: false
 - name: Plexus
   url: https://github.com/SovereignShop/plexus
   tier: USD 2k
-  date: 2023-04-01
+  date: 2024-04-01
   round: Q2 2024
   description: Development of a solid modelling library called Plexus, as well as dependent libraries that bring the full power of Manifold (a state-of-the-art CSG modelling library written in c++) to the Java and, most importantly, Clojure ecosystems. Plexus is an effort to define a declarative data model for solid modeling on top of a robust CSG foundation and combine that with the unmatched interactive development experience that Clojure provides.
-  current: true
+  current: tfalse
 
 - name: CIDER
   url: https://github.com/clojure-emacs/cider
