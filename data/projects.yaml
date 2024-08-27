@@ -99,6 +99,7 @@
   description: Development of a Standard Clojure Style which is a “no config, runs everywhere, follows simple rules” formatter for Clojure code. More information about the genesis of the project can be found on Issue #1: https://github.com/oakmac/standard-clojure-style-js/issues/1
   current: true
 
+
 - name: clj-kondo, Babashka, Squint/Cherry
   url: https://github.com/borkdude
   tier: USD 9k
@@ -148,7 +149,7 @@
   date: 2024/04/01
   round: Q2 2024
   description: Development of a solid modelling library called Plexus, as well as dependent libraries that bring the full power of Manifold (a state-of-the-art CSG modelling library written in c++) to the Java and, most importantly, Clojure ecosystems. Plexus is an effort to define a declarative data model for solid modeling on top of a robust CSG foundation and combine that with the unmatched interactive development experience that Clojure provides.
-  current: tfalse
+  current: false
 
 - name: CIDER
   url: https://github.com/clojure-emacs/cider
