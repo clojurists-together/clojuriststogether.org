@@ -49,59 +49,100 @@
   round: Long-term 2024
   current: true
 
-
+- name: Bozhidar Batsov
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+- name: Michiel Borkent
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+- name: Sean Corfield
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+- name: Toby Crawley
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+- name: Eric Dallo
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+- name: Christophe Grand
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+- name: Thomas Heller
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+- name: Nikita Prokopov
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+- name: Tommi Reiman
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+- name: Peter Stromberg
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
+- name: Peter Taoussanis
+  tier: Long-term (USD 1.5k/month)
+  date: 2023-01-01
+  round: Long-term 2023
 
 - name: Clojure Goes Fast
   url: https://clojure-goes-fast.com
-  tier: USD 9k
+  tier: USD 9K
   date: 2024-08-26
   round: Q3 2024
   description: Address a backlog of improvements for Clojure Goes Fast tools including a brand new web application for clj-async-profilerthat will allow users to host and share the generated flamegraphs. Adding a new dynamic transforms for clj-async-rpofiler, improve aesthetics and the UX. For clj-java-decompiler, expanding the preprocessing abilities to present clearer results to the user. I also want to eventually integrate it more tightly with established Clojure IDEs like CIDER and Calva, which requires some groundwork.
   current: true
 - name: Malli
   url: https://github.com/frenchy64/malli/pull/12
-  tier: USD 9k
-  date: 2024-08-26
+  tier: USD 9K
+  date: 2024-08-026
   round: Q3 2024
   description: This project aims to drastically improve the expressivity of Malli schemas to help address current user feedback and enable future extensions. The basic idea is to add a constraint language to each schema to express fine-grained invariants and then make this constraint language compatible with validators/explainers/generators/etc so that Malli users can write high-level, precise schemas without resorting to partial workarounds.
   current: true
 - name: Scicloj
   url: https://scicloj.github.io/
-  tier: USD 9k
+  tier: USD 9K
   date: 2024-08-26
   round: Q3 2024
   description: Stabilize the Noj v2 project: https://scicloj.github.io/noj Noj is an entry point for the main data and science libraries. Help with the documentation effort of Fastmath, develop current branches of Metamorph.ml., help with issues in Tablecloth (dataset processing). Stabilize and extend the API of Hanamicloth. Improve Noj documentation. Coordinate the Scicloj open-source mentoring program: https://scicloj.github.io/docs/community/groups/open-source-mentoring/
   current: true
 - name: Clj-nix, nixpkgs
-  url: https://github.com/jlesquembre/clj-nix
-  tier: USD 2k
+  url: 
+  tier: USD 2K
   date: 2024-08-26
   round: Q3 2024
   description: An alternative builder for Nix that uses Babashka / SCI instead of Bash. It provides a way for constructing complex Nix derivations using Babashka/SCI entirely, eliminating the need to write any Bash code. Add a Babashka writer to nixpkgs. Nixpkgs supports creating self-contained scripts, called "nix writers." Traditionally written in Bash, recent versions of nixpkgs include the ability to write these scripts in Python, Ruby, or Rust. 
   current: true
 - name: Jank
   url: https://github.com/jank-lang/jank
-  tier: USD 2k
-  date: 2024-08-26
+  tier: USD 2K
+  date: 2024-06-026
   round: Q3 2024
   description: Build out jank's nREPL server, which involves implementing bencode support, `clojure.test`, improving native interop, supporting pre-compiled binary modules, and ultimately adding AOT compilation support.
   current: true
 - name: Kushi
   url: https://kushi.design/
-  tier: USD 2k
+  tier: USD 2K
   date: 2024-08-26
   round: Q3 2024
   description: Continued development of Kushi, a foundation for building web UI with ClojureScript. Work during the Q3 funding cycle will focus on finishing the new css transpilation pipeline, significant build system performance upgrades, and implementing a reimagined theming system.
   current: true
 - name: Standard Clojure Style
   url: https://github.com/oakmac/clojurefmt-js
-  tier: USD 2k
+  tier: USD 2K
   date: 2024-08-26
   round: Q3 2024
   description: Development of a Standard Clojure Style which is a “no config, runs everywhere, follows simple rules” formatter for Clojure code. More information about the genesis of the project can be found on Issue #1: https://github.com/oakmac/standard-clojure-style-js/issues/1
   current: true
-
-
 
 - name: clj-kondo, Babashka, Squint/Cherry
   url: https://github.com/borkdude
@@ -135,21 +176,21 @@
 - name: Enjure
   url: https://github.com/janetacarr/enjure/blob/main/notes.org
   tier: USD 2k
-  date: 2024/04/01
+  date: 2024-04-01
   round: Q2 2024
   description: This project will focus on MVP for the Enjure CLI tool and providing the ability to create new projects and view/controller templates as well as delete templates.
   current: false
 - name: Lost in Lambduhhs
   url: https://linktr.ee/lambduhhh
   tier: USD 2k
-  date: 2024/04/01
+  date: 2024-04-01
   round: Q2 2024
   description: Rejuvenate and streamline production of the “Lost In Lambduhhs Podcast,” an interview-style technology show for engineers and people working in tech. Through free-form conversational style questions the audience gets the opportunity to “meet the person behind the Github”. The goal of each episode is to illuminate the personal narratives and insights of tech luminaries, giving them a platform to share their perspectives while promoting their library or tool. 
   current: false
 - name: Plexus
   url: https://github.com/SovereignShop/plexus
   tier: USD 2k
-  date: 2024/04/01
+  date: 2024-04-01
   round: Q2 2024
   description: Development of a solid modelling library called Plexus, as well as dependent libraries that bring the full power of Manifold (a state-of-the-art CSG modelling library written in c++) to the Java and, most importantly, Clojure ecosystems. Plexus is an effort to define a declarative data model for solid modeling on top of a robust CSG foundation and combine that with the unmatched interactive development experience that Clojure provides.
   current: false
@@ -157,56 +198,56 @@
 - name: CIDER
   url: https://github.com/clojure-emacs/cider
   tier: USD 9k
-  date: 2024/01/01
+  date: 01/01/2024
   round: Q1 2024
   description: Work will be based on CIDER's issue trackers (cider, cider-nrepl, orchard). Some of the larger themes will be:cider-inspector-mode refinements, cider-log-mode refinements, and refactoring our Java parsing machinery.
   current: false
 - name: Clojure-lsp
   url: https://clojure-lsp.io/
   tier: USD 9k
-  date: 2024/01/01
+  date: 01/01/2024
   round: Q1 2024
   description: Focus on clojure-lsp and related ones like lein-clojure-lsp, lsp4clj, and clojure-lsp- intellij. This project will include adding missing LSP features, options to create clojure project from scratch for fast onboarding, better performance and stability.
   current: false
 - name: Instaparse
   url: https://github.com/engelberg/instaparse
   tier: USD 9k
-  date: 2024/01/01
+  date: 01/01/2024
   round: Q1 2024
   description: Focus on evaluating and incorporating pull requests for instaparse and possibly new features requested by the community (and updating documentation along the way)
   current: false
 - name: Jank
   url: https://github.com/jank-lang/jank
   tier: USD 2k
-  date: 2024/01/01
+  date: 01/01/2024
   round: Q1 2024
   description: Closing in on crucial missing pieces in jank which have been getting in the way of reaching parity with Clojure. Support  thread locality or the stack-based nature of dynamic vars. Add  syntax quoting, unquoting, or splicing. If time permits,  support ^:foo or ^{:foo true} meta hints on forms and normalize interpolation syntax.
   current: false
 - name: Scicloj
   url: https://scicloj.github.io/
   tier: USD 9k
-  date: 2024/01/01
+  date: 01/01/2024
   round: Q1 2024
   description: Develop a clojure-data-scrapbook - a community space for documenting data analysis workflows - similar to the clojure-data-cookbook, but less curated and more community-driven. Convene a real-world-data study group where individuals will bring their own data problems and collaborate on common practices. This is in addition to maintaining the Scicloj website and running the existing dev and study groups.
   current: false
 - name: Sitefox
   url: https://github.com/chr15m/sitefox
   tier: USD 2k
-  date: 2024/01/01
+  date: 01/01/2024
   round: Q1 2024
   description: Bring Sitefox dependencies up to date, tidy up the key-value database module & write basic tests, improve the end-to-end tests to ensure greater reliability under change, and Improve error handling by making errors more verbose. Improve support by making two concise how-to videos showing people how to build simple sites and apps with Sitefox.
   current: false
 - name: UnifyBio
   url: https://github.com/vendekagon-labs/unify
   tier: USD 2k
-  date: 2024/01/01
+  date: 01/01/2024
   round: Q1 2024
   description: Converting the CANDELBio ecosystem created at the Parker Institute for Cancer Immunotherapy from its open source, but semi-abandoned state to UnifyBio, a world class data harmonization platform - Clojure-first and permissively open source (Apache 2.0).
   current: false
 - name: Wolframite
   url: https://github.com/scicloj/wolframite
   tier: USD 2k
-  date: 2024/01/01
+  date: 01/01/2024
   round: Q1 2024
   description: There is an existing library for wolfram<>clojure interop but it's lack of documentation, reliability and usability mean that it is not widely used or known. We hope to fix all of these issues and so bring wolfram interop up to the standards of similar bridges like clojisr and libpython-clj.
   current: false
