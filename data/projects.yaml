@@ -49,50 +49,7 @@
   round: Long-term 2024
   current: true
 
-- name: Bozhidar Batsov
-  tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
-- name: Michiel Borkent
-  tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
-- name: Sean Corfield
-  tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
-- name: Toby Crawley
-  tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
-- name: Eric Dallo
-  tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
-- name: Christophe Grand
-  tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
-- name: Thomas Heller
-  tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
-- name: Nikita Prokopov
-  tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
-- name: Tommi Reiman
-  tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
-- name: Peter Stromberg
-  tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
-- name: Peter Taoussanis
-  tier: Long-term (USD 1.5k/month)
-  date: 2023-01-01
-  round: Long-term 2023
+
 
 - name: Clojure Goes Fast
   url: https://clojure-goes-fast.com
