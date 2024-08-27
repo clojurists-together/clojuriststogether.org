@@ -100,6 +100,7 @@
   description: Development of a Standard Clojure Style which is a “no config, runs everywhere, follows simple rules” formatter for Clojure code. More information about the genesis of the project can be found on Issue #1: https://github.com/oakmac/standard-clojure-style-js/issues/1
   current: true
 
+
 - name: clj-kondo, Babashka, Squint/Cherry
   url: https://github.com/borkdude
   tier: USD 9k
