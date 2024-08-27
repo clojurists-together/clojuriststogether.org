@@ -94,6 +94,7 @@
   date: 2023-01-01
   round: Long-term 2023
 
+
 - name: Clojure Goes Fast
   url: https://clojure-goes-fast.com
   tier: USD 9K
@@ -169,7 +170,7 @@
 - name: clj-merge tool
   url: https://github.com/kurtharriger/clj-mergetool
   tier: USD 2k
-  date: 20234-04-01
+  date: 2024-04-01
   round: Q2 2024
   description: Clojure syntax and style tend to create unnecessary merge conflicts due to bunching of ))) on single line for non-local changes. Manual resolution is often not performed by same person that wrote it and may not be well understood or (re)tested after merge - resulting in errors such as moving a form in or out of a else or block changing the code behavior. This project will focus on developing a git diff and merge tool for edn and clojure code with the aim of creating a git mergetool that can be used as a replacement for git’s default merge tool for clj(s) and edn files.
   current: false
