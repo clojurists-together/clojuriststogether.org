@@ -201,56 +201,56 @@
   date: 01/01/2024
   round: Q1 2024
   description: Work will be based on CIDER's issue trackers (cider, cider-nrepl, orchard). Some of the larger themes will be:cider-inspector-mode refinements, cider-log-mode refinements, and refactoring our Java parsing machinery.
-  current: false
+  current: true
 - name: Clojure-lsp
   url: https://clojure-lsp.io/
   tier: USD 9k
   date: 01/01/2024
   round: Q1 2024
   description: Focus on clojure-lsp and related ones like lein-clojure-lsp, lsp4clj, and clojure-lsp- intellij. This project will include adding missing LSP features, options to create clojure project from scratch for fast onboarding, better performance and stability.
-  current: false
+  current: true
 - name: Instaparse
   url: https://github.com/engelberg/instaparse
   tier: USD 9k
   date: 01/01/2024
   round: Q1 2024
   description: Focus on evaluating and incorporating pull requests for instaparse and possibly new features requested by the community (and updating documentation along the way)
-  current: false
-- name: Jank
-  url: https://github.com/jank-lang/jank
-  tier: USD 2k
-  date: 01/01/2024
-  round: Q1 2024
-  description: Closing in on crucial missing pieces in jank which have been getting in the way of reaching parity with Clojure. Support  thread locality or the stack-based nature of dynamic vars. Add  syntax quoting, unquoting, or splicing. If time permits,  support ^:foo or ^{:foo true} meta hints on forms and normalize interpolation syntax.
-  current: false
+  current: true
 - name: Scicloj
   url: https://scicloj.github.io/
   tier: USD 9k
   date: 01/01/2024
   round: Q1 2024
   description: Develop a clojure-data-scrapbook - a community space for documenting data analysis workflows - similar to the clojure-data-cookbook, but less curated and more community-driven. Convene a real-world-data study group where individuals will bring their own data problems and collaborate on common practices. This is in addition to maintaining the Scicloj website and running the existing dev and study groups.
-  current: false
+  current: true
+- name: Jank
+  url: https://github.com/jank-lang/jank
+  tier: USD 2k
+  date: 01/01/2024
+  round: Q1 2024
+  description: Closing in on crucial missing pieces in jank which have been getting in the way of reaching parity with Clojure. Support  thread locality or the stack-based nature of dynamic vars. Add  syntax quoting, unquoting, or splicing. If time permits,  support ^:foo or ^{:foo true} meta hints on forms and normalize interpolation syntax.
+  current: true
 - name: Sitefox
   url: https://github.com/chr15m/sitefox
   tier: USD 2k
   date: 01/01/2024
   round: Q1 2024
   description: Bring Sitefox dependencies up to date, tidy up the key-value database module & write basic tests, improve the end-to-end tests to ensure greater reliability under change, and Improve error handling by making errors more verbose. Improve support by making two concise how-to videos showing people how to build simple sites and apps with Sitefox.
-  current: false
+  current: true
 - name: UnifyBio
   url: https://github.com/vendekagon-labs/unify
   tier: USD 2k
   date: 01/01/2024
   round: Q1 2024
   description: Converting the CANDELBio ecosystem created at the Parker Institute for Cancer Immunotherapy from its open source, but semi-abandoned state to UnifyBio, a world class data harmonization platform - Clojure-first and permissively open source (Apache 2.0).
-  current: false
+  current: true
 - name: Wolframite
   url: https://github.com/scicloj/wolframite
   tier: USD 2k
   date: 01/01/2024
   round: Q1 2024
   description: There is an existing library for wolfram<>clojure interop but it's lack of documentation, reliability and usability mean that it is not widely used or known. We hope to fix all of these issues and so bring wolfram interop up to the standards of similar bridges like clojisr and libpython-clj.
-  current: false
+  current: true
 
 
 - name: Bosquet
