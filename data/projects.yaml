@@ -6,7 +6,6 @@
 # Q2 2024
 # Q3 2024
 
-
 - name: Bozhidar Batsov
   tier: Long-term (USD 1.5k/month)
   date: 2024-01-01
@@ -112,14 +111,14 @@
   tier: USD 9k
   date: 2024-08-26
   round: Q3 2024
-  description: Stabilize the Noj v2 project: https://scicloj.github.io/noj Noj is an entry point for the main data and science libraries. Help with the documentation effort of Fastmath, develop current branches of Metamorph.ml., help with issues in Tablecloth (dataset processing). Stabilize and extend the API of Hanamicloth. Improve Noj documentation. Coordinate the Scicloj open-source mentoring program: https://scicloj.github.io/docs/community/groups/open-source-mentoring/
+  description: "Stabilize the Noj v2 project: https://scicloj.github.io/noj Noj is an entry point for the main data and science libraries. Help with the documentation effort of Fastmath, develop current branches of Metamorph.ml., help with issues in Tablecloth (dataset processing). Stabilize and extend the API of Hanamicloth. Improve Noj documentation. Coordinate the Scicloj open-source mentoring program: https://scicloj.github.io/docs/community/groups/open-source-mentoring/"
   current: true
 - name: Clj-nix, nixpkgs
-  url: 
+  url:
   tier: USD 2k
   date: 2024-08-26
   round: Q3 2024
-  description: An alternative builder for Nix that uses Babashka / SCI instead of Bash. It provides a way for constructing complex Nix derivations using Babashka/SCI entirely, eliminating the need to write any Bash code. Add a Babashka writer to nixpkgs. Nixpkgs supports creating self-contained scripts, called "nix writers." Traditionally written in Bash, recent versions of nixpkgs include the ability to write these scripts in Python, Ruby, or Rust. 
+  description: An alternative builder for Nix that uses Babashka / SCI instead of Bash. It provides a way for constructing complex Nix derivations using Babashka/SCI entirely, eliminating the need to write any Bash code. Add a Babashka writer to nixpkgs. Nixpkgs supports creating self-contained scripts, called "nix writers." Traditionally written in Bash, recent versions of nixpkgs include the ability to write these scripts in Python, Ruby, or Rust.
   current: true
 - name: Jank
   url: https://github.com/jank-lang/jank
@@ -148,8 +147,9 @@
   tier: USD 9k
   date: 2024-04-01
   round: Q2 2024
-  description: Clj-kondo - support Clojure 1.12, other Clojure dialects, most wanted open tickets.
-   Babashka - Support new Clojure 1.12 (interop) features, better error messages. Squint/Cherry - source map support, better nREPL support, better CLJS compatibility
+  description:
+    Clj-kondo - support Clojure 1.12, other Clojure dialects, most wanted open tickets.
+    Babashka - Support new Clojure 1.12 (interop) features, better error messages. Squint/Cherry - source map support, better nREPL support, better CLJS compatibility
   current: false
 - name: Compojure-api
   url: https://github.com/metosin/compojure-api
@@ -184,7 +184,7 @@
   tier: USD 2k
   date: 2024-04-01
   round: Q2 2024
-  description: Rejuvenate and streamline production of the “Lost In Lambduhhs Podcast,” an interview-style technology show for engineers and people working in tech. Through free-form conversational style questions the audience gets the opportunity to “meet the person behind the Github”. The goal of each episode is to illuminate the personal narratives and insights of tech luminaries, giving them a platform to share their perspectives while promoting their library or tool. 
+  description: Rejuvenate and streamline production of the “Lost In Lambduhhs Podcast,” an interview-style technology show for engineers and people working in tech. Through free-form conversational style questions the audience gets the opportunity to “meet the person behind the Github”. The goal of each episode is to illuminate the personal narratives and insights of tech luminaries, giving them a platform to share their perspectives while promoting their library or tool.
   current: false
 - name: Plexus
   url: https://github.com/SovereignShop/plexus
@@ -251,7 +251,6 @@
   description: There is an existing library for wolfram<>clojure interop but it's lack of documentation, reliability and usability mean that it is not widely used or known. We hope to fix all of these issues and so bring wolfram interop up to the standards of similar bridges like clojisr and libpython-clj.
   current: false
 
-
 - name: Bosquet
   url: https://github.com/zmedelis/bosquet
   tier: USD 9k
@@ -287,7 +286,7 @@
   round: Q3 2023
   description: Write and post how-to articles and background essays that will help Biff to bring more people into the Clojure Community.  This includes “Biff from scratch,” - a series of guides that will show how to put together a web app in the style of Biff without actually using any Biff code.
   current: false
-- name: Deps-try  
+- name: Deps-try
   url: https://github.com/eval/deps-try
   tier: USD 2k
   date: 2023-08-20
@@ -295,7 +294,7 @@
   description: The plan is to add a possibility to deps-try (a CLI to start a rebel-readline powered REPL with libraries you want to try) to load recipes. A recipe  (i.e. a local or remote Clojure file) essentially seeds the REPL-history which would make it easy for someone to ‘step through’ some code. E.g. library authors could  add such a recipe-file to their repositories to demonstrate how to use a library.
   current: false
 - name: Project GDL
-  url:  
+  url:
   tier: USD 2k
   date: 2023-08-20
   round: Q3 2023
@@ -309,7 +308,7 @@
   description: Focus on implementing clojure.core/require and everything involved. Right now, jank compiles everything from one file (and re-compiles clojure.core every time it starts); the runtime/compiler understand namespaces, but there is no compilation cache, no class paths for looking up modules, no dependency loading, etc.  After this work is done, jank will be in a position to integrate with leiningen and actually be used for multi-project files.
   current: false
 
-- name: Clj-kondo, babashka, cherry, SCI, nbb 
+- name: Clj-kondo, babashka, cherry, SCI, nbb
   url: https://github.com/borkdude
   tier: USD 9k
   date: 2023-06-01
@@ -335,22 +334,22 @@
   tier: USD 9k
   date: 2023-06-01
   round: Q2 2023
-  description: Implement ports of Neanderthal's MKL engines to JavaCPP, ClojureCUDA to JavaCPP's CUDA, and Neanderthal's GPU matrix engine to new, JavaCPP-based ClojureCUDA. Update Deep Diamond to use new infrastructure. 
+  description: Implement ports of Neanderthal's MKL engines to JavaCPP, ClojureCUDA to JavaCPP's CUDA, and Neanderthal's GPU matrix engine to new, JavaCPP-based ClojureCUDA. Update Deep Diamond to use new infrastructure.
   current: false
-  
+
 - name: clj-Nix
   url: https://github.com/jlesquembre/clj-nix
   tier: USD 2k
   date: 2023-06-01
   round: Q2 2023
-  description: Refactor the CLI to be more granular about the dependencies used at build time 
+  description: Refactor the CLI to be more granular about the dependencies used at build time
   current: false
 - name: Jank
   url: https://github.com/jank-lang/jank
   tier: USD 2k
   date: 2023-06-01
   round: Q2 2023
-  description: Provide REPL support, better native interop, smaller binaries, and faster compilation times  for native executables 
+  description: Provide REPL support, better native interop, smaller binaries, and faster compilation times  for native executables
   current: false
 - name: Lucene Grep
   url: https://github.com/dainiusjocas/lucene-grep
@@ -364,9 +363,9 @@
   tier: USD 2k
   date: 2023-06-01
   round: Q2 2023
-  description: Improve Portfolio’s error handling and the experience for new users by adding self-hosted documentation to guide users via its UI once set up. 
+  description: Improve Portfolio’s error handling and the experience for new users by adding self-hosted documentation to guide users via its UI once set up.
   current: false
-  
+
 - name: Aleph/Manifold
   tier: USD 9k
   date: 2023-02-01
@@ -397,7 +396,7 @@
   tier: USD 2k
   date: 2023-02-01
   round: Q1 2023
-  description:  A fully functional version and documentation of Doxa with examples of how to use with `re-frame` and `reagent` 
+  description: A fully functional version and documentation of Doxa with examples of how to use with `re-frame` and `reagent`
   current: false
 - name: Exercism
   url: https://github.com/bobbicodes/clojure-eval
@@ -413,7 +412,7 @@
   round: Q1 2023
   description: Implement and provide a full range of documentation for Sparse Matrix support in Neanderthal, a Clojure library for fast matrix computations.
   current: false
-  
+
 - name: Biff
   url: https://github.com/jacobobryant/biff
   tier: USD 2k
@@ -457,7 +456,7 @@
   round: Q3 2022
   current: false
 - name: Exo (unreleased)
-  url: 
+  url:
   tier: USD 2k
   description: ClojureScript library for fetching and caching data using EQL
   date: 2022-09-01
@@ -491,8 +490,7 @@
   date: 2022-09-01
   round: Q3 2022
   current: false
-  
-  
+
 - name: Bozhidar Batsov
   tier: Long-term (USD 1.5k/month)
   date: 2021-09-01
@@ -560,7 +558,7 @@
   date: 2022-09-01
   round: Q3 2022
 - name: Exo (unreleased)
-  url: 
+  url:
   tier: USD 2k
   description: ClojureScript library for fetching and caching data using EQL
   date: 2022-09-01
