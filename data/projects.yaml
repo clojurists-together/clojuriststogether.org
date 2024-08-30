@@ -101,7 +101,7 @@
   current: true
 - name: Malli
   url: https://github.com/frenchy64/malli/pull/12
-  tier: USD 9K
+  tier: USD 9k
   date: 2024-08-026
   round: Q3 2024
   description: This project aims to drastically improve the expressivity of Malli schemas to help address current user feedback and enable future extensions. The basic idea is to add a constraint language to each schema to express fine-grained invariants and then make this constraint language compatible with validators/explainers/generators/etc so that Malli users can write high-level, precise schemas without resorting to partial workarounds.
