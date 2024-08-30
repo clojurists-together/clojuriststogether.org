@@ -7,11 +7,11 @@ author: Kathy Davis
 
 ---
 
-Clojurists Together is excited to announce that  we will be funding 7 projects in Q3 2024 for a total of $35K USD (3 for $9K and 4 shorter or more experimental projects for $2K). To date in 2024, we have or are funding 32 projects or developers for a total of $258,000 USD. This includes the 8 long-term developers whose project work we are supporting for the year. Thanks to all our members for making this happen!
+Clojurists Together is excited to announce that  we will be funding 7 projects in Q3 2024 for a total of $35K USD (3 for $9K and 4 shorter or more experimental projects for $2K). To date in 2024, we have or are funding 30 projects or developers for a total of $258,000 USD. This includes the 8 long-term developers whose project work we are supporting for the year. Thanks to all our members for making this happen!
 
 Based on your input on our last two surveys, we know that our members and larger Clojure community rely on this work on a regular (most on a daily) basis.  If we are able to engage more companies or individual developer members, we could support even more important work - so please get the word out.  
 
-As usual, we received a LOT of great proposals - so the decision-making was not easy. However, proposals are returned to the pool for another 2 rounds for consideration. We're looking forward to developer updates over the next 3-6 months! Here is a general overview of what each developer plans to work on. We're looking forward to their regular updates as the projects progress.  
+As usual, we received a LOT of great proposals - so the decision-making was not easy. However, proposals are returned to the pool for another 2 rounds for consideration. Here is a general overview of what each developer plans to work on. We're looking forward to their regular updates as the projects progress!  
 
 ### $9K Projects
 [Clojure Goes Fast: Oleksandr Yakushev](#clojure-goes-fast-oleksandr-yakushev)  
