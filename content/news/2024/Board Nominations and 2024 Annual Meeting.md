@@ -3,7 +3,7 @@ title: "2024 Board Nominations and Our Annual Meeting"
 date: 2024-09-02T08:30:00+08:00
 summary: "Stand for our 2024 elections and attend the Annual Meeting"
 author: Kathy Davis
-draft: True
+
 
 ---
 Clojurists Together is having our fourth board elections, and our fourth annual members meeting.
