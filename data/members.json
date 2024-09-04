@@ -25,7 +25,7 @@
     "name" : "Metosin",
     "member_type" : "company",
     "url" : "https://www.metosin.fi/",
-    "logo" : "/logos/metosin.png",
+    "logo" : "/logos/metosin.svg",
     "level" : "transduce",
     "founding" : true,
     "tagline" : "Metosin is the first Finnish software studio specializing in Clojure.\nWe believe that software development is, first and foremost, a human process."
