@@ -55,7 +55,7 @@ Our current main community-oriented goal is making the existing data-science sta
 
 All these, and the tools to support them, grow organically, driven by real-world use-cases.   
 
-Here is the current plan for the coming quarter. While the plan focuses on my tasks, many of these tasks are done in collaboration with others. The plan and priorities are frequently updated through discussions at the Scicloj group.  
+Here is the current plan for the coming quarter. While the plan focuses on my tasks, many of these tasks are done in collaboration with others. The plan and priorities are frequently updated through discussions at the Scicloj group.  Daniel has also provided us a [YouTube](https://youtu.be/WO6mVURUky4?feature=shared) video explaining more about Scicloj and the project - thanks for this Daniel - it is always fun to hear directly from the source! 
 
 #### Stabilize the Noj v2 project:  
 https://scicloj.github.io/noj  Noj is an entry point for the main data and science libraries. Some parts are under active development and will be stabilized as a group effort in the coming quarter. Specifically, stabilization will involve the following main tasks:  
