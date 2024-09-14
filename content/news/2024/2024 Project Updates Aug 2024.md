@@ -1,9 +1,9 @@
 ---
 title: "July & August 2024 Project Updates"
-date: 2024-07-22T14:00:00+12:00
+date: 2024-09-14T14:00:00+12:00
 author: Kathy Davis
 summary: "The latest from Bozhidar Batsov, Michiel Borkent, Janet Carr, Thomas Clark, Toby Crawley, Thomas Heller, Kira McLean, Nikita Prokopov, Tommi Reiman, Peter Taoussanis"  
-draft: True
+
 
 
 ---
