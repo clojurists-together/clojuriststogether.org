@@ -11,7 +11,7 @@ draft: True
 This month we have reports from both our 2024 long-term developers as well as from two shorter-term projects. Thanks everyone for the great work!
 
 ## Short-Term Projects
-[Janet A. Carr: Enjure](#janet-a-carr-enjure)
+[Janet A. Carr: Enjure](#janet-a-carr-enjure)  
 [Thomas Clark: Wolframite](#thomas-clark-wolframite)   
 
 
@@ -19,11 +19,11 @@ This month we have reports from both our 2024 long-term developers as well as fr
 [Bozhidar Batsov:](#bozhidar-batsov) CIDER. Orchard       
 [Michiel Borkent:](#michiel-borkent) squint, babashka, neil, cherry, clj-kondo, and more   
 [Toby Crawley:](#toby-crawley) clojars-web    
-[Thomas Heller:](#thomas-heller) shadow-cljs 
+[Thomas Heller:](#thomas-heller) shadow-cljs  
 [Kira McLean:](#kira-mclean) Scicloj Libraries. tcutils, Clojure Data Cookbook, Mentoring, and more   
 [Nikita Prokopov:](#nikita-prokopov) Humble UI, Clojure Sublimed  
-[Tommi Reiman:](#tommi-reiman) Reitit 7.0. Malli 
-[Peter Taoussanis:](#peter-taoussanis) Tempel, Tufte, Telemere
+[Tommi Reiman:](#tommi-reiman) Reitit 7.0. Malli  
+[Peter Taoussanis:](#peter-taoussanis) Tempel, Tufte, Telemere  
 
 
 ## Short-Term Projects  
@@ -182,14 +182,12 @@ If you want to ensure that the projects I work on are sustainably maintained, yo
 * [Patreon](https://www.patreon.com/borkdude)
 * [Clojurists Together](https://www.clojuriststogether.org/)
 
-If you're used to sponsoring through some other means which aren't listed above, please get in touch.
-
-On to the projects that I've been working on!
+If you're used to sponsoring through some other means which aren't listed above, please get in touch. On to the projects that I've been working on!
 
 ### Updates  
 
 Here are updates about the projects/libraries I've worked on in July and August.   
-* [clj-kondo](https://github.com/clj-kondo/clj-kondo): static analyzer and linter for Clojure code that sparks joy. \  
+* [clj-kondo](https://github.com/clj-kondo/clj-kondo): static analyzer and linter for Clojure code that sparks joy.
     * Unreleased:
     * [#2386](https://github.com/clj-kondo/clj-kondo/issues/2386): fix regression introduced in [#2364](https://github.com/clj-kondo/clj-kondo/issues/2364) in `letfn` (unreleased)  
     * v2024.08.29:  
@@ -248,12 +246,11 @@ Here are updates about the projects/libraries I've worked on in July and August.
     * Mostly worked on making viewer functions available from `.cljs` files and allow working on them via a nREPL session
 * [squint](https://github.com/squint-cljs/squint): CLJS _syntax_ to JS compiler
     * Nikita Prokopov made the [squint logo](https://github.com/squint-cljs/squint/blob/main/logo/logo.svg)!
-    * [#542](https://github.com/squint-cljs/squint/issues/542): fix `run` on Windows
+    * [#542](https://github.com/squint-cljs/squint/issues/542): fix `run` on Windows  
 
-
-## Other projects
-
-
+### Other projects  
+There are many other projects I’m involved with but that had little to no activity in the past month. Check out the **Other Projects** section (more details) of [my blog here](https://blog.michielborkent.nl/oss-updates-jul-aug-2024.html) to see a full list.  
+Published: 2024-08-30
 
 
 <br> 
@@ -332,7 +329,7 @@ No matter how things go, I'll be back in two more months with another update. Th
 
 ---
 
-## Nikita Prokopov (Niki Tonsky)  
+## Nikita Prokopov  
 Hello dear sponsors, thank you all for your continous support. Last two months have been really heavy on Humble UI and Clojure Sublimed.  
 
 ### [Clojure Sublimed](https://github.com/tonsky/Clojure-Sublimed)  
@@ -547,7 +544,7 @@ So the idea (hope) is to be both a **practical tool**, and a reference example o
 ### Upcoming work  
 > As always please do help [vote](https://www.taoensso.com/roadmap/vote) on what you'd like to see me working on!  
 
-#### Telemere  
+### Telemere  
 My aim is to release v1 RC1 in September, then v1 final before the end of 2024.  
 
 The big stuff is all done, what remains is to give folks the opportunity to kick tyres and report issues or request changes before locking down the API.  
@@ -556,12 +553,12 @@ Please also [vote](https://github.com/taoensso/roadmap/issues/12) on which signa
 
 After that, my hope will be for Telemere to basically be stable - and to redirect future efforts toward education and promotion. Telemere enables a lot of powerful but non-obvious stuff, which I'll need to do more work to explain.  
 
-#### Tempel  
+### Tempel  
 > [Tempel](https://www.taoensso.com/tempel) is a new data security framework for Clojure.  
 
 I'd like to release v1 final before the end of 2024. Still have some last features to think through and design ([multi-factor authentication](https://github.com/taoensso/roadmap/issues/17), etc.).  
 
-#### Tufte  
+### Tufte  
 > [Tufte](https://www.taoensso.com/tufte) offers simple performance monitoring for Clojure/Script.  
 
 Once Telemere v1 RC1 is out, I'll be ready to prepare Tufte v3 - which'll include a move to the exact same signal architecture powering Telemere.  
