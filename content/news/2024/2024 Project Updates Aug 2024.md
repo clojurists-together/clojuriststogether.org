@@ -29,9 +29,7 @@ This month we have reports from both our 2024 long-term developers as well as fr
 ## Short-Term Projects  
 
 ## Janet A Carr: Enjure  
-Progress has been a bit slow in this latter half of the project. I do have freelance clients to keep happy after all.
-
-I haven't elaborated too much of the implementation of Enjure, rather I've written some documentation in the github repository as well as deployed a website for the project over at [enjure.org](https://enjure.org). The website covers the basic philosophy and architecture as well as how to get started with Enjure by using the CLI. I'm hoping to give both Enjure and it's website some more love in the future when I have time. However, for the couple month span of the project thus far, I think it's been relatively successful in flushing out some of the ideas I have for the project. A true OSS MVP, if you will.  <br>
+Progress has been a bit slow in this latter half of the project. I haven't elaborated too much of the implementation of Enjure, rather I've written some documentation in the github repository as well as deployed a website for the project over at [enjure.org](https://enjure.org). The website covers the basic philosophy and architecture as well as how to get started with Enjure by using the CLI. I'm hoping to give both Enjure and it's website some more love in the future when I have time. However, for the couple month span of the project thus far, I think it's been relatively successful in flushing out some of the ideas I have for the project. A true OSS MVP, if you will.  <br>
 
 ---
 
