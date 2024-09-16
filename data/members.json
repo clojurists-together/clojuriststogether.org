@@ -1065,11 +1065,6 @@
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "Lari Saukkonen",
-    "member_type" : "developer",
-    "level" : "cons",
-    "founding" : false
-  }, {
     "name" : "Siebenlist",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1162,6 +1157,6 @@
   } ],
   "member_stats" : {
     "company" : 44,
-    "developer" : 167
+    "developer" : 166
   }
 }
