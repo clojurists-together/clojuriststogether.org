@@ -340,11 +340,6 @@
     "level" : "contributing",
     "founding" : true
   }, {
-    "name" : "Ikuru Kanuma",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : true
-  }, {
     "name" : "Ayato N",
     "member_type" : "developer",
     "level" : "contributing",
@@ -683,11 +678,6 @@
     "name" : "Daniel Dorman",
     "member_type" : "developer",
     "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Jason Felice",
-    "member_type" : "developer",
-    "level" : "developer",
     "founding" : false
   }, {
     "name" : "Davide Taviani",
@@ -1157,6 +1147,6 @@
   } ],
   "member_stats" : {
     "company" : 44,
-    "developer" : 166
+    "developer" : 164
   }
 }
