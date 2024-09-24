@@ -400,11 +400,6 @@
     "level" : "contributing",
     "founding" : true
   }, {
-    "name" : "Wilker Lucio",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Johnny Eradus",
     "member_type" : "developer",
     "level" : "developer",
@@ -1152,6 +1147,6 @@
   } ],
   "member_stats" : {
     "company" : 44,
-    "developer" : 165
+    "developer" : 164
   }
 }
