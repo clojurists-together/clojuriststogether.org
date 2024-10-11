@@ -1144,9 +1144,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Stepan Parunashvili",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 44,
-    "developer" : 164
+    "developer" : 165
   }
 }
