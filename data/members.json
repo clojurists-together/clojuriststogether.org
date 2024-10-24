@@ -595,11 +595,6 @@
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "Roman Liutikov",
-    "member_type" : "developer",
-    "level" : "assoc",
-    "founding" : false
-  }, {
     "name" : "Damiano Rühl",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1152,6 +1147,6 @@
   } ],
   "member_stats" : {
     "company" : 44,
-    "developer" : 165
+    "developer" : 164
   }
 }
