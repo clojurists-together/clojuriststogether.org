@@ -1,8 +1,8 @@
 ---
 title: "Sept. and Oct. 2024 Short-Term Project Updates"
-date: 2024-10-26T14:00:00+12:00
+date: 2024-10-27T14:00:00+12:00
 author: Kathy Davis
-summary: "Check-in from xxx"
+summary: "clj-Nix, Clojure Goes Fast, Jank, Kushi, Malli, SciCloj, Standard Clojure Style"
 draft: True
 
 
