@@ -46,8 +46,9 @@ https://github.com/oakmac/standard-clojure-style-js/issues/1
 
 ---
 
-## Project Updates: Sept. and Oct. 2024  
+## Project Updates: Sept. and Oct. 2024  <br>
 
+---
 
 ### clj-Nix: José Luis Lafuente  
 Q3 2024 Report No. 1, Published Oct. 13, 2024
