@@ -10,13 +10,13 @@ draft: True
 
 We've got our first set of reports from developers working on short-term projects funded in Q3 2024. You'll find a brief description of each project at the top of the page to provide some context -- followed by current project updates.
 
-[### clj-Nix: José Luis Lafuente](#clj-nix-josé-luis-lafuente)  
+[### clj-Nix: José Luis Lafuente](#clj-nix-josé-luis-lafuente)
 - Develop an alternative builder for Nix that uses Babashka / SCI instead of Bash. It provides a way
 for constructing complex Nix derivations using Babashka/SCI entirely, eliminating the need to
 write any Bash code. 
 - Also, will be adding a Babashka writer to nixpkgs. Nixpkgs supports creating self-contained scripts, called "nix writers." Traditionally written in Bash, recent versions of nixpkgs include the ability to write these scripts in Python, Ruby, or Rust.   
 
-[### Clojure Goes Fast: Oleksandr Yakushev](#clojure-goes-fast-oleksandr-yakushev)  
+[### Clojure Goes Fast: Oleksandr Yakushev](#clojure-goes-fast-oleksandr-yakushev)
 - Create a new web application for clj-async-profiler that will allow users to host and share the generated flamegraphs. At the moment, even though flamegraphs are just self-contained HTML files, sending them to
 somebody is a chore. The new service can make this much easier and offer extra features
 like saving and sharing dynamic transforms on the fly. Additionally, I'd like to focus on the UI
@@ -27,13 +27,13 @@ side of clj-async-profiler - add new dynamic transforms, improve aesthetics and 
 [### Jank: Jeaye  Wilkerson](#jank-jeaye--wilkerson)
 Jank feels like Clojure now, with 92% syntax parity and nearly 40% clojure.core parity. But it only feels like Clojure to me because none of you are using it yet. My top priority is to change that.  I'll be working on building out jank's nREPL server, which involves implementing bencode support, `clojure.test`, improving native interop, supporting pre-compiled binary modules, and ultimately adding AOT compilation support.  
 
-[### Kushi: Jeremiah Coyle](#kushi-jeremiah-coyle)  
+[### Kushi: Jeremiah Coyle](#kushi-jeremiah-coyle)
 Continue development of Kushi, a foundation for building web UI with ClojureScript. Work this funding cycle will focus on finishing the new css transpilation pipeline, significant build system performance upgrades, and implementing a reimagined theming system.  
 
-[### Malli: Ambrose Bonnaire-Sergeant](#malli-ambrose-bonnaire-sergeant)  
+[### Malli: Ambrose Bonnaire-Sergeant](#malli-ambrose-bonnaire-sergeant) 
 This project (Constraints and Humanization) aims to drastically improve the expressivity of Malli schemas to help address current user feedback and enable future extensions. The basic idea is to add a constraint language to each schema to express fine-grained invariants and then make this constraint language compatible with validators/explainers/generators/etc so that Malli users can write high-level, precise schemas without resorting to partial workarounds. See prototype here: https://github.com/frenchy64/malli/pull/12  
 
-[### SciCloj: Daniel Slutsky](#scicloj-daniel-slutsky) 
+[### SciCloj: Daniel Slutsky](#scicloj-daniel-slutsky)
 Scicloj is a Clojure group developing a stack of tools & libraries for data science.
 Alongside the technical challenges, community building has been an essential part of its
 efforts since the beginning of 2019. Our community-oriented goal is making the existing data-science stack easy to use through the maturing of the Noj library, mentioned below. In particular, we are working on
@@ -730,7 +730,7 @@ I need to resolve this roadblock of constraint serialization inconsistency. Is i
 If it is, do I need to throw out the entire design and start again?  <br>
 
 ---
-### ScioCloj: Daniel Slutsky  
+## SciCloj: Daniel Slutsky  
 Q3 2024 Report No. 1, Published Oct. 3, 2024  
 The [Clojurists Together](https://www.clojuriststogether.org/) organisation has decided [to sponsor](https://www.clojuriststogether.org/news/q3-2024-funding-announcement/) Scicloj community building for Q3 2024, as a project by Daniel Slutsky. This is the second time the project is selected this year. Here is Daniel's update for September.
 
