@@ -420,6 +420,467 @@ comparing jank's startup times with LLVM IR vs C++, as well as some updates on
 other things I've been tackling.<br>
 
 ---
+### Kushi: Jeremiah Coyle  
+Q3 2024 Report No. 1, Published Oct. 15, 2024  
+
+### Q3 Milestones
+
+Thanks to the funding from Clojurists Together, the Q3 development of Kushi is aimed at achieving the following 3 milestones:  
+1. Finishing the new css transpilation API.  
+2. Reimplementing the build system for enhanced performance.  
+3. A reimagined theming system.  
+
+### Progress  
+
+#### Milestone #1: Finishing the new css transpilation API.  
+- **Goals**   
+  1. Solidify the API design and implementation of Kushi's CSS transpilation functionality.  
+  2. Incorporate the use of lightingcss for CSS transformation (older browsers) and minification.  
+  3. Refactor existing public functions for injecting stylesheets, google fonts, etc.  
+- **Progress:** Complete. The majority of the time spent working on Kushi in the first half of the funding period was focused on implementing a new CSS transpilation pipeline. An updated set of public macros and supporting functions was designed and implemented around this. A broad test suite was written, which consists of 7 tests containing 54 assertions.  
+- **Next steps:** When the work on the new build system (milestone #2) is complete, test this new API by upgrading existing UI work (such as Kushi's interactive documentation site) that uses the current (soon to be previous) API, then adjust and refine implementation details as necessary.   
+
+
+#### Milestone #2: Reimplementing the build system for enhanced performance.  
+- **Goal**: Reimplement the build system for performance, and eliminate the use of side-effecting macros.  
+- **Progress:** 75% of the initial design, discovery, and experimentation phase is complete.   
+- **Next steps:** I anticipate moving it into the implementation phase by the last week of October. Roughly half of the the remaining 6 weeks of the Q3 period will be spent building this out.  
+
+
+#### Milestone #3: A reimagined theming system.  
+- **Goal**: Based on learnings from using Kushi to build a lot of production UI over that last 2-3 years, redesign and implement a new theming system. This will involve harmonizing 3 principled subsystems:  
+  1. Design tokens (a global system of CSS custom properties).  
+  2. Utility classes.  
+  3. Component-level data-attribute conventions.   
+- **Progress:** 90% of the initial design, discovery, and experimentation phase is complete.  
+
+- **Next steps:** I am hoping that enough progress will be made on the build system so that I can focus Kushi dev time on this new theming system for the last 3 weeks of November.  
+
+### Details  
+All of the work related to Milestone #1 has been happening in [a sandbox repo called kushi-css](https://github.com/kushidesign/kushi-css). Additional in-depth detail and documentation around this work can be found [here](https://github.com/kushidesign/kushi-css/blob/main/doc/towards-kushi-v1.md). When all 3 of the above grated into the main kushi repo.<br>  
+
+---
+### Malli: Ambrose Bonnaire-Sergeant  
+Q3 2024 Report No. 1, Published Oct. 18, 2024  
+
+### Malli Constraints - Report 1
+
+This is the first report of three in the project to extend Malli with constraints.
+
+tldr; I gave a [talk](https://www.youtube.com/live/28S96Ms8WOc) and started [implementation](https://github.com/frenchy64/malli/pull/20/files) and reflect its successes and failures below.  
+
+Thanks to Tommi (Malli lead dev) for working with me to propose the project, and the encouragement
+I received from the Malli community and my friends.  
+
+This is a long update that really helps me get my thoughts in order for such a complex project. Thanks for reading and feel free to email me any questions or comments.  
+
+#### Background  
+In this project, I proposed to extend the runtime verification library
+Malli with constraints with the goal of making the library more expressive
+and powerful.  
+
+With this addition, schemas can be extended with extra invariants (constraints) that must be
+satisfied for the schema to be satisfied. Anyone can add a constraint to a schema.
+Crucially, these extensions should work as seamlessly as if the author of the schema
+added it themselves.  
+
+Before the project started, I had completed an extensive prototype that generated many
+ideas. The authors of Malli were interested in integrating these ideas in Malli and this
+project aims to have their final forms fit with Malli in collaboration with the Malli devs.  
+
+#### Talk  
+It had been several months since I had built the prototype of Malli constraints, so
+I gave a talk at [Madison Clojure](https://madclj.com) which I live-streamed.
+You can watch it [here](https://www.youtube.com/live/28S96Ms8WOc).  
+
+It was well received and very enjoyable to give. I'm thankful to the attendees for their
+engagement and encouragement, and for checking in on my progress during the project.  
+
+In the talk, I motivate the need for more expressive yet reliable schemas, propose
+a solution in the form of constraints, and sketch some of the design ideas for
+making it extensible. I gave this talk a few days before the project started and I hit the ground running.  
+
+#### Design Goals (Constraints)  
+I've had many fruitful interactions with the Malli community its developers
+and I have a good idea what the project values. If this constraints project is to be
+successful, it must check all the boxes as if it came straight from
+the brain of Tommi (well, that's my goal, Tommi is busy and has enjoyably
+high standards). Given how deeply this project aims to integrate with
+Malli, that attitude has definitely helped prune ideas (when was the
+last time `:string` or `:int` changed it's implementation? We're
+doing exactly that here).  
+
+There is a mundane but critical issue that Malli has been steadily
+increasing its CLJS bundle size. I decided early on that my design
+for constraints would be opt-in, so that the Malli devs can decide
+whether its worth including by default. If adding constraints irreversibly
+increased the CLJS bundle size to the point that Malli devs started worrying,
+this project would be in jeopardy.  
+
+My prototype made constraints an entirely custom construct, unrelated
+to the rest of Malli. It's helpful to look at a related project under
+similar circumstances: extending Malli to add sequence expressions
+like `:alt` and `:*`. Sequence expressions
+are a different abstraction than schemas, and yet they share many implementation
+concepts, both even implementing `m/Schema`. Sequence expressions then
+implement additional protocols for their characterizing operations.
+I wanted to take inspiration from this: constraints should be like
+schemas in their overlapping concepts, introducing new abstractions
+only for differences.  
+
+I would like the constraints framework be merged incrementally, starting
+with very simple constraints on the count and size of collections
+and numbers. However, the framework itself should be fully realized
+and be able to support much more complex constraints.  
+
+The last few goals are easy to list, but maximizing them all simultaneously
+might be difficult as seem in deep tension.
+Constraints should be fast, extensible, and robust.
+It should be possible to achieve equivalent performance to a "hand-coded"
+implementation of the constraint. It should be possible to implement as
+many kinds of constraints as possible without having to change the constraint
+framework itself. Constraints should have predictable, reliable semantics
+that are congruent to the rest of Malli's design.  
+
+**Summary of goals:**  
+- control bundle size  
+- backwards compatibility  
+- equivalent performance  
+  - in tension with extensibility and compilation
+- extensibility  
+  - provide expressivity and power of primitives
+- robustness  
+  - think about Malli's unwritten rules (properties round-trip)  
+- first iteration should be fully realized but minimal  
+
+#### Development  
+
+[Diff](https://github.com/frenchy64/malli/pull/20/files)
+
+[Branch](https://github.com/frenchy64/malli/tree/min-max-constraints)
+
+My first attempt at an idiomatic implementation of schema constraints
+was completed in the first half of September. Since then it's been
+hammock-time pondering the results. I have surprisingly strong feelings
+in both directions.  
+
+I go into more detail below.  
+
+#### Opt-in for CLJS Bundle size  
+
+I was able to separate the constraints framework from
+`malli.core` so it can be opt-in to control CLJS bundle size.
+The main code path adds several functions and a couple of protocols,
+but the constraints themselves are loaded separately via an atom
+that also lives in `malli.core`. This atom `m/constraint-extensions`
+can be empty which will disable constraints, kicking in a backwards-compatibility mode for schemas
+that migrated their custom properties to constraints (like `:string`'s `:min` and `:max`).  
+
+I went back and forth about whether to use a single global atom or
+to add some internal mutable state to each schema that could be upgraded
+to support constraints. In this implementation, I decided a global atom was
+more appropriate for two reasons. First, registries can hold multiple copies
+of the same schema but only one will "win". We don't want situations where
+we extend a schema with constraints and then it gets "shadowed" by another
+instance of the same schema, since that is functionally equivalent in all
+other situations. Second, we already have an established way of extending schemas
+to new operations in the form of a multimethod dispatching on `m/type`. I wanted
+a similar experience where an entire class of extension is self-contained in one
+global mutable variable.  
+
+Extending schemas with constraints is subtly different to many other kinds of
+schema extensions, in that it is much finer grained. `defmulti` is appropriate
+for defining generators or JSON Schema transformers where a schema extension
+maps precisely to a function (`defmethod`), but extending constraints
+is more like having a separate atom for each schema containing a map where
+each field can themselves be extended with namespaced keywords. A single global
+atom containing a map from schemas to constraint configuration became the natural
+choice (an atom of atoms is rarely a good idea).  
+
+Ultimately the constraint implementation is activated by calling
+`(malli.constraint/activate-base-constraints!)`.  
+
+#### Reusing existing abstractions  
+
+Constraints implement `m/Schema` and their `m/IntoSchema`'s live in the registry.
+They differ from schemas in how they are constructed and print
+(it depends which schema the constraint is attached to) so they have their own
+equivalent to `m/schema` in `malli.constraint/constraint`.  
+
+As I outlined in my talk, it was important to have multiple ways to parse
+the same constraint for maximum reuse. For example, `[:string {:min 10}]` and `[:vector {:min 10}]`
+should yield equivalent constraints on `count`, while `[:int {:min 10}]` and `[:float {:min 10}]`
+yield constraints on size. This is useful when solving constraints for generators
+(malli.constraint.solver).  
+
+#### Extensibility  
+
+The new implementation converts the `:min`, `:max`, `:gen/min`, and `:gen/max`
+properties on the `:string` schema to constraints. They are implemented
+separately from `:string` itself in a successful test of the extensibility
+of constraints.  
+
+`malli.constraint/base-constraint-extensions` contains the configuration
+for these `:string` constraints, which consist of the `:true`, `:and`, and `:count`
+constraints. There are several ways to attach `:count` constraints to a `:string`,
+each of which has a corresponding parser. For example, a string with a count between
+1 and 5 (inclusive) can be created via `[:string {:min 1 :max 5}]` or
+`[:string {:and [:count 1 5]}]`. The `:string :parse-properties :{min,max}` configuration shows how
+to parse the former and `:string :parse-constraint :count` the latter.  
+
+### Performance  
+
+Extensibility and performance are somewhat at odds here. While it's great that two
+unrelated parties could define `:min` and `:max` in `[:string {:min 1 :max 5}]`,
+we are left with a compound constraint `[:and [:count 1] [:count nil 5]]` (for the `:min`
+and `:max` properties, respectively). To generate an efficient validator for the overall constraint we
+must simplify the constraint to `[:count 1 5]`. The difference in validators before
+and after intersecting are `#(and (<= 1 (count %)) (<= (count %) 5))` and #(<= 1 (count %) 5)`.
+Depending on the performance of `count`, choosing incorrectly could be a large regression in performance.  
+
+Constraints have an `-intersect` method to merge with another constraint
+which `:and` calls when generating a validator. While we regain the performance of validation,
+we pay an extra cost in having to create multiple constraints and then simplify them.  
+
+#### Robustness  
+
+My main concern is a little esoteric but worth considering. Malli has specific
+expectations about properties that constraints might break, specifically that properties
+won't change if roundtripping a schema.  
+
+A constrained schema such as `[:string {:min 1}]` is really two schemas: `:string`
+and `[:count 1]`, the latter the result of the new `-get-constraint` method on
+`-simple-schema`'s like `:string`. The problem comes when serializing this schema
+back to the vector syntax: how do we know that `[:count 1]` should be serialized to
+`[:string {:min 1}]` instead of `[:string {:and [:count 1]}]`? I don't think
+this is a problem for simple constraints like `:min` since we can just return
+the same properties as we started with. There are several odd cases I'm not
+sure what do with.  
+
+For instance, when the `:min` property is changed:  
+```clojure
+(-update-properties [:string {:min 1}] :min inc)
+;=> [:string {:min 2}]
+```
+In this case, the `:string` schema is recreated along
+with a new constraint `[:count 2]`.
+
+Or, the constraint itself is updated with the new `-set-constraint`:
+
+```clojure
+(-set-constraint [:string {:min 1}] [:count 2])
+;=> [:string {:min 2}] OR [:string {:and [:count 2]}] ?
+```
+
+Here `-set-constraint` removes all properties related to constraints (since we're replacing
+the entire constraint) and then must infer the properties to serialize the new constraint to.
+In this case the constraint configuration in `:string :unparse-properties ::count-constraint`
+chooses `[:string {:min 2}]`, but its resemblance to the initial schema is coincidental
+and might yield surprises.  
+
+The big task here is thinking about (future) constraints that contain schemas. For example,
+you could imagine a constraint `[:string {:edn :int}]` that describes strings that
+`edn/read-string` to integers. This is very similar to `[:string {:registry {::a :int}}]`
+in that the properties of the schema are actually different before and after parsing the
+schema (in this case, `m/-property-registry` is used to parse and unparse the registry).  
+
+Part of the rationale of using `-get-constraint` as the external interface for extracting
+a constraint from a schema is to treat each schema as having one constraint
+instead of many small ones is for schema-walking purposes. Property registries don't play
+well with schema walking and it takes a lot of work to ensure schemas are walked correctly
+(for example, ensuring a particular OpenAPI property is set on every schema, even those in
+local registries). Walking schemas inside constraints will be more straightforward. To support constraints,
+a schema will extend their `-walk` algorithm to automatically walk constraints with a separate
+"constraint walker", and constraints like `:edn` will revert to the original "schema walker"
+to walk `:int` in `[:string {:edn :int}]`. This logic lives in `malli.constraint/-walk-leaf+constraints`.  
+
+This walking setup is intended to cleanly handle refs inside schemas such as:
+```clojure
+[:schema {:registry {::a :int}}
+ [:string {:edn ::a}]]
+```
+
+Having schemas in properties leaves us in a fragile place in terms of the consistency of schema
+serialization. For example, after walking
+`[:string {:edn :int}]` to add an OpenAPI property on each schema, we might end up
+with either
+```clojure
+[:string {:edn [:int {:a/b :c}], :a/b :c}]
+;; or
+[:string {:and [:edn [:int {:a/b :c}]], :a/b :c}]
+```
+depending on the `:unparse-property` attached to `:edn` constraints under `:string`.
+
+Or even more fundamentally, the properties of `[:string {:edn :int}]` become `{:edn (m/schema :int)}`
+when parsed, but how do we figure out it was originally `{:edn :int}`? The current approach
+(which is a consequence of treating each schema as having one constraint via `-{get,set}-constraint`)
+depends on the unparser in `:string :unparse-properties ::edn-constraint` to guess correctly.  
+
+It is unclear how big of a problem this is. My fundamental worry is that schemas will not round-trip syntactically,
+but is this lot of worry about nothing? Plenty of schemas don't round-trip syntactically at first, but stabilize
+after the first trip, for example `[:string {}] => :string => :string`. The important
+thing is that they are semantically identical. This is similar to what I propose for constraints:
+deterministically attempt to find the smallest serialization for the constraint within
+the properties. If inconsistencies occur, at best might annoy some users, or at worst
+it could make constraints incomprehensible (to humans) be restating them in technically-equivalent ways.  
+
+#### Next
+
+I need to resolve this roadblock of constraint serialization inconsistency. Is it a problem?
+If it is, do I need to throw out the entire design and start again?  <br>
+
+---
+### ScioCloj: Daniel Slutsky  
+Q3 2024 Report No. 1, Published Oct. 3, 2024  
+The [Clojurists Together](https://www.clojuriststogether.org/) organisation has decided [to sponsor](https://www.clojuriststogether.org/news/q3-2024-funding-announcement/) Scicloj community building for Q3 2024, as a project by Daniel Slutsky. This is the second time the project is selected this year. Here is Daniel's update for September.
+
+Comments and ideas would help. :pray: 
+
+# Clojurists Together update - April 2024 - Daniel Slutsky  
+
+[Scicloj](https://scicloj.github.io/) is a Clojure group developing a stack of tools and libraries for data science. Alongside the technical challenges, community building has been an essential part of its efforts since the beginning of 2019. Our current main community-oriented goal is making the existing data-science stack easy to use through the maturing of the Noj library, mentioned below. In particular, we are working on example-based documentation, easy setup, and recommended workflows for common tasks.  
+
+All these, and the tools to support them, grow organically, driven by real-world use cases.  
+
+I serve as a community organizer at Scicloj, and this project was accepted for Clojurists Together funding in 2024 Q1 & Q3. I also receive regular funding from Nubank.  
+
+In this post, I am reporting on my involvement during September 2024, as well as the proposed goals for October.  
+
+I had 77 meetings during September. Most of them were one-on-one meetings for open-source mentoring or similar contexts.  
+
+All the projects mentioned below are done in collaboration with others. I will mention at least a few of the main people involved.  
+
+## September 2024 highlights  
+
+### [Scicloj open-source mentoring](https://scicloj.github.io/docs/community/groups/open-source-mentoring/)
+Scicloj is providing mentoring to Clojurians who wish to get involved in open-source. This initiative began in August and has been growing rapidly in September. This program is transforming Scicloj, and I believe it will influence the Clojure community as a whole.  
+
+We are meeting so many incredible people who are typically experienced, wise, and open-minded and have not been involved in the past. Making it all work is a special challenge. We have to embrace the uncertainty of working with people of varying availability and dynamically adapt to changes in the team. Building on our years-long experience in community building and open-source collaboration, we know we can support at least some of our new friends in finding impactful paths to contribute. We are already seeing some fruits of this work and still have a lot to improve.  
+
+47 people have applied so far. 34 are still active, and 10 have already made meaningful contributions to diverse projects.  
+
+I am coordinating the process, meeting all the participants, and serving as one of the mentors alongside generateme, Kira McLean, Adrian Smith, and Jeaye Wilkerson. The primary near-term goals are writing testable tutorials and docs for the [Fastmath](https://github.com/generateme/fastmath) and [Noj](https://scicloj.github.io/noj/) libraries. Quite a few participants will be working on parts of this core effort. A few other projects where people get involved are [Clay](https://scicloj.github.io/clay/), [Kindly](https://scicloj.github.io/kindly-noted/), [Jank](https://jank-lang.org/), and [ggml.clj](https://github.com/phronmophobic/ggml.clj).  
+
+A few notable contributions were by Avicenna (mavbozo), who added a lot to the Fastmath documentation and tutorials; Jacob Windle, who added printing functionality to Fastmath regression models; Muhammad Ridho, who started working on portability of [Emmy Viewers](https://github.com/mentat-collective/emmy-viewers) data visualizations; Lin Zihao, who improved the Reagent support to the Kindly standard; Epidiah Ravachol, who worked on insightful tutorials for [dtype-next](https://github.com/cnuernber/dtype-next) array-programming; Oleh Sedletskyi, who started working on statistics tutorials; Ken Huang, who've made various contributions to Clay; and Prakash Balodi, who worked on [Tablecloth](https://scicloj.github.io/tablecloth/) issues and started organizing the Scicloj weekly group (see below).  
+
+#### [Noj](https://scicloj.github.io/noj/)  
+Noj is an entry point to data and science. It integrates a set of underlying libraries through a set of testable tutorials. Here, there were great additions by generateme and Carsten Behering, and I helped a bit with the integration.
+- generateme has made a big release of Fastmath version 3.0.0 alpha - a result of work in the last few months - which is affecting a few of the underlying libraries.
+- Carsten Behring has released new versions of a few of the machine learning libraries.
+- Carsten also made important changes to Noj in adding integration tests and automating the dev workflow.
+- I helped in gradually adapting and testing a few of the underlying libraries.
+- I helped initiate a few documentation chapters that are being written by new community members.
+
+#### [Kindly](https://scicloj.github.io/kindly-noted/)  
+Kindly is the standard of data visualizations used by Scicloj tutorials and docs.
+- Timothy Pratley has improved the way the user controls various options.
+- I helped test and integrate the new features.
+- We collaborated in creating a kindly-dev team, and a few of the new friends have started contributing to the stack of libraries around Kindly.
+
+#### [Kinldy-render](https://github.com/scicloj/kindly-render)  
+Kindly-render is a general rendering library which serves as a foundation for tools to support Kindly.
+- Timothy Pratley has reinitiating this project.
+- I joined in design discussions and testing.  
+
+#### [Clay](https://scicloj.github.io/clay/)  
+Clay is a REPL-friendly tool for data visualization and literate programming.
+- I worked on two new release versions. Each was a combination of bugfixes and feature requests.  
+
+#### [real-world-data group](https://scicloj.github.io/docs/community/groups/real-world-data/)
+The real-world-data group is a space for people to share updates on their data projects at work.  
+
+Meeting #13 was dedicated to talk runs and discussions preceding the Heart of Clojure conference. 
+Meeting #14 was an interactive coding session of a data science tutorial.  
+
+#### Scicloj weekly  
+Together with Prakash Balodi, we initiated a new weekly meeting for new community members working on open-source projects.  
+
+Intentionally, we use a time slot which is more friendly to East and Central Asia time zones, unlike most Clojure meetups.  
+
+We have had three meetings so far, with 4, 15, and 6 participants.  
+
+### Linear Algebra meetings  
+We organized a new group that will collaborate on implementing and teaching applied linear algebra algorithms in Clojure.  
+
+The first meeting actually took place in October 2nd, so we will update more in the next month.  
+
+#### [Heart of Clojure](https://2024.heartofclojure.eu/)  
+Sami Kallinen represented Scicloj at Heart of Clojure with an incredbible [talk about data modelling](https://2024.heartofclojure.eu/talks/sailing-with-scicloj-a-bayesian-adventure/). The talk was extremely helpful in exploring and demonstrating a lot of the new additions to the Scicloj stack.  
+
+I collaborated with Sami on preparing the talk and improving the relevant tools and libraries to support the process.  
+
+#### October 2024 goals  
+
+This is the tentative plan. Comments and ideas would be welcome.  
+
+#### Noj and Fastmath  
+- Both these libraries will recieve lots of attention in the form of (testable) tutorials and docs. I will be working with a few people on vairous chapters of that effort.  
+- We will keep working on stabilizing the set of libraries behind Noj and improving the integration tests.  
+
+#### Open-source mentoring  
+We are expecting more participants to join.  
+- I will keep working on supporting participants in new beginnings and ongoing projects.  
+
+#### [Hanamicloth](https://scicloj.github.io/hanamicloth/)  
+Hanamicloth is a layered grammar of graphics library.  
+- The goal for the coming few weeks is to bring it to beta stage and mostly improve the documentation.  
+
+#### Tooling  
+- We will keep working on maturing kindly-render and refactoring Clay to use it internally.  
+- Clay will be in active development for code quality, bugixes, and user requests.  
+
+#### Clojure Conj  
+The coming [Clojure Conj](https://2024.clojure-conj.org/) conference will feature a few Scicloj-related talks. At Scicloj, we have a habit of helping each other in talk preparations. We will do that as much as the speakers will find it helpful. We will also organize a couple more pre-conference meetings with speakers, as we did in August.  <br>
+
+---
+### Standard Clojure Style:	Chris Oakman 
+Q3 2024 Report No. 1, Published Oct. 14, 2024  
+
+> Standard Clojure Style is a project to create a "follows simple rules, no config, runs everywhere" formatter for Clojure code.  
+
+#### tl;dr  
+
+* project is usable for most codebases in its current state  
+* many bugs fixed  
+* I will be presenting Standard Clojure Style at Clojure/conj 2024  
+* website is next  
+
+#### Update  
+- As of [v0.7.0], Standard Clojure Style is ready for most codebases  
+  - Give it a try!  
+  - Standard Clojure Style is **fast**: Shaun Lebron shared some benchmarking on [Issue #77]  
+
+- Several adventurous Clojure developers have ran Standard Clojure Style against their codebases and found bugs.  
+  - I have fixed most of the reported ones.  
+  - Seems like most new bugs are "small edge cases" as opposed to "large, fundamentally broken"  
+  - A big thank you to these developers and their helpful bug reports!  
+  - If you want to help test, please see the instructions [in the README]  
+
+- I will be presenting Standard Clojure Style next week at Clojure/conj 2024 :tada:  
+  - Come say hello if you will be attending  
+  - I will also socialize the project at the conference  
+
+[Issue #77]:https://github.com/oakmac/standard-clojure-style-js/issues/77
+[in the README]:https://github.com/oakmac/standard-clojure-style-js
+[v0.7.0]:https://www.npmjs.com/package/@chrisoakman/standard-clojure-style
+
+#### Next Up
+
+- I will continue work to stabilize the library and algorithm  
+- I will work on a website to explain the project  
+  - There should be a "try it online" demo  
+  - Explanation of the formatting rules (what are the rules? and why?)  
+  - Something that teams can reference when they are deciding to adopt a formatter tool for their Clojure project  
+
+
+
+
+
+
+
+
+
+
 
 
 
