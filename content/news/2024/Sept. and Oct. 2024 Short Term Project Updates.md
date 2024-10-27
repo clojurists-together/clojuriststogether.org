@@ -10,7 +10,7 @@ draft: True
 
 We've got our first set of reports from developers working on short-term projects funded in Q3 2024. You'll find a brief description of each project at the top of the page to provide some context -- followed by current project updates.
 
-[### clj-Nix: José Luis Lafuente](#clj-nix-josé-luis-lafuente)
+[### clj-Nix: José Luis Lafuente](#clj-nix-josé-luis-lafuente)  
 - Develop an alternative builder for Nix that uses Babashka / SCI instead of Bash. It provides a way
 for constructing complex Nix derivations using Babashka/SCI entirely, eliminating the need to
 write any Bash code. 
