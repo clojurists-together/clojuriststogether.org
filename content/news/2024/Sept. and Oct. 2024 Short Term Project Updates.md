@@ -201,8 +201,8 @@ to 0.3 seconds to start up, when `clojure.core` is pre-compiled as a C++20
 module and then loaded in as a shared library.
 
 <figure>
-  <object type="image/svg+xml" data="https://jank-lang.org/img/blog/2024-10-14-llvm-ir/pcm.plot.svg" width="40%">
-    <img src="https://jank-lang.org/img/blog/2024-10-14-llvm-ir/pcm.plot.svg" width="40%"></img>
+  <object type="image/svg+xml" data="https://jank-lang.org/img/blog/2024-10-14-llvm-ir/pcm.plot.svg" width="30%">
+    <img src="https://jank-lang.org/img/blog/2024-10-14-llvm-ir/pcm.plot.svg" width="30%"></img>
   </object>
 </figure>
 
