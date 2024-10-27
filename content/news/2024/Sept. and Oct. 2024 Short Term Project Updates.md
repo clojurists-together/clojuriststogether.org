@@ -800,23 +800,23 @@ I collaborated with Sami on preparing the talk and improving the relevant tools 
 ### October 2024 goals  
 This is the tentative plan. Comments and ideas would be welcome.  
 
-#### Noj and Fastmath  
+### Noj and Fastmath  
 - Both these libraries will recieve lots of attention in the form of (testable) tutorials and docs. I will be working with a few people on vairous chapters of that effort.  
 - We will keep working on stabilizing the set of libraries behind Noj and improving the integration tests.  
 
-#### Open-source mentoring  
+### Open-source mentoring  
 We are expecting more participants to join.  
 - I will keep working on supporting participants in new beginnings and ongoing projects.  
 
-#### [Hanamicloth](https://scicloj.github.io/hanamicloth/)  
+### [Hanamicloth](https://scicloj.github.io/hanamicloth/)  
 Hanamicloth is a layered grammar of graphics library.  
 - The goal for the coming few weeks is to bring it to beta stage and mostly improve the documentation.  
 
-#### Tooling  
+### Tooling  
 - We will keep working on maturing kindly-render and refactoring Clay to use it internally.  
 - Clay will be in active development for code quality, bugixes, and user requests.  
 
-#### Clojure Conj  
+### Clojure Conj  
 The coming [Clojure Conj](https://2024.clojure-conj.org/) conference will feature a few Scicloj-related talks. At Scicloj, we have a habit of helping each other in talk preparations. We will do that as much as the speakers will find it helpful. We will also organize a couple more pre-conference meetings with speakers, as we did in August.  <br>
 
 ---
