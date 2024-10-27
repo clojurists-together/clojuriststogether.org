@@ -736,8 +736,6 @@ The [Clojurists Together](https://www.clojuriststogether.org/) organisation has 
 
 Comments and ideas would help. :pray: 
 
-# Clojurists Together update - April 2024 - Daniel Slutsky  
-
 [Scicloj](https://scicloj.github.io/) is a Clojure group developing a stack of tools and libraries for data science. Alongside the technical challenges, community building has been an essential part of its efforts since the beginning of 2019. Our current main community-oriented goal is making the existing data-science stack easy to use through the maturing of the Noj library, mentioned below. In particular, we are working on example-based documentation, easy setup, and recommended workflows for common tasks.  
 
 All these, and the tools to support them, grow organically, driven by real-world use cases.  
