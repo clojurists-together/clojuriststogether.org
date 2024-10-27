@@ -215,7 +215,7 @@ pay the JIT compilation cost whenever you do a clean build, whenever you eval a
 whole file from the REPL, etc.
 
 Before digging deeper into this, I wanted to explore what things would look like
-in a world where we don't codegen C++.  
+in a world where we don't codegen C++. 
 
 #### LLVM IR  
 LLVM has support for JIT compiling its own intermediate representation (IR),
