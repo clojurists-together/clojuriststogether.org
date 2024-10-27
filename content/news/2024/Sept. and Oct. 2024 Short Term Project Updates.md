@@ -3,7 +3,7 @@ title: "Sept. and Oct. 2024 Short-Term Project Updates"
 date: 2024-10-27T14:00:00+12:00
 author: Kathy Davis
 summary: "clj-Nix, Clojure Goes Fast, Jank, Kushi, Malli, Standard Clojure Style"
-draft: True
+
 
 
 ---
