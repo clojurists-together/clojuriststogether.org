@@ -22,7 +22,7 @@ somebody is a chore. The new service can make this much easier and offer extra f
 like saving and sharing dynamic transforms on the fly. Additionally, I'd like to focus on the UI
 side of clj-async-profiler - add new dynamic transforms, improve aesthetics and the UX.  
 - For clj-java-decompiler, expand its preprocessing abilities to present clearer results to the user and integrate it more tightly with established Clojure IDEs like CIDER and Calva, which requires some groundwork.
-- Adapting and updating benchmarking content in the Clojure Goes Fast knowledge base (https://clojuregoes-fast.com/kb/).  
+- Adapting and updating benchmarking content in the Clojure Goes Fast knowledge base (https://clojure-goes-fast.com/kb/).  
 
 ### [Jank: Jeaye  Wilkerson](#jank-jeaye--wilkerson)
 Jank feels like Clojure now, with 92% syntax parity and nearly 40% clojure.core parity. But it only feels like Clojure to me because none of you are using it yet. My top priority is to change that.  I'll be working on building out jank's nREPL server, which involves implementing bencode support, `clojure.test`, improving native interop, supporting pre-compiled binary modules, and ultimately adding AOT compilation support.  
@@ -820,8 +820,8 @@ This is the tentative plan. Comments and ideas would be welcome.
 We are expecting more participants to join.  
 - I will keep working on supporting participants in new beginnings and ongoing projects.  
 
-#### [Hanamicloth](https://scicloj.github.io/hanamicloth/)  
-Hanamicloth is a layered grammar of graphics library.  
+#### [Tableplot](https://scicloj.github.io/tableplot/)
+Tableplot is a layered grammar of graphics library.  
 - The goal for the coming few weeks is to bring it to beta stage and mostly improve the documentation.  
 
 #### Tooling  
