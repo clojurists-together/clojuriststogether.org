@@ -34,7 +34,7 @@ Continue development of Kushi, a foundation for building web UI with ClojureScri
 This project (Constraints and Humanization) aims to drastically improve the expressivity of Malli schemas to help address current user feedback and enable future extensions. The basic idea is to add a constraint language to each schema to express fine-grained invariants and then make this constraint language compatible with validators/explainers/generators/etc so that Malli users can write high-level, precise schemas without resorting to partial workarounds. See prototype here: https://github.com/frenchy64/malli/pull/12  
 
 ### [SciCloj: Daniel Slutsky](#scicloj-daniel-slutsky)
-Scicloj is a Clojure group developing a stack of tools & libraries for data science.
+Check out Daniel's video: https://www.youtube.com/watch?v=WO6mVURUky4. Scicloj is a Clojure group developing a stack of tools & libraries for data science.
 Alongside the technical challenges, community building has been an essential part of its
 efforts since the beginning of 2019. Our community-oriented goal is making the existing data-science stack easy to use through the maturing of the Noj library, mentioned below. In particular, we are working on
 example-based documentation, easy setup, and recommended workflows for common tasks. All these, and the tools to support them, grow organically, driven by real-world use-cases. See updates for progress on Q3 projects and documentation.  
