@@ -42,16 +42,19 @@ example-based documentation, easy setup, and recommended workflows for common ta
 ### Standard Clojure Style:	Chris Oakman  
 Continue work on Standard Clojure Style - which is a "no config, runs everywhere, follows simple rules" formatter for Clojure code. More information about the genesis of the project can be found on Issue #1:
 https://github.com/oakmac/standard-clojure-style-js/issues/1  
+<br>
 
+---
 
 ## Project Updates: Sept. and Oct. 2024  
 
-## clj-Nix: José Luis Lafuente  
+
+### clj-Nix: José Luis Lafuente  
 Q3 2024 Report No. 1, Published Oct. 13, 2024
 
 In this first half of the funding round, I made progress on two fronts:  
 
-### Babashka writer on nixpkgs  
+#### Babashka writer on nixpkgs  
 I added a new writer, `writeBabashka`, to nixpkgs. It's already merged and
 currently available on the
 [nixpkgs and nixos unstable branch](https://nixpk.gs/pr-tracker.html?pr=343510).  
@@ -68,7 +71,7 @@ placing executables under `bin`.
 Something I still want to do is to create a repository with some examples about
 how to use the Babashka writer.  
 
-### Nix Derivation Builder with Babashka  
+#### Nix Derivation Builder with Babashka  
 The build step of a Nix derivation is defined by a Bash script. I want to
 provide an alternative builder written in Clojure (using Babashka).  
 
@@ -111,7 +114,7 @@ mkBabashkaDerivation {
 
 
 ----
-## Clojure Goes Fast: Oleksandr Yakushev  
+### Clojure Goes Fast: Oleksandr Yakushev  
 Q3 2024 Report No. 1, Published Sept.30, 2024  
 
 I've spent the firt month of my Clojurists Together project polishing the user experience for clj-async-profiler. The profile viewer UI (the flamegraph renderer) received big improvements in navigation, ease of access, consistency, and overall look. As a bullet list:  
@@ -124,7 +127,7 @@ I've spent the firt month of my Clojurists Together project polishing the user e
 - Prepared multiple UI mockups for the flamegraph sharing website that I'm starting to work on in the second month.  <br>
 
 ---
-## Jank: Jeaye  Wilkerson   
+### Jank: Jeaye  Wilkerson   
 Q3 2024 Report No. 1, Published Oct. 14, 2024  
 
 Hi everyone! It's been a few months since the last update and I'm excited to
@@ -132,12 +135,12 @@ outline what's been going on and what's upcoming for jank, the native Clojure
 dialect. Many thanks to Clojurists Together and my Github sponsors for the
 support. Let's get into it!  
 
-### Heart of Clojure
+#### Heart of Clojure
 In September, I flew from Seattle to Belgium to speak at Heart of Clojure. For
 the talk, I wanted to dig deep into the jank details, so I created a walk-through
 of implementing exception handling in jank. You can watch my talk [here](https://www.youtube.com/watch?v=5ejOkeNCbXY).  
 
-### Announcement
+#### Announcement
 Part of my Heart of Clojure talk was an announcement that, starting in January
 2025, **I'll be quitting my job at EA to focus on jank full-time**. Two years ago, I
 switched from full-time to part-time at EA in order to have more time for jank.
@@ -150,7 +153,7 @@ goal is to get jank out there and start creating value in the native Clojure
 space. If using jank interests you and you want white glove support for
 onboarding jank once it's released, reach out to me.  
 
-### Mentoring
+#### Mentoring
 On top of working on jank full-time, next year, I have joined the
 [SciCloj mentorship program](https://scicloj.github.io/docs/community/groups/open-source-mentoring/)
 as a mentor and have two official mentees with whom I meet weekly (or at least
@@ -163,7 +166,7 @@ either reached out to me directly or went through the application process, and
 we had to pare down the list to just two for the sake of time. Each of those
 folks wants to push jank forward and learn something along the way.  
 
-## JIT compilation speeds
+#### JIT compilation speeds
 Now, jumping into the development work which has happened in the past few
 months, it all starts with me looking into optimizing jank's startup time. You
 might think this is a small issue, given that jank needs more development
@@ -195,13 +198,13 @@ header to speed up JIT compilation. Before abandoning C++ codegen, I wanted to
 explore how we could pre-compile modules like `clojure.core`, too. Very
 pleasantly, the startup time improvements were great. jank went from 12 seconds
 to 0.3 seconds to start up, when `clojure.core` is pre-compiled as a C++20
-module and then loaded in as a shared library.  
+module and then loaded in as a shared library.
 
 <figure>
   <object type="image/svg+xml" data="https://jank-lang.org/img/blog/2024-10-14-llvm-ir/pcm.plot.svg" width="100%">
     <img src="https://jank-lang.org/img/blog/2024-10-14-llvm-ir/pcm.plot.svg" width="100%"></img>
   </object>
-</figure>  
+</figure>
 
 There's a catch, though. It takes 2 full minutes to AOT compile `clojure.core`
 to a C++20 pre-compiled module. So, we're back to the same problem. jank could
@@ -209,12 +212,12 @@ compile all of your dependencies to pre-compiled modules, but it may take 30
 minutes to do so, even on a reasonable machine. For non-dependency code, your
 own source code, jank could use a compilation cache, but you'll still need to
 pay the JIT compilation cost whenever you do a clean build, whenever you eval a
-whole file from the REPL, etc.  
+whole file from the REPL, etc.
 
 Before digging deeper into this, I wanted to explore what things would look like
 in a world where we don't codegen C++.  
 
-### LLVM IR  
+#### LLVM IR  
 LLVM has support for JIT compiling its own intermediate representation (IR),
 which is basically a high level assembly language. Compared to generating C++,
 though, we run into some problems here:  
@@ -231,13 +234,13 @@ assembly (or IR) is generally pretty easy. That's what I did. I took an example
 bit of Clojure code and I wrote out some equivalent C-ish code, using a made-up
 API:  
 
-### Clojure  
+#### Clojure  
 ```clojure
 (defn say-hi [who]
   (println "hi " who "!"))
 ```
 
-### C  
+#### C  
 ```c
 static jank_object_ptr const_1 = jank_create_string("hi ");   
 static jank_object_ptr const_2 = jank_create_string("!");  
@@ -262,14 +265,14 @@ This was motivating. Furthermore, **after two weekends, I have the LLVM IR codeg
 The only thing missing is codegen for closures (functions with captures) and `try` expressions, since those involve some extra work. I'll give an example of how this looks, with exactly the IR we're generating, before
 LLVM runs any optimization passes.   
 
-### Clojure  
+#### Clojure  
 ```clojure
 (let [a 1
       b "meow"]
   (println b a))
 ```
 
-### LLVM IR  
+#### LLVM IR  
 ```llvm
 ; ModuleID = 'clojure.core-24'
 source_filename = "clojure.core-24"  
@@ -327,7 +330,7 @@ takes to JIT compile LLVM IR, compared to C++. However, I'm very optimistic. By
 using a C API, instead of our C++ API, handling codegen optimizations
 like unboxing ends up being even more complex, but we also have even more power.  
 
-### How this affects interop  
+#### How this affects interop  
 Currently, jank has two forms of native interop (one in each direction):  
 1. A special `native/raw` form which allows embedding C++ within your jank code  
 2. The ability to require a C++ as though it's a Clojure namespace, where that
@@ -351,7 +354,7 @@ will JIT compile much more quickly than C++.
 
 This means the answer to the question of C++ or IR is: **why not both?**  
 
-## jank as THE native Clojure dialect  
+#### jank as THE native Clojure dialect  
 There's another reason which leads me to explore LLVM IR within jank. While jank
 is embracing modern C++, it doesn't need to be so tightly coupled to it. By
 using just the C ABI as our runtime library, everything can talk to jank. You
@@ -370,12 +373,12 @@ languages like Rust inside your jank projects and require then from your jank
 code. The jank compiler and runtime will handle JIT compilation and AOT
 compilation for you.  
 
-### Community update  
+#### Community update  
 This has been a long update which hopefully created some more excitement for
 jank's direction. I want to wrap up with what the community has been up to
 recently, though, since that alone warrants celebration.  
 
-### Characters, scientific notation, and to_code_string  
+#### Characters, scientific notation, and to_code_string  
 [Saket](https://github.com/Samy-33) has been improving jank's runtime character
 objects, which he originally implemented, to be more efficient and support
 Unicode. He also recently added scientific notation for floating point values,
@@ -385,14 +388,14 @@ which allows us to now implement `pr-str`.
 At this point, Saket has the most knowledge of jank's internals, aside from me,
 so I've been giving him heftier tasks and he's been super helpful.  
 
-### More robust escape sequences  
+#### More robust escape sequences  
 One of my SciCloj mentees, [Jianling](https://github.com/jianlingzhong),
 recently merged support for all of the ASCII escape sequences for jank's
 strings. Previously, we only had rudimentary support. Now he's working on
 support for hexadecimal, octal, and arbitrary radix literals, to further jank's
 syntax parity with Clojure.  
 
-### Nix build  
+#### Nix build  
 We have a newcomer to jank, [Haruki](https://github.com/haruki7049), helping to
 rework the build system and dependencies to allow for easy building with Nix!
 There's a draft PR [here](https://github.com/jank-lang/jank/pull/94). I'm
@@ -400,7 +403,7 @@ excited for this, since I'm currently using NixOS and I need to do a lot of jank
 dev in a distrobox for easy building. This will also help with stable CI builds
 and ultimately getting jank into nixpkgs (the central package repo for Nix).  
 
-### LLVM 19 support  
+#### LLVM 19 support  
 The last JIT hard crash fix in LLVM is being backported to the 19.x branch,
 which means we should be able to start using Clang/LLVM binaries starting 19.2!
 This is going to drastically simplify the developer experience and allow for
@@ -409,7 +412,7 @@ packaging jank using the system Clang/LLVM install. My
 has been closed as complete, though [the PR](https://github.com/llvm/llvm-project/pull/111953)
 into the 19.x branch is still open.  
 
-## Summary  
+#### Summary  
 More people are working on jank now than ever have; I expect this number to
 keep growing in the coming year. I'll see you folks at the Conj and, after that,
 in my next update during the holiday season, when I'll have some final numbers
