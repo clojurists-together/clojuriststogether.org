@@ -1,6 +1,6 @@
 ---
 title: "Sept. and Oct. 2024 Short-Term Project Updates"
-date: 2024-10-27T14:00:00+12:00
+date: 2024-10-26T14:00:00+12:00
 author: Kathy Davis
 summary: "clj-Nix, Clojure Goes Fast, Jank, Kushi, Malli, Standard Clojure Style"
 draft: True
@@ -10,13 +10,13 @@ draft: True
 
 We've got our first set of reports from developers working on short-term projects funded in Q3 2024. You'll find a brief description of each project at the top of the page to provide some context -- followed by current project updates.
 
-### [clj-Nix: José Luis Lafuente](#clj-nix-josé-luis-lafuente)  
+[### clj-Nix: José Luis Lafuente](#clj-nix-josé-luis-lafuente)  
 - Develop an alternative builder for Nix that uses Babashka / SCI instead of Bash. It provides a way
 for constructing complex Nix derivations using Babashka/SCI entirely, eliminating the need to
 write any Bash code. 
 - Also, will be adding a Babashka writer to nixpkgs. Nixpkgs supports creating self-contained scripts, called "nix writers." Traditionally written in Bash, recent versions of nixpkgs include the ability to write these scripts in Python, Ruby, or Rust.   
 
-### [Clojure Goes Fast: Oleksandr Yakushev](#clojure-goes-fast-oleksandr-yakushev)
+[### Clojure Goes Fast: Oleksandr Yakushev](#clojure-goes-fast-oleksandr-yakushev)
 - Create a new web application for clj-async-profiler that will allow users to host and share the generated flamegraphs. At the moment, even though flamegraphs are just self-contained HTML files, sending them to
 somebody is a chore. The new service can make this much easier and offer extra features
 like saving and sharing dynamic transforms on the fly. Additionally, I'd like to focus on the UI
@@ -24,39 +24,37 @@ side of clj-async-profiler - add new dynamic transforms, improve aesthetics and 
 - For clj-java-decompiler, expand its preprocessing abilities to present clearer results to the user and integrate it more tightly with established Clojure IDEs like CIDER and Calva, which requires some groundwork.
 - Adapting and updating benchmarking content in the Clojure Goes Fast knowledge base (https://clojuregoes-fast.com/kb/).  
 
-### [Jank: Jeaye  Wilkerson](#jank-jeaye--wilkerson)
+[### Jank: Jeaye  Wilkerson](#jank-jeaye--wilkerson)
 Jank feels like Clojure now, with 92% syntax parity and nearly 40% clojure.core parity. But it only feels like Clojure to me because none of you are using it yet. My top priority is to change that.  I'll be working on building out jank's nREPL server, which involves implementing bencode support, `clojure.test`, improving native interop, supporting pre-compiled binary modules, and ultimately adding AOT compilation support.  
 
-### [Kushi: Jeremiah Coyle](#kushi-jeremiah-coyle)
+[### Kushi: Jeremiah Coyle](#kushi-jeremiah-coyle)
 Continue development of Kushi, a foundation for building web UI with ClojureScript. Work this funding cycle will focus on finishing the new css transpilation pipeline, significant build system performance upgrades, and implementing a reimagined theming system.  
 
-### [Malli: Ambrose Bonnaire-Sergeant](#malli-ambrose-bonnaire-sergeant) 
+[### Malli: Ambrose Bonnaire-Sergeant](#malli-ambrose-bonnaire-sergeant) 
 This project (Constraints and Humanization) aims to drastically improve the expressivity of Malli schemas to help address current user feedback and enable future extensions. The basic idea is to add a constraint language to each schema to express fine-grained invariants and then make this constraint language compatible with validators/explainers/generators/etc so that Malli users can write high-level, precise schemas without resorting to partial workarounds. See prototype here: https://github.com/frenchy64/malli/pull/12  
 
-### [SciCloj: Daniel Slutsky](#scicloj-daniel-slutsky)
+[### SciCloj: Daniel Slutsky](#scicloj-daniel-slutsky)
 Scicloj is a Clojure group developing a stack of tools & libraries for data science.
 Alongside the technical challenges, community building has been an essential part of its
 efforts since the beginning of 2019. Our community-oriented goal is making the existing data-science stack easy to use through the maturing of the Noj library, mentioned below. In particular, we are working on
 example-based documentation, easy setup, and recommended workflows for common tasks. All these, and the tools to support them, grow organically, driven by real-world use-cases. See updates for progress on Q3 projects and documentation.  
  
-### [Standard Clojure Style:Chris Oakman](#standard-clojure-style-chris-oakman)
+[### Standard Clojure Style:Chris Oakman](#standard-clojure-style-chris-oakman)
 Continue work on Standard Clojure Style - which is a "no config, runs everywhere, follows simple rules" formatter for Clojure code. More information about the genesis of the project can be found on Issue #1:
 https://github.com/oakmac/standard-clojure-style-js/issues/1  
 <br>
 
 ---
 
-## Project Updates: Sept. and Oct. 2024<br>
-
----
+## Project Updates: Sept. and Oct. 2024  
 
 
-## clj-Nix: José Luis Lafuente  
+### clj-Nix: José Luis Lafuente  
 Q3 2024 Report No. 1, Published Oct. 13, 2024
 
 In this first half of the funding round, I made progress on two fronts:  
 
-### Babashka writer on nixpkgs  
+#### Babashka writer on nixpkgs  
 I added a new writer, `writeBabashka`, to nixpkgs. It's already merged and
 currently available on the
 [nixpkgs and nixos unstable branch](https://nixpk.gs/pr-tracker.html?pr=343510).  
@@ -73,7 +71,7 @@ placing executables under `bin`.
 Something I still want to do is to create a repository with some examples about
 how to use the Babashka writer.  
 
-### Nix Derivation Builder with Babashka  
+#### Nix Derivation Builder with Babashka  
 The build step of a Nix derivation is defined by a Bash script. I want to
 provide an alternative builder written in Clojure (using Babashka).  
 
@@ -116,8 +114,8 @@ mkBabashkaDerivation {
 
 
 ----
-## Clojure Goes Fast: Oleksandr Yakushev  
-Q3 2024 Report No. 1, Published Sept. 30, 2024  
+### Clojure Goes Fast: Oleksandr Yakushev  
+Q3 2024 Report No. 1, Published Sept.30, 2024  
 
 I've spent the firt month of my Clojurists Together project polishing the user experience for clj-async-profiler. The profile viewer UI (the flamegraph renderer) received big improvements in navigation, ease of access, consistency, and overall look. As a bullet list:  
 - Published one big release of clj-async-profiler (1.3.0) and two small releases (1.3.1 and 1.3.2). Most important changes:  
@@ -137,12 +135,12 @@ outline what's been going on and what's upcoming for jank, the native Clojure
 dialect. Many thanks to Clojurists Together and my Github sponsors for the
 support. Let's get into it!  
 
-### Heart of Clojure
+#### Heart of Clojure
 In September, I flew from Seattle to Belgium to speak at Heart of Clojure. For
 the talk, I wanted to dig deep into the jank details, so I created a walk-through
 of implementing exception handling in jank. You can watch my talk [here](https://www.youtube.com/watch?v=5ejOkeNCbXY).  
 
-### Announcement
+#### Announcement
 Part of my Heart of Clojure talk was an announcement that, starting in January
 2025, **I'll be quitting my job at EA to focus on jank full-time**. Two years ago, I
 switched from full-time to part-time at EA in order to have more time for jank.
@@ -155,7 +153,7 @@ goal is to get jank out there and start creating value in the native Clojure
 space. If using jank interests you and you want white glove support for
 onboarding jank once it's released, reach out to me.  
 
-### Mentoring
+#### Mentoring
 On top of working on jank full-time, next year, I have joined the
 [SciCloj mentorship program](https://scicloj.github.io/docs/community/groups/open-source-mentoring/)
 as a mentor and have two official mentees with whom I meet weekly (or at least
@@ -168,7 +166,7 @@ either reached out to me directly or went through the application process, and
 we had to pare down the list to just two for the sake of time. Each of those
 folks wants to push jank forward and learn something along the way.  
 
-### JIT compilation speeds
+#### JIT compilation speeds
 Now, jumping into the development work which has happened in the past few
 months, it all starts with me looking into optimizing jank's startup time. You
 might think this is a small issue, given that jank needs more development
@@ -219,7 +217,7 @@ whole file from the REPL, etc.
 Before digging deeper into this, I wanted to explore what things would look like
 in a world where we don't codegen C++. 
 
-### LLVM IR  
+#### LLVM IR  
 LLVM has support for JIT compiling its own intermediate representation (IR),
 which is basically a high level assembly language. Compared to generating C++,
 though, we run into some problems here:  
@@ -236,13 +234,13 @@ assembly (or IR) is generally pretty easy. That's what I did. I took an example
 bit of Clojure code and I wrote out some equivalent C-ish code, using a made-up
 API:  
 
-### Clojure  
+#### Clojure  
 ```clojure
 (defn say-hi [who]
   (println "hi " who "!"))
 ```
 
-### C  
+#### C  
 ```c
 static jank_object_ptr const_1 = jank_create_string("hi ");   
 static jank_object_ptr const_2 = jank_create_string("!");  
@@ -267,14 +265,14 @@ This was motivating. Furthermore, **after two weekends, I have the LLVM IR codeg
 The only thing missing is codegen for closures (functions with captures) and `try` expressions, since those involve some extra work. I'll give an example of how this looks, with exactly the IR we're generating, before
 LLVM runs any optimization passes.   
 
-### Clojure  
+#### Clojure  
 ```clojure
 (let [a 1
       b "meow"]
   (println b a))
 ```
 
-### LLVM IR  
+#### LLVM IR  
 ```llvm
 ; ModuleID = 'clojure.core-24'
 source_filename = "clojure.core-24"  
@@ -332,7 +330,7 @@ takes to JIT compile LLVM IR, compared to C++. However, I'm very optimistic. By
 using a C API, instead of our C++ API, handling codegen optimizations
 like unboxing ends up being even more complex, but we also have even more power.  
 
-### How this affects interop  
+#### How this affects interop  
 Currently, jank has two forms of native interop (one in each direction):  
 1. A special `native/raw` form which allows embedding C++ within your jank code  
 2. The ability to require a C++ as though it's a Clojure namespace, where that
@@ -356,7 +354,7 @@ will JIT compile much more quickly than C++.
 
 This means the answer to the question of C++ or IR is: **why not both?**  
 
-### jank as THE native Clojure dialect  
+#### jank as THE native Clojure dialect  
 There's another reason which leads me to explore LLVM IR within jank. While jank
 is embracing modern C++, it doesn't need to be so tightly coupled to it. By
 using just the C ABI as our runtime library, everything can talk to jank. You
@@ -375,12 +373,12 @@ languages like Rust inside your jank projects and require then from your jank
 code. The jank compiler and runtime will handle JIT compilation and AOT
 compilation for you.  
 
-### Community update  
+#### Community update  
 This has been a long update which hopefully created some more excitement for
 jank's direction. I want to wrap up with what the community has been up to
 recently, though, since that alone warrants celebration.  
 
-### Characters, scientific notation, and to_code_string  
+#### Characters, scientific notation, and to_code_string  
 [Saket](https://github.com/Samy-33) has been improving jank's runtime character
 objects, which he originally implemented, to be more efficient and support
 Unicode. He also recently added scientific notation for floating point values,
@@ -390,14 +388,14 @@ which allows us to now implement `pr-str`.
 At this point, Saket has the most knowledge of jank's internals, aside from me,
 so I've been giving him heftier tasks and he's been super helpful.  
 
-### More robust escape sequences  
+#### More robust escape sequences  
 One of my SciCloj mentees, [Jianling](https://github.com/jianlingzhong),
 recently merged support for all of the ASCII escape sequences for jank's
 strings. Previously, we only had rudimentary support. Now he's working on
 support for hexadecimal, octal, and arbitrary radix literals, to further jank's
 syntax parity with Clojure.  
 
-### Nix build  
+#### Nix build  
 We have a newcomer to jank, [Haruki](https://github.com/haruki7049), helping to
 rework the build system and dependencies to allow for easy building with Nix!
 There's a draft PR [here](https://github.com/jank-lang/jank/pull/94). I'm
@@ -405,7 +403,7 @@ excited for this, since I'm currently using NixOS and I need to do a lot of jank
 dev in a distrobox for easy building. This will also help with stable CI builds
 and ultimately getting jank into nixpkgs (the central package repo for Nix).  
 
-### LLVM 19 support  
+#### LLVM 19 support  
 The last JIT hard crash fix in LLVM is being backported to the 19.x branch,
 which means we should be able to start using Clang/LLVM binaries starting 19.2!
 This is going to drastically simplify the developer experience and allow for
@@ -414,7 +412,7 @@ packaging jank using the system Clang/LLVM install. My
 has been closed as complete, though [the PR](https://github.com/llvm/llvm-project/pull/111953)
 into the 19.x branch is still open.  
 
-### Summary  
+#### Summary  
 More people are working on jank now than ever have; I expect this number to
 keep growing in the coming year. I'll see you folks at the Conj and, after that,
 in my next update during the holiday season, when I'll have some final numbers
@@ -422,7 +420,7 @@ comparing jank's startup times with LLVM IR vs C++, as well as some updates on
 other things I've been tackling.<br>
 
 ---
-## Kushi: Jeremiah Coyle  
+### Kushi: Jeremiah Coyle  
 Q3 2024 Report No. 1, Published Oct. 15, 2024  
 
 ### Q3 Milestones
@@ -434,7 +432,7 @@ Thanks to the funding from Clojurists Together, the Q3 development of Kushi is a
 
 ### Progress  
 
-### Milestone #1: Finishing the new css transpilation API.  
+#### Milestone #1: Finishing the new css transpilation API.  
 - **Goals**   
   1. Solidify the API design and implementation of Kushi's CSS transpilation functionality.  
   2. Incorporate the use of lightingcss for CSS transformation (older browsers) and minification.  
@@ -443,13 +441,13 @@ Thanks to the funding from Clojurists Together, the Q3 development of Kushi is a
 - **Next steps:** When the work on the new build system (milestone #2) is complete, test this new API by upgrading existing UI work (such as Kushi's interactive documentation site) that uses the current (soon to be previous) API, then adjust and refine implementation details as necessary.   
 
 
-### Milestone #2: Reimplementing the build system for enhanced performance.  
+#### Milestone #2: Reimplementing the build system for enhanced performance.  
 - **Goal**: Reimplement the build system for performance, and eliminate the use of side-effecting macros.  
 - **Progress:** 75% of the initial design, discovery, and experimentation phase is complete.   
 - **Next steps:** I anticipate moving it into the implementation phase by the last week of October. Roughly half of the the remaining 6 weeks of the Q3 period will be spent building this out.  
 
 
-### Milestone #3: A reimagined theming system.  
+#### Milestone #3: A reimagined theming system.  
 - **Goal**: Based on learnings from using Kushi to build a lot of production UI over that last 2-3 years, redesign and implement a new theming system. This will involve harmonizing 3 principled subsystems:  
   1. Design tokens (a global system of CSS custom properties).  
   2. Utility classes.  
@@ -462,7 +460,7 @@ Thanks to the funding from Clojurists Together, the Q3 development of Kushi is a
 All of the work related to Milestone #1 has been happening in [a sandbox repo called kushi-css](https://github.com/kushidesign/kushi-css). Additional in-depth detail and documentation around this work can be found [here](https://github.com/kushidesign/kushi-css/blob/main/doc/towards-kushi-v1.md). When all 3 of the above grated into the main kushi repo.<br>  
 
 ---
-## Malli: Ambrose Bonnaire-Sergeant  
+### Malli: Ambrose Bonnaire-Sergeant  
 Q3 2024 Report No. 1, Published Oct. 18, 2024  
 
 ### Malli Constraints - Report 1
@@ -476,7 +474,7 @@ I received from the Malli community and my friends.
 
 This is a long update that really helps me get my thoughts in order for such a complex project. Thanks for reading and feel free to email me any questions or comments.  
 
-### Background  
+#### Background  
 In this project, I proposed to extend the runtime verification library
 Malli with constraints with the goal of making the library more expressive
 and powerful.  
@@ -490,7 +488,7 @@ Before the project started, I had completed an extensive prototype that generate
 ideas. The authors of Malli were interested in integrating these ideas in Malli and this
 project aims to have their final forms fit with Malli in collaboration with the Malli devs.  
 
-### Talk  
+#### Talk  
 It had been several months since I had built the prototype of Malli constraints, so
 I gave a talk at [Madison Clojure](https://madclj.com) which I live-streamed.
 You can watch it [here](https://www.youtube.com/live/28S96Ms8WOc).  
@@ -502,7 +500,7 @@ In the talk, I motivate the need for more expressive yet reliable schemas, propo
 a solution in the form of constraints, and sketch some of the design ideas for
 making it extensible. I gave this talk a few days before the project started and I hit the ground running.  
 
-### Design Goals (Constraints)  
+#### Design Goals (Constraints)  
 I've had many fruitful interactions with the Malli community its developers
 and I have a good idea what the project values. If this constraints project is to be
 successful, it must check all the boxes as if it came straight from
@@ -568,7 +566,7 @@ in both directions.
 
 I go into more detail below.  
 
-### Opt-in for CLJS Bundle size  
+#### Opt-in for CLJS Bundle size  
 
 I was able to separate the constraints framework from
 `malli.core` so it can be opt-in to control CLJS bundle size.
@@ -602,7 +600,7 @@ choice (an atom of atoms is rarely a good idea).
 Ultimately the constraint implementation is activated by calling
 `(malli.constraint/activate-base-constraints!)`.  
 
-### Reusing existing abstractions  
+#### Reusing existing abstractions  
 
 Constraints implement `m/Schema` and their `m/IntoSchema`'s live in the registry.
 They differ from schemas in how they are constructed and print
@@ -615,7 +613,7 @@ should yield equivalent constraints on `count`, while `[:int {:min 10}]` and `[:
 yield constraints on size. This is useful when solving constraints for generators
 (malli.constraint.solver).  
 
-### Extensibility  
+#### Extensibility  
 
 The new implementation converts the `:min`, `:max`, `:gen/min`, and `:gen/max`
 properties on the `:string` schema to constraints. They are implemented
@@ -630,7 +628,7 @@ each of which has a corresponding parser. For example, a string with a count bet
 `[:string {:and [:count 1 5]}]`. The `:string :parse-properties :{min,max}` configuration shows how
 to parse the former and `:string :parse-constraint :count` the latter.  
 
-### Performance  
+#### Performance  
 
 Extensibility and performance are somewhat at odds here. While it's great that two
 unrelated parties could define `:min` and `:max` in `[:string {:min 1 :max 5}]`,
@@ -644,7 +642,7 @@ Constraints have an `-intersect` method to merge with another constraint
 which `:and` calls when generating a validator. While we regain the performance of validation,
 we pay an extra cost in having to create multiple constraints and then simplify them.  
 
-### Robustness  
+#### Robustness  
 
 My main concern is a little esoteric but worth considering. Malli has specific
 expectations about properties that constraints might break, specifically that properties
@@ -726,7 +724,7 @@ deterministically attempt to find the smallest serialization for the constraint 
 the properties. If inconsistencies occur, at best might annoy some users, or at worst
 it could make constraints incomprehensible (to humans) be restating them in technically-equivalent ways.  
 
-### Next
+#### Next
 
 I need to resolve this roadblock of constraint serialization inconsistency. Is it a problem?
 If it is, do I need to throw out the entire design and start again?  <br>
@@ -763,7 +761,7 @@ I am coordinating the process, meeting all the participants, and serving as one 
 
 A few notable contributions were by Avicenna (mavbozo), who added a lot to the Fastmath documentation and tutorials; Jacob Windle, who added printing functionality to Fastmath regression models; Muhammad Ridho, who started working on portability of [Emmy Viewers](https://github.com/mentat-collective/emmy-viewers) data visualizations; Lin Zihao, who improved the Reagent support to the Kindly standard; Epidiah Ravachol, who worked on insightful tutorials for [dtype-next](https://github.com/cnuernber/dtype-next) array-programming; Oleh Sedletskyi, who started working on statistics tutorials; Ken Huang, who've made various contributions to Clay; and Prakash Balodi, who worked on [Tablecloth](https://scicloj.github.io/tablecloth/) issues and started organizing the Scicloj weekly group (see below).  
 
-### [Noj](https://scicloj.github.io/noj/)  
+#### [Noj](https://scicloj.github.io/noj/)  
 Noj is an entry point to data and science. It integrates a set of underlying libraries through a set of testable tutorials. Here, there were great additions by generateme and Carsten Behering, and I helped a bit with the integration.
 - generateme has made a big release of Fastmath version 3.0.0 alpha - a result of work in the last few months - which is affecting a few of the underlying libraries.
 - Carsten Behring has released new versions of a few of the machine learning libraries.
@@ -771,28 +769,28 @@ Noj is an entry point to data and science. It integrates a set of underlying lib
 - I helped in gradually adapting and testing a few of the underlying libraries.
 - I helped initiate a few documentation chapters that are being written by new community members.
 
-### [Kindly](https://scicloj.github.io/kindly-noted/)  
+#### [Kindly](https://scicloj.github.io/kindly-noted/)  
 Kindly is the standard of data visualizations used by Scicloj tutorials and docs.
 - Timothy Pratley has improved the way the user controls various options.
 - I helped test and integrate the new features.
 - We collaborated in creating a kindly-dev team, and a few of the new friends have started contributing to the stack of libraries around Kindly.
 
-### [Kinldy-render](https://github.com/scicloj/kindly-render)  
+#### [Kinldy-render](https://github.com/scicloj/kindly-render)  
 Kindly-render is a general rendering library which serves as a foundation for tools to support Kindly.
 - Timothy Pratley has reinitiating this project.
 - I joined in design discussions and testing.  
 
-### [Clay](https://scicloj.github.io/clay/)  
+#### [Clay](https://scicloj.github.io/clay/)  
 Clay is a REPL-friendly tool for data visualization and literate programming.
 - I worked on two new release versions. Each was a combination of bugfixes and feature requests.  
 
-### [real-world-data group](https://scicloj.github.io/docs/community/groups/real-world-data/)
+#### [real-world-data group](https://scicloj.github.io/docs/community/groups/real-world-data/)
 The real-world-data group is a space for people to share updates on their data projects at work.  
 
 Meeting #13 was dedicated to talk runs and discussions preceding the Heart of Clojure conference. 
 Meeting #14 was an interactive coding session of a data science tutorial.  
 
-### Scicloj weekly  
+#### Scicloj weekly  
 Together with Prakash Balodi, we initiated a new weekly meeting for new community members working on open-source projects.  
 
 Intentionally, we use a time slot which is more friendly to East and Central Asia time zones, unlike most Clojure meetups.  
@@ -804,48 +802,48 @@ We organized a new group that will collaborate on implementing and teaching appl
 
 The first meeting actually took place in October 2nd, so we will update more in the next month.  
 
-### [Heart of Clojure](https://2024.heartofclojure.eu/)  
+#### [Heart of Clojure](https://2024.heartofclojure.eu/)  
 Sami Kallinen represented Scicloj at Heart of Clojure with an incredbible [talk about data modelling](https://2024.heartofclojure.eu/talks/sailing-with-scicloj-a-bayesian-adventure/). The talk was extremely helpful in exploring and demonstrating a lot of the new additions to the Scicloj stack.  
 
 I collaborated with Sami on preparing the talk and improving the relevant tools and libraries to support the process.  
 
-### October 2024 goals  
+#### October 2024 goals  
 
 This is the tentative plan. Comments and ideas would be welcome.  
 
-### Noj and Fastmath  
+#### Noj and Fastmath  
 - Both these libraries will recieve lots of attention in the form of (testable) tutorials and docs. I will be working with a few people on vairous chapters of that effort.  
 - We will keep working on stabilizing the set of libraries behind Noj and improving the integration tests.  
 
-### Open-source mentoring  
+#### Open-source mentoring  
 We are expecting more participants to join.  
 - I will keep working on supporting participants in new beginnings and ongoing projects.  
 
-### [Hanamicloth](https://scicloj.github.io/hanamicloth/)  
+#### [Hanamicloth](https://scicloj.github.io/hanamicloth/)  
 Hanamicloth is a layered grammar of graphics library.  
 - The goal for the coming few weeks is to bring it to beta stage and mostly improve the documentation.  
 
-### Tooling  
+#### Tooling  
 - We will keep working on maturing kindly-render and refactoring Clay to use it internally.  
 - Clay will be in active development for code quality, bugixes, and user requests.  
 
-### Clojure Conj  
+#### Clojure Conj  
 The coming [Clojure Conj](https://2024.clojure-conj.org/) conference will feature a few Scicloj-related talks. At Scicloj, we have a habit of helping each other in talk preparations. We will do that as much as the speakers will find it helpful. We will also organize a couple more pre-conference meetings with speakers, as we did in August.  <br>
 
 ---
-## Standard Clojure Style: Chris Oakman  
+### Standard Clojure Style: Chris Oakman  
 Q3 2024 Report No. 1, Published Oct. 14, 2024  
 
 > Standard Clojure Style is a project to create a "follows simple rules, no config, runs everywhere" formatter for Clojure code.  
 
-### tl;dr  
+#### tl;dr  
 
 * project is usable for most codebases in its current state  
 * many bugs fixed  
 * I will be presenting Standard Clojure Style at Clojure/conj 2024  
 * website is next  
 
-### Update  
+#### Update  
 - As of [v0.7.0], Standard Clojure Style is ready for most codebases  
   - Give it a try!  
   - Standard Clojure Style is **fast**: Shaun Lebron shared some benchmarking on [Issue #77]  
@@ -864,7 +862,8 @@ Q3 2024 Report No. 1, Published Oct. 14, 2024
 [in the README]:https://github.com/oakmac/standard-clojure-style-js
 [v0.7.0]:https://www.npmjs.com/package/@chrisoakman/standard-clojure-style
 
-### Next Up
+#### Next Up
+
 - I will continue work to stabilize the library and algorithm  
 - I will work on a website to explain the project  
   - There should be a "try it online" demo  
