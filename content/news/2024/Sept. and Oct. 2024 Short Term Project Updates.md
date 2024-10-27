@@ -798,7 +798,7 @@ Intentionally, we use a time slot which is more friendly to East and Central Asi
 
 We have had three meetings so far, with 4, 15, and 6 participants.  
 
-### Linear Algebra meetings  
+#### Linear Algebra meetings  
 We organized a new group that will collaborate on implementing and teaching applied linear algebra algorithms in Clojure.  
 
 The first meeting actually took place in October 2nd, so we will update more in the next month.  
@@ -832,19 +832,19 @@ Hanamicloth is a layered grammar of graphics library.
 The coming [Clojure Conj](https://2024.clojure-conj.org/) conference will feature a few Scicloj-related talks. At Scicloj, we have a habit of helping each other in talk preparations. We will do that as much as the speakers will find it helpful. We will also organize a couple more pre-conference meetings with speakers, as we did in August.  <br>
 
 ---
-### Standard Clojure Style: Chris Oakman  
+## Standard Clojure Style: Chris Oakman  
 Q3 2024 Report No. 1, Published Oct. 14, 2024  
 
 > Standard Clojure Style is a project to create a "follows simple rules, no config, runs everywhere" formatter for Clojure code.  
 
-#### tl;dr  
+### tl;dr  
 
 * project is usable for most codebases in its current state  
 * many bugs fixed  
 * I will be presenting Standard Clojure Style at Clojure/conj 2024  
 * website is next  
 
-#### Update  
+### Update  
 - As of [v0.7.0], Standard Clojure Style is ready for most codebases  
   - Give it a try!  
   - Standard Clojure Style is **fast**: Shaun Lebron shared some benchmarking on [Issue #77]  
@@ -863,7 +863,7 @@ Q3 2024 Report No. 1, Published Oct. 14, 2024
 [in the README]:https://github.com/oakmac/standard-clojure-style-js
 [v0.7.0]:https://www.npmjs.com/package/@chrisoakman/standard-clojure-style
 
-#### Next Up
+### Next Up
 
 - I will continue work to stabilize the library and algorithm  
 - I will work on a website to explain the project  
