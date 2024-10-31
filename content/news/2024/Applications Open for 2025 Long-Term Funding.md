@@ -3,7 +3,7 @@ title: "Applications Open for 2025 Long-Term Funding"
 date: 2024-10-31T14:00:00+12:00
 author: Kathy Davis
 summary: "Applications close Nov. 12. $18K USD Annual Funding to each of 6 Developers."
-draft: True
+
 
 
 ---
