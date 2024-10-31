@@ -7,7 +7,7 @@ summary: "Applications close Nov. 12. $18K USD Annual Funding to each of 6 Devel
 
 
 ---
-
+### 6 Developers will each be awarded $1,500 per month in 2025.  
 
 This is the 4th year we are awarding annual funding. We’ve received an unmanageable number of nominations in the past few years, so based on member input, we’ve decided to try a new approach for 2025.  
 
