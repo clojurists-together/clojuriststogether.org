@@ -118,7 +118,7 @@ mkBabashkaDerivation {
 ### Clojure Goes Fast: Oleksandr Yakushev  
 Q3 2024 Report No. 1, Published Sept.30, 2024  
 
-I've spent the firt month of my Clojurists Together project polishing the user experience for clj-async-profiler. The profile viewer UI (the flamegraph renderer) received big improvements in navigation, ease of access, consistency, and overall look. As a bullet list:  
+I've spent the first month of my Clojurists Together project polishing the user experience for clj-async-profiler. The profile viewer UI (the flamegraph renderer) received big improvements in navigation, ease of access, consistency, and overall look. As a bullet list:  
 - Published one big release of clj-async-profiler (1.3.0) and two small releases (1.3.1 and 1.3.2). Most important changes:  
   - Completely redesigned collapsible sidebar.  
   - Better rendering performance and responsiveness.  
@@ -776,7 +776,7 @@ Kindly is the standard of data visualizations used by Scicloj tutorials and docs
 - I helped test and integrate the new features.
 - We collaborated in creating a kindly-dev team, and a few of the new friends have started contributing to the stack of libraries around Kindly.
 
-#### [Kinldy-render](https://github.com/scicloj/kindly-render)  
+#### [Kindly-render](https://github.com/scicloj/kindly-render)  
 Kindly-render is a general rendering library which serves as a foundation for tools to support Kindly.
 - Timothy Pratley has reinitiating this project.
 - I joined in design discussions and testing.  
