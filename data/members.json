@@ -290,13 +290,6 @@
     "level" : "cons",
     "founding" : false
   }, {
-    "name" : "Fern Flower Lab",
-    "member_type" : "company",
-    "url" : "https://ff-lab.info",
-    "logo" : null,
-    "level" : "assoc",
-    "founding" : false
-  }, {
     "name" : "ELiT Ltd",
     "member_type" : "company",
     "url" : "https://englishlanguageitutoring.com/",
@@ -1146,7 +1139,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 44,
+    "company" : 43,
     "developer" : 164
   }
 }
