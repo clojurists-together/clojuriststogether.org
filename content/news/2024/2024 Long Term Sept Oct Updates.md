@@ -1,5 +1,5 @@
 ---
-title: "Sept. and Oct. 2024  Project Updates"
+title: "Sept. and Oct. 2024  Long-Term Project Updates"
 date: 2024-11-16T14:00:00+12:00
 author: Kathy Davis
 summary: "The latest from Bozhidar Batsov, Michiel Borkent, Toby Crawley, Thomas Heller, Kira McLean, Nikita Prokopov, Tommi Reiman, Peter Taoussanis"  
@@ -9,16 +9,8 @@ draft: True
 ---
  
 
-A huge thank you to our 2024 long-term developers for their amazing work in Sept. and Oct. Check out their latest project updates! We've also included 3 short term project updates in the mix - released at the end of October. 
-
-## Short Term Project Updates  
-[Ambrose Bonnaire-Sergeant]
-[Daniel Slutsky]
-[Oleksandr Yakushev]
-
-
-
-
+A huge thank you to our 2024 long-term developers for their amazing work in Sept. and Oct. 
+Check out their latest project updates! 
 
 
 ## Long Term Project Updates  
@@ -32,17 +24,6 @@ A huge thank you to our 2024 long-term developers for their amazing work in Sept
 [Tommi Reiman:](#tommi-reiman) Reitit 7.0. Malli, jsonista, and more    
 [:](#peter-taoussanis) Carmine, Nippy, Telemere, and more  <br>
 
----
-
-## Short Term Project Updates <br>
-
-
-
-
-
-
-
-## Long Term Project Updates <br>
 
 
 ## Bozhidar Batsov   
@@ -196,7 +177,7 @@ Here are updates about the projects/libraries I've worked on in the last two mon
 * [process](https://github.com/babashka/process): Clojure library for shelling out / spawning sub-processes
     * Work has started to support prepending output (in support for babashka parallel tasks). Stay tuned. <br>
 
-    ---
+---
 
 
 ## Toby Crawley  
