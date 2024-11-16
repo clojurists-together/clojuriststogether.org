@@ -1,5 +1,5 @@
 ---
-title: "Sept. and Oct. 2024 Long-Term Project Updates"
+title: "Sept. and Oct. 2024  Project Updates"
 date: 2024-11-16T14:00:00+12:00
 author: Kathy Davis
 summary: "The latest from Bozhidar Batsov, Michiel Borkent, Toby Crawley, Thomas Heller, Kira McLean, Nikita Prokopov, Tommi Reiman, Peter Taoussanis"  
@@ -9,8 +9,16 @@ draft: True
 ---
  
 
-A huge thank you to our 2024 long-term developers for their amazing work in Sept. and Oct. Check out their latest project updates!
+A huge thank you to our 2024 long-term developers for their amazing work in Sept. and Oct. Check out their latest project updates! We've also included 3 short term project updates in the mix - released at the end of October. 
 
+# Short Term Projecy Updates  
+
+
+
+
+
+
+# Long Term Project Updates  
 
 [Bozhidar Batsov:](#bozhidar-batsov) CIDER       
 [Michiel Borkent:](#michiel-borkent) squint, babashka, neil, cherry, clj-kondo, and more   
