@@ -11,7 +11,7 @@ draft: True
 
 A huge thank you to our 2024 long-term developers for their amazing work in Sept. and Oct. Check out their latest project updates! We've also included 3 short term project updates in the mix - released at the end of October. 
 
-## Short Term Projecy Updates  
+## Short Term Project Updates  
 
 
 
@@ -73,20 +73,9 @@ In September I visited [Heart of Clojure](https://2024.heartofclojure.eu/) where
 
 Although I didn't make it to the USA for the Clojure conj in October, Alex Miller did invite me to appear towards the end of his closing talk when he mentioned that 90% of survey respondents used babashka.
 
+![image](https://github.com/user-attachments/assets/34e76510-23fb-40c2-a0ad-728761c4fec5)
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
-
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.jpg "image_tooltip")
-
+![image](https://github.com/user-attachments/assets/fcd30bb1-0638-4a8a-acbd-f020bf304d92)
 
 If you are interested in a full stack web framework with babashka and squint, check out [borkweb](https://github.com/m3tti/borkweb).
 
