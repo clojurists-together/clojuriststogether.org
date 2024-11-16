@@ -12,6 +12,9 @@ draft: True
 A huge thank you to our 2024 long-term developers for their amazing work in Sept. and Oct. Check out their latest project updates! We've also included 3 short term project updates in the mix - released at the end of October. 
 
 ## Short Term Project Updates  
+[Ambrose Bonnaire-Sergeant]
+[Daniel Slutsky]
+[Oleksandr Yakushev]
 
 
 
@@ -27,7 +30,19 @@ A huge thank you to our 2024 long-term developers for their amazing work in Sept
 [Kira McLean:](#kira-mclean) Scicloj Libraries. tcutils, Clojure Data Cookbook, and more   
 [Nikita Prokopov:](#nikita-prokopov) Humble UI, Datascript, AlleKinos, Clj-reload, and more  
 [Tommi Reiman:](#tommi-reiman) Reitit 7.0. Malli, jsonista, and more    
-[:](#peter-taoussanis) Carmine, Nippy, Telemere, and more  
+[:](#peter-taoussanis) Carmine, Nippy, Telemere, and more  <br>
+
+---
+
+## Short Term Project Updates <br>
+
+
+
+
+
+
+
+## Long Term Project Updates <br>
 
 
 ## Bozhidar Batsov   
