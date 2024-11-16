@@ -179,7 +179,7 @@ Here are updates about the projects/libraries I've worked on in the last two mon
     
 ### Other projects  
 There are many other projects I’m involved with but that had little to no activity in the past month. Check out the **Other Projects** section (more details) of [my blog here](https://blog.michielborkent.nl/oss-updates-sep-oct-2024.html) to see a full list.  
-Published: 2024-10-31<br>   
+Published: 2024-11-01<br>   
     
 ---
 
