@@ -73,9 +73,9 @@ In September I visited [Heart of Clojure](https://2024.heartofclojure.eu/) where
 
 Although I didn't make it to the USA for the Clojure conj in October, Alex Miller did invite me to appear towards the end of his closing talk when he mentioned that 90% of survey respondents used babashka.
 
-![image](https://github.com/user-attachments/assets/34e76510-23fb-40c2-a0ad-728761c4fec5)
+![image](https://github.com/user-attachments/assets/cba703f9-820e-4b22-a33f-eb4f3ff56957)
 
-![image](https://github.com/user-attachments/assets/fcd30bb1-0638-4a8a-acbd-f020bf304d92)
+![image](https://github.com/user-attachments/assets/5e0d873d-2211-478c-8ae8-c53dd5b456b8)
 
 If you are interested in a full stack web framework with babashka and squint, check out [borkweb](https://github.com/m3tti/borkweb).
 
