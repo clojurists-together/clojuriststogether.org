@@ -13,7 +13,7 @@ draft: True
 Check out their latest project updates from our 2024 long-term developers! These reports just in for September and October. Thanks to all!
 
 
-## Long Term Project Updates  
+## Long-Term Project Updates  
 
 [Bozhidar Batsov:](#bozhidar-batsov) CIDER       
 [Michiel Borkent:](#michiel-borkent) squint, babashka, neil, cherry, clj-kondo, and more   
