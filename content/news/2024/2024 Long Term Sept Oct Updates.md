@@ -23,7 +23,7 @@ A huge thank you to our 2024 long-term developers for their amazing work in Sept
 [Bozhidar Batsov:](#bozhidar-batsov) CIDER       
 [Michiel Borkent:](#michiel-borkent) squint, babashka, neil, cherry, clj-kondo, and more   
 [Toby Crawley:](#toby-crawley) clojars-web    
-[Thomas Heller:](#thomas-heller) shadow-cljs, shadow-grove    
+[Thomas Heller:](#thomas-heller) shadow-cljs   
 [Kira McLean:](#kira-mclean) Scicloj Libraries. tcutils, Clojure Data Cookbook, and more   
 [Nikita Prokopov:](#nikita-prokopov) Humble UI, Datascript, AlleKinos, Clj-reload, and more  
 [Tommi Reiman:](#tommi-reiman) Reitit 7.0. Malli, jsonista, and more    
@@ -172,7 +172,7 @@ Here are updates about the projects/libraries I've worked on in the last two mon
 * [process](https://github.com/babashka/process): Clojure library for shelling out / spawning sub-processes
     * Work has started to support prepending output (in support for babashka parallel tasks). Stay tuned. <br>
 
-    ---
+---
 
 
 ## Toby Crawley  
