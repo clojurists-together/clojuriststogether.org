@@ -12,23 +12,23 @@ Greetings Clojurist Together Members! This year, we are trying a new process to 
 
 We put out the call  - and we received 17 thoughtful applications for you to consider. Please review the applications below and select 5 developers to receive funding in 2025. Be on the lookout for an email that contains your link to a Ranked Vote ballot. Here we go ..in alphabetical order (by last name)....
 
-Michiel Borkent
-Thomas Clark
-Jeremiah Coyle
-Eric Dallo
-Rafal Dittwald
-Dragan Djuric
-Robert Gersak
-Kira Howe
-Jack Rusher
-Roman Liutikov
-Mateusz Mazurczak and Anthony Caumond
-Adrian Smith
-Dan Sutton
-Daniel Slutsky
-Peter Strömberg
-Peter Taoussanis
-Oleksandr Yakushev
+[Michiel Borkent](#michiel-borkent)  
+[Thomas Clark](#thomas-clark)  
+Jeremiah Coyle  
+Eric Dallo  
+Rafal Dittwald  
+Dragan Djuric  
+Robert Gersak  
+Kira Howe  
+Jack Rusher  
+Roman Liutikov  
+Mateusz Mazurczak and Anthony Caumond  
+Adrian Smith  
+Dan Sutton  
+Daniel Slutsky  
+Peter Strömberg  
+Peter Taoussanis  
+Oleksandr Yakushev  
 
 ### Michiel Borkent
 https://github.com/borkdude
@@ -37,7 +37,10 @@ https://github.com/borkdude
 My main projects are clj-kondo, babashka / SCI, and squint/cherry. I will develop new features, specified below per project. As usual I'll also work on ongoing maintenance and offering support on Slack and Github.
 
 Links:
-https://github.com/clj-kondo/clj-kondo https://github.com/babashka/babashka https://github.com/babashka/sci https://github.com/squint-cljs/squint
+[clj-kondo](https://github.com/clj-kondo/clj-kondo)  
+[babashka](https://github.com/babashka/babashka)  
+[sci](https://github.com/babashka/sci)  
+[squint](https://github.com/squint-cljs/squint)  
 
 #### [Clj-kondo](https://github.com/clj-kondo/clj-kondo)  
 - Linter for partially extended protocols
@@ -52,6 +55,7 @@ https://github.com/clj-kondo/clj-kondo https://github.com/babashka/babashka http
 - Better error locations for clojure.test output (https://github.com/babashka/babashka/issues/1518)
 - Report exception causes in console error report (https://github.com/babashka/babashka/issues/1515)
 - Several other issues: https://github.com/babashka/babashka/issues
+
 #### [Squint (and cherry)](https://github.com/squint-cljs/squint)  
 - Browser REPL support
 - Source map support (some work has been done, but far from finished)
