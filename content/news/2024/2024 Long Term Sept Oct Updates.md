@@ -9,8 +9,8 @@ draft: True
 ---
  
 
-A huge thank you to our 2024 long-term developers for their amazing work in Sept. and Oct. 
-Check out their latest project updates! 
+
+Check out their latest project updates from our 2024 long-term developers! These reports just in for September and October. Thanks to all!
 
 
 ## Long Term Project Updates  
