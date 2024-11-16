@@ -175,8 +175,12 @@ Here are updates about the projects/libraries I've worked on in the last two mon
 * [deps.clj](https://github.com/borkdude/deps.clj): A faithful port of the clojure CLI bash script to Clojure
     * Upgrade/sync with clojure CLI v1.12.0.1479
 * [process](https://github.com/babashka/process): Clojure library for shelling out / spawning sub-processes
-    * Work has started to support prepending output (in support for babashka parallel tasks). Stay tuned. <br>
-
+    * Work has started to support prepending output (in support for babashka parallel tasks). Stay tuned.  
+    
+### Other projects  
+There are many other projects I’m involved with but that had little to no activity in the past month. Check out the **Other Projects** section (more details) of [my blog here](https://blog.michielborkent.nl/oss-updates-sep-oct-2024.html) to see a full list.  
+Published: 2024-10-31<br>   
+    
 ---
 
 
