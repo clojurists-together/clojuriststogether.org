@@ -37,10 +37,7 @@ https://github.com/borkdude
 My main projects are clj-kondo, babashka / SCI, and squint/cherry. I will develop new features, specified below per project. As usual I'll also work on ongoing maintenance and offering support on Slack and Github.
 
 Links:
-[clj-kondo](https://github.com/clj-kondo/clj-kondo)  
-[babashka](https://github.com/babashka/babashka)  
-[sci](https://github.com/babashka/sci)  
-[squint](https://github.com/squint-cljs/squint)  
+[clj-kondo](https://github.com/clj-kondo/clj-kondo), [babashka](https://github.com/babashka/babashka), [SCI](https://github.com/babashka/sci), [squint](https://github.com/squint-cljs/squint)  
 
 #### [Clj-kondo](https://github.com/clj-kondo/clj-kondo)  
 - Linter for partially extended protocols
