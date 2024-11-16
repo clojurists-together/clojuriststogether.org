@@ -11,19 +11,19 @@ draft: True
 
 A huge thank you to our 2024 long-term developers for their amazing work in Sept. and Oct. Check out their latest project updates! We've also included 3 short term project updates in the mix - released at the end of October. 
 
-# Short Term Projecy Updates  
+## Short Term Projecy Updates  
 
 
 
 
 
 
-# Long Term Project Updates  
+## Long Term Project Updates  
 
 [Bozhidar Batsov:](#bozhidar-batsov) CIDER       
 [Michiel Borkent:](#michiel-borkent) squint, babashka, neil, cherry, clj-kondo, and more   
 [Toby Crawley:](#toby-crawley) clojars-web    
-[Thomas Heller:](#thomas-heller) shadow-cljs   
+[Thomas Heller:](#thomas-heller) shadow-cljs, shadow-grove    
 [Kira McLean:](#kira-mclean) Scicloj Libraries. tcutils, Clojure Data Cookbook, and more   
 [Nikita Prokopov:](#nikita-prokopov) Humble UI, Datascript, AlleKinos, Clj-reload, and more  
 [Tommi Reiman:](#tommi-reiman) Reitit 7.0. Malli, jsonista, and more    
@@ -46,6 +46,29 @@ In other news - I turned 40 in October, which means I've spent 30% of my life wo
 ---
 
 ## Michiel Borkent  
+**Updates**
+In this post I'll give updates about open source I worked on during September and October 2024. To see previous OSS updates, go [here](https://blog.michielborkent.nl/tags/oss-updates.html).  
+
+### Sponsors  
+I'd like to thank all the sponsors and contributors that make this work possible. Without _you_, the below projects would not be as mature or wouldn't exist or be maintained at all.  
+
+Current top tier sponsors:  
+* [Clojurists Together](https://clojuriststogether.org/)
+* [Roam Research](https://roamresearch.com/)
+* [Nextjournal](https://nextjournal.com/)
+* [Nubank](https://nubank.com.br/)
+
+### Sponsor info  
+If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work in the following ways. Thank you!  
+* [Github Sponsors](https://github.com/sponsors/borkdude)
+* The [Babaska](https://opencollective.com/babashka) or [Clj-kondo](https://opencollective.com/clj-kondo) OpenCollective
+* [Ko-fi](https://ko-fi.com/borkdude)
+* [Patreon](https://www.patreon.com/borkdude)
+* [Clojurists Together](https://www.clojuriststogether.org/)
+
+If you're used to sponsoring through some other means which aren't listed above, please get in touch. On to the projects that I've been working on!
+
+### Updates  
 In September I visited [Heart of Clojure](https://2024.heartofclojure.eu/) where Christian, Teodor and I did a workshop on babashka. The first workshop was soon fully booked so we even did a second one and had a lot of fun doing so. It was so good to see familiar Clojure faces in real life again. Thanks Arne and Gaiwan team for organizing this amazing conference.
 
 Although I didn't make it to the USA for the Clojure conj in October, Alex Miller did invite me to appear towards the end of his closing talk when he mentioned that 90% of survey respondents used babashka.
@@ -68,9 +91,6 @@ Although I didn't make it to the USA for the Clojure conj in October, Alex Mille
 If you are interested in a full stack web framework with babashka and squint, check out [borkweb](https://github.com/m3tti/borkweb).
 
 Here are updates about the projects/libraries I've worked on in the last two months.
-
-
-
 * [clj-kondo](https://github.com/clj-kondo/clj-kondo): static analyzer and linter for Clojure code that sparks joy. \
 
     * Unreleased
@@ -172,7 +192,7 @@ Here are updates about the projects/libraries I've worked on in the last two mon
 * [process](https://github.com/babashka/process): Clojure library for shelling out / spawning sub-processes
     * Work has started to support prepending output (in support for babashka parallel tasks). Stay tuned. <br>
 
----
+    ---
 
 
 ## Toby Crawley  
