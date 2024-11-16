@@ -22,7 +22,7 @@ Check out their latest project updates!
 [Kira McLean:](#kira-mclean) Scicloj Libraries. tcutils, Clojure Data Cookbook, and more   
 [Nikita Prokopov:](#nikita-prokopov) Humble UI, Datascript, AlleKinos, Clj-reload, and more  
 [Tommi Reiman:](#tommi-reiman) Reitit 7.0. Malli, jsonista, and more    
-[:](#peter-taoussanis) Carmine, Nippy, Telemere, and more  <br>
+[Peter Taoussanis:](#peter-taoussanis) Carmine, Nippy, Telemere, and more  <br>
 
 
 
