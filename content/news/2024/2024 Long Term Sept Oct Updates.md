@@ -3,7 +3,7 @@ title: "Sept. and Oct. 2024  Long-Term Project Updates"
 date: 2024-11-16T14:00:00+12:00
 author: Kathy Davis
 summary: "The latest from Bozhidar Batsov, Michiel Borkent, Toby Crawley, Thomas Heller, Kira McLean, Nikita Prokopov, Tommi Reiman, Peter Taoussanis"  
-draft: True
+
 
 
 ---
