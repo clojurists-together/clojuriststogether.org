@@ -552,10 +552,44 @@ In short, I think this tooling is a super power. I would love to build this out 
 ---
 
 ## Daniel Slutsky
+https://github.com/daslu  
 
-**What do you plan to work on throughout the year?** 
+**What do you plan to work on throughout the year?** Scicloj    https://github.com/scicloj/   
+Scicloj community building and open-source projects   
 
-**Why is this work important to the Clojure community?**
+
+**Why is this work important to the Clojure community?** Clojure can be a fantastic fit for many kinds of scientific and data-intensive projects. Fulfilling that potential is a years-long effort, on the technical as well as the community side.  
+
+Since early 2019, we, the Scicloj group, have been working on creating a stack of tools and libraries for data and science in Clojure. https://scicloj.github.io/  
+
+The stack we are building is addressing many needs which are useful non only in scientific context. High-performance computing, data processing, data visualization, literate programming, and literate testing are a few examples.  
+
+You may find more details about current developments in a few recent talks by Scicloj members:  
+Kira Howe (McLean) at London Clojurians:  
+https://www.youtube.com/watch?v=eUFf3-og_-Y  
+Sami Kallinen at Heart of Clojure:  
+https://www.youtube.com/watch?v=ckQllKUw3b4  
+Thomas Clark at Clojure Conj:  
+https://www.youtube.com/watch?v=_D5d6Ls6pBw   
+
+We have also been continuously working on building the Clojure community: running workshops, meetup groups, study groups and dev groups, and helping with the organization of a couple of conference. We have been mentoring many Clojurians in becoming involved in open-source and in expanding their use of Clojure to new contexts.   
+
+Based on that experience, we recently initiated the Scicloj open-source-mentorship program.
+https://scicloj.github.io/docs/community/groups/open-source-mentoring/  
+63 people have applied, and 34 of them are currently active in looking into projects and meeting regularly.
+The program was discussed in our recent status report (2024-10-25):  
+https://www.youtube.com/watch?v=STnFMpIZlkk  
+
+A few project mentees are new to Clojure and sometimes new to programming. We meet regularly and help them in their learning process.  
+
+We have been persistently exploring the expansion of Clojure to new fields of application and research, such as biology, linguistics, physics, statistics, and geography. We are actively working with practitioners in various fields (some new to programming and some experienced) to help them out and learn from their use cases.   
+
+**Do you receive any other funding to work on this project?** I receive regular funding through Github Pages, currently mostly from Nubank.  
+
+**Is there anything else you would like us to know?** My role in Scicloj is both in community building and as an open-source maintainer of a few tools and libraries. I have been involved since the beginning (2019). Since I left my day job in 2023, Scicloj has been my main focus.  <br>
+
+---
+
 
 ## Peter Strömberg  
 
