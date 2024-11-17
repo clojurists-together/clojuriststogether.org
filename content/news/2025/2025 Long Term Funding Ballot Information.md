@@ -22,19 +22,19 @@ Please review the applications below and select 5 developers to receive funding 
 -[Thomas Clark](#thomas-clark)  
 -[Jeremiah Coyle](#jeremiah-coyle)  
 -[Eric Dallo](#eric-dallo)  
-- Rafal Dittwald  
-Dragan Djuric  
-Robert Gersak  
-Kira Howe  
-Jack Rusher  
-Roman Liutikov  
-Mateusz Mazurczak and Anthony Caumond  
-Adrian Smith  
-Dan Sutton  
-Daniel Slutsky  
-Peter Strömberg  
-Peter Taoussanis  
-Oleksandr Yakushev  
+-[Rafal Dittwald](#rafal-dittwald)  
+-[Dragan Djuric](#dragan-djuric)  
+-[Robert Gersak](#robert-gersak)  
+-[Kira Howe](#kira-howe-mclean) (McLean)  
+-[Jack Rusher](#jack-rusher)  
+-[Roman Liutikov](#roman-liutikov)  
+-[Mateusz Mazurczak and Anthony Caumond](#mateusz-mazurczak-and-anthony-caumond)  
+-[Adrian Smith](#adrian-smith) 
+-[Dan Sutton](#dan-sutton)  
+-[Daniel Slutsky]  
+-[Peter Strömberg]  
+-[Peter Taoussanis]  
+-[Oleksandr Yakushev]  
 
 ### Michiel Borkent
 https://github.com/borkdude
@@ -318,7 +318,272 @@ Do you receive any other funding to work on this project? 23 USD/mth from a Gith
 
 ---
 
-## 
+## Dragan Djuric  
+https://dragan.rocks/  
+
+**What do you plan to work on throughout the year?**  
+My goal with this funding in 2025 is to support Apple silicon (M cpu) in Neanderthal
+(and other Uncomplicate libraries where that makes sense and where it's possible).  
+
+This will hugely streamline user experience regarding high performance computing in Clojure for Apple macOS users, which is a considerable chunk of Clojure community. They ask for it all the time, and I am always sorry to tell them that I still don't have a solution. Once upon a time, Neanderthal worked on Mac too, but then Apple did one of their complete turnarounds with M1... This basically broke all number crunching software on macs, and the world is slow to catch up.  
+
+Several Clojure developers started exploring high performance computing on Apple, but didn't get too far; it's LOTS of functionality. So, having Neandeathal support Apple would enable several Clojure data processing communities to leapfrog the whole milestone
+and concentrate on more high-level tasks.  
+
+This affects Neanderthal (matrices & vectors), and Deep Diamond (tensors & deep learning) the most. Nvidia's CUDA is not physically available on Macs at all, while OpenCL is discontinued in favor of Apple's proprietary Metal (and who knows what else they've came up with since).  
+
+**Neanderthal** is a Clojure library for fast matrix computations based on the highly optimized native libraries and computation routines for both CPU and GPU. It is a lean, high performance, infrastructure for working with vectors and matrices in Clojure, which is the foundation for implementing high performance computing related tasks, including, but not limited to, machine learning and artificial intelligence.  
+
+Deep Diamond is a tensor and deep learning Clojure library that uses Neanderthal and ClojureCUDA under the hood (among other things).  
+
+So, what are the missing parts for Apple silicon?  
+1. A good C++/native interop. That is more or less solved by JavaCPP, but their ARM support is still in its infancy, especially regarding distribution. But it is improving.  
+2. A good BLAS/LAPACK alternative. There's OpenBLAS, and there's Apple's Accelerate. Both support only a part of Intel's MKL functionality. But, if we don't insist on 100% coverage (we're not) and are willing to accept missing operations to be slower, I could implement the most important ones in Clojure if nothing else is available.  
+3. A good GPU computing alternative. CUDA is not supported on Apple, and OpenCL has been discontinued by Apple. So that leaves us with Apple's Metal, which is a mess (or so I hear). So I wouldn't put too much hope on GPU, at the moment. Maybe much, much, later, with much, much, more experience...  
+4. Assorted auxiliary operations that are not in BLAS/LAPACK/Apple Accelerate, which are usually programmed in C++ in native-land. I'd have to see how many appear, and what I have to do with them.  
+5. Explore what's the situation related to tensors and deep learning on Apple. I doubt that Intel's DNNL can cover this, but who knows. Also, Apple certainly supports something, but how compatible it is with cuDNN and DNNL, is a complete unknown to me...  
+6. Who knows which roadblocks can pop up.   
+
+So, there's a lots of functionality to be implemented, and there's a lots of unknowns.  
+
+I propose to * Implement an Apple M engine for Neanderthal.* This involves:  
+- buying an Apple M2/3 Mac since I don't have it (the cheapest M3 in Serbia is almost 3000 USD with VAT).  
+- learning enough macOS tools (Xcode was terrible back in the days) to be able to do anything.  
+- exploring JavaCPP support for ARM and macOS.  
+- exploring relevant libraries (OpenBLAS may even work through JavaCPP).  
+- exploring Apple Accelerate.  
+- learning enough JavaCPP tooling to be able to see whether it is realistic that I build Accelerate wrapper (and if I can't, at least to know how much I don't know).  
+- I forgot even little C/C++ that I did know back in the day. This may also give me some headaches, as I'll have to quickly pick up whatever is needed.  
+- writing articles about relevant topics so Clojurians can pick this functionality as it arrives.  
+
+It may include implementing Tensor & Deep Learning support for Apple in Deep Diamond, but
+that depends on how far I get with Neanderthal. I hope that I can do it, but can't promise it.  
+
+By the end of 2025, I am fairly sure that I can provide Apple support for Neanderthal (and ClojureCPP) and I hope that I can  even add it for Deep Diamond.  
+
+Projects directly involved:
+https://github.com/uncomplicate/neanderthal  
+https://github.com/uncomplicate/deep-diamond  
+https://github.com/uncomplicate/clojure-cpp  
+
+
+**Why is this work important to the Clojure community?**   
+This will hugely streamline user experience regarding high performance computing in Clojure for Apple macOS users, which is a considerable chunk of Clojure community. They ask for it all the time, and I am always sorry to tell them that I still don't have a solution since I don't have a recent Mac hardware. Once upon a time, Neanderthal worked on Mac too, but then Apple did one of their
+complete turnarounds with M1... This basically broke all number crunching software on macs, and the world is slow to catch up.  
+
+Several Clojure developers started exploring high performance computing on Apple, but didn't get too far; it's LOTS of functionality. So, having Neandeathal support Apple would enable several Clojure data processing communities to leapfrog the whole milestone
+and concentrate on more high-level tasks.  
+
+**Do you receive any other funding to work on this project?** I write Clojure books, and accept donations through Patreon, which I use to fund the open source development on Uncomplicate libraries.  
+
+**Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?** The major obstacle that I have is that I live in a country outside of the USA and EU, so most work opportunities are unavailable from here (Serbia is a small country with a poor economy that is still recovering from civil wars and whatnot, and the local IT market is mostly based on outsourcing). Other than that, I guess I'm in a similar position like everyone else.  <br>
+
+---
+
+## Robert Gersak 
+https://github.com/gersak  
+
+**What do you plan to work on throughout the year?** 
+https://github.com/neyho/eywa-core  
+
+
+**Why is this work important to the Clojure community?**  
+This project is about providing sane approach to identity access management based on OAuth2.1 specification and OpenID connect, specification that is common standard for identity management across professional services. ( it is important for everyone)  
+
+In addition, this project provides Data Modelling with out of the box GraphQL generic API exposure, that can be managed and controlled through UI. In terms of modelling entities and relations and what role can read, write, delete or own some entity or relation.  
+
+Currently this is applicable to PostgreSQL DB, but in future more similar DB will be covered.   
+
+Summary would be that this project is well suited for rapid development as well as for minimizing maintenance and change cost. It is fusion of IAM, Data Modelling and replacement for CRUD approach.  
+
+**Do you receive any other funding to work on this project?** No, I'm not receiving any other founding. But I am co-founder of Neyho and I (that is we) would like to share our work with Clojure community
+
+**Is there anything else you would like us to know?** I would like to share that IAM has been one of important subjects when working on enterprise level projects. Project applied above helped us in many ways to overcome enterprise level presence and onboard people towards common goal through usage of Data Modeling  <br>
+
+---
+
+## Kira Howe (McLean)  
+http://github.com/kirahowe
+
+**What do you plan to work on throughout the year?** 
+I would like to continue working on stewarding Clojure's data science ecosystem into a state of maturity. This would include specifically working on developing ggclj (a grammar of graphics implementation in Clojure -- https://github.com/kirahowe/ggclj), guides and tutorials for Clojure's data science stack (including the Clojure data cookbook and Clojure Tidy Tuesdays, https://github.com/scicloj/clojure-data-cookbook, https://github.com/kirahowe/clojure-tidy-tuesdays), and conference talks. I would like to pitch some talks to broader data-focused conferences in 2025 outside the Clojure community in hopes of reaching a broader audience. These would include at least PyData Global, Fossdem, Open Data Science Conference, and Lambda world.  
+
+**Why is this work important to the Clojure community?**  
+I think this work will help expand Clojure's user base and reach new audiences who can benefit from the unique tools and approaches Clojure brings to some of the biggest problems in data science today.  
+
+**Do you receive any other funding to work on this project?** I currently have $515/month in recurring sponsorships through GitHub sponsors (mostly from Nubank) for open source work, though it's not tied to any project specifically.
+
+**Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?**  I'm female and feel women are underrepresented in tech and especially in open source.  <br>
+
+---
+
+
+## Jack Rusher  
+https://github.com/jackrusher  
+
+**What do you plan to work on throughout the year?** I would like to devote a certain number of hours every month in 2025 to work on Clerk.  
+
+**Why is this work important to the Clojure community?**  Clerk is used by a large number of community members for literate programming, data analysis and visualization, &c.  
+
+**Do you receive any other funding to work on this project?** I was sponsored to work on this project by Nextjournal, but they are no longer in a financial position to provide that support.  <br>
+
+---
+
+## Roman Liutikov  
+https://github.com/roman01la  
+
+**What do you plan to work on throughout the year?** https://github.com/pitch-io/uix
+
+**Why is this work important to the Clojure community?** UIx is one of the most dev friendly React wrappers, currently used by a number of companies known in Clojure community, including Pitch, Metosin and Cognician. UIx builds on  modern React and encourages to rely more on existing React ecosystem in JS world. The library was in particular developed to be beginner friendly and close to React conceptually so that Clojure companies could onboard JavaScript developers quicker, allowing them to reuse most of their experience from JS/React world. I think UIx succeeded at this, at least judging based on feedback from companies mentioned above.   
+
+Both Pitch and Cognician hired frontend folks from JS community and they were able to pick up UIx relatively quickly. I also gave a talk on UIx at London Clojurians https://youtu.be/4vgrLHsD0-I?si=RPs7AS4IVDA56WWo
+I have a couple of ideas on improving the library further, preparing for React v19, also documentation needs more work and interactive examples. In general today after some years UIx is pretty stable, now I want to invest more in learning materials and templates for various types of projects, to make the library more accessible to devs.  
+
+**Do you receive any other funding to work on this project?** No, originally the project was sponsored by Pitch, when I worked there. But since late 2023 when I left that company I  maintain the library myself.  <br>
+
+---
+
+## Mateusz Mazurczak and Anthony Caumond  
+https://github.com/Kaspazza
+https://caumond.com/#/
+
+
+**What do you plan to work on throughout the year?** 
+We are planning to work on discrete event simulation and discrete optimization.  
+Planning to add:  
+- A data oriented language to be able to model simulation by non-technical people.  
+- Add scenario management for creating multiple simulations.  
+- Add rendering module to give the highest possible quality insights to the modeler about the behavior of a model  
+
+Project name: Automaton simulation discrete event
+Link: https://github.com/hephaistox/automaton-simulation-de  
+
+**Why is this work important to the Clojure community?**  
+First, as a little introduction:  
+We have over two decades of expertise in the supply chain on board and a decade of software development with software craftsmanship in our hearts. We plan to create it as an open-source alternative to existing solutions (like Rockwell Arena https://www.rockwellautomation.com/en-us/products/software/arena-simulation.html or https://www.anylogic.com/).  
+
+With the difference, that thanks to Clojure and data-centric approach our software will be at much higher flexibility.   
+This is crucial for this kind of software, as each supply-chain industry's needs for simulation are different. So current off-the-shelf software is either not flexible enough for their usage or to expensive to adapt (ranging in millions of euro).  
+
+Future development of this library can bring more interest in Clojure for supply-chain-related projects (especially since we are putting related topics to separate libraries, e.g., https://github.com/hephaistox/automaton-optimization).  
+
+By being highly flexible in architecture, other people can extend this library to meet their needs. This can benefit college students of the supply chain and people working in supply-chain (e.g. warehouses, factories). Especially when their company or revenue is too small to require consultants and high-cost software.  
+
+This will be also a great showcase for clojure data-oriented approach, as this kind of scheduling systems are much harder to create to be so flexible using classical languages (java, c++) while keeping costs small (small team).  
+
+**Do you receive any other funding to work on this project?** Not right now. But we have a plan to use this library  during consultancy for the supply chain when it's ready.  
+
+**Is there anything else you would like us to know?** As automaton-simulation-de is built with a non-monolith approach, each of its parts could be seen, on its own as a product providing value to the community.  
+
+For example:  
+- PRNG and probabilistic distribution clojure / clojurescript lib  
+- Technology agnostic discrete optimization library (random walk, descent, genetic algorithm, ...)  
+- Scenario management,  
+- Scheduler engine  
+- Data-oriented UI components library (separating well the HTML+css part, behavior, and where the setup data comes from).  
+- Or other libraries that are already separated as a side-effect of the main work e.g. https://github.com/hephaistox/automaton-build for working with monorepo  <br>
+
+---
+
+## Adrian Smith  
+https://github.com/phronmophobic/
+
+
+**What do you plan to work on throughout the year?** 
+- Grease (https://github.com/phronmophobic/grease): The goal for this year is to make a free, open source app similar to pythonista(http://www.omz-software.com/pythonista/), but for clojure. This project is already in-progress. More info at https://clojurians.slack.com/archives/C0260KHN0Q0 on the clojurians slack.  
+- AI tools like llama.clj (https://github.com/phronmophobic/llama.clj): llama.clj is a library that allows running open source LLMs directly from the JVM with a clojure-friendly API.  
+- Dewey (https://github.com/phronmophobic/dewey): Dewey is a public dataset that scans and analyzes clojure github repos weekly. These datasets are currently being used by tools like tutkain and clojure-lsp. The goal is to improve access to ecosystem data in order to be even more useful for developer tooling.  
+- Membrane (https://github.com/phronmophobic/membrane): A pure clojure, cross-platform UI library  
+
+
+**Why is this work important to the Clojure community?** The goal for the Grease project is to make a fully scriptable iOS app. This would allow any clojure developer to write apps for their iPhone without requiring developers to jump through hoops like the Apple submission process. The app (currently code named LearnLisp) is compiled using graalvm's native-image and scripts are executed using an embedded sci interpreter. A subgoal for this project is to make the app approachable to any developer that might be interested in learning a Lisp while also having fun making something useful for their phone. In principle, the same approach can be used to target android. A stretch goal is to also release an android app with the same features.  
+
+Many of the latest AI tools are written in python and c++. I have 15 years of experience writing python and c++. One of the goals for the next year is to continue writing clojure libraries like llama.clj that make the best AI tools available to clojure. Some examples of similar libraries are whisper.clj, usearch.clj, and clip.  clj.
+
+One of the challenges commonly cited by new clojure users is finding libraries. Dewey collects and indexes information about the clojure open source ecosystem. The dewey frontends are already quite capable of finding the right library for a particular task, but the UX needs to be improved.  
+
+The current dewey frontends:  
+- Library Search https://phronmophobic.github.io/dewey/search.html - Search for clojure libraries by keyword, name, author, and description.  
+- Cloogle https://cloogle.phronemophobic.com/doc-search.html - Search for any clojure function by its doc string. Queries are indexed by semantic meaning using a vector db.   
+
+The goals for this year:  
+- Consolidate frontends into a single, unified frontend  
+- Make the UI prettier  
+- Create an API to support developer tools  
+- Extract the semantic search code into its own standalone library  
+
+Membrane is a UI library written in pure clojure aimed at building complex, interactive UI applications in a functional style. One pitfall I'm trying to avoid with membrane is to solve the easy problems, but ignore the hard problems. The most recent work on membrane has been about solving some of the hard problems facing desktop UIs so that membrane can be a real alternative to the browser for complex desktop applications. These projects include clj-media (video playback), clj-cef2 (an embedded web browser based on chromium), clj-webgpu (3d graphics), and membrane.term (terminal emulator). Now that I feel comfortable that I won't be leading users down a dead end, the goal for this year is to improve documentation and provide a good looking, high quality, component library. Membrane UIs aren't tied to any particular graphics library. This means that membrane UIs can be embedded in any UI library that can draw shapes, texts, and rectangles.  <br>
+
+---
+
+## Dan Sutton  
+https://github.com/dpsutton/  
+
+
+**What do you plan to work on throughout the year?** 
+inf-clojure  
+
+
+**Why is this work important to the Clojure community?** The Clojure Community always benefits from editor integrations. I think the socket repl is the underused super power of Clojure. It is the great equalizer of development environments and is built into the language.  
+
+I would want to do two things:  
+1. Work on inf-clojure to make it more robust and accessible to both beginners and experienced devs alike. NREPL does lots of amazing and convenient stuff. But it can leave developers unable to run tests without a UI. It requires lots of configuration and takes over your main entrypoint. The socket repl is incredibly helpful. A REPL based on source is almost completely indistinguishable from one based on an AOT'ed, production jar.  
+
+2. To complement this, I will also write tutorials and create videos showcasing how easy it is to (a) start repls, (b) work with repls, and (c) lots of helpful additions that make it so powerful and flexible.  
+I've got lots of local functions that I need to package up and get into the inf-clojure repo. Some examples:  
+- starting a repl: `clj -J"$(socket-repl 6000)"` which expands out to the command line args required for a socket repl  
+- `m-x personal/repl [RET] 6000` will connect to a socket repl running on port 6000 and wire up a sub repl in it that shortens the displayed prompt to the last segment of the namespace and hook up clojure.pprint/pprint as the pretty printer  
+- save-to/eval-from registers. Using registers in emacs is _lovely_. Throwing different snippets into registers (t for run all tests, i for individual test, etc) is an amazing way to run. I've used this system for years now and it's time it made it back into inf-clojure.  
+- a hotkey to require the repl-requires: `(inf-clojure--send-string inf-proc "(apply require clojure.main/repl-requires)")`  
+- a helpful debugging REPL. We have macros that create temporary things during testing. It's often the easiest way to create some complicated state to exercise and inspect a bug. But the tests run so quickly that I can't play around. I wanted something that would be blocking and still allow me to play around with the state: THIS IS A REPL. Using subrepls to pause the world is an amazing super power that is fundamentally incompatible with nrepl. But it's transparently powerful with socket repls. I wrote a macro that throws all locals into a namespace and lets you introspect it.  
+- using a remote repl is amazing with a bit of ssh tunneling. The loveliest usecase is a failing test in Circle CI, rerunning with ssh and then connecting your REPL to your CI instance! This is straightforward with a socket repl.  
+
+I also want to highlight how _queryable_ the Clojure runtime is. The repl helpers: source, apropos, dir, pst, doc, find-doc, add-libs, etc are INCREDIBLE. Learning to use the tools built into the language and not built into the IDE is a super power. Every Clojure REPL is an amazingly helpful repl.  
+
+I don't want this to appear as it would be tutorial focused. I would hope that is 40% or less of my output. I want to contribute to inf-clojure, watch it grow, and share videos and articles about how it can unlock so much productivity.  
+
+**Is there anything else you would like us to know?** If this project sounds interesting, I'm also open to doing a shorter commitment. I wonder if there are others who have just a few months of work and we could combine to have several smaller projects.  
+But I could also improve this over 12 months as well. I think the clojurescript story is a bit underdeveloped. Shadow-cljs provides a socket repl that can easily upgrade. Using cljs.main is a bit harder but achieved with a different "accept" function. The documentation should be much easier.  
+
+I also want an easy way for it to just use a terminal repl easier. Using ssh tunneling is one thing, but it would be amazing to have a vterm window open and easily sending forms over to the repl.  
+
+In short, I think this tooling is a super power. I would love to build this out over a few months or the full year and share the knowledge and improve the tools.   <br>
+
+---
+
+## Daniel Slutsky
+
+**What do you plan to work on throughout the year?** 
+
+**Why is this work important to the Clojure community?**
+
+## Peter Strömberg  
+
+**What do you plan to work on throughout the year?** 
+
+**Why is this work important to the Clojure community?**
+
+## Peter Taoussanis
+
+**What do you plan to work on throughout the year?** 
+
+**Why is this work important to the Clojure community?**
+
+
+
+## Oleksandr Yakushev
+
+**What do you plan to work on throughout the year?** 
+
+**Why is this work important to the Clojure community?**
+
+
+
+
+
+
+
+
 
 
 
