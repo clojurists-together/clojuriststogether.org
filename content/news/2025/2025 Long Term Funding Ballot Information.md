@@ -21,6 +21,7 @@ Please review the applications below and select 5 developers to receive funding 
 -[Michiel Borkent](#michiel-borkent)  
 -[Thomas Clark](#thomas-clark)  
 -[Jeremiah Coyle](#jeremiah-coyle)  
+-[Toby Crawley]()
 -[Eric Dallo](#eric-dallo)  
 -[Rafal Dittwald](#rafal-dittwald)  
 -[Dragan Djuric](#dragan-djuric)  
@@ -290,6 +291,20 @@ Because with that everyone coding Clojure will be using the same features improv
 **Do you receive any other funding to work on this project?** GithubSponsors  <br>
 
 ---
+## Toby Crawley
+tobias  
+
+**What do you plan to work on throughout the year?**   
+https://github.com/clojars/  
+
+**Why is this work important to the Clojure community?**  
+Clojars provides critical infrastructure to the Clojure community. This funding would cover routine maintenance and adding new features as needed.  
+
+**Do you receive any other funding to work on this project?**  
+I have received funding from Clojurists Together and the Software Freedom Conservancy in the past, but have no concurrent funding.  <br>
+
+---
+
 
 ## Rafal Dittwald  
 https://github.com/clojure-camp/  
