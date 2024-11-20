@@ -21,7 +21,7 @@ Please review the applications below and select 5 developers to receive funding 
 -[Michiel Borkent](#michiel-borkent)  
 -[Thomas Clark](#thomas-clark)  
 -[Jeremiah Coyle](#jeremiah-coyle)  
--[Toby Crawley]()
+-[Toby Crawley](#toby-crawley)  
 -[Eric Dallo](#eric-dallo)  
 -[Rafal Dittwald](#rafal-dittwald)  
 -[Dragan Djuric](#dragan-djuric)  
