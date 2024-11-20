@@ -32,10 +32,13 @@ Please review the applications below and select 5 developers to receive funding 
 -[Mateusz Mazurczak and Anthony Caumond](#mateusz-mazurczak-and-anthony-caumond)  
 -[Adrian Smith](#adrian-smith) 
 -[Dan Sutton](#dan-sutton)  
--[Daniel Slutsky]  
--[Peter Strömberg]  
--[Peter Taoussanis]  
--[Oleksandr Yakushev]  
+-[Daniel Slutsky](#daniel-slutsky)  
+-[Peter Strömberg](#peter-strömberg)  
+-[Peter Taoussanis](#peter-taoussanis)  
+-[Oleksandr Yakushev](#oleksandr-yakushev)   <br>
+
+---
+
 
 ### Michiel Borkent
 https://github.com/borkdude
