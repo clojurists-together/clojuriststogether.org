@@ -589,24 +589,62 @@ We have been persistently exploring the expansion of Clojure to new fields of ap
 
 
 ## Peter Strömberg  
+ https://github.com/PEZ  
 
-**What do you plan to work on throughout the year?** 
-
-**Why is this work important to the Clojure community?**
-
-## Peter Taoussanis
-
-**What do you plan to work on throughout the year?** 
+**What do you plan to work on throughout the year?**  
+Calva - https://calva.io - I'd like to tackle repl session management, technical and ux debt and integration with CoPilot.  
 
 **Why is this work important to the Clojure community?**
+Calva runs on the important VS Code platform, which includes editors like Cursor. The uptake of Calva increases steadily and is now close to 25% of Clojurians. Especially the lacking session management and the technical debt are increasingly problematic.  
+<br>
+
+---
 
 
+## Peter Taoussanis  
+https://www.taoensso.com  
 
-## Oleksandr Yakushev
-
-**What do you plan to work on throughout the year?** 
+**What do you plan to work on throughout the year?**   
+Multiple projects, incl. further work on Telemere, Tufte, Tempel, and more  
 
 **Why is this work important to the Clojure community?**
+Have been trying to focus recent work on practical areas where Clojure either doesn't already have great solution/s, or where Clojure might be able to offer something uniquely advantageous over other languages/platforms. There's still a lot of low-hanging fruit re: both observability and data security for example. Beyond that, just focusing on practical tools that work at scale while being approachable for beginners.  
+
+**Is there anything else you would like us to know?**  
+Mostly, just thank you! I've been lucky and grateful to already receive long-term funding from Clojurists Together for 2023 and 2024.
+
+I'd definitely be up for continuing this way if there's interest from the community. It's been awesome to dedicate more time to my open source, and Clojurists Together funding has undoubtedly helped with that (esp. for the more complex / high-effort stuff).
+
+Have a lot of exciting things that I'd love to still expand on or explore in 2025. But I also understand that I've already received a couple years of funding now - and that there's probably many great and deserving applicants with exciting proposals :-)
+
+Whatever the outcome for 2025, I plan to continue to try contribute as much as I can.
+
+Clojurists Together is a really awesome undertaking, and an inspiration. So thanks to everyone that's been involved in helping make it reality and in keeping it running so smoothly.
+
+Cheers! :-) - Peter  <br>
+
+---
+
+
+## Oleksandr Yakushev  
+https://github.com/alexander-yakushev, https://github.com/clojure-goes-fast  
+
+**What do you plan to work on throughout the year?**   
+I plan to continue working on Clojure Goes Fast tooling. During Q3 2024, I've covered a lot of ground with new features and redesign of clj-async-profiler and the first release of Flamebin. This also opened a lot of ideas and opportunities for further improvement of those tools. I have a large backlog of tasks for:
+- Flamebin – implement authorization and social login, client-side encrypted private flamegraphs, collaborative commenting, configuration editing and saving;
+- clj-async-profiler – unified configuration, configuration reuse between flamegraphs, automatic analysis and performance improvement suggestions;
+- Clojure Goes Fast knowledge base – populate the list of bad performance practices that can be later be linked to by the clj-async-profiler analyzer;
+- clj-java-decompiler – CIDER integration which I wished to do in Q3 but couldn't get to in this quarter.
+
+Also, in 2024 I've once again become an active contributor and co-maintainer of CIDER, cider-nrepl, Orchard, and Compliment (250 total commits in 2024) and I want to continue doing this in 2025.  
+
+
+**Why is this work important to the Clojure community?**  
+Clojure Goes Fast continues to be the primary spot of performance-related projects and guides about Clojure (1.1K stars, 1.1M total Clojars downloads, 7000 unique site visitors in 2024).
+
+CIDER is used by 40% of Clojure developers according to State of Clojure 2024 survey.  
+
+
 
 
 
