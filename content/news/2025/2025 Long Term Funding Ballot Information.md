@@ -73,8 +73,6 @@ Links:
 **Why is this work important to the Clojure community?**
 Babashka is used by 90% of Clojure Survey respondents as shown in Alex Miller's Conj 2024 talk. Babashka and clj-kondo have 4.1k and 1.7k stars on Github respectively, their slack channel on Clojurians have almost 1800 + 1000 users. Clj-kondo and babashka are used by a large portion of the community. I think it's fair to say they are established project.  
 
-**Do you receive any other funding to work on this project?** Yes, via Github Sponsors
-
 **Is there anything else you would like us to know?** Thank you so much for Clojurists Together and keeping the Clojure OSS ecosystem sustainable!  <br>
 
 ---
@@ -133,9 +131,6 @@ This work would also be important in regards to expanding the community itself. 
 
 Beyond this however, the interactive development and documentation experience that is available now is a solution that simply needs to be shown to scientists' problems. The proposal to organise academic publishing and presentation of what the Clojure experience is like feels like an important stepping stone to the future.  
 
-**Do you receive any other funding to work on this project?** No
-
-**Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?** Depending on what you mean by 'systemic bias', my disadvantage is a classical one. Living in eastern Europe and working in the public sector, I suspect my Clojure friends would be shocked at what is paid to scientists here. I don't pretend that Hungary is as cash-strapped as some other continental countries, but compared to most other countries in 'the west', even those a two hour drive away, the salaries are low. If it helps, I can be more specific, but suffice it to say that this funding would go much further here and would enable a much bigger shift in what I'm able to contribute than it would for many other applicants.  <br>
 
 ---
 
@@ -303,8 +298,6 @@ https://github.com/clojars/
 **Why is this work important to the Clojure community?**  
 Clojars provides critical infrastructure to the Clojure community. This funding would cover routine maintenance and adding new features as needed.  
 
-**Do you receive any other funding to work on this project?**  
-I have received funding from Clojurists Together and the Software Freedom Conservancy in the past, but have no concurrent funding.  <br>
 
 ---
 
@@ -332,7 +325,6 @@ Clojure Camp aims to offer a learning experience to support would-be Clojure dev
   - translating best practices of pedagogical research of teaching programming to Clojure  
   - fostering a welcoming community of learners and mentors  
   - providing supportive infrastructure to motivate learning  
-Do you receive any other funding to work on this project? 23 USD/mth from a Github sponsor. Daniel H received funding previously. <br>
 
 ---
 
@@ -392,10 +384,6 @@ complete turnarounds with M1... This basically broke all number crunching softwa
 Several Clojure developers started exploring high performance computing on Apple, but didn't get too far; it's LOTS of functionality. So, having Neandeathal support Apple would enable several Clojure data processing communities to leapfrog the whole milestone
 and concentrate on more high-level tasks.  
 
-**Do you receive any other funding to work on this project?** I write Clojure books, and accept donations through Patreon, which I use to fund the open source development on Uncomplicate libraries.  
-
-**Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?** The major obstacle that I have is that I live in a country outside of the USA and EU, so most work opportunities are unavailable from here (Serbia is a small country with a poor economy that is still recovering from civil wars and whatnot, and the local IT market is mostly based on outsourcing). Other than that, I guess I'm in a similar position like everyone else.  <br>
-
 ---
 
 ## Robert Gersak 
@@ -414,8 +402,6 @@ Currently this is applicable to PostgreSQL DB, but in future more similar DB wil
 
 Summary would be that this project is well suited for rapid development as well as for minimizing maintenance and change cost. It is fusion of IAM, Data Modelling and replacement for CRUD approach.  
 
-**Do you receive any other funding to work on this project?** No, I'm not receiving any other founding. But I am co-founder of Neyho and I (that is we) would like to share our work with Clojure community
-
 **Is there anything else you would like us to know?** I would like to share that IAM has been one of important subjects when working on enterprise level projects. Project applied above helped us in many ways to overcome enterprise level presence and onboard people towards common goal through usage of Data Modeling  <br>
 
 ---
@@ -429,8 +415,6 @@ I would like to continue working on stewarding Clojure's data science ecosystem 
 **Why is this work important to the Clojure community?**  
 I think this work will help expand Clojure's user base and reach new audiences who can benefit from the unique tools and approaches Clojure brings to some of the biggest problems in data science today.  
 
-**Do you receive any other funding to work on this project?** I currently have $515/month in recurring sponsorships through GitHub sponsors (mostly from Nubank) for open source work, though it's not tied to any project specifically.
-
 **Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?**  I'm female and feel women are underrepresented in tech and especially in open source.  <br>
 
 ---
@@ -443,7 +427,6 @@ https://github.com/jackrusher
 
 **Why is this work important to the Clojure community?**  Clerk is used by a large number of community members for literate programming, data analysis and visualization, &c.  
 
-**Do you receive any other funding to work on this project?** I was sponsored to work on this project by Nextjournal, but they are no longer in a financial position to provide that support.  <br>
 
 ---
 
@@ -457,7 +440,6 @@ https://github.com/roman01la
 Both Pitch and Cognician hired frontend folks from JS community and they were able to pick up UIx relatively quickly. I also gave a talk on UIx at London Clojurians https://youtu.be/4vgrLHsD0-I?si=RPs7AS4IVDA56WWo
 I have a couple of ideas on improving the library further, preparing for React v19, also documentation needs more work and interactive examples. In general today after some years UIx is pretty stable, now I want to invest more in learning materials and templates for various types of projects, to make the library more accessible to devs.  
 
-**Do you receive any other funding to work on this project?** No, originally the project was sponsored by Pitch, when I worked there. But since late 2023 when I left that company I  maintain the library myself.  <br>
 
 ---
 
@@ -489,7 +471,6 @@ By being highly flexible in architecture, other people can extend this library t
 
 This will be also a great showcase for clojure data-oriented approach, as this kind of scheduling systems are much harder to create to be so flexible using classical languages (java, c++) while keeping costs small (small team).  
 
-**Do you receive any other funding to work on this project?** Not right now. But we have a plan to use this library  during consultancy for the supply chain when it's ready.  
 
 **Is there anything else you would like us to know?** As automaton-simulation-de is built with a non-monolith approach, each of its parts could be seen, on its own as a product providing value to the community.  
 
@@ -601,8 +582,6 @@ https://www.youtube.com/watch?v=STnFMpIZlkk
 A few project mentees are new to Clojure and sometimes new to programming. We meet regularly and help them in their learning process.  
 
 We have been persistently exploring the expansion of Clojure to new fields of application and research, such as biology, linguistics, physics, statistics, and geography. We are actively working with practitioners in various fields (some new to programming and some experienced) to help them out and learn from their use cases.   
-
-**Do you receive any other funding to work on this project?** I receive regular funding through Github Pages, currently mostly from Nubank.  
 
 **Is there anything else you would like us to know?** My role in Scicloj is both in community building and as an open-source maintainer of a few tools and libraries. I have been involved since the beginning (2019). Since I left my day job in 2023, Scicloj has been my main focus.  <br>
 
