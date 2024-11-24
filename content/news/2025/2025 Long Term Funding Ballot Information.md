@@ -29,11 +29,11 @@ Please review the applications below and select 6 developers to receive funding 
 -[Kira Howe](#kira-howe-mclean) (McLean)  
 -[Roman Liutikov](#roman-liutikov)  
 -[Mateusz Mazurczak and Anthony Caumond](#mateusz-mazurczak-and-anthony-caumond)  
- [Jack Rusher](#jack-rusher)  
+-[Jack Rusher](#jack-rusher)  
+-[Daniel Slutsky](#daniel-slutsky)  
 -[Adrian Smith](#adrian-smith)  
+-[Peter Strömberg](#peter-strömberg)  
 -[Dan Sutton](#dan-sutton)  
--[Daniel Slutsky](#daniel-slutsky)   
--[Peter Strömberg](#peter-strömberg)   
 -[Peter Taoussanis](#peter-taoussanis)   
 -[Oleksandr Yakushev](#oleksandr-yakushev)   <br>
 
@@ -594,9 +594,7 @@ I also want an easy way for it to just use a terminal repl easier. Using ssh tun
 
 In short, I think this tooling is a super power. I would love to build this out over a few months or the full year and share the knowledge and improve the tools.  <br>   
 
-
 ---
-
 
 ## Peter Taoussanis  
 https://www.taoensso.com  
@@ -621,7 +619,6 @@ Clojurists Together is a really awesome undertaking, and an inspiration. So than
 Cheers! :-) - Peter  <br>   
 
 ---
-
 
 ## Oleksandr Yakushev  
 https://github.com/alexander-yakushev    
