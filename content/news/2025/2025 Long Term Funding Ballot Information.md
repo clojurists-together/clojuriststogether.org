@@ -27,9 +27,9 @@ Please review the applications below and select 6 developers to receive funding 
 -[Dragan Djuric](#dragan-djuric)  
 -[Robert Gersak](#robert-gersak)  
 -[Kira Howe](#kira-howe-mclean) (McLean)  
--[Jack Rusher](#jack-rusher)  
 -[Roman Liutikov](#roman-liutikov)  
 -[Mateusz Mazurczak and Anthony Caumond](#mateusz-mazurczak-and-anthony-caumond)  
+ [Jack Rusher](#jack-rusher)  
 -[Adrian Smith](#adrian-smith)  
 -[Dan Sutton](#dan-sutton)  
 -[Daniel Slutsky](#daniel-slutsky)   
@@ -420,16 +420,6 @@ I think this work will help expand Clojure's user base and reach new audiences w
 ---
 
 
-## Jack Rusher  
-https://github.com/jackrusher  
-
-**What do you plan to work on throughout the year?** I would like to devote a certain number of hours every month in 2025 to work on Clerk.  
-
-**Why is this work important to the Clojure community?**  Clerk is used by a large number of community members for literate programming, data analysis and visualization, &c. <br>  
-
-
----
-
 ## Roman Liutikov  
 https://github.com/roman01la  
 
@@ -483,6 +473,16 @@ For example:
 - Or other libraries that are already separated as a side-effect of the main work e.g. https://github.com/hephaistox/automaton-build for working with monorepo  <br>  
 
 ---
+
+## Jack Rusher  
+https://github.com/jackrusher  
+
+**What do you plan to work on throughout the year?** I would like to devote a certain number of hours every month in 2025 to work on Clerk.  
+
+**Why is this work important to the Clojure community?**  Clerk is used by a large number of community members for literate programming, data analysis and visualization, &c. <br>   
+
+---
+
 
 ## Daniel Slutsky
 https://github.com/daslu  
