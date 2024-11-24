@@ -272,6 +272,16 @@ I think that Lasertag could potentially offer great utility to rich-tooling proj
 
 ---
 
+## Toby Crawley
+tobias  
+
+**What do you plan to work on throughout the year?**   
+https://github.com/clojars/  
+
+**Why is this work important to the Clojure community?**  
+Clojars provides critical infrastructure to the Clojure community. This funding would cover routine maintenance and adding new features as needed.  <br>   
+
+---
 
 ## Eric Dallo  
 @ericdallo
@@ -282,22 +292,9 @@ Also, I want to improve the IntelliJ experience to be as good as Cursive, improv
 
 
 **Why is this work important to the Clojure community?**  
-Because with that everyone coding Clojure will be using the same features improving dev xp.  <br>  
+Because with that everyone coding Clojure will be using the same features improving dev xp.  <br>   
 
 ---
-
-## Toby Crawley
-tobias  
-
-**What do you plan to work on throughout the year?**   
-https://github.com/clojars/  
-
-**Why is this work important to the Clojure community?**  
-Clojars provides critical infrastructure to the Clojure community. This funding would cover routine maintenance and adding new features as needed.  <br>   
-
-
----
-
 
 ## Rafal Dittwald  
 https://github.com/clojure-camp/  
