@@ -111,7 +111,7 @@ Another big area of focus would be improving SciCloj documentation, at both the 
 Putting aside the libraries that I have contributed code to, there are many SciCloj libraries that I use that I would be happy to contribute documentation. A bridging example would be regarding a Clojure-Blender bridge. Although I started to develop a new library for this, basilisp-blender has emerged as potentially a stronger candidate and so I would like to make detailed tutorial examples of creating 'scientific' outputs using this.  
 
 #### Projects  
-As discovered while writing the [Wolframite documentation](https://scicloj.github.io/wolframite/for_scientists.index.html), what is often needed is not so much a manual but examples of how to use the tool (or how to integrate many tools) in a real project. With this in mind, I would like to document the overall process of how to use the ecosystem to solve real problems, supplying both real problems and real solutions, e.g. the source and details behind my [past talk](https://www.youtube.com/watch?v=SE5Ge4QP4oY) and large contributions to ['noj](https://github.com/scicloj/noj).  
+As discovered while writing the [Wolframite documentation](https://scicloj.github.io/wolframite/for_scientists.index.html), what is often needed is not so much a manual but examples of how to use the tool (or how to integrate many tools) in a real project. With this in mind, I would like to document the overall process of how to use the ecosystem to solve real problems, supplying both real problems and real solutions, e.g. the source and details behind my [past talk](https://www.youtube.com/watch?v=SE5Ge4QP4oY) and large contributions to [noj](https://github.com/scicloj/noj).  
 
 #### Outreach  
 Outside of building library bridges to Clojure for specialist academic projects as well as collecting SciCloj talk sources in a centralised location, I would make a concerted effort to reach out to non-Clojure scientists about the benefits of Clojure.  
@@ -185,7 +185,7 @@ All are fairly mature alpha-stage projects.  Kushi and Fireworks have already be
 - Solidify current public API  
 - Address all 12 current issues (mostly enhancements)  
 - Publish editor plugins/extensions for Emacs and VS Code. These are fairly simple extensions that just involve some basic clj-rewrite functionality for wrapping/unwrapping forms. I've already created initial working versions of both (emacs and VSCode) locally.  
-- Produce written and/or video documentation of my current live hot-reloading dev environment for JVM Clojure, with versions for both Leiningen and Deps. I recently issued a PR to add this to test-refresh - https://github.com/jakemcc/test-refresh/pull/91. This sort of thing could also potentially be incorporated into other similar projects such as metabase/hawk and tonsky/clj-reload.  
+- Produce written and/or video documentation of my current live hot-reloading dev environment for JVM Clojure, with versions for both Leiningen and Deps. I recently issued a PR to add this to [test-refresh](https://github.com/jakemcc/test-refresh/pull/91). This sort of thing could also potentially be incorporated into other similar projects such as metabase/hawk and tonsky/clj-reload.  
 - For ClojureScript developers using Fireworks in a browser dev console, I went off the deep-end and made a dedicated Chrome extension to enable the setting of the Chrome DevTools console background and foreground color with a very nice GUI interface. Would be cool to get this working in most other Chromium-based browsers, and potentially Firefox, if there is any demand for it. 
 - https://github.com/paintparty/fireworks?tab=readme-ov-file#setting-the-background-color-and-font-in-chrome-devtools-clojurescript
 
@@ -437,7 +437,7 @@ https://github.com/roman01la
 
 **Why is this work important to the Clojure community?** UIx is one of the most dev friendly React wrappers, currently used by a number of companies known in Clojure community, including Pitch, Metosin and Cognician. UIx builds on  modern React and encourages to rely more on existing React ecosystem in JS world. The library was in particular developed to be beginner friendly and close to React conceptually so that Clojure companies could onboard JavaScript developers quicker, allowing them to reuse most of their experience from JS/React world. I think UIx succeeded at this, at least judging based on feedback from companies mentioned above.   
 
-Both Pitch and Cognician hired frontend folks from JS community and they were able to pick up UIx relatively quickly. I also gave a talk on UIx at London Clojurians https://youtu.be/4vgrLHsD0-I?si=RPs7AS4IVDA56WWo
+Both Pitch and Cognician hired frontend folks from JS community and they were able to pick up UIx relatively quickly. I also gave a talk on UIx at [London Clojurians](https://youtu.be/4vgrLHsD0-I?si=RPs7AS4IVDA56WWo)  
 I have a couple of ideas on improving the library further, preparing for React v19, also documentation needs more work and interactive examples. In general today after some years UIx is pretty stable, now I want to invest more in learning materials and templates for various types of projects, to make the library more accessible to devs. <br>    
 
 
@@ -484,6 +484,39 @@ For example:
 
 ---
 
+## Daniel Slutsky
+https://github.com/daslu  
+
+**What do you plan to work on throughout the year?** Scicloj    https://github.com/scicloj/   
+Scicloj community building and open-source projects   
+
+
+**Why is this work important to the Clojure community?** Clojure can be a fantastic fit for many kinds of scientific and data-intensive projects. Fulfilling that potential is a years-long effort, on the technical as well as the community side.  
+
+Since early 2019, we, the Scicloj group, have been working on creating a stack of tools and libraries for data and science in Clojure. https://scicloj.github.io/  
+
+The stack we are building is addressing many needs which are useful non only in scientific context. High-performance computing, data processing, data visualization, literate programming, and literate testing are a few examples.  
+
+You may find more details about current developments in a few recent talks by Scicloj members:  
+[Kira Howe (McLean) at London Clojurians](https://www.youtube.com/watch?v=eUFf3-og_-Y)   
+[Sami Kallinen at Heart of Clojure](https://www.youtube.com/watch?v=ckQllKUw3b4)   
+[Thomas Clark at Clojure Conj](https://www.youtube.com/watch?v=_D5d6Ls6pBw)    
+
+We have also been continuously working on building the Clojure community: running workshops, meetup groups, study groups and dev groups, and helping with the organization of a couple of conference. We have been mentoring many Clojurians in becoming involved in open-source and in expanding their use of Clojure to new contexts.   
+
+Based on that experience, we recently initiated the [Scicloj open-source-mentorship program.](https://scicloj.github.io/docs/community/groups/open-source-mentoring/)   
+63 people have applied, and 34 of them are currently active in looking into projects and meeting regularly.
+The program was discussed in our [recent status report (2024-10-25):](https://www.youtube.com/watch?v=STnFMpIZlkk)   
+
+A few project mentees are new to Clojure and sometimes new to programming. We meet regularly and help them in their learning process.  
+
+We have been persistently exploring the expansion of Clojure to new fields of application and research, such as biology, linguistics, physics, statistics, and geography. We are actively working with practitioners in various fields (some new to programming and some experienced) to help them out and learn from their use cases.   
+
+**Is there anything else you would like us to know?** My role in Scicloj is both in community building and as an open-source maintainer of a few tools and libraries. I have been involved since the beginning (2019). Since I left my day job in 2023, Scicloj has been my main focus.  <br>   
+
+---
+
+
 ## Adrian Smith  
 https://github.com/phronmophobic/
 
@@ -514,6 +547,19 @@ The goals for this year:
 Membrane is a UI library written in pure clojure aimed at building complex, interactive UI applications in a functional style. One pitfall I'm trying to avoid with membrane is to solve the easy problems, but ignore the hard problems. The most recent work on membrane has been about solving some of the hard problems facing desktop UIs so that membrane can be a real alternative to the browser for complex desktop applications. These projects include clj-media (video playback), clj-cef2 (an embedded web browser based on chromium), clj-webgpu (3d graphics), and membrane.term (terminal emulator). Now that I feel comfortable that I won't be leading users down a dead end, the goal for this year is to improve documentation and provide a good looking, high quality, component library. Membrane UIs aren't tied to any particular graphics library. This means that membrane UIs can be embedded in any UI library that can draw shapes, texts, and rectangles.  <br>   
 
 ---
+
+## Peter Strömberg  
+ https://github.com/PEZ  
+
+**What do you plan to work on throughout the year?**  
+Calva - https://calva.io - I'd like to tackle repl session management, technical and ux debt and integration with CoPilot.  
+
+**Why is this work important to the Clojure community?**
+Calva runs on the important VS Code platform, which includes editors like Cursor. The uptake of Calva increases steadily and is now close to 25% of Clojurians. Especially the lacking session management and the technical debt are increasingly problematic.  
+<br>   
+
+---  
+
 
 ## Dan Sutton  
 https://github.com/dpsutton/  
@@ -548,50 +594,6 @@ I also want an easy way for it to just use a terminal repl easier. Using ssh tun
 
 In short, I think this tooling is a super power. I would love to build this out over a few months or the full year and share the knowledge and improve the tools.  <br>   
 
----
-
-## Daniel Slutsky
-https://github.com/daslu  
-
-**What do you plan to work on throughout the year?** Scicloj    https://github.com/scicloj/   
-Scicloj community building and open-source projects   
-
-
-**Why is this work important to the Clojure community?** Clojure can be a fantastic fit for many kinds of scientific and data-intensive projects. Fulfilling that potential is a years-long effort, on the technical as well as the community side.  
-
-Since early 2019, we, the Scicloj group, have been working on creating a stack of tools and libraries for data and science in Clojure. https://scicloj.github.io/  
-
-The stack we are building is addressing many needs which are useful non only in scientific context. High-performance computing, data processing, data visualization, literate programming, and literate testing are a few examples.  
-
-You may find more details about current developments in a few recent talks by Scicloj members:  
-[Kira Howe (McLean) at London Clojurians:](https://www.youtube.com/watch?v=eUFf3-og_-Y)   
-[Sami Kallinen at Heart of Clojure:](https://www.youtube.com/watch?v=ckQllKUw3b4)   
-[Thomas Clark at Clojure Conj:](https://www.youtube.com/watch?v=_D5d6Ls6pBw)    
-
-We have also been continuously working on building the Clojure community: running workshops, meetup groups, study groups and dev groups, and helping with the organization of a couple of conference. We have been mentoring many Clojurians in becoming involved in open-source and in expanding their use of Clojure to new contexts.   
-
-Based on that experience, we recently initiated the [Scicloj open-source-mentorship program.](https://scicloj.github.io/docs/community/groups/open-source-mentoring/)   
-63 people have applied, and 34 of them are currently active in looking into projects and meeting regularly.
-The program was discussed in our [recent status report (2024-10-25):](https://www.youtube.com/watch?v=STnFMpIZlkk)   
-
-A few project mentees are new to Clojure and sometimes new to programming. We meet regularly and help them in their learning process.  
-
-We have been persistently exploring the expansion of Clojure to new fields of application and research, such as biology, linguistics, physics, statistics, and geography. We are actively working with practitioners in various fields (some new to programming and some experienced) to help them out and learn from their use cases.   
-
-**Is there anything else you would like us to know?** My role in Scicloj is both in community building and as an open-source maintainer of a few tools and libraries. I have been involved since the beginning (2019). Since I left my day job in 2023, Scicloj has been my main focus.  <br>  
-
----
-
-
-## Peter Strömberg  
- https://github.com/PEZ  
-
-**What do you plan to work on throughout the year?**  
-Calva - https://calva.io - I'd like to tackle repl session management, technical and ux debt and integration with CoPilot.  
-
-**Why is this work important to the Clojure community?**
-Calva runs on the important VS Code platform, which includes editors like Cursor. The uptake of Calva increases steadily and is now close to 25% of Clojurians. Especially the lacking session management and the technical debt are increasingly problematic.  
-<br>   
 
 ---
 
