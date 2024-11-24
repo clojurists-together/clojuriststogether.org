@@ -30,17 +30,17 @@ Please review the applications below and select 6 developers to receive funding 
 -[Jack Rusher](#jack-rusher)  
 -[Roman Liutikov](#roman-liutikov)  
 -[Mateusz Mazurczak and Anthony Caumond](#mateusz-mazurczak-and-anthony-caumond)  
--[Adrian Smith](#adrian-smith) 
+-[Adrian Smith](#adrian-smith)  
 -[Dan Sutton](#dan-sutton)  
--[Daniel Slutsky](#daniel-slutsky)  
--[Peter Strömberg](#peter-strömberg)  
--[Peter Taoussanis](#peter-taoussanis)  
+-[Daniel Slutsky](#daniel-slutsky)   
+-[Peter Strömberg](#peter-strömberg)   
+-[Peter Taoussanis](#peter-taoussanis)   
 -[Oleksandr Yakushev](#oleksandr-yakushev)   <br>
 
 ---
 
 
-### Michiel Borkent
+## Michiel Borkent
 https://github.com/borkdude
 
 **What do you plan to work on throughout the year?** 
@@ -269,11 +269,12 @@ Lasertag makes it easy to get detailed information about values, particularly in
 
 I think that Lasertag could potentially offer great utility to rich-tooling projects developed in the Clojure community of the present and future.  
 
-**Do you receive any other funding to work on this project?** I am currently receiving Clojurists Together Q3 short-term funding for Kushi, but no funding is yet scheduled for any of these projects in 2025.
 
 **Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?** Although I did not study computer science,  I do think of myself as an individual with a unique perspective and something to offer.  <br>
 
+
 ---
+
 
 ## Eric Dallo  
 @ericdallo
@@ -284,11 +285,10 @@ Also, I want to improve the IntelliJ experience to be as good as Cursive, improv
 
 
 **Why is this work important to the Clojure community?**  
-Because with that everyone coding Clojure will be using the same features improving dev xp.  
-
-**Do you receive any other funding to work on this project?** GithubSponsors  <br>
+Because with that everyone coding Clojure will be using the same features improving dev xp.  <br>
 
 ---
+
 ## Toby Crawley
 tobias  
 
@@ -296,7 +296,7 @@ tobias
 https://github.com/clojars/  
 
 **Why is this work important to the Clojure community?**  
-Clojars provides critical infrastructure to the Clojure community. This funding would cover routine maintenance and adding new features as needed.  
+Clojars provides critical infrastructure to the Clojure community. This funding would cover routine maintenance and adding new features as needed.  <br>  
 
 
 ---
@@ -324,7 +324,7 @@ Clojure has sustained itself, so far, as a language (and community) "for experts
 Clojure Camp aims to offer a learning experience to support would-be Clojure developers currently under-served by existing offerings. We achieve this by:  
   - translating best practices of pedagogical research of teaching programming to Clojure  
   - fostering a welcoming community of learners and mentors  
-  - providing supportive infrastructure to motivate learning  
+  - providing supportive infrastructure to motivate learning  <br>
 
 ---
 
@@ -382,7 +382,7 @@ This will hugely streamline user experience regarding high performance computing
 complete turnarounds with M1... This basically broke all number crunching software on macs, and the world is slow to catch up.  
 
 Several Clojure developers started exploring high performance computing on Apple, but didn't get too far; it's LOTS of functionality. So, having Neandeathal support Apple would enable several Clojure data processing communities to leapfrog the whole milestone
-and concentrate on more high-level tasks.  
+and concentrate on more high-level tasks.  <br>
 
 ---
 
@@ -402,7 +402,7 @@ Currently this is applicable to PostgreSQL DB, but in future more similar DB wil
 
 Summary would be that this project is well suited for rapid development as well as for minimizing maintenance and change cost. It is fusion of IAM, Data Modelling and replacement for CRUD approach.  
 
-**Is there anything else you would like us to know?** I would like to share that IAM has been one of important subjects when working on enterprise level projects. Project applied above helped us in many ways to overcome enterprise level presence and onboard people towards common goal through usage of Data Modeling  <br>
+**Is there anything else you would like us to know?** I would like to share that IAM has been one of important subjects when working on enterprise level projects. Project applied above helped us in many ways to overcome enterprise level presence and onboard people towards common goal through usage of Data Modeling <br>  
 
 ---
 
@@ -415,7 +415,7 @@ I would like to continue working on stewarding Clojure's data science ecosystem 
 **Why is this work important to the Clojure community?**  
 I think this work will help expand Clojure's user base and reach new audiences who can benefit from the unique tools and approaches Clojure brings to some of the biggest problems in data science today.  
 
-**Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?**  I'm female and feel women are underrepresented in tech and especially in open source.  <br>
+**Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?**  I'm female and feel women are underrepresented in tech and especially in open source.  <br>  
 
 ---
 
@@ -425,7 +425,7 @@ https://github.com/jackrusher
 
 **What do you plan to work on throughout the year?** I would like to devote a certain number of hours every month in 2025 to work on Clerk.  
 
-**Why is this work important to the Clojure community?**  Clerk is used by a large number of community members for literate programming, data analysis and visualization, &c.  
+**Why is this work important to the Clojure community?**  Clerk is used by a large number of community members for literate programming, data analysis and visualization, &c. <br>  
 
 
 ---
@@ -438,7 +438,7 @@ https://github.com/roman01la
 **Why is this work important to the Clojure community?** UIx is one of the most dev friendly React wrappers, currently used by a number of companies known in Clojure community, including Pitch, Metosin and Cognician. UIx builds on  modern React and encourages to rely more on existing React ecosystem in JS world. The library was in particular developed to be beginner friendly and close to React conceptually so that Clojure companies could onboard JavaScript developers quicker, allowing them to reuse most of their experience from JS/React world. I think UIx succeeded at this, at least judging based on feedback from companies mentioned above.   
 
 Both Pitch and Cognician hired frontend folks from JS community and they were able to pick up UIx relatively quickly. I also gave a talk on UIx at London Clojurians https://youtu.be/4vgrLHsD0-I?si=RPs7AS4IVDA56WWo
-I have a couple of ideas on improving the library further, preparing for React v19, also documentation needs more work and interactive examples. In general today after some years UIx is pretty stable, now I want to invest more in learning materials and templates for various types of projects, to make the library more accessible to devs.  
+I have a couple of ideas on improving the library further, preparing for React v19, also documentation needs more work and interactive examples. In general today after some years UIx is pretty stable, now I want to invest more in learning materials and templates for various types of projects, to make the library more accessible to devs. <br>    
 
 
 ---
@@ -480,7 +480,7 @@ For example:
 - Scenario management,  
 - Scheduler engine  
 - Data-oriented UI components library (separating well the HTML+css part, behavior, and where the setup data comes from).  
-- Or other libraries that are already separated as a side-effect of the main work e.g. https://github.com/hephaistox/automaton-build for working with monorepo  <br>
+- Or other libraries that are already separated as a side-effect of the main work e.g. https://github.com/hephaistox/automaton-build for working with monorepo  <br>  
 
 ---
 
@@ -511,7 +511,7 @@ The goals for this year:
 - Create an API to support developer tools  
 - Extract the semantic search code into its own standalone library  
 
-Membrane is a UI library written in pure clojure aimed at building complex, interactive UI applications in a functional style. One pitfall I'm trying to avoid with membrane is to solve the easy problems, but ignore the hard problems. The most recent work on membrane has been about solving some of the hard problems facing desktop UIs so that membrane can be a real alternative to the browser for complex desktop applications. These projects include clj-media (video playback), clj-cef2 (an embedded web browser based on chromium), clj-webgpu (3d graphics), and membrane.term (terminal emulator). Now that I feel comfortable that I won't be leading users down a dead end, the goal for this year is to improve documentation and provide a good looking, high quality, component library. Membrane UIs aren't tied to any particular graphics library. This means that membrane UIs can be embedded in any UI library that can draw shapes, texts, and rectangles.  <br>
+Membrane is a UI library written in pure clojure aimed at building complex, interactive UI applications in a functional style. One pitfall I'm trying to avoid with membrane is to solve the easy problems, but ignore the hard problems. The most recent work on membrane has been about solving some of the hard problems facing desktop UIs so that membrane can be a real alternative to the browser for complex desktop applications. These projects include clj-media (video playback), clj-cef2 (an embedded web browser based on chromium), clj-webgpu (3d graphics), and membrane.term (terminal emulator). Now that I feel comfortable that I won't be leading users down a dead end, the goal for this year is to improve documentation and provide a good looking, high quality, component library. Membrane UIs aren't tied to any particular graphics library. This means that membrane UIs can be embedded in any UI library that can draw shapes, texts, and rectangles.  <br>  
 
 ---
 
@@ -546,7 +546,7 @@ But I could also improve this over 12 months as well. I think the clojurescript 
 
 I also want an easy way for it to just use a terminal repl easier. Using ssh tunneling is one thing, but it would be amazing to have a vterm window open and easily sending forms over to the repl.  
 
-In short, I think this tooling is a super power. I would love to build this out over a few months or the full year and share the knowledge and improve the tools.   <br>
+In short, I think this tooling is a super power. I would love to build this out over a few months or the full year and share the knowledge and improve the tools.  <br>  
 
 ---
 
@@ -583,7 +583,7 @@ A few project mentees are new to Clojure and sometimes new to programming. We me
 
 We have been persistently exploring the expansion of Clojure to new fields of application and research, such as biology, linguistics, physics, statistics, and geography. We are actively working with practitioners in various fields (some new to programming and some experienced) to help them out and learn from their use cases.   
 
-**Is there anything else you would like us to know?** My role in Scicloj is both in community building and as an open-source maintainer of a few tools and libraries. I have been involved since the beginning (2019). Since I left my day job in 2023, Scicloj has been my main focus.  <br>
+**Is there anything else you would like us to know?** My role in Scicloj is both in community building and as an open-source maintainer of a few tools and libraries. I have been involved since the beginning (2019). Since I left my day job in 2023, Scicloj has been my main focus.  <br>  
 
 ---
 
@@ -596,7 +596,7 @@ Calva - https://calva.io - I'd like to tackle repl session management, technical
 
 **Why is this work important to the Clojure community?**
 Calva runs on the important VS Code platform, which includes editors like Cursor. The uptake of Calva increases steadily and is now close to 25% of Clojurians. Especially the lacking session management and the technical debt are increasingly problematic.  
-<br>
+<br>  
 
 ---
 
@@ -621,7 +621,7 @@ Whatever the outcome for 2025, I plan to continue to try contribute as much as I
 
 Clojurists Together is a really awesome undertaking, and an inspiration. So thanks to everyone that's been involved in helping make it reality and in keeping it running so smoothly.
 
-Cheers! :-) - Peter  <br>
+Cheers! :-) - Peter  <br>  
 
 ---
 
