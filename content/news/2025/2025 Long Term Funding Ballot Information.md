@@ -2,7 +2,7 @@
 title: "2025 Long-Term Funding Applications"
 date: 2024-11-16T14:00:00+12:00
 author: Kathy Davis
-summary: "It's Up To You, the Members, to Decide Who will Receive Funding. "  
+summary: "It's Up To You to Decide Who Will Receive Funding. "  
 draft: True
 
 
@@ -14,7 +14,7 @@ We put out the call  - and we received 18 thoughtful applications for you to con
 
 Please review the applications below and select 6 developers to receive funding in 2025. Be on the lookout for an email that contains your link to a Ranked Vote ballot. Here we go ..in alphabetical order (by last name)....
 
-### Deadline for your vote to be counted: December 5, 2024 Midnight Pacific Time  
+### Deadline for your vote to be counted: December 4, 2024 Midnight Pacific Time  
 
 
 
@@ -73,7 +73,7 @@ Links:
 **Why is this work important to the Clojure community?**
 Babashka is used by 90% of Clojure Survey respondents as shown in Alex Miller's Conj 2024 talk. Babashka and clj-kondo have 4.1k and 1.7k stars on Github respectively, their slack channel on Clojurians have almost 1800 + 1000 users. Clj-kondo and babashka are used by a large portion of the community. I think it's fair to say they are established project.  
 
-**Is there anything else you would like us to know?** Thank you so much for Clojurists Together and keeping the Clojure OSS ecosystem sustainable!  <br>
+**Is there anything else you would like us to know?** Thank you so much for Clojurists Together and keeping the Clojure OSS ecosystem sustainable!  <br>  
 
 ---
 
@@ -81,14 +81,14 @@ Babashka is used by 90% of Clojure Survey respondents as shown in Alex Miller's 
 https://clojurians.zulipchat.com/#user/386018  
 
 **What do you plan to work on throughout the year?** 
-In a nutshell, my plan would be to help expand Clojure's scientific ecosystem (https://www.youtube.com/watch?v=_D5d6Ls6pBw), particularly in regards to the mathematical sciences. This would take the form of developing and creating libraries, continuing and creating documentation and to initiate a serious attempt at academic outreach.
+In a nutshell, my plan would be to help expand [Clojure's scientific ecosystem](https://www.youtube.com/watch?v=_D5d6Ls6pBw), particularly in regards to the mathematical sciences. This would take the form of developing and creating libraries, continuing and creating documentation and to initiate a serious attempt at academic outreach.
 
 #### Libraries
 
 #### Wolframite  
 Last year, CT supported Jakub Holy and I for a quarter in our attempt to resurrect and document the Wofram-Clojure bridge. We're very happy with the progress we made in this time, but of course there are many other things that could (and should?) be done - we really feel like we're just getting started. In particular, a key feature of Wolframite, that is missing in Wolfram itself, is the REPL experience. 
 
-In this, we want to fully integrate Wolframite with Clojure's visual tools for all manner of datatypes that Wolfram supports. And in particular, to make data passing and memory management efficient. More functionally, we want to create a special viewer for symbolic expressions, that not only allows the user to copy and switch between maths in Wolfram, LisP and TeX forms but that automatically generates sliders for each parameter for exploration, as inspired by Wolfram's Manipulate function (https://reference.wolfram.com/language/ref/Manipulate.html).
+In this, we want to fully integrate Wolframite with Clojure's visual tools for all manner of datatypes that Wolfram supports. And in particular, to make data passing and memory management efficient. More functionally, we want to create a special viewer for symbolic expressions, that not only allows the user to copy and switch between maths in Wolfram, LisP and TeX forms but that automatically generates sliders for each parameter for exploration, as inspired by [Wolfram's Manipulate function](https://reference.wolfram.com/language/ref/Manipulate.html).
 
 #### exp (name to be decided)  
 In Clojure, there are now two libraries to interact with symbolic expressions and this new project would seek to integrate them: both Wolframite and Emmy. This would be powerful because although Emmy brings symbolic manipulation to Clojure and Clojurescript simultaneously, it is still missing many key features and algorithms that only Wolfram can provide. One can then imagine a situation where mathematical problems could be defined and explored in the browser (Emmy), passed to the server to be simplified algebraically (Wolframite) and then crunched numerically (Emmy).  
@@ -111,7 +111,7 @@ Another big area of focus would be improving SciCloj documentation, at both the 
 Putting aside the libraries that I have contributed code to, there are many SciCloj libraries that I use that I would be happy to contribute documentation. A bridging example would be regarding a Clojure-Blender bridge. Although I started to develop a new library for this, basilisp-blender has emerged as potentially a stronger candidate and so I would like to make detailed tutorial examples of creating 'scientific' outputs using this.  
 
 #### Projects  
-As discovered while writing the Wolframite documentation (https://scicloj.github.io/wolframite/for_scientists.index.html), what is often needed is not so much a manual but examples of how to use the tool (or how to integrate many tools) in a real project. With this in mind, I would like to document the overall process of how to use the ecosystem to solve real problems, supplying both real problems and real solutions, e.g. the source and details behind my past talk (https://www.youtube.com/watch?v=SE5Ge4QP4oY) and large contributions to 'noj (https://github.com/scicloj/noj).  
+As discovered while writing the [Wolframite documentation](https://scicloj.github.io/wolframite/for_scientists.index.html), what is often needed is not so much a manual but examples of how to use the tool (or how to integrate many tools) in a real project. With this in mind, I would like to document the overall process of how to use the ecosystem to solve real problems, supplying both real problems and real solutions, e.g. the source and details behind my [past talk](https://www.youtube.com/watch?v=SE5Ge4QP4oY) and large contributions to []'noj](https://github.com/scicloj/noj).  
 
 #### Outreach  
 Outside of building library bridges to Clojure for specialist academic projects as well as collecting SciCloj talk sources in a centralised location, I would make a concerted effort to reach out to non-Clojure scientists about the benefits of Clojure.  
@@ -129,7 +129,10 @@ The Emmy system in particular is bringing open-source symbolic computation to bo
 
 This work would also be important in regards to expanding the community itself. Following on from above, there is a large section of the numerical scientific community who are not programmers but who rely on tools like Mathematica and Matlab and so interop in these areas will be crucial for community cross-over in the future. Generalized language interop is particularly important for safe onboarding of new users and experience suggests that there is a willing 'market' for integrating specialist tools within more comfortable general languages like Clojure.  
 
-Beyond this however, the interactive development and documentation experience that is available now is a solution that simply needs to be shown to scientists' problems. The proposal to organise academic publishing and presentation of what the Clojure experience is like feels like an important stepping stone to the future.  
+Beyond this however, the interactive development and documentation experience that is available now is a solution that simply needs to be shown to scientists' problems. The proposal to organise academic publishing and presentation of what the Clojure experience is like feels like an important stepping stone to the future.   
+
+**Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?**  
+Depending on what you mean by 'systemic bias', my disadvantage is a classical one. Living in eastern Europe and working in the public sector, I suspect my Clojure friends would be shocked at what is paid to scientists here. I don't pretend that Hungary is as cash-strapped as some other continental countries, but compared to most other countries in 'the west', even those a two hour drive away, the salaries are low. If it helps, I can be more specific, but suffice it to say that this funding would go much further here and would enable a much bigger shift in what I'm able to contribute than it would for many other applicants.<br>  
 
 
 ---
@@ -183,7 +186,7 @@ All are fairly mature alpha-stage projects.  Kushi and Fireworks have already be
 - Address all 12 current issues (mostly enhancements)  
 - Publish editor plugins/extensions for Emacs and VS Code. These are fairly simple extensions that just involve some basic clj-rewrite functionality for wrapping/unwrapping forms. I've already created initial working versions of both (emacs and VSCode) locally.  
 - Produce written and/or video documentation of my current live hot-reloading dev environment for JVM Clojure, with versions for both Leiningen and Deps. I recently issued a PR to add this to test-refresh - https://github.com/jakemcc/test-refresh/pull/91. This sort of thing could also potentially be incorporated into other similar projects such as metabase/hawk and tonsky/clj-reload.  
-- For ClojureScript developers using Fireworks in a browser dev console, I went off the deep-end and made a dedicated Chrome extension to enable the setting of the Chrome DevTools console background and foreground color with a very nice GUI interface. Would be cool to get this working in most other Chromium-based browsers, and potentially Firefox, if there is any demand for it.  
+- For ClojureScript developers using Fireworks in a browser dev console, I went off the deep-end and made a dedicated Chrome extension to enable the setting of the Chrome DevTools console background and foreground color with a very nice GUI interface. Would be cool to get this working in most other Chromium-based browsers, and potentially Firefox, if there is any demand for it. 
 - https://github.com/paintparty/fireworks?tab=readme-ov-file#setting-the-background-color-and-font-in-chrome-devtools-clojurescript
 
 
@@ -192,9 +195,9 @@ All are fairly mature alpha-stage projects.  Kushi and Fireworks have already be
 
 **Goals for Bling in 2025:** 
 - Support automatic detection of the 3 levels of color support (16-color, 256-color, or Truecolor), using an approach similar to https://github.com/chalk/supports-color  
-- Support arbitrary hex colors, and their conversion, if necessary, to 256. I’ve already created an efficient Manhattan distance algorithm for doing this conversion in Fireworks - https://github.com/paintparty/fireworks/blob/035ec4cb048db05f4cca3691f946931b3a87f624/src/fireworks/color.cljc#L26  
+- Support arbitrary hex colors, and their conversion, if necessary, to 256. I’ve already created an efficient Manhattan distance algorithm for doing [this conversion in Fireworks](https://github.com/paintparty/fireworks/blob/035ec4cb048db05f4cca3691f946931b3a87f624/src/fireworks/color.cljc#L26)    
 - Create more formatting templates for callouts, headers, and points-of-interest  
-- Add documentation about how to leverage Bling to create great-looking warnings and errors in any project. Example of using bling's templates to create nice warnings can be found here: https://github.com/paintparty/fireworks?tab=readme-ov-file#helpful-warnings-for-bad-option-values  
+- Add documentation about how to leverage Bling to create great-looking warnings and errors in any project. Example of using bling's templates to create nice warnings can be [found here:](https://github.com/paintparty/fireworks?tab=readme-ov-file#helpful-warnings-for-bad-option-values)    
 - Add documentation about using Bling in conjunction with existing libraries which format Spec and Malli messages into human readable form.  
 - Although lower priority, it would be fun to explore enhancing the flexibility and utility of bling.core/stack-trace-preview, and exposing it as a public function, as it may be a cheap way to get give some additional context to many kinds of error messages.  
 
@@ -211,15 +214,13 @@ All are fairly mature alpha-stage projects.  Kushi and Fireworks have already be
 **Why is this work important to the Clojure community?**  
 I believe work on these projects could benefit the Clojure community for the following reasons (listed out project-by-project):
 
-**#1 - Kushi** 
-https://kushi.design/  
+[**#1 - Kushi**](https://kushi.design/)    
 Kushi aims to provide a complete solution to the design layer of web UI projects.  
 
 It is an ambitious project, but I believe there is an opportunity for Kushi to offer a UI dev experience that is unique and more compelling than any equivalent in any other language. This could lead to increased organizational awareness and consideration of ClojureScript as an attractive choice for building mission-critical UI. If more companies used ClojureScript to build UI, I think it would be very beneficial for the community.  
 
 
-**#2 - Domo**
-https://github.com/kushidesign/domo  
+[**#2 - Domo**](https://github.com/kushidesign/domo)    
 This lib has been slow-cooking over a couple years to serve various web projects, including Kushi.  
 
 The syntax is very Clojure-y, and feels much nicer than writing gnarly JS interop code.
@@ -239,8 +240,7 @@ Compared to these libs, Domo offers even more specific functionality such as:
 - Helper for keyboard-based tab navigation  
 - & much more!  
 
-**#3 - Fireworks**  
-https://github.com/paintparty/fireworks  
+[**#3 - Fireworks**](https://github.com/paintparty/fireworks)    
 
 Fireworks is the only lib to provide a colorizing and themeable pretty-printer that works beautifully in both Clojure and ClojureScript (and Babashka).  
 
@@ -249,8 +249,7 @@ The output is, arguably, orders of magnitude faster and easier to read than equi
 The library also provides very powerful debugging and tapping macros. These macros provide a lightweight complement to discovery-centric, UI-heavy data exploration tools such as Portal and Flowstorm. With a simple hot-reloading setup (in clj or cljs), and minimal editor integration, Fireworks can drive an extremely compelling live-feedback dev experience without any reliance on a repl connection, or repl-related concepts. I think the continued codification, documentation, and demonstration of such a workflow could make a difference in bringing new people to Clojure. The maturation of this kind of workflow could also benefit existing users of community tools such as playback, debux, hashp, telemere, ken, spyscope, omni-trace, postmortem, and sayid.  
  
 
-**#4 - Bling**
-https://github.com/paintparty/bling  
+[**#4 - Bling**](https://github.com/paintparty/bling)    
 
 Many mature language communities have a library for rich text printing in the terminal, for example Rich (Python), Chalk (JS), LipGloss (Go), etc.  
 
@@ -261,8 +260,7 @@ The most unique thing that Bling offers is a carefully curated palette of 11 bas
 Bling also offers two simple functions for creating blocks of text in the console. Check out the readme for exhaustive visual examples. These can be semantically colored (errors, warnings, info). Bling also offers a simple function for constructing a point-of-interest diagram, like when you want to call out the namespace, line, column and show some source code with a red squiggly underline. I think the Clojure community would benefit from more library authors adding neatly-formatted, actionable warning and error messages to their codebases. It would also be great if such warnings and messages where formatted in a way that loosely followed some set of conventions. Perhaps Bling could play a small role in fostering this within the Clojure community.  
 
 
-**#5 - Lasertag**  
-https://github.com/paintparty/lasertag  
+[**#5 - Lasertag**](https://github.com/paintparty/lasertag)    
 
 Lasertag is a utility library that was spun out of Fireworks. I believe it to be quite unique in the current landscape of cljc libraries that deal with reflection and categorization of values.  
 Lasertag makes it easy to get detailed information about values, particularly in the context of interop with [Java or JavaScript. See this section of the readme for an example](https://github.com/paintparty/lasertag?tab=readme-ov-file#instance-methods-on-javascript-built-ins).  
@@ -270,8 +268,7 @@ Lasertag makes it easy to get detailed information about values, particularly in
 I think that Lasertag could potentially offer great utility to rich-tooling projects developed in the Clojure community of the present and future.  
 
 
-**Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?** Although I did not study computer science,  I do think of myself as an individual with a unique perspective and something to offer.  <br>
-
+**Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?** Although I did not study computer science,  I do think of myself as an individual with a unique perspective and something to offer.  <br>  
 
 ---
 
@@ -285,7 +282,7 @@ Also, I want to improve the IntelliJ experience to be as good as Cursive, improv
 
 
 **Why is this work important to the Clojure community?**  
-Because with that everyone coding Clojure will be using the same features improving dev xp.  <br>
+Because with that everyone coding Clojure will be using the same features improving dev xp.  <br>  
 
 ---
 
@@ -296,7 +293,7 @@ tobias
 https://github.com/clojars/  
 
 **Why is this work important to the Clojure community?**  
-Clojars provides critical infrastructure to the Clojure community. This funding would cover routine maintenance and adding new features as needed.  <br>  
+Clojars provides critical infrastructure to the Clojure community. This funding would cover routine maintenance and adding new features as needed.  <br>   
 
 
 ---
@@ -324,7 +321,7 @@ Clojure has sustained itself, so far, as a language (and community) "for experts
 Clojure Camp aims to offer a learning experience to support would-be Clojure developers currently under-served by existing offerings. We achieve this by:  
   - translating best practices of pedagogical research of teaching programming to Clojure  
   - fostering a welcoming community of learners and mentors  
-  - providing supportive infrastructure to motivate learning  <br>
+  - providing supportive infrastructure to motivate learning  <br>  
 
 ---
 
@@ -382,7 +379,10 @@ This will hugely streamline user experience regarding high performance computing
 complete turnarounds with M1... This basically broke all number crunching software on macs, and the world is slow to catch up.  
 
 Several Clojure developers started exploring high performance computing on Apple, but didn't get too far; it's LOTS of functionality. So, having Neandeathal support Apple would enable several Clojure data processing communities to leapfrog the whole milestone
-and concentrate on more high-level tasks.  <br>
+and concentrate on more high-level tasks.   
+
+**Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?**  
+The major obstacle that I have is that I live in a country outside USA and EU, so most work opportunities are unavailable from here (Serbia is a small country with poor economy that is still recovering from civil wars and whatnot, and the local IT market is mostly based on outrourcing). Other than that, I guess I'm in a similar position like everyone else.<br>   
 
 ---
 
@@ -402,7 +402,7 @@ Currently this is applicable to PostgreSQL DB, but in future more similar DB wil
 
 Summary would be that this project is well suited for rapid development as well as for minimizing maintenance and change cost. It is fusion of IAM, Data Modelling and replacement for CRUD approach.  
 
-**Is there anything else you would like us to know?** I would like to share that IAM has been one of important subjects when working on enterprise level projects. Project applied above helped us in many ways to overcome enterprise level presence and onboard people towards common goal through usage of Data Modeling <br>  
+**Is there anything else you would like us to know?** I would like to share that IAM has been one of important subjects when working on enterprise level projects. Project applied above helped us in many ways to overcome enterprise level presence and onboard people towards common goal through usage of Data Modeling <br>   
 
 ---
 
@@ -415,7 +415,7 @@ I would like to continue working on stewarding Clojure's data science ecosystem 
 **Why is this work important to the Clojure community?**  
 I think this work will help expand Clojure's user base and reach new audiences who can benefit from the unique tools and approaches Clojure brings to some of the biggest problems in data science today.  
 
-**Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?**  I'm female and feel women are underrepresented in tech and especially in open source.  <br>  
+**Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?**  I'm female and feel women are underrepresented in tech and especially in open source.  <br>   
 
 ---
 
@@ -444,7 +444,7 @@ I have a couple of ideas on improving the library further, preparing for React v
 ---
 
 ## Mateusz Mazurczak and Anthony Caumond  
-https://github.com/Kaspazza
+https://github.com/Kaspazza  
 https://caumond.com/#/
 
 
@@ -455,7 +455,7 @@ Planning to add:
 - Add scenario management for creating multiple simulations.  
 - Add rendering module to give the highest possible quality insights to the modeler about the behavior of a model  
 
-Project name: Automaton simulation discrete event
+Project name: Automaton simulation discrete event  
 Link: https://github.com/hephaistox/automaton-simulation-de  
 
 **Why is this work important to the Clojure community?**  
@@ -489,10 +489,10 @@ https://github.com/phronmophobic/
 
 
 **What do you plan to work on throughout the year?** 
-- Grease (https://github.com/phronmophobic/grease): The goal for this year is to make a free, open source app similar to pythonista(http://www.omz-software.com/pythonista/), but for clojure. This project is already in-progress. More info at https://clojurians.slack.com/archives/C0260KHN0Q0 on the clojurians slack.  
-- AI tools like llama.clj (https://github.com/phronmophobic/llama.clj): llama.clj is a library that allows running open source LLMs directly from the JVM with a clojure-friendly API.  
-- Dewey (https://github.com/phronmophobic/dewey): Dewey is a public dataset that scans and analyzes clojure github repos weekly. These datasets are currently being used by tools like tutkain and clojure-lsp. The goal is to improve access to ecosystem data in order to be even more useful for developer tooling.  
-- Membrane (https://github.com/phronmophobic/membrane): A pure clojure, cross-platform UI library  
+- [Grease](https://github.com/phronmophobic/grease): The goal for this year is to make a free, open source app similar to pythonista(http://www.omz-software.com/pythonista/), but for clojure. This project is already in-progress. More info at https://clojurians.slack.com/archives/C0260KHN0Q0 on the clojurians slack.  
+- AI tools like [llama.clj](https://github.com/phronmophobic/llama.clj): llama.clj is a library that allows running open source LLMs directly from the JVM with a clojure-friendly API.  
+- [Dewey](https://github.com/phronmophobic/dewey): Dewey is a public dataset that scans and analyzes clojure github repos weekly. These datasets are currently being used by tools like tutkain and clojure-lsp. The goal is to improve access to ecosystem data in order to be even more useful for developer tooling.  
+- [Membrane](https://github.com/phronmophobic/membrane): A pure clojure, cross-platform UI library  
 
 
 **Why is this work important to the Clojure community?** The goal for the Grease project is to make a fully scriptable iOS app. This would allow any clojure developer to write apps for their iPhone without requiring developers to jump through hoops like the Apple submission process. The app (currently code named LearnLisp) is compiled using graalvm's native-image and scripts are executed using an embedded sci interpreter. A subgoal for this project is to make the app approachable to any developer that might be interested in learning a Lisp while also having fun making something useful for their phone. In principle, the same approach can be used to target android. A stretch goal is to also release an android app with the same features.  
@@ -502,8 +502,8 @@ Many of the latest AI tools are written in python and c++. I have 15 years of ex
 One of the challenges commonly cited by new clojure users is finding libraries. Dewey collects and indexes information about the clojure open source ecosystem. The dewey frontends are already quite capable of finding the right library for a particular task, but the UX needs to be improved.  
 
 The current dewey frontends:  
-- Library Search https://phronmophobic.github.io/dewey/search.html - Search for clojure libraries by keyword, name, author, and description.  
-- Cloogle https://cloogle.phronemophobic.com/doc-search.html - Search for any clojure function by its doc string. Queries are indexed by semantic meaning using a vector db.   
+- [Library Search](https://phronmophobic.github.io/dewey/search.html) - Search for clojure libraries by keyword, name, author, and description.  
+- [Cloogle](https://cloogle.phronemophobic.com/doc-search.html) - Search for any clojure function by its doc string. Queries are indexed by semantic meaning using a vector db.   
 
 The goals for this year:  
 - Consolidate frontends into a single, unified frontend  
@@ -511,7 +511,7 @@ The goals for this year:
 - Create an API to support developer tools  
 - Extract the semantic search code into its own standalone library  
 
-Membrane is a UI library written in pure clojure aimed at building complex, interactive UI applications in a functional style. One pitfall I'm trying to avoid with membrane is to solve the easy problems, but ignore the hard problems. The most recent work on membrane has been about solving some of the hard problems facing desktop UIs so that membrane can be a real alternative to the browser for complex desktop applications. These projects include clj-media (video playback), clj-cef2 (an embedded web browser based on chromium), clj-webgpu (3d graphics), and membrane.term (terminal emulator). Now that I feel comfortable that I won't be leading users down a dead end, the goal for this year is to improve documentation and provide a good looking, high quality, component library. Membrane UIs aren't tied to any particular graphics library. This means that membrane UIs can be embedded in any UI library that can draw shapes, texts, and rectangles.  <br>  
+Membrane is a UI library written in pure clojure aimed at building complex, interactive UI applications in a functional style. One pitfall I'm trying to avoid with membrane is to solve the easy problems, but ignore the hard problems. The most recent work on membrane has been about solving some of the hard problems facing desktop UIs so that membrane can be a real alternative to the browser for complex desktop applications. These projects include clj-media (video playback), clj-cef2 (an embedded web browser based on chromium), clj-webgpu (3d graphics), and membrane.term (terminal emulator). Now that I feel comfortable that I won't be leading users down a dead end, the goal for this year is to improve documentation and provide a good looking, high quality, component library. Membrane UIs aren't tied to any particular graphics library. This means that membrane UIs can be embedded in any UI library that can draw shapes, texts, and rectangles.  <br>   
 
 ---
 
@@ -546,7 +546,7 @@ But I could also improve this over 12 months as well. I think the clojurescript 
 
 I also want an easy way for it to just use a terminal repl easier. Using ssh tunneling is one thing, but it would be amazing to have a vterm window open and easily sending forms over to the repl.  
 
-In short, I think this tooling is a super power. I would love to build this out over a few months or the full year and share the knowledge and improve the tools.  <br>  
+In short, I think this tooling is a super power. I would love to build this out over a few months or the full year and share the knowledge and improve the tools.  <br>   
 
 ---
 
@@ -564,20 +564,15 @@ Since early 2019, we, the Scicloj group, have been working on creating a stack o
 The stack we are building is addressing many needs which are useful non only in scientific context. High-performance computing, data processing, data visualization, literate programming, and literate testing are a few examples.  
 
 You may find more details about current developments in a few recent talks by Scicloj members:  
-Kira Howe (McLean) at London Clojurians:  
-https://www.youtube.com/watch?v=eUFf3-og_-Y  
-Sami Kallinen at Heart of Clojure:  
-https://www.youtube.com/watch?v=ckQllKUw3b4  
-Thomas Clark at Clojure Conj:  
-https://www.youtube.com/watch?v=_D5d6Ls6pBw   
+[Kira Howe (McLean) at London Clojurians:](https://www.youtube.com/watch?v=eUFf3-og_-Y)   
+[Sami Kallinen at Heart of Clojure:](https://www.youtube.com/watch?v=ckQllKUw3b4)   
+[Thomas Clark at Clojure Conj:](https://www.youtube.com/watch?v=_D5d6Ls6pBw)    
 
 We have also been continuously working on building the Clojure community: running workshops, meetup groups, study groups and dev groups, and helping with the organization of a couple of conference. We have been mentoring many Clojurians in becoming involved in open-source and in expanding their use of Clojure to new contexts.   
 
-Based on that experience, we recently initiated the Scicloj open-source-mentorship program.
-https://scicloj.github.io/docs/community/groups/open-source-mentoring/  
+Based on that experience, we recently initiated the [Scicloj open-source-mentorship program.](https://scicloj.github.io/docs/community/groups/open-source-mentoring/)   
 63 people have applied, and 34 of them are currently active in looking into projects and meeting regularly.
-The program was discussed in our recent status report (2024-10-25):  
-https://www.youtube.com/watch?v=STnFMpIZlkk  
+The program was discussed in our [recent status report (2024-10-25):](https://www.youtube.com/watch?v=STnFMpIZlkk)   
 
 A few project mentees are new to Clojure and sometimes new to programming. We meet regularly and help them in their learning process.  
 
@@ -596,7 +591,7 @@ Calva - https://calva.io - I'd like to tackle repl session management, technical
 
 **Why is this work important to the Clojure community?**
 Calva runs on the important VS Code platform, which includes editors like Cursor. The uptake of Calva increases steadily and is now close to 25% of Clojurians. Especially the lacking session management and the technical debt are increasingly problematic.  
-<br>  
+<br>   
 
 ---
 
@@ -621,13 +616,14 @@ Whatever the outcome for 2025, I plan to continue to try contribute as much as I
 
 Clojurists Together is a really awesome undertaking, and an inspiration. So thanks to everyone that's been involved in helping make it reality and in keeping it running so smoothly.
 
-Cheers! :-) - Peter  <br>  
+Cheers! :-) - Peter  <br>   
 
 ---
 
 
 ## Oleksandr Yakushev  
-https://github.com/alexander-yakushev, https://github.com/clojure-goes-fast  
+https://github.com/alexander-yakushev    
+https://github.com/clojure-goes-fast   
 
 **What do you plan to work on throughout the year?**   
 I plan to continue working on Clojure Goes Fast tooling. During Q3 2024, I've covered a lot of ground with new features and redesign of clj-async-profiler and the first release of Flamebin. This also opened a lot of ideas and opportunities for further improvement of those tools. I have a large backlog of tasks for:
