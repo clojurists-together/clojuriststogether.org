@@ -10,7 +10,7 @@ draft: True
 
 Greetings Clojurist Together Members! This year, we are trying a new process to determine who will receive a monthly stipend of $1,500 to support their development work. 
 
-We put out the call  - and we received 18 thoughtful applications for you to consider. You can also review past long-term project updates on our [website](https://clojuriststogether.org) to get an idea of what past long-term grant recipients have been able to accomplish with your past support (pretty amazing!)
+We put out the call  - and we received 18 thoughtful applications for you to consider. You can also review past long-term project updates on our [website](https://www.clojuriststogether.org/news/) to get an idea of what past long-term grant recipients have been able to accomplish with your past support (pretty amazing!)
 
 Please review the applications below and select 5 developers to receive funding in 2025. Be on the lookout for an email that contains the link to your Ranked Vote ballot. Here we go ..in alphabetical order (by last name)....
 
