@@ -1,14 +1,14 @@
 ---
 title: "Vote on 2025 Long-Term Funding Applications"
-date: 2024-11-16T14:00:00+12:00
+date: 2024-11-25T14:00:00+12:00
 author: Kathy Davis
 summary: "It's Up To You to Decide Who Will Receive Funding. "  
-draft: True
+
 
 
 ---
 
-Greetings Clojurist Together Members! This year, we are trying a new process to determine who will receive a monthly stipend of $1,500 to support their development work. 
+Greetings Clojurists Together Members! This year, we are trying a new process to determine who will receive a monthly stipend of $1,500 to support their development work. 
 
 We put out the call  - and we received 18 thoughtful applications for you to consider. You can also review past long-term project updates on our [website](https://www.clojuriststogether.org/news/) to get an idea of what past long-term grant recipients have been able to accomplish with your past support (pretty amazing!)
 
