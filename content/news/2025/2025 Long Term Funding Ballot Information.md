@@ -2,7 +2,7 @@
 title: "Vote on 2025 Long-Term Funding Applications"
 date: 2024-11-25T14:00:00+12:00
 author: Kathy Davis
-summary: "It's Up To You to Decide Who Will Receive Funding. "  
+summary: "It Is Up To You to Decide Who Will Receive Funding. "  
 
 
 
