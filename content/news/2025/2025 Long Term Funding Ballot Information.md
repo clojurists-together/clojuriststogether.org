@@ -407,7 +407,7 @@ Summary would be that this project is well suited for rapid development as well 
 http://github.com/kirahowe
 
 **What do you plan to work on throughout the year?** 
-I would like to continue working on stewarding Clojure's data science ecosystem into a state of maturity. This would include specifically working on developing ggclj (a grammar of graphics implementation in Clojure -- https://github.com/kirahowe/ggclj) guides and tutorials for Clojure's data science stack (including the Clojure data cookbook and Clojure Tidy Tuesdays, (https://github.com/scicloj/clojure-data-cookbook) or https://github.com/kirahowe/clojure-tidy-tuesdays) and conference talks. I would like to pitch some talks to broader data-focused conferences in 2025 outside the Clojure community in hopes of reaching a broader audience. These would include at least PyData Global, Fossdem, Open Data Science Conference, and Lambda world.  
+I would like to continue working on stewarding Clojure's data science ecosystem into a state of maturity. This would include specifically working on developing ggclj (a grammar of graphics implementation in Clojure -- https://github.com/kirahowe/ggclj) guides and tutorials for Clojure's data science stack (including the Clojure data cookbook and Clojure Tidy Tuesdays,https://github.com/scicloj/clojure-data-cookbook or https://github.com/kirahowe/clojure-tidy-tuesdays and conference talks. I would like to pitch some talks to broader data-focused conferences in 2025 outside the Clojure community in hopes of reaching a broader audience. These would include at least PyData Global, Fossdem, Open Data Science Conference, and Lambda world.  
 
 **Why is this work important to the Clojure community?**  
 I think this work will help expand Clojure's user base and reach new audiences who can benefit from the unique tools and approaches Clojure brings to some of the biggest problems in data science today.  
@@ -447,12 +447,12 @@ Link: https://github.com/hephaistox/automaton-simulation-de
 
 **Why is this work important to the Clojure community?**  
 First, as a little introduction:  
-We have over two decades of expertise in the supply chain on board and a decade of software development with software craftsmanship in our hearts. We plan to create it as an open-source alternative to existing solutions (like Rockwell Arena https://www.rockwellautomation.com/en-us/products/software/arena-simulation.html or https://www.anylogic.com/) 
+We have over two decades of expertise in the supply chain on board and a decade of software development with software craftsmanship in our hearts. We plan to create it as an open-source alternative to existing solutions (like Rockwell Arena https://www.rockwellautomation.com/en-us/products/software/arena-simulation.html or https://www.anylogic.com/
 
 With the difference, that thanks to Clojure and data-centric approach our software will be at much higher flexibility.   
 This is crucial for this kind of software, as each supply-chain industry's needs for simulation are different. So current off-the-shelf software is either not flexible enough for their usage or to expensive to adapt (ranging in millions of euro).  
 
-Future development of this library can bring more interest in Clojure for supply-chain-related projects (especially since we are putting related topics to separate libraries, e.g., https://github.com/hephaistox/automaton-optimization)  
+Future development of this library can bring more interest in Clojure for supply-chain-related projects (especially since we are putting related topics to separate libraries, e.g., https://github.com/hephaistox/automaton-optimization  
 
 By being highly flexible in architecture, other people can extend this library to meet their needs. This can benefit college students of the supply chain and people working in supply-chain (e.g. warehouses, factories). Especially when their company or revenue is too small to require consultants and high-cost software.  
 
@@ -519,7 +519,7 @@ https://github.com/phronmophobic/
 
 
 **What do you plan to work on throughout the year?** 
-- [Grease](https://github.com/phronmophobic/grease): The goal for this year is to make a free, open source app similar to pythonista(http://www.omz-software.com/pythonista/) but for clojure. This project is already in-progress. More info at https://clojurians.slack.com/archives/C0260KHN0Q0 on the clojurians slack.  
+- [Grease](https://github.com/phronmophobic/grease): The goal for this year is to make a free, open source app similar to pythonista (http://www.omz-software.com/pythonista/) but for clojure. This project is already in-progress. More info at https://clojurians.slack.com/archives/C0260KHN0Q0 on the clojurians slack.  
 - AI tools like [llama.clj](https://github.com/phronmophobic/llama.clj): llama.clj is a library that allows running open source LLMs directly from the JVM with a clojure-friendly API.  
 - [Dewey](https://github.com/phronmophobic/dewey): Dewey is a public dataset that scans and analyzes clojure github repos weekly. These datasets are currently being used by tools like tutkain and clojure-lsp. The goal is to improve access to ecosystem data in order to be even more useful for developer tooling.  
 - [Membrane](https://github.com/phronmophobic/membrane): A pure clojure, cross-platform UI library  
