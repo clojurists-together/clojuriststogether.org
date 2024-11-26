@@ -232,13 +232,6 @@
     "founding" : false,
     "tagline" : "A collaboration medium combining docs and whiteboards. Powered by Clojure!"
   }, {
-    "name" : "Helpshift",
-    "member_type" : "company",
-    "url" : "https://www.helpshift.com",
-    "logo" : null,
-    "level" : "into",
-    "founding" : false
-  }, {
     "name" : "bevuta IT GmbH",
     "member_type" : "company",
     "url" : "https://www.bevuta.com/",
@@ -1139,7 +1132,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 43,
+    "company" : 42,
     "developer" : 164
   }
 }
