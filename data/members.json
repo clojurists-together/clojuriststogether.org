@@ -1130,9 +1130,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Evan Niessen-Derry",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 42,
-    "developer" : 164
+    "developer" : 165
   }
 }
