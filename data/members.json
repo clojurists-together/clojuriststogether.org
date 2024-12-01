@@ -1135,9 +1135,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Osei Poku",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 42,
-    "developer" : 165
+    "developer" : 166
   }
 }
