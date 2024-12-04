@@ -1140,9 +1140,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "James Reber",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 42,
-    "developer" : 166
+    "developer" : 167
   }
 }
