@@ -133,12 +133,13 @@ Finally, I've been updating the [Clojure Goes Fast knowledge base](https://cloju
 
 ## Jank: Jeaye Wilkerson  
 Q3 2024 Report No. 2, Published Nov. 30, 2024   
+
 Hi everyone! It's been a very busy couple of months as I've been developing
 jank's LLVM IR generation, improving jank's semantic analysis, and furthering
 jank's module loading system. Thank you to all of my Github sponsors and to
 Clojurists Together, who help me pay the bills. As of January 2025, I'll be
 working on jank full-time and every new sponsor means that much more.
-Without further ado, let's dive into the details of the past couple of months.
+Without further ado, let's dive into the details of the past couple of months.  
 
 ### LLVM IR
 The main focus of the past couple of months has been filling out jank's LLVM IR
@@ -246,7 +247,7 @@ the previous C++ generation is a good usage of time. Optimizing IR can happen as
 we go, without breaking any ABI compatibility. I'm more focused on getting
 jank released right now.  
 
-## Build system and portability improvements
+### Build system and portability improvements
 Apart from working on LLVM IR generation the past couple of months, I've put a
 fair amount of time into improving jank's builds system and dependency
 management. In particular, vcpkg has been removed entirely. I was using vcpkg to
@@ -406,11 +407,9 @@ Thanks to the funding from Clojurists Together, the Q3 development of Kushi purs
 ## Malli: Ambrose Bonnaire-Sergeant  
 Q3 2024 Report No. 2, Published Nov. 30, 2024 
 
-This is the second report of three in the project to extend Malli with constraints.
+This is the second report of three in the project to extend Malli with constraints. [Report 1] is here. (https://www.clojuriststogether.org/news/sept.-and-oct.-2024-short-term-project-updates/#malli-ambrose-bonnaire-sergeant)  
 
-[Report 1](https://www.clojuriststogether.org/news/sept.-and-oct.-2024-short-term-project-updates/#malli-ambrose-bonnaire-sergeant)
-
-## Background  
+### Background  
 In this project, I proposed to extend the runtime verification library
 Malli with constraints with the goal of making the library more expressive
 and powerful.  
@@ -420,7 +419,7 @@ satisfied for the schema to be satisfied. Anyone can add a constraint to a schem
 Crucially, these extensions should work as seamlessly as if the author of the schema
 added it themselves.  
  
-## Progress  
+### Progress  
 
 I finished my [prototype](https://github.com/frenchy64/malli/pull/20/files) porting existing `:min`/`:max` schema properties to a new "constraint" framework.
 This seems like a useful framework in general but I'm not fully convinced it's the simplest solution
@@ -516,7 +515,7 @@ Here's a list of some of the directions I've worked on in the last few months:
   - [`:not` humanizer](https://github.com/metosin/malli/pull/1138)  
     - relevant so `[:not [:contains k]]` can be explained  
 
-## Next  
+### Next  
 I'm going to see if [decomplecting the constraints solution](https://github.com/frenchy64/malli/pull/23/files)
 is actually usable in practice and propose various smaller improvements to malli based on my experience so far.  <br>
 
@@ -526,9 +525,9 @@ is actually usable in practice and propose various smaller improvements to malli
 Q3 2024 Report No. 2, Published Nov. 3, 2024 
 
 
-The [Clojurists Together](https://www.clojuriststogether.org/) organisation has decided [to sponsor](https://www.clojuriststogether.org/news/q3-2024-funding-announcement/) Scicloj community building for Q3 2024, as a project by Daniel Slutsky. This is the second time the project is selected this year. Here is Daniel's update for October. Comments and ideas would help. :pray: 
+The [Clojurists Together](https://www.clojuriststogether.org/) organisation has decided [to sponsor](https://www.clojuriststogether.org/news/q3-2024-funding-announcement/) Scicloj community building for Q3 2024, as a project by Daniel Slutsky. This is the second time the project is selected this year. Here is Daniel's update for October. and a [video providing insights on the project.](https://www.youtube.com/watch?v=STnFMpIZlkk). Comments and ideas would help. :pray: 
 
-## Update for October 2024  
+### Update for October 2024  
 [Scicloj](https://scicloj.github.io/) is a Clojure group developing a stack of tools and libraries for data science. Alongside the technical challenges, community building has been an essential part of its efforts since the beginning of 2019. Our current main community-oriented goal is making the existing data-science stack easy to use through the maturing of the Noj library, mentioned below. In particular, we are working on example-based documentation, easy setup, and recommended workflows for common tasks.  
 
 All these, and the tools to support them, grow organically, driven by real-world use cases.  
@@ -537,7 +536,7 @@ I serve as a community organizer at Scicloj, and this project was accepted for C
 
 In this post, I am reporting on my involvement during October 2024, as well as the proposed goals for October.  I had 57 meetings during September. Most of them were one-on-one meetings for open-source mentoring or similar contexts.  All the projects mentioned below are done in collaboration with others. I will mention at least a few of the people involved. For consistency, I use people's github handles when mentioning their work on the projects, and their full names when mentioning public talks.  
 
-## October 2024 highlights  
+### October 2024 highlights  
 
 ### [Scicloj open-source mentoring](https://scicloj.github.io/docs/community/groups/open-source-mentoring/)
 This month, we contined working with mentees under the open-source mentoring program.  
@@ -625,7 +624,7 @@ Eventually, we organized only one talk run before the Clojure Conj conference. T
 
 On my side, I helped a little bit in the preparations for the talk.  
 
-## November 2024 goals  
+### November 2024 goals  
 
 ### Noj  
 - Annouce Beta stage.  
@@ -692,7 +691,8 @@ Q3 2024 Report No. 2 (final), Published Dec. 3, 2024
 ### Thank you!
 
 Thank you to Clojurists Together for the funding and everyone who has contributed
-kind words and encouragement for this project. Your support is greatly appreciated ♥️
+kind words and encouragement for this project. Your support is greatly appreciated ♥️  
+
 
 [Clojure/conj talk]:https://www.youtube.com/watch?v=VhjxvEabOX0
 [Standard Clojure Style is available in Lua]:https://github.com/oakmac/standard-clojure-style-lua
