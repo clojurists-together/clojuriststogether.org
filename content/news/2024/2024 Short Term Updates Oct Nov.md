@@ -47,7 +47,7 @@ https://github.com/oakmac/standard-clojure-style-js/issues/1
 ---
 
 
-## clj-nix: José-Luis-Lafuente  
+## clj-nix: José Luis Lafuente  
 Q3 2024 Report No. 2 (final), Published Nov. 29, 2024  
 
 ### Nix babashka builder  
@@ -224,8 +224,8 @@ loading it. Overall, for startup performance, LLVM IR has been a huge win. This
 is exactly what I wanted and I'm very pleased with the results.  
 
 <figure>
-  <object type="image/svg+xml" data="https://jank-lang.org/img/blog/2024-11-29-llvm-ir/startup-time.plot.svg" width="100%">
-    <img src="https://jank-lang.org/img/blog/2024-11-29-llvm-ir/startup-time.plot.svg" width="100%"></img>
+  <object type="image/svg+xml" data="https://jank-lang.org/img/blog/2024-11-29-llvm-ir/startup-time.plot.svg" width="50%">
+    <img src="https://jank-lang.org/img/blog/2024-11-29-llvm-ir/startup-time.plot.svg" width="150%"></img>
   </object>
 </figure>
 
