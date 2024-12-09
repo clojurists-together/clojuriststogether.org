@@ -2,7 +2,7 @@
 title: "Nov. 2024 Short-Term Project Updates"
 date: 2024-12-09T14:00:00+12:00
 author: Kathy Davis
-summary: "clj-Nix, Clojure Goes Fast, Jank, Kushi, Malli, Standard Clojure Style"
+summary: "clj-Nix, Clojure Goes Fast, Jank, Kushi, Malli, SciCloj, Standard Clojure Style"
 draft: True
 
 
@@ -529,22 +529,16 @@ is actually usable in practice and propose various smaller improvements to malli
 Q3 2024 Report No. 2, Published Nov. 3, 2024 
 
 
-The [Clojurists Together](https://www.clojuriststogether.org/) organisation has decided [to sponsor](https://www.clojuriststogether.org/news/q3-2024-funding-announcement/) Scicloj community building for Q3 2024, as a project by Daniel Slutsky. This is the second time the project is selected this year. Here is Daniel's update for October.
+The [Clojurists Together](https://www.clojuriststogether.org/) organisation has decided [to sponsor](https://www.clojuriststogether.org/news/q3-2024-funding-announcement/) Scicloj community building for Q3 2024, as a project by Daniel Slutsky. This is the second time the project is selected this year. Here is Daniel's update for October. Comments and ideas would help. :pray: 
 
-Comments and ideas would help. :pray: 
-
-## Clojurists Together update - October 2024  
+## Update for October 2024  
 [Scicloj](https://scicloj.github.io/) is a Clojure group developing a stack of tools and libraries for data science. Alongside the technical challenges, community building has been an essential part of its efforts since the beginning of 2019. Our current main community-oriented goal is making the existing data-science stack easy to use through the maturing of the Noj library, mentioned below. In particular, we are working on example-based documentation, easy setup, and recommended workflows for common tasks.  
 
 All these, and the tools to support them, grow organically, driven by real-world use cases.  
 
 I serve as a community organizer at Scicloj, and this project was accepted for Clojurists Together funding in 2024 Q1 & Q3. I also receive regular funding through Github Sponsors, mostly from Nubank.  
 
-In this post, I am reporting on my involvement during October 2024, as well as the proposed goals for October.  
-
-I had 57 meetings during September. Most of them were one-on-one meetings for open-source mentoring or similar contexts.  
-
-All the projects mentioned below are done in collaboration with others. I will mention at least a few of the people involved. For consistency, I use people's github handles when mentioning their work on the projects, and their full names when mentioning public talks.  
+In this post, I am reporting on my involvement during October 2024, as well as the proposed goals for October.  I had 57 meetings during September. Most of them were one-on-one meetings for open-source mentoring or similar contexts.  All the projects mentioned below are done in collaboration with others. I will mention at least a few of the people involved. For consistency, I use people's github handles when mentioning their work on the projects, and their full names when mentioning public talks.  
 
 ## October 2024 highlights  
 
