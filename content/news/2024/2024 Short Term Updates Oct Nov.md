@@ -47,7 +47,7 @@ https://github.com/oakmac/standard-clojure-style-js/issues/1
 ---
 
 
-## clj-nix:José-Luis-Lafuente  
+## clj-nix: José-Luis-Lafuente  
 Q3 2024 Report No. 2 (final), Published Nov. 29, 2024  
 
 ### Nix babashka builder  
