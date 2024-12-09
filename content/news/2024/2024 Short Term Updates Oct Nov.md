@@ -3,7 +3,7 @@ title: "Nov. 2024 Short-Term Project Updates"
 date: 2024-12-09T14:00:00+12:00
 author: Kathy Davis
 summary: "clj-Nix, Clojure Goes Fast, Jank, Kushi, Malli, SciCloj, Standard Clojure Style"
-draft: True
+
 
 
 ---
@@ -694,10 +694,10 @@ Thank you to Clojurists Together for the funding and everyone who has contribute
 kind words and encouragement for this project. Your support is greatly appreciated ♥️  
 
 More resources:
-[Clojure/conj talk:](https://www.youtube.com/watch?v=VhjxvEabOX0)  
-[Standard Clojure Style is available in Lua:](https://github.com/oakmac/standard-clojure-style-lua)  
-[in the README:](https://github.com/oakmac/standard-clojure-style-js)  
-[v0.18.0:](https://www.npmjs.com/package/@chrisoakman/standard-clojure-style)
-[punchlist of issues:](https://github.com/oakmac/standard-clojure-style-js/issues?q=is%3Aissue+is%3Aopen+label%3A%22v1+blocker%22)
+[Clojure/conj talk](https://www.youtube.com/watch?v=VhjxvEabOX0)  
+[Standard Clojure Style is available in Lua](https://github.com/oakmac/standard-clojure-style-lua)  
+[in the README](https://github.com/oakmac/standard-clojure-style-js)  
+[v0.18.0](https://www.npmjs.com/package/@chrisoakman/standard-clojure-style)
+[punchlist of issues](https://github.com/oakmac/standard-clojure-style-js/issues?q=is%3Aissue+is%3Aopen+label%3A%22v1+blocker%22)
 <br>
 
