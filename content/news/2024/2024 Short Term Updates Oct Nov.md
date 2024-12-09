@@ -364,4 +364,347 @@ If that sounds interesting, stay tuned for my next update!  <br>
 
 ---
 
+## Kushi: Jeremiah Coyle  
+Q3 2024 Report No. 2 (final), Published Nov. 30, 2024   
 
+### Q3 Milestones  
+Thanks to the funding from Clojurists Together, the Q3 development of Kushi pursued the following 3 milestones:  
+1. Finishing the new css transpilation API.  
+2. Reimplementing the build system for enhanced performance.  
+3. A reimagined theming system.  
+
+
+### Progress  
+
+#### Milestone #1: Finishing the new css transpilation API.  
+- **Goals** 
+  1. Solidify the API design and implementation of Kushi's CSS transpilation functionality.  
+  2. Incorporate the use of lightingcss for CSS transformation (older browsers) and minification.  
+  3. Refactor existing public functions for injecting stylesheets, google fonts, etc.  
+- **Progress:** Complete on branch `new-build-system`. The majority of the time spent working on Kushi in the first half of the funding period was focused on implementing a new CSS transpilation pipeline. An updated set of public macros and supporting functions was designed and implemented around this. A broad test suite was written, which consists of 7 tests containing 54 assertions. Additional refinement of the implementation was done during the course of realizing milestone #2. Updated documentation of this API  is reflected in the `README.md` on this branch.  
+- **Next steps:** Continue to test this new API by upgrading existing UI work (such as Kushi's interactive documentation site) that uses the current (soon to be previous) API, then adjust and refine implementation details as necessary.   
+
+#### Milestone #2: Reimplementing the build system for enhanced performance.  
+- **Goal**: Reimplement the build system for performance, and eliminate the use of side-effecting macros.  
+- **Progress:** Complete on branch `new-build-system`  
+- **Next steps:**  
+  - Support the use of the new version of the `sx` macro.  
+  - Adopt new conventions to Kushi documentation site source.  
+  - Merge this work into main branch.   
+
+#### Milestone #3: A reimagined theming system.  
+- **Goal**: Based on learnings from using Kushi to build a lot of production UI over that last 2-3 years, redesign and implement a new theming system. This will involve harmonizing 3 principled subsystems:  
+  1. Design tokens (a global system of CSS custom properties).  
+  2. Utility classes.  
+  3. Component-level data-attribute conventions.  
+- **Progress:** 80% complete implementation on branch `oklch`.  
+- **Next steps:** .  
+  - Refine syntactical conventions of `data-` attributes  
+  - Reconcile new (oklch) and legacy (hsl) color system, with realistic backwards compatibility  
+  - After merging `new-build-system` branch into main branch, adopt new conventions to Kushi documentation site source.  
+  - Merget this work into main branch  <br>
+
+  ---
+
+## Malli: Ambrose Bonnaire-Sergeant  
+Q3 2024 Report No. 2, Published Nov. 30, 2024 
+
+This is the second report of three in the project to extend Malli with constraints.
+
+[Report 1](https://www.clojuriststogether.org/news/sept.-and-oct.-2024-short-term-project-updates/#malli-ambrose-bonnaire-sergeant)
+
+## Background  
+In this project, I proposed to extend the runtime verification library
+Malli with constraints with the goal of making the library more expressive
+and powerful.  
+
+With this addition, schemas can be extended with extra invariants (constraints) that must be
+satisfied for the schema to be satisfied. Anyone can add a constraint to a schema.
+Crucially, these extensions should work as seamlessly as if the author of the schema
+added it themselves.  
+ 
+## Progress  
+
+I finished my [prototype](https://github.com/frenchy64/malli/pull/20/files) porting existing `:min`/`:max` schema properties to a new "constraint" framework.
+This seems like a useful framework in general but I'm not fully convinced it's the simplest solution
+to having more expressive `:map` keyset constraints.  
+
+I spent the rest of the month iterating and reviewing various design decisions.  
+
+First I learnt how cljs bundle size works, and [refactored](https://github.com/frenchy64/malli/pull/21/files)
+the constraint to live in `malli.core` while still being removable from the cljs bundle. This simplified a
+few things, but at this point I reviewed my notes and started pulling apart the solution by
+the problems they solved.  
+
+This constraints project was inspired as a "big" solution to multiple problems:   
+- `:map` keyset constraints are not expressive enough, forcing use of `:fn` schemas   
+- `:and` and `:not` generators are not reliable enough for complex keyset constraints  
+- humanization for `:not`, `:and` and `:or` errors are too confusing for complex keyset constraints  
+
+If all of these problems were solved, we could possibly avoid changing `:map` constraints
+at all and just add one new schema `[:contains k]` that tests `#(contains? % k)`.  
+A schema like this could be used for a map that either has `:secret` or both `:user` and `:pass`:  
+
+```clojure
+[:and [:map
+       [:secret {:optional true} :string]
+       [:user {:optional true} :string]
+       [:pass {:optional true} :string]]
+      [:or
+       [:and
+        [:contains :secret]
+        [:not [:contains :user]]
+        [:not [:contains :password]]]
+       [:and 
+        [:not [:contains :secret]]
+        [:contains :user]
+        [:contains :pass]]]]
+```
+
+My thinking is, if we can make `m/explain` and `mg/generate` work with this kind of schema,
+we could reapply those insights to other schema transformations like OpenAPI or JSON Schema
+and perhaps move away from monolithic schemas like `:map` which accumulate features (`::m/default`,
+`:min`, `:max`, `:optional`) and instead decomplect their features into independent repurposable
+schemas that can be combined with composite schemas like `:and` and `:or` without compromising
+performance or expressivity.  
+
+My [prototype](https://github.com/frenchy64/malli/pull/23/files) for this idea introduces
+a new namespace `malli.solver` that transforms schemas into descriptions of all the values they
+represent. By rewriting the `:and` generator to propagate extra information to the first
+schema conjunct from the other conjuncts, we could, for example have a schema like
+`[:and :string [:min-count 10]]` generate identically to `[:string {:min 10}]` by utilizing
+the extra information in the `:string` generator. Perhaps the latter could even `m/deref` to the former,
+which starts to look very similar to my original "constraint" solution where schemas contain
+other schemas at the same "level", without extra machinery.  
+
+Here's a list of some of the directions I've worked on in the last few months:  
+- [min/max constraints](https://github.com/frenchy64/malli/pull/20/files)  
+  - finish constraints for schemas supporting `:min`/`:max` properties:  
+    - `:int`, `:double`, `:float`, `:string`, `:vector, `:sequential`, `:seqable`, `:set`  
+- [min/max constraints by default](https://github.com/frenchy64/malli/pull/21/files)  
+  - like previous work, but move constraints to `malli.core`  
+  - can disable constraints via system property to preserve cljs bundle size  
+- opened issues  
+  - [`:seqable` generates nil when :min is greater than 0](https://github.com/metosin/malli/issues/1121)  
+  - [`:float` missing humanizer](https://github.com/metosin/malli/issues/1122)  
+  - [Double generator fails if `{:max (- Double/MAX_VALUE)}`](https://github.com/metosin/malli/issues/1128)  
+  - [`[:= ##NaN]` rejects `##NaN` yet generates it](https://github.com/metosin/malli/issues/1129)  
+  - [Opaque `such-that` error when using `##NaN` as bound](https://github.com/metosin/malli/issues/1130)  
+  - [`:float` accepts doubles but never generates them](https://github.com/metosin/malli/issues/1132)  
+  - [Opaque assertion errors with infinite bounds](https://github.com/metosin/malli/issues/1133)  
+- merged pr's  
+  - [Require generator for `:gen/fmap`](https://github.com/metosin/malli/pull/1120)  
+  - [only assume string interning in cljs](https://github.com/metosin/malli/pull/1125)  
+- wip  
+  - [reliable `:and` generator](https://github.com/frenchy64/malli/pull/23/files)  
+    - includes new namespace `malli.solver` which turns schemas in to maps describing values they represent
+    - includes three demonstrated usages:  
+      - `malli.generator`: new `:and` generator that never guesses  
+        - e.g., these always succeed to generate values  
+          - `[:and [:>= 2] [:<= 2]]`  
+          - `[:and [:<= 3] [:fn {:gen/schema :int} int?]]`  
+        - better error message for unsolvable schemas:  
+          - e.g., `[:and :int [:>= 1.5] [:<= 1.5]]` => `Exception: :malli.generator/unsatisfiable-schema`  
+      - `malli.optimize`: faster version of `m/validate`  
+        - e.g., checks `[:map [:a :int] [::m/default [:map-of :int :int]]]` in single pass, checks `map?` once
+      - `malli.simplify`: simplifies schemas  
+        - e.g., `[:and number? [:<= 10] [:<= 20] [:<= 30]]` => [:and number? [:<= 10]])  
+    - includes new schema `[:contains k]` that checks if `:k` key exists  
+      - next: connect with generator to reliably generate schemas like:  
+        - `[:and [:map] [:or [:contains :secret] [:and [:contains :user] [:contains :password]]]]`  
+      - next: humanizer for `[:not [:contains k]]` (pr below)  
+  - [rewrite `malli.generator` and fix bugs](https://github.com/frenchy64/malli/pull/26)  
+    - ~20% shorter  
+- proposed pr's  
+  - [`:not` humanizer](https://github.com/metosin/malli/pull/1138)  
+    - relevant so `[:not [:contains k]]` can be explained  
+
+## Next  
+I'm going to see if [decomplecting the constraints solution](https://github.com/frenchy64/malli/pull/23/files)
+is actually usable in practice and propose various smaller improvements to malli based on my experience so far.  <br>
+
+---
+
+## SciCloj: Daniel Slutsky  
+Q3 2024 Report No. 2, Published Nov. 3, 2024 
+
+
+The [Clojurists Together](https://www.clojuriststogether.org/) organisation has decided [to sponsor](https://www.clojuriststogether.org/news/q3-2024-funding-announcement/) Scicloj community building for Q3 2024, as a project by Daniel Slutsky. This is the second time the project is selected this year. Here is Daniel's update for October.
+
+Comments and ideas would help. :pray: 
+
+## Clojurists Together update - October 2024  
+[Scicloj](https://scicloj.github.io/) is a Clojure group developing a stack of tools and libraries for data science. Alongside the technical challenges, community building has been an essential part of its efforts since the beginning of 2019. Our current main community-oriented goal is making the existing data-science stack easy to use through the maturing of the Noj library, mentioned below. In particular, we are working on example-based documentation, easy setup, and recommended workflows for common tasks.  
+
+All these, and the tools to support them, grow organically, driven by real-world use cases.  
+
+I serve as a community organizer at Scicloj, and this project was accepted for Clojurists Together funding in 2024 Q1 & Q3. I also receive regular funding through Github Sponsors, mostly from Nubank.  
+
+In this post, I am reporting on my involvement during October 2024, as well as the proposed goals for October.  
+
+I had 57 meetings during September. Most of them were one-on-one meetings for open-source mentoring or similar contexts.  
+
+All the projects mentioned below are done in collaboration with others. I will mention at least a few of the people involved. For consistency, I use people's github handles when mentioning their work on the projects, and their full names when mentioning public talks.  
+
+## October 2024 highlights  
+
+### [Scicloj open-source mentoring](https://scicloj.github.io/docs/community/groups/open-source-mentoring/)
+This month, we contined working with mentees under the open-source mentoring program.  
+
+@generatme, @phronmophobic, @jeaye, and myself have been active as mentors this month. Since the program's beginning at the middle of August, 62 people have applied -- 15 of them during the last month. 39 are still actively exploring various topics, and out of them, 15 have already made important contributions.  
+
+One notable change happened during the last few months: we started working with a few mentees who are completely new to Clojure, some even to programming. This is part of Scicloj's gradual process of opening up to broader audiences.  
+
+Some of the recent experiences and insights on this project were discussed in our recent [video report](https://www.youtube.com/watch?v=STnFMpIZlkk) (2024-10-25).  
+
+### [Noj](https://scicloj.github.io/noj/)  
+The Noj library is the entry point to data science with Clojure, collecting a stack of relevant libraries. This month, we worked towards its release into Beta stage, which is almost complete.  
+
+At [the Zulip chat](https://scicloj.github.io/docs/community/chat/), we had quite a few insightful discussions with important feedback by community members about the scope and the organization of the project.  
+
+Most of our efforts in this project have been into writing additional tutorials. A broad group of people are working on these, and a few promosing tutorials are currently in draft stage. See some details below in the Tutorials section.  
+
+@behrica has made additional improvements to the automation and whole workflow of Noj in Github Pages.  
+
+I worked on clarifying many details and improving the main documentation pages.  
+
+### [Tableplot](https://scicloj.github.io/tableplot/) (previously called Hanamicloth)  
+Towards reaching Beta stage, our acively-developed plotting library recieved a new name: Tableplot.  
+
+I continued working on extending its features, adding flexibility to the way data can be specified throughout the pipelines, and integrating [metamorph.ml](https://github.com/scicloj/metamorph.ml) to allow for a more flexible smoothing functionality, where the user can specify the model details and the design matrix.  
+
+### Composing [Fastmath](https://github.com/generateme/fastmath) with [Tablecloth](https://scicloj.github.io/tablecloth)  
+During this month, a few substantial design discussions took place in the Zulip chat, with quite a few community members helping with their insights. One of the important realizations was that we should integrate Fastmath (the math library) into Tablecloth (the user-friendly table-processing library). This will allow for better composability, ergonomics, and performance in various cases where data processing meets math and statistics.  
+
+### [Scittle](https://github.com/babashka/scittle) [Emmy-viewers](https://github.com/mentat-collective/emmy-viewers) plugin  
+Recently, @reedho has made some progress in the Scittle plugin that supports Emmy-viewers data visualizations. I was helping in testing and figuring out some of the details. This progress is expected to extend the reach of Emmy-viewers to a broader set of use cases and integrate it better into Scicloj workflows.  
+
+### [Clay](https://scicloj.github.io/clay/)  
+Clay, the REPL-friendly notebook and data visualation tool, recieved a few new features:  
+- initial Emmy-viewers support  
+- support for nesting of special visualization kinds  
+- support for live-reload on file save by @whatacold  
+
+Additionally, @a13 and I are working on improving the process of reading Clojure code, building on previous work by @timothypratley at the [read-kinds](https://github.com/scicloj/read-kinds) project.  
+
+### [Kindly-advice](https://scicloj.github.io/kindly-noted/kindly_advice)  
+Kindly-advice is a small library that helps tools know how certain values should be visualized.  
+
+Following the developments with Emmy-viewers, it can now recognize these automatically, so that tools can handle them appropriately.  
+
+### [Kindly-render](https://github.com/scicloj/kindly-render)  
+Kindly-render is a tool-agnosic implementation of the [Kindly](https://scicloj.github.io/kindly/) standard.  
+
+During October, @timothypratley and @kpassapk kept working on this project. I started exploring its intergation into Clay.  
+
+### Tutorials  
+Documenting and demonstrating the use of the Scicloj stack is one of the main goals at the moment, and quite a few of us are working on various tutorials. This is often a slow process that involved introspection and discussion of the recommended ways to explain certain notions and perform certain tasks.  
+
+I was involved in writing some tutorials and in reviewing a few others.  
+
+A few of the current drafts people have been working on can already be shared:  
+- [intro to probability and statistics](https://mavbozo.github.io/clj-probstat-tutorial/clay/) by @mavbozo  
+- [intro to linear algebra with Fastmath](https://scicloj.github.io/noj/noj_book.linear_algebra_intro.html) by @radovanne  
+- [2d and 3d geometry with Fastmath](https://scicloj.github.io/noj/noj_book.fastmath_vector_geom2d3d.html) by @radovanne and @Epidiah  
+- [intro to datavis with Apache Echarts](https://scicloj.github.io/noj/noj_book.echarts) by @zuzhi and @whatacold  
+- [analysing Chicago bike times](https://scicloj.github.io/noj/noj_book.chicago_bike_times.html) by myself  
+- [Bayesian statistics with PyMC](https://scicloj.github.io/clojure-data-tutorials/projects/stats/pymc/intro.html) by myself  
+
+### Website  
+This month has been a usual month in terms of website maintenance.  
+
+### real-world-data group  
+The [real-world-data group](https://scicloj.github.io/docs/community/groups/real-world-data/) is a space for Clojure data practitioners to share their experiences. During October, the group had two meetings. We decided to share some parts of the recordings publicly:  
+- Oct 4th 2024 - meeting 15:  
+  - [Kyle Passarelli: OAuth2 with Clojure and Temporal](https://www.youtube.com/watch?v=mmOh5fYkX7Q)  
+  - [Adham Omram: Experience Conducting a Clojure Training](https://www.youtube.com/watch?v=G1vpz_43YpI)  
+- Oct 16th 2024 - meeting 16:  
+  - [Jarkko Saltiola: tools for pipelines, bb-glitchtip](https://www.youtube.com/watch?v=nC86hEglyLQ)  
+
+### Scicloj weekly catchup  
+During October, we tried the approach of weekly group meetings for the open-source-mentoring program, in addition to the small and 1-1 meetings.  
+
+We had four group meetings of this kind. A few people have shared their work, and we explored some topics as a group. Eventually, we realized that the timing and format were not optimal for most people, so this series is currently on hold.  
+
+### Linear Algebra meetings  
+A few of use are working on tutorials related to linear algebra and vector processing, and have started meeting weekly on these topics. We had four meetings of this kind.  
+
+### Clojure Conj  
+Eventually, we organized only one talk run before the Clojure Conj conference. This was an early run of the talk by Thomas Clark. The actual talk has already been published [online](https://www.youtube.com/watch?v=_D5d6Ls6pBw). It is a fantastic overview of the Clojure stack for scientific computing.  
+
+On my side, I helped a little bit in the preparations for the talk.  
+
+## November 2024 goals  
+
+### Noj  
+- Annouce Beta stage.  
+- Continue the current efforts on documenting the libraries.  
+
+### Fastmath  
+- Continue the documetation effort.  
+
+### Tablecloth  
+- Start working on drafts integrating Fastmath-related functionality.  
+
+### Tableplot  
+- Annouce Beta stage after a minor changes.  
+- Keep extending and documenting the library.  
+
+### Tooling  
+- Return to the work on kindly-render.  
+- Explore improving the support of various tools for scientific Clojure. Most importantly: VSCode, Quarto, and Jupyter.  
+- Continue Clay maintenance.  <br>  
+
+---
+
+## Standard Clojure Style: Chris Oakman  
+Q3 2024 Report No. 2 (final), Published Dec. 3, 2024 
+
+> Standard Clojure Style is a project to create a "follows simple rules, no config, runs everywhere" formatter for Clojure code.
+
+### tl;dr
+
+* [Clojure/conj talk] was well received
+* [Standard Clojure Style is available in Lua] 🌙
+* several bugs found and fixed - thank you testers!
+* [try it online here](https://tinyurl.com/43abayj2)
+
+### Update
+
+- I gave a 10-minute introduction and demo of Standard Clojure Style at Clojure/conj 2024
+  - you can [watch the talk online here](https://www.youtube.com/watch?v=VhjxvEabOX0)
+  - the talk and project were well-received
+  - thank you to everyone who said Hello and shared feedback 😁
+
+- Standard Clojure Style is available as a [single-file Lua library](https://github.com/oakmac/standard-clojure-style-lua)
+  - hopefully this opens the door for more editor integrations
+  - I am seeking an aspirational Neovim user to help make a Standard Clojure Style plugin 🤓
+
+- As of [v0.18.0], Standard Clojure Style is ready for most codebases
+  - you can [try it online here](https://tinyurl.com/43abayj2) (no purchase necessary 😜)
+  - Give it a try on your codebase!
+
+- Thank you to all the testers who ran Standard Clojure Style on your codebase and reported bugs 🙌
+  - If you want to help test, please see the instructions [in the README]
+
+### Next Up
+
+- road to 1.0.0
+  - I want to stabilize the algorithm and release a v1.0.0
+  - the target goal for this is in the next few months
+  - here is the [punchlist of issues] currently blocking that release
+
+- documentation and website are still needed
+  - I would like to create a website for the project in order to socialize the idea
+    and be a reference for teams who are deciding to to adopt a formatter tool
+
+### Thank you!
+
+Thank you to Clojurists Together for the funding and everyone who has contributed
+kind words and encouragement for this project. Your support is greatly appreciated ♥️
+
+[Clojure/conj talk]:https://www.youtube.com/watch?v=VhjxvEabOX0
+[Standard Clojure Style is available in Lua]:https://github.com/oakmac/standard-clojure-style-lua
+[in the README]:https://github.com/oakmac/standard-clojure-style-js
+[v0.18.0]:https://www.npmjs.com/package/@chrisoakman/standard-clojure-style
+[punchlist of issues]:https://github.com/oakmac/standard-clojure-style-js/issues?q=is%3Aissue+is%3Aopen+label%3A%22v1+blocker%22
