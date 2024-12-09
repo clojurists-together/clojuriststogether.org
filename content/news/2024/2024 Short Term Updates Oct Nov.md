@@ -626,21 +626,21 @@ On my side, I helped a little bit in the preparations for the talk.
 
 ### November 2024 goals  
 
-### Noj  
+#### Noj  
 - Annouce Beta stage.  
 - Continue the current efforts on documenting the libraries.  
 
-### Fastmath  
+#### Fastmath  
 - Continue the documetation effort.  
 
-### Tablecloth  
+#### Tablecloth  
 - Start working on drafts integrating Fastmath-related functionality.  
 
-### Tableplot  
+#### Tableplot  
 - Annouce Beta stage after a minor changes.  
 - Keep extending and documenting the library.  
 
-### Tooling  
+#### Tooling  
 - Return to the work on kindly-render.  
 - Explore improving the support of various tools for scientific Clojure. Most importantly: VSCode, Quarto, and Jupyter.  
 - Continue Clay maintenance.  <br>  
