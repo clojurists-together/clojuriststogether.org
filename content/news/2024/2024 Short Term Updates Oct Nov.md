@@ -693,9 +693,11 @@ Q3 2024 Report No. 2 (final), Published Dec. 3, 2024
 Thank you to Clojurists Together for the funding and everyone who has contributed
 kind words and encouragement for this project. Your support is greatly appreciated ♥️  
 
+More resources:
+[Clojure/conj talk:](https://www.youtube.com/watch?v=VhjxvEabOX0)  
+[Standard Clojure Style is available in Lua:](https://github.com/oakmac/standard-clojure-style-lua)  
+[in the README:](https://github.com/oakmac/standard-clojure-style-js)  
+[v0.18.0:](https://www.npmjs.com/package/@chrisoakman/standard-clojure-style)
+[punchlist of issues:](https://github.com/oakmac/standard-clojure-style-js/issues?q=is%3Aissue+is%3Aopen+label%3A%22v1+blocker%22)
+<br>
 
-[Clojure/conj talk]:https://www.youtube.com/watch?v=VhjxvEabOX0
-[Standard Clojure Style is available in Lua]:https://github.com/oakmac/standard-clojure-style-lua
-[in the README]:https://github.com/oakmac/standard-clojure-style-js
-[v0.18.0]:https://www.npmjs.com/package/@chrisoakman/standard-clojure-style
-[punchlist of issues]:https://github.com/oakmac/standard-clojure-style-js/issues?q=is%3Aissue+is%3Aopen+label%3A%22v1+blocker%22
