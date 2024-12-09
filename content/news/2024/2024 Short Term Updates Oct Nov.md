@@ -223,11 +223,8 @@ spend a fraction of the time actually compiling the code and even less time
 loading it. Overall, for startup performance, LLVM IR has been a huge win. This
 is exactly what I wanted and I'm very pleased with the results.  
 
-<figure>
-  <object type="image/svg+xml" data="https://jank-lang.org/img/blog/2024-11-29-llvm-ir/startup-time.plot.svg" width="50%">
-    <img src="https://jank-lang.org/img/blog/2024-11-29-llvm-ir/startup-time.plot.svg" width="150%"></img>
-  </object>
-</figure>
+![image](https://github.com/user-attachments/assets/d2c8fe03-9411-49c1-9a9f-5fe56b99076f)
+
 
 Note, when all of this is baked into the executable AOT, startup time is around
 **50ms**. jank doesn't support AOT compilation of full programs yet, but I've
