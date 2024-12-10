@@ -34,7 +34,7 @@ My goal with this funding in 2025 is to support Apple silicon (M cpu) in Neander
 ### Peter Taoussanis  
 Multiple projects, incl. further work on Telemere, Tufte, Tempel, and more. I have been trying to focus recent work on practical areas where Clojure either doesn't already have great solution/s, or where Clojure might be able to offer something uniquely advantageous over other languages/platforms. There's still a lot of low-hanging fruit re: both observability and data security for example. Beyond that, just focusing on practical tools that work at scale while being approachable for beginners
 
-## Oleksandr Yakushev  
+### Oleksandr Yakushev  
 I plan to continue working on Clojure Goes Fast tooling. During Q3 2024, I've covered a lot of ground with new features and redesign of clj-async-profiler and the first release of Flamebin. This also opened a lot of ideas and opportunities for further improvement of those tools. I have a large backlog of tasks for:
 - Flamebin – implement authorization and social login, client-side encrypted private flamegraphs, collaborative commenting, configuration editing and saving;
 - clj-async-profiler – unified configuration, configuration reuse between flamegraphs, automatic analysis and performance improvement suggestions;
