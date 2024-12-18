@@ -1021,11 +1021,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Goet",
-    "member_type" : "developer",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Siebenlist",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1148,6 +1143,6 @@
   } ],
   "member_stats" : {
     "company" : 42,
-    "developer" : 167
+    "developer" : 166
   }
 }
