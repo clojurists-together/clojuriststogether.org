@@ -50,7 +50,7 @@ We are truly an international group bringing a wide range of experience. From Q1
 
 Finally, a shout-out to the companies and organizations who have supported our work throughout the year and most for many years. They believe in Open Source development and have made a commitment to Clojure as an important tool for their product, service, and organizational projects. If your company might consider becoming a sponsoring member, please contact Daniel Compton at daniel@clojuriststogether.org to explore further.   
 
-![alt text](image-4.png)
+![alt text](image-5.png)
 
 
 **And a shout out to the Into, Cons and Assoc Members who Contributed in 2024!**  
