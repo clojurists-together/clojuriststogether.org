@@ -1,8 +1,8 @@
 ---
-title: "Thanks"
+title: "Thanks..and more"
 date: 2024-12-29T14:00:00+12:00
 author: lvh, Maria, Daniel, Heather, Max, Felix, Lorelai, Kathy
-summary: More than $1 million in projects funded since 2018
+summary: $254,000 in project funding - 30 grants, 24 developers
 
 
 ---
