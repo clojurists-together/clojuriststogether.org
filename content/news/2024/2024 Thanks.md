@@ -16,7 +16,7 @@ Your input on our quarterly surveys is critical to ensuring that we are funding 
 
 33% of members participated in the new process for selecting the developers to receive 2025 annual funding. Thank you for reviewing the proposals and voting!  
 
-We appreciate your subscription to our regular news and updates dispatches - as we believe it encourages wider use of the tools and resources of the developers we have funded - strengthening and advancing the open-source and Clojure community. For those of you who subscribe but are not yet members, you can always join the voting community for as little as $5 per month.  
+We appreciate your subscription to our regular news and updates dispatches - as we believe it encourages wider use of the tools and resources of the developers we have funded - strengthening and advancing the open-source and Clojure community. For those of you who subscribe but are not yet members, [you can always join the voting community for as little as $5 per month.](https://www.clojuriststogether.org/developers/)  
 
 We were able to sponsor and attend the Heart of Clojure conference in Belgium in September - and it was a pleasure to talk with many of you again in person after a long CoVid hiatus.  
 
