@@ -1,6 +1,6 @@
 ---
 title: "Thanks"
-date: 2023-12-29T14:00:00+12:00
+date: 2024-12-29T14:00:00+12:00
 author: lvh, Maria, Daniel, Heather, Max, Felix, Lorelai, Kathy
 summary: More than $1 million in projects funded since 2018
 
