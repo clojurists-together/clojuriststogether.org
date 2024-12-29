@@ -2,8 +2,8 @@
 title: "Thanks"
 date: 2023-12-29T14:00:00+12:00
 author: lvh, Maria, Daniel, Heather, Max, Felix, Lorelai, Kathy
-summary: 142 Projects, 86 Developers, More than $1 million in grants
-draft: True
+summary: More than $1 million in projects funded since 2018
+
 
 ---
 As 2024 comes to a close we want to reach out and thank you for supporting Clojure, open-source, and the Clojurists Together community.  
