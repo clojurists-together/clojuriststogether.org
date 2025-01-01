@@ -1140,9 +1140,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Safe Hammad",
+    "member_type" : "developer",
+    "level" : "developer",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 42,
-    "developer" : 166
+    "developer" : 167
   }
 }
