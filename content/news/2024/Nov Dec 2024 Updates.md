@@ -207,4 +207,9 @@ Yes, it's already 1.1! I did not apply for Clojurists Together funding as I didn
 
 Vegan Pizza from Metosin [pikkujoulu](https://en.wikipedia.org/wiki/Pikkujoulu).
 
-<img width="1728" alt="pizza" src="https://gist.githubusercontent.com/ikitommi/8c904bfaa17f3871f80d3e20ea84ebb7/raw/fefaf3a6befa7966c557197f2ecd5cbfe7e2dbfa/pizza.jpg">
+<img width="1728" alt="pizza" src="https://gist.githubusercontent.com/ikitommi/8c904bfaa17f3871f80d3e20ea84ebb7/raw/fefaf3a6befa7966c557197f2ecd5cbfe7e2dbfa/pizza.jpg">  <br>  
+
+---
+
+## Peter Taoussanis  
+Report 6. Published 
