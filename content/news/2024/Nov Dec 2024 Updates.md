@@ -24,15 +24,15 @@ Happy New Year all! This is the last set up updates from our developers who rece
 [Peter Taoussanis:](#peter-taoussanis) Carmine, Nippy, Telemere, and more  <br>
 
 ## Q3 2024 Project Update
-[Daniel Slutsky:SciCloj](#daniel-slutsky-scicloj)  
+[Daniel Slutsky:SciCloj](#daniel-slutsky-scicloj)   
+
 
 
 
 ## Bozhidar Batsov   
 Report 6. Published January 1, 2025
 
-Happy New Year, everyone!
-
+Happy New Year, everyone!  
 The last couple of months were a bit slower than usual for CIDER and friends, but still we managed to make some good progress. Below are a list of highlights:  
 
 - CIDER 1.16.1 was released in early December with a [bunch of bug-fixes](https://github.com/clojure-emacs/cider/blob/master/CHANGELOG.md#1161-2024-12-03)  
@@ -49,7 +49,7 @@ That's all from me for now. Thanks again for supporting CIDER's development in 2
 
 ---
 
-## Michiel Borkent 
+## Michiel Borkent  
 Report 6. Published December 30, 2024  
 
 **Updates**
