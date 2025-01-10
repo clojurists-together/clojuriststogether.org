@@ -1,9 +1,9 @@
 ---
 title: "Nov. and Dec. 2024 Project Updates"
-date: 2025-01-08T14:00:00+12:00
+date: 2025-01-09T14:00:00+12:00
 author: Kathy Davis
 summary: "The latest from Bozhidar Batsov, Michiel Borkent, Toby Crawley, Thomas Heller, Kira McLean, Nikita Prokopov, Tommi Reiman, Daniel Slutsky, Peter Taoussanis"  
-draft: True
+
 
 
 ---
