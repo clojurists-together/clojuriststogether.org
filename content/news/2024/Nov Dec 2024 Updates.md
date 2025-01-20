@@ -9,7 +9,7 @@ summary: "The latest from Bozhidar Batsov, Michiel Borkent, Toby Crawley, Thomas
 ---
  
 
-Happy New Year all! This is the last set up updates from our developers who received 2024 annual funding - and the final report from Daniel Slutsky who was funded in Q3 2024. Thanks to everyone for their amazing work throughout the year!
+Happy New Year all! This is the last set up updates from our developers who received 2024 annual funding - and the final reports from Ambrose Bonnaire-Sergeant and Daniel Slutsky who were funded in Q3 2024. Thanks to everyone for their amazing work throughout the year!
 
 
 ## Long-Term Project Updates  
