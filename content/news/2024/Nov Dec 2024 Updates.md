@@ -24,6 +24,7 @@ Happy New Year all! This is the last set up updates from our developers who rece
 [Peter Taoussanis:](#peter-taoussanis) Carmine, Nippy, Telemere, and more  <br>
 
 ## Q3 2024 Project Update
+[Ambrose Bonnaire-Sergeant: Malli](#ambrose-bonnaire-sergeant-malli)  
 [Daniel Slutsky:SciCloj](#daniel-slutsky-scicloj)   
 
 
@@ -370,6 +371,280 @@ As usual, my up-to-date roadmap will be available [here](https://www.taoensso.co
 Thank you everyone, see you next year! 👋🫶  <br>  
 
 ---
+## Ambrose Bonnaire-Sergeant: Malli    
+Report 3 (Q3 2024). Published January 14, 2025  
+
+This is the final of three reports in the project to extend Malli with constraints.  
+
+[Report 1](https://www.clojuriststogether.org/news/sept.-and-oct.-2024-short-term-project-updates/#malli-ambrose-bonnaire-sergeant)  
+[Report 2](https://www.clojuriststogether.org/news/nov.-2024-short-term-project-updates/#malli-ambrose-bonnaire-sergeant)  
+
+Thanks to everyone who made this project possible.  
+
+### Background  
+
+This project aims to improve the expressiveness of Malli schemas, in particular
+to improve the ability to specify complex invariants about the keysets of a `:map`
+schema.  
+
+### Progress  
+
+- open PR's  
+  - [Introduce schemas for map key constraints](https://github.com/metosin/malli/pull/1161)  
+    - Some promising feedback on slack:  
+      - "This is amazing. The virtue of being "open to changes" often results in this kind of implicit rules. I think I'm going to use this a lot once this PR is merged."  
+- merged PR's
+  - [:not humanizer](https://github.com/metosin/malli/pull/1138)  
+  - [don't generate nil if :seqable is non-empty](https://github.com/metosin/malli/pull/1141)  
+  - [add :float humanizer](https://github.com/metosin/malli/pull/1142)  
+  - [align :float and :double generators](https://github.com/metosin/malli/pull/1143)  
+  - [refactor generator ns with -never-gen helpers](https://github.com/metosin/malli/pull/1144)  
+    - malli.generator: 646 => 557 LOC  
+  - [Propagate options to 1-child -reducing, disallow 0-child](https://github.com/metosin/malli/pull/1147)  
+
+In my previous report, I speculated whether `:map` could be made more expressive
+without changing the `:map` schema itself or any new features to Malli. I think
+I've now achieved that.  
+
+I've proposed adding six new schemas to Malli that are designed to be combined
+using `[:and [:map ...] S1 S2 S3 ...]`. Some custom code is needed to support
+humanization.  
+
+If this gets merged, the next step is to improve the generator for `:and`.
+My original hunch to avoid `:and` was because of its probabilistic generator, which
+inspired the initial design to add constraints to the `:map` schema itself
+to avoid the problem altogether.  
+
+Throughout this project, I designed a more accurate `:and` generator that I will
+work on next. The basic strategy to generate `[:and S T]` will be to generate `S`
+but propagate `T` as extra information to the `S` generator in a canonical form.
+This requires a backwards-compatible update to each schema's generator to make
+use of this information before returning the generator.  
+
+The more exciting part is the representation used to improve generators could be
+reused for other tasks like simplifying schemas and optimizing validators.  
+
+### Demo  
+
+I will end this report with a demo of the proposed schemas from
+[#1161: Introduce schemas for map key constraints](https://github.com/metosin/malli/pull/1161).  
+
+The `:and` schema can be used to constrain an existing schema to be more specific.  
+In this section we show how to constrain a `:map` schema with more specific keys.  
+
+The schema `[:has K]` asserts the key `K` must be present.  
+This is the main building block for key constraints that will be combined
+with other schemas.  
+
+```clojure
+(me/humanize
+  (m/explain
+    [:and :map [:has :x]]
+    {}))
+; => {:x ["missing required key"]}
+
+(me/humanize
+  (m/explain
+    [:and :map [:has nil nil] [:has []]]
+    {}))
+; => ["missing required key"]
+```
+
+The `:or` schema asserts that at least one of its children is satisfied.  
+
+```clojure
+;; at least one padding direction must be provided
+(def Padding
+  [:and
+   [:map
+    [:top {:optional true} number?]
+    [:bottom {:optional true} number?]
+    [:left {:optional true} number?]
+    [:right {:optional true} number?]]
+   [:or
+    [:has :top]
+    [:has :bottom]
+    [:has :left]
+    [:has :right]])
+
+(m/validate Padding {:left 1 :right 10 :up 25 :down 50}) ;=> true
+(me/humanize
+  (m/explain Padding {}))
+; => {:top ["missing required key"],
+;     :bottom ["missing required key"],
+;     :left ["missing required key"],
+;     :right ["missing required key"]}
+```
+
+The `:xor` schema requires exactly one of its children to be satisfied.  
+
+```clojure
+;; :mvn/version or :git/sha must be provided, but not both
+(def GitOrMvn
+  [:and
+   [:map
+    [:mvn/version {:optional true} :string]
+    [:git/sha {:optional true} :string]]
+   [:xor
+    [:has :mvn/version]
+    [:has :git/sha]]])
+
+(m/validate GitOrMvn {:mvn/version "1.0.0"}) ; => true
+
+(m/validate GitOrMvn {:mvn/version "1.0.0" :git/sha "123"})) ; => false
+
+(me/humanize
+  (m/explain GitOrMvn
+             {:mvn/version "1.0.0"
+              :git/sha "123"}))
+; => ["should not have key :git/sha"]
+
+(me/humanize
+  (m/explain GitOrMvn
+             {}))
+; => {:mvn/version ["missing required key"],
+;     :git/sha ["missing required key"]}
+```
+
+The `:iff` schema requires either all or none of its children to be satisfied.  
+
+```clojure
+;; either both :user and :pass are provided, or neither
+(def UserPass
+  [:and
+   [:map
+    [:user {:optional true} string?]
+    [:pass {:optional true} string?]]
+   [:iff [:has :user] [:has :pass]]])
+
+(m/validate UserPass {}) ; => true
+(m/validate UserPass {:user "a" :pass "b"}) ; => true
+
+(me/humanize
+  (m/explain UserPass {:user "a"}))
+; => {:pass ["missing required key"]}
+```
+
+The `:implies` schema is satisfied if either its first child is _not_ satisfied or
+all of its children are satisfied.  
+
+
+```clojure
+;; if :git/tag is provided, then so should :git/sha
+(def TagImpliesSha
+  [:and
+   [:map
+    [:git/sha {:optional true} :string]
+    [:git/tag {:optional true} :string]]
+   [:implies [:has :git/tag] [:has :git/sha]]])
+
+(m/validate TagImpliesSha {:git/sha "abc123"}) ;=> true
+(m/validate TagImpliesSha {:git/tag "v1.0.0" :git/sha "abc123"}) ; => true
+
+(me/humanize
+  (m/explain TagImpliesSha {:git/tag "v1.0.0"}))
+; => {:git/sha ["missing required key"]}
+```
+
+The `:disjoint` schema is similar to `:xor` but also permits zero schemas to match.  
+
+```clojure
+;; :mvn/* and :git/* keys should not coexist
+(def SeparateMvnGit
+  [:and
+   [:map
+    [:mvn/version {:optional true} :string]
+    [:git/sha {:optional true} :string]
+    [:git/tag {:optional true} :string]
+    [:git/url {:optional true} :string]]
+   [:disjoint
+    [:has :mvn/version]
+    [:or
+     [:has :git/sha]
+     [:has :git/url]
+     [:has :git/tag]]]])
+
+(m/validate SeparateMvnGit {}) ; => true
+(m/validate SeparateMvnGit {:mvn/version "1.0.0"}) ; => true
+(m/validate SeparateMvnGit {:git/sha "1.0.0"}) ; => true
+(m/validate SeparateMvnGit {:mvn/version "1.0.0" :git/sha "abc123"}) ; => false
+
+(me/humanize
+  (m/explain SeparateMvnGit
+             {:mvn/version "1.0.0"
+              :git/sha "abc123"}))
+; => ["should not have key :git/sha"]
+```
+
+For multiple sets of disjoint keys, use multiple `:disjoint` schemas.  
+
+```clojure
+;; cannot hold :up + :down or :left + :right
+(def DPad
+  [:and
+   [:map
+    [:down {:optional true} [:= 1]]
+    [:left {:optional true} [:= 1]]
+    [:right {:optional true} [:= 1]]
+    [:up {:optional true} [:= 1]]]
+   [:disjoint [:has :down] [:has :up]]
+   [:disjoint [:has :left] [:has :right]]])
+
+(m/validate DPad {}) ; => true
+(m/validate DPad {:up 1}) ; => true
+(m/validate DPad {:down 1}) ; => true
+(m/validate DPad {:right 1}) ; => true
+(m/validate DPad {:left 1}) ; => true
+(m/validate DPad {:up 1 :left 1}) ; => true
+(m/validate DPad {:down 1 :left 1}) ; => true
+(m/validate DPad {:up 1 :right 1}) ; => true
+(m/validate DPad {:down 1 :right 1}) ; => true
+
+(me/humanize
+  (m/explain DPad {:up 1 :down 1}))
+; => ["should not have key :up"]
+
+(me/humanize
+  (m/explain DPad {:left 1 :right 1}))
+; => ["should not have key :right"]
+```
+
+In this example, we nest `:and` in `:or` to assert that either a secret or
+user/pass must be provided. The `:disjoint` schema is used to ensure
+both are not provided. Even if we used `:xor` instead of `:or`, it
+would still be legal to provide `{:secret "1234" :user "user"}` without
+this additional constraint.  
+
+```clojure
+(def SecretOrCreds
+  [:and
+   [:map
+    [:secret {:optional true} string?]
+    [:user {:optional true} string?]
+    [:pass {:optional true} string?]]
+   [:or
+    [:has :secret]
+    [:and [:has :user] [:has :pass]]]
+   [:disjoint
+    [:has :secret]
+    [:or [:has :user] [:has :pass]]]])
+
+(m/validate SecretOrCreds {:secret "1234"}) ; => true
+(m/validate SecretOrCreds {:user "user" :pass "hello"}) ; => true
+
+(me/humanize
+  (m/explain SecretOrCreds {:user "user"}))
+; => {:secret ["missing required key"], :pass ["missing required key"]}
+
+;; combining :or with :disjoint helps enforce this case
+(me/humanize
+  (m/explain SecretOrCreds {:secret "1234" :user "user"}))
+; => ["should not have key :user"]
+```
+<br>
+
+---  
+
 
 ## Daniel Slutsky: SciCloj  
 Report 3 (Q3 2024). Published December 19, 2024.    
