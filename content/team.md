@@ -5,13 +5,14 @@ type: page
 
 
 The Clojurists Together board is made up of:
+- Daniel Compton - Secretary/Treasurer  
+- Felix Barbalet  
+- Heather Moore-Farley  
+- Max Penet  
+- Maria Geller  
+- Laurens Van Houtven - President  
+- Lorelai Lyons  
 
-- Felix Barbalet
-- Heather Moore-Farley
-- Max Penet
-- Maria Geller
-- Laurens Van Houtven - President
-- Daniel Compton - Secretary/Treasurer
 
 The Board is responsible for governing the project, selecting which projects are sponsored, administering the project, and interacting with sponsors.
 
@@ -19,7 +20,7 @@ Clojurists Together has also hired Kathy Davis as a part-time administrative ass
 
 Legally, the Clojurists Together Foundation is a corporation registered in Delaware.
 
-Annual elections are held to elect the board for the following year. The most recent elections were held in [October 2023](https://www.clojuriststogether.org/news/2023-annual-members-meeting/).
+Annual elections are held to elect the board for the following year. The most recent elections were held in October 2024.
 
 ## Alumni
 
