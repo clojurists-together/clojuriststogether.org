@@ -7,11 +7,11 @@ type: page
 The Clojurists Together board is made up of:
 - Daniel Compton - Secretary/Treasurer  
 - Felix Barbalet  
-- Heather Moore-Farley  
-- Max Penet  
-- Maria Geller  
+- Heather Moore-Farley   
 - Laurens Van Houtven - President  
 - Lorelai Lyons  
+- Maria Geller 
+- Max Penet 
 
 
 The Board is responsible for governing the project, selecting which projects are sponsored, administering the project, and interacting with sponsors.
