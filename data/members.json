@@ -133,13 +133,6 @@
     "founding" : false,
     "tagline" : "Learn Clojure, ClojureScript, Datalog, and ecosystem of libraries by building projects with idiomatic Clojure code."
   }, {
-    "name" : "Condense",
-    "member_type" : "company",
-    "url" : "https://www.condense.com.au",
-    "logo" : null,
-    "level" : "assoc",
-    "founding" : false
-  }, {
     "name" : "Biotz SL",
     "member_type" : "company",
     "url" : "www.biotz.io",
@@ -1149,7 +1142,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 43,
+    "company" : 42,
     "developer" : 166
   }
 }
