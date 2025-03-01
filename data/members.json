@@ -1091,11 +1091,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "James Williams",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Michael Cuccaro",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1143,6 +1138,6 @@
   } ],
   "member_stats" : {
     "company" : 42,
-    "developer" : 166
+    "developer" : 165
   }
 }
