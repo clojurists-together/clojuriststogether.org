@@ -311,6 +311,13 @@
     "level" : "assoc",
     "founding" : false
   }, {
+    "name" : "Oiiku",
+    "member_type" : "company",
+    "url" : "https://oiiku.com",
+    "logo" : null,
+    "level" : "cons",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1137,7 +1144,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 42,
+    "company" : 43,
     "developer" : 165
   }
 }
