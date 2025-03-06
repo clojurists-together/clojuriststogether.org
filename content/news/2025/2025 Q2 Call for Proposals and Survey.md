@@ -27,7 +27,26 @@ Here is more from our February Members' survey.
 
 ![improve clojure feb 25](https://github.com/user-attachments/assets/738cc38f-0f1d-453b-ba04-42b651ff0203)  
 
-![improve clojurescript feb 25](https://github.com/user-attachments/assets/4c191b66-9861-41fa-9ec8-e069a58dd93d)  
+![improve clojurescript feb 25](https://github.com/user-attachments/assets/4c191b66-9861-41fa-9ec8-e069a58dd93d)   
+
+### What areas of the Clojure and ClojureScript ecosystem need support?  
+•	"Beginners" onboarding. I think we need to make a concerted effort to attract new people (not only people without programming experience) and make the initial stages of "getting into Clojure(Script)" much more guided. Even if that initially means "opinionated". Once a person has a minimum level of confidence, she can always explore other "opinionated options". Otherwise, we risk fragmenting the efforts, and making the learners confused (which can led them to rejecting the language).  
+•	We need to gain more hype and visibility in the wider software development community  
+•	Outreach to new developers  
+•	Learning experience for people who are not senior developers. Build tooling and getting started material for newcomers  
+•	Data Science - can I make an R-quality chart without Python?   
+•	Shadow - linting and bus-factor - Shadow is fiendishly complex judging by the rate of questions on Slack, and there is just one expert.  
+•	ClojureDart  
+•	New use cases, data analysis, clojure in academia, beginner resources, interop  
+•	JS Ecosystem interop. How to use stuff like shadcn, tailwind etc. These things should not be so different from how people do it in JS.  
+•	Scientific Clojure and Clojure for data processing  
+•	DX tools.  
+•	Build tooling the introduction of deps has made the ecosystem more difficult to get into  
+•	The developer experience - it is already good, but it could be so much better. Better, more usable error messages, stack traces and better / easier to use profiling tools and tools for structuring builds  
+•	The core is stagnant, especially the spec debacle.  
+
+
+
 
 
 
