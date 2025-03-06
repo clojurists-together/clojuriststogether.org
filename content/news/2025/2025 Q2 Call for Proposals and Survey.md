@@ -3,7 +3,7 @@ title: "Call for Proposals. Feb. 2025 Member Survey"
 date: 2025-03-06T08:30:00+08:00
 summary: "We are awarding up to $24K for Q2 2025 Projects"
 author: Kathy Davis  
-draft: True  
+ 
 
 
 ---  
