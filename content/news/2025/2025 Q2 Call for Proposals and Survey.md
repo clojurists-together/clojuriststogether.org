@@ -65,13 +65,13 @@ Here is more from our February Members' survey.
 •	Malli (3)  
 •	shadow-cljs (3)  
 •	Everything borkdude is doing (3)  
-•	Calva (2)
-•	CIDER (2)  
+•	Babashka (2)  
+•	Calva (2)  
+•	CIDER (2)   
 •	ClojureDart (2)  
 •	Clojure LSP (2)  
-•	Datalevin (2)
+•	Datalevin (2)  
 •	Reitit (2)  
-•	Babashka (2)  
 •	SciCloj (2)  
 •	Duct (for deps.edn), Reagent, python-clj, Shadow, Re-Frame liberated from ratoms,fastmath, tableplot, noj, kindly, clay, clojupyter, bosquet, dtype-next, clang, Conjure, Elasticsearch (spandex), next-jdbc, honeysql, clj-kondo, squint / cherry, Portal, Clojars, parinfer, tech.ml.dataset, Cloverage, FlowStorm, datomic related, girouette, Neanderthal, A continuation of oz. Statistical libraries (say, brms), Datahike, http-kit, carmine, nippy, snitch. NBBAero, HugSQL, clojure.jdbc, Cheshire. Pathom, Fulcro. uix, BB  
 
