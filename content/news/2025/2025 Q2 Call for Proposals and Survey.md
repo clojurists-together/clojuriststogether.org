@@ -29,6 +29,7 @@ Here is more from our February Members' survey.
 
 ![improve clojurescript feb 25](https://github.com/user-attachments/assets/4c191b66-9861-41fa-9ec8-e069a58dd93d)   
 
+
 ### What areas of the Clojure and ClojureScript ecosystem need support?  
 •	"Beginners" onboarding. I think we need to make a concerted effort to attract new people (not only people without programming experience) and make the initial stages of "getting into Clojure(Script)" much more guided. Even if that initially means "opinionated". Once a person has a minimum level of confidence, she can always explore other "opinionated options". Otherwise, we risk fragmenting the efforts, and making the learners confused (which can led them to rejecting the language).  
 •	We need to gain more hype and visibility in the wider software development community  
@@ -45,6 +46,7 @@ Here is more from our February Members' survey.
 •	The developer experience - it is already good, but it could be so much better. Better, more usable error messages, stack traces and better / easier to use profiling tools and tools for structuring builds  
 •	The core is stagnant, especially the spec debacle.  
 
+
 ### What areas of the Clojure and ClojureScript ecosystem are strong?  
 •	Just a great community   
 •	Clojure-JVM language maintenance  
@@ -60,6 +62,7 @@ Here is more from our February Members' survey.
 •	Core libraries for config, web apps, routing, database interaction are all well served  
 •	In general everything just works and is very stable, can't wish for a better ecosystem to build on.  
 
+
 ### Are there any particular libraries, tools, or projects that are important to you that you would like to see supported?  
 •	Jank (3) Jank seems increasingly important to use all the C++ AI related libs and models.  
 •	Malli (3)  
@@ -73,9 +76,33 @@ Here is more from our February Members' survey.
 •	Datalevin (2)  
 •	Reitit (2)  
 •	SciCloj (2)  
-•	Duct (for deps.edn), Reagent, python-clj, Shadow, Re-Frame liberated from ratoms,fastmath, tableplot, noj, kindly, clay, clojupyter, bosquet, dtype-next, clang, Conjure, Elasticsearch (spandex), next-jdbc, honeysql, clj-kondo, squint / cherry, Portal, Clojars, parinfer, tech.ml.dataset, Cloverage, FlowStorm, datomic related, girouette, Neanderthal, A continuation of oz. Statistical libraries (say, brms), Datahike, http-kit, carmine, nippy, snitch. NBBAero, HugSQL, clojure.jdbc, Cheshire. Pathom, Fulcro. uix, BB  
+•	BB, carmine, Cheshire, clang, clay, clj-kondo, Clojars, clojupyter, clojure.jdbc, Cloverage, Conjure, Datahike, datomic-related, dtype-next, Duct (for deps.edn), Elasticsearch (spandex), fastmath, FlowStorm, Fulcro, girouette, http-kit, honeysql, HugSQL, kindly, Neanderthal, next-jdbc, nippy, noj, parinfer, Pathom, Portal, python-clj, Reagent, Shadow, snitch. NBBAero, squint/cherry. tableplot. tech.ml.dataset. A continuation of oz. Statistical libraries (say brms),  uix   
 
 •	I would LOVE to see some additional testing and cleanup work on Bifurcan--I've been using it a ton recently and it's a big step up from the standard Clojure data structures  
+
+
+### What would you like to be different in the Clojure community in the next 12 months?  
+•	That AI's get better at writing/reviewing Clojure code.  
+•	I would love to see wider adoption of cljs on node.  
+•	More cljc portable libraries usable in the JVM, browser, and Dart  
+•	A plan for growth into new use cases, fields, and user personas  
+•	Good integrations of Clojure IDEs with LLMs  
+•	User-friendly developer tools: easy bootstrap, easy frameworks, a starting point to move fast from the start  
+•	Moldable development  
+•	Clojure data science tools with paths to reach parity with R and python  
+•	I would love an online course *for free*  
+•	Better support and tutorials around datalog databases beyond datomic  
+•	Some kind of consensus as to how to create "quickstart" applications for various usecases that will make the Clojure ecosystem easier for new users to approach and for existing Clojurians to "sell" the stack into the teams that they work with. Ruby had / has Rails, Elixir has Phoenix, Node had / has Express, Python had / has Flask - Clojure needs a toolchain to create the same skeletons without departing from the many libraries approach that makes Clojure eventually far more versatile, down the road.  
+•	Show the broader dev community that choosing Clojure for new projects is viable.  
+•	We need to gain more hype and visibility in the wider software development community.  
+•	More outreach, articles and so on to new developers.  
+•	Improve adoption for non-Clojure users.  
+•	It would be great to think of how we can grow the Clojure community so that it will be sustainable in the long run. What are some ways we can reach new audiences and bring more people into the community?  
+•	I'd like it to be easier for newcomers to Clojure to get started.  
+
+
+
+
 
 
 
