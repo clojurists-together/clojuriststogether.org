@@ -18,3 +18,29 @@ We will be awarding up to $24,000 USD for a total of 5 projects. The $2k funding
 A BIG THANKS to all our members for your continued support. And we want to encourage you to reach out to your [olleagues and companies to join Clojurists Together so that we can fund even more great projects throughout the year.  
 
 We surveyed our members again in February to find out what types of initiatives they would like us to focus on for this round of funding. Their responses are summarized below. In particular, it was great to see members' feedback relating to how often they used or referred to developers' work we have funded. Also noted that several of you plan to attend Clojure/Conj, Clojure Berlin MeetUps, SciNoj Light, ClojureX, and ReClojure. CLojurists Together will be one of the sponsors of [ReClojure in London this May](https://www.reclojure.org/).  
+
+Here is more from our February Members' survey.  
+
+![Usage Feb 2025](https://github.com/user-attachments/assets/de41cff5-ca19-4dbf-b4ee-106d56fb5cf0)  
+
+![platforms in projects feb 25](https://github.com/user-attachments/assets/5b44768f-07af-4a76-9302-e9ebc33e378f)  
+
+![improve clojure feb 25](https://github.com/user-attachments/assets/738cc38f-0f1d-453b-ba04-42b651ff0203)  
+
+![improve clojurescript feb 25](https://github.com/user-attachments/assets/4c191b66-9861-41fa-9ec8-e069a58dd93d)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
