@@ -15,7 +15,7 @@ Clojurists Together is pleased to announce that we are opening our Q2 2025 fundi
 
 We will be awarding up to $24,000 USD for a total of 5 projects. The $2k funding tier is for experimental projects or smaller proposals, whereas the $9k tier is for those that are more established. Projects generally run 3 months, however, the $9K projects can run between 3 and 12 months as needed. We expect projects to start on April. 1, 2025.  
 
-A BIG THANKS to all our members for your continued support. And we want to encourage you to reach out to your [olleagues and companies to join Clojurists Together so that we can fund even more great projects throughout the year.  
+A BIG THANKS to all our members for your continued support. We also want to encourage you to reach out to your [colleagues](https://www.clojuriststogether.org/developers/) and [companies](https://www.clojuriststogether.org/companies/) to join Clojurists Together so that we can fund even more great projects throughout the year.  
 
 We surveyed our members again in February to find out what types of initiatives they would like us to focus on for this round of funding. Their responses are summarized below. In particular, it was great to see members' feedback relating to how often they used or referred to developers' work we have funded. Also noted that several of you plan to attend Clojure/Conj, Clojure Berlin MeetUps, SciNoj Light, ClojureX, and ReClojure. CLojurists Together will be one of the sponsors of [ReClojure in London this May](https://www.reclojure.org/).  
 
@@ -44,6 +44,24 @@ Here is more from our February Members' survey.
 •	Build tooling the introduction of deps has made the ecosystem more difficult to get into  
 •	The developer experience - it is already good, but it could be so much better. Better, more usable error messages, stack traces and better / easier to use profiling tools and tools for structuring builds  
 •	The core is stagnant, especially the spec debacle.  
+
+### What areas of the Clojure and ClojureScript ecosystem are strong?  
+•	Just a great community   
+•	Clojure-JVM language maintenance  
+•	Web development, data processing  
+•	The language. The tooling is becoming stronger, but more to go I think.  
+•	Developer Experience Tools for experienced devs  
+•	Very excited about all the work around the data science scene ie noj, clerk  
+•	Clojure async, scripting, and web use cases are well covered  
+•	Core language  
+•	Build tooling  
+•	The backwards compatibility and stability of libraries  
+•	Linting  
+•	Core libraries for config, web apps, routing, database interaction are all well served  
+•	In general everything just works and is very stable, can't wish for a better ecosystem to build on.  
+
+
+
 
 
 
