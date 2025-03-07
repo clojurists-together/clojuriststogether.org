@@ -29,7 +29,7 @@ Previous members of the Clojurists Together board are:
 - Ikuru Kyogoku 2023
 - Nola Stowe - 2022
 - Fumiko Hanreich - 2022
-- Daniel Solano Gómez - 2021
+- Quetzaly Solano Gómez - 2021
 - Larry Staton Jr - 2021
 - Bridget Hillyer - 2019
 - Toby Crawley - 2019
