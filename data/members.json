@@ -318,6 +318,13 @@
     "level" : "cons",
     "founding" : false
   }, {
+    "name" : "Singlewire Software",
+    "member_type" : "company",
+    "url" : "https://www.singlewire.com",
+    "logo" : null,
+    "level" : "cons",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -848,6 +855,11 @@
     "level" : "contributing",
     "founding" : false
   }, {
+    "name" : "Henning Jansen",
+    "member_type" : "developer",
+    "level" : "developer",
+    "founding" : false
+  }, {
     "name" : "Steffan Westcott",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1139,7 +1151,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 43,
-    "developer" : 164
+    "company" : 44,
+    "developer" : 165
   }
 }
