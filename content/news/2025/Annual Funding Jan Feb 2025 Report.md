@@ -185,61 +185,66 @@ If you want to ensure that the projects I work on are sustainably maintained, yo
 If you're used to sponsoring through some other means which isn't listed above, please get in touch.  Thank you! On to the projects that I've been working on!  
 
 As I'm writing this I'm still recovering from a flu that has kept me bedridden for a good few days, but I'm starting to feel better now. Here are updates about the projects/libraries I've worked on in the last two months.  
+As I'm writing this I'm still recovering from a flu that has kept me bedridden for a good few days, but I'm starting to feel better now.
 
-### [clj-kondo](https://github.com/clj-kondo/clj-kondo): static analyzer and linter for Clojure code that sparks joy.  
-    * Unreleased:  
+Here are updates about the projects/libraries I've worked on in the last two months.
+
+
+
+* [clj-kondo](https://github.com/clj-kondo/clj-kondo): static analyzer and linter for Clojure code that sparks joy.
+    * Unreleased:
     * [#2493](https://github.com/clj-kondo/clj-kondo/issues/2493): reduce image size of native image
-    * 2025.02.20:  
-    * [#2473](https://github.com/clj-kondo/clj-kondo/issues/2473): New linter: :unknown-ns-options will warn on malformed (ns) calls. The linter is {:level :warning} by default. ([@Noahtheduke](https://github.com/Noahtheduke))  
-    * [#2475](https://github.com/clj-kondo/clj-kondo/issues/2475): add :do-template linter to check args & values counts ([@imrekoszo](https://github.com/imrekoszo))  
-    * [#2465](https://github.com/clj-kondo/clj-kondo/issues/2465): fix :discouraged-var linter for fixed arities  
-    * [#2277](https://github.com/clj-kondo/clj-kondo/issues/2277): prefer an array class symbol over (Class/forName ...) in defprotocol and extend-type  
-    * [#2466](https://github.com/clj-kondo/clj-kondo/issues/2466): fix false positive with tagged literal in macroexpand hook  
-    * [#2463](https://github.com/clj-kondo/clj-kondo/issues/2463): using :min-clj-kondo-version results in incorrect warning ([@imrekoszo](https://github.com/imrekoszo))  
-    * [#2464](https://github.com/clj-kondo/clj-kondo/issues/2464): :min-clj-kondo-version warning/error should have a location in config.edn ([@imrekoszo](https://github.com/imrekoszo))  
-    * [#2472](https://github.com/clj-kondo/clj-kondo/issues/2472) hooks api/resolve should return nil for unresolved symbols and locals  
-    * [#2472](https://github.com/clj-kondo/clj-kondo/issues/2472): add api/env to determine if symbol is local  
-    * [#2482](https://github.com/clj-kondo/clj-kondo/issues/2482): Upgrade to Oracle GraalVM 23  
-    * [#2483](https://github.com/clj-kondo/clj-kondo/issues/2483): add api/quote-node and api/quote-node? to hooks API ([@camsaul](https://github.com/camsaul))  
-    * [#2490](https://github.com/clj-kondo/clj-kondo/issues/2490): restore unofficial support for ignore hints via metadata  
-### [squint](https://github.com/squint-cljs/squint): CLJS *syntax* to JS compiler  
-    * Fix [#609](https://github.com/squint-cljs/squint/issues/609): make remove return a transducer when no collection is provided  
-    * Fix [#611](https://github.com/squint-cljs/squint/issues/611): Implement the set? function ([@jonasseglare](https://github.com/jonasseglare))  
-    * Fix [#613](https://github.com/squint-cljs/squint/issues/613): Optimize aset  
-    * Fix [#626](https://github.com/squint-cljs/squint/issues/XXX): Implement take-last  
-    * Fix [#615](https://github.com/squint-cljs/squint/issues/615): (zero? "0") should return false  
-    * Fix [#617](https://github.com/squint-cljs/squint/issues/617): deftype field name munging problem  
-    * Fix [#618](https://github.com/squint-cljs/squint/issues/618): Named multi-arity fn args don't get munged ([@grayrest](https://github.com/grayrest))  
-    * Fix [#622](https://github.com/squint-cljs/squint/issues/622): operator precendence issue with | and if  
-    * Add clojure.string functions lower-case, upper-case, capitalize ([@plexus](https://github.com/plexus))  
-    * Fix [#605](https://github.com/squint-cljs/squint/issues/605): merge command line --paths with squint.edn config properly  
-    * Fix [#607](https://github.com/squint-cljs/squint/issues/607): make mapcat return a transducer if no collections are provided ([@jonasseglare](https://github.com/jonasseglare))  
-### [babashka](https://github.com/babashka/babashka): native, fast starting Clojure interpreter for scripting.  
-    * Experimenting upgrading to new beta core.async, work in is a branch ready to be merged  
-    * [#1785](https://github.com/babashka/babashka/issues/1785): Allow subclasses of Throwable to have instance methods invoked ([@bobisageek](https://github.com/bobisageek))  
-    * [#1791](https://github.com/babashka/babashka/issues/1791): interop problem on Jsoup form element  
-    * [#1793](https://github.com/babashka/babashka/issues/1793): Bump rewrite-clj to 1.1.49 (fixes parsing of foo// among other things)  
-    * Bump deps.clj  
-    * Bump fs  
-### [fs](https://github.com/babashka/fs) - File system utility library for Clojure  
-    * v0.5.24 (2025-01-09)  
-    * [#135](https://github.com/babashka/fs/issues/135): additional fix for preserving protocol when calling fs/path on multiple arguments ([@Sohalt](https://github.com/Sohalt))  
-### [SCI](https://github.com/babashka/sci): Configurable Clojure/Script interpreter suitable for scripting  
-    * Records should have keys present and set to nil  
-### [deps.clj](https://github.com/borkdude/deps.clj): A faithful port of the clojure CLI bash script to Clojure  
-    * Catch up with several new versions of clojure CLI  
-    * Fix [#132](https://github.com/borkdude/deps.clj/issues/132): copy install tools.edn to config dir when install version is newer, similar to clojure CLI bash script  
-    * Adds support for XDG_DATA_HOME environment variable according to [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/latest/)  
-### [sql pods](https://github.com/babashka/babashka-sql-pods): babashka pods for SQL databases  
-    * Add support for DuckDB ([@avelino](https://github.com/paintparty))  
-### [edamame](https://github.com/borkdude/edamame): Configurable EDN/Clojure parser with location metadata  
-    * Fix #115: add location to exception for invalid keyword  
-### [rewrite-edn](https://github.com/borkdude/rewrite-edn): Utility lib on top of rewrite-clj with common operations to update EDN while preserving whitespace and comments  
-    * [#40](https://github.com/borkdude/rewrite-edn/issues/40): assoc/update now handles map keys that have no indent at all ([@lread](https://github.com/lread))  
-    * [#43](https://github.com/borkdude/rewrite-edn/issues/43): bump rewrite-clj to 1.1.49 ([@lread](https://github.com/lread))  
-    * [#40](https://github.com/borkdude/rewrite-edn/issues/40): assoc/update now handles map keys that have no indent at all ([@lread](https://github.com/lread))   
-    * [#40](https://github.com/borkdude/rewrite-edn/issues/40): assoc/update now aligns indent to comment if that's all that is in the map ([@lread](https://github.com/lread))  
-    * [#40](https://github.com/borkdude/rewrite-edn/issues/40): update now indents new entries in same way as assoc ([@lread](https://github.com/lread))  <br>  
+    * 2025.02.20:
+    * [#2473](https://github.com/clj-kondo/clj-kondo/issues/2473): New linter: :unknown-ns-options will warn on malformed (ns) calls. The linter is {:level :warning} by default. ([@Noahtheduke](https://github.com/Noahtheduke))
+    * [#2475](https://github.com/clj-kondo/clj-kondo/issues/2475): add :do-template linter to check args & values counts ([@imrekoszo](https://github.com/imrekoszo))
+    * [#2465](https://github.com/clj-kondo/clj-kondo/issues/2465): fix :discouraged-var linter for fixed arities
+    * [#2277](https://github.com/clj-kondo/clj-kondo/issues/2277): prefer an array class symbol over (Class/forName ...) in defprotocol and extend-type
+    * [#2466](https://github.com/clj-kondo/clj-kondo/issues/2466): fix false positive with tagged literal in macroexpand hook
+    * [#2463](https://github.com/clj-kondo/clj-kondo/issues/2463): using :min-clj-kondo-version results in incorrect warning ([@imrekoszo](https://github.com/imrekoszo))
+    * [#2464](https://github.com/clj-kondo/clj-kondo/issues/2464): :min-clj-kondo-version warning/error should have a location in config.edn ([@imrekoszo](https://github.com/imrekoszo))
+    * [#2472](https://github.com/clj-kondo/clj-kondo/issues/2472) hooks api/resolve should return nil for unresolved symbols and locals
+    * [#2472](https://github.com/clj-kondo/clj-kondo/issues/2472): add api/env to determine if symbol is local
+    * [#2482](https://github.com/clj-kondo/clj-kondo/issues/2482): Upgrade to Oracle GraalVM 23
+    * [#2483](https://github.com/clj-kondo/clj-kondo/issues/2483): add api/quote-node and api/quote-node? to hooks API ([@camsaul](https://github.com/camsaul))
+    * [#2490](https://github.com/clj-kondo/clj-kondo/issues/2490): restore unofficial support for ignore hints via metadata
+* [squint](https://github.com/squint-cljs/squint): CLJS *syntax* to JS compiler
+    * Fix [#609](https://github.com/squint-cljs/squint/issues/609): make remove return a transducer when no collection is provided
+    * Fix [#611](https://github.com/squint-cljs/squint/issues/611): Implement the set? function ([@jonasseglare](https://github.com/jonasseglare))
+    * Fix [#613](https://github.com/squint-cljs/squint/issues/613): Optimize aset
+    * Fix [#626](https://github.com/squint-cljs/squint/issues/XXX): Implement take-last
+    * Fix [#615](https://github.com/squint-cljs/squint/issues/615): (zero? "0") should return false
+    * Fix [#617](https://github.com/squint-cljs/squint/issues/617): deftype field name munging problem
+    * Fix [#618](https://github.com/squint-cljs/squint/issues/618): Named multi-arity fn args don't get munged ([@grayrest](https://github.com/grayrest))
+    * Fix [#622](https://github.com/squint-cljs/squint/issues/622): operator precendence issue with | and if
+    * Add clojure.string functions lower-case, upper-case, capitalize ([@plexus](https://github.com/plexus))
+    * Fix [#605](https://github.com/squint-cljs/squint/issues/605): merge command line --paths with squint.edn config properly
+    * Fix [#607](https://github.com/squint-cljs/squint/issues/607): make mapcat return a transducer if no collections are provided ([@jonasseglare](https://github.com/jonasseglare))
+* [babashka](https://github.com/babashka/babashka): native, fast starting Clojure interpreter for scripting.
+    * Experimenting upgrading to new beta core.async, work in is a branch ready to be merged
+    * [#1785](https://github.com/babashka/babashka/issues/1785): Allow subclasses of Throwable to have instance methods invoked ([@bobisageek](https://github.com/bobisageek))
+    * [#1791](https://github.com/babashka/babashka/issues/1791): interop problem on Jsoup form element
+    * [#1793](https://github.com/babashka/babashka/issues/1793): Bump rewrite-clj to 1.1.49 (fixes parsing of foo// among other things)
+    * Bump deps.clj
+    * Bump fs
+* [fs](https://github.com/babashka/fs) - File system utility library for Clojure
+    * v0.5.24 (2025-01-09)
+    * [#135](https://github.com/babashka/fs/issues/135): additional fix for preserving protocol when calling fs/path on multiple arguments ([@Sohalt](https://github.com/Sohalt))
+* [SCI](https://github.com/babashka/sci): Configurable Clojure/Script interpreter suitable for scripting
+    * Records should have keys present and set to nil
+* [deps.clj](https://github.com/borkdude/deps.clj): A faithful port of the clojure CLI bash script to Clojure
+    * Catch up with several new versions of clojure CLI
+    * Fix [#132](https://github.com/borkdude/deps.clj/issues/132): copy install tools.edn to config dir when install version is newer, similar to clojure CLI bash script
+    * Adds support for XDG_DATA_HOME environment variable according to [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/latest/)
+* [sql pods](https://github.com/babashka/babashka-sql-pods): babashka pods for SQL databases
+    * Add support for DuckDB ([@avelino](https://github.com/paintparty))
+* [edamame](https://github.com/borkdude/edamame): Configurable EDN/Clojure parser with location metadata
+    * Fix #115: add location to exception for invalid keyword
+* [rewrite-edn](https://github.com/borkdude/rewrite-edn): Utility lib on top of rewrite-clj with common operations to update EDN while preserving whitespace and comments
+    * [#40](https://github.com/borkdude/rewrite-edn/issues/40): assoc/update now handles map keys that have no indent at all ([@lread](https://github.com/lread))
+    * [#43](https://github.com/borkdude/rewrite-edn/issues/43): bump rewrite-clj to 1.1.49 ([@lread](https://github.com/lread))
+    * [#40](https://github.com/borkdude/rewrite-edn/issues/40): assoc/update now handles map keys that have no indent at all ([@lread](https://github.com/lread))
+    * [#40](https://github.com/borkdude/rewrite-edn/issues/40): assoc/update now aligns indent to comment if that's all that is in the map ([@lread](https://github.com/lread))
+    * [#40](https://github.com/borkdude/rewrite-edn/issues/40): update now indents new entries in same way as assoc ([@lread](https://github.com/lread)) <br>  
 
 ---
 
