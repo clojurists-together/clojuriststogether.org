@@ -25,10 +25,7 @@ My goal with this funding in 2025 is to support Apple silicon (M cpus) in Neande
 (and other Uncomplicate libraries where that makes sense and where it's possible).  
 
 In January and February, I released the first version of Neanderhal that can run on Mac/Apple M!  
-
-In more detail:  
-
-Here's what I've proposed when applying for the CT grant.  
+**My grant proposal:** Here's what I've proposed when applying for the CT grant.  
 
 I propose to * Implement an Apple M engine for Neanderthal.* This involves:  
 - buying an Apple M2/3 Mac (the cheapest M3 in Serbia is almost 3000 USD (with VAT).  
@@ -50,9 +47,8 @@ First, I set to the task of tidying up the existing versions of Uncomplicate lib
 The plan was to buy an Apple M2/M3, but in the meantime the nice Clojurians from Prague donated a used (but fantastically beefed up) MacBook Pro Max M1, so this was covered quickly!  
 
 I explored OpenBLAS as the first choice (the other is Apple Accelerate), as it can also work on Linux and Windows, and could be immediately beneficial to all users and easier to start with (I didn't need to switch to Apple yet).  
-I implemented the OpenBLAS engine for the part of functionality that was supported by JavaCPP's openblas preset.  
-A lot of critical functionality was not present there (although some of it was there in the openblas itself),
-so I jumped at the opportunity to learn some JavaCPP preset building, and improved JavaCPP's OpenBLAS.
+
+I implemented the OpenBLAS engine for the part of functionality that was supported by JavaCPP's openblas preset.  A lot of critical functionality was not present there (although some of it was there in the openblas itself), so I jumped at the opportunity to learn some JavaCPP preset building, and improved JavaCPP's OpenBLAS.
 After a bit of experimentation and lot of waiting on the compiler and github tools, this is now contributed upstream.  
 
 Next, I returned to the pleasant part of work - programming in Clojure - and completed the first Neanderthal
@@ -69,7 +65,8 @@ Many thanks for CT for sponsoring this work!  <br>
 ## Eric Dallo  
 2025 Annual Funding Report 1. Published February 27, 2025.  
 
-In the first two months of sponsorship I could work on so many things related to IDE development which made me really glad of this sponsoship! :heart:  
+In the first two months of sponsorship I could work on so many things related to IDE development which made me really glad of this sponsorship! :heart:  
+
 I spend most of the time improving the Clojure development on IntelliJ, improving both [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij) and [clojure-repl-intellij](https://github.com/afucher/clojure-repl-intellij) plugins releasing 2 major extremally important versions.
 The IntelliJ Clojure development using those plugins are way better and mature, please test and give feedback!  
 
@@ -247,13 +244,14 @@ Here are updates about the projects/libraries I've worked on in the last two mon
     * [#40](https://github.com/borkdude/rewrite-edn/issues/40): assoc/update now aligns indent to comment if that's all that is in the map ([@lread](https://github.com/lread))
     * [#40](https://github.com/borkdude/rewrite-edn/issues/40): update now indents new entries in same way as assoc ([@lread](https://github.com/lread)) <br>  
 
+[Other projects I've been working on this month. See Click for More Details.](https://blog.michielborkent.nl/oss-updates-jan-feb-2025.html) <br>
+
 ---
 
 ## Peter Taoussanis  
 2025 Annual Funding Report 1. Published February 27, 2025.  
 
 A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nubank](https://nubank.com.br/), and [other sponsors](https://www.taoensso.com/sponsors) of my open source work! I realise that it's a tough time for a lot of folks and businesses lately, and that sponsorships aren't always easy 🙏  
-
 \- [Peter Taoussanis](https://www.taoensso.com)  
 
 
@@ -263,25 +261,19 @@ I've been focused recently on getting [Telemere](https://www.taoensso.com/teleme
 
 I've also been considering long-term plans for how to better modularize [Encore](https://www.taoensso.com/encore) to help reduce dependency and build sizes where relevant. More on that later in the year.  
 
-### Recent work  
-
-#### Truss v2 - an opinionated micro toolkit for Clj/s errors  
+### Truss v2 - an opinionated micro toolkit for Clj/s errors  
 
 I've recently released [Truss v2](https://github.com/taoensso/truss/releases/tag/v2.0.0), which has enlarged the scope of the library from just assertion utils to a **general error toolkit** for Clojure and ClojureScript.  
 
-v2 includes:  
-
+**v2 includes:** 
 - A ground-up rewrite of the existing assertion utils to improve performance, reduce build size, and improve integration with Telemere.  
 - A new set of small but high-value error utils moved from Encore as part of the ongoing modularization effort.  
 - A new [contextual exception](https://cljdoc.org/d/com.taoensso/truss/CURRENT/api/taoensso.truss#ex-info) type that's already used by Encore and Telemere, and will be used by all of my other libraries in future.  
 - Updated docs and a new [Slack channel](https://www.taoensso.com/truss/slack).  
-
 Truss v2 basically packages together a minimal set of mature tools and patterns that I've used over many years to help tame Clojure's often unruly errors. It's simple stuff, but practical - and it helps.  
+For more info see the [README](https://github.com/taoensso/truss) and [docstrings](https://cljdoc.org/d/com.taoensso/truss/CURRENT/api/taoensso.truss).  
 
-For more info see the [README](https://github.com/taoensso/truss) and [docstrings](https://cljdoc.org/d/com.taoensso/truss/CURRENT/api/taoensso.truss).
-
-#### Telemere v1 RC3 - structured logging and telemetry for Clj/s  
-
+### Telemere v1 RC3 - structured logging and telemetry for Clj/s  
 I was hoping to release Telemere v1 final this month, but decided that a [third release candidate](https://github.com/taoensso/telemere/releases/tag/v1.0.0-RC3) was warranted.  
 
 The latest improvements are focused on harmonizing relevant terminology, concepts, and API between Telemere, [Truss](https://www.taoensso.com/truss), and the forthcoming v3 of [Tufte](https://www.taoensso.com/tufte).  
@@ -296,7 +288,7 @@ v3 improves performance and significantly improves interop with Telemere, offeri
 
 For plans after that, you can see my [2025 roadmap](https://taoensso.com/roadmap/2025)), which as usual I'll keep updated along the way 👍  
 
-Cheers everyone! :-)  <br>  
+Cheers everyone! :-) <br>  
 
 ---
 
@@ -326,7 +318,7 @@ Hello friends! Here's a short summary of my **January-February Clojurists Togeth
 
 ### Misc projects  
 
-- New release: virgil [0.3.2](https://github.com/clj-commons/virgil/blob/master/CHANGELOG.md#032-2025-01-28) â€” bugfixes.  
-- New release: clj-java-decompiler [0.3.7](https://github.com/clojure-goes-fast/clj-java-decompiler/blob/master/CHANGELOG.md#037-2025-01-28) â€” bugfixes.  <br>  
+- New release: virgil [0.3.2](https://github.com/clj-commons/virgil/blob/master/CHANGELOG.md#032-2025-01-28) - bugfixes.  
+- New release: clj-java-decompiler [0.3.7](https://github.com/clojure-goes-fast/clj-java-decompiler/blob/master/CHANGELOG.md#037-2025-01-28) - bugfixes.  <br>  
 
 
