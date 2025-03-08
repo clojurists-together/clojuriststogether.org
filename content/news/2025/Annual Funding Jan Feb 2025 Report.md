@@ -76,8 +76,7 @@ The IntelliJ Clojure development using those plugins are way better and mature, 
 ### [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij)  
 
 The 3.0.0 major version was a refactor on most of the plugin to use [lsp4ij](https://github.com/redhat-developer/lsp4ij), an OSS plugin for IntelliJ which makes easier to code and use LSP features, so this integration removed tons of code from this plugin that I needed to implement manually (and some had some bugs) and added support for lots of missing features that I didn't even plan to add. The lsp4ij plugin is used by multiple languages already which makes this plugin more resilient and stable. Check it out the call hieararchy feature on the image.  
-
-![call-hierarcy](./call-hierarchy.png)  
+![call-hierarchy dallo feb 2025](https://github.com/user-attachments/assets/10fec440-1eb0-4fbd-a668-be36f4061d73)
 
 _Kudos to [@angelozerr](https://github.com/angelozerr) for the help during lsp4ij integration on their side._  
 
@@ -97,7 +96,9 @@ _Kudos to [@angelozerr](https://github.com/angelozerr) for the help during lsp4i
 
 This 2.0.0 major release included multiple fixes and new features like the new __Inlay hint eval result_ + __REPL syntax coloring_.  
 
-![clojure-repl-intellij](./clojure-repl-intellij.png)  
+![clojure-repl-intellij dallo feb 2025](https://github.com/user-attachments/assets/f441d4cc-8a14-4939-baaa-268b7886fbae)
+
+
 
 _Kudos to [@afucher](https://github.com/afucher) for the help on some of those features._  
 
