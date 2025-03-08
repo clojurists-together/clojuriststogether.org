@@ -12,8 +12,8 @@ Hello Fellow Clojurists!
 This is the first report from the 5 developers receivng Annual Funding on 2025. (Highlights listed on the list below - but the reports include much more).  
 
 [Dragan Duric](#dragan-duric): Apple M Engine Neanderthal  
-[Eric Dallo](#eric-dallo):lsp-intellij, repl-intellij. lsp, lsp4clj   
-[Michiel Borkent](#michiel-borkent)  
+[Eric Dallo](#eric-dallo): lsp-intellij, repl-intellij. lsp, lsp4clj   
+[Michiel Borkent](#michiel-borkent): clj-kondo, squint, babashka, fs, SCI, and more...  
 [Peter Taoussanis](#peter-taoussanis): Truss v2, Telemere v1 RC3  
 [Oleksandr Yakushev](#oleksandr-yakushev): CIDER, clj-async-profiler and Flamebin, clj-memory-meter    
 
