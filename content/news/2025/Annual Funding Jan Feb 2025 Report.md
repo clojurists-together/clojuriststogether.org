@@ -3,13 +3,12 @@ title: "Annually-Funded Developers' Update: Jan./Feb. 2025"
 date: 2025-03-08T14:00:00+12:00
 author: Kathy Davis
 summary: "Dragan Duric, Eric Dallo, Michiel Borkent, Peter Taoussanis, Oleksandr Yakushev"  
-draft: True
 
 
 ---
 
 Hello Fellow Clojurists!
-This is the first report from the 5 developers receivng Annual Funding on 2025. (Highlights listed on the list below - but the reports include much more).  
+This is the first report from the 5 developers receivng Annual Funding in 2025. (Highlights listed on the list below - but the reports include much more).  
 
 [Dragan Duric](#dragan-duric): Apple M Engine Neanderthal  
 [Eric Dallo](#eric-dallo): lsp-intellij, repl-intellij. lsp, lsp4clj   
@@ -25,8 +24,8 @@ My goal with this funding in 2025 is to support Apple silicon (M cpus) in Neande
 (and other Uncomplicate libraries where that makes sense and where it's possible).  
 
 In January and February, I released the first version of Neanderhal that can run on Mac/Apple M!  
-**My grant proposal:** Here's what I've proposed when applying for the CT grant.  
 
+**My grant proposal:** Here's what I've proposed when applying for the CT grant.  
 I propose to * Implement an Apple M engine for Neanderthal.* This involves:  
 - buying an Apple M2/3 Mac (the cheapest M3 in Serbia is almost 3000 USD (with VAT).  
 - learning enough macOS tools (Xcode was terrible back in the days) to be able to do anything.  
