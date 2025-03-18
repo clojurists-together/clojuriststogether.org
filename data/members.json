@@ -81,13 +81,6 @@
     "level" : "filter",
     "founding" : false
   }, {
-    "name" : "Halal Booking",
-    "member_type" : "company",
-    "url" : "https://halalbooking.com/",
-    "logo" : null,
-    "level" : "cons",
-    "founding" : false
-  }, {
     "name" : "Nubank",
     "member_type" : "company",
     "url" : "https://nubank.com.br",
@@ -1151,7 +1144,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 44,
+    "company" : 43,
     "developer" : 165
   }
 }
