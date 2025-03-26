@@ -8,7 +8,7 @@ summary: "Dragan Duric, Eric Dallo, Michiel Borkent, Peter Taoussanis, Oleksandr
 ---
 
 Hello Fellow Clojurists!
-This is the first report from the 5 developers receivng Annual Funding in 2025. (Highlights listed on the list below - but the reports include much more).  
+This is the first report from the 5 developers receiving Annual Funding in 2025. (Highlights listed on the list below - but the reports include much more).  
 
 [Dragan Duric](#dragan-duric): Apple M Engine Neanderthal  
 [Eric Dallo](#eric-dallo): lsp-intellij, repl-intellij. lsp, lsp4clj   
@@ -71,7 +71,7 @@ The IntelliJ Clojure development using those plugins are way better and mature, 
 
 ### [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij)  
 
-The 3.0.0 major version was a refactor on most of the plugin to use [lsp4ij](https://github.com/redhat-developer/lsp4ij), an OSS plugin for IntelliJ which makes easier to code and use LSP features, so this integration removed tons of code from this plugin that I needed to implement manually (and some had some bugs) and added support for lots of missing features that I didn't even plan to add. The lsp4ij plugin is used by multiple languages already which makes this plugin more resilient and stable. Check it out the call hieararchy feature on the image.  
+The 3.0.0 major version was a refactor on most of the plugin to use [lsp4ij](https://github.com/redhat-developer/lsp4ij), an OSS plugin for IntelliJ which makes easier to code and use LSP features, so this integration removed tons of code from this plugin that I needed to implement manually (and some had some bugs) and added support for lots of missing features that I didn't even plan to add. The lsp4ij plugin is used by multiple languages already which makes this plugin more resilient and stable. Check it out the call hierarchy feature on the image.  
 ![call-hierarchy dallo feb 2025](https://github.com/user-attachments/assets/10fec440-1eb0-4fbd-a668-be36f4061d73)
 
 _Kudos to [@angelozerr](https://github.com/angelozerr) for the help during lsp4ij integration on their side._  
