@@ -898,11 +898,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Matthew Davidson",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Binford",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1145,6 +1140,6 @@
   } ],
   "member_stats" : {
     "company" : 43,
-    "developer" : 165
+    "developer" : 164
   }
 }
