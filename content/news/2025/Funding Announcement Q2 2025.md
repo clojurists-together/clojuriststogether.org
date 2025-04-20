@@ -7,7 +7,7 @@ draft: True
 
 ---
 
-Clojurists Together is excited to announce that  we will be funding 6 projects in Q2 2025 for a total of $33K USD (3 for $9K and 3 shorter or more experimental projects for $2K).  Thanks to all our members for making this happen! Congratulations to the 6 developers below:  
+Clojurists Together is excited to announce that  we will be funding 6 projects in Q2 2025 for a total of $33K USD (3 for $9K and 3 shorter or more experimental projects for $2K).  Thanks to all our members for making this happen! Congratulations to the 6 developers below: 
 
 **$9K Projects**  
 [Bozhidar Batsov: CIDER](#bozhidar-batsov-cider)  
@@ -66,9 +66,7 @@ In Q2, I plan to aim even higher. I'm going to build jank's seamless C++ interop
 ; jank compiler fails with a type error.  
 (println n l))  
 
-Zoom image.png
-image.png 57 KB View full-size Download
-
+![image](https://github.com/user-attachments/assets/e7b554c8-fb8d-40c8-a75b-af9cf7e60055)
 
 
 In truth, this is basically the same exact syntax that Clojure has for Java interop, except for the c++ namespace to disambiguate. Since I want jank to work with other langs in the future, I think it makes sense to spell out the lang. Later, we may have a swift or rust namespace which works similarly. But let's talk about this code.   
