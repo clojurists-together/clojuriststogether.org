@@ -16,7 +16,7 @@ Clojurists Together is excited to announce that  we will be funding 6 projects i
 **$2K Projects**   
 [Jeremiah Coyle: Bling](#jeremiah-coyle-bling)  
 [Karl Pietrzak: CodeCombat](#karl-pietrzak-code-combat)  
-[Siyoung Buyn: Scicloj - Building Bridges to New Clojure Users](#siyoung-buyn-scicloj---building-bridges-to-new-clojure-users)  
+[Siyoung Byun: Scicloj - Building Bridges to New Clojure Users](#siyoung-byun-scicloj---building-bridges-to-new-clojure-users)  
 
 ## Bozhidar Batsov: CIDER  
 Provide continued support for CIDER, nREPL and the related libraries (e.g. Orchard, cidernrepl, etc) and improve them in various ways.  
@@ -90,7 +90,7 @@ My project will focus on adding Clojure(Script) to CodeCombat
 See Wiki page at https://github.com/codecombat/codecombat/wiki/Aether  
 
 
-## Siyoung Buyn: Scicloj - Building Bridges to New Clojure Users  
+## Siyoung Byun: Scicloj - Building Bridges to New Clojure Users  
 In 2025, Scicloj aims to improve the accessibility of Clojure for individuals working with data,
 regardless of their programming backgrounds. The project will initially focus on reviewing
 existing Scicloj libraries, analyzing their codebases, and actively using them to better
