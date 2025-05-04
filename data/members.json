@@ -1142,9 +1142,14 @@
     "member_type" : "developer",
     "level" : "developer",
     "founding" : false
+  }, {
+    "name" : "Louis Jackman",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 43,
-    "developer" : 165
+    "developer" : 166
   }
 }
