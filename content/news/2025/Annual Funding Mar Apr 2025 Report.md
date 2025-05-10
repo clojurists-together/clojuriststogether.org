@@ -24,8 +24,7 @@ This is the second report from the 5 developers receiving Annual Funding in 2025
 My goal with this funding in 2025 is to support Apple silicon (M cpus) in Neanderthal
 (and other Uncomplicate libraries where that makes sense and where it's possible).  
 
-In March and April, I implemented the JNI bindings for 5 Apple Accelerate libraries (blas_new, lapack_new, Sparse, BNNS, BNNS Graph, vDSP, vForce and vImage) and implemented almost all functionality of Neaanderthal's Apple M engine based on Accelerate.  
-It will soon be ready for proper release (currently waiting some bugfixes, polishing, and a javacpp-presets release to be available in Maven Central).  
+In March and April, I implemented the JNI bindings for 5 Apple Accelerate libraries (blas_new, lapack_new, Sparse, BNNS, BNNS Graph, vDSP, vForce and vImage) and implemented almost all functionality of Neaanderthal's Apple M engine based on Accelerate. It will soon be ready for proper release (currently waiting some bugfixes, polishing, and a javacpp-presets release to be available in Maven Central).  
 
 In more detail:  
 
@@ -66,9 +65,9 @@ All in all, I feel optimistic about how this project progresses!  <br>
 In these 2 last months I could work on multiple projects and even focus on a new exciting project called [metrepl](https://github.com/ericdallo/metrepl), a nREPL middleware to help extract metrics about your REPL, really helpful when you have multiple coworkers working in multiple projects and you want to collect information about performance, time spent in REPL features and others!
 Besides that, I worked hard on keep improving the IntelliJ experience using the 2 OSS plugins of LSP + REPL, and of cource improving clojure-lsp the base of all major editors now.
 
-## [metrepl](https://github.com/ericdallo/metrepl)  
+### [metrepl](https://github.com/ericdallo/metrepl)  
 
-## - 0.3.1  
+#### - 0.3.1  
 
 - Improve export exception handler  
 - Remove jvm started flaky metric  
@@ -79,9 +78,9 @@ Besides that, I worked hard on keep improving the IntelliJ experience using the 
 - Add `:project-path` to metrics.  
 - Add compatibility with older Clojure versions  
 
-## [clojure-lsp](https://clojure-lsp.io/)  
+### [clojure-lsp](https://clojure-lsp.io/)  
 
-### 2025.03.07-17.42.36 - 2025.04.23-18.16.46  
+#### 2025.03.07-17.42.36 - 2025.04.23-18.16.46  
 
 - General  
   - Bump clj-kondo to `2025.02.20`.  
@@ -104,9 +103,9 @@ Besides that, I worked hard on keep improving the IntelliJ experience using the 
   - Fix suggestion for add require code action. #2017  
   - Improve find definition so it works on `declare` forms too. #1986   
 
-## [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij)  
+### [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij)  
 
-### 3.1.1 - 3.4.0  
+#### 3.1.1 - 3.4.0  
 
 - Remove `:` lexer check since this is delegated to clojure-lsp/clj-kondo already.  
 - Fix comment form complain about missing paren.  
@@ -116,11 +115,11 @@ Besides that, I worked hard on keep improving the IntelliJ experience using the 
 - Add support for `forward`, `backward`, `forward-select`, `backward-select` paredit actions. #72  
 - Fix go to declaration or usages. #70  
 
-## [clojure-repl-intellij](https://github.com/afucher/clojure-repl-intellij)  
+### [clojure-repl-intellij](https://github.com/afucher/clojure-repl-intellij)  
 
 Together with the help of [@afucher](https://github.com/afucher), we improved so much the IntelliJ REPL experience, fixing multiple issues and adding multiple features, the experience now is pretty close to other REPL experiences in other editors!  
 
-### 2.3.0 - 2.5.2  
+#### 2.3.0 - 2.5.2  
 
 - Update repl window ns after switching ns.  
 - Fix exception on settings page.  
@@ -138,16 +137,16 @@ Together with the help of [@afucher](https://github.com/afucher), we improved so
 - Bump clj4intellij to 0.8.0  
 - Configure project with IntelliJ integration tests (headless)  
 
-## [lsp4clj](https://github.com/clojure-lsp/lsp4clj)  
+### [lsp4clj](https://github.com/clojure-lsp/lsp4clj)  
 
-### 1.12.0 - 1.13.0  
+#### 1.12.0 - 1.13.0  
 
 - Add `textDocument/selectionRange` LSP feature coercers.  
 - Add inlay-hint LSP feature coercers.  
 
-## [clj4intellij](https://github.com/ericdallo/clj4intellij)  
+### [clj4intellij](https://github.com/ericdallo/clj4intellij)  
 
-### 0.7.0 - 0.8.0  
+#### 0.7.0 - 0.8.0  
 
 - Create `def-extension` to create plugin.xml extension points easily and more idiomatic.  
 - Fix clojure-lsp hook  
