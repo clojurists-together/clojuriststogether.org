@@ -15,7 +15,7 @@ This is the second report from the 5 developers receiving Annual Funding in 2025
 [Eric Dallo](#eric-dallo): metrepl, lsp-intellij, repl-intellij. lsp, lsp4clj   
 [Michiel Borkent](#michiel-borkent): clj-kondo, squint, babashka, fs, SCI, and more...  
 [Oleksandr Yakushev](#oleksandr-yakushev): CIDER, Compliment, JDK24  
-[Peter Taoussanis](#peter-taoussanis): Telemere, Tufte, tTruss
+[Peter Taoussanis](#peter-taoussanis): Telemere, Tufte, Truss
  
 
 ## Dragan Duric  
@@ -29,7 +29,6 @@ In March and April, I implemented the JNI bindings for 5 Apple Accelerate librar
 In more detail:  
 
 Here's what I've proposed when applying for the CT grant.  
-
 I proposed to *Implement an Apple M engine for Neanderthal.* This involves:  
 - buying an Apple M2/3 Mac (the cheapest M3 in Serbia is almost 3000 USD (with VAT).  
 - learning enough macOS tools (Xcode was terrible back in the days) to be able to do anything.  
@@ -55,6 +54,7 @@ that I said I hope to be able to support, namely to explore Deep Diamond Tensor 
 I even got some ideas for additional projects based on native Apple functionality related to machine learning and audio/video, but lets not getting too much ahead.  
 
 All in all, I feel optimistic about how this project progresses!  <br>  
+
 
 ---
 
@@ -159,6 +159,11 @@ Together with the help of [@afucher](https://github.com/afucher), we improved so
 
 ## Michiel Borkent  
 2025 Annual Funding Report 2. Published May 2, 2025.  
+
+In this post I'll give updates about open source I worked on during March and April 2025.  
+
+To see previous OSS updates, go [here](https://blog.michielborkent.nl/tags/oss-updates.html).  
+
 
 ### Sponsors
 
@@ -393,17 +398,16 @@ Hello friends! Here's an update on my **March-April 2025 Clojurists Together** w
 - Auxiliary releases: cider-nrepl 0.52.1 -> [0.55.7](https://github.com/clojure-emacs/cider-nrepl/blob/master/CHANGELOG.md#0557-2025-04-29), Orchard 0.30.1 -> [0.34.3](https://github.com/clojure-emacs/orchard/blob/master/CHANGELOG.md#0343-2025-04-28).  
 
 ### Compliment  
-
 - New release: [0.7.0](https://github.com/alexander-yakushev/compliment/blob/master/CHANGELOG.md#070-2025-03-25).  
 - New feature: priority-based candidate sorting.  
 
 ### Maintenance  
-
 - Started testing all of the projects I maintain again JDK24.  
-- Added support for JDK24 in Virgil ([0.4.0](https://github.com/clj-commons/virgil/blob/master/CHANGELOG.md#040-2025-03-27))  <br>
+- Added support for JDK24 in Virgil ([0.4.0](https://github.com/clj-commons/virgil/blob/master/CHANGELOG.md#040-2025-03-27))  <br>  
 
 
 ---
+
 
 ## Peter Taoussanis  
 2025 Annual Funding Report 2. Published April 30, 2025.  
@@ -413,7 +417,6 @@ A big thanks to [Clojurists Together](https://www.clojuriststogether.org/), [Nub
 \- [Peter Taoussanis](https://www.taoensso.com)  
 
 Hi folks! 👋👋  
-
 Hope everyone's well, and those in Europe enjoying the first glimpses of actual ☀️ in a while :-)  
 
 ### Recent work  
