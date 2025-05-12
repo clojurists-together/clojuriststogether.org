@@ -3,7 +3,7 @@ title: "Annually-Funded Developers' Update: Mar./April 2025"
 date: 2025-05-12T14:00:00+12:00
 author: Kathy Davis
 summary: "Dragan Duric, Eric Dallo, Michiel Borkent, Oleksandr Yakushev, Peter Taoussanis"  
-Draft: True
+
 
 ---
 
