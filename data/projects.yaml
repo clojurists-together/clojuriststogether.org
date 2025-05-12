@@ -5,6 +5,7 @@
 # Q1 2024
 # Q2 2024
 # Q3 2024
+# Q2 2025
 
 
 - name: Michiel Borkent
@@ -113,6 +114,50 @@
   date: 2023-01-01
   round: Long-term 2023
 
+  
+- name: CALVA
+  url: https://github.com/BetterThanTomorrow/calva
+  tier: USD 9k
+  date: 2025-04-15
+  round: Q2 2025
+  description: Developng a new REPL output view for Calva, which is a webview in VS Code. 
+  current: true
+- name: CIDER
+  url: https://github.com/clojure-emacs/cider
+  tier: USD 9k
+  date: 2025-04-15
+  round: Q2 2025
+  description: Provide continued support and improvements for CIDER, nREPL and the related libraries (e.g. Orchard, cidernrepl, etc).
+  current: true
+- name: Jank
+  url:  https://github.com/jank-lang/jank
+  tier: USD 9k
+  date: 2025-04-15
+  round: Q2 2025
+  description: Build jank’s seamless C++ interop system.
+  current: true
+- name: Bling
+  url: https://github.com/paintparty/bling
+  tier: USD 2k
+  date: 2025-04-15
+  round: Q2 2025
+  description: Add support for using hiccup to style and format messages and a template string syntax to style and format messages. Create 1-3 additional formatting templates for callouts, headers, and points-of-interest.
+  current: true
+- name: Code Combat
+  url: https://github.com/codecombat/codecombat/wiki/Aether
+  tier: USD 2k
+  date: 2025-04-15
+  round: Q2 2025
+  description: Add Clojure(Script) to CodeCombat.
+  current: true
+- name: SciCloj - Building Bridges to New Clojure Users
+  url: https://scicloj.github.io/docs/community/groups/scinoj-light/
+  tier: USD 2k
+  date: 2025-04-15
+  round: Q2 2025
+  description: Improve the accessibility of Clojure for individuals working with data, regardless of their programming backgrounds
+  current: true
+  
 - name: Clojure Goes Fast
   url: https://clojure-goes-fast.com
   tier: USD 9k
