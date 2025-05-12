@@ -1,8 +1,8 @@
 ---
 title: "Annually-Funded Developers' Update: Mar./April 2025"
-date: 2025-05-10T14:00:00+12:00
+date: 2025-05-12T14:00:00+12:00
 author: Kathy Davis
-summary: "Dragan Duric, Eric Dallo, Michiel Borkent, Peter Taoussanis, Oleksandr Yakushev"  
+summary: "Dragan Duric, Eric Dallo, Michiel Borkent, Oleksandr Yakushev, Peter Taoussanis"  
 Draft: True
 
 ---
@@ -14,9 +14,9 @@ This is the second report from the 5 developers receiving Annual Funding in 2025
 [Dragan Duric](#dragan-duric): Apple M Engine Neanderthal  
 [Eric Dallo](#eric-dallo): metrepl, lsp-intellij, repl-intellij. lsp, lsp4clj   
 [Michiel Borkent](#michiel-borkent): clj-kondo, squint, babashka, fs, SCI, and more...  
-[Peter Taoussanis](#peter-taoussanis): Truss v2, Telemere v1 RC3  
-[Oleksandr Yakushev](#oleksandr-yakushev): CIDER, clj-async-profiler and Flamebin, clj-memory-meter    
-
+[Oleksandr Yakushev](#oleksandr-yakushev): CIDER, Compliment, JDK24  
+[Peter Taoussanis](#peter-taoussanis): Telemere, Tufte, tTruss
+ 
 
 ## Dragan Duric  
 2025 Annual Funding Report 2. Published May 5, 2025.
@@ -418,8 +418,7 @@ Hope everyone's well, and those in Europe enjoying the first glimpses of actual 
 
 ### Recent work  
 
-#### Telemere: structured logs and telemetry for Clj/s  
-
+### Telemere: structured logs and telemetry for Clj/s  
 [Telemere](https://www.taoensso.com/telemere) **v1 stable** is now officially and finally [available](https://github.com/taoensso/telemere/releases/tag/v1.0.0)! 🍾🥳🎉  
 
 It was a lot of work to get here, but I'm happy with the results - and I'm very grateful for all the folks that have been patiently testing early releases and giving feedback 🙏  
@@ -440,8 +439,7 @@ Telemere also has the most extensive [docs](https://github.com/taoensso/telemere
 - Lots of beginner-oriented stuff, and  
 - Advanced info for folks that might like to [write custom handlers](https://github.com/taoensso/telemere/wiki/4-Handlers#writing-handlers), [transforms](https://cljdoc.org/d/com.taoensso/telemere/CURRENT/api/taoensso.telemere#*xfn*), or [other tools](https://github.com/taoensso/telemere/wiki/8-Community#handlers-and-tools).  
 
-#### Tufte: performance monitoring for Clj/s  
-
+### Tufte: performance monitoring for Clj/s  
 [Tufte](https://www.taoensso.com/tufte) **v3 RC1** is now also [available](https://github.com/taoensso/tufte/releases/tag/v3.0.0-RC1).  
 
 Tufte's been around for ages but recently underwent a **major overhaul** focused on improving usability, and interop with Telemere.  
@@ -452,8 +450,7 @@ The shared core also means wider testing, easier ongoing maintenance, and the op
 
 Performance has also been significantly improved, and the documentation greatly expanded. There's too much new stuff to mention here, but as usual please see the [release notes](https://github.com/taoensso/tufte/releases/tag/v3.0.0-RC1) for details.  
 
-#### Other stuff  
-
+### Other stuff  
 Several other releases worth mentioning:  
 
 - [Truss](https://www.taoensso.com/truss) [v2.1.0](https://github.com/taoensso/truss/releases/tag/v2.1.0) - micro toolkit for Clojure/Script errors  
@@ -470,7 +467,6 @@ I'll note that Telemere, Tufte, and Truss are now intended to form a sort of **s
 Together the 3x offer what I hope is quite a pleasant (and unique) observability story for Clojure/Script developers.  
 
 ### Upcoming work  
-
 Next couple months I expect to focus on:  
 
 - Getting [Tempel](https://www.taoensso.com/tempel) v1 stable out (data security framework for Clojure)  
