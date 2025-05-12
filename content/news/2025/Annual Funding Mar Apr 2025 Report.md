@@ -160,31 +160,7 @@ Together with the help of [@afucher](https://github.com/afucher), we improved so
 ## Michiel Borkent  
 2025 Annual Funding Report 2. Published May 2, 2025.  
 
-### Sponsors  
-I'd like to thank all the sponsors and contributors that make this work possible. Without you, the below projects would not be as mature or wouldn't exist or be maintained at all. Top sponsors:  
-* [Clojurists Together](https://www.clojuriststogether.org/)
-* [Roam Research](https://roamresearch.com/)
-* [Nextjournal](https://nextjournal.com/)
-* [Toyokumo](https://toyokumo.co.jp/)
-* [Cognitect](https://www.cognitect.com/)
-* [Kepler16](https://kepler16.com/)
-* [Pitch](https://github.com/pitch-io)
-
-If you want to ensure that the projects I work on are sustainably maintained, you can sponsor this work in the following ways.  Thank you!  
-* [Github Sponsors](https://github.com/sponsors/borkdude)  
-* The [Babaska](https://opencollective.com/babashka) or [Clj-kondo](https://opencollective.com/clj-kondo)  OpenCollective  
-* [Ko-fi](https://ko-fi.com/borkdude)  
-* [Patreon](https://www.patreon.com/borkdude)  
-* [Clojurists Together](https://www.clojuriststogether.org/)    
-
-If you're used to sponsoring through some other means which isn't listed above, please get in touch.  Thank you! On to the projects that I've been working on!  
-<br>
-
-In this post I'll give updates about open source I worked on during March and April 2025.
-
-To see previous OSS updates, go [here](https://blog.michielborkent.nl/tags/oss-updates.html).
-
-## Sponsors
+### Sponsors
 
 I'd like to thank all the sponsors and contributors that make this work
 possible. Without you the below projects would not be as mature or wouldn't
@@ -225,18 +201,18 @@ local ~/dev and ~/dev/babashka dir (since github doesn't show all repos)
 babashka sub dir checken
 -->
 
-## Blog posts
+### Blog posts
 
 I blogged about an important improvement in babashka regarding type hints
 [here](https://blog.michielborkent.nl/babashka-java-reflection-type-hints.html).
 
-## Interviews
+### Interviews
 
 Also I did an interview with Jiri from Clojure Corner by Flexiana, viewable [here](https://www.youtube.com/watch?v=H7ZlwEDxzRs).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H7ZlwEDxzRs?si=HQuZFsQXloxGkF9B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Updates
+### Updates
 
 Here are updates about the projects/libraries I've worked on in the last two months.
 
@@ -349,56 +325,56 @@ Here are updates about the projects/libraries I've worked on in the last two mon
 - [sql pods](https://github.com/babashka/babashka-sql-pods): babashka pods for SQL databases
   - Upgrade to GraalVM 23, fixes encoding issue with Korean characters
 
-## Other projects
+### Other projects
 
 These are (some of the) other projects I'm involved with but little to no activity
 happened in the past month.
 
 <details>
-<summary>Click for more details</summary>
-- [rewrite-edn](https://github.com/borkdude/rewrite-edn): Utility lib on top of
-- [deps.clj](https://github.com/borkdude/deps.clj): A faithful port of the clojure CLI bash script to Clojure
-- [scittle](https://github.com/babashka/scittle): Execute Clojure(Script) directly from browser script tags via SCI
-- [rewrite-clj](https://github.com/clj-commons/rewrite-clj): Rewrite Clojure code and edn
-- [pod-babashka-go-sqlite3](https://github.com/babashka/pod-babashka-go-sqlite3): A babashka pod for interacting with sqlite3
-- [tools-deps-native](https://github.com/babashka/tools-deps-native) and [tools.bbuild](https://github.com/babashka/tools.bbuild): use tools.deps directly from babashka
-- [http-client](https://github.com/babashka/http-client): babashka's http-client<br>
-- [http-server](https://github.com/babashka/http-server): serve static assets
-- [bbin](https://github.com/babashka/bbin): Install any Babashka script or project with one comman
+<summary>Click for more details</summary>  
+- [rewrite-edn](https://github.com/borkdude/rewrite-edn): Utility lib on top of  
+- [deps.clj](https://github.com/borkdude/deps.clj): A faithful port of the clojure CLI bash script to Clojure  
+- [scittle](https://github.com/babashka/scittle): Execute Clojure(Script) directly from browser script tags via SCI  
+- [rewrite-clj](https://github.com/clj-commons/rewrite-clj): Rewrite Clojure code and edn  
+- [pod-babashka-go-sqlite3](https://github.com/babashka/pod-babashka-go-sqlite3): A babashka pod for interacting with sqlite3  
+- [tools-deps-native](https://github.com/babashka/tools-deps-native) and [tools.bbuild](https://github.com/babashka/tools.bbuild): use tools.deps directly from babashka  
+- [http-client](https://github.com/babashka/http-client): babashka's http-client<br>  
+- [http-server](https://github.com/babashka/http-server): serve static assets  
+- [bbin](https://github.com/babashka/bbin): Install any Babashka script or project with one comman  
 - [sci.configs](https://github.com/babashka/sci.configs): A collection of ready to be used SCI configs.
-  - Added a configuration for `cljs.spec.alpha` and related namespaces
-- [qualify-methods](https://github.com/borkdude/qualify-methods)
+  - Added a configuration for `cljs.spec.alpha` and related namespaces  
+- [qualify-methods](https://github.com/borkdude/qualify-methods)  
   - Initial release of experimental tool to rewrite instance calls to use fully
-    qualified methods (Clojure 1.12 only0
+    qualified methods (Clojure 1.12 only0  
 - [neil](https://github.com/babashka/neil): A CLI to add common aliases and features to deps.edn-based projects.<br>
-- [tools](https://github.com/borkdude/tools): a set of [bbin](https://github.com/babashka/bbin/) installable scripts
-- [sci.nrepl](https://github.com/babashka/sci.nrepl): nREPL server for SCI projects that run in the browser
-- [babashka.json](https://github.com/babashka/json): babashka JSON library/adapter
+- [tools](https://github.com/borkdude/tools): a set of [bbin](https://github.com/babashka/bbin/) installable scripts  
+- [sci.nrepl](https://github.com/babashka/sci.nrepl): nREPL server for SCI projects that run in the browser  
+- [babashka.json](https://github.com/babashka/json): babashka JSON library/adapter  
 - [squint-macros](https://github.com/squint-cljs/squint-macros): a couple of
-  macros that stand-in for
+  macros that stand-in for  
   [applied-science/js-interop](https://github.com/applied-science/js-interop)
   and [promesa](https://github.com/funcool/promesa) to make CLJS projects
   compatible with squint and/or cherry.
-- [grasp](https://github.com/borkdude/grasp): Grep Clojure code using clojure.spec regexes
-- [lein-clj-kondo](https://github.com/clj-kondo/lein-clj-kondo): a leiningen plugin for clj-kondo
-- [http-kit](https://github.com/http-kit/http-kit): Simple, high-performance event-driven HTTP client+server for Clojure.
-- [babashka.nrepl](https://github.com/babashka/babashka.nrepl): The nREPL server from babashka as a library, so it can be used from other SCI-based CLIs
-- [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN, YAML and Transit using Clojure
-- [pod-babashka-fswatcher](https://github.com/babashka/pod-babashka-fswatcher): babashka filewatcher pod
-- [lein2deps](https://github.com/borkdude/lein2deps): leiningen to deps.edn converter
-- [cljs-showcase](https://github.com/borkdude/cljs-showcase): Showcase CLJS libs using SCI
-- [babashka.book](https://github.com/babashka/book): Babashka manual
-- [pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy): A pod around buddy core (Cryptographic Api for Clojure).
-- [gh-release-artifact](https://github.com/borkdude/gh-release-artifact): Upload artifacts to Github releases idempotently
-- [carve](https://github.com/borkdude/carve) - Remove unused Clojure vars
-- [4ever-clojure](https://github.com/oxalorg/4ever-clojure) - Pure CLJS version of 4clojure, meant to run forever!
-- [pod-babashka-lanterna](https://github.com/babashka/pod-babashka-lanterna): Interact with clojure-lanterna from babashka
-- [joyride](https://github.com/BetterThanTomorrow/joyride): VSCode CLJS scripting and REPL (via [SCI](https://github.com/babashka/sci))
-- [clj2el](https://borkdude.github.io/clj2el/): transpile Clojure to elisp
-- [deflet](https://github.com/borkdude/deflet): make let-expressions REPL-friendly!
-- [deps.add-lib](https://github.com/borkdude/deps.add-lib): Clojure 1.12's add-lib feature for leiningen and/or other environments without a specific version of the clojure CLI
+- [grasp](https://github.com/borkdude/grasp): Grep Clojure code using clojure.spec regexes  
+- [lein-clj-kondo](https://github.com/clj-kondo/lein-clj-kondo): a leiningen plugin for clj-kondo  
+- [http-kit](https://github.com/http-kit/http-kit): Simple, high-performance event-driven HTTP client+server for Clojure.  
+- [babashka.nrepl](https://github.com/babashka/babashka.nrepl): The nREPL server from babashka as a library, so it can be used from other SCI-based CLIs  
+- [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN, YAML and Transit using Clojure  
+- [pod-babashka-fswatcher](https://github.com/babashka/pod-babashka-fswatcher): babashka filewatcher pod  
+- [lein2deps](https://github.com/borkdude/lein2deps): leiningen to deps.edn converter  
+- [cljs-showcase](https://github.com/borkdude/cljs-showcase): Showcase CLJS libs using SCI  
+- [babashka.book](https://github.com/babashka/book): Babashka manual  
+- [pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy): A pod around buddy core (Cryptographic Api for Clojure).  
+- [gh-release-artifact](https://github.com/borkdude/gh-release-artifact): Upload artifacts to Github releases idempotently  
+- [carve](https://github.com/borkdude/carve) - Remove unused Clojure vars  
+- [4ever-clojure](https://github.com/oxalorg/4ever-clojure) - Pure CLJS version of 4clojure, meant to run forever!  
+- [pod-babashka-lanterna](https://github.com/babashka/pod-babashka-lanterna): Interact with clojure-lanterna from babashka  
+- [joyride](https://github.com/BetterThanTomorrow/joyride): VSCode CLJS scripting and REPL (via [SCI](https://github.com/babashka/sci))  
+- [clj2el](https://borkdude.github.io/clj2el/): transpile Clojure to elisp  
+- [deflet](https://github.com/borkdude/deflet): make let-expressions REPL-friendly!  
+- [deps.add-lib](https://github.com/borkdude/deps.add-lib): Clojure 1.12's add-lib feature for leiningen and/or other environments without a specific version of the clojure CLI  
 
-</details>
+</details>  
 
 
  <br>
