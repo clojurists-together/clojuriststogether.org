@@ -3,7 +3,7 @@ title: "May 2025 Short-Term Project Updates Q2 2025 Projects"
 date: 2025-06-02T14:00:00+12:00
 author: Kathy Davis
 summary: "News from Bling, CALVA, CIDER, Jank"
-draft: True
+
 
 
 ---
@@ -13,13 +13,13 @@ This is the April/May project update for four of our Q2 2025 Funded Projects. (R
 [Jeremiah Coyle: Bling](#bling-jeremiah-coyle)  
 Add support for using hiccup to style and format messages, a template string syntax to style and format messages, and 1-3 additional formatting templates for callouts, headers, and points-of-interest.  
 
-[Brandon Ringe: CALVA](#brandon-ringe-calva)  
+[Brandon Ringe: CALVA](#brandon-ringe-calva)   
 A new REPL output view for Calva, which is a webview in VS Code. The webview will allow us to add more rich features to the output webview, while also providing better performance.  
 
-[Bozhidar Batsov: CIDER](#bozhidar-batsov-cider)  
+[Bozhidar Batsov: CIDER](#bozhidar-batsov-cider)   
 Provide continued support for CIDER, nREPL and the related libraries (e.g. Orchard, cidernrepl, etc) and improve them in various ways.  
 
-[Jeaye Wilkerson: Jank](#jeaye-wilkerson-jank)   
+[Jeaye Wilkerson: Jank](#jeaye-wilkerson-jank)     
 Build jank's seamless C++ interop system.  
 <br>
 
