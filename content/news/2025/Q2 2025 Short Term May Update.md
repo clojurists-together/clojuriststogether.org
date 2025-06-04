@@ -2,36 +2,34 @@
 title: "May 2025 Short-Term Project Updates Q2 2025 Projects"
 date: 2025-06-02T14:00:00+12:00
 author: Kathy Davis
-summary: "Jank,"
+summary: "News from Bling, CALVA, CIDER, Jank"
 draft: True
 
 
 ---
 
-This is the May project update for four of our Q2 2025 Funded Projects. (Reports for the other two are on a different schedule). A brief summary of each project is included to provide overall context.
+This is the April/May project update for four of our Q2 2025 Funded Projects. (Reports for the other two are on a different schedule). A brief summary of each project is included to provide overall context.
 
 [Jeremiah Coyle: Bling](#bling-jeremiah-coyle)  
 Add support for using hiccup to style and format messages, a template string syntax to style and format messages, and 1-3 additional formatting templates for callouts, headers, and points-of-interest.  
 
+[Brandon Ringe: CALVA](#brandon-ringe-calva)  
+A new REPL output view for Calva, which is a webview in VS Code. The webview will allow us to add more rich features to the output webview, while also providing better performance.  
+
 [Bozhidar Batsov: CIDER](#bozhidar-batsov-cider)  
 Provide continued support for CIDER, nREPL and the related libraries (e.g. Orchard, cidernrepl, etc) and improve them in various ways.  
 
-[Brandon Ringe: CALVA](#brandon-ringe-calva)   
-A new REPL output view for Calva, which is a webview in VS Code. The webview will allow us to add more rich features to the output webview, while also providing better performance.  
-
 [Jeaye Wilkerson: Jank](#jeaye-wilkerson-jank)   
 Build jank's seamless C++ interop system.  
+<br>
 
 
 ## Bling: Jeremiah Coyle  
-Q2 2025 Report No. 1, Published June 1, 2025  
+Q2 2025 $2k. Report No. 1, Published 1 June 2025  
 
 <br>
-
 Upon commencing Q2 work on Bling, I reordered the list of priorities set forth in the initial project description.  
-
 <br>
-
 Updated TO DO list:  
 
 - Primary goals for Q2 
@@ -48,13 +46,10 @@ Updated TO DO list:
   - Add documentation about how to leverage Bling to create great-looking warnings and errors in your own projects.
 
 <br>
-
 All the primary goals listed above are realized in [`v0.8.0`](https://clojars.org/io.github.paintparty/bling/versions/0.8.0).
-
 <br>
 
 Some highlights...  
-
 <br>
 
 <h3>Figlet banners:</h3>
@@ -62,7 +57,7 @@ Some highlights...
 
 <p align="center">
   <img src="https://github.com/paintparty/bling/raw/main/resources/docs/chromed/bling-banner-fonts_dark-0.7.0.png"
-       width="700px" />
+       width="600px" />
 </p>
 
 <h3>Specialized template for Malli validation errors</h3>
@@ -99,7 +94,7 @@ Bling offers `bling.explain/explain-malli` to present [Malli](https://github.com
 
 The above code would print the following:
 
-<div align="center"><img src="https://github.com/paintparty/bling/blob/main/resources/docs/chromed/malli-explain-missing-key_dark-0.7.0.png" width="700px"/></div>
+<div align="center"><img src="https://github.com/paintparty/bling/blob/main/resources/docs/chromed/malli-explain-missing-key_dark-0.7.0.png" width="600px"/></div>
 
 
 You can also pass an option trailing options map to customize the appearance of the printed output. In the example below, we are leaving out the display of the schema within the callout block:  
@@ -117,7 +112,7 @@ You can also pass an option trailing options map to customize the appearance of 
 
 The above code would print the following:  
 
-<div align="center"><img src="https://github.com/paintparty/bling/blob/main/resources/docs/chromed/malli-explain-bad-set-value-with-no-schema_dark-0.7.0.png" width="700px"/></div>
+<div align="center"><img src="https://github.com/paintparty/bling/blob/main/resources/docs/chromed/malli-explain-bad-set-value-with-no-schema_dark-0.7.0.png" width="600px"/></div>
 
 <h3>High Fidelity Printing</h3>
 
@@ -151,13 +146,36 @@ Check out <a href="https://github.com/paintparty/fireworks?tab=readme-ov-file#th
 You can set a `BLING_MOOD` env var to enhance the contrast of bling-formatted printings. 
 
 Docs [here](https://github.com/paintparty/bling?tab=readme-ov-file#enhanced-contrast).
-
 <br>
 
 ---
 
+## Brandon Ringe: CALVA  
+Q2 2025 $9K. Report 1, Published 13 May 2025.  
+
+The new REPL output view was released! It's an opt-in feature for now and is not currently the default REPL output destination. It's currently in a very MVP state. I'll be fixing bugs and adding features in the coming weeks.  
+
+This output view is web-based (a VS Code webview), and is implemented entirely in ClojureScript. We use [replicant](https://github.com/cjohansen/replicant) for the UI.  
+
+There's [project board on GitHub](https://github.com/orgs/BetterThanTomorrow/projects/3/views/1) that I've been using to track my work on this. I wanted the issues to be draft issues until the first version was released. I'll be converting all of them to issues soon.  
+
+Here are a few issues I intend to tackle in the coming weeks:  
+
+- [Whitespace is not preserved in stdout in output view](https://github.com/BetterThanTomorrow/calva/issues/2825)
+- [Allow writing to output view even if it's hidden](https://github.com/BetterThanTomorrow/calva/issues/2826)
+- [Persist contents of output view between closing and reopening](https://github.com/BetterThanTomorrow/calva/issues/2827)
+
+Documentation:  
+- [The Output View](http://calva.io/output-view/)
+- [Output Destinations Feature Comparison](https://calva.io/output/#output-destinations-feature-comparison)  
+
+Thanks to Thomas Heller for helping us (some time ago) explore ways of integrating ClojureScript and TypeScript in Calva. Thanks to Christian Johansen for replicant.  <br>
+
+
+---
+
 ## Bozhidar Batsov: CIDER  
-Q2 2025 Report 1, Published May 16, 2025.  
+Q2 2025 $9K. Report 1, Published 16 May 2025.  
 
 The last month extremely fruitful for CIDER and friends and resulted in many notable releases and improvements. Below are some of the highlights:  
 
@@ -181,32 +199,8 @@ is now in a pretty good shape for general use.  <br>
 ---
 
 
-## Brandon Ringe: CALVA  
-Q2 2025 Report 1, Published May 13, 2025.  
-
-The new REPL output view was released! It's an opt-in feature for now and is not currently the default REPL output destination. It's currently in a very MVP state. I'll be fixing bugs and adding features in the coming weeks.  
-
-This output view is web-based (a VS Code webview), and is implemented entirely in ClojureScript. We use [replicant](https://github.com/cjohansen/replicant) for the UI.  
-
-There's [project board on GitHub](https://github.com/orgs/BetterThanTomorrow/projects/3/views/1) that I've been using to track my work on this. I wanted the issues to be draft issues until the first version was released. I'll be converting all of them to issues soon.  
-
-Here are a few issues I intend to tackle in the coming weeks:  
-
-- [Whitespace is not preserved in stdout in output view](https://github.com/BetterThanTomorrow/calva/issues/2825)
-- [Allow writing to output view even if it's hidden](https://github.com/BetterThanTomorrow/calva/issues/2826)
-- [Persist contents of output view between closing and reopening](https://github.com/BetterThanTomorrow/calva/issues/2827)
-
-Documentation:  
-- [The Output View](http://calva.io/output-view/)
-- [Output Destinations Feature Comparison](https://calva.io/output/#output-destinations-feature-comparison)  
-
-Thanks to Thomas Heller for helping us (some time ago) explore ways of integrating ClojureScript and TypeScript in Calva. Thanks to Christian Johansen for replicant.  <br>
-
----
-
-
 ## Jeaye Wilkerson: Jank  
-Q2 2025 Report 1, Published May 7, 2025.  
+Q2 2025 $9K. Report 1, Published 7 May 2025.  
 
 ### Thank you!  
 To start with, thank you, Clojurists Together, for the sponsorship this quarter.
