@@ -558,11 +558,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Martin Jung",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Josh Reighley",
     "member_type" : "developer",
     "level" : "contributing",
@@ -634,11 +629,6 @@
     "founding" : false
   }, {
     "name" : "Josip Gracin",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Raphael Saunier",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
@@ -1145,6 +1135,6 @@
   } ],
   "member_stats" : {
     "company" : 43,
-    "developer" : 165
+    "developer" : 163
   }
 }
