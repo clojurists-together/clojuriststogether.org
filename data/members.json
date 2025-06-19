@@ -188,14 +188,6 @@
     "founding" : true,
     "tagline" : "Toyokumo provides people who are not good at using software with Web applications that are used to improve their productivity."
   }, {
-    "name" : "Griffin",
-    "member_type" : "company",
-    "url" : "https://griffin.com",
-    "logo" : "/logos/griffin.svg",
-    "level" : "filter",
-    "founding" : false,
-    "tagline" : "Griffin is an API-first bank and technology platform helping companies bring financial products to market quickly and safely."
-  }, {
     "name" : "Vane GmbH",
     "member_type" : "company",
     "url" : "https://vane.capital/",
@@ -1134,7 +1126,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 43,
+    "company" : 42,
     "developer" : 163
   }
 }
