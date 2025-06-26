@@ -9,17 +9,18 @@ draft: True
 ---
 This is the June project update for four of our Q2 2025 Funded Projects. (Reports for the other two are on a different schedule). A brief summary of each project is included to provide overall context.
 
-[Brandon Ringe: CALVA](#brandon-ringe-calva)   
+[Brandon Ringe: CALVA](#calva-brandon-ringe)   
 A new REPL output view for Calva, which is a webview in VS Code. The webview will allow us to add more rich features to the output webview, while also providing better performance.  
 
-[Bozhidar Batsov: CIDER](#bozhidar-batsov-cider)   
+[Bozhidar Batsov: CIDER](#cider-bozhidar-batsov)   
 Provide continued support for CIDER, nREPL and the related libraries (e.g. Orchard, cidernrepl, etc) and improve them in various ways.  
 
-[Jeaye Wilkerson: Jank](#jeaye-wilkerson-jank)     
+[Jeaye Wilkerson: Jank](#jank-jeaye-wilkerson)     
 Build jank's seamless C++ interop system.  
 <br>
 
-[SciCloj Building Bridges to New Clojure Users]()
+[SciCloj Building Bridges to New Clojure Users](#scicloj-building-bridges-to-new-clojure-users-siyoung-byun)  
+Scicloj aims to improve the accessibility of Clojure for individuals working with data, regardless of their programming backgrounds. The project aims to develop standardized templates to encourage greater consistency across the documentation of existing Scicloj ecosystem libraries, making those libraries more robust and user-friendly.
 
 ## CALVA: Brandon Ringe  
 Q2 2025 $9K. Report 2. Published June 16, 2025.  
