@@ -16,9 +16,9 @@ A new REPL output view for Calva, which is a webview in VS Code. The webview wil
 Provide continued support for CIDER, nREPL and the related libraries (e.g. Orchard, cidernrepl, etc) and improve them in various ways.  
 
 [Jeaye Wilkerson: Jank](#jank-jeaye-wilkerson)     
-Build jank's seamless C++ interop system.  
+Build jank's seamless C++ interop system.   
 
-[SciCloj Building Bridges to New Clojure Users](#scicloj-building-bridges-to-new-clojure-users-siyoung-byun)  
+[Siyoung Byun: SciCloj Building Bridges to New Clojure Users](#s)
 Scicloj aims to improve the accessibility of Clojure for individuals working with data, regardless of their programming backgrounds. The project aims to develop standardized templates to encourage greater consistency across the documentation of existing Scicloj ecosystem libraries, making those libraries more robust and user-friendly.  <br>
 
 
@@ -104,7 +104,7 @@ make all of this work on both macOS and Linux.  <br>
 ---
 
 
-## SciCloj Building Bridges to New Clojure Users: SiYoung Byun  
+## SciCloj Building Bridges to New Clojure Users: Siyoung Byun  
 Q2 2025 $2K. Report 1. Published June 25, 2025.
 
 ### Work Completed, In Progress and Further Plans  
