@@ -18,7 +18,7 @@ Provide continued support for CIDER, nREPL and the related libraries (e.g. Orcha
 [Jeaye Wilkerson: Jank](#jank-jeaye-wilkerson)     
 Build jank's seamless C++ interop system.   
 
-[Siyoung Byun: SciCloj Building Bridges to New Clojure Users](#s)
+[Siyoung Byun: SciCloj Building Bridges to New Clojure Users](#scicloj-building-bridges-to-new-clojure-users-siyoung-byun)  
 Scicloj aims to improve the accessibility of Clojure for individuals working with data, regardless of their programming backgrounds. The project aims to develop standardized templates to encourage greater consistency across the documentation of existing Scicloj ecosystem libraries, making those libraries more robust and user-friendly.  <br>
 
 
