@@ -1,9 +1,9 @@
 ---
 title: "June 2025 Short-Term Project Updates Q2 2025 Projects"
-date: 2025-06-26T14:00:00+12:00
+date: 2025-06-28T14:00:00+12:00
 author: Kathy Davis
 summary: "News from CALVA, CIDER, Jank, SciCloj Bridge to New Users"
-draft: True
+
 
 
 ---
