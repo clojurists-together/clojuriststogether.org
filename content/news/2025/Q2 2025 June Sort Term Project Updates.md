@@ -17,10 +17,10 @@ Provide continued support for CIDER, nREPL and the related libraries (e.g. Orcha
 
 [Jeaye Wilkerson: Jank](#jank-jeaye-wilkerson)     
 Build jank's seamless C++ interop system.  
-<br>
 
 [SciCloj Building Bridges to New Clojure Users](#scicloj-building-bridges-to-new-clojure-users-siyoung-byun)  
-Scicloj aims to improve the accessibility of Clojure for individuals working with data, regardless of their programming backgrounds. The project aims to develop standardized templates to encourage greater consistency across the documentation of existing Scicloj ecosystem libraries, making those libraries more robust and user-friendly.  
+Scicloj aims to improve the accessibility of Clojure for individuals working with data, regardless of their programming backgrounds. The project aims to develop standardized templates to encourage greater consistency across the documentation of existing Scicloj ecosystem libraries, making those libraries more robust and user-friendly.  <br>
+
 
 
 
@@ -73,6 +73,7 @@ On top of this, I've been reviewing the data from CIDER's survey, improving the 
 
 Thanks to Clojurists Together for their continued support of my OSS work! You rock!  <br>
 
+
 ---
 
 
@@ -93,17 +94,18 @@ In the past month, I've implemented:
  
 You can find all of the details in my latest blog post, [here](https://jank-lang.org/blog/2025-06-06-next-phase-of-interop/).  
  
-## Next up  
+### Next up  
 In the final month of this quarter, I aim to expand the test suite, fix the
 remaining known bugs, add manual memory management support, better template
 support, full destructor support, and finally the portability fixes necessary to
 make all of this work on both macOS and Linux.  <br>  
 
+
 ---
 
 
 ## SciCloj Building Bridges to New Clojure Users: SiYoung Byun  
-Q2 2025 #2K. Report 1. Published June 25, 2025.
+Q2 2025 $2K. Report 1. Published June 25, 2025.
 
 ### Work Completed, In Progress and Further Plans  
 
