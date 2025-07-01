@@ -825,11 +825,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Haokang Den",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Henning Jansen",
     "member_type" : "developer",
     "level" : "developer",
@@ -1127,6 +1122,6 @@
   } ],
   "member_stats" : {
     "company" : 42,
-    "developer" : 163
+    "developer" : 162
   }
 }
