@@ -9,7 +9,7 @@ draft: True
 
 Greetings folks!
 
-Clojurists Together is pleased to announce that we are opening our Q3 2025 funding round for Clojure Open Source Projects.  Applications will be accepted through the 25th of July 2025 (midnight Pacific Time). We are looking forward to reviewing your proposals! [More information and the application can be found here.](https://clojuriststogether.org/open-source/)
+Clojurists Together is pleased to announce that we are opening our Q3 2025 funding round for Clojure Open Source Projects.  Applications will be accepted through the 23rd of July 2025 (midnight Pacific Time). We are looking forward to reviewing your proposals! [More information and the application can be found here.](https://clojuriststogether.org/open-source/)
 
 We will be awarding up to $35,000 USD for up to 6-7 projects. The $2k funding tier is for experimental projects or smaller proposals, whereas the $9k tier is for those that are more established. Projects generally run 3 months, however, the $9K projects can run between 3 and 12 months as needed. We expect projects to start on August 15, 2025.
 
@@ -59,7 +59,9 @@ If you were only to name ONE, what is the biggest challenge facing Clojure devel
 - It's not a huge problem, but the dominance of reagent (react classes) does make for some challenges in plugging in to the hook-y broader ecosystem. I don't think I've seen a reagent replacement that has the same refreshingly simple primitives, and I just can't imagine leaving re-frame, ever.
 - Fund someone who makes a minimalistic visualization library? oz has been unmaintained for years.  
 - We as a company are quite conscious of the fact that many of the libraries that we use are entirely the work of one person, and we fear that this puts them at risk of falling out of maintenance.  I know this is true for a lot of open source software generally, but I think this is a particularly severe risk for the Clojure ecosystem.  
-- I think it would be great if we could encourage maintainers to put in place a plan of succession, and to publish this in the project README files.  
+- I think it would be great if we could encourage maintainers to put in place a plan of succession, and to publish this in the project README files.  <br>
+
+- ---
 
 
 ### What would you like to be different in the Clojure community in the next 12 months?  
@@ -85,13 +87,18 @@ _ Work on reaching new audiences would be great
 "Portability is a large, and still growing, potential strong suit of Clojure: especially with the appearance of ClojureDart and Jank-on-the-horizon. I would like ClojureDart to reach language-feature parity, even with the features its crew disdains like multimethod hierarchies. I would like ""cljc"" & clj/cljs/cljd compatibility to be encouraged in potentially-portable projects.   
 - If Clojure's Leiningen days were like having a cohesive culture of 4 TV channels chosen by a simple knob, Clojure CLI is like 8,192 channels of cable that most people can't enjoy because they can't work the remote. In place of ""lein test"", ""lein repl"", ""lein package"", there is no standardization. Even Maven provides well-known affordances (package, test, etc). I would like Lein-and-Maven's ease-of-use brought to Clojure CLI without compromising Clojure CLI's direct-from-Git library acquisition, etc., etc.  
 - ClojureScript core better supported.  
-- I hope we learn how to take advantage of LLM-based technologies in a way that leverages the unique aspects of the language and the REPL-driven workflow. We shouldn’t find ourselves worrying about being left behind by more popular languages and tools. Who knows, maybe we have some unique advantages that could be realised through a different approach to LLM-assisted development.  
+- I hope we learn how to take advantage of LLM-based technologies in a way that leverages the unique aspects of the language and the REPL-driven workflow. We shouldn’t find ourselves worrying about being left behind by more popular languages and tools. Who knows, maybe we have some unique advantages that could be realised through a different approach to LLM-assisted development.  <br>   
+
+---
 
 
 ### Are there any particular libraries, tools, or projects that are important to you that you would like to see supported?  (In order of mentions):
 3: CIDER,SciCloj  
 2: CALVA, Cherry, Clojure-lsp, ClojureScript, Jank, Malli, Neathderthal, noj, reagent, replicant, Shadow-cljs  
-1: Babashka, Burpless,  Clay, Clojars,  clojure-mcp, ClojureDart, Compujure,  Datelevin,  Emacs, flow storm, http-kit, humble UI, info-cojure, js-interop, KIndly, metosin, pathom, Portal, promesar, eframe, Ring, spy, Tableplot, Fastmath  
+1: Babashka, Burpless,  Clay, Clojars,  clojure-mcp, ClojureDart, Compujure,  Datelevin,  Emacs, flow storm, http-kit, humble UI, info-cojure, js-interop, KIndly, metosin, pathom, Portal, promesar, eframe, Ring, spy, Tableplot, Fastmath  <br>  
+
+---
+
 
 ### What areas of the Clojure and ClojureScript ecosystem need support?  
 Many comments regarding marketing, new users, and AI are reported in sections above. The comments listed below are in addition to these themes.  
@@ -102,7 +109,10 @@ Many comments regarding marketing, new users, and AI are reported in sections ab
 - Errors and clean common build tooling for AI agents.
 - Clojure.spec, virtual thread support for core.async 
 - LSP and AI tooling ecosystem
-- The CLJS compiler is slow, cumbersome and doesn't play well with modern JS (ESM). Cherry is very exciting. 
+- The CLJS compiler is slow, cumbersome and doesn't play well with modern JS (ESM). Cherry is very exciting. <br>
+
+---
+
 
 ### What areas of the Clojure and ClojureScript ecosystem are strong?  
 - COMMUNITY
