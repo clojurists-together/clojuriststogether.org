@@ -32,4 +32,33 @@ We surveyed our members again in June to find out what types of initiatives they
 ![alt text](<Improvements ClojurScript Chart 4.jpg>)
 
 
+### The Biggest Challenge  
+If you were only to name ONE, what is the biggest challenge facing Clojure developers today and how can Clojurists Together support you or your organization in addressing those challenges?
+
+#### Acceptance in the industry.  
+- Clojure is still a niche language. It is difficult to justify its use.
+- It's still about getting people to take the language(s) seriously in a world that wants everything to be in Python, Java and TypeScript - at least that's how I see the situation.
+- I think the biggest challenge is helping Clojure grow and become accessible and well-known in various domains where it is still considered a niche. 
+- Friction in developer experience
+- Marketing clojure, there are a lot of success stories that fly under the radar
+- Obscurity. Celebrating and highlighting use of Clojure in the wild.
+
+#### New Users.
+- Ease of Adoption, Easy installation and set-up for beginners. 
+- Getting new people in the community. Specially younger people, and not just male people.  
+
+#### Relevance of clojure in age of AI.  
+- Perceived ability for AI to write code is creating skepticism of the value of notation optimized for humans (e.g., Clojure)
+- I personally feel behind the curve with all things AI. I'd love to see more tools/docs/videos that demonstrate how to use/build with AI technologies.
+- Make the stack traces easier for AI agents.  
+
+#### Other feedback.  
+- Stable income, Clojurists Together does great work supporting the community  
+- Mobile (iOS/iPadOS) development
+- I think we really need a sane, blessed, rails-for-clojure starting point.
+- It's not a huge problem, but the dominance of reagent (react classes) does make for some challenges in plugging in to the hook-y broader ecosystem. I don't think I've seen a reagent replacement that has the same refreshingly simple primitives, and I just can't imagine leaving re-frame, ever.
+- Fund someone who makes a minimalistic visualization library? oz has been unmaintained for years.  
+- We as a company are quite conscious of the fact that many of the libraries that we use are entirely the work of one person, and we fear that this puts them at risk of falling out of maintenance.  I know this is true for a lot of open source software generally, but I think this is a particularly severe risk for the Clojure ecosystem.  
+- I think it would be great if we could encourage maintainers to put in place a plan of succession, and to publish this in the project README files.  
+
 
