@@ -11,7 +11,7 @@ Greetings folks!
 
 Clojurists Together is pleased to announce that we are opening our Q3 2025 funding round for Clojure Open Source Projects.  Applications will be accepted through the 23rd of July 2025 (midnight Pacific Time). We are looking forward to reviewing your proposals! [More information and the application can be found here.](https://clojuriststogether.org/open-source/)
 
-We will be awarding up to $35,000 USD for up to 6-7 projects. The $2k funding tier is for experimental projects or smaller proposals, whereas the $9k tier is for those that are more established. Projects generally run 3 months, however, the $9K projects can run between 3 and 12 months as needed. We expect projects to start on August 15, 2025.
+We will be awarding up to $35,000 USD for up to 6-7 projects. The $2k funding tier is for experimental projects or smaller proposals, whereas the $9k tier is for those that are more established. Projects generally run 3 months, however, the $9K projects can run between 3 and 12 months as needed. We expect projects to start between August 15 and September 1, 2025.
 
 A BIG THANKS to all our members for your continued support. And we want to encourage you to reach out to your colleagues and companies to join Clojurists Together so that we can fund even more great projects throughout the year.
 
