@@ -20,13 +20,18 @@ We surveyed our members again in June to find out what types of initiatives they
 
 ## June 2025 Member Survey  
 
-![](<Usage Chart 2-1.jpg>)  
+![Usage Chart 2](https://github.com/user-attachments/assets/b7fbd671-c3eb-470e-a61d-ae86fef7fdb9)
 
-![alt text](<Platforms Used Chart 1.jpg>)  
 
-![alt text](<Imprvements Clojure Chart 3.jpg>)  
+![Platforms Used Chart 1](https://github.com/user-attachments/assets/b3eb624e-5dfc-4376-ba9c-7b8bd31727c7)
 
-![alt text](<Improvements ClojurScript Chart 4.jpg>)
+
+![Imprvements Clojure Chart 3](https://github.com/user-attachments/assets/7b82c856-fa12-47bf-a0cf-2f2b02099f8e)
+
+
+![Improvements ClojurScript Chart 4](https://github.com/user-attachments/assets/9a59ce80-faee-4cc0-8197-7fa0c331e984)
+
+
 
 
 ### The Biggest Challenge  
