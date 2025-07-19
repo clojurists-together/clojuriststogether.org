@@ -1,5 +1,5 @@
 ---
-title: "Annually-Funded Developers' Update: May/ApJune 2025"
+title: "Annually-Funded Developers' Update: May/June 2025"
 date: 2025-07-19T14:00:00+12:00
 author: Kathy Davis
 summary: "Dragan Duric, Eric Dallo, Michiel Borkent, Oleksandr Yakushev, Peter Taoussanis"  
@@ -11,8 +11,8 @@ Hello Fellow Clojurists!
 This is the third report from the 5 developers receiving Annual Funding in 2025. 
 
 
-[Dragan Duric](#dragan-duric): Apple M Engine Neanderthal, MKL, OpenBlas 
-[Eric Dallo](#eric-dallo): metrepl, lsp-intellij, repl-intellij. lsp, lsp4clj   
+[Dragan Duric](#dragan-duric): Apple M Engine Neanderthal, MKL, OpenBlas   
+[Eric Dallo](#eric-dallo): metrepl, lsp-intellij, repl-intellij. lsp, lsp4clj    
 [Michiel Borkent](#michiel-borkent): clj-kondo, squint, babashka, fs, SCI, and more...  
 [Oleksandr Yakushev](#oleksandr-yakushev): CIDER, Compliment, JDK24  
 [Peter Taoussanis](#peter-taoussanis): Trove, Sente, Tufte
@@ -71,7 +71,6 @@ All in all, I feel optimistic about how this project progresses!  <br>
 In these last 2 months I could work on 2 main things, multiple improvements for clojure-lsp with fixes and new features and a exciting new project called [ECA](https://github.com/editor-code-assistant/eca).  
 
 ### [eca](https://github.com/editor-code-assistant/eca)  
-
 ECA (Editor Code Assistant) is a OpenSource, free, standardized server written in Clojure to make any editor have AI features like Cursor, Continue, Claude and others.
 The idea is simple, it has a protocol heavily inspired by LSP, and editors can communicate with the eca server which will have the logic to communicate with multiple LLMs and provide AI features like chat, edit, MCPs, completion etc.  
 
@@ -79,15 +78,15 @@ The project is in alpha state and there are so many things to do, but I hope com
 
 [Give a star to the project](https://github.com/editor-code-assistant/eca) 🌟 and for more details check the [roadmap](https://github.com/orgs/editor-code-assistant/projects/1)  
 
-![eca-emacs](./eca-emacs.gif)  
+![eca-emacs](https://github.com/user-attachments/assets/66e61f06-733e-4208-80a2-f7c75a74552e)
+
 
 ### [clojure-lsp](https://clojure-lsp.io/)  
-
 There were so many improvements for clojure-lsp regarding performance, fixes, and new features. 
 The most notable new feature is the [support for custom linters](https://clojure-lsp.io/features/#custom-linters) defined by the user, it follows a similar logic of clj-kondo hooks, but with improved support for clojure-lsp in-memory data access, giving power for linters know about the project and not only a single file, with test support for linters.
 Check the missing-unit-test custom linter:  
+<img width="1023" height="140" alt="custom-linters" src="https://github.com/user-attachments/assets/8ac55c51-6ce0-4959-9ddc-e89d8f304ed4" />
 
-![custom-linters](./custom-linters.png)  
 
 #### 2025.05.27-13.56.57 - 2025.06.13-20.45.44  
 - General
@@ -122,13 +121,11 @@ Check the missing-unit-test custom linter:
 ### [clojure-lsp-intellij](https://github.com/clojure-lsp/clojure-lsp-intellij)
 
 #### 3.5.0
-
 - Add support for creating Clojure namespaces. #78
 
 ### [metrepl](https://github.com/ericdallo/metrepl)
 
 #### 0.3.1 - 0.4.1
-
 - Add compatibility with older opentelemetry versions.
 - Fix read config from classpath
 - Fix OpenTelemetry integration race condition corner case.
@@ -142,11 +139,9 @@ Check the missing-unit-test custom linter:
 2025 Annual Funding Report 3. Published July 1, 2025.  
 
 In this post I'll give updates about open source I worked on during May and June 2025.
-
 To see previous OSS updates, go [here](https://blog.michielborkent.nl/tags/oss-updates.html).
 
-### Sponsors
-
+### Sponsors  
 I'd like to thank all the sponsors and contributors that make this work
 possible. Without you the below projects would not be as mature or wouldn't
 exist or be maintained at all! So a sincere thank you to everyone who
@@ -471,23 +466,23 @@ Hello from sunny Berlin! 👋 🐝 🫶
 
 ### Recent work  
 
-#### Introducing Trove   
+### Introducing Trove   
 
 First up, a new micro library! It's called [Trove](https://www.taoensso.com/trove), and it's basically a modern minimal (~100 loc) [tools.logging](https://github.com/clojure/tools.logging) that adds support for ClojureScript, structured logging and filtering.  
 
-##### Who's this for?  
+#### Who's this for?  
 
 Mostly **library authors** that want to do library-level logging without forcing a particular logging library on their users.  
 
 Authors _could_ use tools.logging, but that doesn't support ClojureScript, structured logging, or the kind of data-oriented filtering possible with structured logging.  
 
-##### Motivation  
+#### Motivation  
 
 With [Telemere](https://www.taoensso.com/telemere) now stable, I wanted to start updating libraries like [Sente](https://www.taoensso.com/sente) and [Carmine](https://www.taoensso.com/carmine) to support structured logging.  
 
 Trove basically allows me to do this without forcing anyone to update if they'd rather stick with [Timbre](https://www.taoensso.com/timbre) or use an alternative like [μ/log](https://github.com/BrunoBonacci/mulog).  
 
-##### Why structured logging?  
+#### Why structured logging?  
 
 Traditional logging is **string oriented**. Program state is captured at the logging callsite, then generally **formatted into a message string** or serialized into something like EDN/JSON before hitting the rest of the logging pipeline (filters → middleware → handlers).  
 
@@ -502,7 +497,7 @@ The latter matters! It means that it's easy and cheap to build a rich pipeline t
 
 **Clojure loves plain data** and offers a rich set of data types, structures, and tools. Structured logging takes advantage of this. It's essentially the extension of the data-first principle to the way we instrument our programs.  
 
-#### A big Sente update  
+### A big Sente update  
 
 [Sente](https://www.taoensso.com/sente) has a major new pre-release [out](https://github.com/taoensso/sente/releases/tag/v1.21.0-beta1).  
 
@@ -515,13 +510,13 @@ There's a lot of significant improvements in here. Some highlights include:
 - Pluggable **logging** (via [Trove](https://www.taoensso.com/trove))  
 - Many other small fixes and improvements  
 
-#### Tufte v3 final  
+### Tufte v3 final  
 
 [Tufte](https://www.taoensso.com/tufte)'s official v3 release is [out](https://github.com/taoensso/tufte/releases/tag/v3.0.0).  
 
 There's many big improvements, including many new features shared with [Telemere](https://www.taoensso.com/telemere), and new handlers for Telemere and Trove.  
 
-#### Other stuff  
+### Other stuff  
 
 Other misc releases include:  
 
