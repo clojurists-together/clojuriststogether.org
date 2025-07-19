@@ -391,48 +391,48 @@ These are (some of the) other projects I'm involved with but little to no activi
 happened in the past month.
 
 <details>
-<summary>Click for more details</summary>
-- [CLI](https://github.com/babashka/cli): Turn Clojure functions into CLIs!
-- [process](https://github.com/babashka/process): Clojure library for shelling out / spawning sub-processes
-- [html](https://github.com/borkdude/html): Html generation library inspired by squint's html tag
-- [instaparse-bb](https://github.com/babashka/instaparse-bb): Use instaparse from babashka
-- [sql pods](https://github.com/babashka/babashka-sql-pods): babashka pods for SQL databases
-- [rewrite-edn](https://github.com/borkdude/rewrite-edn): Utility lib on top of
-- [rewrite-clj](https://github.com/clj-commons/rewrite-clj): Rewrite Clojure code and edn
-- [pod-babashka-go-sqlite3](https://github.com/babashka/pod-babashka-go-sqlite3): A babashka pod for interacting with sqlite3
-- [tools-deps-native](https://github.com/babashka/tools-deps-native) and [tools.bbuild](https://github.com/babashka/tools.bbuild): use tools.deps directly from babashka
-- [http-server](https://github.com/babashka/http-server): serve static assets
-- [bbin](https://github.com/babashka/bbin): Install any Babashka script or project with one comman
-- [qualify-methods](https://github.com/borkdude/qualify-methods)
+<summary>Click for more details</summary>  
+- [CLI](https://github.com/babashka/cli): Turn Clojure functions into CLIs!  <br>  
+- [process](https://github.com/babashka/process): Clojure library for shelling out / spawning sub-processes  <br>  
+- [html](https://github.com/borkdude/html): Html generation library inspired by squint's html tag  <br> 
+- [instaparse-bb](https://github.com/babashka/instaparse-bb): Use instaparse from babashka  <br> 
+- [sql pods](https://github.com/babashka/babashka-sql-pods): babashka pods for SQL databases  <br> 
+- [rewrite-edn](https://github.com/borkdude/rewrite-edn): Utility lib on top of  <br> 
+- [rewrite-clj](https://github.com/clj-commons/rewrite-clj): Rewrite Clojure code and edn  <br> 
+- [pod-babashka-go-sqlite3](https://github.com/babashka/pod-babashka-go-sqlite3): A babashka pod for interacting with sqlite3  <br> 
+- [tools-deps-native](https://github.com/babashka/tools-deps-native) and [tools.bbuild](https://github.com/babashka/tools.bbuild): use tools.deps directly from babashka  <br> 
+- [http-server](https://github.com/babashka/http-server): serve static assets  <br> 
+- [bbin](https://github.com/babashka/bbin): Install any Babashka script or project with one comman  <br> 
+- [qualify-methods](https://github.com/borkdude/qualify-methods)  <br> 
   - Initial release of experimental tool to rewrite instance calls to use fully
-    qualified methods (Clojure 1.12 only0
-- [neil](https://github.com/babashka/neil): A CLI to add common aliases and features to deps.edn-based projects.<br>
-- [tools](https://github.com/borkdude/tools): a set of [bbin](https://github.com/babashka/bbin/) installable scripts
-- [sci.nrepl](https://github.com/babashka/sci.nrepl): nREPL server for SCI projects that run in the browser
-- [babashka.json](https://github.com/babashka/json): babashka JSON library/adapter
+    qualified methods (Clojure 1.12 only0  <br> 
+- [neil](https://github.com/babashka/neil): A CLI to add common aliases and features to deps.edn-based projects.  <br> 
+- [tools](https://github.com/borkdude/tools): a set of [bbin](https://github.com/babashka/bbin/) installable scripts  <br> 
+- [sci.nrepl](https://github.com/babashka/sci.nrepl): nREPL server for SCI projects that run in the browser  <br> 
+- [babashka.json](https://github.com/babashka/json): babashka JSON library/adapter  <br> 
 - [squint-macros](https://github.com/squint-cljs/squint-macros): a couple of
-  macros that stand-in for
+  macros that stand-in for 
   [applied-science/js-interop](https://github.com/applied-science/js-interop)
   and [promesa](https://github.com/funcool/promesa) to make CLJS projects
-  compatible with squint and/or cherry.
-- [grasp](https://github.com/borkdude/grasp): Grep Clojure code using clojure.spec regexes
-- [lein-clj-kondo](https://github.com/clj-kondo/lein-clj-kondo): a leiningen plugin for clj-kondo
-- [http-kit](https://github.com/http-kit/http-kit): Simple, high-performance event-driven HTTP client+server for Clojure.
-- [babashka.nrepl](https://github.com/babashka/babashka.nrepl): The nREPL server from babashka as a library, so it can be used from other SCI-based CLIs
-- [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN, YAML and Transit using Clojure
-- [pod-babashka-fswatcher](https://github.com/babashka/pod-babashka-fswatcher): babashka filewatcher pod
-- [lein2deps](https://github.com/borkdude/lein2deps): leiningen to deps.edn converter
-- [cljs-showcase](https://github.com/borkdude/cljs-showcase): Showcase CLJS libs using SCI
-- [babashka.book](https://github.com/babashka/book): Babashka manual
-- [pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy): A pod around buddy core (Cryptographic Api for Clojure).
-- [gh-release-artifact](https://github.com/borkdude/gh-release-artifact): Upload artifacts to Github releases idempotently
-- [carve](https://github.com/borkdude/carve) - Remove unused Clojure vars
-- [4ever-clojure](https://github.com/oxalorg/4ever-clojure) - Pure CLJS version of 4clojure, meant to run forever!
-- [pod-babashka-lanterna](https://github.com/babashka/pod-babashka-lanterna): Interact with clojure-lanterna from babashka
-- [joyride](https://github.com/BetterThanTomorrow/joyride): VSCode CLJS scripting and REPL (via [SCI](https://github.com/babashka/sci))
-- [clj2el](https://borkdude.github.io/clj2el/): transpile Clojure to elisp
-- [deflet](https://github.com/borkdude/deflet): make let-expressions REPL-friendly!
-- [deps.add-lib](https://github.com/borkdude/deps.add-lib): Clojure 1.12's add-lib feature for leiningen and/or other environments without a specific version of the clojure CLI
+  compatible with squint and/or cherry.  <br> 
+- [grasp](https://github.com/borkdude/grasp): Grep Clojure code using clojure.spec regexes  <br> 
+- [lein-clj-kondo](https://github.com/clj-kondo/lein-clj-kondo): a leiningen plugin for clj-kondo  <br> 
+- [http-kit](https://github.com/http-kit/http-kit): Simple, high-performance event-driven HTTP client+server for Clojure.  <br> 
+- [babashka.nrepl](https://github.com/babashka/babashka.nrepl): The nREPL server from babashka as a library, so it can be used from other SCI-based CLIs  <br> 
+- [jet](https://github.com/borkdude/jet): CLI to transform between JSON, EDN, YAML and Transit using Clojure  <br> 
+- [pod-babashka-fswatcher](https://github.com/babashka/pod-babashka-fswatcher): babashka filewatcher pod  <br> 
+- [lein2deps](https://github.com/borkdude/lein2deps): leiningen to deps.edn converter  <br> 
+- [cljs-showcase](https://github.com/borkdude/cljs-showcase): Showcase CLJS libs using SCI  <br> 
+- [babashka.book](https://github.com/babashka/book): Babashka manual  <br> 
+- [pod-babashka-buddy](https://github.com/babashka/pod-babashka-buddy): A pod around buddy core (Cryptographic Api for Clojure).  <br> 
+- [gh-release-artifact](https://github.com/borkdude/gh-release-artifact): Upload artifacts to Github releases idempotently  <br> 
+- [carve](https://github.com/borkdude/carve) - Remove unused Clojure vars  <br> 
+- [4ever-clojure](https://github.com/oxalorg/4ever-clojure) - Pure CLJS version of 4clojure, meant to run forever!  <br> 
+- [pod-babashka-lanterna](https://github.com/babashka/pod-babashka-lanterna): Interact with clojure-lanterna from babashka  <br> 
+- [joyride](https://github.com/BetterThanTomorrow/joyride): VSCode CLJS scripting and REPL (via [SCI](https://github.com/babashka/sci))  <br> 
+- [clj2el](https://borkdude.github.io/clj2el/): transpile Clojure to elisp  <br> 
+- [deflet](https://github.com/borkdude/deflet): make let-expressions REPL-friendly! <br>  
+- [deps.add-lib](https://github.com/borkdude/deps.add-lib): Clojure 1.12's add-lib feature for leiningen and/or other environments without a specific version of the clojure CLI  <br> 
 
 </details>  <br>  
 
