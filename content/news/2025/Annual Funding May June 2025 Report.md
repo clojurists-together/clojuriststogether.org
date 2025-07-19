@@ -12,9 +12,9 @@ This is the third report from the 5 developers receiving Annual Funding in 2025.
 
 
 [Dragan Duric](#dragan-duric): Apple M Engine Neanderthal, MKL, OpenBlas   
-[Eric Dallo](#eric-dallo): metrepl, lsp-intellij, repl-intellij. lsp, lsp4clj    
-[Michiel Borkent](#michiel-borkent): clj-kondo, squint, babashka, fs, SCI, and more...  
-[Oleksandr Yakushev](#oleksandr-yakushev): CIDER, Compliment, JDK24  
+[Eric Dallo](#eric-dallo): ECA, metrepl, clojure-lsp, clojure-lsp-intellij  
+[Michiel Borkent](#michiel-borkent): clj-kondo, babashka, SCI, quickblog, edamame, and more...  
+[Oleksandr Yakushev](#oleksandr-yakushev): CIDER  
 [Peter Taoussanis](#peter-taoussanis): Trove, Sente, Tufte
 
 ## Dragan Duric  
