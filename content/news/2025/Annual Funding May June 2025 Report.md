@@ -264,8 +264,7 @@ Here are updates about the projects/libraries I've worked on in the last two mon
   - Fix flaky caching tests ([@jmglov](https://github.com/jmglov))
   - Fix argument passing in test runner ([@jmglov](https://github.com/jmglov))
   - Add `--date` to api/new. ([@jmglov](https://github.com/jmglov))
-  - Support Selmer template for new posts in api/new; see [Templates > New
-    posts](README.md#new-posts) in README. ([@jmglov](https://github.com/jmglov))
+  - Support Selmer template for new posts in api/new  
   - Add 'language-xxx' to pre/code blocks
   - Fix README.md with working version in quickstart example
   - Fix [#104](https://github.com/borkdude/quickblog/issues/104): fix caching with respect to previews
@@ -289,10 +288,10 @@ Here are updates about the projects/libraries I've worked on in the last two mon
   - **v0.8.148 (2025-05-25)**
   - Fix [#669](https://github.com/squint-cljs/squint/issues/669): munge refer-ed + renamed var
   - **v0.8.147 (2025-05-09)**
-  - Fix [#661](https://github.com/squint-cljs/squint/issues/661): support `throw` in expression position
-  - Fix [#662](https://github.com/squint-cljs/squint/issues/662): Fix extending protocol from other namespace to `nil`
-  - Better solution for multiple expressions in return context in combination with pragmas
-  - Add an [ajv](examples/ajv) example
+  - Fix [#661](https://github.com/squint-cljs/squint/issues/661): support `throw` in expression position  
+  - Fix [#662](https://github.com/squint-cljs/squint/issues/662): Fix extending protocol from other namespace to `nil`  
+  - Better solution for multiple expressions in return context in combination with pragmas  
+    
 
 - [clj-kondo](https://github.com/clj-kondo/clj-kondo): static analyzer and linter for Clojure code that sparks joy.<br>
   - [#2560](https://github.com/clj-kondo/clj-kondo/issues/2560): NEW linter: `:locking-suspicious-lock`: report when locking is used on a single arg, interned value or local object
