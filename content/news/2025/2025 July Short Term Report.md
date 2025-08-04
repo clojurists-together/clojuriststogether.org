@@ -12,13 +12,13 @@ This is the July and final project update for four of our Q2 2025 Funded Project
 [Jeremiah Coyle: Bling](#bling-jeremiah-coyle)  
 Add support for using hiccup to style and format messages, a template string syntax to style and format messages, and 1-3 additional formatting templates for callouts, headers, and points-of-interest.  
 
-[Brandon Ringe: CALVA](#brandon-ringe-calva)   
+[Brandon Ringe: CALVA](#calva-brandon-ringe)    
 A new REPL output view for Calva, which is a webview in VS Code. The webview will allow us to add more rich features to the output webview, while also providing better performance.  
 
-[Bozhidar Batsov: CIDER](#bozhidar-batsov-cider)   
+[Bozhidar Batsov: CIDER](#cider-bozhidar-batsov)   
 Provide continued support for CIDER, nREPL and the related libraries (e.g. Orchard, cidernrepl, etc) and improve them in various ways.  
 
-[Jeaye Wilkerson: Jank](#jeaye-wilkerson-jank)     
+[Jeaye Wilkerson: Jank](#jank-jeaye-wilkerson)     
 Build jank's seamless C++ interop system.  
 <br>
 
@@ -29,44 +29,37 @@ Q2 2025 $2k. Report No. 2, Published 14 July 2025
 <br>
 
 I'm happy to report that all of the Q2 primary and secondary goals were completed. In addition, some tertiary goals and user requests that popped up along the way were addressed. Many thanks to Clojurists Together for supporting this work!
-
 <br>
-
 ### Summary of goals achieved in Q2:  
-
-<br>
 
 - **Primary goals**
 
   - Enable Hi-Fidelity, theme-able, colorized, structural printing of values via Fireworks. 
-[#29](https://github.com/paintparty/bling/issues/29). [Docs](https://github.com/paintparty/bling?tab=readme-ov-file#high-fidelity-printing)  
+[#29](https://github.com/paintparty/bling/issues/29). [Docs](https://github.com/paintparty/bling?tab=readme-ov-file#high-fidelity-printing)
   - Utilize `callout` to create a specialized template for Malli validation errors. 
-[#28](https://github.com/paintparty/bling/issues/28).  <a href="https://github.com/paintparty/bling?tab=readme-ov-file#usage-with-malli">Docs </a>  
-  - Figlet banners with lolcat-style gradient coloring. [Docs](https://github.com/paintparty/bling?tab=readme-ov-file#figlet-banners)  
-  - Opt-in optimization for enhanced contrast in light or dark terminals. [#30](https://github.com/paintparty/bling/issues/30). [Docs](https://github.com/paintparty/bling?tab=readme-ov-file#enhanced-contrast)  
-  - Respect `NO_COLOR` env var [#27](https://github.com/paintparty/bling/issues/27). [Docs](https://github.com/paintparty/bling?tab=readme-ov-file#respecting-the-users-preference-for-no-color)  
+[#28](https://github.com/paintparty/bling/issues/28).  <a href="https://github.com/paintparty/bling?tab=readme-ov-file#usage-with-malli">Docs </a>
+  - Figlet banners with lolcat-style gradient coloring. [Docs](https://github.com/paintparty/bling?tab=readme-ov-file#figlet-banners)
+  - Opt-in optimization for enhanced contrast in light or dark terminals. [#30](https://github.com/paintparty/bling/issues/30). [Docs](https://github.com/paintparty/bling?tab=readme-ov-file#enhanced-contrast)
+  - Respect `NO_COLOR` env var [#27](https://github.com/paintparty/bling/issues/27). [Docs](https://github.com/paintparty/bling?tab=readme-ov-file#respecting-the-users-preference-for-no-color)
 
 <br>
 
-- **Secondary goals**  
+- **Secondary goals**
 
-  - Add enhanced support for using hiccup to style and format messages. [#15](https://github.com/paintparty/bling/issues/15)  
-  - Create 1-3 additional formatting templates for [callouts](https://github.com/paintparty/bling?tab=readme-ov-file#with-theme-minimal), [headers](https://github.com/paintparty/bling?tab=readme-ov-file#side-label), and points-of-interest.  
-  - Add/update [documentation](https://github.com/paintparty/bling?tab=readme-ov-file#templates-for-errors-and-warnings) about how to leverage Bling to create great-looking warnings and errors.  
-
+  - Add enhanced support for using hiccup to style and format messages. [#15](https://github.com/paintparty/bling/issues/15)
+  - Create 1-3 additional formatting templates for [callouts](https://github.com/paintparty/bling?tab=readme-ov-file#with-theme-minimal), [headers](https://github.com/paintparty/bling?tab=readme-ov-file#side-label), and points-of-interest.
+  - Add/update [documentation](https://github.com/paintparty/bling?tab=readme-ov-file#templates-for-errors-and-warnings) about how to leverage Bling to create great-looking warnings and errors.
+ 
 <br>
 
 - **Tertiary goals that arose in the course of solving the above**  
-
   - Enhanced test suite for JVM Clojure and Node (JS)  
   - Enhanced test suite for Babashka  
   - Hifi printing support for custom datatypes whose size cannot be determined [#69](https://github.com/paintparty/fireworks/issues/69)  
   
-
 <br>
 
 The latest release is [`v0.8.7`](https://clojars.org/io.github.paintparty/bling/versions/0.8.7), which features most of the enhancements listed above.  
-
 <br>
 <br>
 
@@ -82,22 +75,16 @@ Bling offers `bling.explain/explain-malli` to present [Malli](https://github.com
 
 <div align="center"><img src="https://github.com/paintparty/bling/raw/main/resources/docs/chromed/malli-explain-missing-key_dark_source-code-0.8.0.png" width="700px"/></div>
 
-
 <br>
-
 The above code would print the following:  
-
 <div align="center"><img src="https://github.com/paintparty/bling/raw/main/resources/docs/chromed/malli-explain-missing-key_dark-0.7.0.png" width="700px"/></div>
 
-
 You can also pass an option trailing options map to customize the appearance of the printed output. In the example below, we are leaving out the display of the schema within the callout block:  
-
 
 <div align="center"><img src="https://github.com/paintparty/bling/raw/main/resources/docs/chromed/malli-explain-bad-set-value-with-no-schema_dark_source-code-0.7.0.png" width="700px"/></div>
 
 
 <br>
-
 The above code would print the following:  
 
 <div align="center"><img src="https://github.com/paintparty/bling/raw/main/resources/docs/chromed/malli-explain-bad-set-value-with-no-schema_dark-0.7.0.png" width="700px"/></div>
