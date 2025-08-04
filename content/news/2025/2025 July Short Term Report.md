@@ -3,7 +3,7 @@ title: "July 2025 Short-Term Q2 Project Updates"
 date: 2025-08-04T14:00:00+12:00
 author: Kathy Davis
 summary: "News from Bling, CALVA, CIDER, and Jank"
-draft: True
+
 
 
 ---
