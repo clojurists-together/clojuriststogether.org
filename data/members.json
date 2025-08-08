@@ -955,11 +955,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Warner",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "McCormick",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1132,6 +1127,6 @@
   } ],
   "member_stats" : {
     "company" : 42,
-    "developer" : 164
+    "developer" : 163
   }
 }
