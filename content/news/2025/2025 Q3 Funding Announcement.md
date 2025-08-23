@@ -38,6 +38,7 @@ such that two different but equivalent schemas could have the same representatio
 This work directly follows my previous Clojurists Together project on
 map constraints: https://www.clojuriststogether.org/news/nov.-2024-short-term-pr   <br>
 
+---
 
 
 ## Dragan Duric: Uncomplicate Clojure ML  
@@ -50,8 +51,9 @@ I propose to implement:
 - assorted improvements to Uncomplicate, Neanderthal, Deep Diamond, to support these additions.  
 - develop examples for helping people getting started.  
 - related bugfixes.  
-- TESTS (of course!).  <br>
+- TESTS (of course!).  <br>  
 
+---
 
 
 ## Jeaye Wilkerson: Jank  
@@ -59,8 +61,9 @@ This next quarter of jank development is what ties everything together. We have 
 
 This quarter, I'll be building packages for Ubuntu, Arch, Homebrew, and Nix. I'll be minimizing jank's dependencies, automating builds, filling in test suites for module loading, AOT building, and the Clojure runtime. I'll be working to get the final Clang and LLVM changes I have upstreamed into LLVM 22, adding a health check to jank to diagnose installation issues, and filling in some C++ interop functionality I couldn't get to last quarter.  
 
-Altogether, this quarter is going to be a hodgepodge of all of the various tasks needed to get jank shipped.   <br>
+Altogether, this quarter is going to be a hodgepodge of all of the various tasks needed to get jank shipped.   <br>  
 
+---
 
 
 ## Jeremiah Coyle: Fireworks  
@@ -95,13 +98,15 @@ Allow for quick call-site changes to the produce bold Fireworks output. [#70](ht
 When hifi printing, properly display contents of JS Sets and Maps, when they are within a native cljs data structure. [#46](https://github.com/paintparty/fireworks/issues/46)  
 
 **Map layout flexibility**  
-For hifi printing, support call-site option to force single-column map layout a la carte. This is sometimes preferable when map contains keys or values that are long strings. [#45](https://github.com/paintparty/fireworks/issues/45)   <br>
+For hifi printing, support call-site option to force single-column map layout a la carte. This is sometimes preferable when map contains keys or values that are long strings. [#45](https://github.com/paintparty/fireworks/issues/45)   <br>  
 
- 
+ ---
+
 
 ## Roman Liutikov: Pitch io/uix    
-I'm currently experimenting with auto memoizing compiler for UIx, an optimization similar to React's Compiler https://react.dev/learn/react-compiler. This blog post describes the feature in detail https://romanliutikov.com/blog/bringing-granular-updates-to-react-the-clojure-way. As a result of this work UIx apps should get better baseline performance out of the box, with fewer work needed from developers.    
+I'm currently experimenting with auto memoizing compiler for UIx, an optimization similar to React's Compiler https://react.dev/learn/react-compiler. This blog post describes the feature in detail https://romanliutikov.com/blog/bringing-granular-updates-to-react-the-clojure-way. As a result of this work UIx apps should get better baseline performance out of the box, with fewer work needed from developers.  <br>
 
+---
 
 
 ## Thomas Clark: FastMath  
