@@ -13,7 +13,7 @@ Clojurists Together is excited to announce that we will be funding 6 projects in
 [Dragan Duric: Uncomplicate Clojure ML](#dragan-duric-uncomplicate-clojure-ml)   
 [Jeaye Wilkerson: Jank](#jeaye-wilkerson-jank)  
 
-**$2K USD Projects**
+**$2K USD Projects**  
 [Jeremiah Coyle: Fireworks](#jeremiah-coyle-fireworks)  
 [Roman Liutikov: Pitch io/uix](#roman-liutikov-pitch-iouix)  
 [Thomas Clark: FastMath](#thomas-clark-fastmath)  
@@ -21,9 +21,10 @@ Clojurists Together is excited to announce that we will be funding 6 projects in
 And here's a project description from each developer:
 
 
+
 ## Ambrose Bonnaire-Sergeant: Malli  
 
-**Automatic Schema Optimizer and Simplifier**
+### Automatic Schema Optimizer and Simplifier    
 There are many different ways to organize schemas in malli based on your needs.
 You might write them manually, deciding between registries or top-level defs,
 and :multi vs :or. You can even generate them automatically from external data sources,
@@ -35,7 +36,8 @@ I would like to create a schema analyzer that can simplify complex schemas,
 such that two different but equivalent schemas could have the same representation. Using this analyzer, we can build more efficient validators, more reliable generators, more helpful error messages, more succinct translations to other specification tools, and beyond.
 
 This work directly follows my previous Clojurists Together project on
-map constraints: https://www.clojuriststogether.org/news/nov.-2024-short-term-pr  
+map constraints: https://www.clojuriststogether.org/news/nov.-2024-short-term-pr   
+
 
 
 ## Dragan Duric: Uncomplicate Clojure ML  
@@ -62,7 +64,7 @@ Altogether, this quarter is going to be a hodgepodge of all of the various tasks
 
 
 ## Jeremiah Coyle: Fireworks  
-#### Primary goals for Fireworks, Q3 2025  
+### Primary goals for Fireworks, Q3 2025  
 **Editor integration**  
 Publish Fireworks editor plugins/extensions/integrations for Emacs, VS Code, and IntelliJ. These are fairly simple extensions that involve some basic form rewriting for wrapping/unwrapping forms.  
 
@@ -79,7 +81,7 @@ Produce written and/or video documentation that makes it easier for people to cr
 For hifi printing, support call-site option to disable all truncation and ellipsis  
 [#14](https://github.com/paintparty/fireworks/issues/14)  
 
-#### Secondary goals for Fireworks, Q3 2025  
+### Secondary goals for Fireworks, Q3 2025  
 **Pipeline for cljs browser console printing**  
 Hifi output with Fireworks works just fine for printing to a browser dev console. Post-processing ansi-tagged output for browser console printing, would, however, be a big improvement vs the current implementation.  
 
@@ -93,7 +95,8 @@ Allow for quick call-site changes to the produce bold Fireworks output. [#70](ht
 When hifi printing, properly display contents of JS Sets and Maps, when they are within a native cljs data structure. [#46](https://github.com/paintparty/fireworks/issues/46)  
 
 **Map layout flexibility**  
-For hifi printing, support call-site option to force single-column map layout a la carte. This is sometimes preferable when map contains keys or values that are long strings. [#45](https://github.com/paintparty/fireworks/issues/45)  
+For hifi printing, support call-site option to force single-column map layout a la carte. This is sometimes preferable when map contains keys or values that are long strings. [#45](https://github.com/paintparty/fireworks/issues/45)   
+
  
 
 ## Roman Liutikov: Pitch io/uix    
