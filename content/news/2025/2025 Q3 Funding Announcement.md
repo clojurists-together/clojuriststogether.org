@@ -36,7 +36,7 @@ I would like to create a schema analyzer that can simplify complex schemas,
 such that two different but equivalent schemas could have the same representation. Using this analyzer, we can build more efficient validators, more reliable generators, more helpful error messages, more succinct translations to other specification tools, and beyond.
 
 This work directly follows my previous Clojurists Together project on
-map constraints: https://www.clojuriststogether.org/news/nov.-2024-short-term-pr   <br>
+map constraints: https://www.clojuriststogether.org/news/nov.-2024-short-term-project-updates/  <br>
 
 ---
 
