@@ -110,7 +110,7 @@ I'm currently experimenting with auto memoizing compiler for UIx, an optimizatio
 
 
 ## Thomas Clark: FastMath  
-Inasmuch as Lewis Carrol may have creatively objected, complex numbers are now an essential part of modern life: from quantum computing upwards and whether we are aware of it or not. Clojure's support for these numbers however, remains sporadic while it's biggest competitor, the well-known comedy snake - and scripting language (https://www.geeksforgeeks.org/python/history-of-python/), treats complex numbers as first-class citizens.  
+Inasmuch as Lewis Carrol may have creatively objected, complex numbers are now an essential part of modern life: from quantum computing upwards and whether we are aware of it or not. Clojure's support for these numbers however, remains sporadic while it's biggest competitor, the well-known comedy snake - and scripting language https://www.geeksforgeeks.org/python/history-of-python/ treats complex numbers as first-class citizens.  
 
 With this funding, I would like to address the issue somewhat, particularly with regard to the implementation of complex matrices, but concerning a consistent complex API more generally.  
 
