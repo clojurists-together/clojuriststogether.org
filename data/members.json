@@ -760,11 +760,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Anders Murphy",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Andrii Malyshko",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1111,6 +1106,11 @@
     "founding" : false
   }, {
     "name" : "Max Penet",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Kathleen Davis",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
