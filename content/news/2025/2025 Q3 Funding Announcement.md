@@ -15,7 +15,7 @@ Clojurists Together is excited to announce that we will be funding 6 projects in
 
 **$2K USD Projects**  
 [Jeremiah Coyle: Fireworks](#jeremiah-coyle-fireworks)  
-[Roman Liutikov: Pitch io/uix](#roman-liutikov-pitch-iouix)  
+[Roman Liutikov: Pitch Uix](#roman-liutikov-uix)  
 [Thomas Clark: FastMath](#thomas-clark-fastmath)  
 
 And here's a project description from each developer:
@@ -103,7 +103,7 @@ For hifi printing, support call-site option to force single-column map layout a 
  ---
 
 
-## Roman Liutikov: Pitch io/uix    
+## Roman Liutikov: Uix    
 I'm currently experimenting with auto memoizing compiler for UIx, an optimization similar to React's Compiler https://react.dev/learn/react-compiler. This blog post describes the feature in detail https://romanliutikov.com/blog/bringing-granular-updates-to-react-the-clojure-way. As a result of this work UIx apps should get better baseline performance out of the box, with fewer work needed from developers.  <br>
 
 ---
