@@ -15,7 +15,7 @@ Clojurists Together is excited to announce that we will be funding 6 projects in
 
 **$2K USD Projects**  
 [Jeremiah Coyle: Fireworks](#jeremiah-coyle-fireworks)  
-[Roman Liutikov: Pitch Uix](#roman-liutikov-uix)  
+[Roman Liutikov: Uix](#roman-liutikov-uix)  
 [Thomas Clark: FastMath](#thomas-clark-fastmath)  
 
 And here's a project description from each developer:
