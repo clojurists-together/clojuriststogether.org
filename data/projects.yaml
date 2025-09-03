@@ -115,7 +115,7 @@
   date: 2023-01-01
   round: Long-term 2023
  
-- name: Jank
+- name: Jank 
   url: https://github.com/jank-lang/jank
   tier: USD 9k
   date: 2025-09-01
@@ -165,7 +165,7 @@ and its first backend engine (based on ONNX Runtime).
   tier: USD 9k
   date: 2025-04-15
   round: Q2 2025
-  description: Developng a new REPL output view for Calva, which is a webview in VS Code. 
+  description: Developing a new REPL output view for Calva, which is a webview in VS Code. 
   current: false
 - name: CIDER
   url: https://github.com/clojure-emacs/cider
