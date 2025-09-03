@@ -6,6 +6,7 @@
 # Q2 2024
 # Q3 2024
 # Q2 2025
+# Q3 2025
 
 
 - name: Michiel Borkent
@@ -115,41 +116,86 @@
   round: Long-term 2023
 
   
+-name: Jank
+  url: https://github.com/jank-lang/jank
+  tier: USD 9k
+  date: 2025-09-01
+  round: Q3 2025
+  description: Build packages for Ubuntu, Arch, Homebrew, and Nix - minimizing jank's dependencies, automating builds, filling in test suites for module loading, AOT building, and the Clojure runtime.
+  current: true
+-name: Malli
+  url: https://github.com/metosin/malli
+  tier: USD 9k
+  date: 2025-09-01
+  round: Q3 2025
+  description: Create a schema analyzer that can simplify complex schemas,
+such that two different but equivalent schemas could have the same representation. 
+  current: true
+-name: Uncomplicate Clojure ML
+  url: https://github.com/uncomplicate
+  tier: USD 9k
+  date: 2025-09-01
+  round: Q3 2025
+  description: Implement a Clojure developer-friendly API for AI/DL/ML models (in the first iteration based on ONNX Runtime, but later refined to be even more general).  
+and its first backend engine (based on ONNX Runtime).  
+  current: true
+-name: Fireworks
+  url: https://github.com/paintparty/fireworks
+  tier: USD 2k
+  date: 2025-09-01
+  round: Q3 2025
+  description: Publish Fireworks editor plugins/extensions/integrations for Emacs, VS Code, and IntelliJ.
+  current: true
+-name: FastMath
+  url: https://github.com/generateme/fastmath
+  tier: USD 2k
+  date: 2025-09-01
+  round: Q3 2025
+  description: Extend fastmath, which is the current high-level go-to for numerical matrices, to deal with complex numbers in an API-consistent way.
+  current: true
+-name: Uix
+  url: https://github.com/pitch-io/uix
+  tier: USD 2k
+  date: 2025-09-01
+  round: Q3 2025
+  description: Develop auto memoizing compiler for UIx, an optimization similar to React's Compiler resulting in better baseline performance out of the box, with fewer work needed from developers. 
+  current: true
+
 - name: CALVA
   url: https://github.com/BetterThanTomorrow/calva
   tier: USD 9k
   date: 2025-04-15
   round: Q2 2025
   description: Developng a new REPL output view for Calva, which is a webview in VS Code. 
-  current: true
+  current: false
 - name: CIDER
   url: https://github.com/clojure-emacs/cider
   tier: USD 9k
   date: 2025-04-15
   round: Q2 2025
   description: Provide continued support and improvements for CIDER, nREPL and the related libraries (e.g. Orchard, cidernrepl, etc).
-  current: true
+  current: false
 - name: Jank
   url:  https://github.com/jank-lang/jank
   tier: USD 9k
   date: 2025-04-15
   round: Q2 2025
   description: Build jank’s seamless C++ interop system.
-  current: true
+  current: false
 - name: Bling
   url: https://github.com/paintparty/bling
   tier: USD 2k
   date: 2025-04-15
   round: Q2 2025
   description: Add support for using hiccup to style and format messages and a template string syntax to style and format messages. Create 1-3 additional formatting templates for callouts, headers, and points-of-interest.
-  current: true
+  current: false
 - name: Code Combat
   url: https://github.com/codecombat/codecombat/wiki/Aether
   tier: USD 2k
   date: 2025-04-15
   round: Q2 2025
   description: Add Clojure(Script) to CodeCombat.
-  current: true
+  current: false
 - name: SciCloj - Building Bridges to New Clojure Users
   url: https://scicloj.github.io/docs/community/groups/scinoj-light/
   tier: USD 2k
