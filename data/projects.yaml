@@ -114,8 +114,7 @@
   tier: Long-term (USD 1.5k/month)
   date: 2023-01-01
   round: Long-term 2023
-
-  
+ 
 - name: Jank
   url: https://github.com/jank-lang/jank
   tier: USD 9k
