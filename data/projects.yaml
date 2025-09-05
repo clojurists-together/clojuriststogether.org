@@ -161,6 +161,7 @@ and its first backend engine (based on ONNX Runtime).
   description: Develop auto memoizing compiler for UIx, an optimization similar to React's Compiler resulting in better baseline performance out of the box, with fewer work needed from developers.
   current: true
 
+
 - name: CALVA
   url: https://github.com/BetterThanTomorrow/calva
   tier: USD 9k
