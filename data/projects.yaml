@@ -128,16 +128,14 @@
   tier: USD 9k
   date: 2025-09-01
   round: Q3 2025
-  description: Create a schema analyzer that can simplify complex schemas,
-such that two different but equivalent schemas could have the same representation.
+  description: Create a schema analyzer that can simplify complex schemas,such that two different but equivalent schemas could have the same representation.
   current: true
 - name: Uncomplicate Clojure ML
   url: https://github.com/uncomplicate
   tier: USD 9k
   date: 2025-09-01
   round: Q3 2025
-  description: Implement a Clojure developer-friendly API for AI/DL/ML models (in the first iteration based on ONNX Runtime, but later refined to be even more general).  
-and its first backend engine (based on ONNX Runtime).
+  description: Implement a Clojure developer-friendly API for AI/DL/ML models (in the first iteration based on ONNX Runtime, but later refined to be even more general) and its first backend engine (based on ONNX Runtime).
   current: true
 - name: Fireworks
   url: https://github.com/paintparty/fireworks
