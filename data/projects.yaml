@@ -203,7 +203,7 @@ and its first backend engine (based on ONNX Runtime).
   date: 2025-04-15
   round: Q2 2025
   description: Improve the accessibility of Clojure for individuals working with data, regardless of their programming backgrounds
-  current: true
+  current: false
   
 - name: Clojure Goes Fast
   url: https://clojure-goes-fast.com
