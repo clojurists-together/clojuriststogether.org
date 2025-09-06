@@ -3,7 +3,7 @@ title: "2025 Board Nominations and Our Annual Meeting"
 date: 2025-09-05T08:30:00+08:00
 summary: "Stand for our 2025 elections and attend the Annual Meeting"
 author: Kathy Davis
-draft: true
+
 
 ---
 Clojurists Together is having our fifth board elections, and our fifth annual members meeting.
@@ -12,7 +12,7 @@ Clojurists Together is having our fifth board elections, and our fifth annual me
 (All dates are EOD, in Pacific Time)
 
 **Board nominations close:** Sept. 25, 2025  
-**Voting opens:** a few days after submissions close and the board has nominated candidates  
+**Voting opens:** a few days after submissions close and after the board has nominated candidates  
 **Voting closes:** October 16, 2025  
 **Annual members meeting:** [Oct. 29, 2025 - 10 am Pacific time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=2025+Clojurists+Together+Annual+Meeting&iso=20251029T10&p1=224&ah=1)  
 
