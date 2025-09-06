@@ -21,7 +21,7 @@ As part of our commitment to [transparency](https://www.clojuriststogether.org/t
 
 Committee members are elected for a two-year term. Each election cycle, half of our board seats come up for re-election. This year there are **four** seats available.
 
-If you are interested in standing for election, please fill out this [form](https://forms.gle/5Z7vkTNH5vCeeLoP6) by Sept. 25th, 2025 -  5 pm Pacific Time. If you can’t access the form, [contact us](https://www.clojuriststogether.org/contact), and we can accept your nomination by email. Nominations are open to anyone, you don’t have to be a Clojurists Together member to stand for election. Our bylaws do require you to be a member if elected to the board, though we provide a stipend that offsets the cost of your membership.
+If you are interested in standing for election, please fill out this [form](https://forms.gle/gEFxSmUUXjXk7hrF7) by Sept. 25th, 2025 -  5 pm Pacific Time. If you can’t access the form, [contact us](https://www.clojuriststogether.org/contact), and we can accept your nomination by email. Nominations are open to anyone, you don’t have to be a Clojurists Together member to stand for election. Our bylaws do require you to be a member if elected to the board, though we provide a stipend that offsets the cost of your membership.
 
 You don’t have to have lots of experience with Clojure to apply. We want a committee made up of a cross-section of the Clojure community so that we have a wide range of perspectives when making decisions on which projects to fund.
 
