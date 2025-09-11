@@ -1110,6 +1110,11 @@
     "level" : "contributing",
     "founding" : false
   }, {
+    "name" : "Byun",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
     "name" : "Kathleen Davis",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1117,6 +1122,6 @@
   } ],
   "member_stats" : {
     "company" : 42,
-    "developer" : 161
+    "developer" : 162
   }
 }
