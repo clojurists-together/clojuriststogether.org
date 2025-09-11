@@ -1,6 +1,6 @@
 ---
 title: "August 2025 Clojure Support and Q2 Project Updates"
-date: 2025-09-10T14:00:00+12:00
+date: 2025-09-11T14:00:00+12:00
 author: Kathy Davis
 summary: "Clojure Support, Code Combat, SciCloj Building Bridges"
 draft: True
@@ -8,21 +8,17 @@ draft: True
 
 ---
 Greetings all! 
-We have updates from two Q2 projects and a new report from Toby Crawley who provides ongoing support and maintenance for Clojure. You'll find a brief description of the Q2 projects below.  
-
-Toby's report includes links to Clojure Changelogs for March through July 2025 as well as an overview of fixes and updates. He monitors Slack and xxxx on a regular basis and receives requests for support via
+We have updates from two Q2 projects and a new report from Toby Crawley who provides ongoing support and maintenance for Clojure. You'll find a brief description of the all these projects below.  
 
 
-
-
-
-
-[Toby Crawley: Clojure Support and Maintenance](#clojure-support-and-maintenance-toby-crawley)  
-xxxx  
+[Toby Crawley: Clojure Support and Maintenance](#clojure-support-and-maintenance-toby-crawley)    
+Toby's report includes links to Clojure Changelogs for March through July 2025 as well as an overview of fixes and updates. He monitors community channels on a regular basis.
+If you have any issues or questions about Clojars, you can find him in the [`#clojars` channel on the Clojurians Slack](https://clojurians.slack.com/archives/C0H28NMAS), or you can file an issue on the [main Clojars GitHub repository](https://github.com/clojars/clojars-web/issues/new/choose).  
+  
 
 [Karl Pietzrak: Code Combat](#code-combat-karl-pietzrak)   
-
-
+This project will focus on adding Clojure(Script) to CodeCombat
+See Wiki page at https://github.com/codecombat/codecombat/wiki/Aether  
 
 
 [Siyoung Byun: SciCloj Building Bridges to New Clojure Users] (#scicloj-building-bridges-to-new-clojure-users-siyoung-byun)  
@@ -32,56 +28,28 @@ Scicloj aims to improve the accessibility of Clojure for individuals working wit
 ## Clojure Support and Maintenance: Toby Crawley  
 March-July 2025 Update of Support and Maintenance Activities  
 
-### March 2025  
+This is an update on the work I've done maintaining [Clojars](https://clojars.org) with the ongoing support of Clojurists Together in March through July of 2025. 
 
-[CHANGELOG](https://github.com/clojars/clojars-web/blob/main/CHANGELOG.org#2025-march) | [`clojars-web` commits](https://github.com/clojars/clojars-web/compare/0aaeb277fa4ff7ce75533d6a915ff226b5f10c1d...4305d17c2e29547c1e41f06d87eb964b63317187) | [`infrastructure` commits](https://github.com/clojars/infrastructure/compare/42610d719338aba1b44a84d8c437f82a39fd5591...de0b7b7d2d21fc6178c563297c1d90737c0ed164)  
+Most of my work on Clojars is reactive, based on issues reported through the community or noticed through monitoring.  
 
--   [Alpha sort dependencies & dependents](https://github.com/clojars/clojars-web/commit/4305d17c2e29547c1e41f06d87eb964b63317187)  
+If you have any issues or questions about Clojars, you can find me in the [`#clojars` channel on the Clojurians Slack](https://clojurians.slack.com/archives/C0H28NMAS), or you can file an issue on the [main Clojars GitHub repository](https://github.com/clojars/clojars-web/issues/new/choose). 
 
+You can see the [CHANGELOG](https://github.com/clojars/clojars-web/blob/main/CHANGELOG.org) for notable changes, and see all commits in the [`clojars-web`](https://github.com/clojars/clojars-web/compare/0aaeb277fa4ff7ce75533d6a915ff226b5f10c1d...759866053761e9f685f52520c61fa2bad10ee4b9) and [`infrastructure`](https://github.com/clojars/infrastructure/compare/42610d719338aba1b44a84d8c437f82a39fd5591...b2e0e61850d9480a7ef16d3dea3075174dd5d862) repositories for this period. I also [track my work](https://tcrawley.org/clojars-worklog/) over the years for Clojurists Together (and, before that, the [Software Freedom Conservancy](https://sfconservancy.org/).  
 
-<a id="apr-2025"></a>
+**Below are some highlights for work done in March through July:**
 
-### April 2025
-
-[CHANGELOG](https://github.com/clojars/clojars-web/blob/main/CHANGELOG.org#2025-april) | [`clojars-web` commits](https://github.com/clojars/clojars-web/compare/b5ffaa808efa4089c7f80fe1eeb3ae3b86919cdc...5d50868decdf95b8014a957f4f88635695dcc3ee) | [`infrastructure` commits](https://github.com/clojars/infrastructure/compare/de0b7b7d2d21fc6178c563297c1d90737c0ed164...4d7655b0192a77f32bf31e1a320d034b8fa1aeac)  
-
--   I finally addressed issues with running out of memory on occasion. It turned out to be the in-memory session store; we were using [aging
+- I finally addressed issues with running out of memory on occasion. It turned out to be the in-memory session store; we were using [aging
     sessions](https://github.com/kirasystems/aging-session), but we were generating enough sessions in 48 hours (the session ttl) to exhaust the heap. [Adjusting the ttl to 1 hour](https://github.com/clojars/clojars-web/commit/5d50868decdf95b8014a957f4f88635695dcc3ee) solved the problem, but a better long-term solution would be to not create a session until a user logs in, as that is all we need a session for. Clojars currently creates a session for each visit to the site.  
--   Clojars was storing uploads in `/tmp` during deploys, and there is no signal to when a deploy is complete, so we can&rsquo;t delete them at the end of the deploy. This was causing the server to run out of disk space, so I [moved upload storage to a larger partition](https://github.com/clojars/clojars-web/commit/318fff4a23feaf6931e326e50d735c6c4363629a), and made [tmp file cleanup happen more often](https://github.com/clojars/infrastructure/commit/164091a948bb8b67cd9edd6cc5ff68bd7860b494).  
--   We had some client that was repeatedly connecting to Clojars, then failing TLS negotiation, then trying again. This caused our AWS load balancer expense to increase by several hundred dollars, so I [blocked that IP address from accessing Clojars](https://github.com/clojars/infrastructure/commit/ed2e08cb17d835409deec91ac4b52b0308b9a983).  
+- Clojars was storing uploads in `/tmp` during deploys, and there is no signal to when a deploy is complete, so we can't delete them at the end of the deploy. This was causing the server to run out of disk space, so I [moved upload storage to a larger partition](https://github.com/clojars/clojars-web/commit/318fff4a23feaf6931e326e50d735c6c4363629a), and made [tmp file cleanup happen more often](https://github.com/clojars/infrastructure/commit/164091a948bb8b67cd9edd6cc5ff68bd7860b494).  
+- We had some client that was repeatedly connecting to Clojars, then failing TLS negotiation, then trying again. This caused our AWS load balancer expense to increase by several hundred dollars, so I [blocked that IP address from accessing Clojars](https://github.com/clojars/infrastructure/commit/ed2e08cb17d835409deec91ac4b52b0308b9a983).  
+- I upgraded a few dependencies to address some CVEs.  
+- I worked on spiking out how to implement using [Problem Details (rfc9457)](https://www.rfc-editor.org/rfc/rfc9457) to return deploy validation failures to the client. See [this issue](https://github.com/clojars/clojars-web/issues/911) for more details.  
 
-
-<a id="may-2025"></a>
-
-### May 2025
-
-[`infrastructure` commits](https://github.com/clojars/infrastructure/compare/4d7655b0192a77f32bf31e1a320d034b8fa1aeac...b2e0e61850d9480a7ef16d3dea3075174dd5d862)  
-
-I did little on Clojars in May.  
-
-
-<a id="jun-2025"></a>
-
-### June 2025  
-
-[CHANGELOG](https://github.com/clojars/clojars-web/blob/main/CHANGELOG.org#2025-june) | [`clojars-web` commits](https://github.com/clojars/clojars-web/compare/5d50868decdf95b8014a957f4f88635695dcc3ee...0fcafd1a499d7c800d1ed6cff8f127d60930b79a)  
-
-June was a busy month for Clojars, with mostly security work. I worked with [Ambrose Bonnaire-Sergeant](https://github.com/frenchy64) on:  
-
--   [Fixing](https://github.com/clojars/clojars-web/commit/baade8967c7be8abd9a9b27499c511efd41f6164), then [inlining](https://github.com/clojars/clojars-web/commit/d3623de947dcba56392c3e2bc3041ed3c1bf89a5) a `deps.edn` alias we used to override versions to resolve CVEs. We weren&rsquo;t actually using the alias when building the uberjar, and then realized we didn&rsquo;t need the alias at all, as those dependencies could be top-level.  
+I worked with [Ambrose Bonnaire-Sergeant](https://github.com/frenchy64) on some security (& other) fixes:  
+-   [Fixing](https://github.com/clojars/clojars-web/commit/baade8967c7be8abd9a9b27499c511efd41f6164), then [inlining](https://github.com/clojars/clojars-web/commit/d3623de947dcba56392c3e2bc3041ed3c1bf89a5) a `deps.edn` alias we used to override versions to resolve CVEs. We weren't actually using the alias when building the uberjar, and then realized we didn't need the alias at all, as those dependencies could be top-level.  
 -   [Adding a `pom.xml`](https://github.com/clojars/clojars-web/pull/907) to the repository to allow Dependabot to detect vulnerable dependencies.  
--   [Importing/adding clj-kondo configurations](https://github.com/clojars/clojars-web/pull/905) for dependencies to give better linting.  
+-   [Importing/adding clj-kondo configurations](https://github.com/clojars/clojars-web/pull/905) for dependencies to give better linting.  <br>  
 
-I also upgraded a few dependencies, and addressed a CVE.  
-
-
-<a id="jul-2025"></a>
-
-### July 2025  
-
-[`clojars-web` commits](https://github.com/clojars/clojars-web/compare/0fcafd1a499d7c800d1ed6cff8f127d60930b79a...759866053761e9f685f52520c61fa2bad10ee4b9)  
-
-This month I worked on spiking out how to implement using [Problem Details (rfc9457)](https://www.rfc-editor.org/rfc/rfc9457) to return deploy validation failures to the client. See [this issue](https://github.com/clojars/clojars-web/issues/911) for more details. <br>
 
 ---
 
