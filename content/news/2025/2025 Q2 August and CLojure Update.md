@@ -1,18 +1,18 @@
 ---
-title: "August 2025 Clojure Support and Q2 Project Updates"
+title: "August 2025 Clojars Support and Q2 Project Updates"
 date: 2025-09-12T14:00:00+12:00
 author: Kathy Davis
-summary: "Clojure Support, Code Combat, SciCloj Building Bridges"
+summary: "Clojars Support, Code Combat, SciCloj Building Bridges"
 
 
 
 ---
 Greetings all! 
-We have updates from two Q2 projects and a new report from Toby Crawley who provides ongoing support and maintenance for Clojure. You'll find a brief description of the all these projects below.  
+We have updates from two Q2 projects and a new report from Toby Crawley who provides ongoing support and maintenance for Clojars. You'll find a brief description of the all these projects below.  
 
 
-[Toby Crawley: Clojure Support and Maintenance](#clojure-support-and-maintenance-toby-crawley)    
-Toby's report includes links to Clojure Changelogs for March through July 2025 as well as an overview of fixes and updates. He monitors community channels on a regular basis.
+[Toby Crawley: Clojars Support and Maintenance](#clojars-support-and-maintenance-toby-crawley)    
+Toby's report includes links to Clojars Changelogs for March through July 2025 as well as an overview of fixes and updates. He monitors community channels on a regular basis.
 If you have any issues or questions about Clojars, you can find him in the [`#clojars` channel on the Clojurians Slack](https://clojurians.slack.com/archives/C0H28NMAS), or you can file an issue on the [main Clojars GitHub repository](https://github.com/clojars/clojars-web/issues/new/choose).  
   
 
@@ -27,7 +27,7 @@ Scicloj aims to improve the accessibility of Clojure for individuals working wit
 
 
 
-## Clojure Support and Maintenance: Toby Crawley  
+## Clojars Support and Maintenance: Toby Crawley  
 This is an update on the work I've done maintaining [Clojars](https://clojars.org) in March through July 2025 with the ongoing support of Clojurists Together. 
 
 Most of my work on Clojars is reactive, based on issues reported through the community or noticed through monitoring. If you have any issues or questions about Clojars, you can find me in the [`#clojars` channel on the Clojurians Slack](https://clojurians.slack.com/archives/C0H28NMAS), or you can file an issue on the [main Clojars GitHub repository](https://github.com/clojars/clojars-web/issues/new/choose). 
