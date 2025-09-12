@@ -21,18 +21,14 @@ This project will focus on adding Clojure(Script) to CodeCombat
 See Wiki page at https://github.com/codecombat/codecombat/wiki/Aether  
 
 
-[Siyoung Byun: SciCloj Building Bridges to New Clojure Users] (#scicloj-building-bridges-to-new-clojure-users-siyoung-byun)  
+[Siyoung Byun: SciCloj Building Bridges to New Clojure Users](#scicloj-building-bridges-to-new-clojure-users-siyoung-byun)   
 Scicloj aims to improve the accessibility of Clojure for individuals working with data, regardless of their programming backgrounds. The project aims to develop standardized templates to encourage greater consistency across the documentation of existing Scicloj ecosystem libraries, making those libraries more robust and user-friendly.  <br>
 
 
 ## Clojure Support and Maintenance: Toby Crawley  
-March-July 2025 Update of Support and Maintenance Activities  
-
 This is an update on the work I've done maintaining [Clojars](https://clojars.org) with the ongoing support of Clojurists Together in March through July of 2025. 
 
-Most of my work on Clojars is reactive, based on issues reported through the community or noticed through monitoring.  
-
-If you have any issues or questions about Clojars, you can find me in the [`#clojars` channel on the Clojurians Slack](https://clojurians.slack.com/archives/C0H28NMAS), or you can file an issue on the [main Clojars GitHub repository](https://github.com/clojars/clojars-web/issues/new/choose). 
+Most of my work on Clojars is reactive, based on issues reported through the community or noticed through monitoring. If you have any issues or questions about Clojars, you can find me in the [`#clojars` channel on the Clojurians Slack](https://clojurians.slack.com/archives/C0H28NMAS), or you can file an issue on the [main Clojars GitHub repository](https://github.com/clojars/clojars-web/issues/new/choose). 
 
 You can see the [CHANGELOG](https://github.com/clojars/clojars-web/blob/main/CHANGELOG.org) for notable changes, and see all commits in the [`clojars-web`](https://github.com/clojars/clojars-web/compare/0aaeb277fa4ff7ce75533d6a915ff226b5f10c1d...759866053761e9f685f52520c61fa2bad10ee4b9) and [`infrastructure`](https://github.com/clojars/infrastructure/compare/42610d719338aba1b44a84d8c437f82a39fd5591...b2e0e61850d9480a7ef16d3dea3075174dd5d862) repositories for this period. I also [track my work](https://tcrawley.org/clojars-worklog/) over the years for Clojurists Together (and, before that, the [Software Freedom Conservancy](https://sfconservancy.org/).  
 
@@ -68,7 +64,7 @@ Progress update to follow in our next report.  <br>
 ---
 
 
-## Siyoung Byun: 
+## SciCloj Building Bridges to New Clojure Users: Siyoung Byun  
 Q2 2025 $2k. Report No. 2, Published 14 August 2025  
 
 In the time since my previous update I have continued to focus on the community expansion side of the Scicloj initiative. The work and effort continues as a long-term goal alongside other dedicated contributors in the Scicloj community.  
