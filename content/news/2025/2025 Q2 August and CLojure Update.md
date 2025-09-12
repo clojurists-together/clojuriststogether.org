@@ -26,7 +26,7 @@ Scicloj aims to improve the accessibility of Clojure for individuals working wit
 
 
 ## Clojure Support and Maintenance: Toby Crawley  
-This is an update on the work I've done maintaining [Clojars](https://clojars.org) with the ongoing support of Clojurists Together in March through July of 2025. 
+This is an update on the work I've done maintaining [Clojars](https://clojars.org) in March through July 2025 with the ongoing support of Clojurists Together. 
 
 Most of my work on Clojars is reactive, based on issues reported through the community or noticed through monitoring. If you have any issues or questions about Clojars, you can find me in the [`#clojars` channel on the Clojurians Slack](https://clojurians.slack.com/archives/C0H28NMAS), or you can file an issue on the [main Clojars GitHub repository](https://github.com/clojars/clojars-web/issues/new/choose). 
 
