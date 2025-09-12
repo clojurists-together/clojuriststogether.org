@@ -17,7 +17,7 @@ If you have any issues or questions about Clojars, you can find him in the [`#cl
   
 
 [Karl Pietzrak: Code Combat](#code-combat-karl-pietzrak)   
-This project will focus on adding Clojure(Script) to CodeCombat
+This project will focus on adding Clojure(Script) to CodeCombat. 
 See Wiki page at https://github.com/codecombat/codecombat/wiki/Aether  
 
 
