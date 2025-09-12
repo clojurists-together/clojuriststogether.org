@@ -25,6 +25,8 @@ See Wiki page at https://github.com/codecombat/codecombat/wiki/Aether
 Scicloj aims to improve the accessibility of Clojure for individuals working with data, regardless of their programming backgrounds. The project aims to develop standardized templates to encourage greater consistency across the documentation of existing Scicloj ecosystem libraries, making those libraries more robust and user-friendly.  <br>
 
 
+
+
 ## Clojure Support and Maintenance: Toby Crawley  
 This is an update on the work I've done maintaining [Clojars](https://clojars.org) in March through July 2025 with the ongoing support of Clojurists Together. 
 
