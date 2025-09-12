@@ -1,6 +1,6 @@
 ---
 title: "August 2025 Clojure Support and Q2 Project Updates"
-date: 2025-09-11T14:00:00+12:00
+date: 2025-09-12T14:00:00+12:00
 author: Kathy Davis
 summary: "Clojure Support, Code Combat, SciCloj Building Bridges"
 draft: True
