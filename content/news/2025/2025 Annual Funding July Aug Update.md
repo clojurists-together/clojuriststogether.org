@@ -12,10 +12,11 @@ This is the fourth report from the 5 developers receiving Annual Funding in 2025
 
 
 [Dragan Duric](#dragan-duric): Apple M Engine Neanderthal, Deep Diamond CPU   
-[Eric Dallo](#eric-dallo): ECA, metrepl, clojure-lsp, clojure-lsp-intellij  
-[Michiel Borkent](#michiel-borkent): clj-kondo, babashka, SCI, quickblog, edamame, and more...  
-[Oleksandr Yakushev](#oleksandr-yakushev): CIDER  
-[Peter Taoussanis](#peter-taoussanis): Trove, Sente, Tufte
+[Eric Dallo](#eric-dallo): ECA, clojure-lsp, clojure-lsp-intellij  
+[Michiel Borkent](#michiel-borkent): clj-kondo, babashka, SCI, clj-kondo, scittle, and more...  
+[Oleksandr Yakushev](#oleksandr-yakushev): CIDER, clj-async-profiler, nREPL   
+[Peter Taoussanis](#peter-taoussanis): Sente, Truss, Trove, Telemere  
+
 
 ## Dragan Duric  
 2025 Annual Funding Report 4. Published September 4, 2025.  
@@ -45,6 +46,7 @@ It's not a glamurous work, working at these lower levels, but I see bright futur
 
 ## Eric Dallo  
 2025 Annual Funding Report 4. Published September 8, 2025. 
+
 In these last 2 months I mainly focused on my recently created project, [ECA](https://eca.dev) and its related projects, there were so many improvements and new features, the project grown a lot with lots of people using!  
 
 ### [eca](https://github.com/editor-code-assistant/eca)  
@@ -151,7 +153,7 @@ you can sponsor this work in the following ways. Thank you!
 ### Updates
 
 Although summer hit Europe and I made a train trip to Switzerland for some hiking with my wife, OSS activity continued in the borkiverse. 20 projects saw updates. As usual, babashka, SCI and clj-kondo saw the most activity. 
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/7c6e5937-7e0d-4285-a036-26fdbf1a84ff" />
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/7c6e5937-7e0d-4285-a036-26fdbf1a84ff" />
 
 One of the big things I’m looking forward to is speaking at [Clojure Conj 2025](https://www.2025.clojure-conj.org/schedule). At the risk of sounding a bit pretentious, the title of my talk is "Making Tools Developers Actually Use". Babashka started as a quirky interpreter "nobody had asked for" but now many Clojure developers don't want to live without it. Clj-kondo started out as a minimal proof-of-concept linter and now is widely used tool in Clojurian's every day toolset and available even in Cursive today. In the talk I want to reflect on what makes a tool something developers (like myself) actually want to use. I'm excited about this opportunity and about my first time visiting the Conj (don't ask me how I got the Clojure Conj cap on the photo above). Given the rest of the schedule, it's something I wouldn't want to miss.  
 
@@ -443,7 +445,7 @@ Hi folks! 👋 Will try keep today's update for July and August brief.
 
 ### Recent work  
 
-#### Sente  
+### Sente  
 
 > ([Sente](https://www.taoensso.com/sente) is a realtime web comms library for Clojure/Script)  
 
@@ -453,7 +455,7 @@ The binary serialization is still marked as experimental to be safe, though I ha
 
 To try the new serialization: just give `(taoensso.sente.packers.msgpack/get-packer)` to your [client](https://cljdoc.org/d/com.taoensso/sente/1.21.0-RC1/api/taoensso.sente#make-channel-socket-client!) and [server](https://cljdoc.org/d/com.taoensso/sente/1.21.0-RC1/api/taoensso.sente#make-channel-socket-server!) constructor calls. No extra deps needed.  
 
-#### Truss  
+### Truss  
 
 > ([Truss](https://www.taoensso.com/truss) is a micro toolkit for Clojure/Script errors)  
 
@@ -461,7 +463,7 @@ Truss [v2.2.0](https://github.com/taoensso/truss/releases/tag/v2.2.0) is out now
 
 The video should be a decent starting point if you're not familiar with Truss.  
 
-#### Trove and Telemere  
+### Trove and Telemere  
 
 > [Trove](https://www.taoensso.com/trove) is a modern logging facade for Clojure/Script.  
 > [Telemere](https://www.taoensso.com/telemere) is the successor to [Timbre](https://www.taoensso.com/timbre).  
@@ -490,7 +492,7 @@ A data-oriented pipeline can make a huge difference - supporting **easier filte
 
 So the structured (data-oriented) approach is inherently more flexible, faster, and well suited to the tools and idioms offered by Clojure and ClojureScript.  
 
-#### Other stuff  
+### Other stuff  
 
 Other misc releases included:  
 
