@@ -65,18 +65,18 @@ And many more! come to #eca Clojurians channel.
 #### [eca-emacs](https://github.com/editor-code-assistant/eca-emacs)  
 After testing other tools, improving a lot and receiving positive feedbacks, I believe ECA emacs offers the best Emacs tool for AI development right now, which is great, there are still so many features to add!  
 ![alt text](<eca-emacs (1).gif>)
-![eca-emacs](./eca-emacs.gif)
+
 
 #### [eca-intellij](https://github.com/editor-code-assistant/eca-intellij)  
 New editor support! :tada:  
 Using the same UX from eca-vscode.  
 ![alt text](eca-intellij.gif)
-![eca-intellij](./eca-intellij.gif)
+
 
 #### [eca-vscode](https://github.com/editor-code-assistant/eca-vscode)  
 Multiple improvements, especially extracted the webview to `eca-webview` so it can be used by eca-intellij as well.  
 ![alt text](<eca-vscode dallo.gif>)
-![eca-vscode](./eca-vscode.gif)
+
 
 ### [clojure-lsp](https://clojure-lsp.io/)  
 There were mainly improvements in performance regarding clj-kondo bumps and some small fixes.
