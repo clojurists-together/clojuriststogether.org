@@ -114,7 +114,7 @@ possible. Without you the below projects would not be as mature or wouldn't
 exist or be maintained at all! So a sincere thank you to everyone who
 contributes to the sustainability of these projects.  
 
-<img alt="gratitude" src="https://emoji.slack-edge.com/T03RZGPFR/gratitude/f8716bb6fb7e5249.png" width="50px" text-align="center">
+c:\Users\kathl\Documents\Documents\Clojurists Together\2025 Reports\mayJune lng term 2025\mb-switzerland-2025.jpeg
 
 Current top tier sponsors:
 
