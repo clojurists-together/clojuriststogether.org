@@ -150,9 +150,9 @@ you can sponsor this work in the following ways. Thank you!
 
 ### Updates
 
-Although summer hit Europe and I made a train trip to Switzerland for some hiking with my wife, OSS activity continued in the borkiverse. 20 projects saw updates. As usual, babashka, SCI and clj-kondo saw the most activity.  
+Although summer hit Europe and I made a train trip to Switzerland for some hiking with my wife, OSS activity continued in the borkiverse. 20 projects saw updates. As usual, babashka, SCI and clj-kondo saw the most activity. 
 
-<img src="assets/mb-switzerland-2025.jpeg" width="50%" align="center">
+![mb-switzerland-2025](https://github.com/user-attachments/assets/62785337-5f53-4296-aab7-954b109c8e57)
 
 One of the big things I’m looking forward to is speaking at [Clojure Conj 2025](https://www.2025.clojure-conj.org/schedule). At the risk of sounding a bit pretentious, the title of my talk is "Making Tools Developers Actually Use". Babashka started as a quirky interpreter "nobody had asked for" but now many Clojure developers don't want to live without it. Clj-kondo started out as a minimal proof-of-concept linter and now is widely used tool in Clojurian's every day toolset and available even in Cursive today. In the talk I want to reflect on what makes a tool something developers (like myself) actually want to use. I'm excited about this opportunity and about my first time visiting the Conj (don't ask me how I got the Clojure Conj cap on the photo above). Given the rest of the schedule, it's something I wouldn't want to miss.  
 
