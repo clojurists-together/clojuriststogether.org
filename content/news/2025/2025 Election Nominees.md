@@ -45,11 +45,11 @@ We will announce the winners shortly afterward and you'll be able to meet them a
 https://github.com/xlfe/  
 
 **Company:** Psithur  
-I've really enjoyed contributing to the Clojurists Together board over the past two years, and I hope I've brought a helpful view and been able to make a difference to help grow the Clojure ecosystem.  
+I've really enjoyed contributing to the Clojurists Together board over the past two years, and I hope I've brought a helpful view and been able to make a difference to help grow the Clojure ecosystem.   
 
-I’ve been using Clojure professionally for 5+ years and I'm now running a small software/data company which uses full stack Clojure. Clojure has been the continuation of a life-long learning journey for me, and I don’t see that slowing down. The kind of things I’m interested in are figuring out how to raise the profile of Clojure as a smart choice for large enterprises all the way down to startups, and to help reduce the barriers to entry to Clojure as a profession. I want to see Clojure continue.  
+I’ve been using Clojure professionally for 5+ years and I'm now running a small software/data company which uses full stack Clojure. Clojure has been the continuation of a life-long learning journey for me, and I don’t see that slowing down. The kind of things I’m interested in are figuring out how to raise the profile of Clojure as a smart choice for large enterprises all the way down to startups, and to help reduce the barriers to entry to Clojure as a profession. I want to see Clojure continue to grow and I’d love to see more corporate support to bring Clojure to more people.  
 
-**Bio:** I’ve spent >15 years working as a technologist in a range of roles including analytics, data science, data engineering, software architecture and software engineering. I have experience across highly-regulated industries (Government), consulting and startups. I have a B Economics (Honours) with specialisation in advanced econometrics, statistics, game-theory and behavioral economics and a graduate certificate in Cyber Security.to grow and I’d love to see more corporate support to bring Clojure to more people. <br>
+**Bio:** I’ve spent >15 years working as a technologist in a range of roles including analytics, data science, data engineering, software architecture and software engineering. I have experience across highly-regulated industries (Government), consulting and startups. I have a B Economics (Honours) with specialisation in advanced econometrics, statistics, game-theory and behavioral economics and a graduate certificate in Cyber Security. <br>
 
 ---
 
@@ -80,7 +80,8 @@ https://github.com/afucher ; https://www.youtube.com/@clojure-br
 I am also member of InnerSource Commons (https://innersourcecommons.org/about/members/) 
 
 **Company:** Nubank  
-I’ve been working with Clojure for over five years, including three years on platform engineering and developer experience, building tools and infrastructure for developers. I also contribute to open-source Clojure projects and organize ClojureBR, the Brazilian Clojure community, which promotes meetups and content in Portuguese.
+I’ve been working with Clojure for over five years, including three years on platform engineering and developer experience, building tools and infrastructure for developers. I also contribute to open-source Clojure projects and organize ClojureBR, the Brazilian Clojure community, which promotes meetups and content in Portuguese.  
+
 Clojure and its community have given me a lot, and I’d like to give back by helping Clojurists Together strengthen the Clojure ecosystem globally and bring the perspective of Brazil, where many companies and developers are producing high-quality open-source. My experience in tooling, open source, and community organizing equips me to evaluate projects, contribute ideas, and help make the organization more inclusive and impactful.  
 
 **Bio:** Arthur Fücher is a Clojure developer who in recent years has focused on improving developer experience and platform tooling. He contributes to open-source Clojure projects and organizes ClojureBR, the Brazilian Clojure community. Arthur is passionate about Clojure and dedicated to growing its community, sharing knowledge, and supporting initiatives that help more people discover and use the language.  <br>
@@ -149,16 +150,16 @@ I'm very much interested in contributing back to the Clojure open source communi
 ---
 
 ### Daniel Slutsky  
-https://github.com/dasluky  
+https://github.com/daslu  
 
 **Company:** consultant at Daniel Slutsky LTD, full-time contractor for endor.globalNubank
 I deeply care about the Clojure open-source communities and Clojure growth, and these topics have been my main focus during the last few years, at Scicloj and elsewhere.  
 
-I'm Daniel Slutsky, a mathematician and data science consultant who has been working with Clojure since 2013. I co-organize Scicloj, where our mission is "Helping Clojure grow in new fields" - including academia, research, education, and domains beyond traditional software engineering.  
+**Bio:** I'm Daniel Slutsky, a mathematician and data science consultant who has been working with Clojure since 2013. I co-organize Scicloj, where our mission is "Helping Clojure grow in new fields" - including academia, research, education, and domains beyond traditional software engineering.  
 
 My approach to community building draws from years of experience in local social activist groups, emphasizing inclusive collaboration and helping newcomers find their place in action-oriented projects.  
 
-**Bio:** I help maintain several open-source projects including Clay (literate programming), Noj (data science toolkit), Tableplot (data visualization) and ClojisR (Clojure-R bridge). Through mentorship programs, conferences like SciNoj Light and Macroexapnd-2025, and ongoing study groups focused on tooling, AI, and real-world applications, I work to create accessible pathways for people to explore Clojure in their fields of interest.  
+I help maintain several open-source projects including Clay (literate programming), Noj (data science toolkit), Tableplot (data visualization) and ClojisR (Clojure-R bridge). Through mentorship programs, conferences like SciNoj Light and Macroexapnd-2025, and ongoing study groups focused on tooling, AI, and real-world applications, I work to create accessible pathways for people to explore Clojure in their fields of interest.   
 
 As a recipient of Clojurists Together grants in 2024 and having collaborated with a few  other grantees, I've seen firsthand how this support enables community-driven work that expands Clojure's reach. I would welcome the opportunity to help CT in supporting projects that both strengthen our existing open-source ecosystem and welcome new voices from diverse fields.  
 
