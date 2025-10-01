@@ -138,7 +138,7 @@ I’m committed to continuing to make a positive impact on the community through
 
 ### Howard M. Lewis Ship  
 https://lewisship.net/  
-GitHub: hlship  
+https://github.com/hlship  
 
 **Company:** Nubank  
 I have long experience contributing to the open source community as an individual and as a representative of my employers (such as Walmart and Nubank), and have a new role at Nubank leading our open source enablement team, where part of my mandate is to engage with existing open source organizations and communities.  I've been interested in Clojure since approximately 2010 and actively using it professionally since 2013.   
