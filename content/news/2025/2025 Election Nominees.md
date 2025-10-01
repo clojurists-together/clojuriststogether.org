@@ -28,7 +28,7 @@ The board has nominated all 10 candidates for the current board election (in alp
 
 ### Next Steps  
 
-All current Clojurists Together Members should have received a link to their ballot to vote via email. If you haven't received a ballot by 4th October (and you've checked your spam folder to see if it's hiding there), please contact kdavis@clojuriststogether.org.  
+All current Clojurists Together Members should have received a link to their ballot to vote via email. If you haven't received a ballot by 7th October (and you've checked your spam folder to see if it's hiding there), please contact kdavis@clojuriststogether.org.  
 
 **Voting will close on 16th October at midnight Pacific Time**. The top four candidates, as voted on by members will fill our open slots. Please note that our bylaws stipulate that "there may not be more than two members under the control or close influence of the same entity. If this threshold is crossed then members must stand down until there are no more than two members from the same entity". This year, there are 3 candidates from the same organization. So depending on the election results, we may need to make an adjustment after the votes are in.  
 
