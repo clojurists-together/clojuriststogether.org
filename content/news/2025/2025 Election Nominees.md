@@ -28,7 +28,7 @@ The board has nominated all 10 candidates for the current board election (in alp
 
 ### Next Steps  
 
-All current Clojurists Together Members should have received a link to their ballot to vote via email. If you haven't received a ballot by 7th October (and you've checked your spam folder to see if it's hiding there), please contact kdavis@clojuriststogether.org.  
+All current Clojurists Together Members should have received a link to their ballot to vote via email. If you haven't received a ballot by 9th October (and you've checked your spam folder to see if it's hiding there), please contact kdavis@clojuriststogether.org.  
 
 **Voting will close on 16th October at midnight Pacific Time**. The top four candidates, as voted on by members will fill our open slots. Please note that our bylaws stipulate that "there may not be more than two members under the control or close influence of the same entity. If this threshold is crossed then members must stand down until there are no more than two members from the same entity". This year, there are 3 candidates from the same organization. So depending on the election results, we may need to make an adjustment after the votes are in.  
 
@@ -54,7 +54,7 @@ I’ve been using Clojure professionally for 5+ years and I'm now running a smal
 ---
 
 ### Daniel Compton  
-github.com/danielcompton  
+https://github.com/danielcompton  
 x.com/danielwithmusic  
 
 **Company:** Whimsical  
@@ -152,7 +152,7 @@ I'm very much interested in contributing back to the Clojure open source communi
 ### Daniel Slutsky  
 https://github.com/daslu  
 
-**Company:** consultant at Daniel Slutsky LTD, full-time contractor for endor.globalNubank
+**Company:** consultant at Daniel Slutsky LTD, full-time contractor for endor.global.
 I deeply care about the Clojure open-source communities and Clojure growth, and these topics have been my main focus during the last few years, at Scicloj and elsewhere.  
 
 **Bio:** I'm Daniel Slutsky, a mathematician and data science consultant who has been working with Clojure since 2013. I co-organize Scicloj, where our mission is "Helping Clojure grow in new fields" - including academia, research, education, and domains beyond traditional software engineering.  
