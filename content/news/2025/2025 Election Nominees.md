@@ -1,9 +1,9 @@
 ---
 title: "2025 Board Nominations: Time to Vote"
-date: 2025-09-30T14:09:25+12:00
+date: 2025-10-06T14:09:25+12:00
 author: Kathy Davis
 summary: "Clojurists Together Members Can Now Vote for the Next Board Members."
-draft: True
+
 ---
 
 Clojurists Together is in the process of [electing new board members](https://www.clojuriststogether.org/news/2025-board-nominations-and-our-annual-meeting/) to fill the four volunteer positions that are expiring this year. These positions are for two-year terms (approximately Nov. 2025 - Oct. 2027).
