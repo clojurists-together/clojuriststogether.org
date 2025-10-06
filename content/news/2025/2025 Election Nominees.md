@@ -152,7 +152,8 @@ I'm very much interested in contributing back to the Clojure open source communi
 ### Daniel Slutsky  
 https://github.com/daslu  
 
-**Company:** consultant at Daniel Slutsky LTD, full-time contractor for endor.global.
+**Company:** consultant at Daniel Slutsky LTD, full-time contractor for endor.global.  
+
 I deeply care about the Clojure open-source communities and Clojure growth, and these topics have been my main focus during the last few years, at Scicloj and elsewhere.  
 
 **Bio:** I'm Daniel Slutsky, a mathematician and data science consultant who has been working with Clojure since 2013. I co-organize Scicloj, where our mission is "Helping Clojure grow in new fields" - including academia, research, education, and domains beyond traditional software engineering.  
