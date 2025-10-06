@@ -1,5 +1,5 @@
 ---
-title: "Announcing 2025 Board Nominations"
+title: "2025 Board Nominations: Time to Vote"
 date: 2025-09-30T14:09:25+12:00
 author: Kathy Davis
 summary: "Clojurists Together Members Can Now Vote for the Next Board Members."
