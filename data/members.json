@@ -990,11 +990,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Nick Lawler",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Xiong",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1122,6 +1117,6 @@
   } ],
   "member_stats" : {
     "company" : 42,
-    "developer" : 162
+    "developer" : 161
   }
 }
