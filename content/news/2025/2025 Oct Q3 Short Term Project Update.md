@@ -11,15 +11,11 @@ This is the first project update for fice of our Q3 2025 Funded Projects. (Repor
 
 
 [Fireworks: Jeremiah Coyle](#fireworks-jeremiah-coyle)  
-**Editor integration**  
-Publish Fireworks editor plugins/extensions/integrations for Emacs, VS Code, and IntelliJ. These are fairly simple extensions that involve some basic form rewriting for wrapping/unwrapping forms.  
-**Automatic color support detection**  
-Add support for automatic detection of the 3 levels of color support (16-color, 256-color, or Truecolor), using an approach similar to [Chalk](https://github.com/chalk/supports-color). [#42](https://github.com/paintparty/fireworks/issues/42)  
-**Documentation of interactive workflow.**  
-**Enhanced documentation for theme creation.**  
-**Call-site options for quick formatting changes.**  
-For hifi printing, support call-site option to disable all truncation and ellipsis  
-[#14](https://github.com/paintparty/fireworks/issues/14)   
+- Publish Fireworks editor plugins/extensions/integrations for Emacs, VS Code, and IntelliJ. These are fairly simple extensions that involve some basic form rewriting for wrapping/unwrapping forms.  
+- Add support for automatic detection of the 3 levels of color support (16-color, 256-color, or Truecolor), using an approach similar to [Chalk](https://github.com/chalk/supports-color). [#42](https://github.com/paintparty/fireworks/issues/42)  
+- Documentation of interactive workflow. 
+- Enhanced documentation for theme creation.
+- Call-site options for quick formatting changes. For hifi printing, support call-site option to disable all truncation and ellipsis [#14](https://github.com/paintparty/fireworks/issues/14)   
 
 
 [Jank: Jeaye Wilkerson](#jank-jeaye-wilkerson)  
@@ -27,7 +23,6 @@ This quarter, I'll be building packages for Ubuntu, Arch, Homebrew, and Nix. I'l
 
 [Malli: Ambrose Bonnaire-Sergeant](#malli-ambrose-bonnaire-sergeant)  
 Malli's core algorithms for transforming schemas into things like validators and generators are quite sensitive to the the input schema. Even seemingly equivalent schemas can have different performance characteristics and different generators.  
-
 I would like to create a schema analyzer that can simplify complex schemas,
 such that two different but equivalent schemas could have the same representation. Using this analyzer, we can build more efficient validators, more reliable generators, more helpful error messages, more succinct translations to other specification tools, and beyond.  
 
@@ -45,7 +40,10 @@ My goal with this funding in Q3 2005 is to develop a new Uncomplicate library, C
 - assorted improvements to Uncomplicate, Neanderthal, Deep Diamond, to support these additions.  
 - develop examples for helping people getting started.  
 - related bugfixes.  
-- TESTS (of course!).
+- TESTS (of course!).  
+
+
+### AND NOW FOR THE REPORTS!
 
 ## Fireworks: Jeremiah Coyle  
 Q3 2025 $2K, Report No. 1, Published October 15, 2025  
@@ -167,12 +165,8 @@ The plan is to keep working on edge cases and improve how deep the compiler can 
 ## Uncomplicate Clojure ML: Dragan Duric  
 Q3 2025 $9K, Report No. 1, Published Sept. 30, 2025  
 
-# Clojure ML report 1
-
-## The proposal was:
+### The proposal was:
 My goal with this funding in Q3 2005 is to develop a new Uncomplicate library, ClojureML.  
-
-I propose to implement:  
 - a Clojure developer-friendly API for AI/DL/ML models (in the first iteration based on ONNX Runtime, but later refined to be even more general).  
 - Implement its first backend engine (based on ONNX Runtime).  
 - support relevant operations as Clojure functions.  
