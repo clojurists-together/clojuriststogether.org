@@ -2,12 +2,12 @@
 title: "Oct 2025 Short-Term Q3 Project Updates"
 date: 2025-010-21T14:00:00+12:00
 author: Kathy Davis
-summary: "News from Ambrose Bonnaire-Sergeant, Dragan Duric, Jeremiah Coyle, Jeaye Wilkerson, Roman Liutikov"
+summary: "News from Ambrose Bonnaire-Sergeant, Dragan Duric, Jeaye Wilkerson, Jeremiah Coyle, Roman Liutikov"
 draft: True
 
 
 ---
-This is the first project update for fice of our Q3 2025 Funded Projects. (Reports for the other one is on a different schedule). A brief summary of each project is included to provide overall context. Thanks everyone for your awesome work!  
+This is the first project update for five of our Q3 2025 Funded Projects. (Reports for the other one are on a different schedule). A brief summary of each project is included to provide overall context. Thanks everyone for your awesome work!  
 
 
 [Fireworks: Jeremiah Coyle](#fireworks-jeremiah-coyle)  
