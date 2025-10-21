@@ -45,6 +45,7 @@ My goal with this funding in Q3 2005 is to develop a new Uncomplicate library, C
 
 ### AND NOW FOR THE REPORTS!
 
+
 ## Fireworks: Jeremiah Coyle  
 Q3 2025 $2K, Report No. 1, Published October 15, 2025  
 
@@ -55,20 +56,16 @@ Summary of goals achieved in the first half of Q3:
 <br>
 
 **Primary goals**  
-
 -   Add support for automatic detection of the 3 levels of color support (16-color, 256-color, or Truecolor), using an approach similar to [Chalk](https://github.com/chalk/supports-color).<br>[#42](https://github.com/paintparty/fireworks/issues/42)<br>
 [Completed](https://github.com/paintparty/fireworks/pull/76)  
-  
   - Support call-site option to disable all truncation and ellipsis<br>
 [#14](https://github.com/paintparty/fireworks/issues/14)<br>
 [Completed](https://github.com/paintparty/fireworks/commit/d1232b7fe3d522f751009c2cccc8aeca87966d34)  
 
 <br>
-
 **Secondary goals**  
   - Allow for call-site changes to the label color for Fireworks output.<br>[#53](https://github.com/paintparty/fireworks/issues/53)<br>
 [Completed](https://github.com/paintparty/fireworks/pull/76)  
-
   - Add option to the produce bold Fireworks output.<br>[#70](https://github.com/paintparty/fireworks/issues/70)<br>
 [Completed](https://github.com/paintparty/fireworks/pull/76)  
 
@@ -96,24 +93,17 @@ Q3 2025 $9K, Report No. 1, Published October 16, 2025
 
 This month I finished some lingering work from earlier in the year, and it is
 now merged into Malli's main branch:  
-
 [Robust :and parser, add :andn](https://github.com/metosin/malli/pull/1182)  
-
 This work solves a tricky problem inherited from spec's original design.
 spec2-alpha provided a solution with its "non-flowing and" spec, but
 in [prototying a port to Malli](https://github.com/metosin/malli/pull/1167)
 we realized a "flowing and" schema was difficult to justify, where the parsing
 results are passed to the next conjunct's parser. On the other hand, parsing
 `:and` has many use cases.  I proposed instead we:  
-
 1. improve `:and` parsing to be more predictable and  
 2. introduce a new schema `:andn` which parses all its branches, but returns them all independently.  
 
-The solution to the first problem relies on a new extension point for schemas `m/-parser-info`
-which describes the parsing behavior of the schema. Simple schemas like `:int` and `:string`
-have _simple_ or _non-transforming_ parsers, and should return `{:simple-parser true}`. Compound schemas like `:orn`
-return tagged values from parsing that are different from their input, which we designate
-as _transforming_ parsers (and return `nil` or don't implement `m/-parser-info`).
+The solution to the first problem relies on a new extension point for schemas `m/-parser-info`which describes the parsing behavior of the schema. Simple schemas like `:int` and `:string` have _simple_ or _non-transforming_ parsers, and should return `{:simple-parser true}`. Compound schemas like `:orn` return tagged values from parsing that are different from their input, which we designate as _transforming_ parsers (and return `nil` or don't implement `m/-parser-info`).
 Other parsers are not as clear cut: `:or` is sometimes one or the other
 depending on its children, and most compound schemas inherit parsers from their children.
 This is why `m/-parser-info` is a function, not a static configuration.  
@@ -132,15 +122,9 @@ Our hope is that the parser analysis is precise enough that it only throws an er
 in genuinely problematic cases. So far there have been no reports of real-world problems,
 most notably against Metosin's codebase, though it is pre-release at the moment.  
 
-Follow-up work on [improving the parser analysis for regex schemas](https://github.com/metosin/malli/issues/1230)
-was identified after a fruitful discussion on the #malli Slack channel.  
-I also successfully used the new abstraction to build a [new schema classifier/linter](https://github.com/frenchy64/malli/pull/38)
-for identifying schemas that "roundtrip" with respect to `(comp (m/unparser s) (m/parser s))`.  
+Follow-up work on [improving the parser analysis for regex schemas](https://github.com/metosin/malli/issues/1230) was identified after a fruitful discussion on the #malli Slack channel. I also successfully used the new abstraction to build a [new schema classifier/linter](https://github.com/frenchy64/malli/pull/38) for identifying schemas that "roundtrip" with respect to `(comp (m/unparser s) (m/parser s))`.  
 
-[Malli's new maintainer Matti](https://clojurians.slack.com/archives/CLDK6MFMK/p1760417952597889)
-reached out to me to coordinate my next steps. We hope to merge some of my open PR's
-and then I will coordinate with community members on the details of the proposed project:
-an optimizer for Malli schemas.  <br>
+[Malli's new maintainer Matti](https://clojurians.slack.com/archives/CLDK6MFMK/p1760417952597889) reached out to me to coordinate my next steps. We hope to merge some of my open PR's and then I will coordinate with community members on the details of the proposed project: an optimizer for Malli schemas.  <br>
 
 ---
 
