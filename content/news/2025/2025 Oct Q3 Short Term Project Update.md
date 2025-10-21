@@ -1,9 +1,9 @@
 ---
-title: "Oct 2025 Short-Term Q3 Project Updates"
+title: "October 2025 Short-Term Q3 Project Updates"
 date: 2025-010-21T14:00:00+12:00
 author: Kathy Davis
 summary: "News from Ambrose Bonnaire-Sergeant, Dragan Duric, Jeaye Wilkerson, Jeremiah Coyle, Roman Liutikov"
-draft: True
+
 
 
 ---
@@ -52,8 +52,6 @@ Q3 2025 $2K, Report No. 1, Published October 15, 2025
 I'm happy to report that 2 of the primary goals and 2 of the secondary goals were achieved in the first half of Q3. The remainder of the primary goals will be prioritized for the second half of Q3, and hopefully there will be time to knockout the rest of the secondary goals. Many thanks to Clojurists Together for supporting this work!  
 
 Summary of goals achieved in the first half of Q3:  
-<br>
-
 **Primary goals**  
 -   Add support for automatic detection of the 3 levels of color support (16-color, 256-color, or Truecolor), using an approach similar to [Chalk](https://github.com/chalk/supports-color).<br>[#42](https://github.com/paintparty/fireworks/issues/42)<br>
 [Completed](https://github.com/paintparty/fireworks/pull/76)  
