@@ -1,8 +1,8 @@
 ---
 title: "October 2025 Short-Term Q3 Project Updates"
-date: 2025-010-21T14:00:00+12:00
+date: 2025-10-21T14:00:00+12:00
 author: Kathy Davis
-summary: "News from Ambrose Bonnaire-Sergeant, Dragan Duric, Jeaye Wilkerson, Jeremiah Coyle, Roman Liutikov"
+summary: "News from Ambrose Bonnaire-Sergeant, Dragan Duric, Jeaye Wilkerson, Jeremiah Coyle, Roman Liutikov"  
 
 
 
