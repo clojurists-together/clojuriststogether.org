@@ -52,7 +52,6 @@ Q3 2025 $2K, Report No. 1, Published October 15, 2025
 I'm happy to report that 2 of the primary goals and 2 of the secondary goals were achieved in the first half of Q3. The remainder of the primary goals will be prioritized for the second half of Q3, and hopefully there will be time to knockout the rest of the secondary goals. Many thanks to Clojurists Together for supporting this work!  
 
 Summary of goals achieved in the first half of Q3:  
-
 <br>
 
 **Primary goals**  
