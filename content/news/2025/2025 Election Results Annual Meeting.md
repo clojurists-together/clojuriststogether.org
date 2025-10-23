@@ -3,7 +3,7 @@ title: "2025 Board Election Results. Annual Meeting October 29. "
 date: 2025-10-23T14:09:25+12:00
 author: Kathy Davis
 summary: Reminder Annual Meeting 29 October 10 am PT.
-draft: True
+
 ---
 
 ## 2025 Board Election Results  
