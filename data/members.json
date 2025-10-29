@@ -619,11 +619,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Emin Hasanov",
-    "member_type" : "developer",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Daniel Slutsky",
     "member_type" : "developer",
     "level" : "contributing",
@@ -809,11 +804,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Sergey Pariev",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Henning Jansen",
     "member_type" : "developer",
     "level" : "developer",
@@ -974,11 +964,6 @@
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "Logan Rios",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Miro Bezjak",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1116,6 +1101,6 @@
   } ],
   "member_stats" : {
     "company" : 42,
-    "developer" : 161
+    "developer" : 158
   }
 }
