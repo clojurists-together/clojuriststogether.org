@@ -61,9 +61,11 @@ Summary of goals achieved in the first half of Q3:
 
 <br>
 **Secondary goals**  
-  - Allow for call-site changes to the label color for Fireworks output.<br>[#53](https://github.com/paintparty/fireworks/issues/53)<br>
+  - Allow for call-site changes to the label color for Fireworks output.  
+  [#53](https://github.com/paintparty/fireworks/issues/53)  
 [Completed](https://github.com/paintparty/fireworks/pull/76)  
-  - Add option to the produce bold Fireworks output.<br>[#70](https://github.com/paintparty/fireworks/issues/70)<br>
+  - Add option to the produce bold Fireworks output.  
+  [#70](https://github.com/paintparty/fireworks/issues/70)  
 [Completed](https://github.com/paintparty/fireworks/pull/76)  
 
 <br>
