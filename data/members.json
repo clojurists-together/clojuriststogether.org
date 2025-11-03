@@ -699,11 +699,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Fed Reggiardo",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Julien Bille",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1101,6 +1096,6 @@
   } ],
   "member_stats" : {
     "company" : 42,
-    "developer" : 158
+    "developer" : 157
   }
 }
