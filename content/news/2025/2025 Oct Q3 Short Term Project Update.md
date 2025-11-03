@@ -53,20 +53,14 @@ I'm happy to report that 2 of the primary goals and 2 of the secondary goals wer
 
 Summary of goals achieved in the first half of Q3:  
 **Primary goals**  
--   Add support for automatic detection of the 3 levels of color support (16-color, 256-color, or Truecolor), using an approach similar to [Chalk](https://github.com/chalk/supports-color).<br>[#42](https://github.com/paintparty/fireworks/issues/42)  
-[Completed](https://github.com/paintparty/fireworks/pull/76)  
-  - Support call-site option to disable all truncation and ellipsis  
-[#14](https://github.com/paintparty/fireworks/issues/14)  
-[Completed](https://github.com/paintparty/fireworks/commit/d1232b7fe3d522f751009c2cccc8aeca87966d34)  
+-   Add support for automatic detection of the 3 levels of color support (16-color, 256-color, or Truecolor), using an approach similar to [Chalk](https://github.com/chalk/supports-color).[#42](https://github.com/paintparty/fireworks/issues/42) [Completed](https://github.com/paintparty/fireworks/pull/76)   
+  - Support call-site option to disable all truncation and ellipsis  [#14](https://github.com/paintparty/fireworks/issues/14) [Completed](https://github.com/paintparty/fireworks/commit/d1232b7fe3d522f751009c2cccc8aeca87966d34)  
 
 <br>
+
 **Secondary goals**  
-  - Allow for call-site changes to the label color for Fireworks output.  
-  [#53](https://github.com/paintparty/fireworks/issues/53)  
-[Completed](https://github.com/paintparty/fireworks/pull/76)  
-  - Add option to the produce bold Fireworks output.  
-  [#70](https://github.com/paintparty/fireworks/issues/70)  
-[Completed](https://github.com/paintparty/fireworks/pull/76)  
+  - Allow for call-site changes to the label color for Fireworks output.  [#53](https://github.com/paintparty/fireworks/issues/53) [Completed](https://github.com/paintparty/fireworks/pull/76)  
+  - Add option to the produce bold Fireworks output.  [#70](https://github.com/paintparty/fireworks/issues/70) [Completed](https://github.com/paintparty/fireworks/pull/76)  
 
 <br>
 
