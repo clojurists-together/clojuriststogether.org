@@ -274,13 +274,6 @@
     "level" : "assoc",
     "founding" : false
   }, {
-    "name" : "QA Wolf, Inc",
-    "member_type" : "company",
-    "url" : "https://www.qawolf.com",
-    "logo" : null,
-    "level" : "into",
-    "founding" : false
-  }, {
     "name" : "Fincite Management BV",
     "member_type" : "company",
     "url" : "https://fincite.nl",
@@ -1095,7 +1088,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 42,
+    "company" : 41,
     "developer" : 157
   }
 }
