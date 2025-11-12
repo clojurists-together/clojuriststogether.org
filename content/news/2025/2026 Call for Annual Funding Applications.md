@@ -15,7 +15,7 @@ We’ve been excited with what they came up with in the last few years and are l
 ### PROCESS
 **Apply:** Anyone interested in receiving annual funding submits the [application](https://forms.gle/tGGTSteAbwENCHgq6) outlining what they intend to work on and how that work will benefit the Clojure community.  **The deadline for applications is Nov. 25th, 2025 midnight Pacific Time. Please note that past grantees must re-apply each year.**  
 
-**Board Review:** The Clojurists Together board will review the applications and select finalists to present to the members by **Dec. 3rd**. We expect to award funding of $1,500 US per month to 5 developers in 2026.  
+**Board Review:** The Clojurists Together board will review the applications and select finalists to present to the members by **Dec. 3rd**.  
 
 **Members Vote:** The final ballot will go out to members using a [Ranked Vote](https://www.rankedvote.co/guides/understanding-ranked-choice-voting/how-does-ranked-choice-voting-work) election to determine the final recipients. As always, your input and participation is important and helps make Clojurists Together effective by ensuring members’ voices inform the work undertaken. **Deadline Dec. 12, 2025 midnight Pacific time**. 
 
