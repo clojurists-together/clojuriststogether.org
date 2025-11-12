@@ -8,7 +8,7 @@ draft: True
 
 Greetings folks!
 
-Thanks to our members' generous support, this is the 5th year we we will be awarding annual funding - a $1,500 US monthly stipend to 5 developers. In the past 4 years, we have seen that giving developers flexible, long-term funding gives them the space to do high-impact work. This might be continuing maintenance on existing projects, new feature development, or perhaps a brand-new project. 
+Thanks to our members' generous support, this is the 5th year we we will be awarding annual funding to 5 developers - paid in twelve $1,500 monthly stipends (for a total of $90,000 USD). In the past 4 years, we have seen that giving developers flexible, long-term funding gives them the space to do high-impact work. This might be continuing maintenance on existing projects, new feature development, or perhaps a brand-new project. 
 
 We’ve been excited with what they came up with in the last few years and are looking forward to seeing more great work in 2026! Thanks all and good luck! 
 
