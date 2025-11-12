@@ -3,7 +3,7 @@ title: "Call for Applications: 2026 Annual Funding"
 date: 2025-11-12T08:30:00+08:00
 summary: "We will award $1.5K monthly stipends to 5 developers. "
 author: Kathy Davis  
-draft: True
+
 ---  
 
 Greetings folks!
