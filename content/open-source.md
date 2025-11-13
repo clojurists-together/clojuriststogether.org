@@ -7,7 +7,9 @@ type: page
 
 ## Quarterly Fellowships
 
-Every three months, Clojurists Together takes applications from open source developers for funding to work on open source projects. The Clojurists Together [committee](/team) then evaluates the proposals, makes their selection, and then funds projects with a fellowship. The fellowship can be taken over one to twelve months. You can apply at any time for the next funding cycle, and you can make multiple applications for different projects.
+Clojurists Together takes applications from open source developers for funding to work on open source projects. While the projects typically span 3 months, they can run one to twelve months. The number of award cycles and projects funded as well as the amount paid can vary depending on the availability of funding.  
+
+We conduct regular surveys of the Clojure community prior to scheduling a funding round to inform developers' submissions. Then we announce a call for proposals along with the survey results, funding levels, and the schedule for submission, review and award. The Clojurists Together [committee](/team) evaluates the proposals, makes their selection, and then funds projects with a fellowship.  You can apply at any time for the next funding cycle, and you can make multiple applications for different projects. We also re-enter submissions that were not awarded funding into two subsequent cycles - giving your proposal additional opportunities for consideration.  
 
 Once selected for a fellowship, you have two months to start it.
 
@@ -20,10 +22,12 @@ Once selected for a fellowship, you have two months to start it.
 We currently have three levels of fellowships:
 
 * $1k/$2k fellowships for smaller/more experimental projects. These can last up to three months.
-* $9k fellowships for larger projects. The work for these fellowships can be done over 1-12 months, rather than needing to do them in a fixed 3-month period.
-* $1.5k/month for 12 months. Recipients of these long-term fellowships don't need to submit a proposal, we just fund them to continue the great work they're already doing. Clojurists Together members will vote on which developers receive these fellowships.
+* $9k fellowships for larger projects. The work for these fellowships can be done over 1-12 months, rather than needing to do them in a fixed 3-month period.  
 
-The number of projects funded in each cycle and the amount paid for each fellowship may vary depending on member support, and project requirements. Successful projects will know in advance of starting how much they will be paid.
+### Annual Funding
+* $1.5k/month for 12 months. Towards the end of the year, Clojurists Together issues a call for applications from developers. We have seen that giving developers flexible, long-term funding gives them the space to do high-impact work. This might be continuing maintenance on existing projects, new feature development, or perhaps a brand-new project. The committee reviews the applications and issues a ballot to the members who then vote on final awardees based on Ranked Voting process. The number of awardees varies depending on funding available.  
+
+ 
 ### Application Requirements
 
 - You are a maintainer of the project, i.e. you have commit access to the project, or the others that work on the project recognise you as a maintainer.
