@@ -19,13 +19,13 @@ Once selected for a fellowship, you have two months to start it.
 
 ### Funding amounts
 
-We currently have three levels of fellowships:
+We currently have two levels of quarterly fellowships:
 
 * $1k/$2k fellowships for smaller/more experimental projects. These can last up to three months.
 * $9k fellowships for larger projects. The work for these fellowships can be done over 1-12 months, rather than needing to do them in a fixed 3-month period.  
 
 ### Annual Funding
-* $1.5k/month for 12 months. Towards the end of the year, Clojurists Together issues a call for applications from developers. We have seen that giving developers flexible, long-term funding gives them the space to do high-impact work. This might be continuing maintenance on existing projects, new feature development, or perhaps a brand-new project. The committee reviews the applications and issues a ballot to the members who then vote on final awardees based on Ranked Voting process. The number of awardees varies depending on funding available.  
+* The annual awards are typcally $1.5k/month ($18,000 year). Towards the end of the year, Clojurists Together issues a call for applications from developers seeking annual funding. We have seen that giving developers flexible, long-term funding gives them the space to do high-impact work. This might be continuing maintenance on existing projects, new feature development, or perhaps a brand-new project. The committee reviews the applications and issues a ballot to the members who then vote on final awardees based on Ranked Voting process. The number of awardees and the amount of the award varies depending on funding available.  
 
  
 ### Application Requirements
