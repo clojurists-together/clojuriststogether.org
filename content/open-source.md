@@ -107,29 +107,27 @@ We will then publish a list of all the projects that applied, along with the vot
 
 ### Project Reports
 
-Successful projects receiving $9k are required to submit six project reports during their fellowship. Experimental projects receiving $1k/$2k are required to submit three project reports. This is used to show backers the impact that their money is having. These don't need to be long or detailed (although writing additional blog posts about your work is encouraged), for example, a list of GitHub issues and a brief comment for each would be sufficient.
+Successful projects receiving $9k are required to submit three project reports during their fellowship. Experimental projects receiving $1k/$2k are required to submit two project reports. This is used to show backers the impact that their money is having. These don't need to be long or detailed (although writing additional blog posts about your work is encouraged), for example, a list of GitHub issues and a brief comment for each would be sufficient.
 
 ### Getting paid
 
 If your project is selected, we will create a contract based on your proposal This contract will include the amount to be paid, and the work intended to be done. We can fund maintainers anywhere in the world, barring exceptional circumstances like [US sanctions](https://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx). You will need to check with your accountant, but this contract is probably going to be similar to a freelancing contract, i.e. you will need to pay taxes on it.
 
-We pay out $9k fellowships in three installments, 1/3 on signature, 1/3 at the midway of the project, and 1/3 on completion of the project. Smaller fellowships may be paid over one or two instalments depending on the project.
+We pay out $9k fellowships in three installments, 1/3 on signature, 1/3 at the midway of the project, and 1/3 on completion of the project. Smaller fellowships may be paid over one or two installments depending on the project - but typically at the start and finish of the project. Payment is contingent on receiving project reports.
 
 ### Timeline
 
-Clojurists Together operates on a three month funding cycle, with four cycles per year. Feb-Apr, May-Jul, Aug-Oct, Nov-Jan. Project applications for the next funding cycle close one month before the cycle starts.
-
-Project applications may be submitted at any time. They are evaluated quarterly.
-
-An example timeline for the February-April funding cycle:
-
-- Anytime: submit an application
-- Mid January: Applications for February-April funding cycle close
-- Mid January: Funding decisions are returned
-- February 1: February-April funding cycle begins
-- February 15: Projects submit first project report
-- February 30: Payment for first month of work is made to projects. Projects submit second project report
-- March 15: Projects submit third project report
-- March 30: Payment for second month of work is made to projects. Projects submit fourth project report
-- April 15: Projects submit forth project report
-- April 30: Final payment for third month of work is made to projects. Projects submit final project report
+An example timeline for quarterly fellowships:
+Q2 (March, April, May) $9K Fellowship  
+- Anytime: submit an application  
+- Early January: Survey goes out to Clojure Community. 
+- Mid January: Call for proposals - with survey results, award details, and schedule  
+- February 1: Proposal deadline for Q2 review. Committee reviews and votes.  
+- February 10: Fellowships announced.  
+- Febrary 11-25: Contracts, payment and tax requirements complete, project scheduling set-up.    
+- March 1: Payment for first month of work is made to projects.  
+- March 30: Projects submit first project reports.  
+- April 15: 2nd Payment is made (contingent on Report 1).  
+- April 30: Projects submit second project report.  
+- May 31: Final Project Report.  
+- June 1: 3rd Payment is made (contingent on Report 2 & 3)
