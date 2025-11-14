@@ -3,7 +3,7 @@ title: "November 2025 Short-Term Q3 Project Updates"
 date: 2025-11-14T14:00:00+12:00
 author: Kathy Davis
 summary: "News from Ambrose Bonnaire-Sergeant, Dragan Duric, Jeaye Wilkerson" 
-draft: True  
+
 
 
 ---
