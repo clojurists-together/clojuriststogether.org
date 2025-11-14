@@ -727,11 +727,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Aleksander S",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Avi Flax",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1089,6 +1084,6 @@
   } ],
   "member_stats" : {
     "company" : 41,
-    "developer" : 157
+    "developer" : 156
   }
 }
