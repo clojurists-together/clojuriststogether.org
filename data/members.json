@@ -1077,13 +1077,18 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Fücher",
+    "name" : "Arthur Fücher",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Chase Lambert",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
   } ],
   "member_stats" : {
     "company" : 41,
-    "developer" : 156
+    "developer" : 157
   }
 }
