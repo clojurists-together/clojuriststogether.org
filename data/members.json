@@ -1086,9 +1086,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Emma Griffin",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 41,
-    "developer" : 157
+    "developer" : 158
   }
 }
