@@ -302,6 +302,13 @@
     "level" : "assoc",
     "founding" : false
   }, {
+    "name" : "Tenkekraft",
+    "member_type" : "company",
+    "url" : "https://www.tenkekraft.no",
+    "logo" : null,
+    "level" : "assoc",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1057,11 +1064,6 @@
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "Louis Jackman",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Debidda",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1082,13 +1084,23 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Fücher",
+    "name" : "Arthur Fücher",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Chase Lambert",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Emma Griffin",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 41,
-    "developer" : 157
+    "company" : 42,
+    "developer" : 158
   }
 }
