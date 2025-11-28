@@ -302,6 +302,13 @@
     "level" : "assoc",
     "founding" : false
   }, {
+    "name" : "Tenkekraft",
+    "member_type" : "company",
+    "url" : "https://www.tenkekraft.no",
+    "logo" : null,
+    "level" : "assoc",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1093,7 +1100,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 41,
+    "company" : 42,
     "developer" : 158
   }
 }
