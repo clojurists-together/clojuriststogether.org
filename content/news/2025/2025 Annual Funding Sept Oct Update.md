@@ -58,11 +58,11 @@ and it seems to me that Clojure programmers are quite eager to learn how to appl
 
 In these last 2 months I mainly focused on ECA development and related projects and improvements along with my Clojure Conj talk that's coming this week, excited for it!  
 
-## [eca](https://github.com/editor-code-assistant/eca)  
+### [eca](https://github.com/editor-code-assistant/eca)  
 ECA (Editor Code Assistant) is a OpenSource, free, standardized server written in Clojure to make any editor have AI features like Cursor, Continue, Claude and others.  
 There were so many releases and changes to ECA making it way more stable, with new features and fixing lots of bugs, especially with way more people using it daily and contributing!  
 
-### 0.44.0 - 0.78.1  
+#### 0.44.0 - 0.78.1  
 **Most important changes:**  
 - __Hooks support__: This makes ECA one of the few opensource public tools with high customizable hooks support, hooks allow users to react to certain events like pre or post request or tool call.  
 - __Rewrite__: A new brand feature allowing to select a code and tell LLM to do something.  
@@ -231,7 +231,7 @@ There were so many releases and changes to ECA making it way more stable, with n
 - Improve error feedback when failed to renew token.  
 - Support `deny` tool calls via `toolCall approval deny` setting.  
 
-## [clojure-lsp](https://clojure-lsp.io/)  
+### [clojure-lsp](https://clojure-lsp.io/)  
 I worked together with @weavejester from cljfmt to fix some bugs and finally deliver vertical alignment of maps to Clojure via LSP!  
 I should release these changes when coming back from Conj.  <br>  
 
