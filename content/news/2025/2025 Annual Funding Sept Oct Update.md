@@ -290,7 +290,10 @@ Meetup. It went a bit too long at 45 minutes, so I have to shrink it almost by
 half for the Conj. The more I work on the talk the more ideas come up, so it's
 challenging!  
 
-<img src="assets/dutch-clojure-meetup-october-2025.jpg" width="50%" align="center" alt="presentation at Dutch Clojure meetup">
+<img width="445" height="414" alt="image" src="https://github.com/user-attachments/assets/fe19fe55-ed04-4645-aaee-6466580aa719" />  
+
+Presentation at Dutch Clojure meetup in October 2025.
+
 
 Of course I spent a ton of time on OSS the past two months as well.
 Some special mentions:  
