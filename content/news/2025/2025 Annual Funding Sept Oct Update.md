@@ -12,7 +12,7 @@ Hello Fellow Clojurists!
 This is the fifth report from the 5 developers receiving Annual Funding in 2025. Thanks everyone for the fantastic work! 
 
 
-[Dragan Duric](#dragan-duric): Clojure ML, Clojure CUDA, Neanderthal, Deep Diamond, Commons   
+[Dragan Đjurić](#dragan-djurić): Clojure ML, Clojure CUDA, Neanderthal, Deep Diamond, Commons   
 [Eric Dallo](#eric-dallo): ECA, clojure-lsp  
 [Michiel Borkent](#michiel-borkent): Eucalypt, Reagent, Squint, babashka, and more...  
 [Oleksandr Yakushev](#oleksandr-yakushev): CIDER, nREPL, JDK25  
@@ -20,7 +20,7 @@ This is the fifth report from the 5 developers receiving Annual Funding in 2025.
 
 
 
-## Dragan Duric  
+## Dragan Đjurić    
 2025 Annual Funding Report 5. Published November 9, 2025.  
 
 My goal with this funding in 2025 is to support Apple silicon (M cpus) in Neanderthal
