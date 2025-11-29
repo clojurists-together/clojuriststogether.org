@@ -23,6 +23,8 @@ Below are some highlights for work done in August through October:
 Though after October, I enjoyed the opportunity to chat with Clojars users at Clojure/Conj in Charlotte, NC! It was great to see old friends and make some new ones!  
 
 **You can find earlier updates re Clojar fixes and updates here:**
-[March - July 2025]()
+[March - July 2025](https://www.clojuriststogether.org/news/august-2025-clojars-support-and-q2-project-updates/)  
+
+
 
 
