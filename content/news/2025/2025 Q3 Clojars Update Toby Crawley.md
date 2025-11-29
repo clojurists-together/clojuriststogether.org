@@ -1,5 +1,5 @@
 ---
-title: "Clojars Maintenance & Support: August-October Update"
+title: "Clojars Maintenance & Support: August-October 2025 Update"
 date: 2025-11-28T14:00:00+12:00
 author: Kathy Davis
 summary: Toby Crawley Reports on Clojars logs, fixes, and updates   
