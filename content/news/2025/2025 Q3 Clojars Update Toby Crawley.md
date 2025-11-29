@@ -2,7 +2,7 @@
 title: "Clojars Maintenance & Support: August-October Update"
 date: 2025-11-28T14:00:00+12:00
 author: Kathy Davis
-summary: Toby Crawley's Report on Clojars logs, fixes, and updates   
+summary: Toby Crawley Reports on Clojars logs, fixes, and updates   
 
 
 ---
