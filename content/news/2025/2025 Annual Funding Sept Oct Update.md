@@ -12,11 +12,11 @@ Hello Fellow Clojurists!
 This is the fifth report from the 5 developers receiving Annual Funding in 2025. Thanks everyone for the fantastic work! 
 
 
-[Dragan Duric](#dragan-duric): Apple M Engine Neanderthal, Deep Diamond CPU   
-[Eric Dallo](#eric-dallo): ECA, clojure-lsp, clojure-lsp-intellij  
-[Michiel Borkent](#michiel-borkent): clj-kondo, babashka, SCI, clj-kondo, scittle, and more...  
-[Oleksandr Yakushev](#oleksandr-yakushev): CIDER, clj-async-profiler, nREPL   
-[Peter Taoussanis](#peter-taoussanis): Sente, Truss, Trove, Telemere  
+[Dragan Duric](#dragan-duric): Clojure ML, Clojure CUDA, Neanderthal, Deep Diamond, Commons   
+[Eric Dallo](#eric-dallo): ECA, clojure-lsp  
+[Michiel Borkent](#michiel-borkent): Eucalypt, Reagent, Squint, babashka, and more...  
+[Oleksandr Yakushev](#oleksandr-yakushev): CIDER, nREPL, JDK25  
+[Peter Taoussanis](#peter-taoussanis): Sente, Tempel, Carmine  
 
 
 
@@ -532,7 +532,7 @@ Hi everyone, hope you've all been well! 👋 Almost the end of another year, unb
 ### Recent work  
 > (See [here](https://www.taoensso.com/news#open-source) for all releases)  
 
-#### Sente  
+### Sente  
 > [Sente](https://www.taoensso.com/sente) provides an easy-to-use abstraction over WebSockets and AJAX to help write realtime web apps with Clj and Cljs.  
 Sente v1.21 is [now out](https://github.com/taoensso/sente/releases/tag/v1.21.0)!  
 
@@ -543,7 +543,7 @@ This is a **major release** with plenty of new features, performance improveme
 - Decreased dependency size  
 - Pluggable un+structured logging via [Trove](https://www.taoensso.com/trove)  
 
-#### Tempel  
+### Tempel  
 > [Tempel](https://www.taoensso.com/tempel) is a new high-level data security framework for Clojure  
 After an extended release candidate period, Tempel [v1 is finally out](https://github.com/taoensso/tempel/releases/tag/v1.0.0)!  
 
@@ -559,7 +559,7 @@ I'm proud of how Tempel came out, and my hope is that it might be a practical an
 
 There's a 36 min [demo video](https://www.youtube.com/watch?v=sULZVFhR848) (36m) that showcases some if the main functionality.  
 
-#### Carmine  
+### Carmine  
 > [Carmine](https://www.taoensso.com/carmine) is a mature, idiomatic [Redis](https://www.redis.io) for Clojure  
 
 Carmine [v3.5.0 is out now](https://github.com/taoensso/carmine/releases/tag/v3.5.0), the first major release in >1 year.  
@@ -574,12 +574,12 @@ It also includes the first publicly released (though experimental and undocument
 
 BTW for folks that might not have been following- Redis itself has had a lot of really cool developments recently. The new dev team seems to be doing a great job and has been [very productive](https://github.com/redis/redis/releases) re: new features and performance improvements. Salvatore (the original Redis author) is also actively [involved again](https://redis.io/blog/welcome-back-to-redis-antirez/), and introduced a very useful new [vector set type](https://redis.io/blog/announcing-vector-sets-a-new-redis-data-type-for-vector-similarity/) that’s a great fit for similarity searching against vectors produced by LLMs, etc.  
 
-#### Talk: Effective Open Source Maintenance Maintenance  
+### Talk: Effective Open Source Maintenance Maintenance  
 So I've been actively doing Clojure open source now for almost 14 years (cue clichés about time flying). I've made some observations in that time that I think might be useful, so I recorded a [talk on the subject](https://www.youtube.com/watch?v=IlV8R6k8XvY).  
 
 The focus is on better understanding some of the **emotional dynamics** of doing (esp. prolonged) open source work. The talk's directed at **OSS users** and includes actionable tips on how users can help **reduce creator burnout** in some small/simple ways.  
 
-#### Other stuff  
+### Other stuff  
 Lots of other small stuff, including minor releases for [Trove](https://www.taoensso.com/trove) (modern structured logging facade for Clj/s), and [http-kit](https://www.taoensso.com/http-kit) (lightweight HTTP server+client).  
 
 And of course the usual support on GitHub and Slack, etc. 👍  
@@ -591,14 +591,6 @@ And of course the usual support on GitHub and Slack, etc. 👍
   
 - First steps toward a big cleanup of [Encore](https://www.taoensso.com/encore) to make it smaller and/or more modular. This'll be the first step toward trying to improve Babashka support across more of my libs (esp. Telemere).  <br>
 
----
-
-## Toby Crawley   
-2025 Critical Infrastructure: Clojars Maintentance and Support  
-Published xxxx,xx  2025   
-
-Toby's report includes links to Clojars Changelogs for August through xxx 2025 as well as an overview of fixes and updates. He monitors community channels on a regular basis.  
-If you have any issues or questions about Clojars, you can find him in the [`#clojars` channel on the Clojurians Slack](https://clojurians.slack.com/archives/C0H28NMAS), or you can file an issue on the [main Clojars GitHub repository](https://github.com/clojars/clojars-web/issues/new/choose).  
 
 
 
