@@ -1,5 +1,5 @@
 ---
-title: "Annually-Funded Developers' and Clojars Update: Sept./Oct. 2025"
+title: "Annually-Funded Developers' Update: Sept./Oct. 2025"
 date: 2025-11-28T14:00:00+12:00
 author: Kathy Davis
 summary: "Dragan Duric, Eric Dallo, Michiel Borkent, Oleksandr Yakushev, Peter Taoussanis"  
