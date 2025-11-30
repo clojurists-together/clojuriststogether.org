@@ -2,7 +2,7 @@
 title: "Annually-Funded Developers' Update: July/August 2025"
 date: 2025-09-17T14:00:00+12:00
 author: Kathy Davis
-summary: "Dragan Duric, Eric Dallo, Michiel Borkent, Oleksandr Yakushev, Peter Taoussanis"  
+summary: "Dragan Djuric, Eric Dallo, Michiel Borkent, Oleksandr Yakushev, Peter Taoussanis"  
 
 
 ---
@@ -11,14 +11,14 @@ Hello Fellow Clojurists!
 This is the fourth report from the 5 developers receiving Annual Funding in 2025. 
 
 
-[Dragan Duric](#dragan-duric): Apple M Engine Neanderthal, Deep Diamond CPU   
+[Dragan Djuric](#dragan-djuric): Apple M Engine Neanderthal, Deep Diamond CPU   
 [Eric Dallo](#eric-dallo): ECA, clojure-lsp, clojure-lsp-intellij  
 [Michiel Borkent](#michiel-borkent): clj-kondo, babashka, SCI, clj-kondo, scittle, and more...  
 [Oleksandr Yakushev](#oleksandr-yakushev): CIDER, clj-async-profiler, nREPL   
 [Peter Taoussanis](#peter-taoussanis): Sente, Truss, Trove, Telemere  
 
 
-## Dragan Duric  
+## Dragan Djuric  
 2025 Annual Funding Report 4. Published September 4, 2025.  
 
 My goal with this funding in 2025 is to support Apple silicon (M cpus) in Neanderthal
