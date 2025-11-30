@@ -172,7 +172,7 @@ Pavlov is currently in alpha status. It is well tested (in Clojure) and has been
 2. [Program states can be programmatically navigated using datafy and nav](https://github.com/thomascothran/pavlov/blob/master/doc/navigating-bprograms.md)   
 3. [A portal-based program explorer, where you can point and click through program execution paths (including time travel)](https://github.com/thomascothran/pavlov/blob/master/doc/designing-business-programs-with-behavioral-threads.md#pavlov-program-explorer)  
 
-**However, there are a few things I'd like to do to get it to a stable release:**  
+**However, there are a few things I'd like to do to get it to a stable release:**
 1. Better testing with Clojurescript. While the Clojure test suite is comprehensive, the Clojurescript tests do not provide as much coverage.  
 2. Recipes document showing how to solve common problems with pavlov.   
 3. LLM instructions. Context7 has not been adequate in production, and LLMs need a bit more guidance.  
