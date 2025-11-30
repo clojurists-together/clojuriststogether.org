@@ -1,14 +1,14 @@
 ---
-title: "Vote on 2026 Annual Funding Applications"
+title: "Vote on 2026 Annual Funding"
 date: 2025-11-30T14:00:00+12:00
 author: Kathy Davis
-summary: "It Is Up To You to Decide Who Will Receive Funding. "  
+summary: "It Is Up To You to Decide Who Will Receive $18K per Year"  
 draft: True
 
 
 ---
 
-Greetings Clojurists Together Members! Last year, based on your feedback, we tried a new process to identify annual funding reciptients.  It was a vast improvement from years past, so this year we are using it again. 
+Greetings Clojurists Together Members! Last year, based on your feedback, we tried a new process to identify annual funding recipients.  It was a vast improvement from years past, so this year we are using it again. 
 
 We put out the call  - and we received 15 applications for you to consider. The board reviewed and voted to move all 15 to the 2026 Ranked Vote ballot. 
 
@@ -36,8 +36,9 @@ Here we go ..in alphabetical order (by last name)....
 [Tomasz Sulej](#tomasz-sulej)   
 [Peter Taoussanis](#peter-taoussanis)  
 [Jeaye Wilkerson](#jeaye-wilkerson)  
-[Oleksandr Yakushev](#oleksandr-yakushev)   
+[Oleksandr Yakushev](#oleksandr-yakushev)   <br>
 
+---
 
 ### Bozhidar Batsov  
 https://github.com/bbatsov
@@ -62,8 +63,7 @@ https://github.com/onbreath
 
 **What do you plan to work on throughout the year?**  
 
-**Clay**   
-https://github.com/scicloj/clay  
+[**Clay**](https://github.com/scicloj/clay)   
 
 Recently I've started to collaborate with people in the Scicloj-community on extending and improving Clay. Clay is superficially similar to other notebook environments, literate programming and visualization systems, but unique in that it acts as a companion to the REPL, situating itself in the workflow we're used to.  
 
@@ -91,7 +91,7 @@ Integrating Clay with Clojure dialects on runtimes that are used in scientific c
 Showcasing and extending the ecosystem of tools to make sense (and images!) of all our work.
 
 **Is there anything else you would like us to know?**   
-I have another, older GitHub account that shows I've been around for a while, though not as a prolific open source contributor, but great explorer: https://github.com/abp  <br>
+I have another, older GitHub account that shows I've been around for a while, though not as a prolific open source contributor, but [great explorer:](https://github.com/abp)  <br>
 
 ---
 
@@ -201,14 +201,13 @@ My [Clojure API for Snowflake:](https://github.com/alza-bitz/snowpark-clj)
 
 This project is non-commercial and open-source. I planned to develop and test it in collaboration with academics, data scientists and others in the Clojure community, in order to help solve real-world data challenges.  
 
-The aims are as stated in the readme, with specific focus on extending the [API coverage] (https://github.com/alza-bitz/snowpark-clj/blob/main/doc%2Fapi-coverage.md) and adding [features that are planned but not yet elaborated](https://github.com/alza-bitz/snowpark-clj/blob/main/.github/instructions/problem_statement_and_requirements.instructions.md#features-that-are-planned-but-have-not-yet-been-elaborated)  
+The aims are as stated in the readme, with specific focus on extending the [API coverage](https://github.com/alza-bitz/snowpark-clj/blob/main/doc%2Fapi-coverage.md) and adding [features that are planned but not yet elaborated](https://github.com/alza-bitz/snowpark-clj/blob/main/.github/instructions/problem_statement_and_requirements.instructions.md#features-that-are-planned-but-have-not-yet-been-elaborated)  
 
 Note: the build is only failing because my Snowflake license has expired.  
 
 
 **Why is this work important to the Clojure community?**  
-I recently wrote on Civitas concerning the extent of Clojure support for the popular on-cluster data tools and why it's important. In the article I also introduced my new Clojure API for [Snowflake:]  
-(https://clojurecivitas.github.io/data_engineering/support_for_popular_data_tools/snowflake.html)  
+I recently wrote on Civitas concerning the extent of Clojure support for the popular on-cluster data tools and why it's important. In the article I also introduced my new Clojure API for [Snowflake:](https://clojurecivitas.github.io/data_engineering/support_for_popular_data_tools/snowflake.html)  
 
 I believe these efforts are beneficial to Clojure because it puts the language in front of a different community and makes it more accessible in a space where it doesn't really have any visibility at the moment.  
 
