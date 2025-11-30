@@ -1,5 +1,5 @@
 ---
-title: "Vote on 2026 Long-Term Funding Applications"
+title: "Vote on 2026 Annual Funding Applications"
 date: 2025-11-30T14:00:00+12:00
 author: Kathy Davis
 summary: "It Is Up To You to Decide Who Will Receive Funding. "  
@@ -10,13 +10,13 @@ draft: True
 
 Greetings Clojurists Together Members! Last year, based on your feedback, we tried a new process to identify annual funding reciptients.  It was a vast improvement from years past, so this year we are using it again. 
 
-We put out the call  - and we received 15 thoughtful applications for you to consider. The board reviewed and voted to move all 15 to the 2026 Ranked Vote ballot. 
+We put out the call  - and we received 15 applications for you to consider. The board reviewed and voted to move all 15 to the 2026 Ranked Vote ballot. 
 
 Now it is up to you, the members, to select the 5 developers who will each receive $1,500 monthly stipends (for a total of $18K USD). **Be on the lookout for an email that contains the link to your Ranked Vote ballot.** Deadline for voting is **12 December 2025** midnight Pacific Time. 
 
 You can review past long-term project updates on our [website](https://www.clojuriststogether.org/news/) to get an idea of what past annual (or long-term) funding recipients have been able to accomplish with your support (pretty amazing!)
 
-Thanks again to all the members for making this happen. We know from our surveys that you and the larger Clojurist Community that receive our project updates refer to this work on a regular basis - xxx daily. This is a testament to its importance of these projects. 
+Thanks again to all the members for making this happen. We know from our surveys that you and the larger Clojurist Community that receive our project updates refer to this work on a regular basis - 83% daily or several times a week! This is a testament to its importance of these projects. 
 
 
 ### Deadline for your vote to be counted: December 12, 2025 Midnight Pacific Time  
@@ -163,14 +163,14 @@ Clojure Camp is now an incorporated non-profit (in Ontario, Canada). Ideally, th
 tmcothran@gmail.com  
 
 **What do you plan to work on throughout the year?**  
-I plan to work on pavlov: https://github.com/thomascothran/pavlov  
+I plan to work on [pavlov:](https://github.com/thomascothran/pavlov)    
 
-Pavlov is a functional implementation of behavioral programming, which is a programming paradigm invented by David Harel, the creator of statecharts. This ACM article is a good introduction to the idea: https://cacm.acm.org/research/behavioral-programming/  
+Pavlov is a functional implementation of behavioral programming, which is a programming paradigm invented by David Harel, the creator of statecharts. This [ACM article is a good introduction to the idea:]( https://cacm.acm.org/research/behavioral-programming/) 
 
 Pavlov is currently in alpha status. It is well tested (in Clojure) and has been reliable in production use. It has a number of useful features on top of the behavioral programming core:  
 1. A model checker that verifies safety properties (though not yet liveness properties)  
-2. Program states can be programmatically navigated using datafy and nav (https://github.com/thomascothran/pavlov/blob/master/doc/navigating-bprograms.md)   
-3. A portal-based program explorer, where you can point and click through program execution paths (including time travel) (https://github.com/thomascothran/pavlov/blob/master/doc/designing-business-programs-with-behavioral-threads.md#pavlov-program-explorer)  
+2. [Program states can be programmatically navigated using datafy and nav](https://github.com/thomascothran/pavlov/blob/master/doc/navigating-bprograms.md)   
+3. [A portal-based program explorer, where you can point and click through program execution paths (including time travel)](https://github.com/thomascothran/pavlov/blob/master/doc/designing-business-programs-with-behavioral-threads.md#pavlov-program-explorer)  
 
 **However, there are a few things I'd like to do to get it to a stable release:**  
 1. Better testing with Clojurescript. While the Clojure test suite is comprehensive, the Clojurescript tests do not provide as much coverage.  
@@ -188,7 +188,7 @@ Behavioral programming is, I believe, uniquely suited to Clojure. In part, this 
 
 But Clojure's functional and data-oriented approach solves a lot of problems with implementing behavioral programs. For example, the canonical implementation on the JVM relies on serializing threads. With Clojure, we represent behavioral threads as data. This opens the door to a lot of nice tooling, such as program explorer GUIs and durable execution.  
 
-I previously wrote an article expanding on this question here: https://thomascothran.tech/2024/10/a-new-paradigm/.  <br>
+I previously wrote an article expanding on this question [here:](https://thomascothran.tech/2024/10/a-new-paradigm/).  <br>
 
 ---
 
@@ -197,25 +197,25 @@ I previously wrote an article expanding on this question here: https://thomascot
  https://github.com/alza-bitz  
 
 **What do you plan to work on throughout the year?**  
-My Clojure API for Snowflake: https://github.com/alza-bitz/snowpark-clj  
+My [Clojure API for Snowflake:](https://github.com/alza-bitz/snowpark-clj)  
 
 This project is non-commercial and open-source. I planned to develop and test it in collaboration with academics, data scientists and others in the Clojure community, in order to help solve real-world data challenges.  
 
-The aims are as stated in the readme, with specific focus on extending the API coverage  https://github.com/alza-bitz/snowpark-clj/blob/main/doc%2Fapi-coverage.md and adding features that are planned but not yet elaborated https://github.com/alza-bitz/snowpark-clj/blob/main/.github/instructions/problem_statement_and_requirements.instructions.md#features-that-are-planned-but-have-not-yet-been-elaborated  
+The aims are as stated in the readme, with specific focus on extending the [API coverage] (https://github.com/alza-bitz/snowpark-clj/blob/main/doc%2Fapi-coverage.md) and adding [features that are planned but not yet elaborated](https://github.com/alza-bitz/snowpark-clj/blob/main/.github/instructions/problem_statement_and_requirements.instructions.md#features-that-are-planned-but-have-not-yet-been-elaborated)  
 
 Note: the build is only failing because my Snowflake license has expired.  
 
 
 **Why is this work important to the Clojure community?**  
-I recently wrote on Civitas concerning the extent of Clojure support for the popular on-cluster data tools and why it's important. In the article I also introduced my new Clojure API for Snowflake:  
-https://clojurecivitas.github.io/data_engineering/support_for_popular_data_tools/snowflake.html  
+I recently wrote on Civitas concerning the extent of Clojure support for the popular on-cluster data tools and why it's important. In the article I also introduced my new Clojure API for [Snowflake:]  
+(https://clojurecivitas.github.io/data_engineering/support_for_popular_data_tools/snowflake.html)  
 
 I believe these efforts are beneficial to Clojure because it puts the language in front of a different community and makes it more accessible in a space where it doesn't really have any visibility at the moment.  
 
 **Is there anything else you would like us to know?**   
 This proposal isn't strictly limited to Snowflake, the scope could most definitely include other on-cluster tools that I write about in my article. For example, I identified some key fixes and improvements for using Spark from Clojure, either to be made in the existing Geni library or in a completely new library:  
-1. Supporting Spark Connect: https://spark.apache.org/docs/latest/spark-connect-overview.html. This would reduce the complexity of using Spark SQL & Dataframe APIs directly from the Clojure REPL and also align with client usage for GoLang, Python, etc. I already did some investigation on this: https://github.com/zero-one-group/geni/issues/345  
-2. Supporting Databricks: https://github.com/zero-one-group/geni/issues/356   <br>
+1. Supporting [Spark Connect:](https://spark.apache.org/docs/latest/spark-connect-overview.html). This would reduce the complexity of using Spark SQL & Dataframe APIs directly from the Clojure REPL and also align with client usage for GoLang, Python, etc. I already did [some investigation on this:](https://github.com/zero-one-group/geni/issues/345)  
+2. Supporting [Databricks:](https://github.com/zero-one-group/geni/issues/356)   <br>
 
 ---
 
