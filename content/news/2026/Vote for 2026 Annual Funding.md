@@ -476,7 +476,7 @@ In short, my focus with this funding with Clojurists Together will have two main
    without experience (which is the majority of Clojure programmers) have a hard time using all these in organized way.  
    I hope to solve this with the unified website!  
 
-**Projects directly involved:** 
+**Projects directly involved:**  
 https://github.com/uncomplicate/diamond-onnxrt  
 https://github.com/uncomplicate/neanderthal  
 https://github.com/uncomplicate/deep-diamond  
