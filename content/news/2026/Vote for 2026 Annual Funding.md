@@ -373,7 +373,7 @@ I want to work on custom code actions, support for new clojure.java.javadoc lib,
 I want to help with guide and examples of metrics of your repl and how that can help companies understand developers REPL usage  
 
 **Why is this work important to the Clojure community?**  
-I believe those are really import tools for the developer, especially clojure-lsp and ECA which run in all major editors during daily programming. In my opinion, developer tools for programming are critical for user happiness with Clojure language, especially new users arriving in the Clojure land.  
+I believe those are really important tools for the developer, especially clojure-lsp and ECA which run in all major editors during daily programming. In my opinion, developer tools for programming are critical for user happiness with Clojure language, especially new users arriving in the Clojure land.  
 
 **Is there anything else you would like us to know?**   
 Thank you for the magnificent work you do!  <br>  
