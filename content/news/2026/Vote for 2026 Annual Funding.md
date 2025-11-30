@@ -390,11 +390,19 @@ https://dragan.rocks, https://github.com/uncomplicate
 My goal with this funding in 2026 is to continuously develop Clojure AI, ML, and high-performance
 ecosystem of Uncomplicate libraries (Neanderthal and many more), on Nvidia GPUs, Apple Silicon, and traditional PC.  
 
-In this year, I will also focus on writing tutorials on my blog and creating websites for the projects involved, which is something that I wanted for years, but didn't have time to do because I spent all time on programming.  
+In this year, I will also focus on writing tutorials on my blog and creating websites for the projects involved, which is something that I wanted for years, but didn't have time to do because I spent all time on programming.   
 
-Here's a word or two of how I hope to improve each of these libraries with Clojurists Together funding in 2026.  
+**This work will highly benefit the Clojure community** as this is THE AI ecosystem for Clojure,
+and supporting AI is arguably the main focus on probably all software platforms.
+Clojure has something to offer on that front, beyond just calling OpenAI API as a web service!
 
-**Neanderthal (Clojure's alternative to NumPy, on steroids)**  
+Uncomplicate grew to quite a few libraries (of which some are quite big; just Neanderthal is 28,000 lines of
+highly-condensed, aggresively macroized, and reusable code): Diamond ONNX Runtime, Neanderthal, Deep Diamond,
+ClojureCUDA, ClojureCPP, Apple Presets, ClojureCL, Fluokitten, Bayadera, Clojure Sound, and Commons.  
+
+Here's a word or two of how I hope to improve each of these libraries with Clojurists Together funding in 2026.   
+
+**Neanderthal (Clojure's alternative to NumPy, on steroids)**   
 In 2025, Neanderthal celebrated its 10th birthday. It started as a humble but fast matrix and vector library
 for Clojure, but after 10 years of relentless improvements, now it boasts a general matrix/vector/linear algebra API
 implemented by no less than 5(!) engines for CPUs, GPU (Nvidia CUDA), GPU (OpenCL: AMD, Intel, Nvidia), Apple Silicon (Accelerate),
@@ -402,7 +410,7 @@ and general CPU (OpenBLAS). And this is not a superficial support for the sake o
 engines support much more operations on exotic structures, and configuration options, than I've seen elsewhere.
 It has almost everything, but it doesn't (YET!) have a METAL-based engine for Apple GPUs. Let's work on that!  
 
-**Deep Diamond (the Clojure Tensor and Deep Learning library, not quite unlike PyTorch, but of different philosophy)**  
+**Deep Diamond (the Clojure Tensor and Deep Learning library, not quite unlike PyTorch, but of different philosophy)**   
 In 2019, I started Deep Diamond as a demo showcase for Neanderthal's capabilities as the foundation
 for high-performance number-crunching software. It quickly outgrew that, and became a general Tensor/Deep Learning
 API, implemented by several fast, native optimized, backends, that run on both CPUs and GPUs, across
@@ -412,7 +420,7 @@ Clojure libraries that do one job and do it well.
 
 Deep Diamond is quite capable, but it cries for a METAL-based engine for Apple GPUs, too.  
 
-**Diamond ONNX Runtime (the Clojure library for executing AI models)** 
+**Diamond ONNX Runtime (the Clojure library for executing AI models)**   
 This is the latest gem in Uncomplicate's store, and I developed it thanks to Clojurists Together
 funding in Q3 2025. Similarly to how I started Deep Diamond mainly as a teaching showcase for Neanderthal,
 I started this to show Clojure programmers how close we, Clojurists, are to the latest and shiniest AI stuff
@@ -426,7 +434,7 @@ Not only that this library is new, but the whole wider ecosystem exploded in the
 with the wide availability of open-weights model that you can run at home. So, lots of functionality
 is added upstream all the time, and I hope to be able to stay current and have the best and newest stuff in Clojure..  
 
-**ClojureCUDA (REPL-based low-level CUDA development)**
+**ClojureCUDA (REPL-based low-level CUDA development)**   
 Not many Clojurians may prefer to work with GPU directly, or to write their own kernels. Neither do I.
 But, this library is one of the un-celebrated workhorses that enables me to implement whatever I want
 in Neanderthal, Deep Diamond, and Diamond ONNX Runtime, instead of just trying to wrap whatever there
@@ -436,7 +444,7 @@ but then implement the missing parts yourself!
 As CUDA is receiving a steady stream of changes and improvements, I'd like to improve and extend
 ClojureCUDA to always be in top shape! It is not as easy as it seems to the casual onlooker.  
 
-**ClojureCPP (the gateway to native C++ libraries)**  
+**ClojureCPP (the gateway to native C++ libraries)**   
 From 20,000 feet, integrating a native library to JVM and Clojure may look straightforward.
 Oh, how wrong they are. Virtually every C++ library is a special kind of jungle, with its
 own structures, patterns and inventions. What might seem a minor technical detail might
@@ -482,10 +490,7 @@ https://github.com/uncomplicate/fluokitten
 **Why is this work important to the Clojure community?**  
 This will highly benefit the Clojure community as this is THE AI ecosystem for Clojure,
 and supporting AI is arguably the main focus on probably all software platforms.
-Clojure has something to offer on that front, beyond just calling OpenAI API as a web service!  
-
-Uncomplicate grew to quite a few libraries (of which some are quite big; just Neanderthal is 28,000 lines of
-highly-condensed, aggressively macro-ized, and reusable code): Diamond ONNX Runtime, Neanderthal, Deep Diamond, ClojureCUDA, ClojureCPP, Apple Presets, ClojureCL, Fluokitten, Bayadera, Clojure Sound, and Commons.  
+Clojure has something to offer on that front, beyond just calling OpenAI API as a web service!   
 
 **Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?**   
 I'm outside the USA and EU, but other than that I guess it's just the usual challenges of open-source developers worldwide.  
