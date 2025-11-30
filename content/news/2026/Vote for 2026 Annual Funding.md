@@ -500,7 +500,7 @@ Yes! Clojurists Together funding in the past years greatly helped me in making U
 siavashmohammady66  
 
 **What do you plan to work on throughout the year?**  
-Easy data dashboard builder like Shiny dashboards https://rstudio.github.io/shinydashboard/  + adding capability building dashboard using prompts.     
+Easy data dashboard builder like [Shiny dashboards](https://rstudio.github.io/shinydashboard/)  + adding capability building dashboard using prompts.     
 
 **Why is this work important to the Clojure community?**  
 Development productivity is essential for  adaptation of a language, as python & R has such a feature which make life simpler for their data-scientists, Clojure so needs to become a viable data-science alternative choice.  <br>
@@ -547,16 +547,16 @@ https://github.com/genmeblog
 **What do you plan to work on throughout the year?**  
 Here is the set of things I want to do in 2026:  
 
-[**fastmath](https://github.com/generateme/fastmath):** 
+**[fastmath](https://github.com/generateme/fastmath)**   
 • Document most of the functions and build more holistic documentation – it’s a really time consuming task, [current status:](https://generateme.github.io/fastmath/clay/)    
 • Validate crucial functions by increasing test coverage  
 • Implement GAM regression modelling as an enhancement of existing LM and GLM models. PoC is done.  
 
-[**Clojure2D](https://github.com/Clojure2D/clojure2d)**  
+**[Clojure2D](https://github.com/Clojure2D/clojure2d)**  
 • Extract a clojure2d.color namespace as a separate library  
 • Add a SVG drawing support. PoC is done.  
 
-[**cljplot](https://github.com/generateme/cljplot)**  
+**[cljplot](https://github.com/generateme/cljplot)**  
 • Revisit currently postponed cljplot library and start to refactor it to give it a new life, inc. the following things:  
     - Highly decouple chart processing pipeline making each step testable and easy to enhance
     - Better use of grammar of graphics concept  
