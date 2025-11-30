@@ -382,13 +382,14 @@ Thank you for the magnificent work you do!  <br>
 
 
 ### Dragan Djuric  
-https://dragan.rocks, https://github.com/uncomplicate  
+https://dragan.rocks, https://github.com/uncomplicate   
 
 **What do you plan to work on throughout the year?**  
 
-**Uncomplicate,  Neanderthal, Clojure AI and ML** 
+**Uncomplicate,  Neanderthal, Clojure AI and ML**   
 My goal with this funding in 2026 is to continuously develop Clojure AI, ML, and high-performance
 ecosystem of Uncomplicate libraries (Neanderthal and many more), on Nvidia GPUs, Apple Silicon, and traditional PC.  
+
 In this year, I will also focus on writing tutorials on my blog and creating websites for the projects involved, which is something that I wanted for years, but didn't have time to do because I spent all time on programming.  
 
 Here's a word or two of how I hope to improve each of these libraries with Clojurists Together funding in 2026.  
@@ -445,13 +446,13 @@ ClojureCPP! It is not as large as Neanderthal or Deep Diamond, but it is one of 
 that enables these upper level libraries stay on the 25,000 or 3,000 lines of code mark,
 instead of being 500,000 or 50,000, as many of their counterparts in other languages.  
 
-**Apple Presets (native JNI bindings for various Apple libraries)**
+**Apple Presets (native JNI bindings for various Apple libraries)**  
 Yup. To support Apple Silicon in Neanderthal and Deep Diamond I had to make these bindings,
 since there weren't any to "just" wrap. And to support more Apple high performance computing apis,
 I'll have to create additional bindings (for example, for METAL) and only then
 develop the Clojure part.  
 
-**Fluokitten, Bayadera, ClojureCL, Commons, Clojure Sound, etc.**
+**Fluokitten, Bayadera, ClojureCL, Commons, Clojure Sound, etc.**  
 These libraries will not be in focus in 2026., but will probably need some care and
 assorted improvements here and there.  
 
