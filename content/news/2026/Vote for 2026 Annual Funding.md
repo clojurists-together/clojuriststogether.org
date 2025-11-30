@@ -363,14 +363,14 @@ Very much appreciate the recent support from Clojurists Together for these proje
 ericdallo  
 
 **What do you plan to work on throughout the year?**  
-- **ECA (Editor Code Assistant)** - https://github.com/editor-code-assistant/eca  
+[**ECA (Editor Code Assistant)**](https://github.com/editor-code-assistant/eca)    
 This project was born 5 months ago (with clj-together's help!) and it's growing, there are so many improvements to this project related to features and parity with other big tools like Claude/Cursor, compatibility with more editors, fix and support community issues. 
 This AI tool is written in Clojure but works in any language which is huge for discoverability of Clojure community outside Clojure bubble, it has a lot of potential in my opinion, and projects for each editor to maintain and evolve.  
 
-- **Clojure-lsp** - https://github.com/clojure-lsp/clojure-lsp  
+[**Clojure-lsp**](https://github.com/clojure-lsp/clojure-lsp)    
 I want to work on custom code actions, support for new clojure.java.javadoc lib, improve java interop support like go to class locations, methods etc, lots of this would require me working in clj-kondo too  
 
-- **metrepl** - https://github.com/ericdallo/metrepl  
+[**metrepl**](https://github.com/ericdallo/metrepl)  
 I want to help with guide and examples of metrics of your repl and how that can help companies understand developers REPL usage  
 
 **Why is this work important to the Clojure community?**  
@@ -518,9 +518,7 @@ In 2024, with Clojurists Together support, we got the basics of layout figured o
 
 In 2026, I would like to iron out the underlying API model, so the fundamentals will become stable and Humble can be extended with just implementing more components. I also aim at production-grade multi-line text based on ICU and Harfbuzz, finalizing text inputs, and figuring out packaging. This should get Humble to the point where real-world applications can be built with it.  
 
-This will be accompanied by detailed progress reports describing the problem space and thinking process, in the form of regular blog posts.  
-
-https://github.com/humbleui/humbleui  
+This will be accompanied by detailed progress reports describing the problem space and thinking process, in the form of [regular blog posts.](https://github.com/humbleui/humbleui)    
 
 In addition to Humble, there’s a small amount of maintenance work with already existing projects like DataScript, clj-reload, Clojure+, fast-edn, Clojure Sublimed, and such.  
 
@@ -549,16 +547,16 @@ https://github.com/genmeblog
 **What do you plan to work on throughout the year?**  
 Here is the set of things I want to do in 2026:  
 
-**fastmath (https://github.com/generateme/fastmath):** 
-• Document most of the functions and build more holistic documentation – it’s a really time consuming task, current status:  https://generateme.github.io/fastmath/clay/  
+[**fastmath](https://github.com/generateme/fastmath):** 
+• Document most of the functions and build more holistic documentation – it’s a really time consuming task, [current status:](https://generateme.github.io/fastmath/clay/)    
 • Validate crucial functions by increasing test coverage  
 • Implement GAM regression modelling as an enhancement of existing LM and GLM models. PoC is done.  
 
-**Clojure2D (https://github.com/Clojure2D/clojure2d)**  
+[**Clojure2D](https://github.com/Clojure2D/clojure2d)**  
 • Extract a clojure2d.color namespace as a separate library  
 • Add a SVG drawing support. PoC is done.  
 
-**cljplot (https://github.com/generateme/cljplot)**  
+[**cljplot](https://github.com/generateme/cljplot)**  
 • Revisit currently postponed cljplot library and start to refactor it to give it a new life, inc. the following things:  
     - Highly decouple chart processing pipeline making each step testable and easy to enhance
     - Better use of grammar of graphics concept  
@@ -569,11 +567,11 @@ Here is the set of things I want to do in 2026:
 
 **Other**
 • Review and update the following libraries:  
-    - wadogo – scales for charts (https://github.com/scicloj/wadogo)
-    - fitdistr – distribution fitting / modelling (https://github.com/generateme/fitdistr)
-    - (optional) inferme – Bayesian inference library (https://github.com/generateme/inferme)  
+    - [wadogo – scales for charts](https://github.com/scicloj/wadogo)  
+    - [fitdistr – distribution fitting / modelling](https://github.com/generateme/fitdistr)  
+    - (optional) [inferme – Bayesian inference library](https://github.com/generateme/inferme)   
 • Continue an user support which I do online though Slack/Zulip chats.  
-• Prepare workshops and talks for incoming Clojure Jam / Clojure Creative Coding conference in April 2026 (https://clojurecivitas.github.io/scicloj/clojure_jam/clojure_jam_2026)  
+• Prepare workshops and talks for incoming Clojure Jam / [Clojure Creative Coding conference in April 2026](https://clojurecivitas.github.io/scicloj/clojure_jam/clojure_jam_2026)  
 • Build more Clojure Civitas notebooks showing Clojure2d capabilities.  
 
 
@@ -589,7 +587,7 @@ I'm a creator and maintainer of several projects in the mathematics, data scienc
 
 As a member of the Scicloj community I want to build much more awareness of these libraries, boost the quality and make better adoption of them in existing or future projects.  
 
-My other activities include also mentoring in the Scicloj open-source mentoring program: https://scicloj.github.io/docs/community/groups/open-source-mentoring/ 
+My other activities include also mentoring in the [Scicloj open-source mentoring program:](https://scicloj.github.io/docs/community/groups/open-source-mentoring/)  
 2026 funding will help me with to focus on two libraries which are require much more care and quality:   
 
 A fastmath is not only a pure math library but aims to be a complete toolset for doing fast scientific and numerical computing in Clojure. My personal goal is to bring the scope of SciPy (Python) or JuliaStats (Julia) suites. I believe that coverage is really high already but still needs a lot of work to validate and document all the functions.  
@@ -603,7 +601,7 @@ I believe a Clojurists Together support will help me to focus more on Clojure op
 No really. But I quit my current job (I'm on the C-level, management side in a software house) as of  January 2026 and I am trying  to switch to a Clojure programming side.  
 
 **Is there anything else you would like us to know?**   
-As a Scicloj member I would like to be more visible next year in various on/offline activities like conferences, meetups, jams etc. The first opportunity will be on the Clojure Jam 2026, https://scicloj.github.io/clojure-jam-2026/ where I plan to present details of fastmath/clojure2d libraries as a creative toolset and also host some workshop around the topic.  <br>
+As a Scicloj member I would like to be more visible next year in various on/offline activities like conferences, meetups, jams etc. The first opportunity will be on the [Clojure Jam 2026,](https://scicloj.github.io/clojure-jam-2026/) where I plan to present details of fastmath/clojure2d libraries as a creative toolset and also host some workshop around the topic.  <br>
 
 ---
 
@@ -638,7 +636,7 @@ And again, a big thanks to all the folks quietly keeping Clojurists Together run
 https://github.com/jeaye  
 
 **What do you plan to work on throughout the year?**  
-I will be working full-time on jank. https://github.com/jank-lang/jank  
+I will be working full-time on [jank.](https://github.com/jank-lang/jank)  
 
 jank's alpha release is going out in December 2025, which will lead us into a hectic start to 2026 as we'll be collecting/fixing as many bugs as we can. Meanwhile, I will be developing jank's build system for native system dependencies, improving stability, significantly improving performance, and adding the remaining features to achieve strong Clojure parity (records, protocols, futures, etc). Furthermore, I will be authoring the jank book, which will be a free standalone resource for learning jank (and Clojure), inspired by and very similar to the Rust book.  
 
