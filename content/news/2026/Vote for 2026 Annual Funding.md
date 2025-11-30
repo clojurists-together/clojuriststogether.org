@@ -160,7 +160,7 @@ Clojure Camp is now an incorporated non-profit (in Ontario, Canada). Ideally, th
 
 
 ### Thomas Cothran   
-tmcothran@gmail.com  
+https://github.com/thomascothran 
 
 **What do you plan to work on throughout the year?**  
 I plan to work on [pavlov:](https://github.com/thomascothran/pavlov)    
@@ -274,7 +274,6 @@ Goals for Fireworks in 2026:
 	- https://github.com/paintparty/fireworks/blob/main/docs/editors/cursive/cursive.md  
 	- https://github.com/paintparty/fireworks/blob/main/docs/editors/vscode/vscode.md  
 - Produce written and/or video documentation of my current live hot-reloading dev environment for JVM Clojure, with versions for both Leiningen and Deps. I recently got a PR merged that adds this to [test-refresh](https://github.com/jakemcc/test-refresh/pull/91).   
-  
 - For ClojureScript developers using Fireworks in a browser dev console, I made a dedicated Chrome extension to enable the setting of the Chrome DevTools console background and foreground color with a very nice GUI interface. Would be cool to get updated and also work in most other [Chromium-based browsers, and potentially Firefox, if there is any demand for it.](https://github.com/paintparty/fireworks?  tab=readme-ov-file#setting-the-background-color-and-font-in-chrome-devtools-clojurescript)    
 
 
@@ -283,11 +282,11 @@ Goals for Fireworks in 2026:
 
 Goals for Domo in 2026:  
 - Write quality docstrings with examples for all 82 public functions.  
-- Add simple validation and dev-time warnings for all public functions (very useful when working with the DOM). Make sure this code is elided for production builds so as not to add extra weight
+- Add simple validation and dev-time warnings for all public functions (very useful when working with the DOM). Make sure this code is elided for production builds so as not to add extra weight  
 - Continue to add useful utility functions as the need for them arises within the context of real-world project work.  
-- Add more tests to the existing browser test suite at in `starter.browser.browser-tests.cljs` namespace.
+- Add more tests to the existing browser test suite at in `starter.browser.browser-tests.cljs` namespace.  
 - The `starter.browser` namespace in the examples/browser dir currently serves as a quickstart and (exhaustive) API tour. I would like to get user feedback on this to determine its effectiveness/usefulness.    
-- Many of the core functions should “just work” as they are written in the context of a Squint project. I would like to make most, if not all of the public API available in Squint-land.  
+- Many of the core functions should “just work” as they are written in the context of a Squint project. I would like to make most, if not all of the public API available in Squint-land.   
 
 **Project #5 Lasertag**   
 [Lasertag is a utility for categorizing types of values in Clojure, ClojureScript, and Babaskha.](https://github.com/paintparty/lasertag)    
