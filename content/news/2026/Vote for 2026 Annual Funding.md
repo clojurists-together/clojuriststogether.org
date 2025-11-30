@@ -8,33 +8,35 @@ draft: True
 
 ---
 
-Greetings Clojurists Together Members! Last year, we tried a new process to determine who will receive a monthly stipend of $1,500 to support their development work. It was a vast improvement, so this year we are using it again. 
+Greetings Clojurists Together Members! Last year, based on your feedback, we tried a new process to identify annual funding reciptients.  It was a vast improvement from years past, so this year we are using it again. 
 
-We put out the call  - and we received 15 thoughtful applications for you to consider. The board reviewed and moved all 15 to the Ranked Vote ballot. Now it is up to you, the members, to select the 5 developers who will each receive $1,500 monthly stipends for a total of $18K USD. **Be on the lookout for an email that contains the link to your Ranked Vote ballot.** Deadline for voting is **12 December 2025** minight Pacific Time. 
+We put out the call  - and we received 15 thoughtful applications for you to consider. The board reviewed and voted to move all 15 to the 2026 Ranked Vote ballot. 
 
- You can review past long-term project updates on our [website](https://www.clojuriststogether.org/news/) to get an idea of what past annual (or long-term) funding recipients have been able to accomplish with your support (pretty amazing!)
+Now it is up to you, the members, to select the 5 developers who will each receive $1,500 monthly stipends (for a total of $18K USD). **Be on the lookout for an email that contains the link to your Ranked Vote ballot.** Deadline for voting is **12 December 2025** midnight Pacific Time. 
 
-Thanks again to all the members for making this happen. We know from our surveys that you and the larger Clojurist Community that receives our regular updates refer to this work on a regular basis - xxx daily. This is a testament to its importance of these projects. 
+You can review past long-term project updates on our [website](https://www.clojuriststogether.org/news/) to get an idea of what past annual (or long-term) funding recipients have been able to accomplish with your support (pretty amazing!)
+
+Thanks again to all the members for making this happen. We know from our surveys that you and the larger Clojurist Community that receive our project updates refer to this work on a regular basis - xxx daily. This is a testament to its importance of these projects. 
 
 
 ### Deadline for your vote to be counted: December xx, 2025 Midnight Pacific Time  
 
-Here we go ..in alphabetical order (by last name)....
-Bozhidar Batsov  
-Adrian Bendel  
-Michiel Borkent
-Clojure Camp (Rafal Dittwald, Jordan Miller, and others)
-Thomas Cothran
-Alex Coyle
-Jeremiah Coyle
-Eric Dallo
-Dragan Djuric
-Siavash Mohammady
-Nikita Prokopov
-Tomasz Sulej
-Jeaye Wilkerson
-Peter Taoussanis
-Oleksandr Yakushev
+Here we go ..in alphabetical order (by last name)....  
+Bozhidar Batsov   
+Adrian Bendel   
+Michiel Borkent  
+Clojure Camp (Rafal Dittwald, Jordan Miller, and others)  
+Thomas Cothran  
+Alex Coyle  
+Jeremiah Coyle  
+Eric Dallo  
+Dragan Djuric  
+Siavash Mohammady  
+Nikita Prokopov  
+Tomasz Sulej  
+Jeaye Wilkerson  
+Peter Taoussanis  
+Oleksandr Yakushev  
 
 
 ### Bozhidar Batsov  
@@ -152,7 +154,9 @@ https://clojure.camp
 Clojure Camp aims to help new Clojurians integrate into the Clojure community, particularly those who may be under-served by existing self-directed methods. We'd like to be the place for existing Clojurians to send anyone struggling with getting started with Clojure. Our current approach is to foster a welcoming community and provide educational scaffolding (pairing, events, resource lists, roadmap). Going forward, we hope to focus more on "connection": creating more opportunities for new Clojurians and existing Clojurians to interact and work together.  
 
 **Is there anything else you would like us to know?**   
-Clojure Camp is now an incorporated non-profit (in Ontario, Canada). Ideally, this funding would go to the organization, not to an individual.  
+Clojure Camp is now an incorporated non-profit (in Ontario, Canada). Ideally, this funding would go to the organization, not to an individual.  <br>
+
+---
 
 
 ### Thomas Cothran   
@@ -240,7 +244,7 @@ Interactive docs: https://kushi.design/
 Progress in 2025:  
 Thanks to the generous support of an experimental projects grant from Clojurists Together in Q3 of 2024, great progress was made towards the goal of delivering a rich, first class, Clojure(Script)-native UI framework for building and evolving web projects. That momentum was leveraged to maintain an increased focus on the project in Q1 of 2025, with an emphasis on refining the architecture and performance of the build system. In q2, I updated the design for the project splash page. I resumed work on the project in Q3 & Q4, concentrating on the Malli-driven runtime safety / warning system, as well as rethinking and implementing an improved shared property system for styling of the library of stock UI components.   
 
-Goals for Kushi in 2026:  
+**Goals for Kushi in 2026:**  
 1) Continued refinement of the build system. This part of the project has recently been re-written and evolved to efficiently precompile all css via source analyzation at build-time. The build system currently assumes shadow-cljs. I would like to keep it moving in the direction it is currently headed, towards a completely standalone side-process.  
 2) The styling story is very much evolving in a direction which promotes the tweaking of UI via making adjustments to Kushi’s well-thought-out design token system. In concert with the pre-built ui components, this means there is a reduced need for CSS and style syntax within components themselves.  
 3) Like most UI libs, Kushi is designed to be agnostic with regard to the underlying rendering framework. I am currently working towards providing a comprehensive quickstart kitchen-sink project for both Reagent and Uix.  
@@ -301,6 +305,7 @@ Goals for Lasertag in 2026:
 - Extensive coverage for all Java and Javascript types/classes  
 - Extensive test suite for all types and classes  
 - Make cool demo for usage in ClojureScript  
+
 
 **Why is this work important to the Clojure community?**  
 I believe work on these projects could benefit the Clojure community for the following reasons (listed out project-by-project):  
