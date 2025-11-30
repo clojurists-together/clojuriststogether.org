@@ -223,22 +223,19 @@ This proposal isn't strictly limited to Snowflake, the scope could most definite
  https://github.com/paintparty  
 
 **What do you plan to work on throughout the year?**  
-
 These are the 5 projects that I have been working on in 2025, and plan to continue working on in 2026. All are fairly mature alpha-stage projects.
 
-***Project #1 Bling***
-Bling provides hifi console printing for Clojure, ClojureScript, and Babashka.
-https://github.com/paintparty/bling
+**Project #1 Bling**  
+[Bling provides hifi console printing for Clojure, ClojureScript, and Babashka.](https://github.com/paintparty/bling)  
 Thanks to the generous support from Clojurists Together, I'm happy to report that a great deal of progress was made in Q2 of 2025. Building on the momentum, I would love to continue to grow and improvement the project going forward.  
 
-The 2026 Roadmap for Bling can be found here:
-https://github.com/paintparty/bling/blob/main/resources/docs/Bling-2026-roadmap.md  
+The 2026 Roadmap for Bling can be found [here:](https://github.com/paintparty/bling/blob/main/resources/docs/Bling-2026-roadmap.md)  
 
 
 **Project #2 - Kushi**  
 Kushi is UI design library for ClojureScript  
-Source repo: https://github.com/kushidesign/kushi  
-Interactive docs: https://kushi.design/  
+[Source repo:](https://github.com/kushidesign/kushi)   
+[Interactive docs:](https://kushi.design/)    
 
 Progress in 2025:  
 Thanks to the generous support of an experimental projects grant from Clojurists Together in Q3 of 2024, great progress was made towards the goal of delivering a rich, first class, Clojure(Script)-native UI framework for building and evolving web projects. That momentum was leveraged to maintain an increased focus on the project in Q1 of 2025, with an emphasis on refining the architecture and performance of the build system. In q2, I updated the design for the project splash page. I resumed work on the project in Q3 & Q4, concentrating on the Malli-driven runtime safety / warning system, as well as rethinking and implementing an improved shared property system for styling of the library of stock UI components.   
@@ -266,9 +263,8 @@ Thanks to the generous support of an experimental projects grant from Clojurists
 7) Browser-based interactive design tweaking, with round trip to file system. An initial spike was prototyped last year, and I have since been wanting to revisit the idea. Even a simple version of this that worked reliably could massively reduce iteration cycles when implementing a dense, highly-polished UI.  
 
 
-**Project #3 - Fireworks**
-Fireworks is a themeable tapping library and color pretty-printing engine.  
-https://github.com/paintparty/fireworks  
+**Project #3 - Fireworks**  
+[Fireworks is a themeable tapping library and color pretty-printing engine.](https://github.com/paintparty/fireworks)  
 
 Thanks to the generous support from Clojurists Together, I'm happy to report that a great deal of progress was made in Q3 of 2025. Building on the momentum, I would love to continue to grow and improve the project going forward.  
 
@@ -277,15 +273,13 @@ Goals for Fireworks in 2026:
 - Editor extensions/integrations have been created for Cursive and VSCode. Initial work has commenced on an Emacs integration. I would like to turn the existing VSCode Joyride user script into an actual VSCode extension, in order to provide an even smoother beginner experience.  
 	- https://github.com/paintparty/fireworks/blob/main/docs/editors/cursive/cursive.md  
 	- https://github.com/paintparty/fireworks/blob/main/docs/editors/vscode/vscode.md  
-- Produce written and/or video documentation of my current live hot-reloading dev environment for JVM Clojure, with versions for both Leiningen and Deps. I recently got a PR merged that adds this to test-refresh - https://github.com/jakemcc/test-refresh/pull/91.   
+- Produce written and/or video documentation of my current live hot-reloading dev environment for JVM Clojure, with versions for both Leiningen and Deps. I recently got a PR merged that adds this to [test-refresh](https://github.com/jakemcc/test-refresh/pull/91).   
   
-- For ClojureScript developers using Fireworks in a browser dev console, I made a dedicated Chrome extension to enable the setting of the Chrome DevTools console background and foreground color with a very nice GUI interface. Would be cool to get updated and also work in most other Chromium-based browsers, and potentially Firefox, if there is any demand for it.  
-    - https://github.com/paintparty/fireworks?  tab=readme-ov-file#setting-the-background-color-and-font-in-chrome-devtools-clojurescript  
+- For ClojureScript developers using Fireworks in a browser dev console, I made a dedicated Chrome extension to enable the setting of the Chrome DevTools console background and foreground color with a very nice GUI interface. Would be cool to get updated and also work in most other [Chromium-based browsers, and potentially Firefox, if there is any demand for it.](https://github.com/paintparty/fireworks?  tab=readme-ov-file#setting-the-background-color-and-font-in-chrome-devtools-clojurescript)    
 
 
 **Project #4 - Domo**  
-Domo is a modern ClojureScript DOM utility library.  
-https://github.com/kushidesign/domo  
+[Domo is a modern ClojureScript DOM utility library.](https://github.com/kushidesign/domo)    
 
 Goals for Domo in 2026:  
 - Write quality docstrings with examples for all 82 public functions.  
@@ -295,22 +289,21 @@ Goals for Domo in 2026:
 - The `starter.browser` namespace in the examples/browser dir currently serves as a quickstart and (exhaustive) API tour. I would like to get user feedback on this to determine its effectiveness/usefulness.    
 - Many of the core functions should “just work” as they are written in the context of a Squint project. I would like to make most, if not all of the public API available in Squint-land.  
 
-**Project #5 Lasertag** 
-Lasertag is a utility for categorizing types of values in Clojure, ClojureScript, and Babaskha.  
-https://github.com/paintparty/lasertag  
+**Project #5 Lasertag**   
+[Lasertag is a utility for categorizing types of values in Clojure, ClojureScript, and Babaskha.](https://github.com/paintparty/lasertag)    
 
 Goals for Lasertag in 2026:  
 - Solidify current public API  
 - Extensive coverage for all Java and Javascript types/classes  
 - Extensive test suite for all types and classes  
-- Make cool demo for usage in ClojureScript  
+- Make cool demo for usage in ClojureScript   
 
+ 
 
 **Why is this work important to the Clojure community?**  
 I believe work on these projects could benefit the Clojure community for the following reasons (listed out project-by-project):  
 
-**#1 - Bling**  
-https://github.com/paintparty/bling  
+[**#1 - Bling**](https://github.com/paintparty/bling)    
 
 Many mature language communities have a library for rich text printing in the terminal, for example Rich (Python), Chalk (JS), LipGloss (Go), etc.  
 
@@ -321,15 +314,11 @@ The most unique thing that Bling offers is a carefully curated palette of 11 bas
 Bling also offers two simple functions for creating "blocks" of text in the console. Check out the readme for exhaustive visual examples - These can be semantically colored (errors, warnings, info). Bling also offers a simple function for constructing a point-of-interest diagram, like when you want to call out the namespace, line, column and show some source code with a red squiggly underline. I think the Clojure community would benefit from more library authors adding neatly-formatted, actionable warning and error messages to their codebases. It would also be great if such warnings and messages where formatted in a way that loosely followed some set of conventions. Perhaps Bling could play a small role in fostering this within the Clojure community.  
 
 
-**#2 - Kushi**  
-https://kushi.design/  
-
+[**#2 - Kushi**](https://kushi.design/)    
 Kushi aims to provide a complete solution to the design layer of web UI projects.
 It is an ambitious project, but I believe there is an opportunity for Kushi to offer a UI dev experience that is unique and more compelling than any equivalent in any other language. This could lead to increased organizational awareness and consideration of ClojureScript as an attractive choice for building mission-critical UI. If more companies used ClojureScript to build UI, I think it would be very beneficial for the community.  
 
-**#3 - Fireworks**  
-https://github.com/paintparty/fireworks  
-
+[**#3 - Fireworks**](https://github.com/paintparty/fireworks)    
 Fireworks is the only lib to provide a colorizing and themeable pretty-printer that works beautifully in both Clojure and ClojureScript (and Babashka).  
 
 The output is, arguably, orders of magnitude faster and easier to read than equivalent output from clojure.pprint/pprint. This is especially true in the case of maps with data-structures as keys, or any kind of collection that features metadata.  
@@ -337,9 +326,7 @@ The output is, arguably, orders of magnitude faster and easier to read than equi
 The library also provides very powerful debugging and tapping macros. These macros provide a lightweight complement to discovery-centric, UI-heavy data exploration tools such as Portal and Flowstorm. With a simple hot-reloading setup in clj or cljs, and minimal editor integration (now available in Cursive and VSCode), Fireworks can drive an extremely compelling live-feedback dev experience without any reliance on a repl connection, or repl-related concepts. I think the continued codification, documentation, and demonstration of such a workflow could make a difference in the on-ramping of newcomers to Clojure. The maturation of this kind of workflow could also benefit existing users of similar community tools such as playback, debux, hashp, telemere, ken, spyscope, omni-trace, postmortem, and sayid.  
  
 
-**#4 - Domo**  
-https://github.com/kushidesign/domo  
-
+[**#4 - Domo**](https://github.com/kushidesign/domo)    
 This lib has been slow-cooking over a 3 years to serve various web projects, including Kushi.
 The syntax is very Clojure-y, and feels much nicer than writing gnarly JS interop code.
 To my knowledge, there are only a few ClojureScript DOM libs (Dommy, Enlive, Enfocus), and all were written 9-10 years ago.  
@@ -358,14 +345,13 @@ Compared to these libs, Domo offers even more specific functionality across 83 p
 - Helper for keyboard-based tab navigation  
 - & much, much more!  
 
-**#5 - Lasertag**  
-https://github.com/paintparty/lasertag  
-
+[**#5 - Lasertag**](https://github.com/paintparty/lasertag)    
 Lasertag is a utility library that was spun out of Fireworks. I believe it to be quite unique in the current landscape of cljc libraries that deal with reflection and categorization of values.  
 
 lasertag.core/tag-map makes it easy to get detailed information about values, particularly in the context of interop with Java or JavaScript.  
 
 I think that Lasertag could potentially offer great utility to rich-tooling projects developed in the Clojure community of the present and future.    
+
 
 **Is there anything else you would like us to know?**   
 Very much appreciate the recent support from Clojurists Together for these projects, would love to keep it going!  <br>
