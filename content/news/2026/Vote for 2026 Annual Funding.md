@@ -359,7 +359,7 @@ Very much appreciate the recent support from Clojurists Together for these proje
 
 
 ### Eric Dallo  
-ericdallo  
+https://github.com/ericdallo 
 
 **What do you plan to work on throughout the year?**  
 [**ECA (Editor Code Assistant)**](https://github.com/editor-code-assistant/eca)    
@@ -502,7 +502,7 @@ Yes! Clojurists Together funding in the past years greatly helped me in making U
 
 
 ### Siavash Mohammady  
-siavashmohammady66  
+https://github.com/siavashmohammady66 
 
 **What do you plan to work on throughout the year?**  
 Easy data dashboard builder like [Shiny dashboards](https://rstudio.github.io/shinydashboard/)  + adding capability building dashboard using prompts.     
