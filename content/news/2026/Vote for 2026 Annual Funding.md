@@ -593,7 +593,7 @@ A fastmath is not only a pure math library but aims to be a complete toolset for
 
 Clojure2d covers not only 2d drawing and binding to Java2d but also allow pixel manipulation, various pixel rendering methods and aims to cover all possible color manipulation functions including color space conversion, palette/gradient generation and colorimetry.  
 
-I believe a Clojurists Together support will help me to focus more on Clojure open source and community support which I’ve been doing for more than 8 years.  
+I believe support from  Clojurists Together will help me to focus more on Clojure open source and community support which I’ve been doing for more than 8 years.  
 
 
 **Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?**   
