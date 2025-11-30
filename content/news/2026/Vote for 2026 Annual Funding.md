@@ -19,24 +19,24 @@ You can review past long-term project updates on our [website](https://www.cloju
 Thanks again to all the members for making this happen. We know from our surveys that you and the larger Clojurist Community that receive our project updates refer to this work on a regular basis - xxx daily. This is a testament to its importance of these projects. 
 
 
-### Deadline for your vote to be counted: December xx, 2025 Midnight Pacific Time  
+### Deadline for your vote to be counted: December 12, 2025 Midnight Pacific Time  
 
 Here we go ..in alphabetical order (by last name)....  
-Bozhidar Batsov   
-Adrian Bendel   
-Michiel Borkent  
-Clojure Camp (Rafal Dittwald, Jordan Miller, and others)  
-Thomas Cothran  
-Alex Coyle  
-Jeremiah Coyle  
-Eric Dallo  
-Dragan Djuric  
-Siavash Mohammady  
-Nikita Prokopov  
-Tomasz Sulej  
-Jeaye Wilkerson  
-Peter Taoussanis  
-Oleksandr Yakushev  
+[Bozhidar Batsov](#bozhidar-batsov)   
+[Adrian Bendel](#adrian-bendel)   
+[Michiel Borkent](#michiel-borkent)  
+[Clojure Camp (Rafal Dittwald, Jordan Miller, and others)](#clojure-camp-rafal-dittwald-jordan-miller-and-others)  
+[Thomas Cothran](#thomas-cothran)  
+[Alex Coyle](#alex-coyle)  
+[Jeremiah Coyle](#jeremiah-coyle)  
+[Eric Dallo](#eric-dallo)  
+[Dragan Djuric](#dragan-djuric)   
+[Siavash Mohammady](#siavash-mohammady)   
+[Nikita Prokopov](#nikita-prokopov)   
+[Tomasz Sulej](#tomasz-sulej)   
+[Jeaye Wilkerson](#jeaye-wilkerson)  
+[Peter Taoussanis](#peter-taoussanis)  
+[Oleksandr Yakushev](#oleksandr-yakushev)   
 
 
 ### Bozhidar Batsov  
@@ -52,7 +52,7 @@ Most of the projects are hosted under the following GitHub orgs:
 - https://github.com/nrepl  
 
 **Why is this work important to the Clojure community?**  
-xxCIDER and nREPL are two of the pillars of the Clojure community and are widely used by Clojure developers. The libraries developed originally for CIDER (cider-nrepl, refactor-nrepl, orchard, etc) are used by many other development tools as well.  <br>
+CIDER and nREPL are two of the pillars of the Clojure community and are widely used by Clojure developers. The libraries developed originally for CIDER (cider-nrepl, refactor-nrepl, orchard, etc) are used by many other development tools as well.  <br>
 
 ---
 
