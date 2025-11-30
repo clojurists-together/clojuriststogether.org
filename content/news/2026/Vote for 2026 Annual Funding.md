@@ -34,8 +34,8 @@ Here we go ..in alphabetical order (by last name)....
 [Siavash Mohammady](#siavash-mohammady)   
 [Nikita Prokopov](#nikita-prokopov)   
 [Tomasz Sulej](#tomasz-sulej)   
-[Jeaye Wilkerson](#jeaye-wilkerson)  
 [Peter Taoussanis](#peter-taoussanis)  
+[Jeaye Wilkerson](#jeaye-wilkerson)  
 [Oleksandr Yakushev](#oleksandr-yakushev)   
 
 
@@ -398,132 +398,305 @@ Thank you for the magnificent work you do!  <br>
 
 
 ### Dragan Djuric  
-
+https://dragan.rocks, https://github.com/uncomplicate  
 
 **What do you plan to work on throughout the year?**  
-xxx
+
+**Uncomplicate,  Neanderthal, Clojure AI and ML** 
+My goal with this funding in 2026 is to continuously develop Clojure AI, ML, and high-performance
+ecosystem of Uncomplicate libraries (Neanderthal and many more), on Nvidia GPUs, Apple Silicon, and traditional PC.  
+In this year, I will also focus on writing tutorials on my blog and creating websites for the projects involved, which is something that I wanted for years, but didn't have time to do because I spent all time on programming.  
+
+Here's a word or two of how I hope to improve each of these libraries with Clojurists Together funding in 2026.  
+
+**Neanderthal (Clojure's alternative to NumPy, on steroids)**  
+In 2025, Neanderthal celebrated its 10th birthday. It started as a humble but fast matrix and vector library
+for Clojure, but after 10 years of relentless improvements, now it boasts a general matrix/vector/linear algebra API
+implemented by no less than 5(!) engines for CPUs, GPU (Nvidia CUDA), GPU (OpenCL: AMD, Intel, Nvidia), Apple Silicon (Accelerate),
+and general CPU (OpenBLAS). And this is not a superficial support for the sake of ticking a checking; each of these
+engines support much more operations on exotic structures, and configuration options, than I've seen elsewhere.
+It has almost everything, but it doesn't (YET!) have a METAL-based engine for Apple GPUs. Let's work on that!  
+
+**Deep Diamond (the Clojure Tensor and Deep Learning library, not quite unlike PyTorch, but of different philosophy)**  
+In 2019, I started Deep Diamond as a demo showcase for Neanderthal's capabilities as the foundation
+for high-performance number-crunching software. It quickly outgrew that, and became a general Tensor/Deep Learning
+API, implemented by several fast, native optimized, backends, that run on both CPUs and GPUs, across
+hardware platforms (x86_64, GPUs, arm64, Apple Silicon, you name it) and operating systems (Linux, MasOS, Windows).
+Of course, it does not clash with Neanderthal, but complements it, in the best manner of highly focused
+Clojure libraries that do one job and do it well.  
+
+Deep Diamond is quite capable, but it cries for a METAL-based engine for Apple GPUs, too.  
+
+**Diamond ONNX Runtime (the Clojure library for executing AI models)** 
+This is the latest gem in Uncomplicate's store, and I developed it thanks to Clojurists Together
+funding in Q3 2025. Similarly to how I started Deep Diamond mainly as a teaching showcase for Neanderthal,
+I started this to show Clojure programmers how close we, Clojurists, are to the latest and shiniest AI stuff
+that everyone's raving about. But of course, being close does not mean that we can close the gap
+to the multi-billion funded Python ecosystem in a few afternoons. It needs laser-focused development
+and knowing what to do, when, and where. Nevertheless, Clojure *is there*. Now we can run inference on the trained models
+from Hugging Face and other vibrant AI communities directly in Clojure's REPL. Does this make an effortless billion-dollar
+AI startup? NO. Does it bring Clojurians to the party? YES! And there's more to come.  
+
+Not only that this library is new, but the whole wider ecosystem exploded in the last year
+with the wide availability of open-weights model that you can run at home. So, lots of functionality
+is added upstream all the time, and I hope to be able to stay current and have the best and newest stuff in Clojure..  
+
+**ClojureCUDA (REPL-based low-level CUDA development)**
+Not many Clojurians may prefer to work with GPU directly, or to write their own kernels. Neither do I.
+But, this library is one of the un-celebrated workhorses that enables me to implement whatever I want
+in Neanderthal, Deep Diamond, and Diamond ONNX Runtime, instead of just trying to wrap whatever there
+is in upstream C++ libraries. ClojureCUDA gives us the superpower of choice: wrap whatever works,
+but then implement the missing parts yourself!  
+
+As CUDA is receiving a steady stream of changes and improvements, I'd like to improve and extend
+ClojureCUDA to always be in top shape! It is not as easy as it seems to the casual onlooker.  
+
+**ClojureCPP (the gateway to native C++ libraries)**  
+From 20,000 feet, integrating a native library to JVM and Clojure may look straightforward.
+Oh, how wrong they are. Virtually every C++ library is a special kind of jungle, with its
+own structures, patterns and inventions. What might seem a minor technical detail might
+require special acrobatics to support it on the JVM. Masking that mess under the hood
+so that a Clojurian do not need to care might be insanely brittle if it weren't for
+ClojureCPP! It is not as large as Neanderthal or Deep Diamond, but it is one of the reasons
+that enables these upper level libraries stay on the 25,000 or 3,000 lines of code mark,
+instead of being 500,000 or 50,000, as many of their counterparts in other languages.  
+
+**Apple Presets (native JNI bindings for various Apple libraries)**
+Yup. To support Apple Silicon in Neanderthal and Deep Diamond I had to make these bindings,
+since there weren't any to "just" wrap. And to support more Apple high performance computing apis,
+I'll have to create additional bindings (for example, for METAL) and only then
+develop the Clojure part.  
+
+**Fluokitten, Bayadera, ClojureCL, Commons, Clojure Sound, etc.**
+These libraries will not be in focus in 2026., but will probably need some care and
+assorted improvements here and there.  
+
+**Summary:**
+In short, my focus with this funding with Clojurists Together will have two main branches:  
+1) Development of new functionalities, supporting more hardware and platforms for existing functionality,
+   and fixing issues for a dozen Uncomplicate libraries that already exist. This is what is described
+   in the text you've just read.  
+2) Develop an unified website for Uncomplicate and stuff it with useful information in one place.
+   Currently, some libraries have websites that I wrote many years ago, while some rely
+   on GitHub Clojure tests, in-code documentation, tutorials on dragan.rocks and my books.
+   There are many resources, some of which are quite detailed (2 full books!), but people
+   without experience (which is the majority of Clojure programmers) have a hard time using all these in organized way.  
+   I hope to solve this with the unified website!  
+
+**Projects directly involved:** 
+https://github.com/uncomplicate/diamond-onnxrt  
+https://github.com/uncomplicate/neanderthal  
+https://github.com/uncomplicate/deep-diamond  
+https://github.com/uncomplicate/clojurecuda  
+https://github.com/uncomplicate/clojure-cpp  
+https://github.com/uncomplicate/clojurecl  
+https://github.com/uncomplicate/apple-presets  
+https://github.com/uncomplicate/fluokitten  
+
 
 **Why is this work important to the Clojure community?**  
-xxxx
+This will highly benefit the Clojure community as this is THE AI ecosystem for Clojure,
+and supporting AI is arguably the main focus on probably all software platforms.
+Clojure has something to offer on that front, beyond just calling OpenAI API as a web service!  
 
+Uncomplicate grew to quite a few libraries (of which some are quite big; just Neanderthal is 28,000 lines of
+highly-condensed, aggressively macro-ized, and reusable code): Diamond ONNX Runtime, Neanderthal, Deep Diamond, ClojureCUDA, ClojureCPP, Apple Presets, ClojureCL, Fluokitten, Bayadera, Clojure Sound, and Commons.  
 
 **Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?**   
-xxxx
-
+I'm outside the USA and EU, but other than that I guess it's just the usual challenges of open-source developers worldwide.  
 
 **Is there anything else you would like us to know?**   
-xxxxxx
+Yes! Clojurists Together funding in the past years greatly helped me in making Uncomplicate as awesome as it is today. Developing large open source projects for 10 years can be tough!  <br>
+
+---
 
 
 ### Siavash Mohammady  
-
+siavashmohammady66  
 
 **What do you plan to work on throughout the year?**  
-xxx
+Easy data dashboard builder like Shiny dashboards https://rstudio.github.io/shinydashboard/  + adding capability building dashboard using prompts.     
 
 **Why is this work important to the Clojure community?**  
-xxxx
+Development productivity is essential for  adaptation of a language, as python & R has such a feature which make life simpler for their data-scientists, Clojure so needs to become a viable data-science alternative choice.  <br>
 
-
-**Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?**   
-xxxx
-
-
-**Is there anything else you would like us to know?**   
-xxxxxx
+---
 
 
 ### Nikita Prokopov  
-
+https://github.com/tonsky  
 
 **What do you plan to work on throughout the year?**  
-xxx
+I want to resume working on Humble UI, a desktop UI for Clojure that is based on Skia and doesn't involve a browser.  
+
+In 2024, with Clojurists Together support, we got the basics of layout figured out, implemented a VDOM-like API, and started working on a self-documented component library. We’ve got labels, buttons, scroll containers, splits, and tables.  
+
+In 2026, I would like to iron out the underlying API model, so the fundamentals will become stable and Humble can be extended with just implementing more components. I also aim at production-grade multi-line text based on ICU and Harfbuzz, finalizing text inputs, and figuring out packaging. This should get Humble to the point where real-world applications can be built with it.  
+
+This will be accompanied by detailed progress reports describing the problem space and thinking process, in the form of regular blog posts.  
+
+https://github.com/humbleui/humbleui  
+
+In addition to Humble, there’s a small amount of maintenance work with already existing projects like DataScript, clj-reload, Clojure+, fast-edn, Clojure Sublimed, and such.  
+
 
 **Why is this work important to the Clojure community?**  
-xxxx
+Desktop UIs are not in a good place right now, with only the viable option being Electron and other web-based solutions. These have downsides of a complex execution model and poor performance.  
+
+At the same time, people are getting tired of slow, complex software that runs in a browser and that you can’t own. A lot of things simply can’t be done in a browser, or security is questionable, or it can disappear on a whim.   
+
+Clojure really has a chance to make a difference here. Being so pragmatic, dynamic, and extensible, it is nice to use it to build web servers, but I always felt that a huge class of programs -- the ones with GUI -- is missing, and will be a great fit.  
 
 
 **Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?**   
-xxxx
+I am an immigrant from Russia (living in Germany for 6 years now).    
 
 
 **Is there anything else you would like us to know?**   
-xxxxxx
+I loved working with Clojurists Together in the past -- would love to do it again.  <br>
+
+---
 
 
 ### Tomasz Sulej  
-
+https://github.com/genmeblog  
 
 **What do you plan to work on throughout the year?**  
-xxx
+Here is the set of things I want to do in 2026:  
+
+**fastmath (https://github.com/generateme/fastmath):** 
+• Document most of the functions and build more holistic documentation – it’s a really time consuming task, current status:  https://generateme.github.io/fastmath/clay/  
+• Validate crucial functions by increasing test coverage  
+• Implement GAM regression modelling as an enhancement of existing LM and GLM models. PoC is done.  
+
+**Clojure2D (https://github.com/Clojure2D/clojure2d)**  
+• Extract a clojure2d.color namespace as a separate library  
+• Add a SVG drawing support. PoC is done.  
+
+**cljplot (https://github.com/generateme/cljplot)**  
+• Revisit currently postponed cljplot library and start to refactor it to give it a new life, inc. the following things:  
+    - Highly decouple chart processing pipeline making each step testable and easy to enhance
+    - Better use of grammar of graphics concept  
+    - Add SVG rendering  
+    - Build more specific, scientific charts  
+    - (optional) declarative chart generation to allow binding to tableplot library  
+• Revisit examples and create the library of chart types  
+
+**Other**
+• Review and update the following libraries:  
+    - wadogo – scales for charts (https://github.com/scicloj/wadogo)
+    - fitdistr – distribution fitting / modelling (https://github.com/generateme/fitdistr)
+    - (optional) inferme – Bayesian inference library (https://github.com/generateme/inferme)  
+• Continue an user support which I do online though Slack/Zulip chats.  
+• Prepare workshops and talks for incoming Clojure Jam / Clojure Creative Coding conference in April 2026 (https://clojurecivitas.github.io/scicloj/clojure_jam/clojure_jam_2026)  
+• Build more Clojure Civitas notebooks showing Clojure2d capabilities.  
+
 
 **Why is this work important to the Clojure community?**  
-xxxx
+I'm a creator and maintainer of several projects in the mathematics, data science and visualization areas which I did under the nickname GenerateMe/genmeblog. My main and notable projects are:  
+•	tablecloth - a dataset library  
+•	fastmath – general mathematics and science library  
+•	clojure2d – visualization library  
+•	clojisr - a bridge for seamless R interoperability (co-creator)  
+•	cljplot - pure Clojure charts library  
+•	fitdistr - statistical distribution modelling  
+•	inferme - Bayesian modelling and inference.  
+
+As a member of the Scicloj community I want to build much more awareness of these libraries, boost the quality and make better adoption of them in existing or future projects.  
+
+My other activities include also mentoring in the Scicloj open-source mentoring program: https://scicloj.github.io/docs/community/groups/open-source-mentoring/ 
+2026 funding will help me with to focus on two libraries which are require much more care and quality:   
+
+A fastmath is not only a pure math library but aims to be a complete toolset for doing fast scientific and numerical computing in Clojure. My personal goal is to bring the scope of SciPy (Python) or JuliaStats (Julia) suites. I believe that coverage is really high already but still needs a lot of work to validate and document all the functions.  
+
+Clojure2d covers not only 2d drawing and binding to Java2d but also allow pixel manipulation, various pixel rendering methods and aims to cover all possible color manipulation functions including color space conversion, palette/gradient generation and colorimetry.  
+
+I believe a Clojurists Together support will help me to focus more on Clojure open source and community support which I’ve been doing for more than 8 years.  
 
 
 **Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?**   
-xxxx
-
-
-**Is there anything else you would like us to know?**   
-xxxxxx
-
-
-
-### Jeaye Wilkerson  
-
-
-**What do you plan to work on throughout the year?**  
-xxx
-
-**Why is this work important to the Clojure community?**  
-xxxx
-
-
-**Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?**   
-xxxx
-
+No really. But I quit my current job (I'm on the C-level, management side in a software house) as of  January 2026 and I am trying  to switch to a Clojure programming side.  
 
 **Is there anything else you would like us to know?**   
-xxxxxx
+As a Scicloj member I would like to be more visible next year in various on/offline activities like conferences, meetups, jams etc. The first opportunity will be on the Clojure Jam 2026, https://scicloj.github.io/clojure-jam-2026/ where I plan to present details of fastmath/clojure2d libraries as a creative toolset and also host some workshop around the topic.  <br>
 
+---
 
 
 ### Peter Taoussanis  
-
+https://www.taoensso.com/clojure  
 
 **What do you plan to work on throughout the year?**  
-xxx
+Multiple projects, incl. significant work on Nippy and Carmine, possibly working on Babashka support for more libraries (e.g. Telemere)  
 
 **Why is this work important to the Clojure community?**  
-xxxx
+**Nippy:** want to experiment with porting a subset of Nippy (binary serialization library) to ClojureScript. Nippy's pretty widely used, and it'd be nice to have data portability between Clj and Cljs. Recently worked on a Clj/s implementation of MessagePack, which ended up being a nice PoC for this effort. MessagePack itself isn't ideal for Clojure data though, we can do better with a Clojure-first format. A cross-platform Nippy would be particularly useful for Sente and Clojure/Script web apps.  
 
+**Carmine:** recently (finally!) pushed the first publicly available version of the core v4 API, but there's still tons of work to do to get it properly polished and documented for wider use. Also seeing increased enquiries recently re: Redis Cluster and/or Sentinel. Have an early prototype ready for Sentinel support, and foundations laid for Cluster - but both would also require substantial effort to bring to a usable state. This alone would probably be several months of work to do right.  
 
-**Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?**   
-xxxx
+Increased Babashka support: plenty of folks have asked for this, esp. re: Telemere. Expect this may also be a non-trivial job, but should be doable in steps. Would need to investigate further re: specific timeline, etc.  
 
 
 **Is there anything else you would like us to know?**   
-xxxxxx
+Would just make a similar statement to last year: I'm super grateful to have been able to receive support from Clojurists Together for the past few years. From my side I'd of course be thrilled to continue as long as the community sees value in my work.  
 
+But I also totally understand if it's not possible to continue with funding - I know you must get a lot of great applications each year!  
+
+Whatever the outcome re: funding I'll of course keep trying to contribute where I can.   
+
+And again, a big thanks to all the folks quietly keeping Clojurists Together running so well behind the scenes! This has been such a great project, and something awesome to be involved in.  <br>
+
+---
+
+
+### Jeaye Wilkerson   
+https://github.com/jeaye  
+
+**What do you plan to work on throughout the year?**  
+I will be working full-time on jank. https://github.com/jank-lang/jank  
+
+jank's alpha release is going out in December 2025, which will lead us into a hectic start to 2026 as we'll be collecting/fixing as many bugs as we can. Meanwhile, I will be developing jank's build system for native system dependencies, improving stability, significantly improving performance, and adding the remaining features to achieve strong Clojure parity (records, protocols, futures, etc). Furthermore, I will be authoring the jank book, which will be a free standalone resource for learning jank (and Clojure), inspired by and very similar to the Rust book.  
+
+I will also continue to lead the clojure-test-suite initiative, which provides thorough unit test coverage for all core Clojure functions and is currently serving Clojure JVM, Clojure CLR, ClojureScript, babashka, and jank. I aim to capture ClojureDart and Basilisp in 2026 and I have already started discussions with the creators of both dialects.  
+
+I am currently mentoring four different open source contributors, who're learning to be compiler hackers, and I aim to pick up a fifth during 2026. I'm specifically looking to add a Clojure lady to the gang and I began outreach for this at the Conj.  
+
+Additionally, I will continue streaming on Twitch regularly, to raise Clojure awareness. I will generally use that time to either develop jank itself or to use jank to develop Clojure-related tooling.  
+
+Overall, my goal for EOY 2026 is production readiness for jank. This is an aggressive goal, but I will work aggressively on it.  
+
+
+**Why is this work important to the Clojure community?**  
+jank is still the *only* native Clojure dialect which has its own JIT and embraces interactive programming. It unlocks REPL-driven development for a whole ecosystem previously unserved by Clojure.  
+
+Clojurists have demonstrated their desire for native executables with their use of GraalVM. Compared to Graal, jank will offer REPL support, better performance, better native interop, smaller binaries, and faster compilation times.  <br>  
+
+---
 
 
 ### Oleksandr Yakushev  
-
+https://github.com/alexander-yakushev, https://github.com/clojure-goes-fast  
 
 **What do you plan to work on throughout the year?**  
-xxx
+On Clojure Goes Fast side, during 2025, I've released several versions of clj-async-profiler (added dynamic diff modes), clj-memory-meter (heap usage tracing), Flamebin (encrypted private flamegraphs). I've also started working on integrating the latest async-profiler features into clj-async-profiler and transitioning to more compact and efficient JFR-compatible profiles. For 2026, I plan to:  
+- Wrap up the JFR transition in clj-async-profiler and upgrade to async-profiler 4.0+.  
+- Release the new flamegraph type that includes the time dimension.  
+- Implement CPU time and allocation heatmaps.  
+- Flamebin: add support for the new flamegraph type supported by clj-async-profiler.  
+- Add the converter between JFR and clj-async-profiler dense profiles, allowing to upload Java Flight Recorder profiles directly to Flamebin.  
+- clj-java-decompiler: add support for alternative decompiler backends (e.g. Fernflower) and make the decompilers pluggable and auto-discoverable via dependencies.  
+- New performance-oriented libraries (e.g., event-passport for efficient in-memory event timestamping).  
+
+As for CIDER and related tooling, which I returned to as a co-maintainer and primary contributor, a great deal has been achieved in 2025 (multiple big releases of CIDER and nREPL), but there is still a lot to be done:  
+- Adopt and modernize refactor-nrepl - a widely used part of CIDER that doesn't currently have an active maintainer.  
+- Rework cider-nrepl codebase to rely less on dependency "shading" (which is done by mranderson).  
+- Improve and unify nREPL configuration approach.  
+- Enhance CIDER inspector, improve feature discoverability.  
+- Improve multi-REPL experience.  
+
 
 **Why is this work important to the Clojure community?**  
-xxxx
+Clojure Goes Fast is the centerpiece of Clojure performance-related tools and information (1.2K stars, 2.8M total Clojars downloads, 4000 unique site visitors in 2025, 18k page views).  
 
-
-**Are you part of a group that is affected by systemic bias, particularly in technology? If so, can you elaborate?**   
-xxxx
-
-
-**Is there anything else you would like us to know?**   
-xxxxxx
-
-
+CIDER is still the most used Clojure IDE according to the last State of Clojure survey. nREPL is the primary backend for all popular Clojure IDEs (including Calva and Cursive).  
 
