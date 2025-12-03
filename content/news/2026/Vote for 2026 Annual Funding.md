@@ -681,7 +681,8 @@ Clojurists have demonstrated their desire for native executables with their use 
 
 
 ### Oleksandr Yakushev  
-https://github.com/alexander-yakushev, https://github.com/clojure-goes-fast  
+https://github.com/alexander-yakushev  
+https://github.com/clojure-goes-fast   
 
 **What do you plan to work on throughout the year?**  
 On Clojure Goes Fast side, during 2025, I've released several versions of clj-async-profiler (added dynamic diff modes), clj-memory-meter (heap usage tracing), Flamebin (encrypted private flamegraphs). I've also started working on integrating the latest async-profiler features into clj-async-profiler and transitioning to more compact and efficient JFR-compatible profiles. For 2026, I plan to:  
