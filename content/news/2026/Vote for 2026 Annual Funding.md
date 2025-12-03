@@ -8,7 +8,7 @@ summary: "It Is Up To You to Decide Who Will Receive Funding"
 
 Greetings Clojurists Together Members! Last year, based on your feedback, we tried a new process to identify annual funding recipients.  It was a vast improvement from years past, so this year we are using it again. 
 
-We put out the call  - and we received 16 applications for you to consider. The board reviewed and voted to move all 16 to the 2026 Ranked Vote ballot. 
+We put out the call - and we received 16 applications for you to consider. The board reviewed and voted to move all 16 to the 2026 Ranked Vote ballot. 
 
 Now it is up to you, the members, to select the 5 developers who will each receive $1,500 monthly stipends (for a total of $18K USD). **Be on the lookout for an email that contains the link to your Ranked Vote ballot.** Deadline for voting is **12 December 2025** midnight Pacific Time. 
 
