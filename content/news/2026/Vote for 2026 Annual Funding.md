@@ -2,7 +2,7 @@
 title: "Vote on 2026 Annual Funding"
 date: 2025-12-2T14:00:00+12:00
 author: Kathy Davis
-summary: "It Is Up To You to Decide Who Will Receive $18K per Year"  
+summary: "It Is Up To You to Decide Who Will Receive 18K per Year"  
 
 
 
