@@ -10,7 +10,7 @@ draft: True
 
 Greetings Clojurists Together Members! Last year, based on your feedback, we tried a new process to identify annual funding recipients.  It was a vast improvement from years past, so this year we are using it again. 
 
-We put out the call  - and we received 15 applications for you to consider. The board reviewed and voted to move all 15 to the 2026 Ranked Vote ballot. 
+We put out the call  - and we received 16 applications for you to consider. The board reviewed and voted to move all 16 to the 2026 Ranked Vote ballot. 
 
 Now it is up to you, the members, to select the 5 developers who will each receive $1,500 monthly stipends (for a total of $18K USD). **Be on the lookout for an email that contains the link to your Ranked Vote ballot.** Deadline for voting is **12 December 2025** midnight Pacific Time. 
 
@@ -33,6 +33,7 @@ Here we go ..in alphabetical order (by last name)....
 [Dragan Djuric](#dragan-djuric)   
 [Siavash Mohammady](#siavash-mohammady)   
 [Nikita Prokopov](#nikita-prokopov)   
+[James Reeves](#james-reeves)  
 [Tomasz Sulej](#tomasz-sulej)   
 [Peter Taoussanis](#peter-taoussanis)  
 [Jeaye Wilkerson](#jeaye-wilkerson)  
@@ -542,6 +543,25 @@ I am an immigrant from Russia (living in Germany for 6 years now).
 
 **Is there anything else you would like us to know?**   
 I loved working with Clojurists Together in the past -- would love to do it again.  <br>
+
+---
+
+### James Reeves  
+https://github.com/weavejester  
+
+**What do you plan to work on throughout the year?**  
+I plan on continuing development on [cljfmt](https://github.com/weavejester/cljfmt), a formatting tool for Clojure that's both a standalone tool, and used in other projects like Clojure-LSP. I'm particularly interested in making it easier for people to include custom styling in their libraries, similar to how clj-kondo handles custom linting rules.  
+
+I'm also working on a stable version of Duct, a data-oriented framework for Clojure based on [Integrant](https://duct-framework.org/). My focus is on ensuring it has excellent documentation and will serve as an easy way to write web applications in Clojure.  
+
+In addition to these two projects, I'm also maintaining [Ring](https://github.com/ring-clojure/ring). My current goal with Ring is to submit PRs to third-party Ring adapters (like httpkit) that improve their overall compatibility with the Ring specification.  
+ 
+**Why is this work important to the Clojure community?**   
+Having a good Clojure formatter keeps codebases consistent and readable.  
+
+Having a good and well documented web framework in Clojure gives developers a quick way to get started with a very common use case (web applications).  
+
+Finally, increasing compatibility between Ring adapters ensures that developers can create code that isn't tied to a particular adapter.  <br>
 
 ---
 
