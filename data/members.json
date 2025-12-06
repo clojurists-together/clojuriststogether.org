@@ -1098,9 +1098,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Sharabani",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 42,
-    "developer" : 158
+    "developer" : 159
   }
 }
