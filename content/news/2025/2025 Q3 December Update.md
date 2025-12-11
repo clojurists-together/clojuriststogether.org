@@ -167,7 +167,7 @@ happy that I achieved everything planned, and even achieved a simpler API than e
 No we can bite even at the LLMs at the next step, which is a focused effort on its own.  
 <br>
 
---
+---
 
 ## Jeaye Wilkerson: Jank
 Q3 2025 $9K, Report No. 3, Published November 30, 2025   
