@@ -1,5 +1,5 @@
 ---
-title: "Clojurists Together 2026 Long-Term Funding Announcement"
+title: "Clojurists Together 2026 Annual Funding Announcement"
 date: 2025-12-16T14:00:00+12:00
 author: Kathy Davis
 summary: "Clojurists Together is funding 5 developers $1.5k/month for 12 months"
@@ -31,12 +31,12 @@ Most of the projects are hosted under the following GitHub orgs:
 https://github.com/clojure-emacs
 https://github.com/nrepl   
 
+ 
 
 ### Michiel Borkent  
 https://github.com/borkdude
 
 My main projects are clj-kondo, babashka / SCI, and squint/cherry.  
-
 Links:  
 https://github.com/clj-kondo/clj-kondo  
 https://github.com/babashka/babashka  
@@ -57,7 +57,9 @@ I have identified the following long-term goals that I want to focus on in 2026:
 - Clj-kondo: performance improvements for bigger projects  
 
 Apart from these long-term goals, there are plenty of maintenance-type issues to work on. Babashka consists of several libraries like SCI, fs, process, deps.clj, http-client and edamame that benefit not only babashka, but also the wider Clojure ecosystem. These libraries all need some love from time to time. There are several ideas to improve clj-kondo with more linter rules as well.   
-  
+
+
+
 ### Clojure Camp  
 (Rafal Dittwald, Jordan Miller, and others)   
 https://clojure.camp  
@@ -74,6 +76,7 @@ https://clojure.camp
 -  experiment with hosting "micro-conjs" (6-10 person, in-person weekend coding retreats)   
 
 
+
 ### Eric Dallo  
 https://github.com/ericdallo  
 
@@ -86,6 +89,7 @@ I want to work on custom code actions, support for new clojure.java.javadoc lib,
 
 [**metrepl**](https://github.com/ericdallo/metrepl)  
 I want to help with guide and examples of metrics of your repl and how that can help companies understand developers REPL usage  
+  
   
 
 ### Jeaye Wilkerson    
