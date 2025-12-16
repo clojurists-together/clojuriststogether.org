@@ -3,7 +3,7 @@ title: "Clojurists Together 2026 Annual Funding Announcement"
 date: 2025-12-16T14:00:00+12:00
 author: Kathy Davis
 summary: "Clojurists Together is funding 5 developers $1.5k/month for 12 months"
-draft: True  
+ 
 
 
 ---
@@ -29,9 +29,9 @@ https://github.com/bbatsov
 Continuously improving CIDER, nREPL, clojure-ts-mode and their related projects. Building a formal nREPL specification is one of the bigger challenges I hope to tackle next year. As is fully decoupling clojure-mode from CIDER.  
 Most of the projects are hosted under the following GitHub orgs:  
 https://github.com/clojure-emacs
-https://github.com/nrepl   
+https://github.com/nrepl <br>  
 
- 
+---
 
 ### Michiel Borkent  
 https://github.com/borkdude
@@ -56,9 +56,9 @@ I have identified the following long-term goals that I want to focus on in 2026:
 - Clojure CLI: help improve UX via a new tools working group  
 - Clj-kondo: performance improvements for bigger projects  
 
-Apart from these long-term goals, there are plenty of maintenance-type issues to work on. Babashka consists of several libraries like SCI, fs, process, deps.clj, http-client and edamame that benefit not only babashka, but also the wider Clojure ecosystem. These libraries all need some love from time to time. There are several ideas to improve clj-kondo with more linter rules as well.   
+Apart from these long-term goals, there are plenty of maintenance-type issues to work on. Babashka consists of several libraries like SCI, fs, process, deps.clj, http-client and edamame that benefit not only babashka, but also the wider Clojure ecosystem. These libraries all need some love from time to time. There are several ideas to improve clj-kondo with more linter rules as well.<br>    
 
-
+---
 
 ### Clojure Camp  
 (Rafal Dittwald, Jordan Miller, and others)   
@@ -73,9 +73,9 @@ https://clojure.camp
 **Explore new Clojure Camp projects:**  
 - develop our "curriculum map" into a learning roadmap and badge system   
 - facilitate a mentorship program, pairing Clojure OSS devs with other devs (junior and senior)   
--  experiment with hosting "micro-conjs" (6-10 person, in-person weekend coding retreats)   
+-  experiment with hosting "micro-conjs" (6-10 person, in-person weekend coding retreats)<br>   
 
-
+---
 
 ### Eric Dallo  
 https://github.com/ericdallo  
@@ -88,9 +88,9 @@ This AI tool is written in Clojure but works in any language which is huge for d
 I want to work on custom code actions, support for new clojure.java.javadoc lib, improve java interop support like go to class locations, methods etc, lots of this would require me working in clj-kondo too  
 
 [**metrepl**](https://github.com/ericdallo/metrepl)  
-I want to help with guide and examples of metrics of your repl and how that can help companies understand developers REPL usage  
+I want to help with guide and examples of metrics of your repl and how that can help companies understand developers REPL usage<br>    
   
-  
+---
 
 ### Jeaye Wilkerson    
 https://github.com/jeaye  
@@ -105,7 +105,8 @@ I am currently mentoring four different open source contributors, who're learnin
 
 Additionally, I will continue streaming on Twitch regularly, to raise Clojure awareness. I will generally use that time to either develop jank itself or to use jank to develop Clojure-related tooling.  
 
-Overall, my goal for EOY 2026 is production readiness for jank. This is an aggressive goal, but I will work aggressively on it.  
+Overall, my goal for EOY 2026 is production readiness for jank. This is an aggressive goal, but I will work aggressively on it. <br>  
+
 
 
 ## Thanks
