@@ -96,13 +96,6 @@
     "founding" : false,
     "tagline" : "Nextjournal is a tool that improves data-driven research. Our notebooks make results and methods reproducible and foster model-driven debate."
   }, {
-    "name" : "Basil",
-    "member_type" : "company",
-    "url" : "https://basil.net",
-    "logo" : null,
-    "level" : "cons",
-    "founding" : false
-  }, {
     "name" : "Cognician",
     "member_type" : "company",
     "url" : "https://www.cognician.com",
@@ -1105,7 +1098,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 42,
+    "company" : 41,
     "developer" : 159
   }
 }
