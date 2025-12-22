@@ -2,7 +2,7 @@
 title: "December 2025 Short-Term Q3 Project Updates"
 date: 2025-12-22T14:00:00+12:00
 author: Kathy Davis
-summary: "News from Ambrose Bonnaire-Seargent, Thomas Clark, Jeremiah Coylem Dragan Djuric, and Jeaye Wilkerson" 
+summary: "News from Ambrose Bonnaire-Seargent, Thomas Clark, Jeremiah Coyle, Dragan Djuric, and Jeaye Wilkerson" 
 draft: True
 
 
@@ -27,10 +27,10 @@ With this funding, I would like to address the issue somewhat, particularly with
 - Add support for automatic detection of the 3 levels of color support (16-color, 256-color, or Truecolor), using an approach similar to [Chalk](https://github.com/chalk/supports-color). [#42](https://github.com/paintparty/fireworks/issues/42)  
 - Documentation of interactive workflow. 
 - Enhanced documentation for theme creation.
-- Call-site options for quick formatting changes. For hifi printing, support call-site option to disable all truncation and ellipsis [#14](https://github.com/paintparty/fireworks/issues/14)  
+- Call-site options for quick formatting changes. For hifi printing, support call-site option to disable all truncation and ellipsis [#14](https://github.com/paintparty/fireworks/issues/14)   
 
 
-[Dragan Djuric: Uncomplicate Clojure ML](#dragan-djuric-uncomplicate-clojure-ml)
+[Dragan Djuric: Uncomplicate Clojure ML](#dragan-djuric-uncomplicate-clojure-ml)  
 My goal with this funding in Q3 2005 is to develop a new Uncomplicate library, ClojureML.  
 - a Clojure developer-friendly API for AI/DL/ML models (in the first iteration based on ONNX Runtime, but later refined to be even more general).  
 - Implement its first backend engine (based on ONNX Runtime).  
@@ -41,13 +41,14 @@ My goal with this funding in Q3 2005 is to develop a new Uncomplicate library, C
 - develop examples for helping people getting started.  
 - related bugfixes.  
 - TESTS (of course!).  
+  
 
-[Jeaye Wilkerson: Jank](#jeaye-wilkerson-jank)   
-This quarter, I'll be building packages for Ubuntu, Arch, Homebrew, and Nix. I'll be minimizing jank's dependencies, automating builds, filling in test suites for module loading, AOT building, and the Clojure runtime. I'll be working to get the final Clang and LLVM changes I have upstreamed into LLVM 22, adding a health check to jank to diagnose installation issues, and filling in some C++ interop functionality I couldn't get to last quarter.  Altogether, this quarter is going to be a hodgepodge of all of the various tasks needed to get jank shipped.   
+[Jeaye Wilkerson: Jank](#jeaye-wilkerson-jank)    
+This quarter, I'll be building packages for Ubuntu, Arch, Homebrew, and Nix. I'll be minimizing jank's dependencies, automating builds, filling in test suites for module loading, AOT building, and the Clojure runtime. I'll be working to get the final Clang and LLVM changes I have upstreamed into LLVM 22, adding a health check to jank to diagnose installation issues, and filling in some C++ interop functionality I couldn't get to last quarter.  Altogether, this quarter is going to be a hodgepodge of all of the various tasks needed to get jank shipped.    
 
- 
+### AND NOW FOR THE REPORTS!  <br>
 
-**AND NOW FOR THE REPORTS!**
+
 
 ## Ambrose Bonnaire-Seargent: Malli  
 Q3 2025 $9K, Report No. 3, Published December 12, 2025   
@@ -69,7 +70,7 @@ I'll include it in full here:
 
 ----
 
-### Mutable registries are a dev-time abstraction
+#### Mutable registries are a dev-time abstraction
 
 For performance reasons, Malli heavily caches registry
 lookups once a schema has been created via `m/schema`.
@@ -140,9 +141,7 @@ With this registry, each level of depth N compiles `(m/validator ::creates-1-val
 
 e.g., `(m/validator ::creates-4194304-validators)` compiles `(m/validator ::creates-1-validator)` 4,194,304 (4^11) times.  
 
-Plumatic Schema would only compile it once. It's not so trivial to achieve with dynamically scoped refs, but it's the same idea as detecting ref cycles, which we can now do reliably.  
-
-Here's a reproduction of the issue https://github.com/frenchy64/malli/pull/36/files which I have been pondering since discussing https://github.com/metosin/malli/pull/1180  
+Plumatic Schema would only compile it once. It's not so trivial to achieve with dynamically scoped refs, but it's the same idea as detecting ref cycles, which we can now do reliably. Here's a reproduction of the issue https://github.com/frenchy64/malli/pull/36/files which I have been pondering since discussing https://github.com/metosin/malli/pull/1180  
 
 ---
 
@@ -223,6 +222,114 @@ Having considered the architecture, API creation and first implementation tests,
 <br>
 
 ---
+
+
+## Jeremiah Coyle: Fireworks  
+Q3 2025 $2K, Report No. 2, Published November 30, 2025  
+
+I'm happy to report that 5 of the primary goals and 6 of the secondary goals were achieved in Q3. Many thanks to Clojurists Together for supporting this work!  
+
+### Primary goals
+  - Add support for automatic detection of the 3 levels of color support (16-color, 256-color, or Truecolor), using an approach similar to [Chalk](https://github.com/chalk/supports-color).<br>[#42](https://github.com/paintparty/fireworks/issues/42)<br>
+[Completed](https://github.com/paintparty/fireworks/pull/76)
+<br>
+
+  - Support call-site option to disable all truncation and ellipsis<br>
+[#14](https://github.com/paintparty/fireworks/issues/14)<br>
+[Completed](https://github.com/paintparty/fireworks/commit/d1232b7fe3d522f751009c2cccc8aeca87966d34)
+<br>
+
+  - Documentation of interactive workflow:  
+    - [`deps.edn` sample project](https://github.com/paintparty/fireworks?tab=readme-ov-file#jvm-clojure-deps-setup) 
+    - [`Leiningen` sample project](https://github.com/paintparty/fireworks?tab=readme-ov-file#jvm-clojure-leiningen-setup)
+<br>
+
+  - VS Code Integration <br>
+[Completed](https://github.com/paintparty/fireworks/blob/main/docs/editors/vscode/vscode.md)
+<br>
+
+  - Cursive / IntelliJ Integration <br>
+[Completed](https://github.com/paintparty/fireworks/blob/main/docs/editors/cursive/cursive.md)
+<br>
+
+  - Emacs Integration<br>
+In progress. Work on this will commence and once a sufficient amount of data from the use of the Joyride and Cursive implementations is gathered. This will inform any unforeseen details about ergonomics and/or implementation details.
+<br>
+
+### Secondary goals  
+  - Allow for call-site changes to the label color.<br>[#53](https://github.com/paintparty/fireworks/issues/53)<br>
+[Completed](https://github.com/paintparty/fireworks/pull/76)<br>
+```Clojure
+(? {:label-color :red} (+ 1 1))
+```
+<br>
+
+  - Flag for eliding truncation and ellipsis at callsite <br>
+[#77](https://github.com/paintparty/fireworks/issues/77)<br>
+[Completed](https://github.com/paintparty/fireworks/pull/77)<br>
+
+```Clojure
+(? :+ my-coll)
+;; as shorthand for:
+(? {:truncation? false} my-coll)
+```
+
+<br>
+
+  - Add option to produce bold output. <br>
+[#70](https://github.com/paintparty/fireworks/issues/70)<br>
+[Completed](https://github.com/paintparty/fireworks/pull/76)<br>
+
+```Clojure
+(? {:bold? true} (+ 1 1))
+```
+<br>
+
+  - Add option to format the label as code. <br>
+[#82](https://github.com/paintparty/fireworks/issues/82)<br>
+[Completed](https://github.com/paintparty/fireworks/pull/82)<br>
+
+```Clojure
+(? {:format-label-as-code? true}
+   (mapv (fn [i] (str "id-" i))
+         (range 20)))
+```
+<br>
+
+  - Add function to set options globally for project, at runtime, with a `config!` macro. <br>
+[#81](https://github.com/paintparty/fireworks/issues/81)<br>
+[Completed](https://github.com/paintparty/fireworks/pull/81)
+
+```Clojure
+(fireworks.core/config!
+ {:format-label-as-code? true
+  :template              [:file-info :form-or-label :result]
+  :label-length-limit    100})
+```
+
+<br>
+
+  - Properly display contents and badges of native js data structures, when they are within a native cljs data structure.<br>
+  [#46](https://github.com/paintparty/fireworks/issues/46)<br>
+[Completed](https://github.com/paintparty/fireworks/pull/86)
+
+```Clojure
+(? [#js {:a 1 :b 2}
+    (new js/Set #js["foo" "bar"])
+    (into-array [1 2 3])
+    (new js/Map #js[#js[3 1] #js[4 2]])
+    (new js/Int8Array #js[1 2 3])])
+```
+
+<br>
+<br>
+<br>
+
+The latest release of Fireworks is [`v0.16.1`](https://clojars.org/io.github.paintparty/fireworks/versions/0.13.0), which features the enhancements listed above.<br>
+
+
+---
+
 
 ## Dragan Djuric: Uncomplicate Clojure ML  
 Q3 2025 $9K, Report No. 3, Published December 1, 2025   
@@ -318,114 +425,6 @@ The biggest remaining task for the alpha release is now documentation, which I
 will be tackling in the next few weeks. Then it's alpha time!  
 <br>
 
----
-
-
-## Jeremiah Coyle: Fireworks  
-Q3 2025 $2K, Report No. 2, Published November 30, 2025  
-
-I'm happy to report that 5 of the primary goals and 6 of the secondary goals were achieved in Q3. Many thanks to Clojurists Together for supporting this work!  
-
-
-### Primary goals
-  - Add support for automatic detection of the 3 levels of color support (16-color, 256-color, or Truecolor), using an approach similar to [Chalk](https://github.com/chalk/supports-color).<br>[#42](https://github.com/paintparty/fireworks/issues/42)<br>
-[Completed](https://github.com/paintparty/fireworks/pull/76)
-  
-<br>
-
-  - Support call-site option to disable all truncation and ellipsis<br>
-[#14](https://github.com/paintparty/fireworks/issues/14)<br>
-[Completed](https://github.com/paintparty/fireworks/commit/d1232b7fe3d522f751009c2cccc8aeca87966d34)
-
-<br>
-
-  - Documentation of interactive workflow:  
-    - [`deps.edn` sample project](https://github.com/paintparty/fireworks?tab=readme-ov-file#jvm-clojure-deps-setup) 
-    - [`Leiningen` sample project](https://github.com/paintparty/fireworks?tab=readme-ov-file#jvm-clojure-leiningen-setup)
-
-<br>
-
-  - VS Code Integration <br>
-[Completed](https://github.com/paintparty/fireworks/blob/main/docs/editors/vscode/vscode.md)
-
-<br>
-
-  - Cursive / IntelliJ Integration <br>
-[Completed](https://github.com/paintparty/fireworks/blob/main/docs/editors/cursive/cursive.md)
-
-<br>
-
-  - Emacs Integration<br>
-In progress. Work on this will commence and once a sufficient amount of data from the use of the Joyride and Cursive implementations is gathered. This will inform any unforeseen details about ergonomics and/or implementation details.
-
-<br>
-
-### Secondary goals  
-  - Allow for call-site changes to the label color.<br>[#53](https://github.com/paintparty/fireworks/issues/53)<br>
-[Completed](https://github.com/paintparty/fireworks/pull/76)<br>
-```Clojure
-(? {:label-color :red} (+ 1 1))
-```
-
-<br>
-
-  - Flag for eliding truncation and ellipsis at callsite <br>
-[#77](https://github.com/paintparty/fireworks/issues/77)<br>
-[Completed](https://github.com/paintparty/fireworks/pull/77)<br>
-
-```Clojure
-(? :+ my-coll)
-;; as shorthand for:
-(? {:truncation? false} my-coll)
-```
-
-<br>
-
-  - Add option to produce bold output.<br>[#70](https://github.com/paintparty/fireworks/issues/70)<br>
-[Completed](https://github.com/paintparty/fireworks/pull/76)<br>
-
-```Clojure
-(? {:bold? true} (+ 1 1))
-```
-
-<br>
-
-  - Add option to format the label as code. <br>[#82](https://github.com/paintparty/fireworks/issues/82)<br>
-[Completed](https://github.com/paintparty/fireworks/pull/82)<br>
-```Clojure
-(? {:format-label-as-code? true}
-   (mapv (fn [i] (str "id-" i))
-         (range 20)))
-```
-
-<br>
-
-  - Add function to set options globally for project, at runtime, with a `config!` macro. <br>[#81](https://github.com/paintparty/fireworks/issues/81)<br>
-[Completed](https://github.com/paintparty/fireworks/pull/81)
-```Clojure
-(fireworks.core/config!
- {:format-label-as-code? true
-  :template              [:file-info :form-or-label :result]
-  :label-length-limit    100})
-```
-
-<br>
-
-  - Properly display contents and badges of native js data structures, when they are within a native cljs data structure.<br>[#46](https://github.com/paintparty/fireworks/issues/46)<br>
-[Completed](https://github.com/paintparty/fireworks/pull/86)  
-```Clojure
-(? [#js {:a 1 :b 2}
-    (new js/Set #js["foo" "bar"])
-    (into-array [1 2 3])
-    (new js/Map #js[#js[3 1] #js[4 2]])
-    (new js/Int8Array #js[1 2 3])])
-```
-
-<br>
-<br>
-<br>
-
-The latest release of Fireworks is [`v0.16.1`](https://clojars.org/io.github.paintparty/fireworks/versions/0.13.0), which features the enhancements listed above.  
 
 
 
