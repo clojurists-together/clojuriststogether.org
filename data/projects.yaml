@@ -1,4 +1,4 @@
-# Long term funding 2025
+# Long term funding 2026
 # Q1 2023
 # Q2 2023
 # Q3 2023
@@ -9,31 +9,63 @@
 # Q3 2025
 
 
+- name: Bohzidar Batsov
+  tier: Long-term (USD 1.5k/month)
+  date: 2026-01-01
+  round: Long-term 2026
+  current: true
+- name: Michiel Borkent
+  tier: Long-term (USD 1.5k/month)
+  date: 2026-01-01
+  round: Long-term 2026
+  current: true
+- name: Clojure Camp
+  tier: Long-term (USD 1.5k/month)
+  date: 2026-01-01
+  round: Long-term 2026
+  current: true
+- name: Eric Dallo
+  tier: Long-term (USD 1.5k/month)
+  date: 2026-01-01
+  round: Long-term 2026
+  current: true
+- name: Jeaye Wilkerson
+  tier: Long-term (USD 1.5k/month)
+  date: 2026-01-01
+  round: Long-term 2026
+  current: true
+- name: Toby Crawley (Clojars Maintenance)
+  tier: Long-term (USD 1.5k/month)
+  date: 2026-01-01
+  round: Long-term 2026
+  current: true
+
+
 - name: Michiel Borkent
   tier: Long-term (USD 1.5k/month)
   date: 2025-01-01
   round: Long-term 2025
-  current: true
+  current: false
 - name: Eric Dallo
   tier: Long-term (USD 1.5k/month)
   date: 2025-01-01
   round: Long-term 2025
-  current: true 
+  current: false 
 - name: Dragan Duric
   tier: Long-term (USD 1.5k/month)
   date: 2025-01-01
   round: Long-term 2025
-  current: true 
+  current: false 
 - name: Peter Taoussanis
   tier: Long-term (USD 1.5k/month)
   date: 2025-01-01
   round: Long-term 2025
-  current: true
+  current: false
 - name: Oleksandr Yakoshev
   tier: Long-term (USD 1.5k/month)
   date: 2025-01-01
   round: Long-term 2025
-  current: true
+  current: false
 
 
 - name: Bozhidar Batsov
