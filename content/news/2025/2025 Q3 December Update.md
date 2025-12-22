@@ -2,7 +2,7 @@
 title: "December 2025 Short-Term Q3 Project Updates"
 date: 2025-12-22T14:00:00+12:00
 author: Kathy Davis
-summary: "News from Thomas Clark, Dragan Djuric, Jeaye Wilkerson, and Jeremiah Coyle" 
+summary: "News from Ambrose Bonnaire-Seargent, Thomas Clark, Jeremiah Coylem Dragan Djuric, and Jeaye Wilkerson" 
 draft: True
 
 
