@@ -1,6 +1,6 @@
 ---
 title: "December 2025 Short-Term Q3 Project Updates"
-date: 2025-12-11T14:00:00+12:00
+date: 2025-12-22T14:00:00+12:00
 author: Kathy Davis
 summary: "News from Thomas Clark, Dragan Djuric, Jeaye Wilkerson, and Jeremiah Coyle" 
 draft: True
@@ -11,11 +11,23 @@ draft: True
 
 As 2025 winds down, we have several Q3 project updates. We have a few more reports coming in January 2026 as several are on staggered schedules. A brief summary of each project is included to provide overall context. Thanks to everyone for incredible work on these projects!   
 
+[Ambrose Bonnaire-Seargent: Malli](#ambrose-bonnaire-seargent-malli)  
+Looking back on this project, it started with a proposal for an external analysis pass that could be used to optimize Malli validators. Now at the completion of the funding
+period, we're solving the same problem, but instead of an additional tool, we're applying the analysis directly within Malli's validation algorithm.   
 
-[Thomas Clark: Fastmath]()  
+
+[Thomas Clark: Fastmath](#thomas-clark-fastmath)   
 Inasmuch as Lewis Carrol may have creatively objected, complex numbers are now an essential part of modern life: from quantum computing upwards and whether we are aware of it or not. Clojure's support for these numbers however, remains sporadic while it's biggest competitor, the well-known comedy snake - and scripting language https://www.geeksforgeeks.org/python/history-of-python/ treats complex numbers as first-class citizens.   
 
 With this funding, I would like to address the issue somewhat, particularly with regard to the implementation of complex matrices, but concerning a consistent complex API more generally.  
+
+
+[Jeremiah Coyle: Fireworks](#jeremiah-coyle-fireworks)   
+- Publish Fireworks editor plugins/extensions/integrations for Emacs, VS Code, and IntelliJ. These are fairly simple extensions that involve some basic form rewriting for wrapping/unwrapping forms.  
+- Add support for automatic detection of the 3 levels of color support (16-color, 256-color, or Truecolor), using an approach similar to [Chalk](https://github.com/chalk/supports-color). [#42](https://github.com/paintparty/fireworks/issues/42)  
+- Documentation of interactive workflow. 
+- Enhanced documentation for theme creation.
+- Call-site options for quick formatting changes. For hifi printing, support call-site option to disable all truncation and ellipsis [#14](https://github.com/paintparty/fireworks/issues/14)  
 
 
 [Dragan Djuric: Uncomplicate Clojure ML](#dragan-djuric-uncomplicate-clojure-ml)
@@ -33,18 +45,117 @@ My goal with this funding in Q3 2005 is to develop a new Uncomplicate library, C
 [Jeaye Wilkerson: Jank](#jeaye-wilkerson-jank)   
 This quarter, I'll be building packages for Ubuntu, Arch, Homebrew, and Nix. I'll be minimizing jank's dependencies, automating builds, filling in test suites for module loading, AOT building, and the Clojure runtime. I'll be working to get the final Clang and LLVM changes I have upstreamed into LLVM 22, adding a health check to jank to diagnose installation issues, and filling in some C++ interop functionality I couldn't get to last quarter.  Altogether, this quarter is going to be a hodgepodge of all of the various tasks needed to get jank shipped.   
 
-[Jeremiah Coyle: Fireworks](#jeremiah-coyle-fireworks)   
-- Publish Fireworks editor plugins/extensions/integrations for Emacs, VS Code, and IntelliJ. These are fairly simple extensions that involve some basic form rewriting for wrapping/unwrapping forms.  
-- Add support for automatic detection of the 3 levels of color support (16-color, 256-color, or Truecolor), using an approach similar to [Chalk](https://github.com/chalk/supports-color). [#42](https://github.com/paintparty/fireworks/issues/42)  
-- Documentation of interactive workflow. 
-- Enhanced documentation for theme creation.
-- Call-site options for quick formatting changes. For hifi printing, support call-site option to disable all truncation and ellipsis [#14](https://github.com/paintparty/fireworks/issues/14)   
+ 
 
 **AND NOW FOR THE REPORTS!**
 
+## Ambrose Bonnaire-Seargent: Malli  
+Q3 2025 $9K, Report No. 3, Published December 12, 2025   
+
+Looking back on this project, it started with a proposal for an external analysis pass that could be used to optimize Malli validators. Now at the completion of the funding
+period, we're solving the same problem, but instead of an additional tool, we're applying the analysis directly within Malli's validation algorithm. This is an excellent improvement, but the stakes are now _much_ higher as we're changing some of the oldest, most foundational code in Malli.  
+
+The big news is that recursive validators now [compile to recursive functions](https://github.com/metosin/malli/pull/1245)! This is a major optimization, integrated directly into the heart of Malli.  
+
+The road to this point started in 2021, where I [prototyped](https://github.com/metosin/malli/pull/507) and ultimately---a year later---[contributed](https://github.com/metosin/malli/pull/677) a subtle enhancement to `malli.generator` to map recursive schemas onto recursive generators. The main insight: recursive schemas can be detected by finding cycles of Malli refs.  
+
+Over the last few months, I knew I needed to really nail _why_ this works before
+exploiting it to optimize Malli's validation.  
+
+This culminated in a [simple but clarifying documentation improvement](https://github.com/metosin/malli/pull/1244) in which we learn something
+new about Malli itself.  
+
+I'll include it in full here:
+
+----
+
+### Mutable registries are a dev-time abstraction
+
+For performance reasons, Malli heavily caches registry
+lookups once a schema has been created via `m/schema`.
+
+Don't rely on registry mutations to be recognized consistently
+unless all schemas are reparsed. Here's a simple example:
+
+```clojure
+(def registry*
+  (atom {:int (m/-int-schema)
+         :string (m/-string-schema)
+         ::node :int}))
+
+(def eagerly-cached
+  (m/schema ::node {:registry (mr/mutable-registry registry*)}))
+
+(swap! registry* assoc ::node :string)
+
+(-> eagerly-cached m/deref m/form)
+;; => :int
+```
+
+Even atomic transactions mutating multiple schemas simultaneously in a mutable registry
+is not reliable, as a parsed schema may have cached one eagerly, and another lazily, leading to inconsistent results. See `malli.core-test/caching-of-mutable-registries-test` for demonstration of this phenomenon.  
+
+In practice, this is analogous to Clojure's treatment of vars. If a var
+is mutated, the most reliable general strategy to recognize the update
+is to refresh all namespaces that use that var. Similarly, if a registry is
+mutated, the best strategy for recognizing the update in all schemas is to
+recreate all schemas.  
+
+----
+
+Back to ref cycles, this doc is relevant to recursive schemas because the cycle detection algorithm _also_ breaks in the presence of unprincipled mutating registries.
+If we assume registries are immutable for the duration of cycle detection, then the algorithm seems air-tight to me, and so we
+went forward with using ref cycles to [compile to recursive schemas to recursive validators](https://github.com/metosin/malli/pull/1245).  
+
+Recursive validators are superior to the previous approach because:
+1. they can be fully compiled ahead of time  
+2. they take constant space relative to their inputs, before it was linear in the maximum depth of the validated input  
+3. they only need to compile one layer of recursion, before it was equal to the maximum depth of the validated input  
+
+While this is a great improvement, there is even more we can do, with even higher impact. Not everyone uses recursive schemas, but it's much more common to use refs more than once such as `[:tuple ::expr ::expr]`.
+Malli's handling of validators for such schemas could be greatly improved. Here's how I explained it to Malli's maintainers:  
+
+----
+
+Plumatic Schema [solves this](https://github.com/plumatic/schema/blob/74a1ecdb645d3f43b405a27e2b70f72db861b7ca/src/cljc/schema/spec/core.cljc#L74-L86) by caching validators for _all_ schemas during compilation. In addition to handling recursive schemas, it also prevents a nasty exponential blowup of compilation size for even non-recursive schemas, that Malli also suffers from.
+
+Malli's validator compilation is exponential. This registry demonstrates how:  
+
+```clojure
+(def registry {::creates-1-validator [:tuple]
+               ::creates-2-validators [:tuple ::creates-1-validator ::creates-1-validator ::creates-1-validator ::creates-1-validator]
+               ::creates-16-validators [:tuple ::creates-2-validators ::creates-2-validators ::creates-2-validators ::creates-2-validators]
+               ::creates-64-validators [:tuple ::creates-16-validators ::creates-16-validators ::creates-16-validators ::creates-16-validators]
+               ::creates-256-validators [:tuple ::creates-64-validators ::creates-64-validators ::creates-64-validators ::creates-64-validators]
+               ::creates-1024-validators [:tuple ::creates-256-validators ::creates-256-validators ::creates-256-validators ::creates-256-validators]
+               ::creates-4096-validators [:tuple ::creates-1024-validators ::creates-1024-validators ::creates-1024-validators ::creates-1024-validators]
+               ::creates-16384-validators [:tuple ::creates-4096-validators ::creates-4096-validators ::creates-4096-validators ::creates-4096-validators]
+               ::creates-65536-validators [:tuple ::creates-16384-validators ::creates-16384-validators ::creates-16384-validators ::creates-16384-validators]
+               ::creates-262144-validators [:tuple ::creates-65536-validators ::creates-65536-validators ::creates-65536-validators ::creates-65536-validators]
+               ::creates-1048576-validators [:tuple ::creates-262144-validators ::creates-262144-validators ::creates-262144-validators ::creates-262144-validators]
+               ::creates-4194304-validators [:tuple ::creates-1048576-validators ::creates-1048576-validators ::creates-1048576-validators ::creates-1048576-validators]})
+```
+
+With this registry, each level of depth N compiles `(m/validator ::creates-1-validator)` 4^N times.  
+
+e.g., `(m/validator ::creates-4194304-validators)` compiles `(m/validator ::creates-1-validator)` 4,194,304 (4^11) times.  
+
+Plumatic Schema would only compile it once. It's not so trivial to achieve with dynamically scoped refs, but it's the same idea as detecting ref cycles, which we can now do reliably.  
+
+Here's a reproduction of the issue https://github.com/frenchy64/malli/pull/36/files which I have been pondering since discussing https://github.com/metosin/malli/pull/1180  
+
+---
+
+I may propose work on this for a future Clojurists Together project, please stay tuned.  
+
+Thank you Clojurists Together and the Clojure community for funding this project, it was highly enjoyable and I learnt a lot.  
+I hope you find the results useful. <br>    
+
+---
+
+
 ## Thomas Clark: Fastmath  
 Q3 2025 $2K, Report No. 1, Published December 8, 2025   
-
 
 ### Table of Contents  
 1.  [Overview](#org1c5ce13)  
