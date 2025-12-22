@@ -3,13 +3,13 @@ title: "December 2025 Short-Term Q3 Project Updates"
 date: 2025-12-22T14:00:00+12:00
 author: Kathy Davis
 summary: "News from Ambrose Bonnaire-Seargent, Thomas Clark, Jeremiah Coyle, Dragan Djuric, and Jeaye Wilkerson" 
-draft: True
+
 
 
 
 ---
 
-As 2025 winds down, we have several Q3 project updates. We have a few more reports coming in January 2026 as several are on staggered schedules. A brief summary of each project is included to provide overall context. Thanks to everyone for incredible work on these projects!   
+As 2025 winds down, we have several Q3 project updates and  a few more  coming in January 2026 as several are on staggered schedules. A brief summary of each project is included to provide overall context. Thanks to everyone for your incredible work on these projects!   
 
 [Ambrose Bonnaire-Seargent: Malli](#ambrose-bonnaire-seargent-malli)  
 Looking back on this project, it started with a proposal for an external analysis pass that could be used to optimize Malli validators. Now at the completion of the funding
