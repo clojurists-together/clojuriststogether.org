@@ -10,7 +10,7 @@ summary: $171,000 in project funding - 18 grants, 16 developers
 ---
 As 2025 comes to a close we want to reach out and thank you for supporting Clojure, open-source, and the Clojurists Together community.  
 
-#### We’ve been able to accomplish a lot this year with your support.  
+### We’ve been able to accomplish a lot this year with your support.  
 
 In 2025, we funded a total of $171,000 of projects. 10 developers completed 12 shorter-term projects ($66,000 USD). 6 developers received a monthly stipend for the year ($105,000 USD in long-term funding). Since 2018, Clojurists Together has awarded more than $1.2 million to 87 developers working on more than 154 projects.  
 
@@ -23,16 +23,17 @@ We appreciate your subscription to our regular news and updates dispatches - as 
 We were able to attend the Heart of Clojure/Conj conference in the U.S. in November - and it was great to see and share with so many of you in person!
 
  
-#### The developer’s work we fund is highly valued - and used daily.  
+### The developer’s work we fund is highly valued - and used daily.  
 
 In addition to requesting specific tools and improvements, we have heard a consistent call for better documentation (content, presentation, and organization) and more support for engaging and supporting new Clojure users. This year, we received and funded several proposals that focused on these needs and will continue to encourage work in these areas. It is great to see that so many of you refer to and rely on the work the developers have undertaken throughout the year.  
 
-![alt text](image.png)
- 
+<img width="652" height="278" alt="image" src="https://github.com/user-attachments/assets/25e5d733-643a-4738-9650-fd696ddade09" />  <br>  
+
 
  
 
-#### Short-Term Projects Funded in 2025  
+
+### Short-Term Projects Funded in 2025  
 
 **Q2 2025:**   Bling, CALVA, CIDER, Code Combat, Jank, and Scicloj Building Bridges
 
@@ -41,7 +42,7 @@ In addition to requesting specific tools and improvements, we have heard a consi
 **2025 developers receiving annual funding:** Michiel Borkent, Eric Dallo, Dragan Djuric,  Peter Taoussanis, Oleksandr Yakushev, and Toby Crawley (Clojars maintenance and support).  
  
 
-#### Fun Facts and Thank You's  
+### Fun Facts and Thank You's  
 We are truly an international group bringing a wide range of experience. From Q1 2022 to Q3 2025, we funded developers working in 22 countries including Austria, Belgium, Brazil, Bulgaria, Canada, Denmark, England, Finland, France, Germany, Israel, Lithuania, Netherlands, Norway, Poland, Serbia, South Korea, Spain, Sweden, Ukraine, UK and the US.  
 
 
