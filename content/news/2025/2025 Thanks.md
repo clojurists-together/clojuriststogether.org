@@ -1,9 +1,10 @@
---
+---
+
 title: "Thanks..and more"
 date: 2025-12-29T14:00:00+12:00
 author: lvh, Maria, Daniel C., Heather, Lorelai, Daniel S., Christoph, Kathy
 summary: $171,000 in project funding - 18 grants, 16 developers
-draft: True  
+
 
 
 ---
@@ -49,12 +50,31 @@ We are truly an international group bringing a wide range of experience. From Q1
 
 Finally, a shout-out to the companies and organizations who have supported our work throughout the year and most for many years. They believe in Open Source development and have made a commitment to Clojure as an important tool for their product, service, and organizational projects. If your company might consider becoming a sponsoring member, please contact Daniel Compton at daniel@clojuriststogether.org to explore further.   
 
-slide of tranduce, map etc  
+**Thanks to Map, Transduce, and Filter Members:**  
+
+
+<img width="600" height="336" alt="image" src="https://github.com/user-attachments/assets/58addedb-14b4-4dcb-a500-a62f3fb4a942" /> <br>
+
+
+
+<br>  
+
 
 **And a shout out to the Into, Cons and Assoc Members who Contributed in 2025!**  
-bevuta IT GmbH, Jepsen, Xcoo, Sharetribe, Basil, Cognician, Biotz SL, Matrix Operations, Strategic Blue, Eric Normand, Nubizzi, Oiiku, Singlewire Software,Tentekraft, Bloom Ventures, Mastodon C, Ardoq AS, Condense, Mediquest, Vane GmbH, Codesmith GmbH, ELiT Ltd. Thorax informatieprojecten & advies, Fincite Management BV, Joshua Miller and Revenue Share member Jacek Schae (Learn Reagent, Learn re-frame).    
 
-**... and another thank you to all the 2025 Contributing Members.** [All of you make this work possible!](https://www.clojuriststogether.org/members/)  
+<img width="600" height="337" alt="image" src="https://github.com/user-attachments/assets/68672dc6-59cd-4e12-b12a-e59ac5217bf5" /> <br>
 
-Let’s join in celebrating this wonderful community - and hoping for peace in the New Year.   
+
+
+
+
+
+<br> 
+
+ 
+
+**... and another thank you to Revenue Share member Jacek Schae (Learn Reagent, Learn re-frame) and all the 2025 Contributing Members.** [All of you make this work possible!](https://www.clojuriststogether.org/members/)  
+
+Let’s join in celebrating this wonderful community - and hoping for peace in the New Year.   <br>  
+
 lvh, Maria, Daniel C, Heather, Lorelai, Daniel S., Chrisoph (Clojurists Together Board), and Kathy (Program Manager).  
