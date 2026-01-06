@@ -437,6 +437,11 @@
     "level" : "contributing",
     "founding" : false
   }, {
+    "name" : "Christian Johansen",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
     "name" : "Dorab Patel",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1099,6 +1104,6 @@
   } ],
   "member_stats" : {
     "company" : 41,
-    "developer" : 159
+    "developer" : 160
   }
 }
