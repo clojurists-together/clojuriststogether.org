@@ -1101,9 +1101,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Kleopatra Pirpinia",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 41,
-    "developer" : 160
+    "developer" : 161
   }
 }
