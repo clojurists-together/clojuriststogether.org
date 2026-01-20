@@ -27,7 +27,7 @@ Thanks everyone for the fantastic work!
 [Eric Dallo](#eric-dallo): ECA, clojure-lsp  
 [Michiel Borkent](#michiel-borkent): Eucalypt, Reagent, Squint, babashka, and more...  
 [Oleksandr Yakushev](#oleksandr-yakushev): CIDER nREPL, Orchard, clj-async-profiler, Virgil   
-[Peter Taoussanis](#peter-taoussanis): Sente, Tempel, Carmine  
+[Peter Taoussanis](#peter-taoussanis): Telemere, Tufte, Sente, Tempel, Carmine, Trove    
 
 
 
@@ -68,6 +68,7 @@ Hammock time. Did some research on LLMs and the future Clojure implementation of
 I also wrote a tutorial on dragan.rocks. I had plans to write more, but couldn't find time and energy, since December was especially full with lectures at the university, and I did not want to risk burnout :)  <br>
 
 ---
+
 
 
 
