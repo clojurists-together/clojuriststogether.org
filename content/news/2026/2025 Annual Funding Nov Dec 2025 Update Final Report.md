@@ -12,13 +12,16 @@ Hello Fellow Clojurists!
 
 This is the sixth and final report from the 5 developers who received Annual Funding in 2025. You can review their reports from throughout the year here:
 
-Jan/Feb 2025
-March/April 2025
-May/June 2025
-July/Aug 2025
-Sept/Oct 2025
+Jan/Feb 2025  
+March/April 2025  
+May/June 2025  
+July/Aug 2025  
+Sept/Oct 2025  
+
 
 Thanks everyone for the fantastic work! 
+
+
 
 [Dragan Djuric](#dragan-djuric): Neanderthal, Deep Diamond, Diamond ONNX Runtime   
 [Eric Dallo](#eric-dallo): ECA, clojure-lsp  
