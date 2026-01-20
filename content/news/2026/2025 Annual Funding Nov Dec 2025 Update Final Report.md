@@ -70,6 +70,7 @@ I also wrote a tutorial on dragan.rocks. I had plans to write more, but couldn't
 ---
 
 
+
 ## Eric Dallo  
 2025 Annual Funding Report 6. Published January 6, 2026.  
 
@@ -84,7 +85,7 @@ I spent some time preparing my talk that I gave there about ECA which should be 
 ### [eca](https://github.com/editor-code-assistant/eca)  
 **ECA is growing even faster**, with more people using, testing, finding bugs, asking for features, and **I'm confident to say that after 6 months, ECA is a tool as good comparing with big players in the market, being free, OSS, written in Clojure and so much extensible, I'm really happy with the result so far and there are so many ideas and improvements I wanna do next year thanks to community sponsor and support!  
 
-### 0.78.2 - 0.87.2  
+#### 0.78.2 - 0.87.2  
 - Add workspaces to `/doctor`  
 - Improve LLM request logs to include headers.  
 - Add `openai/gpt-5.1` to default models.  
@@ -143,7 +144,7 @@ We finally support vertical alignment in clojure-lsp format via cljfmt, one of t
 I started a sequence of lots of outdated bumps which fixed some issues and intend to finish on the next release as some break tests and some existing features.
 Also, we had some new features like squint projects support!  
 
-### 2025.11.28-12.47.43  
+#### 2025.11.28-12.47.43  
 - New keywords completion inside namespaced maps. #2113  
 - Pass current namespace aliases to cljfmt when range-formatting. #2129  
 - bump clj-kondo to `2025.10.24-20251120.193408-8` improving performance, fixing false-positives and supporting java inner classes.  
