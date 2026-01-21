@@ -3,7 +3,7 @@ title: "Annually-Funded Developers' Update: November and December 2025"
 date: 2026-01-20T14:00:00+12:00
 author: Kathy Davis
 summary: "Dragan Djuric, Eric Dallo, Michiel Borkent, Oleksandr Yakushev, Peter Taoussanis"  
-draft: True
+
 
 
 ---
@@ -12,11 +12,11 @@ Hello Fellow Clojurists!
 
 This is the sixth and final report from the 5 developers who received Annual Funding in 2025. You can review their reports from throughout the year here:
 
-Jan/Feb 2025  
-March/April 2025  
-May/June 2025  
-July/Aug 2025  
-Sept/Oct 2025  
+[Jan/Feb 2025](https://www.clojuriststogether.org/news/annually-funded-developers-update-jan./feb.-2025/)  
+[March/April 2025](https://www.clojuriststogether.org/news/annually-funded-developers-update-mar./april-2025/)    
+[May/June 2025](https://www.clojuriststogether.org/news/annually-funded-developers-update-may/june-2025/)   
+[July/Aug 2025](https://www.clojuriststogether.org/news/annually-funded-developers-update-july/august-2025/)    
+[Sept/Oct 2025](https://www.clojuriststogether.org/news/annually-funded-developers-update-september/october-2025/)    
 
 
 Thanks everyone for the fantastic work! 
@@ -25,9 +25,13 @@ Thanks everyone for the fantastic work!
 
 [Dragan Djuric](#dragan-djuric): Neanderthal, Deep Diamond, Diamond ONNX Runtime   
 [Eric Dallo](#eric-dallo): ECA, clojure-lsp  
-[Michiel Borkent](#michiel-borkent): Eucalypt, Reagent, Squint, babashka, and more...  
+[Michiel Borkent](#michiel-borkent): clj-kondo, Reagami, Squint, babashka, SCI, and more...  
 [Oleksandr Yakushev](#oleksandr-yakushev): CIDER nREPL, Orchard, clj-async-profiler, Virgil   
-[Peter Taoussanis](#peter-taoussanis): Telemere, Tufte, Sente, Tempel, Carmine, Trove    
+[Peter Taoussanis](#peter-taoussanis): Telemere, Tufte, Sente, Tempel, Carmine, Trove    <br>
+<br>
+<br>
+
+
 
 
 
@@ -78,8 +82,9 @@ I also wrote a tutorial on dragan.rocks. I had plans to write more, but couldn't
 What a year! This was probably the year that I most commited and worked in some many things for Clojure community, all of that thanks to ClojuristsTogether, thank you very much!
 In November I met so many people at ClojureConj that I work for 5 years and never met personally, it was a very good feeling to talk about so many subjects, projects, and hear about the best people in Clojure community. Check it out the picture with the biggest names in developer tooling for Clojure! 
 
-![conj](./conj.jpg)
-( From left to right: From left to right: Eric Dallo, Rich Hickey, Peter Stromberg, Michiel Borkent, Arthur Fucher)  
+<img width="684" height="385" alt="image" src="https://github.com/user-attachments/assets/6a1b295d-9721-4e39-a7c6-81a1126a3211" />
+
+(From left to right: Eric Dallo, Rich Hickey, Peter Stromberg, Michiel Borkent, Arthur Fucher)  
 
 I spent some time preparing my talk that I gave there about ECA which should be available soon for anyone interested.  
 
@@ -172,7 +177,7 @@ possible. Without you, the below projects would not be as mature or wouldn't
 exist or be maintained at all! So a sincere thank you to everyone who
 contributes to the sustainability of these projects.  
 
-<img alt="gratitude" src="https://emoji.slack-edge.com/T03RZGPFR/gratitude/f8716bb6fb7e5249.png" width="50px" text-align="center">  
+<img alt="gratitude" src="https://emoji.slack-edge.com/T03RZGPFR/gratitude/f8716bb6fb7e5249.png" width="30px" text-align="center">  
 
 Current top tier sponsors:  
 
@@ -211,7 +216,7 @@ Last November I had the honor and pleasure to visit the Clojure Conj 2025. I met
 a host of wonderful and interesting long-time and new Clojurians, many that I've
 known online for a long time and now met for the first time. It was especially exciting to finally meet Rich Hickey and talk to him during a meeting about Clojure dialects and Clojure tooling. The talk that I gave there: "Making tools developers actually use" will come online soon.  
 
-<img src="https://photos.clojure-conj.org/uploads/medium2x/21/bb/eee18492f42518506f78b0f48587.jpg" width="100%" align="center" alt="presentation at Dutch Clojure meetup">
+<img src="https://photos.clojure-conj.org/uploads/medium2x/21/bb/eee18492f42518506f78b0f48587.jpg" width="75%" align="center" alt="presentation at Dutch Clojure meetup">
 
 ### Babashka conf and Dutch Clojure Days 2026  
 In 2026 I'm organizing Babashka Conf 2026. It will be an afternoon event (13:00-17:00) hosted in the Forum hall of the beautiful public library of Amsterdam.
