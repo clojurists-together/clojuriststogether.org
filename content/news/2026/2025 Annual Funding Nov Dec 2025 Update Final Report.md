@@ -84,7 +84,7 @@ In November I met so many people at ClojureConj that I work for 5 years and neve
 
 <img width="684" height="385" alt="image" src="https://github.com/user-attachments/assets/6a1b295d-9721-4e39-a7c6-81a1126a3211" />
 
-(From left to right: Eric Dallo, Rich Hickey, Peter Stromberg, Michiel Borkent, Arthur Fucher)  
+(From left to right: Eric Dallo, Rich Hickey, Peter Strömberg, Michiel Borkent, and Arthur Fücher)  
 
 I spent some time preparing my talk that I gave there about ECA which should be available soon for anyone interested.  
 
@@ -217,6 +217,9 @@ a host of wonderful and interesting long-time and new Clojurians, many that I've
 known online for a long time and now met for the first time. It was especially exciting to finally meet Rich Hickey and talk to him during a meeting about Clojure dialects and Clojure tooling. The talk that I gave there: "Making tools developers actually use" will come online soon.  
 
 <img src="https://photos.clojure-conj.org/uploads/medium2x/21/bb/eee18492f42518506f78b0f48587.jpg" width="80%" align="center" alt="presentation at Dutch Clojure meetup">
+
+(From left to right: Steven Lombardi, Eric Dallo, Rich Hickey, Peter Strömberg, Michiel Borkent, Burin Choomnuan, and Arthur Fücher).   
+
 
 ### Babashka conf and Dutch Clojure Days 2026  
 In 2026 I'm organizing Babashka Conf 2026. It will be an afternoon event (13:00-17:00) hosted in the Forum hall of the beautiful public library of Amsterdam.
