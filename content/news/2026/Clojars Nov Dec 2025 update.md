@@ -11,7 +11,6 @@ draft: True
 November-December, 2025. Published January 24, 2026     
 
 This is an update on the work I've done maintaining [Clojars](https://clojars.org) in November and December of 2025.   
-
 Most of my work on Clojars is reactive, based on issues reported through the community or noticed through monitoring.   
 
 **If you have any issues or questions about Clojars,** you can find me in the [`#clojars` channel on the Clojurians Slack](https://clojurians.slack.com/archives/C0H28NMAS), or you can file an issue on the [main Clojars GitHub repository](https://github.com/clojars/clojars-web/issues/new/choose).   
