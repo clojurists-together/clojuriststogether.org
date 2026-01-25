@@ -3,7 +3,7 @@ title: "Clojars Maintenance and Support: November/December 2025 Update"
 date: 2026-01-25T14:00:00+12:00
 author: Kathy Davis
 summary: Toby Crawley Reports on Clojars logs, fixes, and updates   
-draft: True
+
 
 ---
 
