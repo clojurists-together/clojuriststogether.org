@@ -302,6 +302,13 @@
     "level" : "cons",
     "founding" : false
   }, {
+    "name" : "Pitch",
+    "member_type" : "company",
+    "url" : "https://pitch.com",
+    "logo" : null,
+    "level" : "filter",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1108,7 +1115,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 41,
+    "company" : 42,
     "developer" : 161
   }
 }
