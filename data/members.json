@@ -66,13 +66,6 @@
     "level" : "assoc",
     "founding" : false
   }, {
-    "name" : "Grammarly",
-    "member_type" : "company",
-    "url" : "https://grammarly.com",
-    "logo" : "/logos/grammarly.png",
-    "level" : "filter",
-    "founding" : false
-  }, {
     "name" : "Nubank",
     "member_type" : "company",
     "url" : "https://nubank.com.br",
@@ -1115,7 +1108,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 42,
+    "company" : 41,
     "developer" : 161
   }
 }
