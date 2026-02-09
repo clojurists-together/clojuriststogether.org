@@ -45,6 +45,14 @@
     "level" : "assoc",
     "founding" : false
   }, {
+    "name" : "Pitch",
+    "member_type" : "company",
+    "url" : "https://pitch.com",
+    "logo" : "/logos/pitch.svg",
+    "level" : "filter",
+    "founding" : false,
+    "tagline" : "Pitch is building the next generation presentation software for individuals and teams."
+  }, {
     "name" : "Xcoo",
     "member_type" : "company",
     "url" : "https://xcoo.jp",
@@ -293,13 +301,6 @@
     "url" : "https://www.tenkekraft.no",
     "logo" : null,
     "level" : "cons",
-    "founding" : false
-  }, {
-    "name" : "Pitch",
-    "member_type" : "company",
-    "url" : "https://pitch.com",
-    "logo" : null,
-    "level" : "filter",
     "founding" : false
   }, {
     "name" : "Ben Brinckerhoff",
