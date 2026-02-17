@@ -1,6 +1,6 @@
 ---
 title: "Last Call for Q2 2026 Funding Survey"
-date: "2025-12-02T14:00:00+12:00"
+date: "2026-02-16T14:00:00+12:00"
 author: Kathy Davis
 summary: "We Need Your Input"
 
@@ -17,4 +17,4 @@ Any questions, please email me at kdavis@clojuriststogether.org
 
 Kathy Davis
 Program Manager
-Clojurist Together Foundation
+Clojurists Together Foundation
