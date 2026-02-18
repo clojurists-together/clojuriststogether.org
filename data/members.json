@@ -585,11 +585,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Chris Smothers",
-    "member_type" : "developer",
-    "level" : "developer",
-    "founding" : false
-  }, {
     "name" : "Clay Hopperdietzel",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1107,6 +1102,6 @@
   } ],
   "member_stats" : {
     "company" : 40,
-    "developer" : 162
+    "developer" : 161
   }
 }
