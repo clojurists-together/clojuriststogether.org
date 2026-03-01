@@ -925,11 +925,6 @@
     "level" : "developer",
     "founding" : false
   }, {
-    "name" : "Radu Matasaru",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Byron Clark",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1102,6 +1097,6 @@
   } ],
   "member_stats" : {
     "company" : 40,
-    "developer" : 161
+    "developer" : 160
   }
 }
