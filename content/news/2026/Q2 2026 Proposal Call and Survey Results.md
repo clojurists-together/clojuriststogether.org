@@ -30,4 +30,20 @@ This approach is a little different than in years past but we'd like to try it i
 
 ## February 2026 Survey  
 
+### 88% of respondents use or refer to projects funded by Clojurists Together  
+<img width="688" height="302" alt="time spent q2 2026" src="https://github.com/user-attachments/assets/db3e8c70-5450-4b32-a205-9d8349e3653b" />
+
+
+<img width="688" height="367" alt="platform q2 survey" src="https://github.com/user-attachments/assets/a8441a3e-c854-4d44-bfc6-f7c6a77fbc3a" />  
+
+
+
+
+
+
+
+
+
+
+
 
