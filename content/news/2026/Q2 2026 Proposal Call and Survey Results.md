@@ -32,7 +32,9 @@ We surveyed the community in February to find out what what issues were top of m
 
 **Developer experience issues** came up a number of times, including: confusing error messages, poor documentation, and under-supported libraries. Improvements to any of those would be welcome.
 
-**Difficulty finding Clojure employment** was another recurring theme. Respondents were not sure how to solve it, but suggested a community job board might be helpful.
+**Difficulty finding Clojure employment** was another recurring theme. Respondents were not sure how to solve it, but suggested a community job board might be helpful.  <br>
+
+---
 
 ## February 2026 Survey  
 
