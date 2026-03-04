@@ -1,6 +1,6 @@
 ---
 title: "Call for Proposals. Feb. 2026 Member Survey"
-date: 2026-03-01T08:30:00+08:00
+date: 2026-03-04T08:30:00+08:00
 summary: "We are awarding up to $33K for Q2 2026 Projects"
 author: Kathy Davis  
 draft: True
@@ -16,6 +16,9 @@ Clojurists Together is pleased to announce that we are opening our Q2 2026 fundi
 We will be awarding up to $33,000 USD for a total of 5-7 projects. The $2k funding tier is for experimental projects or smaller proposals, whereas the $9k tier is for those that are more established. Projects generally run 3 months, however, the $9K projects can run between 3 and 12 months as needed. We expect projects to start at the beginning of April 2026. 
 
 A BIG THANKS to all our members for your continued support. We also want to encourage you to reach out to your [colleagues](https://www.clojuriststogether.org/developers/) and [companies](https://www.clojuriststogether.org/companies/) to join Clojurists Together so that we can fund EVEN MORE great projects throughout the year.  
+
+
+### And Now the Survey...
 
 We surveyed the community in February to find out what what issues were top of mind and types of initiatives they would like us to focus on for this round of funding. As always, there were a lot of ideas and we hope they will be useful in informing your project proposals.
 
@@ -34,10 +37,76 @@ We surveyed the community in February to find out what what issues were top of m
 ## February 2026 Survey  
 
 ### 88% of respondents use or refer to projects funded by Clojurists Together  
-<img width="688" height="302" alt="time spent q2 2026" src="https://github.com/user-attachments/assets/db3e8c70-5450-4b32-a205-9d8349e3653b" />
+<img width="688" height="302" alt="time spent q2 2026" src="https://github.com/user-attachments/assets/db3e8c70-5450-4b32-a205-9d8349e3653b" />  <br>
+
+---
 
 
-<img width="688" height="367" alt="platform q2 survey" src="https://github.com/user-attachments/assets/a8441a3e-c854-4d44-bfc6-f7c6a77fbc3a" />  
+ <img width="664" height="333" alt="communication q2 2026" src="https://github.com/user-attachments/assets/a02718dd-7d76-48a3-8c56-1c79214fac12" />  <br>
+
+ ---
+
+
+ <img width="688" height="367" alt="platform q2 survey" src="https://github.com/user-attachments/assets/fa4fdcf5-3eea-407f-8d4e-96ba7bb7fd65" />  <br>  
+
+ ---
+
+ <img width="687" height="497" alt="clojure improvements q2 2026" src="https://github.com/user-attachments/assets/62a40e38-b0fc-4267-807f-718cdab7de89" />  <br>
+
+ ---
+ 
+<img width="687" height="446" alt="CLojure script improvement q2 2026" src="https://github.com/user-attachments/assets/af94a4ae-12b6-4bef-9c34-241e783a8dcb" />  <br>
+
+---
+
+#### Plans for Conference Attendance in 2026 (number of mentions):
+- Clojure/Conj: 8
+- Dutch Clojure Days: 6  
+- babashka conference: 5  
+- Clojure South: 1  
+- Clojure Jam: 1  
+- reClojure: 1  
+
+#### If you were only to name ONE, what is the biggest challenge facing Clojure developers today and how can Clojurists Together support you or your organization in addressing those challenges? (select responses by category).
+
+**Adoption:**  
+- Advertising video like that one on Clojure Conj five years ago or so 
+- Language Adoption and popularity, projects that helps to grow the popularity of the language or helps to start programming easily  
+- Lack of widespread adoption is not a problem... until you want to convince others that Clojure is a technology you can count on and is worth developing with. Convincing others that Clojure is a great and solid technology that's here to stay, regardless of low(er) adoption, is sometimes tough.  
+- The fact that many teams and project would rule out Clojure as an option, being perceived as niche, far from mainstream, and thus risky
+
+**AI/LLMs**  
+- Keeping relevant in a programming market is the top challenge. With the IA, everyone is moving toward the most popular languages. If nobody uses Clojure, it is more difficult to justify its use, no matter how much better it could be.  
+- The biggest challenge is the spreading expectation that everything will be done in Python because AI will fix whatever problems Python will allegedly cause.  
+- How will Clojure and the Community fare in the light of LLMs and coding assistants?  
+- We are being encouraged to use Agentic AI coding assistants, but their support for Clojure is behind that of other languages.  
+- How can we articulate the value of Clojure as a sustainable, modern solution when discussion about AI is taking all of the air in the room. We can for example fortify our tooling regards this. Projects such as Calva make Clojure easy to approach for newbies and ClojureMCP is a great tool for Agentic developers.  
+- I am unsure about how LLM driven development fits with Clojure. I find myself building some things with JS and Python. For larger projects I am relying on Clojure for it's correctness properties and lower likelyhood of bugs.  
+- Support AI integration Clojure projects
+
+**Employment**  
+- Difficulty finding interesting and reliable work, but this isn't just Clojure-specific, the whole industry is weird right now.  
+- Finding employment writing Clojure code  
+- I would say that the biggest challenge for Clojure developers is in the job search. I'm not certain of a solution to this challenge, but perhaps some kind of Clojurists Together Job Board?
+
+**Developer Experience**  
+- Developer tooling improvements competitive with modern JavaScript/TypeScript tooling  
+- Missing parts of the data science stack  
+- Better documentation of the tools and projects and more tutorials  
+- Better integration with cljs/scittle/js/typescript - separate cljs compilation too complicated - scittle/squint/cherry with ES6 integration is the way
+clojurescript support for ESM libraries. It's crazy the hoops you have to jump through to use ESM with clojurescript, most people probably assume it's not possible at all because it's so difficult.  
+- It remains Error Reporting imho, and anyone working on improving it would get my eternal gratitude.  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
