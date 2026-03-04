@@ -65,15 +65,18 @@ We surveyed the community in February to find out what what issues were top of m
 - babashka conference: 5  
 - Clojure South: 1  
 - Clojure Jam: 1  
-- reClojure: 1  
+- reClojure: 1  <br>
 
-#### If you were only to name ONE, what is the biggest challenge facing Clojure developers today and how can Clojurists Together support you or your organization in addressing those challenges? (select responses by category).
+---
+
+#### If you were only to name ONE, what is the biggest challenge facing Clojure developers today and how can Clojurists Together support you or your organization in addressing those challenges? If you could wave a magic wand and change anything inside the Clojure community, what would it be? (select responses by category).
 
 **Adoption:**  
 - Advertising video like that one on Clojure Conj five years ago or so 
 - Language Adoption and popularity, projects that helps to grow the popularity of the language or helps to start programming easily  
 - Lack of widespread adoption is not a problem... until you want to convince others that Clojure is a technology you can count on and is worth developing with. Convincing others that Clojure is a great and solid technology that's here to stay, regardless of low(er) adoption, is sometimes tough.  
 - The fact that many teams and project would rule out Clojure as an option, being perceived as niche, far from mainstream, and thus risky
+- I would have more Clojure evangelism. More videos/blog posts/demos around using Clojure, both about whatever is currently at the peak of the broader tech hype cycle -- LLMs currently -- as well as uses and topics outside of the hype cycle.
 
 **AI/LLMs**  
 - Keeping relevant in a programming market is the top challenge. With the IA, everyone is moving toward the most popular languages. If nobody uses Clojure, it is more difficult to justify its use, no matter how much better it could be.  
@@ -94,9 +97,33 @@ We surveyed the community in February to find out what what issues were top of m
 - Missing parts of the data science stack  
 - Better documentation of the tools and projects and more tutorials  
 - Better integration with cljs/scittle/js/typescript - separate cljs compilation too complicated - scittle/squint/cherry with ES6 integration is the way
-clojurescript support for ESM libraries. It's crazy the hoops you have to jump through to use ESM with clojurescript, most people probably assume it's not possible at all because it's so difficult.  
-- It remains Error Reporting imho, and anyone working on improving it would get my eternal gratitude.  
+clojurescript support for ESM libraries. It's crazy the hoops you have to jump through to use ESM with clojurescript, most people probably assume it's not possible at all because it's so difficult.
+- Closer integration with JavaScript/TypeScript tooling
+-Seamless integration of cljs/cherry/scittle into the js-ecosystem with live repl and load-file support, standard sente/websocket communication included, standard/default solid telemetry/instrumentation API
+- Quicker resolution of outstanding Clojure (JIRA) issues
+- Have a official support program to people that focus on promote the language and/or community instead of library maintainers (like GDE from Google, MVP from Microsoft, Github Stars from Github)
+- I would encourage "cljc" as a default idiom. The linter could say, "This could be a cljc file!" or "Change this to that and suddenly it would be cljc-compatible".
+- It remains Error Reporting imho, and anyone working on improving it would get my eternal gratitude.  <br>
 
+---
+
+#### What areas of the Clojure ecosystem need support? (select responses)  
+- "I think something around marketing/evangelism; I have worked on several teams using Clojure/ClojureScript that have had to defend the use of Clojure/ClojureScript against more mainstream JVM/JS languages, and the core issue we've run up against is a confluence of the following three items:   
+-- 1. there are more Kotlin/Scala/TypeScript/Java developers than there are Clojure/ClojureScript developers   
+-- 2. The salary ranges for those languages tends to be lower than that for Clojure/ClojureScript   
+-- 3. The greatest benefits to be gained from using Clojure/ClojureScript -- systems which are far easier to understand, maintain, and extend, thus accelerating business goals -- are exceptionally difficult to quantify."  
+- "data.xml – My ticket has been rotting away for 14 months. :) (XML is a core technology at my company.)"   
+- Repl tooling and setup, more official tutorials and guides. Data validation and schemas.  
+- Data science, clojure for frontend  
+- Guides for LLM driven development that don't invoke huge piles of software just to modify code.
+- Growth to new domains and use cases, specifically scientific / academic / teaching <br>
+
+---
+
+#### 
+
+
+  
 
 
 
