@@ -131,7 +131,7 @@
     "member_type" : "company",
     "url" : "https://www.cisco.com",
     "logo" : null,
-    "level" : "transduce",
+    "level" : "filter",
     "founding" : false,
     "tagline" : "Cisco technology is creating a world of potential."
   }, {
