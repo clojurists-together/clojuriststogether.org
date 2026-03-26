@@ -12,8 +12,8 @@ Hello Fellow Clojurists!
 
 This is the first of six reports from the developers who are receiving annual funding for 2026. We've also added in the final FastMath report from Thomas Clark (Q3 2025 project).  There is a lot of great work here - so have fun exploring!
 
-[**Bozhidar Batsov:**](#bozhidar-batsov) nREPL, Clojure Mode, info-Clojure, CIDER  
-[**Clojure Camp:**](#clojure-camp)  
+[**Bozhidar Batsov:**](#bozhidar-batsov) nREPL, Clojure Mode, info-Clojure, CIDER, drawbridge    
+[**Clojure Camp:**](#clojure-camp) Parson's Problems, Mobs  
 [**Eric Dallo:**](#eric-dallo) eca, clojure-lsp, metrepl   
 [**Jeaye Wilkerson:**](#jeaye-wilkerson) Jank  
 [**Michiel Borkent:**](#michiel-borkent) 
@@ -30,7 +30,6 @@ CIDER nad nREPL saw important releases, but so did also:
 - drawbridge (first new release in years)
 
 I've also did some work on updating REPLy to use jline 3 and tools.reader (instead of the abandoned sjacket)   
-
 Below are some highlights from the releases.
 
 ### nREPL
@@ -79,7 +78,7 @@ I did the biggest updates of clojure-mode in years in the past month. This might
 - **Shebang recognition** — `interpreter-mode-alist` entries for `clojure`, `clj`, `planck`, `joker`, and `jank` so scripts auto-activate the right mode (#439).
 - **`clojure-discard-face`** for `#_` reader discard forms, separately stylable from comments (#688).
 - **`clojure-preferred-build-tool`** — controls project root detection when multiple build files exist, with `.git` as tiebreaker (#687).
-- ClojureCLR project root detection (`deps-clr.edn`).
+- **ClojureCLR project root detection** (`deps-clr.edn`).  
   
 **Bug Fixes (many long-standing)**  
 - `clojure-sort-ns` mangling `:gen-class` (#527).
@@ -101,8 +100,7 @@ I did the biggest updates of clojure-mode in years in the past month. This might
 
 ### inf-clojure 3.4.0 (Feb 27)
 
-inf-clojure rarely gets much love from me, but the project has been in a good shape for a while now anyways. Still, I felt that an annual cleanup and bug-fixing session was in order and I hope
-you'll appreciate it. I've also tried to restructure the docs to be easier to follow and I finally added some comparison with CIDER.
+inf-clojure rarely gets much love from me, but the project has been in a good shape for a while now anyways. Still, I felt that an annual cleanup and bug-fixing session was in order and I hope you'll appreciate it. I've also tried to restructure the docs to be easier to follow and I finally added some comparison with CIDER.  
 
 **New Features**  
 - **`inf-clojure-show-var-meta`** (`C-c C-S-m`) — display a var's full metadata (#57).
@@ -142,13 +140,10 @@ nREPL, clojure-mode and inf-clojure, but I think it's still turned out pretty we
 
 After the release I've introduced the concept of **default session** — `cider-set-default-session` / `cider-clear-default-session` to bypass sesman's project-based dispatch (#3865). This was in the back of my mind for years  
 
-I've also spend some time cleaning up internals, improving the CI and the docs. A lot more CIDER improvements are currently brewing. :-)  
-
----------------------------------------------------------
-
+I've also spend some time cleaning up internals, improving the CI and the docs. A lot more CIDER improvements are currently brewing. :-)   
 As you can imagine - I have many ideas on what to tackle next, so I hope the next couple of months will be just as exciting and productive.  
 
-Thanks to everyone for your support! You rock!  <br>
+Thanks to everyone for your support! You rock!  <br>  
 
 ---
 
