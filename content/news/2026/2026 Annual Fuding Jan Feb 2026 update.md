@@ -13,10 +13,10 @@ Hello Fellow Clojurists!
 This is the first of six reports from the developers who are receiving annual funding for 2026. We've also added in the final FastMath report from Thomas Clark (Q3 2025 project).  There is a lot of great work here - so have fun exploring!
 
 [**Bozhidar Batsov:**](#bozhidar-batsov) nREPL, Clojure Mode, info-Clojure, CIDER, drawbridge    
-[**Clojure Camp:**](#clojure-camp) Badges, Parson's Problems, Mobs  
+[**Clojure Camp:**](#clojure-camp)   
 [**Eric Dallo:**](#eric-dallo) eca, clojure-lsp, metrepl   
 [**Jeaye Wilkerson:**](#jeaye-wilkerson) Jank  
-[**Michiel Borkent:**](#michiel-borkent) 
+[**Michiel Borkent:**](#michiel-borkent) SCI, babashka, Cream, clj-kondo, squint, and more
 
 [**Thomas Clark:**](#fastmath-thomas-clark)FastMath
 
@@ -148,7 +148,7 @@ Thanks to everyone for your support! You rock!  <br>
 ---
 
 
-## Clojure Camp: Badges, Parson's Problems, Mobs    
+## Clojure Camp: Badges, Parson's Problem's, Mobs    
 2026 Annual Funding Report 1. Published March 7, 2026.   
 
 - Some of our CT funds are being set aside to support three efforts this year:   
@@ -174,7 +174,7 @@ Thanks to everyone for your support! You rock!  <br>
   - Release the Badges  
   - Engage a community member to help with logistical efforts (pizza fund, nano-conj, mentor program) <br>
 
-  ---
+---
 
 ## Eric Dallo: 
 2026 Annual Funding Report 1. Published March 8, 2026.   
@@ -200,7 +200,8 @@ That's really a lot of things done, showing how users are excited with the proje
 
 Also, we have a new webpage for [eca.dev](https://eca.dev)!
 
-![eca-webpage](./eca-webpage.png)
+<img width="600" height="321" alt="Dalle website image" src="https://github.com/user-attachments/assets/7ac60b1b-fbdb-4037-a1c8-0fbc60ad69ea" />
+
 
 #### ECA editor plugins
 
@@ -752,17 +753,18 @@ These are (some of the) other projects I'm involved with but little to no activi
 happened in the past month.  
 
 <details>
-<summary>Click for more details</summary>
-- [pod-babashka-go-sqlite3](https://github.com/babashka/pod-babashka-go-sqlite3): A babashka pod for interacting with sqlite3
-- [unused-deps](https://github.com/borkdude/unused-deps): Find unused deps in a clojure project
-- [pod-babashka-fswatcher](https://github.com/babashka/pod-babashka-fswatcher): babashka filewatcher pod
-- [sci.nrepl](https://github.com/babashka/sci.nrepl): nREPL server for SCI projects that run in the browser
-- [babashka.nrepl-client](https://github.com/babashka/nrepl-client)
-- [http-server](https://github.com/babashka/http-server): serve static assets
-- [sci.configs](https://github.com/babashka/sci.configs): A collection of ready to be used SCI configs.
-- [http-client](https://github.com/babashka/http-client): babashka's http-client
-- [html](https://github.com/borkdude/html): Html generation library inspired by squint's html tag
-- [instaparse-bb](https://github.com/babashka/instaparse-bb): Use instaparse from babashka
+<summary>Click for more details</summary>  
+  
+- [pod-babashka-go-sqlite3](https://github.com/babashka/pod-babashka-go-sqlite3): A babashka pod for interacting with sqlite3    
+- [unused-deps](https://github.com/borkdude/unused-deps): Find unused deps in a clojure project  
+- [pod-babashka-fswatcher](https://github.com/babashka/pod-babashka-fswatcher): babashka filewatcher pod  
+- [sci.nrepl](https://github.com/babashka/sci.nrepl): nREPL server for SCI projects that run in the browser  
+- [babashka.nrepl-client](https://github.com/babashka/nrepl-client)  
+- [http-server](https://github.com/babashka/http-server): serve static assets  
+- [sci.configs](https://github.com/babashka/sci.configs): A collection of ready to be used SCI configs.  
+- [http-client](https://github.com/babashka/http-client): babashka's http-client  
+- [html](https://github.com/borkdude/html): Html generation library inspired by squint's html tag  
+- [instaparse-bb](https://github.com/babashka/instaparse-bb): Use instaparse from babashka  
 - [sql pods](https://github.com/babashka/babashka-sql-pods): babashka pods for SQL databases
 - [rewrite-edn](https://github.com/borkdude/rewrite-edn): Utility lib on top of
 - [rewrite-clj](https://github.com/clj-commons/rewrite-clj): Rewrite Clojure code and edn
