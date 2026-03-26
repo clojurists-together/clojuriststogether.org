@@ -13,7 +13,7 @@ Hello Fellow Clojurists!
 This is the first of six reports from the developers who are receiving annual funding for 2026. We've also added in the final FastMath report from Thomas Clark (Q3 2025 project).  There is a lot of great work here - so have fun exploring!
 
 [**Bozhidar Batsov:**](#bozhidar-batsov) nREPL, Clojure Mode, info-Clojure, CIDER, drawbridge    
-[**Clojure Camp:**](#clojure-camp) Parson's Problems, Mobs  
+[**Clojure Camp:**](#clojure-camp) Badges, Parson's Problems, Mobs  
 [**Eric Dallo:**](#eric-dallo) eca, clojure-lsp, metrepl   
 [**Jeaye Wilkerson:**](#jeaye-wilkerson) Jank  
 [**Michiel Borkent:**](#michiel-borkent) 
@@ -342,7 +342,7 @@ A huge shout out to Kyle Cesare, who originally wrote jank's nREPL server back
 in August 2025. Thank you for your pioneering! If you're interested in helping
 out in this space, there's still so much to explore, so jump on in.  
 
-## C++ interop improvements  
+### C++ interop improvements  
 Most of my other work on jank has been related to improving C++ interop.  
 
 ### Referred globals  
@@ -574,7 +574,7 @@ runtime. Now, we should be in a good place from which to build multi-threaded
 jank applications. Tools like Clang's thread sanitizer will help ensure we stay
 there.
 
-## What's next
+### What's next
 In March, I am wrapping up work on the type DSL and getting that merged. I also
 need to investigate why the Arch binary package for jank is broken. Beyond that,
 I will be starting into some deep performance research for jank. That will mean
