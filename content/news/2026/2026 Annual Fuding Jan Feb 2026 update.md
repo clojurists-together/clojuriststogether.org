@@ -23,7 +23,7 @@ This is the first of six reports from the developers who are receiving annual fu
 
 
 
-## Bozhidar Batsov:  
+## Bozhidar Batsov  
 2026 Annual Funding Report 1. Published March 3, 2026.  
 
 The period was extremely productive and solid progress was made on almost every front.
@@ -179,7 +179,7 @@ Thanks to everyone for your support! You rock!  <br>
 
 ---
 
-## Eric Dallo: 
+## Eric Dallo 
 2026 Annual Funding Report 1. Published March 8, 2026.   
 
 Starting 2026 with so much energy! In these first 2 months I've been working hard on multiple projects, with most of the focus on ECA which is growing really fast with more and more people using it and contributing, we reached 0.109.0 with lots of features and improvements! Besides that, I worked on clojure-lsp, clojure-mcp, brepl and more, really happy with the progress and thankful for ClojuristsTogether sponsorship! :heart:  
