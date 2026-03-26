@@ -18,7 +18,10 @@ This is the first of six reports from the developers who are receiving annual fu
 [**Jeaye Wilkerson:**](#jeaye-wilkerson) Jank  
 [**Michiel Borkent:**](#michiel-borkent) SCI, babashka, Cream, clj-kondo, squint, and more
 
-[**Thomas Clark:**](#fastmath-thomas-clark)FastMath
+[**Thomas Clark:**](#fastmath-thomas-clark)FastMath   <br>  
+<br>  
+
+
 
 ## Bozhidar Batsov:  
 2026 Annual Funding Report 1. Published March 3, 2026.  
@@ -148,7 +151,7 @@ Thanks to everyone for your support! You rock!  <br>
 ---
 
 
-## Clojure Camp: Badges, Parson's Problem's, Mobs    
+## Clojure Camp    
 2026 Annual Funding Report 1. Published March 7, 2026.   
 
 - Some of our CT funds are being set aside to support three efforts this year:   
