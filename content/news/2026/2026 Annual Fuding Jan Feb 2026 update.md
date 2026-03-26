@@ -13,7 +13,7 @@ Hello Fellow Clojurists!
 This is the first of six reports from the developers who are receiving annual funding for 2026. We've also added in the final FastMath report from Thomas Clark (Q3 2025 project).  There is a lot of great work here - so have fun exploring!
 
 [**Bozhidar Batsov:**](#bozhidar-batsov) nREPL, Clojure Mode, info-Clojure, CIDER, drawbridge    
-[**Clojure Camp:**](#clojure-camp)   
+[**Clojure Camp:**](#clojure-camp)  Badges, Parson's Problems, Mobs   
 [**Eric Dallo:**](#eric-dallo) eca, clojure-lsp, metrepl   
 [**Jeaye Wilkerson:**](#jeaye-wilkerson) Jank  
 [**Michiel Borkent:**](#michiel-borkent) SCI, babashka, Cream, clj-kondo, squint, and more
