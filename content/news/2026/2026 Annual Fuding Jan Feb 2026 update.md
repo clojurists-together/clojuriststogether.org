@@ -406,8 +406,6 @@ this once merged, but here's a quick glimpse.
 <tr>
 <td>
 
-A normal C++ map template instantiation.
-
 ```cpp
 std::map<std::string, int*>
 ```
@@ -424,8 +422,6 @@ std::map<std::string, int*>
 
 <tr>
 <td>
-
-A normal C++ array template instantiation.
 
 ```cpp
 std::array<char, 64>::value_type
@@ -444,8 +440,6 @@ std::array<char, 64>::value_type
 <tr>
 <td>
 
-A sized C-style array.
-
 ```cpp
 unsigned char[1024]
 ```
@@ -462,8 +456,6 @@ unsigned char[1024]
 
 <tr>
 <td>
-
-A reference to an unsized C-style array.
 
 ```cpp
 unsigned char(&)[]
@@ -482,8 +474,6 @@ unsigned char(&)[]
 <tr>
 <td>
 
-A pointer to a C++ function.
-
 ```cpp
 int (*)(std::string const &)
 ```
@@ -501,8 +491,6 @@ int (*)(std::string const &)
 <tr>
 <td>
 
-A pointer to a C++ member function.
-
 ```cpp
 int (Foo::*)(std::string const &)
 ```
@@ -519,8 +507,6 @@ int (Foo::*)(std::string const &)
 
 <tr>
 <td>
-
-A pointer to a C++ member which is itself a pointer to a function.
 
 ```cpp
 void (*Foo::*)()
