@@ -416,7 +416,7 @@ std::map<std::string, int*>
 <td>
 
 ```clojure
-(std.map std.string (ptr int))
+(std.map std.string (:* int))
 ```
 
 </td>
