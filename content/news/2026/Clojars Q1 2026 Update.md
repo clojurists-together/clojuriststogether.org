@@ -9,8 +9,8 @@ summary: "Toby Crawley: Fixes and Updates Jan.- March 2026"
 
 ---
 
-## Clojars Q1 2026 Update: Toby Crawley  
-Posted April 7, 2026  
+## Clojars Q1 2026 Update: Toby Crawley   
+
 
 This is an update on the work I've done maintaining
 [Clojars](https://clojars.org) in January through March 2026 with the
