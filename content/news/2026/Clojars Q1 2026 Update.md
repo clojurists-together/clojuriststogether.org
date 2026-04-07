@@ -1,5 +1,5 @@
 ---
-title: "Clojars Maintenance Update for Q1 2026"
+title: "Clojars Update for Q1 2026"
 date: 2026-04-07T14:00:00+12:00
 author: Kathy Davis
 summary: "Toby Crawley: Fixes & Updates Jan.- March 2026"
