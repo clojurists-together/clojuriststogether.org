@@ -3,7 +3,7 @@ title: "Clojars Update for Q1 2026"
 date: 2026-04-07T14:00:00+12:00
 author: Kathy Davis
 summary: "Toby Crawley: Fixes & Updates Jan.- March 2026"
-draft: True
+
 
 
 
@@ -46,5 +46,7 @@ Conservancy](https://sfconservancy.org/)).
 **A note on 11 years of Clojars maintenance**  
 
 I became the lead maintainer of Clojars a little over [11 years](https://groups.google.com/g/clojars-maintainers/c/8zw2NBVKVcc/m/V5_LwVxie88J) ago. I've done [quite a bit of work on Clojars](https://github.com/clojars/clojars-web/graphs/contributors) during that period, and have thoroughly enjoyed working on it & supporting the community! I greatly appreciate the support I've gotten from [GitHub sponsors](https://github.com/tobias), the [Software Freedom Conservancy](https://sfconservancy.org/), and Clojurists Together over the years. After all that, it's time for a little break! I'm taking a few months away from Clojars (and computers in general) to go backpacking for a few months. I'm handing off lead maintenance to [Daniel Compton](https://github.com/danielcompton), and it is in good hands!  
+
+**Many thanks Toby for all your work - your contributions have made an immense difference to all of us! Have a great adventure - we're looking forward to hearing all about it when you return.** 
 
 
