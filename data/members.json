@@ -950,11 +950,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Colin Woodbury",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Jonathan Millett",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1097,6 +1092,6 @@
   } ],
   "member_stats" : {
     "company" : 40,
-    "developer" : 160
+    "developer" : 159
   }
 }
