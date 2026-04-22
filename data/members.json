@@ -295,6 +295,13 @@
     "level" : "cons",
     "founding" : false
   }, {
+    "name" : "Metabase",
+    "member_type" : "company",
+    "url" : "https://www.metabase.com",
+    "logo" : null,
+    "level" : "transduce",
+    "founding" : false
+  }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1091,7 +1098,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 40,
+    "company" : 41,
     "developer" : 159
   }
 }
