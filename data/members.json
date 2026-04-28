@@ -298,7 +298,7 @@
     "name" : "Metabase",
     "member_type" : "company",
     "url" : "https://www.metabase.com",
-    "logo" : null,
+    "logo" : "/logos/metabase.svg",
     "level" : "transduce",
     "founding" : false
   }, {
