@@ -139,7 +139,7 @@
     "member_type" : "company",
     "url" : "https://roamresearch.com",
     "logo" : "/logos/roam-research.png",
-    "level" : "map",
+    "level" : "transduce",
     "founding" : false,
     "tagline" : "A note-taking tool for networked thought."
   }, {
