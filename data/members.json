@@ -300,7 +300,8 @@
     "url" : "https://www.metabase.com",
     "logo" : "/logos/metabase.svg",
     "level" : "transduce",
-    "founding" : false
+    "founding" : false,
+    "tagline" : "Metabase is the querying and visualization layer for your database, made to fit startup's production DB to massive data warehouses."
   }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
