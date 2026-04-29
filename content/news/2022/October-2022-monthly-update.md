@@ -3,7 +3,6 @@ title: "October 2022 Monthly Update"
 date: 2022-10-31T09:30:00+08:00
 summary: Here are the updates from our Q3 2022 Projects. Read more about Cljfx, Portal, Exo, Clojupedia, Biff, Maria.cloud, Mathbox-cljs, and Clj-kondo and related.
 author: Alyssa Parado
-published: true
 ---
 
 ## Project: Cljfx, Vlad Protsenko

@@ -3,7 +3,6 @@ title: "March 2022 Monthly Update"
 date: 2022-04-08T04:30:00+08:00
 summary: Read the project updates of Dependabot Core, Biff, Orchard, Typed Clojure, Reveal, Clojure-LSP, Deep Diamond, and Firefox, and the update from our long term project with Bozhidar Batsov.
 author: Alyssa Parado
-published: true
 ---
 
 ## Biff

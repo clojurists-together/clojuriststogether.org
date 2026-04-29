@@ -3,7 +3,6 @@ title: "September 2022 Monthly Update"
 date: 2022-10-10T16:30:00+08:00
 summary: Read updates about Maria.cloud, Tablecloth and the final updates from our Q3 2021 long term projects with Bozhidar Batsov, Michiel Borkent, Dragan Djuric, Thomas Heller, and Nikita Prokopov.
 author: Alyssa Parado
-published: true
 ---
 
 ## Project: Maria.cloud, Matt Huebert
