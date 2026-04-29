@@ -301,7 +301,7 @@
     "logo" : "/logos/metabase.svg",
     "level" : "transduce",
     "founding" : false,
-    "tagline" : "Metabase is the querying and visualization layer for your database, made to fit startup's production DB to massive data warehouses."
+    "tagline" : "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data."
   }, {
     "name" : "Ben Brinckerhoff",
     "member_type" : "developer",
