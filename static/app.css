@@ -199,8 +199,12 @@ blockquote {
 }
 
 .membership-card .member-logo.large {
+    display: block;
     object-fit: contain;
-    max-height: 120px;
+    width: 100%;
+    max-width: 260px;
+    height: 100px;
+    margin: 0 auto;
 }
 
 .member-category {
