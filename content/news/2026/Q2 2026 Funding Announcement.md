@@ -11,7 +11,7 @@ draft: True
 
 Clojurists Together is excited to announce that we will be funding 5 projects in Q2 2026 for a total of $31K USD (3 for $9K and 2 shorter or more experimental projects for $2K).  
 
-Thanks to all our members for making this happen! We also want to give a special shout-out to MetaBase, our new Transduce member for signing up in support of Ambrose Bonnaire-Sergeant's Malli project. Malli is tightly aligned with the work underway at MetaBase and will also benefit the community at large.   
+Thanks to all our members for making this happen! We also want to give a special mention to [Metabase](https://www.metabase.com), our newest Transduce member for signing up to support Ambrose Bonnaire-Sergeant's work on [Malli](https://github.com/metosin/malli). Malli is used heavily at Metabase, as well as by many of our other members.
 
 Congratulations to the 5 developers below - we’re looking forward to your project updates.  
 
