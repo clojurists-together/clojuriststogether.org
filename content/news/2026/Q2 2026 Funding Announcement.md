@@ -1,9 +1,9 @@
 ---
 title: "Q2 2026 Funding Announcement"
-date: 2026-04-30T14:00:00+12:00
+date: 2026-05-02T14:00:00+12:00
 author: Kathy Davis
 summary: "5 projects are awarded a total of $31K"
-draft: True
+
 
 
 
