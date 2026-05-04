@@ -10,7 +10,6 @@
 # Q2 2026
 
 
-
 - name: Bohzidar Batsov
   tier: Long-term (USD 1.5k/month)
   date: 2026-01-01
@@ -149,9 +148,8 @@
   date: 2023-01-01
   round: Long-term 2023
  
-
 - name: Malli
-  url:
+  url: https://github.com/metosin/malli
   tier: USD 9k
   date: 2026-05-01
   round: Q2 2026
