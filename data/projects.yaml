@@ -180,7 +180,6 @@
   description:
   current: True
 
-  
 - name: Jank
   url: https://github.com/jank-lang/jank
   tier: USD 9k
