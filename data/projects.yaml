@@ -142,6 +142,7 @@
   tier: Long-term (USD 1.5k/month)
   date: 2023-01-01
   round: Long-term 2023
+
  
 - name: Malli
   url: https://github.com/metosin/malli
