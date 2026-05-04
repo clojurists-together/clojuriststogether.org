@@ -46,27 +46,22 @@
   tier: Long-term (USD 1.5k/month)
   date: 2025-01-01
   round: Long-term 2025
-  current: false
 - name: Eric Dallo
   tier: Long-term (USD 1.5k/month)
   date: 2025-01-01
   round: Long-term 2025
-  current: false
 - name: Dragan Duric
   tier: Long-term (USD 1.5k/month)
   date: 2025-01-01
   round: Long-term 2025
-  current: false
 - name: Peter Taoussanis
   tier: Long-term (USD 1.5k/month)
   date: 2025-01-01
   round: Long-term 2025
-  current: false
 - name: Oleksandr Yakoshev
   tier: Long-term (USD 1.5k/month)
   date: 2025-01-01
   round: Long-term 2025
-  current: false
 
 
 - name: Bozhidar Batsov
@@ -154,35 +149,35 @@
   date: 2026-05-01
   round: Q2 2026
   description:
-  current: true
+  current: True
 - name: SciCloj Documentation and Plotting Libraries
   url:
   tier: USD 9k
   date: 2026-05-01
   round: Q2 2026
   description:
-  current: true
+  current: True
 - name: UnComplicate AI: Clojure LLM
   url:
   tier: USD 9k
   date: 2026-05-01
   round: Q2 2026
   description:
-  current: true
+  current: True
 - name: Gloat
   url:
   tier: USD 2k
   date: 2026-05-01
   round: Q2 2026
   description:
-  current: true
+  current: True
 - name: PluMCP
   url:
   tier: USD 2k
   date: 2026-05-01
   round: Q2 2026
   description:
-  current: true
+  current: True
 
   
 - name: Jank
