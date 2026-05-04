@@ -143,7 +143,8 @@
   date: 2023-01-01
   round: Long-term 2023
 
- - name: Malli
+
+- name: Malli
   url: https://github.com/metosin/malli
   tier: USD 9k
   date: 2026-05-01
@@ -178,6 +179,7 @@
   round: Q2 2026
   description:
   current: True
+
 
 - name: Jank
   url: https://github.com/jank-lang/jank
