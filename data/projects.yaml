@@ -158,7 +158,7 @@
   round: Q2 2026
   description: Extend and improve the libraries in Noj, the entry point for data analysis in Clojure by extending the plotting capabilities of Noj’s plotting library, creating a new library for generating interactive dashboards, and expand the Noj book such that it has a more complete coverage of all libraries.
   current: true
-- name: UnComplicate AI: Clojure LLM
+- name: "UnComplicate AI: Clojure LLM"
   url:
   tier: USD 9k
   date: 2026-05-01
@@ -170,8 +170,7 @@
   tier: USD 2k
   date: 2026-05-01
   round: Q2 2026
-  description: Make Gloat/Glojure binaries smaller and faster. Pass more of the Clojure Compatibility Test Suite. Create tutorial docs on: 
-How to use Gloat to integrate Clojure into Go projects and How to use Gloat instead of GraalVM to (cross-)compile Clojure.
+  description: "Make Gloat/Glojure binaries smaller and faster. Pass more of the Clojure Compatibility Test Suite. Create tutorial docs on: How to use Gloat to integrate Clojure into Go projects and How to use Gloat instead of GraalVM to (cross-)compile Clojure."
   current: true
 - name: PluMCP
   url: https://modelcontextprotocol.io/specification/2025-11-25
