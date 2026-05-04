@@ -156,7 +156,7 @@
   tier: USD 9k
   date: 2026-05-01
   round: Q2 2026
-  description: extend and improve the libraries in Noj, the entry point for data analysis in Clojure by extending the plotting capabilities of Noj’s plotting library, creating a new library for generating interactive dashboards, and expand the Noj book such that it has a more complete coverage of all libraries.
+  description: Extend and improve the libraries in Noj, the entry point for data analysis in Clojure by extending the plotting capabilities of Noj’s plotting library, creating a new library for generating interactive dashboards, and expand the Noj book such that it has a more complete coverage of all libraries.
   current: true
 - name: UnComplicate AI: Clojure LLM
   url:
