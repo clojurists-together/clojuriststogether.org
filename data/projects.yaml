@@ -174,7 +174,7 @@
 How to use Gloat to integrate Clojure into Go projects and How to use Gloat instead of GraalVM to (cross-)compile Clojure.
   current: true
 - name: PluMCP
-  url:
+  url: https://modelcontextprotocol.io/specification/2025-11-25
   tier: USD 2k
   date: 2026-05-01
   round: Q2 2026
