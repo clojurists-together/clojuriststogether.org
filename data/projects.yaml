@@ -7,6 +7,7 @@
 # Q3 2024
 # Q2 2025
 # Q3 2025
+# Q2 2026
 
 
 - name: Bohzidar Batsov
@@ -148,48 +149,85 @@
   round: Long-term 2023
  
 
+-name: Malli
+  url:
+  tier: USD 9k
+  date: 2026-05-01
+  round: Q2 2026
+  description:
+  current: true
+-name: SciCloj Documentation and Plotting Libraries
+  url:
+  tier: USD 9k
+  date: 2026-05-01
+  round: Q2 2026
+  description:
+  current: true
+-name: UnComplicate AI: Clojure LLM
+  url:
+  tier: USD 9k
+  date: 2026-05-01
+  round: Q2 2026
+  description:
+  current: true
+-name: Gloat
+  url:
+  tier: USD 2k
+  date: 2026-05-01
+  round: Q2 2026
+  description:
+  current: true
+-name: PluMCP
+  url:
+  tier: USD 2k
+  date: 2026-05-01
+  round: Q2 2026
+  description:
+  current: true
+
+  
 - name: Jank
   url: https://github.com/jank-lang/jank
   tier: USD 9k
   date: 2025-09-01
   round: Q3 2025
   description: Build packages for Ubuntu, Arch, Homebrew, and Nix - minimizing jank's dependencies, automating builds, filling in test suites for module loading, AOT building, and the Clojure runtime.
-  current: true
+  current: false
 - name: Malli
   url: https://github.com/metosin/malli
   tier: USD 9k
   date: 2025-09-01
   round: Q3 2025
   description: Create a schema analyzer that can simplify complex schemas,such that two different but equivalent schemas could have the same representation.
-  current: true
+  current: false
 - name: Uncomplicate Clojure ML
   url: https://github.com/uncomplicate
   tier: USD 9k
   date: 2025-09-01
   round: Q3 2025
   description: Implement a Clojure developer-friendly API for AI/DL/ML models (in the first iteration based on ONNX Runtime, but later refined to be even more general) and its first backend engine (based on ONNX Runtime).
-  current: true
+  current: false
 - name: Fireworks
   url: https://github.com/paintparty/fireworks
   tier: USD 2k
   date: 2025-09-01
   round: Q3 2025
   description: Publish Fireworks editor plugins/extensions/integrations for Emacs, VS Code, and IntelliJ.
-  current: true
+  current: false
 - name: FastMath
   url: https://github.com/generateme/fastmath
   tier: USD 2k
   date: 2025-09-01
   round: Q3 2025
   description: Extend fastmath, which is the current high-level go-to for numerical matrices, to deal with complex numbers in an API-consistent way.
-  current: true
+  current: false
 - name: Uix
   url: https://github.com/pitch-io/uix
   tier: USD 2k
   date: 2025-09-01
   round: Q3 2025
   description: Develop auto memoizing compiler for UIx, an optimization similar to React's Compiler resulting in better baseline performance out of the box, with fewer work needed from developers.
-  current: true
+  current: false
 
 
 - name: CALVA
