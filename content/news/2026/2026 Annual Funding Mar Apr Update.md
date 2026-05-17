@@ -10,7 +10,7 @@ draft: True
 
 Hello Fellow Clojurists!
 
-This is the second of six reports from the developers who are receiving annual funding for 2026. Thanks to everyone for supporting their work and importanat contributions to the Clojure community. 
+This is the second of six reports from the developers who are receiving annual funding for 2026. Thanks to everyone for supporting their work and important contributions to the Clojure community. 
 
 [**Bozhidar Batsov:**](#bozhidar-batsov) nREPL, Clojure Mode, ts-mode, Orchard, CIDER, and more   
 [**Clojure Camp:**](#clojure-camp)  Badges, nano-conj, excercises  
@@ -163,12 +163,10 @@ And a HUGE THANKS to the members of Clojurists Together for supporting my Clojur
 
 Excited 2 months of lots of work and help from Clojurians! We had improvements in eca and clojure-lsp mainly, and new projects as well.  
 
-### [ECA](https://github.com/editor-code-assistant/eca)
-
+### [ECA](https://github.com/editor-code-assistant/eca)  
 ECA keeps growing a lot, receiving lots of contributions, with more than 800 stars already I'm planning a stable release soon, in these 2 months we had lots of releases with [ton of stuff](https://github.com/editor-code-assistant/eca/blob/master/CHANGELOG.md), so I will focus on the main highlights:
 
-#### 0.109.1 - 0.131.1
-
+#### 0.109.1 - 0.131.1  
 - __Plugins__: New plugin system to load external configuration from git repos or local paths, with an official marketplace at [plugins.eca.dev](https://plugins.eca.dev). Plugins can provide skills, MCP servers, agents, commands, hooks, rules and arbitrary config overrides, managed via `/plugins`, `/plugin-install` and `/plugin-uninstall`.
 - [ ] __Remote web control__: New remote web control server for browser-based chat observation and control via [web.eca.dev](https://web.eca.dev), allowing you to observe and drive ECA chats from any browser.
 - __Trust mode__: Clients can now auto-accept tool calls that would require manual approval, with regex patterns support for fine-grained `shell_command` approval.
@@ -184,7 +182,8 @@ ECA keeps growing a lot, receiving lots of contributions, with more than 800 sta
 
 #### [ECA Desktop](https://github.com/editor-code-assistant/eca-desktop)
 
-![eca-desktop](./eca-desktop.gif)
+<img width="960" height="562" alt="eca-desktop eric mar apr" src="https://github.com/user-attachments/assets/c32d9779-43a4-48d4-ae7c-d177fe50f4fb" />  
+
 
 Since ECA has been pretty stable and built in top of a nice extensible protocol, it worked so well that we decide to offer the same server capabilities to a Desktop client, similar to Claude Desktop but reusing the same server, this makes possible to have the same experience without an Editor, especially useful for non techinical people in price for a thin layer connecting to the server.
 
@@ -298,7 +297,7 @@ you can sponsor this work in the following ways. Thank you!
 ### Babashka conf and Dutch Clojure Days 2026
 
 [Babashka Conf 2026](https://babashka.org/conf/) was held on May 8th in the OBA Oosterdok library in Amsterdam! David Nolen, primary maintainer of ClojureScript, was our keynote speaker. We're excited to have [Nubank](https://international.nubank.com.br/careers/), [Exoscale](https://www.exoscale.com/jobs/), [Bob](https://github.com/bobisageek), [Flexiana](https://flexiana.com) and [Itonomi](https://itonomi.com) as sponsors. Nubank and Exoscale are hiring. Wendy Randolph was our event host. For the schedule and other info, see [babashka.org/conf](https://babashka.org/conf/).  
-The day after babashka conf, [Dutch Clojure Days 2026](https://clojuredays.org/) will be happening, so you can enjoy a whole weekend of Clojure in Amsterdam.
+The day after babashka conf, [Dutch Clojure Days 2026](https://clojuredays.org/) was also held - so it was a great weekend in Amsterdam!  
 Hope to have seen many of you there!  
 
 ### Projects
