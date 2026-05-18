@@ -2,7 +2,7 @@
 title: "Annually-Funded Developers' Update: March & April 2026"
 date: 2026-05-17T14:00:00+12:00
 author: Kathy Davis
-summary: "Bozhidar Batsov, Clojure Camp, Eric Dallo, Michiel Borkent, Jeaye Wilkerson, Thomas Clark"  
+summary: "Bozhidar Batsov, Clojure Camp, Eric Dallo, Michiel Borkent, Jeaye Wilkerson"  
 
 
 
