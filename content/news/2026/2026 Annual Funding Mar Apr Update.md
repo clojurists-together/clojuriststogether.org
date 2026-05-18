@@ -177,7 +177,7 @@ ECA keeps growing a lot, receiving lots of contributions, with more than 800 sta
 - __`ask_user` tool__: LLMs can now ask the user questions with optional selectable options, fully integrated with hooks and trust modes.
 - __Image generation__: Support for OpenAI's built-in `image_generation` tool via the Responses API, including image edits across turns and MCP tools that return image content.
 - __Prompt steering__: New `chat/promptSteer` notification to inject user messages into a running prompt at the next LLM turn boundary, without stopping it.
-- __MCP improvements__: New `mcp/addServer`, `mcp/removeServer`, `mcp/updateServer`, `mcp/enableServer` and `mcp/disableServer` requests to manage MCP servers at runtime, plus much better OAuth spec compliance and a switch from the Java SDK to [plumcp](https://github.com/editor-code-assistant/plumcp).
+- __MCP improvements__: New `mcp/addServer`, `mcp/removeServer`, `mcp/updateServer`, `mcp/enableServer` and `mcp/disableServer` requests to manage MCP servers at runtime, plus much better OAuth spec compliance and a switch from the Java SDK to [plumcp](https://github.com/plumce/plumcp).
 - __More providers and models__: Added LiteLLM, LM Studio, Mistral and Moonshot as built-in providers with login support, Claude Opus 4.7, deepseek-v4-pro, gpt-5.4 and gpt-5.5 variants, and GitHub Enterprise Copilot.
 
 #### [ECA Desktop](https://github.com/editor-code-assistant/eca-desktop)
