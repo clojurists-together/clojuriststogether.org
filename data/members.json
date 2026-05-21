@@ -281,13 +281,6 @@
     "level" : "cons",
     "founding" : false
   }, {
-    "name" : "REPL LLC",
-    "member_type" : "company",
-    "url" : "https://repl.ee",
-    "logo" : null,
-    "level" : "assoc",
-    "founding" : false
-  }, {
     "name" : "Tenkekraft",
     "member_type" : "company",
     "url" : "https://www.tenkekraft.no",
@@ -1104,7 +1097,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 41,
+    "company" : 40,
     "developer" : 160
   }
 }
