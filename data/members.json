@@ -861,11 +861,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Daw-Ran Liou",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Ed Bowler",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1098,6 +1093,6 @@
   } ],
   "member_stats" : {
     "company" : 40,
-    "developer" : 160
+    "developer" : 159
   }
 }
