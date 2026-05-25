@@ -13,7 +13,7 @@ Hello Fellow Clojurists!
 This is the second of six reports from the developers who are receiving annual funding for 2026. Thanks to everyone for supporting their work and important contributions to the Clojure community. 
 
 [**Bozhidar Batsov:**](#bozhidar-batsov) nREPL, Clojure Mode, ts-mode, Orchard, CIDER, and more   
-[**Clojure Camp:**](#clojure-camp)  Badges, nano-conj, excercises  
+[**Clojure Camp:**](#clojure-camp)  Badges, nano-conj, exercises  
 [**Eric Dallo:**](#eric-dallo) eca, eca-desktop, clojure-lsp, clojure-lsp-intellij  
 [**Jeaye Wilkerson:**](#jeaye-wilkerson) Jank compiler architecture and optimization  
 [**Michiel Borkent:**](#michiel-borkent) babashka, ClojureScript async/await, Rebel, squint, and much more  
