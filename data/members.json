@@ -22,14 +22,6 @@
     "founding" : true,
     "tagline" : "JUXT delivers secure and compliant bespoke software applications and platforms: from the world's busiest websites to complex financial systems."
   }, {
-    "name" : "Metosin",
-    "member_type" : "company",
-    "url" : "https://www.metosin.fi/",
-    "logo" : "/logos/metosin.svg",
-    "level" : "transduce",
-    "founding" : true,
-    "tagline" : "Metosin is the first Finnish software studio specializing in Clojure.\nWe believe that software development is, first and foremost, a human process."
-  }, {
     "name" : "Solita",
     "member_type" : "company",
     "url" : "http://www.solita.fi/en",
@@ -1092,7 +1084,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 40,
+    "company" : 39,
     "developer" : 159
   }
 }
