@@ -8,14 +8,14 @@ draft: True
 
 
 ---
-Here are the first updates for short term projects funded in Q2 2026. You can find overviews of these projects and two others which are reporting on a slightly different schedule in the [original funding announcement](https://www.clojuriststogether.org/news/q2-2026-funding-announcement/). Thanks everyone!  
+Here are the first updates for short term projects funded in Q2 2026. You can find overviews of these projects and two others which will be reporting on a slightly different schedule in the [original funding announcement](https://www.clojuriststogether.org/news/q2-2026-funding-announcement/). Thanks everyone!  
 
  
 [Clojure LLM: Dragan Djuric](#clojure-llm-dragan-djuric)   
-[Gloat: Ingy döt Net](#gloat-ingy-döt-net)   
+[Gloat and Glojure: Ingy döt Net](#gloat-and-glojure-ingy-dot-net)   
 [Malli: Ambrose Bonnaire-Sergeant](#malli-ambrose-bonnaire-sergeant)   <br>  
 
-
+<br>  
  
 
 
@@ -112,7 +112,8 @@ in Uncomplicate libraries. I also spent a lot of time compiling upstream C++ cod
 with cryptic C++ compiler shenanigans, that I am constantly reminded why Clojure is so great to work with :)  <br>
 
 ---
-### Gloat: Ingy döt Net   
+
+### Gloat and Glojure: Ingy döt Net  
 Q2 2026 Report 1. Published June 16, 2026  
 
 
