@@ -8,7 +8,7 @@ draft: True
 
 
 ---
-Here are the first updates for short term projects funded in Q2 2026. Thanks everyone!  
+Here are the first updates for short term projects funded in Q2 2026. You can find overviews of these projects and others which are reporting on a slightly different schedule in the [original funding announcement](https://www.clojuriststogether.org/news/q2-2026-funding-announcement/). Thanks everyone!  
 
  
 [Clojure LLM: Dragan Djuric](#clojure-llm-dragan-djuric)   
