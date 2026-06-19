@@ -12,7 +12,7 @@ Here are the first updates for short term projects funded in Q2 2026. You can fi
 
  
 [Clojure LLM: Dragan Djuric](#clojure-llm-dragan-djuric)   
-[Gloat and Glojure: Ingy döt Net](#gloat-and-glojure-ingy-dot-net)   
+[Gloat and Glojure: Ingy dot Net](#gloat-and-glojure-ingy-dot-net)  
 [Malli: Ambrose Bonnaire-Sergeant](#malli-ambrose-bonnaire-sergeant)   <br>  
 
 <br>  
@@ -108,9 +108,8 @@ with cryptic C++ compiler shenanigans, that I am constantly reminded why Clojure
 
 ---
 
-### Gloat and Glojure: Ingy döt Net  
-Q2 2026 Report 1. Published June 16, 2026   
-
+### Gloat and Glojure: Ingy dot Net    
+Q2 2026 Report 1. Published June 16, 2026    
 
 We are halfway through the Q2 2026 [Clojurists Together](
 https://www.clojuriststogether.org) funding cycle, so this is a good time to
@@ -160,8 +159,8 @@ dependencies, docs, examples, and the missing pieces that appear when you stop
 testing toy programs and start trying to use the system.  
 
 The short version: the first half of the grant has been mostly about making
-Gloat usable and explainable.  
-
+Gloat usable and explainable.  <br>
+<br>   
 
 #### Glojure Passed the Compatibility Test Suite   
 The most important foundation work happened in April: the Gloat/Glojure stack
@@ -174,7 +173,8 @@ Every compatibility test that passes is one less place where user code can
 surprise us later.  
 
 After that milestone, I added a [report page](https://gloathub.org/test-report/)
-to the Gloat site so the compatibility state is easier to see for yourself.  
+to the Gloat site so the compatibility state is easier to see for yourself.  <br>
+<br>   
 
 
 #### The REPL Became a Real Tool   
@@ -182,11 +182,8 @@ to the Gloat site so the compatibility state is easier to see for yourself.
 The most visible work this period was the REPL.  
 
 At the beginning of the cycle, Gloat was mostly an ahead-of-time compiler.
-You pointed it at source code and got output.
-That is still the center of the project, but a serious language tool needs an
-interactive story too.  
-
-The Glojure `glj` binary already had a working CLI REPL, but I really wanted
+You pointed it at source code and got output. That is still the center of the project, but a serious language tool needs an
+interactive story too.  The Glojure `glj` binary already had a working CLI REPL, but I really wanted
 to push Gloat's CLI REPL beyond anything I'd seen to date (in any language).  
 
 
@@ -220,7 +217,8 @@ able to jump between [Clojure](https://clojure.org),
 
 I'm super proud of how far this CLI REPL has come so far.
 I hope you take some time to kick the tires and take it for a test drive.
-Let me know what you think!  
+Let me know what you think!  <br>
+<br>   
 
 
 #### Browser REPL  
@@ -245,8 +243,10 @@ compiler is trying to make practical.
 My favorite part is sharable stateful URLs.
 [Try this one](https://gloathub.org/repl/#s:WyIoZGVmbiBmaXp6YnV6eiBbc3RhcnQgZmluaXNoXSBcbiAgKG1hcCAoZm4gW25dXG5cdChjb25kXG5cdFx0KHplcm8/IChtb2QgbiAxNSkpIFwiRml6ekJ1enpcIlxuXHRcdCh6ZXJvPyAobW9kIG4gMykpIFwiRml6elwiXG5cdFx0KHplcm8/IChtb2QgbiA1KSkgXCJCdXp6XCJcblx0XHQ6ZWxzZSBuKSlcblx0KHJhbmdlIHN0YXJ0IGZpbmlzaCkpKVxuIiwiKGZpenpidXp6IDEgMTAwKSJd)!
 
+<br>
+<br> 
 
-#### JVM Interop Compatibility  
+#### JVM Interop Compatibility   
 The biggest compatibility expansion was JVM-style interop.  
 
 Glojure is hosted on Go, not Java, but most real Clojure code assumes at least
@@ -281,7 +281,8 @@ the expected way.
 Fresh namespaces should have host-class imports populated in a way that matches
 what Clojure programmers expect.  
 
-This is the kind of work that makes unmodified Clojure code more likely to run.  
+This is the kind of work that makes unmodified Clojure code more likely to run.  <br>
+<br>   
 
 
 #### Go Interop and `gljdeps.edn`   
@@ -325,7 +326,8 @@ The deps file is still the reproducible path: it pins versions, supports
 private/offline builds, and is required for REPL use where there is no final
 `go build` discovery step.  
 Some dependency declaration and interop edges are still rough.
-But the basic path exists now, and it has docs and demos behind it.  
+But the basic path exists now, and it has docs and demos behind it.  <br>
+<br>   
  
 
 #### Upstream Glojure  
@@ -367,7 +369,8 @@ worktrees.
 Those details matter because Gloat, Glojure, gojava,
 [go-readline](https://github.com/gloathub/go-readline), and the
 [YAMLScript](https://yamlscript.org) stdlib package all move together during
-development.  
+development.  <br>
+<br>   
 
 
 #### Documentation and Examples  
@@ -387,7 +390,8 @@ The demos matter as much as the prose.
 There are now runnable examples for Go interop, Java interop, and third-party
 Go dependencies.
 Docs that only explain an idea are easy to get wrong.
-Docs that point to runnable files are much harder to fake.  
+Docs that point to runnable files are much harder to fake.  <br>
+<br>   
 
 
 #### Clojure.cc and the Wider Dialect Story   
@@ -414,7 +418,8 @@ $(make -f <(curl -sL clojure.cc/cmd.mk) lg) -e '(apply + (range 3 10))'
 This is not the core Gloat compiler work, but it supports the same goal:
 make these dialects easier to discover, try, and compare.
 It also gave me another place to exercise the Glojure browser REPL and the
-multi-dialect REPL launcher work.  
+multi-dialect REPL launcher work.  <br>
+<br>   
 
 
 #### let-go Collaboration   
@@ -445,7 +450,9 @@ One direction I have been thinking about is making Gloat an abstraction over
 both Glojure and let-go: same user-facing tool, potentially different Clojure-
 on-Go engines underneath.
 It is too early to promise that shape, but the overlap is obvious enough that
-it is worth exploring seriously.  
+it is worth exploring seriously.  <br>
+<br>   
+
 
 #### What Still Needs Work  
 The original grant goal of smaller and faster binaries still needs more direct
@@ -464,7 +471,8 @@ For the second half, the main areas are:
 - Run more real Clojure programs through Gloat
 - Keep expanding JVM compatibility where real code needs it
 - Smooth out `gljdeps.edn` and Go interop edges
-- Keep the docs tied to runnable examples
+- Keep the docs tied to runnable examples<br>
+<br>   
 
 
 #### Thanks   
