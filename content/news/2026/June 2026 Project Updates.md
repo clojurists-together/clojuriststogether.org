@@ -288,7 +288,7 @@ This is the kind of work that makes unmodified Clojure code more likely to run. 
 The other side of the interop story is Go.  
 
 Glojure already has Go interop, but Gloat needed clearer
-[Go interop docs](../../doc/gloat-go-interop.md), runnable demos, and an
+[Go interop docs](https://gloathub.org/doc/gloat-go-interop/), runnable demos, and an
 explicit way for Gloat programs to declare third-party Go packages.  
 
 I added a full Go interop guide covering:  
