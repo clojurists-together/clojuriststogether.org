@@ -146,7 +146,7 @@ WebAssembly) and completely open source licensing.
 
 #### The Goals
 
-In the [funding announcement post](2026-05-04.md) I listed three main goals:
+In the [funding announcement post](https://www.clojuriststogether.org/news/q2-2026-funding-announcement/)) I listed three main goals:
 
 - **Smaller, faster binaries.**
 - **Pass the Clojure Compatibility Test Suite (CCTS).**
