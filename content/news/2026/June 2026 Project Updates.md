@@ -187,7 +187,7 @@ interactive story too.  The Glojure `glj` binary already had a working CLI REPL,
 to push Gloat's CLI REPL beyond anything I'd seen to date (in any language).  
 
 
-[`gloat --repl`](../../doc/gloat-repl.md) now starts a REPL CLI with:
+[`gloat --repl`](https://gloathub.org/doc/gloat-repl/)) now starts a REPL CLI with:
 
 - Syntax highlighting w/ rainbow parens
 - Multiline editing and history
