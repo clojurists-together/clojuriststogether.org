@@ -8,7 +8,7 @@ draft: True
 
 
 ---
-Here are the first updates for short term projects funded in Q2 2026. You can find overviews of these projects and two others which will be reporting on a slightly different schedule in the [original funding announcement](https://www.clojuriststogether.org/news/q2-2026-funding-announcement/). Thanks everyone!  
+Here are the first updates for short term projects funded in Q2 2026. You can find overviews of these projects and the two others which will be reporting on a slightly different schedule in the [original funding announcement](https://www.clojuriststogether.org/news/q2-2026-funding-announcement/). Thanks everyone!  
 
  
 [Clojure LLM: Dragan Djuric](#clojure-llm-dragan-djuric)   
@@ -51,7 +51,6 @@ has not yet been written, and I am still running experiments and trying to conqu
 performance pitfalls.  
 
 #### The hammock  
-
 I have researched how to build LLMs from scratch and identified relative performance-sensitive
 areas. This enabled me to better understand the current playing field, and be prepared to deal with various
 implementation libraries for running LLMs. It also enables me to understand where ONNX Runtime falls short
@@ -61,8 +60,7 @@ choice as the first backend since it's relatively approachable, and it runs on d
 (+ we already have Diamond ONNX Runtime in Clojure). Anyway, I already see how it is going to at
 least direct the UX/API/architecture base for a polymorphic backend design of the future.  
 
-#### Tokenizer
-
+#### Tokenizer  
 I have implemented an universal token encoder by integrating HuggingFace's tokenizer via its Java wrapper.  
 It supports all major models (not explicitly tested yet).
 For token decoding, I tried using HuggingFace's tokenizer, but it's API and implementation does
@@ -76,7 +74,6 @@ The initial version is available here: https://github.com/uncomplicate/iLLaManat
 Dropped plans for sentencepiece integration, as our tokenizer is compatible with it.  
 
 #### The original superfast token sampler  
-
 This is the current highlight! During the hammock phase I got an idea of a novel
 (publication worthy!) fused sampler for the token decoding phase. It's super fast
 - that's why it's worthy of a scientific publication - and also elegant!
@@ -89,8 +86,7 @@ Yes, it has already been implemented and tested for the GPU in ClojureCUDA,
 it's sitting on my machine ready to shine! In the worst case, I'll publish this
 source by the end of this funding period, and in the best, ASAP.  
 
-#### The heart: LLM runner  
-
+#### The heart: LLM runner   
 As I've already written, this part is an (early) WIP. I experimented a lot, wrote some code,
 that code gave me some information, and I'm grinding it bit by bit. So, I can be pretty sure
 we'll have a pretty good implementation of LLM prefill and decode, and some nice
@@ -103,10 +99,9 @@ this funding cycle, but a great general base that could  replace ORT directly wi
 libraries such as TensorRT and OpenVINO for achieving top speed in the future.If that happens to not
 be enough for us (we Clojurists want the best of the best :) I'll try to make this base flexible
 enough to be able to integrate with the battleship solutions, such as TensorRT-LLM, directly,
-but that's the story for another time :)  
+but that's the story for another time :)   
 
-#### Miscellaneous  
-
+#### Miscellaneous   
 To accommodate the requirements of iLLaManati, I worked on assorted improvements and upgrades
 in Uncomplicate libraries. I also spent a lot of time compiling upstream C++ code and dealing
 with cryptic C++ compiler shenanigans, that I am constantly reminded why Clojure is so great to work with :)  <br>
@@ -114,7 +109,7 @@ with cryptic C++ compiler shenanigans, that I am constantly reminded why Clojure
 ---
 
 ### Gloat and Glojure: Ingy döt Net  
-Q2 2026 Report 1. Published June 16, 2026  
+Q2 2026 Report 1. Published June 16, 2026   
 
 
 We are halfway through the Q2 2026 [Clojurists Together](
@@ -124,8 +119,7 @@ report what has been done for [Gloat](https://gloathub.org) and
 
 The grant officially started on May 1, but since I had learned that it was
 accepted a couple weeks earlier, I got too excited and decided to start working
-on it immediately.  
-I was able to quickly get [Glojure to pass](https://gloathub.org/test-report/)
+on it immediately.  I was able to quickly get [Glojure to pass](https://gloathub.org/test-report/)
 the entire [Clojure Compatibility Test Suite](
 https://github.com/jank-lang/clojure-test-suite);
 except for 9 tests that are skipped as being not feasible.
@@ -141,9 +135,7 @@ announce that as of today, the work has been fully moved back to the upstream
 continue to be maintained and released from there.  
 
 My overall ambition for Gloat is to have Clojure be as full featured and
-prominent to Go programming as it is to Java.
-The industry is crazy about Go.
-Let's get it crazy about Clojure.  
+prominent to Go programming as it is to Java.  The industry is crazy about Go. Let's get it crazy about Clojure.  
 
 Furthermore, given that Go cross-compiles to almost everywhere, I am bullish on
 Gloat being a serious alternative to GraalVM's native-image compiler.
@@ -165,14 +157,13 @@ The CCTS goal landed early, just before the official grant start.
 That did not mean compatibility was finished, but it meant the core language
 was good enough to shift attention toward real-world use: interop, REPLs,
 dependencies, docs, examples, and the missing pieces that appear when you stop
-testing toy programs and start trying to use the system.
+testing toy programs and start trying to use the system.  
 
 The short version: the first half of the grant has been mostly about making
-Gloat usable and explainable.
+Gloat usable and explainable.  
 
 
-#### Glojure Passed the Compatibility Test Suite  
-
+#### Glojure Passed the Compatibility Test Suite   
 The most important foundation work happened in April: the Gloat/Glojure stack
 got to the point where Glojure passed Jank's Clojure compatibility test suite.  
 
@@ -186,7 +177,7 @@ After that milestone, I added a [report page](https://gloathub.org/test-report/)
 to the Gloat site so the compatibility state is easier to see for yourself.  
 
 
-#### The REPL Became a Real Tool  
+#### The REPL Became a Real Tool   
 
 The most visible work this period was the REPL.  
 
@@ -232,9 +223,8 @@ I hope you take some time to kick the tires and take it for a test drive.
 Let me know what you think!  
 
 
-#### Browser REPL
-
-The REPL work also produced a browser REPL.  
+#### Browser REPL  
+The REPL work also produced a browser REPL.   
 
 The Gloat website now has a [Glojure REPL page](https://gloathub.org/repl/)
 backed by a WebAssembly build of Glojure.
@@ -257,13 +247,10 @@ My favorite part is sharable stateful URLs.
 
 
 #### JVM Interop Compatibility  
-
 The biggest compatibility expansion was JVM-style interop.  
 
 Glojure is hosted on Go, not Java, but most real Clojure code assumes at least
-some `java.lang` behavior exists.  
-Even simple programs use things like `Math/sqrt`, `System/getenv`, strings,
-regexes, UUIDs, numeric wrappers, and time classes.  
+some `java.lang` behavior exists.  Even simple programs use things like `Math/sqrt`, `System/getenv`, strings, regexes, UUIDs, numeric wrappers, and time classes.  
 
 During this period I added docs, demos, and tests around a growing Go-native
 Java compatibility layer, [gojava](https://github.com/gloathub/gojava).
@@ -297,8 +284,7 @@ what Clojure programmers expect.
 This is the kind of work that makes unmodified Clojure code more likely to run.  
 
 
-#### Go Interop and `gljdeps.edn`  
-
+#### Go Interop and `gljdeps.edn`   
 The other side of the interop story is Go.  
 
 Glojure already has Go interop, but Gloat needed clearer
@@ -332,7 +318,7 @@ against that Go package.
 That moves Gloat closer to the original promise: Clojure syntax and semantics,
 with access to the Go ecosystem and Go's build targets.  
 
-There is still more work needed here.  
+There is still more work needed here. 
 For public modules, AOT builds can sometimes succeed without `gljdeps.edn`
 because `go mod tidy` can discover missing imports through the Go module proxy.
 The deps file is still the reproducible path: it pins versions, supports
@@ -343,7 +329,6 @@ But the basic path exists now, and it has docs and demos behind it.
  
 
 #### Upstream Glojure  
-
 Another important milestone: Gloat has moved back to upstream Glojure.  
 
 At the end of May I met with [James Hamlin](https://github.com/jfhamlin), the
@@ -386,10 +371,9 @@ development.
 
 
 #### Documentation and Examples  
-
 I added a lot of documentation this period.  
 
-New or heavily expanded docs include:
+New or heavily expanded docs include:  
 
 - [`gloat-repl`](../../doc/gloat-repl.md)
 - [`gloat-go-interop`](../../doc/gloat-go-interop.md)
@@ -406,8 +390,7 @@ Docs that only explain an idea are easy to get wrong.
 Docs that point to runnable files are much harder to fake.  
 
 
-#### Clojure.cc and the Wider Dialect Story  
-
+#### Clojure.cc and the Wider Dialect Story   
 One unexpected side project was [Clojure.cc](https://clojure.cc).  
 
 I built it because Gloat and Glojure make more sense when people can see the
@@ -434,8 +417,7 @@ It also gave me another place to exercise the Glojure browser REPL and the
 multi-dialect REPL launcher work.  
 
 
-#### let-go Collaboration  
-
+#### let-go Collaboration   
 The REPL comparison work also pulled in [let-go](https://github.com/nooga/let-go),
 another Go-hosted Clojure-like language.  
 
@@ -466,7 +448,6 @@ It is too early to promise that shape, but the overlap is obvious enough that
 it is worth exploring seriously.  
 
 #### What Still Needs Work  
-
 The original grant goal of smaller and faster binaries still needs more direct
 attention over the final 6 weeks of this grant.  
 
@@ -474,9 +455,9 @@ Some groundwork is already there, especially the earlier `-Xprune` work for
 dropping unused `clojure.core` code, but I have not spent enough of this cycle
 yet on output size and runtime speed.
 The first half pulled me toward compatibility, REPLs, dependencies, and docs,
-because those were the things blocking real use and feedback.
+because those were the things blocking real use and feedback.  
 
-For the second half, the main areas are:  
+For the second half, the main areas are:   
 
 - Continue reducing binary size
 - Improve runtime performance
@@ -486,22 +467,19 @@ For the second half, the main areas are:
 - Keep the docs tied to runnable examples
 
 
-#### Thanks  
-
+#### Thanks   
 Thanks to Clojurists Together and everyone who funds it.
 This kind of work needs long stretches of focused time, and the funding makes
 that possible. 
 
 
 Thanks also to the people building and maintaining the surrounding Clojure
-dialect ecosystem.
-Gloat sits in that larger context, and the project is better when it can learn
-from Clojure, ClojureScript, Babashka, Glojure, let-go, Jank, Basilisp, and the
-rest of the family.
+dialect ecosystem. Gloat sits in that larger context, and the project is better when it can learn from Clojure, ClojureScript, Babashka, Glojure, let-go, Jank, Basilisp, and the
+rest of the family.  
 
 Halfway through the grant, Gloat is much easier to try, much better documented,
 more compatible with ordinary Clojure code, and more connected to the Go
-ecosystem than it was on May 1.
+ecosystem than it was on May 1.  
 
 Now back to making the binaries smaller and faster. <br>   
 
@@ -510,13 +488,13 @@ Now back to making the binaries smaller and faster. <br>
 ### Malli: Ambrose Bonnaire-Sergeant  
 Q2 2026 Report 1. Published June 9, 2026  
 
-In this project, I am tackling exponential growth related to Malli refs.
+In this project, I am tackling exponential growth related to Malli refs.  
 
-Thanks to Metabase and Clojurists Together for funding this project.
+Thanks to Metabase and Clojurists Together for funding this project.  
 
 My work in progress so far is in [#1284](https://github.com/metosin/malli/pull/1284/files).
 The rest of this report documents some surprising discoveries about Malli's current behavior
-that should give some context on the work so far.
+that should give some context on the work so far.  
 
 As usual for optimizations around refs, there's
 surprisingly few lines of code involved and it's quite difficult to explain (like the
@@ -529,7 +507,7 @@ The first challenge was understanding why Malli schemas themselves exhibit expon
 In my pull request, the `is-counting-times` function checks how many times the `::counting` schema is initialized. This helps validate Malli's current behavior.  
 
 The first interesting discovery is that the simplest "pointer" ref parses the pointed child twice.
-For example, `::counting` is created twice here:
+For example, `::counting` is created twice here:  
 
 ```clojure
 (is-counting-times [:schema {:registry {::first ::counting}} ::first] 2)
@@ -544,7 +522,7 @@ Furthermore, adding unreferenced entries to the registry increases the initializ
 ```
 
 However, changing which registry entry we refer to in the schema body in the does not change
-the initialization count:
+the initialization count:  
 
 ```clojure
 (is-counting-times [:schema {:registry {::s0 ::counting ::s1 ::s0 ::s2 ::s1}} ::s0] 4)
@@ -554,7 +532,7 @@ the initialization count:
 
 This led me to look into the initialization of property registries, a very subtle part
 of Malli that uses an obscure option called `::allow-invalid-refs`. As best I can tell,
-this option is a symptom of this implementation approach causing the unexpected copies.
+this option is a symptom of this implementation approach causing the unexpected copies.  
 
 For example, let's step through why the following schema creates 3 copies of `::counting`:
 ```clojure
@@ -582,10 +560,10 @@ The subtlety preventing this optimization is Malli's dynamic scoping for refs.
 The current implementation intentionally treats each
 pointer to a property registry independently because the scope at that point is determined dynamically.
 This matters only in very rare, obscure, and (in my experience) often buggy circumstances,
-an insight that we can take advantage to optimize most schemas.
+an insight that we can take advantage to optimize most schemas.  
 
 Here's the simplest example I'm aware of that requires the most general implementation,
-one where `::counting` is never actually used, yet created twice:
+one where `::counting` is never actually used, yet created twice:  
 
 ```clojure
 (is-counting-times [:schema {:registry {::s0 ::counting ::s1 ::s0}}
@@ -599,16 +577,14 @@ This is relevant because we have two _different_ schemas called `::s1`,
 so naively reusing the same schema for both positions that mention `::s1`
 would be incorrect.
 
-Hopefully these observations help understand some of the approaches in the PR.  
+Hopefully these observations help understand some of the approaches in the PR.   
 
 In an earlier iteration of the PR, I managed to remove all exponential growth
 in schemas with non-overlapping registries, including the massive schema
-in the [PR description](https://github.com/metosin/malli/pull/1284) which optimizes the parsed representation from
-including millions of copies of a single schema to just one canonical representation.  
+in the [PR description](https://github.com/metosin/malli/pull/1284) which optimizes the parsed representation from including millions of copies of a single schema to just one canonical representation.   
 
 Next, I would like to tackle the exponential growth of generating a validator for this
-schema. I initially attempted to solve the problems of exponential growth of schemas themselves and their
-validators separately, however I suspect there is a unifying solution for both.
+schema. I initially attempted to solve the problems of exponential growth of schemas themselves and their validators separately, however I suspect there is a unifying solution for both.
 That will hopefully be the next milestone.  <br>  
 
 
