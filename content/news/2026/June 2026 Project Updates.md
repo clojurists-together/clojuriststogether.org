@@ -305,8 +305,7 @@ I added a full Go interop guide covering:
 
 I also added runnable demo files for each of those cases.  
 
-The more important practical change is [`gljdeps.edn`](
-../../doc/gloat-go-interop.md#packages-are-linked-not-imported)
+The more important practical change is [`gljdeps.edn`](https://gloathub.org/doc/gloat-go-interop/#packages-are-linked-not-imported)
 support in AOT compilation.
 Gloat now resolves deps from `--deps=`, `GLOAT_GLJDEPS`, or a local
 `./gljdeps.edn`, passes that file through to the Glojure compile workspace, and
