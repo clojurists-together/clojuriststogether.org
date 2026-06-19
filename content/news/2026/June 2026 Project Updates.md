@@ -377,7 +377,7 @@ I added a lot of documentation this period. New or heavily expanded docs include
 - [`gloat-repl`](https://gloathub.org/doc/gloat-repl/)
 - [`gloat-go-interop`](https://gloathub.org/doc/gloat-go-interop/)
 - [`gloat-java-interop`](https://gloathub.org/doc/gloat-java-interop/)
-- [`gloat-install`](https://gloathub.org/doc/)gloat-install/)
+- [`gloat-install`](https://gloathub.org/doc/gloat-install/)
 - [`gloat-tutorial`](https://gloathub.org/doc/gloat-tutorial/)
 
 The generated man pages and website docs were refreshed too.  
