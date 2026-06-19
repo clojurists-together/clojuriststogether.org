@@ -3,7 +3,7 @@ title: "June 2026 Short Term Project Updates"
 date: 2026-06-13T14:00:00+12:00
 author: Kathy Davis
 summary: News from Ambrose Bonnaire-Sergeant, Dragan Djuric, and Ingy döt Net
-draft: True
+
 
 
 
