@@ -244,7 +244,6 @@ My favorite part is sharable stateful URLs.
 [Try this one](https://gloathub.org/repl/#s:WyIoZGVmbiBmaXp6YnV6eiBbc3RhcnQgZmluaXNoXSBcbiAgKG1hcCAoZm4gW25dXG5cdChjb25kXG5cdFx0KHplcm8/IChtb2QgbiAxNSkpIFwiRml6ekJ1enpcIlxuXHRcdCh6ZXJvPyAobW9kIG4gMykpIFwiRml6elwiXG5cdFx0KHplcm8/IChtb2QgbiA1KSkgXCJCdXp6XCJcblx0XHQ6ZWxzZSBuKSlcblx0KHJhbmdlIHN0YXJ0IGZpbmlzaCkpKVxuIiwiKGZpenpidXp6IDEgMTAwKSJd)!
 
 <br>
-<br> 
 
 #### JVM Interop Compatibility   
 The biggest compatibility expansion was JVM-style interop.  
@@ -374,10 +373,7 @@ development.  <br>
 
 
 #### Documentation and Examples  
-I added a lot of documentation this period.  
-
-New or heavily expanded docs include:  
-
+I added a lot of documentation this period. New or heavily expanded docs include:  
 - [`gloat-repl`](../../doc/gloat-repl.md)
 - [`gloat-go-interop`](../../doc/gloat-go-interop.md)
 - [`gloat-java-interop`](../../doc/gloat-java-interop.md)
@@ -386,11 +382,8 @@ New or heavily expanded docs include:
 
 The generated man pages and website docs were refreshed too.  
 
-The demos matter as much as the prose.
-There are now runnable examples for Go interop, Java interop, and third-party
-Go dependencies.
-Docs that only explain an idea are easy to get wrong.
-Docs that point to runnable files are much harder to fake.  <br>
+The demos matter as much as the prose. There are now runnable examples for Go interop, Java interop, and third-party
+Go dependencies. Docs that only explain an idea are easy to get wrong. Docs that point to runnable files are much harder to fake.  <br>
 <br>   
 
 
