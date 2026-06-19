@@ -374,11 +374,11 @@ development.  <br>
 
 #### Documentation and Examples  
 I added a lot of documentation this period. New or heavily expanded docs include:  
-- [`gloat-repl`](../../doc/gloat-repl.md)
-- [`gloat-go-interop`](../../doc/gloat-go-interop.md)
-- [`gloat-java-interop`](../../doc/gloat-java-interop.md)
-- [`gloat-install`](../../doc/gloat-install.md)
-- [`gloat-tutorial`](../../doc/gloat-tutorial.md)
+- [`gloat-repl`](https://gloathub.org/doc/gloat-repl/)
+- [`gloat-go-interop`](https://gloathub.org/doc/gloat-go-interop/)
+- [`gloat-java-interop`](https://gloathub.org/doc/gloat-java-interop/)
+- [`gloat-install`](https://gloathub.org/doc/)gloat-install/)
+- [`gloat-tutorial`](https://gloathub.org/doc/gloat-tutorial/)
 
 The generated man pages and website docs were refreshed too.  
 
