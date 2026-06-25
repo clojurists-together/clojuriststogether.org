@@ -5,7 +5,8 @@ The Clojurists Together Foundation is a trade organisation, dedicated to funding
 Goals
 
 * Support open source software, infrastructure, and documentation that the Clojure/ClojureScript community relies on.
-* Support other community initiatives like Google Summer of Code
+* Provide on-call support and maintenance for Clojars
+* Support other community initiatives like Clojure Camp, Clojure/Conj, Heart of Clojure, and Google Summer of Code
 
 ## How it works
 
