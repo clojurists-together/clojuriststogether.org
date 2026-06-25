@@ -10,15 +10,15 @@ Goals
 
 ## How it works
 
-### Open source projects
+### We fund open source projects.
 
-Open source maintainers apply for funding, and if accepted, get paid to work on their project to make it better for everyone. Clojurists Together funds projects in three month cycles.
+Open source maintainers apply for funding, and if accepted, get paid to work on their project to make it better for everyone. Clojurists Together funds projects in three month cycles and provides annual grants to developers working on a variety of projects.  We have awarded more than $1.2 million USD to 92 developers working in 55 countries since 2018.
 
 [More Information](/open-source/)
 
-### Companies and individuals
+### Member companies and individuals provide input on funding decisions.
 
-Companies and individual developers can sign up for a monthly or annual Clojurists Together membership. Your membership entitles you to certain benefits, including steering which projects get funded.
+Companies and individual developers can sign up for a monthly or annual Clojurists Together membership. Your membership entitles you to certain benefits, including steering which projects and developers get funded.
 
 <p class="homepage-cta">
 <a class="become-a-member" href="/companies">Company Signup</a>
@@ -31,5 +31,5 @@ Clojurists Together provides full transparency for how your money is spent:
 
 * Full accounting for project funds
 * Open committee, members able to vote on committee members in annual elections
-* Open project selection criteria
-* Monthly updates posted showing how money was spent
+* Open project selection criteria based on member surveys
+* Monthly updates posted showing how money was spent. Developers share detailed project reports outlining progress, challenges, and releases. Your membership drives results!
