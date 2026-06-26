@@ -1,4 +1,4 @@
-## Funding critical Clojure open source software
+## Our mission is to fund critical Clojure open source software
 
 The Clojurists Together Foundation is a trade organisation, dedicated to funding and supporting open source software, infrastructure, and documentation that is important to the Clojure and ClojureScript community.
 
