@@ -3,7 +3,7 @@ title: "Q3 2026 Funding Survey"
 date: "2026-07-08T14:00:00+12:00"
 author: Kathy Davis
 summary: "We Need Your Input"
-draft: True
+
 ---
 
 Greetings Clojurists! 
