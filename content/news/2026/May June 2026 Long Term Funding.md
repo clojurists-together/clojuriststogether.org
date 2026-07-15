@@ -3,7 +3,7 @@ title: "Annually-Funded Developers' Update: May & June 2026"
 date: 2026-07-14T14:00:00+12:00
 author: Kathy Davis
 summary: "Bozhidar Batsov, Clojure Camp, Eric Dallo, Michiel Borkent, Jeaye Wilkerson"  
-draft: True
+
 
 
 ---
