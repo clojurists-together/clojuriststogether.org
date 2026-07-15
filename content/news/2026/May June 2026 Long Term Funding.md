@@ -10,7 +10,15 @@ draft: True
 
 Hello Fellow Clojurists!
 
-This is the third of six reports from the developers who are receiving annual funding for 2026. Thanks to everyone for supporting their work and important contributions to the Clojure community. 
+This is the third of six reports from the developers who are receiving annual funding for 2026. Thanks to everyone for supporting their work and these important contributions to the Clojure community. 
+Their previous reports can be found here:  
+[January/February 2026](https://www.clojuriststogether.org/news/annually-funded-developers-update-january-february-2026/)   
+[March/April 2026](https://www.clojuriststogether.org/news/annually-funded-developers-update-march-april-2026/)   <br>
+
+<br>
+
+
+
 
 [**Bozhidar Batsov:**](#bozhidar-batsov) cider-nREPL, neat, Sayid, port, Orchard, CIDER, and more   
 [**Clojure Camp:**](#clojure-camp)  datascript playground, fill in the blank excercises  
@@ -204,7 +212,8 @@ Another 2 months of intense work! The focus this time was on stability, performa
 
 ECA keeps growing steadily, now with more than 900 stars and contributions coming every week. As usual [the changelog is huge](https://github.com/editor-code-assistant/eca/blob/master/CHANGELOG.md), so here are the main highlights:  
 
-![](./eca-context.png)
+<img width="1000" height="460" alt="eca-context Dallo MayJune 2026 smaller" src="https://github.com/user-attachments/assets/4f7b3380-9549-4bfa-b416-8a2fd3f52f2c" />
+
 
 #### 0.132.0 - 0.144.0  
 
@@ -369,7 +378,8 @@ A lot happened in the past two months! Not just coding but also...
 Three years after the initial installment, [Babashka Conf 2026](https://babashka.org/conf/) happened on May 8th at the OBA Oosterdok library in Amsterdam, with David Nolen, primary maintainer of ClojureScript, as our keynote speaker. Thanks to our sponsors Nubank, Exoscale, [Bob](https://github.com/bobisageek), [Flexiana](https://flexiana.com) and [Itonomi](https://itonomi.com), to Wendy Randolph for hosting, and to all the speakers, volunteers and attendees who made it such an inspiring day. You can watch all the videos [here](https://www.youtube.com/watch?v=c5RTAtodh3M&list=PLaN-rC-CjQqCClhXmwzE7XhGWbrbB-A7u). Thanks to Ray for recording!
 The day after, [Dutch Clojure Days 2026](https://clojuredays.org/) rounded out a full weekend of Clojure in Amsterdam, where I did a presentation about [ClojureScript and async/await](https://clojurescript.org/reference/async-functions). The video of that is hopefully coming soon.  
 
-<img src="assets/babashka-conf-2026.jpg" width="70%" align="center" alt="Babashka Conf 2026 speakers and organizers">
+<img width="490" height="370" alt="image" src="https://github.com/user-attachments/assets/8ad980b6-4909-48c7-b4d7-b20d0431a20f" />
+
 
 <em>Babashka Conf 2026. From left to right: David Nolen, Jen Myers, Adrian Smith, Josh Glover, Rahul Dé, Arne Brasseur, Christoph Neumann, Timo Kramer, Jynn Nelson, Wendy Randolph.</em>
 
