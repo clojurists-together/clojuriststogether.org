@@ -18,10 +18,10 @@ Here are July's updates for short term projects funded in Q2 2026. You can find 
  
 
 
-### Clojure LLM: Dragan Djuric  
+## Clojure LLM: Dragan Djuric  
 Q2 2026 Report 2. Published June 30, 2026  
 
-## The proposal was (in short):  
+### The proposal was (in short):  
 The goal is to provide a high performance local LLM (large language model) AI solution,
 that supports mainstream open models, freely available at Hugging Face and elsewhere.
 Something like llama.cpp (https://llama-cpp.com/), but (hopefully!) simpler *and faster*,
