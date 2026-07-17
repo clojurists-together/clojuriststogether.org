@@ -503,11 +503,6 @@
     "level" : "assoc",
     "founding" : false
   }, {
-    "name" : "Andrea Crotti",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "David Whittington",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1090,6 +1085,6 @@
   } ],
   "member_stats" : {
     "company" : 39,
-    "developer" : 160
+    "developer" : 159
   }
 }
