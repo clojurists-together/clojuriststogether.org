@@ -2,7 +2,7 @@
 title: "July 2026 Short Term Project Updates"
 date: 2026-07-15T14:00:00+12:00
 author: Kathy Davis
-summary: News from Ambrose Bonnaire-Sergeant, Dragan Djuric, and 
+summary: News from Ambrose Bonnaire-Sergeant, Dragan Djuric, and Shantanu Kumar
 draft: True  
 
 
