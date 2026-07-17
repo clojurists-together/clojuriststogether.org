@@ -102,16 +102,100 @@ I haven't had time to make official releases, nor I committed all code to GitHub
 
 ---
 ## Malli: Ambrose Bonnaire-Sergeant  
-Q2 2026 Report 2. Published July xx, 2026  
+Q2 2026 Report 2. Published July 17, 2026  
 
+In this project, I am tackling exponential growth related to Malli refs.  
 
+There has been a lot of progress to report in this second month of work.
+As before, I have been iterating on an implementation in [this pull request](https://github.com/metosin/malli/pull/1284/changes),
+and I think I have carved out a design and implementation that addresses the main
+goals of the project, while streamlining and simplifying both the current and
+future design of Malli schemas.  
 
+If we view Malli schemas as a graph where nodes are schemas and edges point
+to their child schemas, then this graph is acyclic in Malli's current implementation.
+Not only that, nodes that represent the exact same schema but are merely occurrences
+naming the same schema are not consolidated.
+This has caused many performance and usability issues with Malli that we have
+historically tackled by trying to consolidate this graph within Malli's _operations_.  
 
+For example, when converting Malli schemas to value generators we add extra checks
+to essentially detect cycles in the graph of schemas in order to avoid generating
+unusably large values. We then solved the same
+problem separately for validators, explainers and transformers to fix memory leaks
+caused by recursing down large values, with each implementation being distict.
+The same problem would have to be solved for each current and future operation
+that we'd like to purge these issues of.  
 
-<br>
+One particular symptom of this surprising duplication of effort is worth mentioning.
+Schema instances (nodes in the graph described earlier) each carry an internal
+cache for caching results. Notably absent is any use of this cache in the algorithms
+that exploit cycles in generators, validators or any other operation. Keeping the
+visualization of schemas as a graph in mind, each schema (node), and thus each schema's _cache_,
+is self contained. Since there is no deduplication of schemas in the graph, even semantically
+identical schemas do not share a cache. This points to an elegant solution: upgrading
+Malli's internal representation of schemas to reliably deduplicate schema instances
+such that the same schemas share the same cache.   
+
+[My previous report](https://www.clojuriststogether.org/news/june-2026-short-term-project-updates/#malli-ambrose-bonnaire-sergeant)
+explained a solution to this which still seems effective. I speculated
+that we could undo the duplication of effort in schema operations, and this
+month I'm happy to report exactly that: the new design since then
+reverts the custom ref validator implementation back to its original implementation
+while still tying the knot and thus avoiding memory leaks:  
+
+```clojure
+           (-validator [_]
+             (let [validator (-memoize #(validator (rf)))]
+               (fn [x] ((validator) x))))
+```
+
+Well, there is one subtle difference: we are memoizing a call to `validator`
+instead of `-validator`. The former caches the validator in the schema's internal
+cache, which is now effective because we have deduplicated the graph of schemas
+and thus the same cache is used for semantically identical schemas.  
+
+In this new design, a schema like:
+
+```clojure
+(m/schema
+ [:schema {:registry {::list-of [:seqable ::element],
+                      ::element :string}}
+  [:tuple ::list-of
+          ::list-of
+          ::list-of]])
+```
+
+deduplicates the three ref occurrences of `::list-of` in the `:tuple` to all point
+to the same `:seqable` schema instance, and thus the same cache. This means only the first
+`::list-of` occurrence actually creates a validator, the second and third merely
+pull it from the shared cache.
+In contrast, the old implementation would create (at least) three distinct
+schema instances, and then the validator algorithm would manually deduplicate validators
+via a subtle algorithm.
+In this design, Malli's own schema parsing logic performs deduplication, making
+the efficient implementation of operations much easier.  
+
+There are a few unknowns to resolve. Malli's maintainers previously rejected
+this approach of caching recursive calls to validator, but have expressed interest
+in reconsidering the decision. The crux of the concern is that excessive caching
+of internal results will interfere with exotic registry implementations, such as
+those based on dynamic vars, and my [stance](https://github.com/metosin/malli/commit/4fb41196c770698df1232ed97e618d9a35a2bd15)
+is that Malli already uses caches too extensively for these kinds of registries
+to be reliable in these scenarios.  
+
+Also, I expected this new design to simplify
+the implementation of ref generators, but it caused some tests to fail and I
+reverted the change (you can see that [here](https://github.com/metosin/malli/commit/2060530392bbdb95144f0ad73b97d8ac03a034e5)).  
+
+I suspect it may be hard to beat the current implementation mapping recursive refs
+to `gen/recursive-gen` using this new design, but I would like to at least
+know if the test failures are pointing to a problem in the schema deduplication
+algorithm itself. I'm curious if it will reveal differences between pointers
+and refs---or recursive and non-recursive refs---that I have missed. <br>
+
 
 ---
-
 
 
 ## PluMCP: Shantanu Kumar  
