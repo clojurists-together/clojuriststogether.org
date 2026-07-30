@@ -23,13 +23,13 @@ A BIG THANKS to all our members for your continued support. We also want to enco
 We surveyed members in July to find out what what issues were top of mind and the types of initiatives they would like us to focus on for this round of funding. While our goal for the survey is to surface the broadest, most consistently-raised themes, it is not meant to be prescriptive, as we are always interested in nurturing new ideas and approaches. As always, there was a lot of great input and we hope it will be useful in informing your project proposals.
 
  
-**Select Themes:**  
+### Select Themes: 
  
-**- Demonstrated Impact of Past Funding**  
+#### Demonstrated Impact of Past Funding    
  Roughly three-quarters of respondents draw on CJT-funded work on a near-daily to weekly basis, with the remainder spread across occasional, project-dependent, or passive-interest use. This is strong evidence that past funding has produced tools and libraries with real, sustained utilization — which is why we exist! 
 
 
-**- Adoption and Growth of Clojure Continue to be of Concern**. This theme is closely linked to employment challenges cited.  
+#### Adoption and Growth of Clojure Continue to be of Concern**. This theme is closely linked to employment challenges cited.  
 
  These themes require broader or more strategic solutions that may be best addressed by the Core Team.  However, Clojurists Together can support smaller and more focused efforts. Some ideas include:  
  - Facilitating discovery of existing tools and documentation currently residing in disparate spaces so that both new and seasoned users can quickly reference new and updated content.   
@@ -37,9 +37,10 @@ We surveyed members in July to find out what what issues were top of mind and th
  - In addition to mentoring already underway, development of self-directed training that is easy to scale.  
 
 
-**- Adoption of AI tools continues to grow - with members calling out the need for Clojure-specific support.**  
+#### Adoption of AI tools continues to grow - with members calling out the need for Clojure-specific support.    
 
-**- Developer Experience Tools are the Top Priority for Clojure and ClojureScript** - with Error Messaging identified in the top 4 for both. 
+#### Developer Experience Tools are the Top Priority for Clojure and ClojureScript  
+with Error Messaging identified in the top 4 for both.  
 
 
 ### Survey Summary (with select supporting comments):  
