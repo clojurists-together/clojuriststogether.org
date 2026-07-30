@@ -27,6 +27,12 @@ We surveyed members in July to find out what what issues were top of mind and th
  
 **Demonstrated Impact of Past Funding** Roughly three-quarters of respondents draw on CJT-funded work on a near-daily to weekly basis, with the remainder spread across occasional, project-dependent, or passive-interest use. This is strong evidence that past funding has produced tools and libraries with real, sustained utilization — which is why we exist! <br>
  <br>
+<img width="539" height="194" alt="image" src="https://github.com/user-attachments/assets/fb310317-6406-4660-b518-95491c361f8e" />  
+<br>
+<br>
+
+
+
 
 
 **Adoption and Growth of Clojure Continue to be of Concern**. This theme is closely linked to employment challenges cited.  
