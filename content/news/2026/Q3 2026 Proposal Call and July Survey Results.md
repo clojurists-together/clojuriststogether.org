@@ -27,7 +27,7 @@ We surveyed members in July to find out what what issues were top of mind and th
  
 **Demonstrated Impact of Past Funding** Roughly three-quarters of respondents draw on CJT-funded work on a near-daily to weekly basis, with the remainder spread across occasional, project-dependent, or passive-interest use. This is strong evidence that past funding has produced tools and libraries with real, sustained utilization — which is why we exist! <br>
  <br>
-<img width="539" height="194" alt="image" src="https://github.com/user-attachments/assets/fb310317-6406-4660-b518-95491c361f8e" />  
+<img width="539" height="194" alt="image" src="https://github.com/user-attachments/assets/fb310317-6406-4660-b518-95491c361f8e" /> 
 <br>
 <br>
 
@@ -40,18 +40,20 @@ We surveyed members in July to find out what what issues were top of mind and th
  - Facilitating discovery of existing tools and documentation currently residing in disparate spaces so that both new and seasoned users can quickly reference new and updated content.   
  - Support for developers willing to present the Clojure story to their professional or tech-adjacent communities.  
  - In addition to the mentoring already underway, development of self-directed training that is easy and cost-effective to scale.  <br>
+<br>
+<br>
+
+**About 50% of Members Surveyed are Using AI tools in some capacity** - with members calling out the need for Clojure-specific support.   <img width="505" height="206" alt="AI Use" src="https://github.com/user-attachments/assets/226fc679-8b04-45ac-9c83-584cc7ced3f8" />
  <br>
-
-
-**About 50% of Members Surveyed are Using AI tools in some capacity** - with members calling out the need for Clojure-specific support.    <br>
- <br>
- 
-
-**Developer Experience Tools are the Top Priority for Clojure and ClojureScript**  with Error Messaging identified in the top 4 for both.  <br>
  <br>
  
 
+**Developer Experience Tools are the Top Priority for Clojure and ClojureScript**  with Error Messaging identified in the top 4 for both. There is plenty of work that needs to get done in these categories. The good news is that there are initiatives underway in the broader community that will address challenges many members have cited. More to come in the next few months....
+<br>
+ <br>
+ 
 
-### Survey Summary (with select supporting comments):  
+
+### July 2026 Survey Summary (with select supporting comments):  
 
 
