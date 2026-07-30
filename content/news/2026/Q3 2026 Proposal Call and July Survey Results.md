@@ -43,7 +43,7 @@ We surveyed members in July to find out what what issues were top of mind and th
  <br>
 
 
-**Adoption of AI tools continues to grow** - with members calling out the need for Clojure-specific support.    <br>
+**About 50% of Members Surveyed are Using AI tools in some capacity** - with members calling out the need for Clojure-specific support.    <br>
  <br>
  
 
