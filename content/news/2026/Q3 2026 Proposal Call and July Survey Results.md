@@ -36,8 +36,7 @@ We surveyed members in July to find out what what issues were top of mind and th
 
 
 
-**Adoption and Growth of Clojure Continue to be of Concern**. This theme is closely linked to employment challenges cited.  
- These themes require broader or more strategic solutions that may be best addressed by the Core Team.  However, Clojurists Together can support smaller and more focused efforts. Some ideas include:  
+**Adoption and Growth of Clojure Continue to be of Concern**. This theme is closely linked to employment challenges cited. These themes require broader or more strategic solutions that may be best addressed by the Core Team.  However, Clojurists Together can support smaller and more focused efforts. Some ideas include:  
  - Facilitating discovery of existing tools and documentation currently residing in disparate spaces so that both new and seasoned users can quickly reference new and updated content.   
  - Support for developers willing to present the Clojure story to their professional or tech-adjacent communities.  
  - In addition to the mentoring already underway, development of self-directed training that is easy and cost-effective to scale.  <br>
@@ -170,19 +169,30 @@ Claude Code was named most often in the open-ended answers, alongside Cursor, Co
 
 * One respondent noted that we should have included 'Security Reviews' and 'Agentic Coding'" — suggesting the 26.3% who selected "Other" may include emerging use cases like agentic/autonomous coding workflows and AI-assisted security review that a future survey should track explicitly.*
 
-Key sub-themes:  
+Sub-themes:  
 - Concern that in an increasingly AI-generated-code world, Clojure loses its traditional advantages (conciseness, expressiveness) if hiring/tooling decisions default to more "mainstream" languages the models are best trained on.
 - Mixed sentiment: alongside enthusiastic adopters, a vocal minority is skeptical of or opposed to AI-driven development altogether.
 
 Supporting comments:
 
 > "clj-nrepl-eval from bhauman/clojure-mcp-light is central. REPL is *the* killer feature for AI assisted Clojure dev compared to other languages."
-
+> 
 > "I wish ECA would work well with local AI models using Ollama. I dont want to use big tech companies... I dont trust them."
-
+> 
 > "Each client provides a chatbot, which might be inside the IDE but I have no idea how to make it work with Clojure and not mess up the brackets."
-
+> 
 > "The sad truth is in an ever increasing LLM driven development world there is less incentive to use Clojure than something like Rust. All the downsides in making that switch are alleviated if LLMs are doing the coding for you."
+> 
+> "I like to use free models and run them locally, if there is a large amount of repeatable and we'll defined work to do it can be good, like a refactor. Sometimes it's good to use to test an idea or prototype I would not have time to do otherwise. I generally take it that if an llm agent can do something then it's likely not that hard to do. If the llm struggles on something that should be simple it's interesting to find out why."
+> 
+> "I rarely write code “by hand” anymore. My workflow is primarily prompting various coding agents (Claude code, codex, open code using models via open router) and reviewing their output, but rarely dropping into the editor myself."
+> 
+> "LLMs are a scourge upon the human race with no actual profitability, and I hope every day to see this bubble finally pop." "It has basically taking over everything. Agent harnesses."
+> 
+> "While our company doesn't forbid the usage of (generative) AI tooling, it doesn't encourage it either. It is up to each individual developer to use it or not. But the agreed contract is that whatever code a developer produces using AI tooling must meet the same established conventions (e.g., code style, idioms to be used, code and architecture estructure, etc) and quality levels of code produced by human developers. And that the code pushed by that developer must be owned by him/her, and that it is his/her own responsability to maintain, and fix if needed."  <br>
+<br>
+
+
 
 ## 5. Theme: Perception, Advocacy & the "Is Clojure Dying?" Narrative
 
@@ -190,15 +200,13 @@ The single most repeated theme in response to "the biggest challenge facing Cloj
 
 Supporting comments:
 
-> "Using it on new projects and justifying it over mainstream alternatives, this is more a cultural and perception issue. The biggest complaint I always hear is 'how will we find developers'"
+> "It is a challenge using it on new projects and justifying it over mainstream alternatives. The biggest complaint I always hear is 'how will we find developers'. " I think this is more of a perception challenge, the easiest way to reply would be to just point to success stories, or a very visible app or product."  
 
 > "Outreach. Many people think language is dead"
 
-> "CTO of a startup that was in talks for an acquisition, and the company backed out of the deal because Clojure was used."
+> "In the world of startups Clojure is generally seen as a niche language and therefore a hindrance to selling a company and maybe even also just to getting funding (sometimes). A friend of mine is the CTO of a startup that was in talks for an acquisition, and the company backed out of the deal because Clojure was used."  
 
-> "Convincing business leadership that Clojure is a smart choice for building information systems... it's an unfortunate fact that in the world of startups that Clojure is generally seen as a niche language and therefore a hindrance to selling a company and maybe even also just to getting funding (sometimes)."
-
-Members explicitly suggested that Clojurists Together could help by amplifying success stories and visible production use cases, supporting community "influencers" and advocates, and funding outreach/evangelism efforts aimed at both developers and business decision-makers.
+Members suggested amplifying success stories and visible production use cases, supporting community "influencers" and advocates, and funding outreach/evangelism efforts aimed at both developers and business decision-makers.
 
 ## 6. Theme: Jobs & Commercial Adoption
 
