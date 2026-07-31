@@ -99,7 +99,10 @@ Respondents identified overwhelmingly as mentors rather than newcomers. Combined
 | Clojure CLR – Server | 0 | 0.0% |
 | Clojure CLR – Client | 0 | 0.0% |
 
-*Clojure on the JVM server remains the dominant deployment target by far (97.6%), with ClojureScript in the browser a strong secondary use case (68.3%). Notably, ClojureDart shows minimal current usage (4.9%) despite being repeatedly and enthusiastically flagged in the open-ended "magic wand" and ecosystem-support answers (Section 8) — a gap between current adoption and member enthusiasm worth factoring into funding decisions. Clojure CLR saw zero reported usage among respondents.*
+*Clojure on the JVM server remains the dominant deployment target by far (97.6%), with ClojureScript in the browser a strong secondary use case (68.3%). Notably, ClojureDart shows minimal current usage (4.9%) despite being repeatedly and enthusiastically flagged in the open-ended "magic wand" and ecosystem-support answers (Section 8) — a gap between current adoption and member enthusiasm worth factoring into funding decisions. Clojure CLR saw zero reported usage among respondents.*  <br>
+
+---
+
 
 ## 2. Quantitative Priorities: Areas for Improvement
 
@@ -142,12 +145,16 @@ Members were asked which areas of Clojure and ClojureScript most need improvemen
 | 9 (tie) | Profilers | 1 | 3.8% |
 | — | Online Services | 0 | 0.0% |
 
-*Write-in responses (ClojureScript, 1 mention / 3.8% each): reduced or near-zero NPM dependency, ability to do full-stack development without a separate backend, less reliance on NPM generally, AI-supported development, and "N/A, I don't use ClojureScript."*
+*Write-in responses (ClojureScript, 1 mention / 3.8% each): reduced or near-zero NPM dependency, ability to do full-stack development without a separate backend, less reliance on NPM generally, AI-supported development, and "N/A, I don't use ClojureScript."*<br>
+
+---
+
 
 ## 3. Theme: Developer Experience Is the Top Tooling Priority
 
 "Developer Experience Tools" was the single highest-ranked improvement area for both Clojure (45.7%) and ClojureScript (42.3%), and it recurs throughout the open-ended answers as well. For Clojure specifically, error messages and data analysis/processing frameworks tied for second place (40% each) — well ahead of documentation, IDE support, and debuggers. For ClojureScript, build tooling (26.9%) and documentation (23.1%) stand out as the next-biggest gaps after developer experience, suggesting the ClojureScript toolchain still feels heavier to maintain than the Clojure one. <br>
 
+---
 
 
 ## 4. Theme: 88% of member respondents use AI tools   — but Clojure-Specific Support Is Lagging  
@@ -192,6 +199,7 @@ Supporting comments:
 > "While our company doesn't forbid the usage of (generative) AI tooling, it doesn't encourage it either. It is up to each individual developer to use it or not. But the agreed contract is that whatever code a developer produces using AI tooling must meet the same established conventions (e.g., code style, idioms to be used, code and architecture estructure, etc) and quality levels of code produced by human developers. And that the code pushed by that developer must be owned by him/her, and that it is his/her own responsability to maintain, and fix if needed."  <br>
 <br>
 
+---
 
 
 ## 5. Theme: Perception, Advocacy & the "Is Clojure Dying?" Narrative
@@ -206,25 +214,26 @@ Supporting comments:
 
 > "In the world of startups Clojure is generally seen as a niche language and therefore a hindrance to selling a company and maybe even also just to getting funding (sometimes). A friend of mine is the CTO of a startup that was in talks for an acquisition, and the company backed out of the deal because Clojure was used."  
 
-Members suggested amplifying success stories and visible production use cases, supporting community "influencers" and advocates, and funding outreach/evangelism efforts aimed at both developers and business decision-makers.
+Members suggested amplifying success stories and visible production use cases, supporting community "influencers" and advocates, and funding outreach/evangelism efforts aimed at both developers and business decision-makers.<br>
+
+---
 
 ## 6. Theme: Jobs & Commercial Adoption
 
-Closely tied to the perception theme is a concrete, recurring concern about the Clojure job market: too few open positions, hiring managers who default to languages with larger corporate backing, and no "gateway" framework (comparable to Rails or Django) that pulls new developers into the language the way it once did.
+Closely tied to the perception theme is a concrete, recurring concern about the Clojure job market: too few open positions, hiring managers who default to languages with larger corporate backing, and no "gateway" framework (comparable to Rails or ML Frameworks) that pulls new developers into the language the way it once did.
 
 Supporting comments:
 
 > "Lack of job opportunities. Big companies are quite skeptical about non-mainstream languages."
 
-> "The people that make hiring decisions view developers as fungible goods, which then leads them to choose languages based on which one they believe will have the lowest salary/hourly cost... Clojure is not one of those languages."
+> "The people that make hiring decisions view developers as fungible goods, which then leads them to choose languages based on which one they believe will have the lowest salary/hourly cost which tend to be the languages with large corporate backers, and Clojure is not one of those languages. ... Clojure is not one of those languages." <br>
+<br>
 
-> "Lack of projects that attract tons of new devs like Rails in the past, or ML frameworks in Python now."
-
-- Repeated "magic wand" wishes: more companies hiring for Clojure, more full-time Clojure jobs, more companies adopting it visibly.
+---
 
 ## 7. Theme: Library, Framework & Supply-Chain Health
 
-Members flagged specific maintenance gaps in the ecosystem: unmaintained libraries with no clear owner, documentation gaps in widely-used projects, dependence on the NPM supply chain for ClojureScript, and the question of Datomic's openness.
+Members flagged specific maintenance gaps in the ecosystem: unmaintained libraries with no clear owner, documentation gaps in widely-used projects. Support for projects, tools and platforms cited: (5) CIDER; (4) Malli; (3) ClojureDart, re-frame, Pathom, Babashka, Jank; (2) reagent, Reitit, Shadow-CLJS, Scicloj; (1) HugSQL, clj-kondo, duct, nrepl, datalevin, datahike, Fulcro, Datascript, Glojure, Grain, eca, Telemere, rama, replicant, http-kit, Clojure Civitas, Clay, Datastar, calva, ring, figwheel-main.
 
 Supporting comments:
 
@@ -232,43 +241,35 @@ Supporting comments:
 
 > "Some great projects could use better documentation; two examples of amazing libraries that could use better documentation being Malli and Specter."
 
-> "Supply chain risk, especially NPM. Hopefully CT supports pure-Clojure solutions."
+> "Port all major libraries to tools.deps"  
 
-> "Open source/open availability [of] Datomic (not under control of a corporate entity like Nubank)"
+- Some other specific asks: a portability test suite, and a Clojure language spec given the number of Clojure-like languages now emerging.<br>
 
-- Other specific asks: porting major libraries to tools.deps, a portability test suite, and a Clojure language spec given the number of Clojure-like languages now emerging.
+---
 
 ## 8. Theme: Community Health, Governance & Connection
 
-A number of responses focused less on code and more on the social infrastructure of the community: a desire for stronger central coordination, more inclusive and welcoming spaces, and a return to in-person connection.
+The strength, generosity, and openness of the community is seen as a core strength - along with its engineering rigor. Members feedback included a desire for stronger central coordination, more inclusive and welcoming spaces, and a return to in-person connection. 
 
 Supporting comments:
+> "Clojure’s culture of engineering rigour is unmatched in the industry. I think clojurists’ attention to detail and care for their craft is a huge advantage right now in this age of slop and endless downtime. Also the community is warm, welcoming, and friendly, which is not the case anywhere else I “hang out” online".
 
-> "Resilience of Clojure communities and their support structures seems to be a challenge... In community spaces, some divide and disagreement often appear, and not everybody feels at home and supported."
+> "Once people start using Clojure, they usually love it. REPL is great, Clojure is very fast, well designed language, also JVM interop has improved."  
 
-> "I would create a Clojure foundation that would lead central decision-making for the continued growth and development of the language."
+> "Resilience of Clojure communities and their support structures seems to be a challenge... In community spaces, some divide and disagreement often appear, and not everybody feels at home and supported."  
 
-> "Community in one digital place, a Clojure language spec"
+> "I would create a Clojure foundation that would lead central decision-making for the continued growth and development of the language." "Community in one digital place, a Clojure language spec." 
 
-> "There would be in-person meetups again!"
+> "There would be in-person meetups again!", "That everyone and all events we're in the same country :) I miss not being able to go everywhere!"
 
-> "That everyone and all events we're in the same country :) I miss not being able to go everywhere!"
+> "I don't know if this counts or not, but my favorite part of the ecosystem is how stable it is. I love that library updates rarely, if ever, break existing code. Having dealt with the churn and instability of the JS and Rails ecosystems, the fact that updates so rarely force me to do tedious work is a godsend."  <br>
 
-- ClojureDart was called out multiple times, unprompted, as an underappreciated sub-ecosystem with strong potential that deserves more visibility and support — even though only 4.9% of respondents currently target it (Section 1), suggesting enthusiasm is running ahead of adoption.
+---
 
 ## 9. Theme: Growth, Outreach & Training
 
-When asked directly what areas of the ecosystem need support, "advocacy," "outreach," "evangelism," "mentoring," and "community and growth" were named repeatedly and independently — more often than any single technical gap — reinforcing that members see growing and renewing the community as at least as urgent as improving the tools themselves. This lines up with the respondent-profile data in Section 1: a membership base that is 87.8% long-tenured and dominated by mentors (53.3% formal, 43.3% informal) rather than newcomers is, by its own account, worried about who comes after it.
+When asked directly what areas of the ecosystem need support, "advocacy," "outreach," "evangelism," "mentoring," and "community and growth" were named repeatedly and independently — more often than any single technical gap — reinforcing that members see growing and renewing the community as at least as urgent as improving the tools themselves. 
 
-Supporting comments:
-
-> "Advocacy outside the community, mentoring."
-
-> "Would love to see developer outreach and advocacy beyond the Clojure community"
-
-> "Training and certification"
-
-> "Spreading the benefits of Clojure outside the Clojure community to grow Clojure's usage."
 
 
 
