@@ -13,7 +13,7 @@ Greetings folks!
 
 Clojurists Together is pleased to announce that we are opening our Q3 2026 funding round for Clojure Open Source Projects.  Applications will be accepted through the 17th of August 2026 (midnight Pacific Time). We are looking forward to reviewing your proposals! [More information and the application can be found here.](https://clojuriststogether.org/open-source/)  
 
-We will be awarding up to $29,000 USD for a total of 4-5 projects. The $2k funding tier is for experimental projects or smaller proposals, whereas the $9k tier is for those that are more established. Projects generally run 3 months, however, the $9K projects can run between 3 and 12 months as needed. We expect projects to start at the beginning of September 2026. 
+We will be awarding up to $29,000 USD for a total of 4-5 projects. The $2k funding tier is for experimental projects or smaller proposals, whereas the $9k tier is for those that are more established. Projects generally run 3 months, however, the $9K projects can run between 3 and 12 months as needed. We expect projects to start around the beginning of September 2026. 
 
 A BIG THANKS to all our members for your continued support. We also want to encourage you to reach out to your [colleagues](https://www.clojuriststogether.org/developers/) and [companies](https://www.clojuriststogether.org/companies/) to join Clojurists Together so that we can fund EVEN MORE great projects throughout the year.  
 
@@ -26,6 +26,7 @@ We surveyed members in July to find out what what issues were top of mind and th
 ### Select Themes: 
  
 **Demonstrated Impact of Past Funding** Roughly three-quarters of respondents draw on CJT-funded work on a near-daily to weekly basis, with the remainder spread across occasional, project-dependent, or passive-interest use. This is strong evidence that past funding has produced tools and libraries with real, sustained utilization — which is why we exist! <br>
+ <br>
  <br>
 <img width="539" height="194" alt="image" src="https://github.com/user-attachments/assets/fb310317-6406-4660-b518-95491c361f8e" /> 
 <br>
@@ -43,7 +44,10 @@ We surveyed members in July to find out what what issues were top of mind and th
 <br>
 <br>
 
-**About 50% of Members Surveyed are Using AI tools in some capacity** - with members calling out the need for Clojure-specific support.   <img width="505" height="206" alt="AI Use" src="https://github.com/user-attachments/assets/226fc679-8b04-45ac-9c83-584cc7ced3f8" />
+**About 88% of Members Surveyed are Using AI tools in some capacity** - with members calling out the need for Clojure-specific support.  <br>
+<br>
+<br>
+<img width="505" height="206" alt="AI Use" src="https://github.com/user-attachments/assets/226fc679-8b04-45ac-9c83-584cc7ced3f8" />
  <br>
  <br>
  
@@ -54,12 +58,11 @@ We surveyed members in July to find out what what issues were top of mind and th
  
 
 
-## July 2026 Survey Summary (with select supporting comments):  
+## July 2026 Survey Summary:  
+This summary includes a selection of member comments.  
 
 
--
-
-## 1. Who We Heard From: Respondent Profile & Platform Usage
+### 1. Who We Heard From: Respondent Profile & Platform Usage
 
 Before weighing the themes below, it's worth noting who answered this survey. The respondent base skews heavily toward long-tenured Clojure developers, and server-side JVM use dominates how members actually deploy Clojure.
 
@@ -75,9 +78,11 @@ Of 41 respondents, the overwhelming majority have used Clojure for a long time:
 
 *87.8% reported 6 years or more of Clojure experience, with only a small remainder spread across 1–5 years and under 1 year combined. This is an important caveat for every other theme in this report: the feedback is disproportionately the voice of veteran users, not newcomers.*
 
-### Mentoring vs. beginner status
+### Mentoring vs. beginner status  
 
-Asked to say more about growing and supporting new developers (30 responses), respondents identified overwhelmingly as mentors rather than newcomers: 53.3% said they formally mentor or teach new Clojurists (shared projects, work, or university), and 43.3% said they informally mentor new Clojurists in community spaces. Only a small remaining slice identified as beginners themselves. Combined with the tenure data above, this confirms the survey sample is dominated by experienced members who are already invested in growing the community — reinforcing, with real numbers, the qualitative "outreach and pipeline" theme discussed in Section 9.
+<img width="660" height="300" alt="tenure mentor" src="https://github.com/user-attachments/assets/e353164c-b386-469b-89f9-096784366306" />
+
+Respondents identified overwhelmingly as mentors rather than newcomers. Combined with the tenure data above, this confirms the survey sample is dominated by experienced members who are already invested in growing the community.
 
 ### Platforms targeted (41 respondents, select-many)
 
@@ -142,17 +147,15 @@ Members were asked which areas of Clojure and ClojureScript most need improvemen
 
 ## 3. Theme: Developer Experience Is the Top Tooling Priority
 
-"Developer Experience Tools" was the single highest-ranked improvement area for both Clojure (45.7%) and ClojureScript (42.3%), and it recurs throughout the open-ended answers as well. For Clojure specifically, error messages and data analysis/processing frameworks tied for second place (40% each) — well ahead of documentation, IDE support, and debuggers. For ClojureScript, build tooling (26.9%) and documentation (23.1%) stand out as the next-biggest gaps after developer experience, suggesting the ClojureScript toolchain still feels heavier to maintain than the Clojure one.
+"Developer Experience Tools" was the single highest-ranked improvement area for both Clojure (45.7%) and ClojureScript (42.3%), and it recurs throughout the open-ended answers as well. For Clojure specifically, error messages and data analysis/processing frameworks tied for second place (40% each) — well ahead of documentation, IDE support, and debuggers. For ClojureScript, build tooling (26.9%) and documentation (23.1%) stand out as the next-biggest gaps after developer experience, suggesting the ClojureScript toolchain still feels heavier to maintain than the Clojure one. <br>
 
-Supporting comments:
 
-> "It has basically taken over everything. Agent harnesses"
 
-> "Mostly for design, architecting and planning. Then for writing code and tests and docs."
+## 4. Theme: 88% of member respondents use AI tools   — but Clojure-Specific Support Is Lagging  
 
-## 4. Theme: Half of the member respondents use an AI tool   — but Clojure-Specific Support Is Lagging
+<img width="514" height="197" alt="image" src="https://github.com/user-attachments/assets/f8a5fb71-082d-43f7-a063-e6cf515f7e0f" />
 
-The quantitative data confirms just how mainstream AI-assisted coding has become: of 41 respondents, 87.9% use AI tools when writing Clojure at least "sometimes" (17.1% "always," 29.3% "often," 41.5% "sometimes"), with only around 12% using AI rarely or never.  Claude Code was named most often in the open-ended answers, alongside Cursor, Copilot, Gemini, Aider, ECA, and various local/open-weight model setups. Several members pointed specifically to REPL-driven, Clojure-aware tooling (e.g., clojure-mcp / clj-nrepl-eval integrations) as the feature that makes AI genuinely useful for Clojure — but also noted that generic AI tools frequently mishandle Clojure's syntax (parentheses/brackets) and that few tools understand Clojure idioms well.
+Claude Code was named most often in the open-ended answers, alongside Cursor, Copilot, Gemini, Aider, ECA, bhauman's MCP Server, Amazon Kiro (via CP in IntelliJ), Several members pointed specifically to REPL-driven, Clojure-aware tooling (e.g., clojure-mcp / clj-nrepl-eval integrations) as the feature that makes AI genuinely useful for Clojure — but also noted that generic AI tools frequently mishandle Clojure's syntax (parentheses/brackets) and that few tools understand Clojure idioms well.
 
 ### What members use AI for (38 respondents, select-many)
 
@@ -165,12 +168,9 @@ The quantitative data confirms just how mainstream AI-assisted coding has become
 | Documentation | 22 | 57.9% |
 | Other (write-in) | 10 | 26.3% |
 
-*Debugging (68.4%), code completion and learning (65.8% each), and testing (63.2%) lead the list, with documentation close behind (57.9%). One respondent noted the task list itself was incomplete — "In the 'For which tasks do you use AI' I missed '[X] Security Reviews' and '[X] Agentic Coding'" — suggesting the 26.3% who selected "Other" may include emerging use cases like agentic/autonomous coding workflows and AI-assisted security review that a future survey should track explicitly.*
+* One respondent noted that we should have included 'Security Reviews' and 'Agentic Coding'" — suggesting the 26.3% who selected "Other" may include emerging use cases like agentic/autonomous coding workflows and AI-assisted security review that a future survey should track explicitly.*
 
-Key sub-themes:
-
-- REPL integration as a differentiator: members want AI tooling that uses the REPL as its feedback loop, not just text generation.
-- Demand for Clojure-literate local/open-weight models, driven partly by trust and privacy concerns about large AI vendors.
+Key sub-themes:  
 - Concern that in an increasingly AI-generated-code world, Clojure loses its traditional advantages (conciseness, expressiveness) if hiring/tooling decisions default to more "mainstream" languages the models are best trained on.
 - Mixed sentiment: alongside enthusiastic adopters, a vocal minority is skeptical of or opposed to AI-driven development altogether.
 
