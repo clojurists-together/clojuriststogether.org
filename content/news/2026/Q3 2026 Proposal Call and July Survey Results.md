@@ -51,7 +51,7 @@ We surveyed members in July to find out what what issues were top of mind and th
  <br>
  
 
-**Developer Experience Tools are the Top Priority for Clojure and ClojureScript**  with Error Messaging identified in the top 4 for both. There is plenty of work that needs to get done in these categories. The good news is that there are initiatives underway in the broader community that will address challenges many members have cited. More to come in the next few months....
+**Developer Experience Tools are Respondents' Top Priority for Clojure and ClojureScript**  with Error Messaging identified in the top 4 for both. There is plenty of work that needs to get done in these categories. The good news is that the Clojure core team along with the CLI Task Force is actively working on improving the user experience of the command-line tooling. More to come in the few months....
 <br>
  <br>
  
