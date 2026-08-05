@@ -174,7 +174,7 @@ Claude Code was named most often in the open-ended answers, alongside Cursor, Co
 | Documentation | 22 | 57.9% |
 | Other (write-in) | 10 | 26.3% |
 
-* One respondent noted that we should have included 'Security Reviews' and 'Agentic Coding'" — suggesting the 26.3% who selected "Other" may include emerging use cases like agentic/autonomous coding workflows and AI-assisted security review that a future survey should track explicitly.*
+* One respondent noted that we should have included 'Security Reviews' and 'Agentic Coding'.  
 
 Sub-themes:  
 - Concern that in an increasingly AI-generated-code world, Clojure loses its traditional advantages (conciseness, expressiveness) if hiring/tooling decisions default to more "mainstream" languages the models are best trained on.
