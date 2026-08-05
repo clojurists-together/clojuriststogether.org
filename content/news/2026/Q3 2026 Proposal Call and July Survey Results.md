@@ -75,7 +75,7 @@ Of 41 respondents, the overwhelming majority have used Clojure for a long time:
 | 1–5 years (combined) | ≈10.7% |
 | Less than 1 year | ≈1.5% |
 
-*87.8% reported 6 years or more of Clojure experience, with only a small remainder spread across 1–5 years and under 1 year combined. This is an important caveat for every other theme in this report: the feedback is disproportionately the voice of veteran users, not newcomers.*
+*87.8% reported 6 years or more of Clojure experience, with only a small remainder spread across 1–5 years and under 1 year combined. This is an important caveat for every other theme in this report: the feedback is disproportionately the voice of veteran users, not newcomers.
 
 ### Mentoring vs. beginner status  
 
