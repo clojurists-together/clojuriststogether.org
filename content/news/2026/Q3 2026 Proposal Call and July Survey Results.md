@@ -99,7 +99,7 @@ Respondents identified overwhelmingly as mentors rather than newcomers. Combined
 | Clojure CLR – Server | 0 | 0.0% |
 | Clojure CLR – Client | 0 | 0.0% |
 
-*Clojure on the JVM server remains the dominant deployment target by far (97.6%), with ClojureScript in the browser a strong secondary use case (68.3%). Notably, ClojureDart shows minimal current usage (4.9%) despite being repeatedly and enthusiastically flagged in the open-ended "magic wand" and ecosystem-support answers (Section 8) — a gap between current adoption and member enthusiasm worth factoring into funding decisions. *  <br>
+*Clojure on the JVM server remains the dominant deployment target by far (97.6%), with ClojureScript in the browser a strong secondary use case (68.3%). Notably, ClojureDart shows minimal current usage (4.9%) despite being repeatedly and enthusiastically flagged in the open-ended "magic wand" and ecosystem-support answers (Section 8) — a gap between current adoption and member enthusiasm worth factoring into funding decisions.  <br>
 
 ---
 
