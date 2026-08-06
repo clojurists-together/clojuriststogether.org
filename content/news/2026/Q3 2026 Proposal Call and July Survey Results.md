@@ -11,9 +11,9 @@ draft: True
 
 Greetings folks!  
 
-Clojurists Together is pleased to announce that we are opening our Q3 2026 funding round for Clojure Open Source Projects.  Applications will be accepted through the 17th of August 2026 (midnight Pacific Time). We are looking forward to reviewing your proposals! [More information and the application can be found here.](https://clojuriststogether.org/open-source/)  
+Clojurists Together is pleased to announce that we are opening our Q3 2026 funding round for Clojure Open Source Projects.  Applications will be accepted through the 24th of August 2026 (midnight Pacific Time). We are looking forward to reviewing your proposals! [More information and the application can be found here.](https://clojuriststogether.org/open-source/)  
 
-We will be awarding up to $29,000 USD for a total of 4-5 projects. The $2k funding tier is for experimental projects or smaller proposals, whereas the $9k tier is for those that are more established. Projects generally run 3 months, however, the $9K projects can run between 3 and 12 months as needed. We expect projects to start around the beginning of September 2026. 
+We will be awarding up to $29,000 USD for a total of 4-5 projects. The $2k funding tier is for experimental projects or smaller proposals, whereas the $9k tier is for those that are more established. Projects generally run 3 months, however, the $9K projects can run between 3 and 12 months as needed. We expect projects to start around mid-September 2026. 
 
 A BIG THANKS to all our members for your continued support. We also want to encourage you to reach out to your [colleagues](https://www.clojuriststogether.org/developers/) and [companies](https://www.clojuriststogether.org/companies/) to join Clojurists Together so that we can fund EVEN MORE great projects throughout the year.  
 
@@ -174,7 +174,7 @@ Claude Code was named most often in the open-ended answers, alongside Cursor, Co
 | Documentation | 22 | 57.9% |
 | Other (write-in) | 10 | 26.3% |
 
-* One respondent noted that we should have included 'Security Reviews' and 'Agentic Coding'.  
+* One respondent noted that we should include 'Security Reviews' and 'Agentic Coding' as an option in future surveys.  
 
 Sub-themes:  
 - Concern that in an increasingly AI-generated-code world, Clojure loses its traditional advantages (conciseness, expressiveness) if hiring/tooling decisions default to more "mainstream" languages the models are best trained on.
@@ -226,7 +226,7 @@ Supporting comments:
 
 > "Lack of job opportunities. Big companies are quite skeptical about non-mainstream languages."
 
-> "The people that make hiring decisions view developers as fungible goods, which then leads them to choose languages based on which one they believe will have the lowest salary/hourly cost which tend to be the languages with large corporate backers, and Clojure is not one of those languages. ... Clojure is not one of those languages." <br>
+> "The people that make hiring decisions view developers as fungible goods, which then leads them to choose languages based on which one they believe will have the lowest salary/hourly cost which tend to be the languages with large corporate backers, and Clojure is not one of those languages." <br>
 <br>
 
 ---
@@ -237,13 +237,13 @@ Members flagged specific maintenance gaps in the ecosystem: unmaintained librari
 
 Supporting comments:
 
-> "Clojure libraries not being maintained. Clojurists Together could act as a broker for finding maintainers for out-of-support libraries."
+> "Clojurists Together could act as a broker for finding maintainers for out-of-support libraries."
 
 > "Some great projects could use better documentation; two examples of amazing libraries that could use better documentation being Malli and Specter."
 
 > "Port all major libraries to tools.deps"  
 
-- Some other specific asks: a portability test suite, and a Clojure language spec given the number of Clojure-like languages now emerging.<br>
+- Development of a Clojure language spec given the number of Clojure-like languages now emerging.<br>
 
 ---
 
