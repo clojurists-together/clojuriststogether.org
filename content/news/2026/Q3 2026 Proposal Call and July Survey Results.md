@@ -1,6 +1,6 @@
 ---
 title: "Call for Proposals. July 2026 Survey"
-date: 2026-03-04T08:30:00+08:00
+date: 2026-08-05T08:30:00+08:00
 summary: "We are awarding up to $29K for Q3 2026 Projects"
 author: Kathy Davis  
 
