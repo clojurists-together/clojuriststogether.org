@@ -132,19 +132,229 @@ But I hope that I mentioned the most important thing: iLLaManati is here, and it
 ---
 
 
-
-
-
 ## Gloat and Glojure: Ingy dot Net  
 Q2 2026 Report 2. Published July 31, 2026   
 
+Today is the final day of my Q2 2026 Clojurists Together funding cycle for Gloat and Glojure.  
+
+This was my original commitment for the grant:  
+Make Gloat/Glojure binaries smaller and faster. Pass more of the Clojure Compatibility Test Suite. Create tutorial docs for using Gloat in the real world.  
+
+The short version is that Glojure now passes every enabled test in the current Clojure Compatibility Test Suite, Gloat's default AOT binaries are leaner and the Glojure compiler has made major performance gains, a new tutorial series takes you from installation through compiling a binary and using Clojure in a Go project.  
+
+Gloat can now be seriously considered as a full replacement for GraalVM native-image when compiling Clojure programs to native binaries!  
+
+The second half also took Gloat somewhere I hadn't imagined at the halfway point: it has become a front end for multiple Clojure compilation engines, including Glojure, let-go, and GraalVM native-image.  
+
+Since the Halfway Report¶  
+
+
+At the halfway point, Gloat was at v0.1.50 and the first upstream Glojure release of this grant had just landed.  
 
 
 
+Since then Gloat has had 16 more releases and is now at v0.1.67. Glojure has had another 8 releases and is now at v0.7.3.  
 
+
+
+The most important changes were:  
+
+A Glojure AOT runtime that Gloat that performs as well as GraalVM
+Significantly smaller native binaries (as small as 7.5MB so far)
+A large wave of compiler and runtime performance work
+Addition of let-go as a second compilation engine
+Added shared-library support for let-go (which doesn't support it itself)
+A GraalVM native-image engine for direct comparison and use
+Better installation, formatting, coloring, paging, classpath, and REPL UX
+A new Gloat tutorial series
+
+
+### The Performance Story   
+My long-term goal for Gloat was to make a common YAML framework for all programming languages which I call YAMLStar.  
+
+TL;DR YAMLStar now builds its shared library libyamlstar.so with Gloat instead of GraalVM, and the resulting binary is about half the size and has similar runtime performance. Being back by Gloat means I can release prebuilt binaries for 15 platforms instead of the 4 platforms it was confined to with GraalVM. YAMLStar now delivers identical YAML capabilities (via a Clojure engine) to 32 (and counting...) programming languages!  
+
+
+Happy ending, but until this week I was not confident that Gloat would get there by today.  
+
+About 4 or 5 weeks ago Norman Nunley from the let-go project offered to help with YAMLStar by getting let-go's native lowering to match GraalVM's performance. The Glojure and let-go projects have been in friendly competition for a while, challenging each other and contributing to each other's projects. Soon after Norman's work started, I decided that Gloat could and should do all its automations over let-go as well as Glojure.  
+
+Then 2 or 3 weeks ago James Hamlin, Glojure's original author, came out of hiding and decided to do a major optimization push on Glojure to have it reach this goal the go faster than the Speed of GraalVM!  
+
+We all worked together and the result was a major success.  
+
+Soon there will be very few reasons to use GraalVM to compile Clojure programs to binaries instead of Gloat.  
+
+
+
+### Smaller Binaries  
+A happy result of the performance work is that the AOT Go code (and thus the native binaries) became much smaller. Glojure used to produce a 50MB hello world that was about 40x slower than GraalVM's 28MB hello world.  
+
+Now the Glojure hello world is 19MB and both Glojure and GraalVM binaries take 0.007s to run.  
+
+The existing Gloat -Xprune extension was also updated to work with the optimized runtime. The prune extension tree-shakes out the unused parts of clojure.core and all the transitive Go dependencies they would normally pull in.  
+
+On hello world, -Xprune produces a 7.6MB binary that runs in 0.004s here.  
+Pretty nice!
+
+
+
+### Gloat Became a Multi-Engine Tool
+Gloat now has an -E / --engine option and a gloat --engines command. The current engine list is:
+
+
+glj     Glojure (default)
+
+lgvm    let-go bytecode VM
+lglvm   let-go native lowering with VM fallback
+lgl     let-go native lowering (not yet implemented)
+
+graalvm GraalVM Native Image (binaries only)
+
+
+The goal is to have let-go be a replacement engine for all of the things that Gloat does with Glojure. Compiling to binary was easy, but let-go does not yet support shared libraries and I really needed that to try it out with YAMLStar. So I made Gloat add the things let-go was missing, and now it can produce shared libraries from let-go as well. Hopefully soon we'll get this working in let-go itself.  
+
+Gloat+Glojure can convert Clojure to Go source code, but that isn't yet supported for let-go. It should happen eventually.  
+
+I also added a GraalVM engine to Gloat. I was doing a lot of time comparisons between engines and wanted gloat users to be able to do the same. But most people likely aren't familiar with using GraalVM, and even if they are, they have to install it and set up their environment to use it.  
+
+If you have Gloat installed, GraalVM is ready to go with a single command:
+gloat -E graalvm hello.clj  # produces ./hello binary
+Doesn't get easier than that.
+
+
+
+### New Tutorials
+The final grant commitment was tutorial documentation.  
+I am finishing a new three-part Gloat tutorial series today:  
+Introduction and Installation  
+Compiling your first Glojure binary  
+Using Clojure in a Go project  
+
+
+I really want to create at least a dozen tutorials because there's so much cool stuff you can do with Gloat.  
+
+If you would like to see something covered as a tutorial, please find me on the Clojurians Slack or open an issue on the Gloat repository and let me know what you let me know what you would like to see.  
+
+### Looking Back  
+I am very happy with the results of this grant. I have a working YAMLStar for myself, a Gloat that does away with all the shortcomings of GraalVM and a new community of dialect making friend that Gloat can help to do awesome things with Clojure.  
+
+That feels like a very good three months.  
+
+### Thanks  
+Thank you to Clojurists Together, and to every person and company that funds it. The grant created the sustained time needed to work through compiler internals, runtime behavior, test suites, release engineering, examples, and documentation as one connected project.  
+
+Thank you to James Hamlin for the enormous Glojure optimization effort and for making upstream Glojure such an exciting place to work.  
+
+Thank you to Marcin Gasperowicz, Norman Nunley, and the let-go contributors for the ideas, benchmarks, collaboration, and friendly competition.  
+
+A special shout-out to Dmitri Sotnikov the author of the Jolt Clojure dialect, for his friendship and daily collaboration. Jolt is Gloat's next engine target!  
+
+And thank you to everyone who tried Gloat, reported a problem, asked a sharp question, or followed these reports.  
+
+The grant ends today. The work most definitely does not.  
+
+Time to Gloat!  <br>
+
+---
 
 ## PluMCP: Shantanu Kumar  
-Q2 2026 Report 2. Published Aug. 15, 2026   
+Q2 2026 Final Report 2. Published Aug. 15, 2026   
+
+I am happy to report my final progress on the scope of work for this
+sponsorship:  
+- MCP spec 2025-11-25 implementation  
+- PluMCP Usage documentation enhancement  
+
+When I shared my first update of this sponsorship cycle, about half of
+the work was already complete, although no release had been made yet.
+The second half focused on completing the remaining pieces, including
+Task orchestration and the OAuth overhaul, and resulted in several
+releases covering the overall scope.   
+
+
+## MCP 2025-11-25 implementation  
+The major feature item that received most of its implementation work in
+the first part was Task orchestration. It was fully completed and
+released in the second part, alongside a substantial expansion and
+overhaul of OAuth support. Thanks to these OAuth changes, PluMCP is now
+ready to move beyond _Preview_ and is available for beta testing.  
+
+
+While the entire work has been tracked under a single pull request at
+[Pull Request #6](https://github.com/plumce/plumcp/pull/6), with much of
+the Task orchestration work already reflected in its WIP changelog, there
+have now been several releases:  
+
+- [0.3.0-alpha1](https://github.com/plumce/plumcp/blob/v0.3.0-alpha1/CHANGELOG.md#030-alpha1---2026-jul-07)  
+- [0.3.0-alpha2](https://github.com/plumce/plumcp/blob/v0.3.0-alpha2/CHANGELOG.md#030-alpha2---2026-aug-06)  
+- [0.3.0-beta1](https://github.com/plumce/plumcp/blob/v0.3.0-beta1/CHANGELOG.md#030-beta1---2026-aug-14)  
+
+
+### Progress in Second part  
+In the second part, I completed the remaining 4 of 9 major feature
+changes and 5 of 10 minor feature changes. The completed work includes:  
+
+#### Major Changes completed  
+- Add support for OpenID Connect Discovery 1.0 to authorization server
+  discovery  
+- Enhance authorization flows with incremental scope consent via
+  `WWW-Authenticate`  
+- Add support for OAuth Client ID Metadata Documents as a recommended
+  client registration mechanism  
+- Add support for (potentially long running) tasks to enable tracking
+  durable requests with polling and deferred result retrieval  
+
+
+#### Minor Changes completed  
+- Review _Security Best Practices Guidance_ - add required utility
+  functions  
+  - Mostly inapplicable as the majority is meant for MCP proxy  
+  - MCP server `Origin` header check already implemented  
+- Return Input validation errors as Tool Execution Errors rather than
+  Protocol Errors to enable model self-correction  
+  - Validating "Required tool params" is implemented  
+  - JSON-Schema validation is pending; Malli-based validation is already
+    available  
+- Support polling SSE streams by allowing servers to disconnect at will  
+  - Already supported by PluMCP through session-level detachment of the
+    SSE stream and server  
+- Support polling in GET streams, resumption always via GET regardless
+  of stream origin  
+  - Polling streams and resumption via GET is already supported  
+- Align OAuth 2.0 Protected Resource Metadata discovery with RFC 9728,
+  making `WWW-Authenticate` header optional with fallback to
+  `.well-known` endpoint  
+
+
+#### Current status  
+Since all planned feature changes are now complete and included in the
+latest `0.3.0-beta1` release, PluMCP is now open for testing by users.
+A GA release is planned following beta testing.  
+
+### Remaining work  
+Apart from squashing any bugs that arise during the beta testing period,
+the subsequent 0.3.x releases would focus on internal refactoring and
+code organization. It is also planned to deprecate some API in sync with
+changes introduced in the MCP 2026-07-27 spec version.  
+
+
+### PluMCP Usage Documentation Enhancement  
+The [PluMCP documentation website](https://plumce.github.io/plumcp-docs/)
+has been updated with the following new entries:  
+- MCP Server  
+  - Completion  
+  - Logging  
+- MCP Client  
+  - Roots  
+  - Sampling  
+  - Elicitation  
+
+The existing MCP Server → Tools entry has also been updated with a manual
+tool definition mechanism.  
+
+With these changes, the sponsored scope has been completed, and PluMCP
+`0.3.0` is now entering beta testing ahead of the planned GA release.  
 
 
 
