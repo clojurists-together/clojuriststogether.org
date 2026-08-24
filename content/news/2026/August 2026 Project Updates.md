@@ -1,9 +1,9 @@
 ---
 title: "August 2026 Short Term Project Updates"
-date: 2026-08-21T14:00:00+12:00
+date: 2026-08-24T14:00:00+12:00
 author: Kathy Davis
 summary: News from Dragan Djuric, Ingy dot Net and Shantanu Kumar
-draft: True
+
 
 
 ---
