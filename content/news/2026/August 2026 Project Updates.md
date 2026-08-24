@@ -224,7 +224,7 @@ Doesn't get easier than that.
 ### New Tutorials
 The final grant commitment was tutorial documentation.   
 
-I am finishing a new three-part [Gloat tutorial series](https://gloathub.org/tutorial/) today:  
+I am finishing a new three-part [Gloat tutorial series]([https://gloathub.org/tutorials/) today:  
 1. **Introduction and Installation**  
 2. **Compiling your first Glojure binary**  
 3. **Using Clojure in a Go project**    
