@@ -196,13 +196,13 @@ Pretty nice!
 Gloat now has an `-E` / `--engine` option and a `gloat --engines` command. The current engine list is:
 `
 
-`glj     `Glojure (default)`  
+`glj     Glojure (default) 
 
-`lgvm`   `let-go bytecode VM`  
-`lglvm`   `let-go native lowering with VM fallback`  
-`lgl`     `let-go native lowering (not yet implemented)` 
+lgvm     let-go bytecode VM 
+lglvm    let-go native lowering with VM fallback
+lgl      let-go native lowering (not yet implemented)
 
-`graalvm GraalVM Native Image (binaries only)`  
+graalvm GraalVM Native Image (binaries only)`  
 
 
 The goal is to have let-go be a replacement engine for all of the things that Gloat does with Glojure. Compiling to binary was easy, but let-go does not yet support shared libraries and I really needed that to try it out with YAMLStar. So I made Gloat add the things let-go was missing, and now it can produce shared libraries from let-go as well. Hopefully soon we'll get this working in let-go itself.  
