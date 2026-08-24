@@ -13,12 +13,14 @@ Here are August's updates for short term projects funded in Q2 2026. You can fin
 [Clojure LLM: Dragan Djuric](#clojure-llm-dragan-djuric)   
 [Gloat and Glojure: Ingy dot Net](#gloat-and-glojure-ingy-dot-net)  
 [PluMCP: Shantanu Kumar](#plumcp-shantanu-kumar)  
+<br>
+<br>
 
 
 ## Clojure LLM: Dragan Djuric  
 Q2 2026 Final Report 3. Published August 1, 2026  
 
-## The proposal was (in short):  
+### The proposal was (in short):  
 The goal is to provide a high performance local LLM (large language model) AI solution,
 that supports mainstream open models, freely available at Hugging Face and elsewhere.
 Something like llama.cpp (https://llama-cpp.com/), but (hopefully!) simpler *and faster*,
@@ -253,6 +255,7 @@ The grant ends today. The work most definitely does not.
 Time to Gloat!  <br>  
 
 ---
+<br>
 
 ## PluMCP: Shantanu Kumar  
 Q2 2026 Final Report 2. Published Aug. 15, 2026   
@@ -269,7 +272,7 @@ Task orchestration and the OAuth overhaul, and resulted in several
 releases covering the overall scope.   
 
 
-## MCP 2025-11-25 implementation  
+### MCP 2025-11-25 implementation  
 The major feature item that received most of its implementation work in
 the first part was Task orchestration. It was fully completed and
 released in the second part, alongside a substantial expansion and
