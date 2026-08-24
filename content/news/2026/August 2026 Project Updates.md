@@ -138,7 +138,9 @@ Q2 2026 Report 2. Published July 31, 2026
 Today is the final day of my Q2 2026 [Clojurists Together](https://www.clojuriststogether.org/) funding cycle for [Gloat](https://gloathub.org/) and [Glojure](https://github.com/glojurelang/glojure).  
 
 This was my original commitment for the grant:  
-Make Gloat/Glojure binaries smaller and faster. Pass more of the Clojure Compatibility Test Suite. Create tutorial docs for using Gloat in the real world.  
+
+> Make Gloat/Glojure binaries smaller and faster. Pass more of the Clojure Compatibility Test Suite. Create tutorial docs for using Gloat in the real world.
+>
 
 The short version is that Glojure now passes every enabled test in the current Clojure Compatibility Test Suite, Gloat's default AOT binaries are leaner and the Glojure compiler has made major performance gains, a new tutorial series takes you from installation through compiling a binary and using Clojure in a Go project.  
 
