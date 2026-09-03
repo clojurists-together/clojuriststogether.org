@@ -1072,14 +1072,9 @@
     "member_type" : "developer",
     "level" : "developer",
     "founding" : false
-  }, {
-    "name" : "Shane Hamilton",
-    "member_type" : "developer",
-    "level" : "developer",
-    "founding" : false
   } ],
   "member_stats" : {
     "company" : 39,
-    "developer" : 158
+    "developer" : 157
   }
 }
