@@ -158,13 +158,6 @@
     "founding" : true,
     "tagline" : "Toyokumo provides people who are not good at using software with Web applications that are used to improve their productivity."
   }, {
-    "name" : "Vane GmbH",
-    "member_type" : "company",
-    "url" : "https://vane.capital/",
-    "logo" : null,
-    "level" : "assoc",
-    "founding" : false
-  }, {
     "name" : "LegalMate",
     "member_type" : "company",
     "url" : "https://legalmate.co",
@@ -1074,7 +1067,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 39,
+    "company" : 38,
     "developer" : 157
   }
 }
