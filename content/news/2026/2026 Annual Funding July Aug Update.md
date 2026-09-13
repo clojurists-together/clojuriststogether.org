@@ -25,7 +25,7 @@ Their previous reports can be found here:
 [**Clojure Camp:**](#clojure-camp)  Supporting and engaging new Clojurians at Conj  
 [**Eric Dallo:**](#eric-dallo) ECA, clojure-lsp  
 [**Jeaye Wilkerson:**](#jeaye-wilkerson) Jank optimization, runtime excep., Error pgs, C++, Commons  
-[**Michiel Borkent:**](#michiel-borkent) SCI, clj-kondo,Babashka, squint, Buzz, Choq:Cherry, Cljbang.el
+[**Michiel Borkent:**](#michiel-borkent) SCI, clj-kondo,Babashka, squint, Buzz, Choq:Cherry, Cljbang.el, and more  
 
 
 
