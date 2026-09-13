@@ -571,7 +571,9 @@ To validate the design I wrote four libraries with it:
 [filewatcher](https://github.com/babashka/filewatcher).
 Each one exercised a different corner of the API, along with some examples based on raylib. PacMan is particularly cool:  
 
-<img src="assets/1.13.220-pacman.png" style="max-width:420px;width:100%" alt="pac-man running in babashka through babashka.ffi and raylib">
+
+<img width="418" height="499" alt="image" src="https://github.com/user-attachments/assets/c2471352-5ab3-4b98-9d29-84b6a84e59e9" />
+
 
 Right now I'm looking forward to giving a [babashka
 workshop](https://2026.clojure-conj.org/workshops) at the Clojure/conj together
