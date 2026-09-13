@@ -313,9 +313,7 @@ worse, we need to map some of that C++ back to actual jank code. So, in order to
 get beautiful, accurate stack traces for jank's uncaught runtime exceptions,
 there was a lot of work to be done. Check out the results!  
 
-
-IMAGE HERE
-
+<img width="600" height="536" alt="image" src="https://github.com/user-attachments/assets/c140cc94-d6af-4c3d-80c7-a8fb87aebf20" />
 
 
 As you can see in the figure above, an exception was thrown from the C++ code backing
