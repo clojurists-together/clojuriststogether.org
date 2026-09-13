@@ -262,7 +262,8 @@ Lots of work in July and August! ECA got closer to the editor with inline chats 
 ### [ECA](https://github.com/editor-code-assistant/eca)  
 The main highlight this time is being able to talk to ECA directly from the code, without switching to the chat window! This builds on the same server and protocol used by the existing clients, so inline conversations can reuse chat history, call tools and ask for approvals too. As usual [the changelog is huge](https://github.com/editor-code-assistant/eca/blob/0.157.3/CHANGELOG.md), so here are the highlights since the last report:  
 
-![ECA inline chat in Emacs](./eca-inline-chat.gif)
+<img width="600" height="361" alt="image" src="https://github.com/user-attachments/assets/edfdd09a-2785-485f-b8ad-f6396d33d873" />
+
 
 #### 0.145.0 - 0.157.3  
 
