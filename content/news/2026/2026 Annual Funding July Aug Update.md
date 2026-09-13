@@ -22,10 +22,10 @@ Their previous reports can be found here:
 
 
 [**Bozhidar Batsov:**](#bozhidar-batsov) CIDER 2.0, cider-nREPL,Sayid, Orchard, Drawbridge, and more   
-[**Clojure Camp:**](#clojure-camp)  Supporting and engaging new Clojurians at Conj
-[**Eric Dallo:**](#eric-dallo) eca, eca clients, clojure-lsp  
-[**Jeaye Wilkerson:**](#jeaye-wilkerson) Jank optimization and beta release prep  
-[**Michiel Borkent:**](#michiel-borkent) babashka, SCI, fs, squint, cream, and much more 
+[**Clojure Camp:**](#clojure-camp)  Supporting and engaging new Clojurians at Conj  
+[**Eric Dallo:**](#eric-dallo) ECA,clojure-lsp  
+[**Jeaye Wilkerson:**](#jeaye-wilkerson) Jank optimization, runtime exceptions, Error pages, C++, Commons  
+[**Michiel Borkent:**](#michiel-borkent) SCI, clj-kondo,Babashka, squint, Buzz, Choq: Cherry, Cljbang.el and more   
 
 
 
@@ -256,7 +256,7 @@ You rock!  <br>
 ## Eric Dallo  
 2026 Annual Funding Report 4. Published Sept. 13, 2026.  
 
-# Eric Dallo  
+
 Lots of work in July and August! ECA got closer to the editor with inline chats and LSP navigation (clojure-lsp integration :heart:), alongside more work on reliability, chat history and the client experience. On clojure-lsp, I continued addressing edge cases after the huge performance improvements from the last report, with a new refactoring and help from contributors making the project easier to debug. Thanks ClojuristsTogether and everyone helping with feedback, issues and contributions! :heart:  
 
 ### [ECA](https://github.com/editor-code-assistant/eca)  
@@ -302,7 +302,7 @@ Thanks to blueskyonmars for helping with the debugging and contributor documenta
 
 Hello Clojurists Together members! Thank you so much for the sponsorship this
 year. Here is my update for July and August, which is extracted from my recent
-blogpost [here}(https://jank-lang.org/blog/2026-09-04-better-and-better/).  
+blogpost [here](https://jank-lang.org/blog/2026-09-04-better-and-better/).  
 
 ### Uncaught runtime exceptions  
 In today's modern C++ compilers, there's no standard, portable way to get a
