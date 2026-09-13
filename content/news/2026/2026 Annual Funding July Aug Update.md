@@ -376,7 +376,7 @@ Also, as a bonus, the signature and source information for these bar functions
 is correct, even when they're declared inside of a cpp/raw in a jank file.
 Let's take a look at another one.  
 
-IMAGE HERE
+<img width="600" height="495" alt="C+ JEaye 2" src="https://github.com/user-attachments/assets/19ddc767-7143-4146-84c0-19f50c8f5fab" />
 
 
 When there are many candidates to report, jank optimizes useful output by
