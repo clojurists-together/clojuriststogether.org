@@ -392,8 +392,7 @@ whether or not a trait conversion can be used. However, this can result in
 ambiguities, too, if multiple candidates are viable. Here's an example.
 
 
-IMAGE 
-
+<img width="600" height="441" alt="image" src="https://github.com/user-attachments/assets/d58e7e3a-79a9-453a-95a2-b42a4c3626a1" />
 
 
 There's a lot more that jank can already do with these C++ candidate failures,
