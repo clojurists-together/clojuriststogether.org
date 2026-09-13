@@ -362,7 +362,8 @@ to all of the possible things that can go wrong, though. So how can we reimagine
 C++ error messages? Well, I gave it my best shot. Take a look. :)  
 
 
-IMAGE HERE
+<img width="600" height="463" alt="image" src="https://github.com/user-attachments/assets/b9b23918-b428-48d9-a165-73880e9dd5ae" />
+
 
 
 The call is ambiguous because the second argument is an int, which directly
