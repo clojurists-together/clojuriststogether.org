@@ -128,8 +128,8 @@ figured out. I'd still love to hear from clj-refactor users on this.
 [clj-suitable](https://github.com/clojure-emacs/clj-suitable), the ClojureScript completion backend, was another project that
 had been coasting for years:
 
-- [0.7.0](https://github.com/clojure-emacs/clj-suitable/releases/tag/0.7.0) adapted to Piggieback 0.7's delegating repl-env, modernized every dependency, replaced the Leiningen build with tools.build, moved CI to GitHub Actions and added a shadow-cljs integration test over a real Node runtime.
-- [0.8.0](https://github.com/clojure-emacs/clj-suitable/releases/tag/0.8.0) brought the static completion much closer to compliment: fuzzy matching (`pr-fn` completes `print-function`), compliment-style ranking, completion of local bindings (destructuring included) and of referred vars inside `:refer` vectors. It also fixed the REPL's `*1`/`*2`/`*3` getting clobbered by completions and a few long-standing shadow-cljs and Node.js issues.
+- [0.7.0](https://github.com/clojure-emacs/clj-suitable/releases/tag/v0.7.0) adapted to Piggieback 0.7's delegating repl-env, modernized every dependency, replaced the Leiningen build with tools.build, moved CI to GitHub Actions and added a shadow-cljs integration test over a real Node runtime.
+- [0.8.0](https://github.com/clojure-emacs/clj-suitable/releases/tag/v0.8.0) brought the static completion much closer to compliment: fuzzy matching (`pr-fn` completes `print-function`), compliment-style ranking, completion of local bindings (destructuring included) and of referred vars inside `:refer` vectors. It also fixed the REPL's `*1`/`*2`/`*3` getting clobbered by completions and a few long-standing shadow-cljs and Node.js issues.
 
 ### Sayid  
 
