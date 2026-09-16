@@ -30,7 +30,7 @@ Their previous reports can be found here:
 
 
 ## Bozhidar Batsov  
-2026 Annual Funding Report 3. Published Sept. 10, 2026.  
+2026 Annual Funding Report 4. Published Sept. 10, 2026.  
 
 The summer turned out to be just as busy as the spring. CIDER 2.0 finally
 shipped, and once it was out the door I used the momentum to sweep through
