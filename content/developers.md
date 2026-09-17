@@ -16,32 +16,49 @@ Community support from developers like you helps us improve the Clojure experien
 
 <section class="membership-tier">
 <h3>Contributing Member</h3>
-<b>From $5 to $20 per month</b>
+<b>Choose $10 or $20 per month</b>
 <p>
 Vote on board members, get progress updates, influence which projects are selected.
 </p>
 
-<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMMcAKph9dU4h">Become a Contributing Member ($5/month)</a>
-<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMNm9yAidO1vT">Become a Contributing Member ($60/year)</a>
-<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMNnnaqsO6SMJ">Become a Contributing Member ($10/month)</a>
-<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMO2CgIuB3Np5">Become a Contributing Member ($120/year)</a>
-<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMNjKYl7lisqd">Become a Contributing Member ($15/month)</a>
-<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMObrXegHTSlE">Become a Contributing Member ($180/year)</a>
-<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMNXYyH3HcN66">Become a Contributing Member ($20/month)</a>
-<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMOB8MprRabK5">Become a Contributing Member ($240/year)</a>
+<div class="billing-options">
+<section class="billing-option">
+<h4>Pay monthly</h4>
+<p>Billed every month</p>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMNnnaqsO6SMJ">Join for $10/month</a>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMNXYyH3HcN66">Join for $20/month</a>
+</section>
+
+<section class="billing-option">
+<h4>Pay annually</h4>
+<p>Billed once a year</p>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMO2CgIuB3Np5">Join for $120/year</a>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMOB8MprRabK5">Join for $240/year</a>
+</section>
+</div>
 
 </section>
 
 <section class="membership-tier">
 <h3>Developer Member</h3>
-<b>$40 per month</b>
+<b>$40 per month or $480 per year</b>
 <p>
 Vote on board members, get progress updates, influence which projects are selected.
 </p>
 
-<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYM04c8OhQ3oJB">Become a Developer Member (monthly)</a>
+<div class="billing-options">
+<section class="billing-option">
+<h4>Pay monthly</h4>
+<p>Billed every month</p>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYM04c8OhQ3oJB">Join for $40/month</a>
+</section>
 
-<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMAh3sq7k89ca">Become a Developer Member (annual)</a>
+<section class="billing-option">
+<h4>Pay annually</h4>
+<p>Billed once a year</p>
+<a class="become-a-member checkout-button" href="https://members.clojuriststogether.org/register/developer?plan=plan_GYMAh3sq7k89ca">Join for $480/year</a>
+</section>
+</div>
 
 </section>
 </section>
