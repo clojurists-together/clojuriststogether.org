@@ -173,13 +173,6 @@
     "founding" : false,
     "tagline" : "A collaboration medium combining docs and whiteboards. Powered by Clojure!"
   }, {
-    "name" : "bevuta IT GmbH",
-    "member_type" : "company",
-    "url" : "https://www.bevuta.com/",
-    "logo" : null,
-    "level" : "into",
-    "founding" : false
-  }, {
     "name" : "doctronic GmbH & Co. KG",
     "member_type" : "company",
     "url" : "https://www.doctronic.de",
@@ -1059,7 +1052,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 37,
+    "company" : 36,
     "developer" : 157
   }
 }
