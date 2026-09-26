@@ -3,13 +3,13 @@ title: "Q3 2026 Funding Announcement"
 date: 2026-09-25T14:00:00+12:00
 author: Kathy Davis
 summary: "4 projects are awarded a total of $22K"
-draft: True
+
 
 
 
 ---
 
-Clojurists Together is excited to announce that we will be funding 4 projects in Q3 2026 for a total of $22K USD (2 for $9K and 2 shorter or more experimental projects for $2K).  
+Clojurists Together is excited to announce that we will be funding 4 projects in Q3 2026 for a total of $22K USD (2 projects at $9K each and 2 shorter or more experimental projects for $2K each).  
 
 Thanks to all our members for making this happen! You'll find more information about the proposed projects below. 
 
@@ -20,8 +20,8 @@ Congratulations to our awardees. We're looking to their great work ahead!
 - Ethan Miller: Tablecloth  
 
 ### $2,000 USD  
-John Newman: EVE (Extended Value Encoding)  
-Peter Toausannis: Finish Carmine 4    <br>
+- John Newman: EVE (Extended Value Encoding)  
+- Peter Toausannis: Finish Carmine 4    <br>
 
 
 ## Jeremiah Coyle: Documentation and Design Services for Key Community Projects: Malli, Squint, Flowstorm, ECA   
@@ -38,11 +38,7 @@ The goal of this project is to significantly improve the documentation and marke
 
 This project continues my earlier Clojurists Together work that added a Column API to tablecloth, a core library in Clojure's data science toolkit. The goal is to make the Column API
 more capable and easier to use. Planned work includes refactoring the implementation so it's easier to maintain, improving the documentation, and adding more operations from
-underlying libraries such as dtype-next and fastmath. I also plan to write a tutorial that shows the API on a real data-processing task. The exact scope may change as the work goes on, in conversation with the Scicloj community.  
-
-**2. Enhancing Column API Capabilities:** To expand the epxressive range of the the Column API, I will introduce a range of new operations sourced from various operational sets. Likely candidates for inclusion are dtype-next, offering valuable operations for indexing space, advanced reductions, and datetime conversions. Moreover, the scicloj community has expressed enthusiasm for integrating fastmath's math utilities into the Column API, specifically highlighting features like [linear regression and statistical summaries](https://clojurians.zulipchat.com/#narrow/channel/151924-data-science/topic/composing.20fastmath.20and.20tech.2Eml.2Edataset/near/476450931).
-
-**3. Tutorial Development:** To raise awareness of the Column API's capabilities, I aim to craft a clear, concise tutorial highlighting its power and utility for users. The tutorial will be shared in strategic venues such as Scicloj meetings, including the real-world data meeting, and potentially at relevant conferences to maximize outreach.  <br>  
+underlying libraries such as dtype-next and fastmath. I also plan to write a tutorial that shows the API on a real data-processing task. The exact scope may change as the work goes on, in conversation with the Scicloj community. <br>  
 
 ---
 
