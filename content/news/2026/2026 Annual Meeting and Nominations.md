@@ -3,10 +3,10 @@ title: "2026 Board Nominations and Our Annual Meeting"
 date: 2026-01-10T08:30:00+08:00
 summary: "Stand for our 2026 elections and attend the Annual Meeting"
 author: Kathy Davis
-draft: True
+
 
 ---
-Clojurists Together is having our sixth board election, and our sixth annual members meeting.
+Clojurists Together is having our sixth board election, and our sixth annual members' meeting.
 
 ### Key dates
 (All dates are EOD, in Pacific Time)
