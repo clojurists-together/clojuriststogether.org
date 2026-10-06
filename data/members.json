@@ -681,11 +681,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Avi Flax",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Alexander Solovyov",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1097,6 +1092,11 @@
     "founding" : false
   }, {
     "name" : "Cole Frederick",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
+  }, {
+    "name" : "Tom Brooke",
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
