@@ -146,7 +146,7 @@
     "member_type" : "company",
     "url" : "https://flexiana.com",
     "logo" : "/logos/flexiana.png",
-    "level" : "filter",
+    "level" : "cons",
     "founding" : false,
     "tagline" : "We are builders. We care about software craftsmanship, clean code, great UX, service design for clients from all continents and markets including fintech, security & healthcare."
   }, {
@@ -856,11 +856,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "William Robinson",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "McCormick",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1103,6 +1098,6 @@
   } ],
   "member_stats" : {
     "company" : 36,
-    "developer" : 167
+    "developer" : 166
   }
 }
