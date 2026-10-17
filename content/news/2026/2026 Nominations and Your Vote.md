@@ -9,8 +9,13 @@ draft: True
 ---
 
 
-Clojurists Together Foundation is in the process of electing new board members as three of our existing board members are finishing their terms. One member, Lorelai Lyons, has submitted an application for another two year term.  Two others, Laurens Van Houtven (lvh) and Maria Geller have decided to step aside to open the door for other Clojurists to participate. A special thanks to them for their many years of leadership. They were instrumental in making CLojurists Together what it is today.  
+Clojurists Together Foundation is in the process of electing new board members as three of our existing board members are finishing their terms. One member, Lorelai Lyons, has submitted an application for another two year term.
 
+## Departing members
+
+Two others, Laurens Van Houtven (lvh) and Maria Geller have decided to step aside to open the door for other Clojurists to participate. Maria has been a board member since Clojurists Together was first formed in 2017, and lvh was elected in the first board election in 2018. lvh has been President of the Clojurists Together Foundation since we formed our own non-profit trade association in 2020 and put in a huge amount of time and energy to leave the Software Freedom Conservancy and form our own non-profit. I (Daniel) want to extend a very special thanks to them for their years of service and leadership in the community, and will be sad to see them leave. They were both instrumental in helping Clojurists Together get to where it is today.
+
+## Election
 
 After accepting applications for nominations, we received 5 applications from candidates - who will serve two-year terms. These candidates are all talented Clojurists that we would love to have on the board.  
 
