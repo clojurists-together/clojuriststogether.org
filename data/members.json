@@ -451,11 +451,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Inge Solvoll",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Michael Glaesemann",
     "member_type" : "developer",
     "level" : "developer",
@@ -1098,6 +1093,6 @@
   } ],
   "member_stats" : {
     "company" : 36,
-    "developer" : 166
+    "developer" : 165
   }
 }
