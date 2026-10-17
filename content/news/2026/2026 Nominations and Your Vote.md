@@ -1,7 +1,7 @@
 ---
 title: "2026 Nominations and Your Vote"
 date: 2026-10-17T08:30:00+08:00
-summary: "Vote for Your Board Members"
+summary: "Please Vote for Your Board Members"
 author: Daniel Compton 
 
 
