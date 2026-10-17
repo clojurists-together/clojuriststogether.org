@@ -2,7 +2,7 @@
 title: "2026 Nominations and Your Vote"
 date: 2026-10-17T08:30:00+08:00
 summary: "Vote for Your Board Members"
-author: Kathy Davis, Daniel Compton 
+author: Daniel Compton 
 draft: True  
 
 
