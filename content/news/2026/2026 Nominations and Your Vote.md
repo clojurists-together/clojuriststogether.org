@@ -72,7 +72,7 @@ For more than seven years now, I have been part of developing and maintaining a 
 ---
 
 
-#### Lorelai Lyons  
+#### Lorelai Lyons - GBS Solutions Corporation (contractor using Clojure)
 GitHub: thefakelorlyons  
 Slack/discord: melody  
 
