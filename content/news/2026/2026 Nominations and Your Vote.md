@@ -13,7 +13,7 @@ Clojurists Together Foundation is in the process of electing new board members a
 
 ## Departing members
 
-Two others, Laurens Van Houtven (lvh) and Maria Geller have decided to step aside to open the door for other Clojurists to participate. Maria has been a board member since Clojurists Together was first formed in 2017, and lvh was elected in the first board election in 2018. lvh has been President of the Clojurists Together Foundation since we formed our own non-profit trade association in 2020 and put in a huge amount of time and energy to leave the Software Freedom Conservancy and form our own non-profit. I (Daniel) want to extend a very special thanks to them for their years of service and leadership in the community, and will be sad to see them leave. They were both instrumental in helping Clojurists Together get to where it is today.
+Two others, Laurens Van Houtven (lvh) and Maria Geller have decided to step aside to open the door for other Clojurists to participate. Maria has been a board member since Clojurists Together was first formed in 2017, and lvh was elected in the first board election in 2018. lvh has been President of the Clojurists Together Foundation since we formed our own non-profit trade association in 2020 and put in a huge amount of time and energy to leave the Software Freedom Conservancy and form our own non-profit. I want to extend a very special thanks to them for their years of service and leadership in the community, and will be sad to see them leave. They were both instrumental in helping Clojurists Together get to where it is today.
 
 ## Election
 
