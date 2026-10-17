@@ -9,7 +9,7 @@ draft: True
 ---
 
 
-Clojurists Together Foundation is in the process of electing new board members as three of our existing board members are finishing their terms. One member, Lorelai Lyons, has submitted an application for another two year term.  Two others, Lauren Van Houten (lvh)and Maria Geller have decided to step aside to open the door for other Clojurists to participate. A special thanks to them for their many years of leadership. They were instrumental in making CLojurists Together what it is today.  
+Clojurists Together Foundation is in the process of electing new board members as three of our existing board members are finishing their terms. One member, Lorelai Lyons, has submitted an application for another two year term.  Two others, Laurens Van Houtven (lvh) and Maria Geller have decided to step aside to open the door for other Clojurists to participate. A special thanks to them for their many years of leadership. They were instrumental in making CLojurists Together what it is today.  
 
 
 After accepting applications for nominations, we received 5 applications from candidates - who will serve two-year terms. These candidates are all talented Clojurists that we would love to have on the board.  
