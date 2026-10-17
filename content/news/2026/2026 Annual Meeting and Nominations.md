@@ -42,7 +42,7 @@ Our bylaws requires that we do not have more than two committee members from any
 Elections will be held once the candidates are announced, and all Clojurists Together members will be eligible to vote.
 
 ### Annual Members Meeting
-We are also holding our fifth members meeting at [10 am Pacific time, November 17, 2026](https://www.timeanddate.com/worldclock/fixedtime.html?msg=2026+Clojurists+Together+Annual+Meeting&iso=20261117T10&p1=137&ah=1). This will be an opportunity for Clojurists Together to share information about 2026 to date and discuss future plans, present the new board members, and most importantly take questions from and engage with members.
+We are also holding our sixth members meeting at [10 am Pacific time, November 17, 2026](https://www.timeanddate.com/worldclock/fixedtime.html?msg=2026+Clojurists+Together+Annual+Meeting&iso=20261117T10&p1=137&ah=1). This will be an opportunity for Clojurists Together to share information about 2026 to date and discuss future plans, present the new board members, and most importantly take questions from and engage with members.
 
 **More details on this will follow including a videoconferencing link.**
 
