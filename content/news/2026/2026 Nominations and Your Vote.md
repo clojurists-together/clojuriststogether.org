@@ -40,7 +40,7 @@ Below we have published the candidates applications (in alpha order):
 GitHub: https://github.com/afucher  
 LinkedIn: https://www.linkedin.com/in/arthur-fucher  
 
-**Why they’d like to join**
+**Why they’d like to join**  
 I love Clojure and its community. I want to help it grow where it is still small.  
 
 Advocating for Clojure is already part of what I do. I run Clojure BR, the Brazilian Clojure community. It is a personal project, not tied to any company. We do meetups, livestreams, a newsletter in Portuguese, and more.  
@@ -49,8 +49,10 @@ I would bring a non-US, Portuguese-speaking view to the board. I live in Brazil,
 
 I also bring years of paid Clojure work, focused on developer experience and tooling. And I contribute to open source, including patches to Clojure core.  
 
-**Bio**
-Arthur Fücher is a Clojure developer from Brazil focused on developer experience and tooling. He organizes Clojure BR, the Brazilian Clojure community, and contributes to open source Clojure projects, including patches to Clojure core. He has spoken at Clojure/conj in 2025 and 2026 and at conferences in Brazil, and is a member of the InnerSource Commons Foundation. Outside of code, he is a Magic: The Gathering player and board game lover.  
+**Bio**  
+Arthur Fücher is a Clojure developer from Brazil focused on developer experience and tooling. He organizes Clojure BR, the Brazilian Clojure community, and contributes to open source Clojure projects, including patches to Clojure core. He has spoken at Clojure/conj in 2025 and 2026 and at conferences in Brazil, and is a member of the InnerSource Commons Foundation. Outside of code, he is a Magic: The Gathering player and board game lover.  <br>  
+
+---
 
 
 #### Henning Jansen - Norled AS  
@@ -60,7 +62,9 @@ GitHub: https://github.com/Henningzen
 I have payed a keen interest in the Clojurists Community for several years, and clearly see the benefit from this organization and the impact it has across initiatives in the continued evolving Clojure echo-system. Given my background from industrial domains, I regard my insight and expertise highly relevant.  
 
 **Bio**  
-For more than seven years now, I have been part of developing and maintaining a large-scale enterprise application for Maritime Public Transportation, developed on Clojure, ClojureScript with Datomic in the backend. During parts of this time, I have been individual contributor to Clojurists Together. I want to expand my contribution to also being of service to the board, providing industry insights and experience.  
+For more than seven years now, I have been part of developing and maintaining a large-scale enterprise application for Maritime Public Transportation, developed on Clojure, ClojureScript with Datomic in the backend. During parts of this time, I have been individual contributor to Clojurists Together. I want to expand my contribution to also being of service to the board, providing industry insights and experience.  <br>  
+
+---
 
 
 #### Lorelai Lyons  
@@ -70,8 +74,10 @@ Slack/discord: melody
 **Why they’d like to join**  
 I value the mission of CT, and I value Clojure and its community. I think open source development is important and I like the idea of supporting all of these causes through CT.    
 
-**Bio**
-My name is Lor and I have been a part of Clojurists Together for two years now (as a Board Member). I have been writing Clojure as a hobby/passion for 5-6 years and professionally for 2 years now. I am most well known (most likely) from my work on ‘brainfloj’, but I have worked on several other significant projects in clojure, and I value the Clojure community and open source development in general. In addition to Clojurists Together, I am also relatively active in Clojure Camp, and SciCloj.  
+**Bio**  
+My name is Lor and I have been a part of Clojurists Together for two years now (as a Board Member). I have been writing Clojure as a hobby/passion for 5-6 years and professionally for 2 years now. I am most well known (most likely) from my work on ‘brainfloj’, but I have worked on several other significant projects in clojure, and I value the Clojure community and open source development in general. In addition to Clojurists Together, I am also relatively active in Clojure Camp, and SciCloj.  <br>  
+
+---
 
 
 #### Chris Oakman
@@ -79,12 +85,14 @@ GitHub: https://github.com/oakmac/
 https://chrisoakman.com   
 https://x.com/oakmac1  
 
-**Why they’d like to join**  
+**Why they’d like to join**   
 I have been involved in the Clojure community for over ten years, and I think Clojurists Together is a positive force for our ecosystem. When I received a CT grant for Standard Clojure Style in 2024, I worked harder on that project than I normally would have because I wanted to honor the community’s vote of confidence. Funding open source pays for essential maintenance and bug fixes, but that signal of recognition and support matters just as much. I would like to help CT keep doing that good work.  
 
 At the last Clojure/conj, several people encouraged me to apply for the board, and I think I’d be a good fit. I have worked on ClojureScript and developer tooling since 2012, I know the ecosystem well, and I stay in contact with people across the community. I have also served on nonprofit boards for years outside of software, so I’m comfortable with the day-to-day work of meetings, voting, and follow-through. Mostly, I want to volunteer my time to help run and promote CT, and to contribute to some of the open source projects CT supports where I can be useful.  
 
-I also want to be an optimistic voice for how our community approaches AI. Software development is changing fast, and we should embrace this technology while still holding on to the principles that make Clojure great. We should support tooling and documentation that are easy for LLMs to consume, and encourage more content showing how well Clojure works alongside modern AI tools. I understand that many developers have mixed feelings about how AI is changing the work of software, and I think it is important for the Clojure ecosystem to actively engage with the future rather than sit on the sidelines.  
+I also want to be an optimistic voice for how our community approaches AI. Software development is changing fast, and we should embrace this technology while still holding on to the principles that make Clojure great. We should support tooling and documentation that are easy for LLMs to consume, and encourage more content showing how well Clojure works alongside modern AI tools. I understand that many developers have mixed feelings about how AI is changing the work of software, and I think it is important for the Clojure ecosystem to actively engage with the future rather than sit on the sidelines.  <br>  
+
+---
 
 
 #### Mohit Verma  
@@ -95,7 +103,7 @@ I am inspired by Clojure Together’s mission to sustain open‑source developme
 
 With over two decades of senior leadership experience—including as SVP/Director at BNY Mellon—I bring deep knowledge of compliance, operational excellence, and stakeholder engagement. My background in organizational change management and risk frameworks equips me to strengthen board governance and support strategic growth. Beyond corporate leadership, my entrepreneurial and educational pursuits reflect a commitment to collaboration and knowledge‑sharing, aligning closely with Clojure Together’s ethos. I believe this blend of global governance experience and grassroots engagement makes me a strong fit to help guide the organization’s future.  
 
-**Bio** 
+**Bio**   
 I have more than two decades in Senior Leadership roles in the BFSI industry. In my most recent experience as Senior Director at BNY Mellon. My career has focused on compliance, operational transformation, and building strong governance frameworks. Along the way, I’ve led large teams, managed complex change programs, and helped organizations stay resilient in fast‑moving environments.  
 
 Outside of corporate life, I’m exploring entrepreneurship and education—launching a home‑based food venture and building an English tutoring practice. These projects reflect my passion for community, collaboration, and knowledge‑sharing. I believe this mix of global governance experience and grassroots engagement makes me well‑suited to contribute to Clojure Together’s mission of sustaining open‑source development with transparency and long‑term impact.  
