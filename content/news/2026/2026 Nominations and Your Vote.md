@@ -2,7 +2,7 @@
 title: "2026 Nominations and Your Vote"
 date: 2026-10-17T08:30:00+08:00
 summary: "Vote for Your Board Members"
-author: Kathy Davis 
+author: Kathy Davis, Daniel Compton 
 draft: True  
 
 
@@ -21,7 +21,7 @@ After accepting applications for nominations, we received 5 applications from ca
 
 **Our bylaws state:**
 
-The Board shall nominate no more than 5 candidates seeking board membership in any given election. In nominating candidates for Director positions and in choosing the number of candidates to nominate overall, the Board shall use reasonable efforts to maintain a Board composition consisting of at least: (1) 25% female Directors, (2) 25% non-Caucasian Directors, and (3) 35% from any category(ies) of persons (e.g., race, gender, ability) commonly considered to have suffered from discrimination at some time and then-currently under-represented in the technology industry, in each case as determined by the Board in its reasonable discretion.  
+The Board shall nominate no more than 12 candidates seeking board membership in any given election. In nominating candidates for Director positions and in choosing the number of candidates to nominate overall, the Board shall use reasonable efforts to maintain a Board composition consisting of at least: (1) 25% female Directors, (2) 25% non-Caucasian Directors, and (3) 35% from any category(ies) of persons (e.g., race, gender, ability) commonly considered to have suffered from discrimination at some time and then-currently under-represented in the technology industry, in each case as determined by the Board in its reasonable discretion.  
 
 The board has nominated the following 5 candidates for the current board election:  
 
