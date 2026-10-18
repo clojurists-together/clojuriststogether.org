@@ -25,7 +25,7 @@ The Board shall nominate no more than 12 candidates seeking board membership in 
 
 The board has nominated the following 5 candidates for the current board election:  
 
-Arthur Fücher   
+Arthur Fücher
 Henning Jansen  
 Lorelai Lyons  
 Chris Oakman  
@@ -39,9 +39,10 @@ All current Clojurists Together members will be receiving their ballot to vote s
 Voting will close on Monday, 9th November, 2026 at midnight Pacific Time. The top three candidates, as voted on by members will win. We will announce the winners shortly afterwards and you’ll be able to meet them at the Annual members meeting at 10 am Pacific time, Nov. 17th, 2026. The new board will meet shortly after the annual meeting to select officers.
 
 ### Candidate Profiles  
-Below we have published the candidates applications (in alpha order):  
+Below we have published the candidates applications (in alpha order):<br>  
 
-#### Arthur Fücher - Nubank
+
+### Arthur Fücher - Nubank
 GitHub: https://github.com/afucher  
 LinkedIn: https://www.linkedin.com/in/arthur-fucher  
 
@@ -60,7 +61,7 @@ Arthur Fücher is a Clojure developer from Brazil focused on developer experienc
 ---
 
 
-#### Henning Jansen - Norled AS  
+### Henning Jansen - Norled AS  
 GitHub: https://github.com/Henningzen  
 
 **Why they’d like to join**  
@@ -72,7 +73,7 @@ For more than seven years now, I have been part of developing and maintaining a 
 ---
 
 
-#### Lorelai Lyons - GBS Solutions Corporation (contractor using Clojure)
+### Lorelai Lyons - GBS Solutions Corporation (contractor using Clojure)
 GitHub: thefakelorlyons  
 Slack/discord: melody  
 
@@ -85,7 +86,7 @@ My name is Lor and I have been a part of Clojurists Together for two years now (
 ---
 
 
-#### Chris Oakman
+### Chris Oakman
 GitHub: https://github.com/oakmac/  
 https://chrisoakman.com   
 https://x.com/oakmac1  
@@ -103,7 +104,7 @@ Chris Oakman has been writing Clojure and ClojureScript since 2012. He is the au
 ---
 
 
-#### Mohit Verma  
+### Mohit Verma  
 LinkedIn: https://www.linkedin.com/in/mohitverma1981
 
 **Why they’d like to join**  
