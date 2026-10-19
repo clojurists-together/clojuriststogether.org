@@ -74,13 +74,6 @@
     "founding" : false,
     "tagline" : "Nubank is the leading financial technology company in Latin America."
   }, {
-    "name" : "Red Pineapple Media GmbH",
-    "member_type" : "company",
-    "url" : "http://www.redpineapplemedia.com/",
-    "logo" : null,
-    "level" : "assoc",
-    "founding" : false
-  }, {
     "name" : "Nextjournal",
     "member_type" : "company",
     "url" : "https://nextjournal.com",
@@ -591,11 +584,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Iizuka Masashi",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Shintaro Matsushima",
     "member_type" : "developer",
     "level" : "contributing",
@@ -916,16 +904,6 @@
     "level" : "contributing",
     "founding" : false
   }, {
-    "name" : "Mike Shevchuk",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
-    "name" : "Songtao Hu",
-    "member_type" : "developer",
-    "level" : "contributing",
-    "founding" : false
-  }, {
     "name" : "Pete Windle",
     "member_type" : "developer",
     "level" : "contributing",
@@ -1092,7 +1070,7 @@
     "founding" : false
   } ],
   "member_stats" : {
-    "company" : 36,
-    "developer" : 165
+    "company" : 35,
+    "developer" : 162
   }
 }
