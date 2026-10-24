@@ -3,7 +3,7 @@ title: "Clojars and October 2026 Project Updates"
 date: 2026-10-24T14:00:00+12:00
 author: Kathy Davis
 summary: Clojars support & maintenance, Malli, SciCloj documentation & plotting libraries
-draft: True
+
 
 
 
