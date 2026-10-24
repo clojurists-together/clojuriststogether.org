@@ -2,148 +2,110 @@
 title: "Clojars and October 2026 Project Updates"
 date: 2026-10-24T14:00:00+12:00
 author: Kathy Davis
-summary: Clojars, xxx,xxxx
+summary: Clojars support & maintenance, Malli, SciCloj documentation & plotting libraries
 draft: True
 
 
 
 ---
-The October update includes an update on the Clojars maintenance and 'on-call" support work undertaken by Daniel Compton and Toby Crawley during the last 6 months. In addition, Ambrose Bonnaire-Seargent and Cvetomir Dimov provide their most recent updates on their projects. 
+Our October report includes an update on the Clojars maintenance and 'on-call" support work undertaken by Daniel Compton and Toby Crawley during the last 6 months. In addition, Ambrose Bonnaire-Seargent and Cvetomir Dimov share their most recent updates on their projects. 
 
-[Clojars maintenance and support](#clojars-maintenance-and-infrastructure-work)  
+[Clojars maintenance and support](#clojars-maintenance-and-infrastructure-overview)  
 [Malli: Ambrose Bonnaire-Seargent](#malli-ambrose-bonnaire-seargent)  
 [SciCloj Documentation and Plotting Libraries: Cvetomir Dimov](#scicloj-documentation-and-plotting-libraries-cvetomir-dimov)
 
 
 
-## Clojars maintenance and infrastructure work
+## Clojars maintenance and infrastructure overview
 Clojurists Together funds Toby Crawley and Daniel Compton to co-maintain Clojars. Their work includes responding to operational issues and community support requests, maintaining the service and its infrastructure, applying security updates, improving publishing and administration tools, and keeping hosting reliable and cost-effective. You can follow this work in the Clojars changelog and in our project updates. For help with Clojars, visit the #clojars channel on Clojurians Slack or open an issue. Clojars itself is open source, and contributions are welcome in the Clojars GitHub organization. <br>
-
-
 **Review period:** April to 30 September 2026  
 **Author:** Daniel Compton  
-**Context:** I took lead maintenance responsibility for Clojars from April-June while Toby Crawley was away and went back to co-maintainer when he returned.
+**Context:** I took lead maintenance responsibility for Clojars from April-June while Toby Crawley was away and went back to co-maintainer when he returned.<br>  
 
-### April to June 2026 funding period
+##  Clojars maintenance & support: April to June 2026   
 
-#### Account and supply-chain security
+### Account and supply-chain security
 
-##### Stronger password requirements
+**Stronger password requirements:** I increased the minimum Clojars password length from eight to twelve characters [#934](https://github.com/clojars/clojars-web/pull/934).  
 
-I increased the minimum Clojars password length from eight to twelve characters [#934](https://github.com/clojars/clojars-web/pull/934).
+**Session invalidation after password changes:** I reviewed an earlier proposal for invalidating sessions, then made a smaller implementation [#944](https://github.com/clojars/clojars-web/pull/944). When a user changes or resets a password, Clojars now removes that user's active sessions. This was a fairly low-risk issue, but featured highly in bug bounty submissions.  
 
-##### Session invalidation after password changes
+**Deploy and token notifications:** I added a migration to enable deploy notification emails for old users created before this preference existed [#943](https://github.com/clojars/clojars-web/pull/943). This will help maintainers detect a supply-chain takeover or unexpected deploys.  
+I also reviewed and merged the work adding email alerts when a deploy token is created [#945](https://github.com/clojars/clojars-web/pull/945).  
 
-I reviewed an earlier proposal for invalidating sessions, then made a smaller implementation [#944](https://github.com/clojars/clojars-web/pull/944). When a user changes or resets a password, Clojars now removes that user's active sessions. This was a fairly low-risk issue, but featured highly in bug bounty submissions.
+**Compromised-password detection:**  I started working on Have I Been Pwned password detection in [#951](https://github.com/clojars/clojars-web/pull/951) but haven't completed it.
 
-##### Deploy and token notifications
+### Infrastructure reliability and resilience  
 
-I added a migration to enable deploy notification emails for old users created before this preference existed [#943](https://github.com/clojars/clojars-web/pull/943). This will help maintainers detect a supply-chain takeover or unexpected deploys.
+**IPv6, DNS management, and redundancy:**  I imported our DNSimple DNS records into Terraform so changes could be reviewed and audited. I also added IPv6 support for `repo.clojars.org.  
+I also added Route 53 as a second DNS provider alongside DNSimple (closing [#60](https://github.com/clojars/infrastructure/issues/60)). This increases resiliency to DNS outage issues. This is not a theoretical concern, [in February](https://dnsimple.statuspage.io/incidents/s5rkdrmr3d2d) DNSimple had an DNS resolving outage which caused a Clojars outage.  
 
-I also reviewed and merged the work adding email alerts when a deploy token is created [#945](https://github.com/clojars/clojars-web/pull/945).
+### Build and deployment repair  
+I fixed the Packer build [#55](https://github.com/clojars/infrastructure/pull/55). I also fixed the app uberjar so it can build on macOS case-insensitive filesystems [#936](https://github.com/clojars/clojars-web/pull/936).  
 
-##### Compromised-password detection
+I also made the instance-refresh script wait for AWS Auto Scaling to report success or failure instead of returning as soon as a refresh started. It reports progress and exits unsuccessfully for failed, cancelled, or rolled-back refreshes. I updated the Leiningen version on the production image to resolve a deployment problem.  
 
-I started working on Have I Been Pwned password detection in [#951](https://github.com/clojars/clojars-web/pull/951) but haven't completed it.
+### Infrastructure as code  
+I moved the Clojars maintainer IAM group and its day-to-day AWS permissions into Terraform. This replaced console-only configuration with a Terraform maintained policy covering the services needed to operate Clojars, billing information, and Route 53 Domains.  
 
-#### Infrastructure reliability and resilience
+I added contributor and coding-assistant guidance to the infrastructure repository and updated its setup documentation for DNS credentials and the Terraform workflow.  
 
-##### IPv6, DNS management, and redundancy
+### Development workflow  
+I added coding agent guidance to help guide usage of coding agents.  
 
-I imported our DNSimple DNS records into Terraform so changes could be reviewed and audited. I also added IPv6 support for `repo.clojars.org`.
+## Clojars maintenance & support: July to September 2026  
+This covers Daniel's and Toby's work on Clojars.  
 
-I also added Route 53 as a second DNS provider alongside DNSimple (closing [#60](https://github.com/clojars/infrastructure/issues/60)). This increases resiliency to DNS outage issues. This is not a theoretical concern, [in February](https://dnsimple.statuspage.io/incidents/s5rkdrmr3d2d) DNSimple had an DNS resolving outage which caused a Clojars outage.
+### Daniel's work  
 
-##### Build and deployment repair
+### Infrastructure hardening  
 
-I fixed the Packer build [#55](https://github.com/clojars/infrastructure/pull/55). I also fixed the app uberjar so it can build on macOS case-insensitive filesystems [#936](https://github.com/clojars/clojars-web/pull/936).
+Daniel changed the production EC2 launch-template configuration to require IMDSv2 tokens and limited metadata responses to one network hop. Before opening the change, he checked CloudWatch metadata metrics and exercised the real Cognitect AWS client against a local IMDSv2-only endpoint [#61](https://github.com/clojars/infrastructure/pull/61).  
 
-I also made the instance-refresh script wait for AWS Auto Scaling to report success or failure instead of returning as soon as a refresh started. It reports progress and exits unsuccessfully for failed, cancelled, or rolled-back refreshes. I updated the Leiningen version on the production image to resolve a deployment problem.
+He prepared dedicated private database subnets with no internet or NAT route, moved the production RDS configuration into a private subnet group, disabled public accessibility, and enabled deletion protection [#62](https://github.com/clojars/infrastructure/pull/62).  
 
-##### Infrastructure as code
+Daniel also updated the Terraform backend to use the native S3 lockfile supported by current Terraform versions, removing the need for a separate DynamoDB locking table [commit 357062b](https://github.com/clojars/infrastructure/commit/357062b79cda35fe17798ef00eb20aaa94295d5c).  
 
-I moved the Clojars maintainer IAM group and its day-to-day AWS permissions into Terraform. This replaced console-only configuration with a Terraform maintained policy covering the services needed to operate Clojars, billing information, and Route 53 Domains.
+Toby identified that the production repository metadata still referred to the old HTTP URL in [#966](https://github.com/clojars/clojars-web/issues/966). Daniel then fixed the repo metadata to `https://repo.clojars.org` and managed the S3 object via Terraform [#63](https://github.com/clojars/infrastructure/pull/63).  
 
-I added contributor and coding-assistant guidance to the infrastructure repository and updated its setup documentation for DNS credentials and the Terraform workflow.
+### Application tooling and maintainer review  
+Daniel updated the `bin/clj-kondo` bootstrap script to select the correct release for Intel and ARM64 builds on macOS and Linux and to keep architecture-specific cache directories. [Commit 32cf33f](https://github.com/clojars/clojars-web/commit/32cf33fc3a07952eac368b44ab04eaaa8be6723e) landed on 20 August.  
 
-#### Development workflow
+### On Call management   
+Daniel added more monitoring for Clojars and setup an on-call 24x7 pager rotation for Clojars.  
 
-I added coding agent guidance to help guide usage of coding agents.
+### Security review  
+Daniel began a security review of the Clojars service. No major issues were identified, but some remediation work is in progress and will be published soon.  
 
-### July to September 2026 maintenance work
+### Toby's work  
 
-This covers Daniel and Toby's work on Clojars.
+### Clojure Conj Talk  
+Toby gave a talk at the 2026 Clojure Conj about the history of Clojars and how it works. The video will be available on the [ClojureTV](https://www.youtube.com/ClojureTV) YouTube channel soon.  
 
-#### Daniel's work
+### Account, session, and authentication improvements  
+Toby simplified the normal login form so it only requests an MFA code after a user with MFA enabled has supplied valid credentials [#950](https://github.com/clojars/clojars-web/pull/950).  
 
-##### Infrastructure hardening
+He moved sessions from the application's memory into PostgreSQL, added a twenty-four-hour idle expiry, and added database cleanup for expired sessions. This makes longer-lived sessions practical and is one of the required steps for us to run multiple application instances - [#964](https://github.com/clojars/clojars-web/pull/964).  
 
-Daniel changed the production EC2 launch-template configuration to require IMDSv2 tokens and limited metadata responses to one network hop. Before opening the change, he checked CloudWatch metadata metrics and exercised the real Cognitect AWS client against a local IMDSv2-only endpoint [#61](https://github.com/clojars/infrastructure/pull/61).
+Toby tightened what the OAuth workflow returns so unserialisable provider data would not leak into session state, then corrected the workflow response handling after GitHub login failed in production. These fixes landed directly as [commit 1896a51](https://github.com/clojars/clojars-web/commit/1896a511281643c24b261e716c49126a234da8a7) and [commit e9542cf](https://github.com/clojars/clojars-web/commit/e9542cfef3695e570a6e9142f15a6affcdaa0624).  
 
-He prepared dedicated private database subnets with no internet or NAT route, moved the production RDS configuration into a private subnet group, disabled public accessibility, and enabled deletion protection [#62](https://github.com/clojars/infrastructure/pull/62).
+He also updated GitLab login to accept all email addresses that GitLab marks as verified instead of requiring the address to be primary [#971](https://github.com/clojars/clojars-web/pull/971). Separately, [#969](https://github.com/clojars/clojars-web/pull/969) added the Clojars account name to notification-email footers, making messages unambiguous for people who have more than one account associated with an address.  
 
-Daniel also updated the Terraform backend to use the native S3 lockfile supported by current Terraform versions, removing the need for a separate DynamoDB locking table [commit 357062b](https://github.com/clojars/infrastructure/commit/357062b79cda35fe17798ef00eb20aaa94295d5c).
+### Supply-chain and dependency security  
+Toby updated Jackson, the PostgreSQL driver, and Logback to address reported vulnerabilities in [#956](https://github.com/clojars/clojars-web/pull/956), then handled another set of dependency vulnerabilities and cleaned up obsolete or spurious suppressions in [#965](https://github.com/clojars/clojars-web/pull/965). A further September dependency update addressed eight CVEs in [commit 67727be](https://github.com/clojars/clojars-web/commit/67727beb0285264374326efe201a06ebabe5791a).  
 
-Toby identified that the production repository metadata still referred to the old HTTP URL in [#966](https://github.com/clojars/clojars-web/issues/966). Daniel then fixed the repo metadata to `https://repo.clojars.org` and managed the S3 object via Terraform [#63](https://github.com/clojars/infrastructure/pull/63).
+He prevented publication of POM and Gradle module metadata containing dynamic dependency versions, e.g. version ranges like `[16,17)`, RELEASE, or SNAPSHOT [#960](https://github.com/clojars/clojars-web/pull/960).  
 
-##### Application tooling and maintainer review
+Toby removed the separate Apache HTTP client stack in favour of the http-kit client already in use, reducing the dependency and CVE surface [#961](https://github.com/clojars/clojars-web/pull/961). He also switched from a temporary fork of the `one-time` library back to its official release [#962](https://github.com/clojars/clojars-web/pull/962).  
 
-Daniel updated the `bin/clj-kondo` bootstrap script to select the correct release for Intel and ARM64 builds on macOS and Linux and to keep architecture-specific cache directories. [Commit 32cf33f](https://github.com/clojars/clojars-web/commit/32cf33fc3a07952eac368b44ab04eaaa8be6723e) landed on 20 August.
+### Development, CI, and operational reliability  
+Toby updated clj-kondo, adopted its new constant-condition linter, and fixed the issue the new check found [#963](https://github.com/clojars/clojars-web/pull/963).  
 
-##### On Call management
+After removing Apache HttpClient, he fixed Fastly cache purging by switching to Fastly's POST API, which the http-kit client supports. [Commit 0c7e45a](https://github.com/clojars/clojars-web/commit/0c7e45ae0a57775cb4d04d410fb605cff95ea413) landed on 22 July. He also aligned the local Docker Compose environment with the PostgreSQL 18.4 version used in production in [commit 61eb196](https://github.com/clojars/clojars-web/commit/61eb196dbf2fdab266e90477b948125c975c639c).  
 
-Daniel added more monitoring for Clojars and setup an on-call 24x7 pager rotation for Clojars.
-
-##### Security review
-
-Daniel began a security review of the Clojars service. No major issues were identified, but some remediation work is in progress and will be published soon.
-
-### Toby's work
-
-##### Clojure Conj Talk
-
-Toby gave a talk at the 2026 Clojure Conj about the history of Clojars and how it works. The video will be available on the [ClojureTV](https://www.youtube.com/ClojureTV) YouTube channel soon.
-
-##### Account, session, and authentication improvements
-
-Toby simplified the normal login form so it only requests an MFA code after a user with MFA enabled has supplied valid credentials [#950](https://github.com/clojars/clojars-web/pull/950).
-
-He moved sessions from the application's memory into PostgreSQL, added a twenty-four-hour idle expiry, and added database cleanup for expired sessions. This makes longer-lived sessions practical and is one of the required steps for us to run multiple application instances - [#964](https://github.com/clojars/clojars-web/pull/964).
-
-Toby tightened what the OAuth workflow returns so unserialisable provider data would not leak into session state, then corrected the workflow response handling after GitHub login failed in production. These fixes landed directly as [commit 1896a51](https://github.com/clojars/clojars-web/commit/1896a511281643c24b261e716c49126a234da8a7) and [commit e9542cf](https://github.com/clojars/clojars-web/commit/e9542cfef3695e570a6e9142f15a6affcdaa0624).
-
-He also updated GitLab login to accept all email addresses that GitLab marks as verified instead of requiring the address to be primary [#971](https://github.com/clojars/clojars-web/pull/971). Separately, [#969](https://github.com/clojars/clojars-web/pull/969) added the Clojars account name to notification-email footers, making messages unambiguous for people who have more than one account associated with an address.
-
-##### Supply-chain and dependency security
-
-Toby updated Jackson, the PostgreSQL driver, and Logback to address reported vulnerabilities in [#956](https://github.com/clojars/clojars-web/pull/956), then handled another set of dependency vulnerabilities and cleaned up obsolete or spurious suppressions in [#965](https://github.com/clojars/clojars-web/pull/965). A further September dependency update addressed eight CVEs in [commit 67727be](https://github.com/clojars/clojars-web/commit/67727beb0285264374326efe201a06ebabe5791a).
-
-He prevented publication of POM and Gradle module metadata containing dynamic dependency versions, e.g. version ranges like `[16,17)`, RELEASE, or SNAPSHOT [#960](https://github.com/clojars/clojars-web/pull/960).
-
-Toby removed the separate Apache HTTP client stack in favour of the http-kit client already in use, reducing the dependency and CVE surface [#961](https://github.com/clojars/clojars-web/pull/961). He also switched from a temporary fork of the `one-time` library back to its official release [#962](https://github.com/clojars/clojars-web/pull/962).
-
-##### Development, CI, and operational reliability
-
-Toby updated clj-kondo, adopted its new constant-condition linter, and fixed the issue the new check found [#963](https://github.com/clojars/clojars-web/pull/963).
-
-After removing Apache HttpClient, he fixed Fastly cache purging by switching to Fastly's POST API, which the http-kit client supports. [Commit 0c7e45a](https://github.com/clojars/clojars-web/commit/0c7e45ae0a57775cb4d04d410fb605cff95ea413) landed on 22 July. He also aligned the local Docker Compose environment with the PostgreSQL 18.4 version used in production in [commit 61eb196](https://github.com/clojars/clojars-web/commit/61eb196dbf2fdab266e90477b948125c975c639c).
-
-Toby replaced the unavailable MinIO test image with S3Mock, updated the CircleCI base image, and repaired Maven dependency caching that had not been using the intended path [#970](https://github.com/clojars/clojars-web/pull/970).
+Toby replaced the unavailable MinIO test image with S3Mock, updated the CircleCI base image, and repaired Maven dependency caching that had not been using the intended path [#970](https://github.com/clojars/clojars-web/pull/970).  
 
 His infrastructure maintenance increased Fastly log retention for analysis, corrected that policy so it actually retained 120 days, and fixed the instance-selection script so status messages no longer contaminated the IP address returned to callers. These changes landed as [commits 5ebe01a](https://github.com/clojars/infrastructure/commit/5ebe01adea08e57989d7c669d25ae13a7009140a), [a994755](https://github.com/clojars/infrastructure/commit/a994755a12f1b062af621b4feb384511e72d6ed4), and [f615c38](https://github.com/clojars/infrastructure/commit/f615c38e319363369fe4651be7241d6e9df06882). <br>  
-
-Supporting Clojars maintenance
-Clojurists Together funds Toby Crawley (lead maintainer) and Daniel Compton (maintainer) to maintain Clojars. 
-
-Their work includes responding to operational issues and community support requests, maintaining the service and its infrastructure, applying security updates, improving publishing and administration tools, and keeping hosting reliable and cost-effective. You can follow this work in the Clojars changelog and in our project updates.
-
-Critical infrastructure for the Clojure community
-Clojars has provided free JAR hosting to the Clojure community since November 2009. As of October 2026:
-
-Clojars hosts more than 33,000 projects with 230,000 versions released.
-Those versions had been downloaded more than 3.3 billion times.
-Get help or contribute
-For help with Clojars, visit the #clojars channel on Clojurians Slack or open an issue. Clojars itself is open source, and contributions are welcome in the Clojars GitHub organization.
 
 ---
 
