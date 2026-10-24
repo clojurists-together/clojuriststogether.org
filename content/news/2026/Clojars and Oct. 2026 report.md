@@ -10,13 +10,13 @@ summary: Clojars support, Malli, SciCloj doc and plotting libraries
 ---
 Our October report includes an update on the Clojars maintenance and 'on-call" support work undertaken by Daniel Compton and Toby Crawley during the last 6 months. In addition, Ambrose Bonnaire-Seargent and Cvetomir Dimov share the most recent updates on their projects. 
 
-[Clojars maintenance and support](#clojars-maintenance-and-infrastructure-overview)  
+[Clojars maintenance and support](#clojars-maintenance -overview)  
 [Malli: Ambrose Bonnaire-Seargent](#malli-ambrose-bonnaire-seargent)  
 [SciCloj Documentation and Plotting Libraries: Cvetomir Dimov](#scicloj-documentation-and-plotting-libraries-cvetomir-dimov)
 
 
 
-## Clojars maintenance and infrastructure overview
+## Clojars maintenance overview
 Clojurists Together funds Toby Crawley and Daniel Compton to co-maintain Clojars. Their work includes responding to operational issues and community support requests, maintaining the service and its infrastructure, applying security updates, improving publishing and administration tools, and keeping hosting reliable and cost-effective. You can follow this work in the Clojars changelog and in our project updates. For help with Clojars, visit the #clojars channel on Clojurians Slack or open an issue. Clojars itself is open source, and contributions are welcome in the Clojars GitHub organization. <br>
 **Review period:** April to 30 September 2026  
 **Author:** Daniel Compton  
