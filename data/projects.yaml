@@ -172,7 +172,7 @@
   date: 2026-09-01
   round: Q3 2026
   description: Finally release the first publicly usable version of Carmine v4!
-  current: true  
+  current: true
 
 - name: Malli
   url: https://github.com/metosin/malli
