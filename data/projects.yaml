@@ -8,6 +8,7 @@
 # Q2 2025
 # Q3 2025
 # Q2 2026
+# Q3 2026
 
 
 - name: Bohzidar Batsov
@@ -144,41 +145,70 @@
   round: Long-term 2023
 
 
+- name: Tablecloth
+  url: 
+  tier: USD 9k
+  date: 2026-09-01
+  round: Q3 2026
+  description: Make the Column API more capable and easier to use. Support with a tutorial usig a real-world processing task.
+  current: true
+- name: Documentation and Design Services for Key Community Projects 
+  url: https://github.com/metosin/malli, https://github.com/squint-cljs/squint, https://www.flow-storm.org/, https://eca.dev/
+  tier: USD 9k
+  date: 2026-09-01
+  round: Q3 2026
+  description: significantly improve the documentation and marketing of four established community projects: Malli, Squint, Flowstorm, ECA 
+  current: true
+- name: EVE (Extended Value Encoding)
+  url: 
+  tier: USD 2k
+  date: 2026-09-01
+  round: Q3 2026
+  description: Improve EVE's Clojure implementation, user documentation, and get the library to a “1.0” status.
+  current: true
+- name: Finish Carmine v4
+  url: 
+  tier: USD 2k
+  date: 2026-09-01
+  round: Q3 2026
+  description: Finally release the first publicly usable version of Carmine v4!
+  current: true  
+
 - name: Malli
   url: https://github.com/metosin/malli
   tier: USD 9k
   date: 2026-05-01
   round: Q2 2026
   description: Investigate ways to improve this situation so that systems can both take advantage of the constant memory usage of recursive ref validators without incurring prohibitive amounts of upfront memory, hopefully in such a way that custom work-arounds addressing Malli’s high memory use can be removed.
-  current: true
+  current: false
 - name: SciCloj Documentation and Plotting Libraries
   url:
   tier: USD 9k
   date: 2026-05-01
   round: Q2 2026
   description: Extend and improve the libraries in Noj, the entry point for data analysis in Clojure by extending the plotting capabilities of Noj’s plotting library, creating a new library for generating interactive dashboards, and expand the Noj book such that it has a more complete coverage of all libraries.
-  current: true
+  current: false
 - name: "UnComplicate AI: Clojure LLM"
   url:
   tier: USD 9k
   date: 2026-05-01
   round: Q2 2026
   description: Provide a high performance local LLM (large language model) AI solution, that supports mainstream open models, freely available at Hugging Face and elsewhere
-  current: true
+  current: false
 - name: Gloat
   url:
   tier: USD 2k
   date: 2026-05-01
   round: Q2 2026
   description: "Make Gloat/Glojure binaries smaller and faster. Pass more of the Clojure Compatibility Test Suite. Create tutorial docs on: How to use Gloat to integrate Clojure into Go projects and How to use Gloat instead of GraalVM to (cross-)compile Clojure."
-  current: true
+  current: false
 - name: PluMCP
   url: https://modelcontextprotocol.io/specification/2025-11-25
   tier: USD 2k
   date: 2026-05-01
   round: Q2 2026
   description: Implement features in the next spec version 2025-11-25 and work on project documentation.
-  current: true
+  current: false
 
 
 - name: Jank
