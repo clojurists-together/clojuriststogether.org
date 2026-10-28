@@ -148,28 +148,28 @@
 - name: Tablecloth
   url: 
   tier: USD 9k
-  date: 2026-09-01
+  date: 2026-10-28
   round: Q3 2026
   description: Make the Column API more capable and easier to use. Support with a tutorial usig a real-world processing task.
   current: true
 - name: Documentation and Design Services for Key Community Projects 
   url: 
   tier: USD 9k
-  date: 2026-09-01
+  date: 2026-10-28
   round: Q3 2026
-  description: significantly improve the documentation and marketing of four established community projects: Malli, Squint, Flowstorm, ECA 
+  description: Significantly improve the documentation and marketing of four established community projects: Malli, Squint, Flowstorm, ECA 
   current: true
 - name: EVE (Extended Value Encoding)
   url: 
   tier: USD 2k
-  date: 2026-09-01
+  date: 2026-10-28
   round: Q3 2026
   description: Improve EVE's Clojure implementation, user documentation, and get the library to a “1.0” status.
   current: true
 - name: Finish Carmine v4
   url: 
   tier: USD 2k
-  date: 2026-09-01
+  date: 2026-10-28
   round: Q3 2026
   description: Finally release the first publicly usable version of Carmine v4!
   current: true
