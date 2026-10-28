@@ -153,7 +153,7 @@
   description: Make the Column API more capable and easier to use. Support with a tutorial usig a real-world processing task.
   current: true
 - name: Documentation and Design Services for Key Community Projects 
-  url: https://github.com/metosin/malli, https://github.com/squint-cljs/squint, https://www.flow-storm.org/, https://eca.dev/
+  url: 
   tier: USD 9k
   date: 2026-09-01
   round: Q3 2026
@@ -173,6 +173,7 @@
   round: Q3 2026
   description: Finally release the first publicly usable version of Carmine v4!
   current: true
+
 
 - name: Malli
   url: https://github.com/metosin/malli
