@@ -5,13 +5,14 @@ type: page
 
 
 The Clojurists Together board is made up of:
-- Daniel Compton - Secretary/Treasurer    
-- Heather Moore-Farley   
-- Laurens Van Houtven - President  
-- Lorelai Lyons  
-- Maria Geller  
-- Christoph Neumann
-- Daniel Slutsky  
+
+- Daniel Compton - Secretary/Treasurer (2017 to present)
+- Heather Moore-Farley (2021 to present)
+- Laurens Van Houtven - President (2018 to present)
+- Lorelai Lyons (2024 to present)
+- Maria Geller (2017 to present)
+- Christoph Neumann (2025 to present)
+- Daniel Slutsky (2025 to present)
 
 
 The Board is responsible for governing the project, selecting which projects are sponsored, administering the project, and interacting with sponsors.
@@ -25,14 +26,15 @@ Annual elections are held to elect the board for the following year. The most re
 ## Alumni
 
 Previous members of the Clojurists Together board are:
-- Felix Barbalet - 2024 
-- Max Penet - 2024
-- Chris Nuernberger - 2023
-- Ikuru Kyogoku 2023
-- Nola Stowe - 2022
-- Fumiko Hanreich - 2022
-- Quetzaly Solano Gómez - 2021
-- Larry Staton Jr - 2021
-- Bridget Hillyer - 2019
-- Toby Crawley - 2019
-- Devin Walters - 2019
+
+- Felix Barbalet (2023 to 2025)
+- Max Penet (2023 to 2025)
+- Chris Nuernberger (2021 to 2023)
+- Ikuru Kyogoku (2021 to 2023)
+- Nola Stowe (2018 to 2022)
+- Fumiko Hanreich (2018 to 2022)
+- Quetzaly Solano Gómez (2017 to 2021)
+- Larry Staton Jr (2017 to 2021)
+- Bridget Hillyer (2017 to 2018)
+- Toby Crawley (2017 to 2018)
+- Devin Walters (2017 to 2018)
