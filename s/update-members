@@ -1,15 +1,23 @@
 #!/bin/bash
 
-curl https://members.clojuriststogether.org/member-list > ./data/members.json
+set -euo pipefail
 
-# https://stackoverflow.com/a/3879077
-git update-index --refresh
-git diff-index --quiet HEAD --
-status=$?
+members_file=$(mktemp ./data/members.json.XXXXXX)
+trap 'rm -f "$members_file"' EXIT
 
-if test $status -ne 0
-then
-    git add .
-    git commit -m "Update members"
+curl --fail --silent --show-error https://members.clojuriststogether.org/member-list --output "$members_file"
+jq --exit-status --slurp '
+    length == 1 and (.[0] |
+    type == "object" and
+    (.members | type == "array") and
+    (.member_stats | type == "object") and
+    (.member_stats.company | type == "number") and
+    (.member_stats.developer | type == "number"))
+' "$members_file" > /dev/null
+mv "$members_file" ./data/members.json
+
+if ! git diff --quiet HEAD -- data/members.json; then
+    git add -- data/members.json
+    git commit --only -m "Update members" -- data/members.json
     git push
 fi
