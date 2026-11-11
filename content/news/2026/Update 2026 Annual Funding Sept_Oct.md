@@ -551,9 +551,14 @@ Conj... workshop driven development I guess. The major milestones I focused on d
 All of this combined made for a great workshop, where we developed a stateless password manager that used cryptography either by shelling out or by FFI. This project combined the most-used libraries in babashka, like [babashka.fs](https://github.com/babashka/fs), [babashka.process](https://github.com/babashka/process), [babashka.cli](https://github.com/babashka/cli), [babashka.ffi](https://github.com/babashka/ffi), etc. so even if you didn't end up using this password manager (most people probably didn't) you certainly were exposed to what you would typically use in a bb script or project.
 Rahul and I will give this workshop at [EuroClojure 2027](https://2027.euroclojure.org/) as well, so in case you missed it, you'll get one more chance!
 
-<img src="assets/conj-2026-workshop.jpg" width="70%" align="center" alt="Babashka workshop at Clojure/conj 2026, seen from the back of the room">
+<img width="479" height="357" alt="image" src="https://github.com/user-attachments/assets/a9364952-6030-4031-873f-60020c0620aa" />  
+<br>
+Babashka workshop at Clojure/conj 2026, seen from the back of the room.  <br>  
+<br>  
 
-<img src="assets/conj-2026-rich-rahul.jpg" width="70%" align="center" alt="Rich Hickey and Rahul Dé getting his hamster hammock signed at Clojure/conj 2026">
+<img width="481" height="357" alt="image" src="https://github.com/user-attachments/assets/da42bd40-0d72-4805-b8d7-3ec3ca4a116f" />  
+<br>
+Rich Hickey and Rahul Dé getting his hamster hammock signed at Clojure/conj 2026.  <br>
 
 ## Highlights
 
