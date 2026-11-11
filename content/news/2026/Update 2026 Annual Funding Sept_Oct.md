@@ -49,7 +49,7 @@ paid off much sooner than I expected. The highlights:
 
 Below are the details, project by project.
 
-## proof and the nREPL spec
+### proof and the nREPL spec
 
 [proof](https://github.com/nrepl/proof) is the big new project this time
 around, and the one I'm most excited about. I've been talking about some
@@ -105,7 +105,7 @@ nREPL server, and Kyle Cesare is already
 [fixing](https://github.com/jank-lang/jank/pull/1175) what it found there.
 That's exactly what I was hoping for!
 
-## neorepl
+### neorepl
 
 [neorepl](https://github.com/nrepl/neorepl) is the other brand new project,
 and it grew up together with proof. It's a terminal REPL for Clojure (and
@@ -135,7 +135,7 @@ well, with a much smarter line editor, a namespace browser, automatic
 reloading and a CLI that editors can use without a plugin. I wrote about it in
 [neorepl 0.5: CIDER in a Terminal](https://metaredux.com/posts/2026/11/05/neorepl-0-5.html).
 
-## nREPL
+### nREPL
 
 [nREPL 1.8.0](https://github.com/nrepl/nrepl/releases/tag/v1.8.0) came out on
 October 2 with the URL-based connections and the TLS improvements I mentioned
@@ -154,12 +154,12 @@ neorepl:
 
 The interrupt bugs that are still open are next on my list.
 
-## Piggieback
+### Piggieback
 
 - [0.7.1](https://github.com/nrepl/piggieback/releases/tag/0.7.1) fixed `load-file` failing with "No such namespace" when the file requires a foreign lib (e.g. a cljsjs package).
 - [0.8.0](https://github.com/nrepl/piggieback/releases/tag/0.8.0) fixed `:cljs/quit` on nREPL 1.3+, where the session stayed in ClojureScript mode, and made evaluation use the same dynamic bindings as `cljs.repl`. That means the `cljs-repl` options (e.g. `:warnings`) and the bindings tools like figwheel-main set up around it finally take effect, which closes an issue from 2018. It also picked up `:as-alias` keywords and the `:cljs` branch of `data_readers.cljc`.
 
-## nrepl.org and cider.mx
+### nrepl.org and cider.mx
 
 nrepl.org got a facelift at the end of October. The manual moved to
 [docs.nrepl.org](https://docs.nrepl.org), and [nrepl.org](https://nrepl.org)
@@ -177,7 +177,7 @@ CIDER got a landing page of its own at [cider.mx](https://cider.mx), made to
 look like an Emacs frame running org-mode (mode line, `M-x` and all), with mini screencasts of CIDER
 in action. I had a lot of fun working on both sites!
 
-## neat, mezcaml and nREPL on the BEAM
+### neat, mezcaml and nREPL on the BEAM
 
 My toy nREPL implementations were the first things I ran proof against, and
 all of them got a round of fixes in early October:
@@ -189,7 +189,7 @@ all of them got a round of fixes in early October:
 neat's own integration suite now tests just the client and leaves the servers
 to proof. None of the three has had a release yet, though.
 
-## CIDER
+### CIDER
 
 No CIDER release this time (2.1 is still brewing), but master kept moving:
 
@@ -199,7 +199,7 @@ No CIDER release this time (2.1 is still brewing), but master kept moving:
 - Keys with a `nil` value are left out of nREPL requests instead of being sent as empty lists, which closes an issue from 2020.
 - Natively compiled builds no longer have broken menu options, Emacs 31 is on CI, and the manual got per-build-tool setup tabs, the refcard and CI checks for its cross references.
 
-## cider-nrepl and Orchard
+### cider-nrepl and Orchard
 
 [cider-nrepl](https://github.com/clojure-emacs/cider-nrepl) releases:
 
@@ -216,7 +216,7 @@ No CIDER release this time (2.1 is still brewing), but master kept moving:
 Sashko also added JDK 27 to the CI of nREPL, cider-nrepl and Orchard. Thanks,
 Sashko!
 
-## refactor-nrepl and clj-refactor
+### refactor-nrepl and clj-refactor
 
 [refactor-nrepl 3.15.0](https://github.com/clojure-emacs/refactor-nrepl/releases/tag/v3.15.0)
 documented the limitations of its AST-based analysis and deprecated the ops
@@ -224,7 +224,7 @@ cider-nrepl has taken over. Back in the spring I said I'd like to move the
 most useful refactor-nrepl features to CIDER and cider-nrepl eventually, and
 the `ns` editing commands above are the first step in that direction.
 
-## clojure-ts-mode
+### clojure-ts-mode
 
 No release, but quite a few fixes on main. I fixed clojure-ts-mode on Emacs 31
 (e.g. the ClojureScript mode asking for the jsdoc grammar, `M-q` indenting
@@ -234,7 +234,7 @@ round of indentation and alignment fixes (threading macros, reader prefixes,
 metadata and comments before arguments), and Kyle Cesare kept up with jank's
 syntax. Thanks, Jason and Kyle!
 
-## MrAnderson and smaller things
+### MrAnderson and smaller things
 
 [MrAnderson 0.7.2](https://github.com/benedekfazekas/mranderson/releases/tag/v0.7.2)
 stopped bundling pomegranate's Maven classes in its jar, where they clashed
@@ -247,7 +247,7 @@ Orchard, Piggieback and friends (e.g. release notes taken from the changelogs,
 the docs of a release published by its release workflow), and I revived the CI
 of parseclj and parseedn.
 
-## Blog posts
+### Blog posts
 
 - [neorepl: A Terminal REPL for Clojure (and Friends)](https://metaredux.com/posts/2026/10/10/neorepl-a-terminal-repl-for-clojure-and-friends.html)
 - [neorepl 0.4: Tests, Inspector, Tracing and Agents](https://metaredux.com/posts/2026/10/30/neorepl-0-4.html)
@@ -255,7 +255,7 @@ of parseclj and parseedn.
 - [neorepl 0.5: CIDER in a Terminal](https://metaredux.com/posts/2026/11/05/neorepl-0-5.html)
 - [proof: How Strong Is Your nREPL?](https://metaredux.com/posts/2026/11/05/proof-how-strong-is-your-nrepl.html)
 
-## What's next
+### What's next
 
 Last time I said CIDER 2.1 was the obvious next milestone. It still is, but it
 got delayed, as most of my time went into nREPL instead. nREPL 1.8 shipped as
