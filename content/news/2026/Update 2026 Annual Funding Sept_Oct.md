@@ -17,16 +17,17 @@ Their previous reports can be found here:
 [May/June 2026](https://www.clojuriststogether.org/news/annually-funded-developers-update-may-june-2026/)  
 [July/Aug 2026](https://www.clojuriststogether.org/news/annually-funded-developers-update-july-august-2026/)  <br>   
 
-<br>
-
-
+<br>  
 
 
 [**Bozhidar Batsov:**](#bozhidar-batsov) nREPL, neorepl, piggieback, CIDER    
 [**Clojure Camp:**](#clojure-camp)  Conj activities, Recurse Center  
 [**Eric Dallo:**](#eric-dallo) ECA, ECA CLI, clojure-lsp  
 [**Jeaye Wilkerson:**](#jeaye-wilkerson) Jank portability, parity, stability, usability, and performance  
-[**Michiel Borkent:**](#michiel-borkent) Squint, Babashka.ffi, clj-kondo, antq, and much more  
+[**Michiel Borkent:**](#michiel-borkent) Squint, Babashka.ffi, clj-kondo, antq, and much more  <br>   
+
+<br>
+
 
 
 
@@ -274,7 +275,7 @@ You rock!  <br>
 ## Clojure Camp  
 2026 Annual Funding Report 5. Published Nov. 7, 2026.  
 
-## What Happened
+### What Happened
 
 ### Workshops at Conj
 - Ran two 3-hour workshops, which were well received.
@@ -296,7 +297,7 @@ You rock!  <br>
 ### Corporate Bookkeeping and Filing
 - Not much to say here, other than that Plain Text Accounting + Claude work well together.
 
-## Plans
+### Plans
 
 - Continue on badges site content
 - Continue on new event management tooling
@@ -337,7 +338,7 @@ Also, Jeremiah Coyle (@paintparty), funded by ClojuristsTogether as well, starte
 
 ### [ECA CLI](https://github.com/editor-code-assistant/eca-cli)
 
-![eca-cli](./eca-cli.gif)
+![alt text](eca-cli.gif)
 
 The terminal client got a huge push and is now an official ECA client! It's written in Clojure with [Babashka](https://babashka.org) and [charm.clj](https://github.com/TimoKramer/charm.clj), and ships as a single self-contained binary that downloads and updates the ECA server by itself, no Babashka, JVM or editor needed. It has most of the features of the editor clients: markdown rendering with syntax highlighting, tool approvals with diffs, questions, steering, task panel, rollback, flags and forks, `@` contexts, provider login and MCP management, plus a print mode for scripts and pipes, like `git diff | eca-cli -p "review this change"`. Thanks to Sam O'Leary for starting the project, it's really nice to see a Clojure TUI like this one!
 
@@ -490,16 +491,11 @@ Github issue if the tires fall off!  <br>
 ## Michiel Borkent  
 2026 Annual Funding Report 5. Published Nov. 8, 2026. 
 
-Title: OSS updates September and October 2026
-Date: 2026-10-30
-Tags: clojure, oss updates
-Description: My Clojure OSS updates for September and October 2026
-
 In this post I'll give updates about open source I worked on during September and October 2026.
 
 To see previous OSS updates, go [here](https://blog.michielborkent.nl/tags/oss-updates.html).
 
-## Sponsors
+### Sponsors
 
 I'd like to thank all the sponsors and contributors who make this work
 possible. Without you, the projects below would not be as mature or would not
@@ -533,7 +529,7 @@ uses my OSS, please ask your employer, that would be even better. Thank you!
 </details>
 
 
-## Intro
+### Intro
 
 A lot happened again in the last two months! One major highlight was my visit to
 the [Clojure Conj](https://2026.clojure-conj.org) together with Rahul Dé, where we
@@ -555,7 +551,7 @@ Rahul and I will give this workshop at [EuroClojure 2027](https://2027.eurocloju
 
 <img src="assets/conj-2026-rich-rahul.jpg" width="70%" align="center" alt="Rich Hickey and Rahul Dé getting his hamster hammock signed at Clojure/conj 2026">
 
-## Highlights
+### Highlights
 
 Here are some personal favorite highlights from the last two months.
 
@@ -577,7 +573,7 @@ Here are some personal favorite highlights from the last two months.
   - Type system improvements: `(when (and (string? x) (pos? n)) (inc x))` will now warn since `(string? x)` implies `x` is a string and `(inc x)` will crash on that input
   - `:unknown-map-key` linter that warns when requesting keys from maps that provably aren't there: given `(defn opts [] {:host "localhost"})`, `(:hots (opts))` will warn.
 
-## Blog posts
+### Blog posts
 
 Blog posts that I published in this period:
 - Babashka 1.13.222: the conj release (2026-09-14)
@@ -585,7 +581,7 @@ Blog posts that I published in this period:
 - Tree shaking squint on the server with esbuild (2026-09-25)
   https://blog.michielborkent.nl/squint-tree-shaking-hyper-esbuild.html
 
-## Updates
+### Updates
 
 Here are some highlights per project. See each project's `CHANGELOG.md` for the full list.
 
@@ -730,7 +726,7 @@ Contributions to third party projects:
 - [nextjournal/markdown](https://github.com/nextjournal/markdown): [#71](https://github.com/nextjournal/markdown/issues/71): render the link title in the default `:link` renderer
 - [clojure-mode](https://github.com/nextjournal/clojure-mode): bind Option+S to unwrap on macOS ([#62](https://github.com/nextjournal/clojure-mode/pull/62))
 
-## Other projects
+### Other projects
 
 These are some other projects I'm involved with, but little to no activity
 happened in the past two months.
