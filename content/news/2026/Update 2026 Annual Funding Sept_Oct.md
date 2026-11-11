@@ -337,7 +337,9 @@ Also, Jeremiah Coyle (@paintparty), funded by ClojuristsTogether as well, starte
 
 ### [ECA CLI](https://github.com/editor-code-assistant/eca-cli)
 
-![eca-cli](./eca-cli.gif)
+<img width="875" height="538" alt="eca-cli" src="https://github.com/user-attachments/assets/846798d7-4002-427f-8f7d-5aa62e62f86c" />
+
+
 
 The terminal client got a huge push and is now an official ECA client! It's written in Clojure with [Babashka](https://babashka.org) and [charm.clj](https://github.com/TimoKramer/charm.clj), and ships as a single self-contained binary that downloads and updates the ECA server by itself, no Babashka, JVM or editor needed. It has most of the features of the editor clients: markdown rendering with syntax highlighting, tool approvals with diffs, questions, steering, task panel, rollback, flags and forks, `@` contexts, provider login and MCP management, plus a print mode for scripts and pipes, like `git diff | eca-cli -p "review this change"`. Thanks to Sam O'Leary for starting the project, it's really nice to see a Clojure TUI like this one!
 
