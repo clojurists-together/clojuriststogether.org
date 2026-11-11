@@ -1,5 +1,5 @@
 ---
-title: "Annually-Funded Developers' Update: Sept. & October 2026"
+title: "Annually-Funded Developers' Update: Sept. and October 2026"
 date: 2026-11-11T14:00:00+12:00
 author: Kathy Davis
 summary: "Bozhidar Batsov, Clojure Camp, Eric Dallo, Michiel Borkent, Jeaye Wilkerson"  
