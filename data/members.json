@@ -1068,9 +1068,14 @@
     "member_type" : "developer",
     "level" : "contributing",
     "founding" : false
+  }, {
+    "name" : "Sturmfels",
+    "member_type" : "developer",
+    "level" : "contributing",
+    "founding" : false
   } ],
   "member_stats" : {
     "company" : 35,
-    "developer" : 162
+    "developer" : 163
   }
 }
