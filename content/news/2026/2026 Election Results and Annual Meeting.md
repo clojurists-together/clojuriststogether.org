@@ -1,6 +1,6 @@
 ---
 title: "2026 Board Election Results and Annual Meeting"
-date: 2025-11-15T12:09:25+12:00
+date: 2026-11-15T12:09:25+12:00
 author: Kathy Davis
 summary: Reminder Annual Meeting 17 November 10 am PT
 
