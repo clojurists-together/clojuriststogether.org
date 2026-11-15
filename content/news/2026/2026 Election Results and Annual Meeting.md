@@ -16,7 +16,7 @@ The Clojurists Together board is happy to announce the results of our [elections
 - Chris Oakman  <br>
 
 
-Thanks to everyone who stood for election. It was an incredibly close race - which is a testament to the strength of the candidates and the engagement of our membership.  Board members continuing for the remainder of their 2-year term are Daniel Compton, Heather Moore-Farley, Christoph Neumann, and Daniel Slutsky.
+Thanks to everyone who stood for the election. It was an incredibly close race - which is a testament to the strength of the candidates and the engagement of our membership.  Board members continuing for the remainder of their 2-year term are Daniel Compton, Heather Moore-Farley, Christoph Neumann, and Daniel Slutsky.
  
 A HUGE SHOUT-OUT AND THANKS to the outgoing board members Maria Geller and lvh for their years of service to the board and the Clojure community.  Maria has been a board member since Clojurists Together was first formed in 2017, and lvh was elected in the first board election in 2018. lvh has been President of the Clojurists Together Foundation since we formed our own non-profit trade association in 2020 and put in a huge amount of time and energy to leave the Software Freedom Conservancy and form our own non-profit. We want to extend a very special thanks to them for their years of service and leadership in the community, and will be sad to see them leave. They were both instrumental in helping Clojurists Together get to where it is today.
 
