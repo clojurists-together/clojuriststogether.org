@@ -1,10 +1,12 @@
 ---
 title: "2026 Board Election Results and Annual Meeting"
-date: 2025-11-15T14:09:25+12:00
+date: 2025-11-15T12:09:25+12:00
 author: Kathy Davis
 summary: Reminder Annual Meeting 17 November 10 am PT
 
+
 ---
+
 
 ## 2026 Board Election Results  
 The Clojurists Together board is happy to announce the results of our [elections](https://www.clojuriststogether.org/news/2026-nominations-and-your-vote/). We have two new board members and one returning board member filling our three open 2-year slots (Nov. 2026 through Oct. 2028).
