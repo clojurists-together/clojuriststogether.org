@@ -21,7 +21,7 @@ Congratulations to our awardees. We're looking to their great work ahead!
 
 ### $2,000 USD  
 - John Newman: EVE (Extended Value Encoding)  
-- Peter Toausannis: Finish Carmine 4    <br>
+- Peter Taoussanis: Finish Carmine 4    <br>
 
 
 ## Jeremiah Coyle: Documentation and Design Services for Key Community Projects: Malli, Squint, Flowstorm, ECA   
