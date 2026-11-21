@@ -186,7 +186,7 @@ This introduces a more flexible layout for the Squint playground.
 
 **Before**: Editor only.<br>
 **After**: "Select example" bar above the editor.<br>
-<br><img width="796" alt="Before: Editor only. After: &quot;Select example&quot; bar above the editor." src="https://github.com/user-attachments/assets/76f80e8c-a8a4-40e1-ad11-f0e87247f9e6" />
+<br><img width="520" alt="Before: Editor only. After: &quot;Select example&quot; bar above the editor." src="https://github.com/user-attachments/assets/76f80e8c-a8a4-40e1-ad11-f0e87247f9e6" />
 
 <br>
 
@@ -293,7 +293,7 @@ Example error from unresolve module:
 - Space bar restarts game.
 - Higher scores
 
-<img width="798" alt="The new pinball table in dark mode" src="https://github.com/user-attachments/assets/5d3553bb-7dae-47ef-9046-d2cbaf281ebb" />
+<img width="520" alt="The new pinball table in dark mode" src="https://github.com/user-attachments/assets/5d3553bb-7dae-47ef-9046-d2cbaf281ebb" />
 
 <br>
 
