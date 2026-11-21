@@ -8,16 +8,18 @@ draft: True
 
 
 ---
-Here are the first project updates for projects funded in Q3 2026.  You can find overviews of these projects in the [original funding announcement](https://www.clojuriststogether.org/news/q3-2026-funding-announcement/). Thanks everyone!   
+Here are the first updates for projects funded in Q3 2026.  You can find overviews of these projects in the [original funding announcement](https://www.clojuriststogether.org/news/q3-2026-funding-announcement/). There is a lot to dig into here - Thanks everyone!   
 
 - Jeremiah Coyle: Documentation and Design Services for Key Community Projects: Malli, Squint, Flowstorm, ECA  
 - Ethan Miller: Tablecloth  
 - John Newman: EVE (Extended Value Encoding)  
-- Peter Taoussanis: Finish Carmine 4  
+- Peter Taoussanis: Finish Carmine 4  <br>
+
+<br>
 
 
 ## Design Services for Key Community Projects: Jeremiah Coyle   
-Q3 2026 Report 1. Published November 1, 2026   
+Q3 2026 $9K Report 1. Published November 1, 2026   
 
 **Focus for October 2026:**
 - **Squint Playground design updates**
@@ -25,15 +27,11 @@ Q3 2026 Report 1. Published November 1, 2026
 
 <br>
 
-<hr>
-
-<br>
 
 
 ### Squint Playground UI Updates, Part 1
 #### [PR #989](https://github.com/squint-cljs/squint/pull/989)
 
-<br>
 
 - Add standalone main.css
 - Add some initial global css vars (light/dark mode friendly)
@@ -49,7 +47,6 @@ Q3 2026 Report 1. Published November 1, 2026
 
 <hr>
 
-<br>
 
 ### Squint Playground UI Updates, Part 2
 #### [PR #1045](https://github.com/squint-cljs/squint/pull/1045)
@@ -89,13 +86,11 @@ Fixes:
 - Optimize scrollbar styling
 
 <br>
-<br>
 
 ### Draggable resizing of editor and compile panes
 <img width="798" alt="Draggable resizing of editor and compile panes" src="https://github.com/user-attachments/assets/0641bbeb-b354-4163-9ee2-86b1c46de6cf" />
 
 ##### Related
-
 - Add Playwright tests for pane resizing
 
 <br>
@@ -114,12 +109,10 @@ Fixes:
 
 <br>
 <br>
-<br>
 
 ### Respect OS color scheme for initial theme state
 <img width="798" alt="Respect OS color scheme for initial theme state" src="https://github.com/user-attachments/assets/048cb6e3-5611-4681-954d-364b636c8dc2" />
 
-<br>
 <br>
 <br>
 
@@ -626,12 +619,14 @@ Configuration open with the current page highlighted, the other items plain link
 - Added: `extra.nav_open_first` in `mkdocs.yml`, off, makes a collapsed menu group open its first page when clicked. Script is `docs/js/nav-open-first.js`. This is NOT enabled, but functionality is in place if it is ever needed in the future.
 - Fixed: Menu text no longer shifts weight while pages load. The site used Inter `500` and `600` without loading them, so the browser swapped in a nearby weight. One variable Inter file now covers `300` to `700`. <br>
 
+<br>
+
 ---
 
 
 
 ## Tablecloth: Ethan Miller    
-Q3 2026 Report 1. Published November 1, 2026  
+Q3 2026 $9K Report 1. Published November 1, 2026  
 
 
 ### Overview
@@ -696,9 +691,11 @@ I'm now bringing a lag function built on the Column API into Tablecloth itself.
 
 ---
 
+<br>
 
-## EVE (Extended Value Encoding):John Newman   
-Q3 2026 Report 1. Published November 20, 2026   
+
+## EVE (Extended Value Encoding): John Newman   
+Q3 2026 $2K Report 1. Published November 20, 2026   
 
 eve is a persistent data-structure library - maps, vectors, sets, lists, etc, that live in shared memory as atoms. It’s implemented in .cljc, so it targets over a dozen clojure-likes. Clojurists Together funded eve this quarter and my goal was to improve the Clojure impl (the cljs version came first), improve the docs and get the library to a 1.0 status. I feel like we’re half way there.  
 
@@ -761,10 +758,14 @@ And here's the ant demo running from the cli:
 
 There is a lot going on over here, but the bits are starting to settle and I’d love to have folks poking at eve. Sorry again for the delayed update. I would also like to figure out a development process that integrates human checks on critical namespaces and functions for large point releases. I’m not sure if I’ll have something together by the end of the funding period but I've been hosting some conversations about it with the community.  
 
-Thanks to Clojurists Together and its supporters for funding this work! (edited)   
+Thanks to Clojurists Together and its supporters for funding this work! (edited)  <br>
+
+---
+
+
 
 ## Finish Carmine 4: Peter Taoussanis    
-Q3 2026 Report 1. November 16, 2026   
+Q3 2026 $2K Report 1. November 16, 2026   
 
 Hi folks! 👋  
 
