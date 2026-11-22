@@ -10,10 +10,10 @@ draft: True
 ---
 Here are the first updates for projects funded in Q3 2026.  You can find overviews of these projects in the [original funding announcement](https://www.clojuriststogether.org/news/q3-2026-funding-announcement/). There is a lot to dig into here - Thanks everyone!   
 
-- Jeremiah Coyle: Documentation and Design Services for Key Community Projects: Malli, Squint, Flowstorm, ECA  
-- Ethan Miller: Tablecloth  
-- John Newman: EVE (Extended Value Encoding)  
-- Peter Taoussanis: Finish Carmine 4  <br>
+- [Jeremiah Coyle: Documentation and Design Services for Key Community Projects: Malli, Squint, Flowstorm, ECA](#design-services-for-key-community-projects-jeremiah-coyle)  
+- [Ethan Miller: Tablecloth](#tablecloth-ethan-miller)    
+- [John Newman: EVE (Extended Value Encoding)](#eve-extended-value-encoding-john-newman)  
+- [Peter Taoussanis: Finish Carmine 4](#finish-carmine-4-peter-taoussanis)  <br>
 
 <br>
 
@@ -738,20 +738,17 @@ In the 0.9.1 release, instantiating eve data outside of an eve transaction would
 
 To show how eve can make an application “stateless” with respect to RAM, I forked Burin’s Jonquil and made narcis. It lets you edit very large code bases while keeping the runtime state of your editor durable, even surviving machine restarts:  
 
-[narcis pic]
-
-(narcis text editing app, based on jonquil)
+<img width="720" height="456" alt="Narcis" src="https://github.com/user-attachments/assets/4183fc30-776a-4200-b182-2e62c7a887df" />  <br>  
+(narcis text editing app, based on jonquil)  
 
 The cohost media editor shows how you can fuse multiple clojure-like runtimes together to create a media transcoding app - runtime fusion. In my opinion, it’s quite ugly, but that’s not the point! The idea is to show how the different runtimes are working together:  
 
-[cohost pic]
-
+<img width="720" height="636" alt="cohost v2" src="https://github.com/user-attachments/assets/57d1bdef-39df-4137-acaa-a9537ab21a36" /> <br>  
 (Cohost Media Example App)
 
 And here's the ant demo running from the cli:  
 
-[ant demo pic]
-
+<img width="306" height="680" alt="ant" src="https://github.com/user-attachments/assets/5279327a-dcc2-4512-bd97-57d7fa749158" /> <br>  
 (A CLI ant demo, based on Rich Hickey's)
 
 ### What’s next  
