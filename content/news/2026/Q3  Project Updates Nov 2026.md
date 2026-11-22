@@ -795,5 +795,5 @@ My hope is to aim for something like beta1 before the end of the year / early ne
 
 It's been a long, multi-year road - but almost there now. Looking forward to announcing the first alpha soon. Cheers! 🫶
 
-\- [Peter])(https://www.taoensso.com/)  
+\- [Peter](https://www.taoensso.com/)  
 
