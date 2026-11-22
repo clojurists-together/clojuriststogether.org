@@ -3,7 +3,7 @@ title: "Nov. 2026 Short Term Project Updates"
 date: 2026-11-21T14:00:00+12:00  
 author: Kathy Davis  
 summary: News from Jeremiah Coyle, Ethan Miller, John Newman, Peter Taoussanis   
-draft: True  
+
 
 
 
