@@ -3,7 +3,7 @@ title: "Call for Applications: 2027 Annual Funding"
 date: 2026-11-23T08:30:00+08:00
 summary: "We will award $1.5K monthly stipends to 5 developers. "
 author: Kathy Davis  
-draft: True  
+
 ---  
 
 Greetings folks!
@@ -27,7 +27,7 @@ Thanks all and good luck!
 
 **Project Updates:** Recipients are required to submit a report bi-monthly to the membership. 
 
-A special call-out to Latacora,  Whimsical, Nubank, MetaBase, Roam Research, Cisco, JUXT, Pitch, Solita, Nextjournal, doctronic, Shortcut, Toyokumo, Jepsen, Xcoo, Sharetribe, Cognician, Flexiana, Biotz SL, Matrix Operations, Strategic Blue, Eric Normand, Nubizzi, Oiiku, Singlewire Software, Tenkekraft, Bloom Ventures, Mastodon C, Ardoq AS. Mediquest, Codesmith GmbH, ELit Ltd, Thorax, Fincite Management BV, and Joshua Miller. They have all contributed significant amounts to Clojurists Together which lets us award approximately $90,000 in long-term funding to Clojure developers.  
+A special call-out to Latacora,  Whimsical, Nubank, MetaBase, Roam Research, Cisco, JUXT, Pitch, Solita, Nextjournal, doctronic, Shortcut, Toyokumo, Jepsen, Xcoo, Sharetribe, Biotz SL, Cognician, Flexiana, Matrix Operations, Strategic Blue, Eric Normand, Nubizzi, Oiiku, Singlewire Software, Tenkekraft, Bloom Ventures, Mastodon C, Ardoq AS. Mediquest, Codesmith GmbH, ELit Ltd, Thorax, Fincite Management BV, and Joshua Miller. They have all contributed significant amounts to Clojurists Together which lets us award approximately $90,000 in long-term funding to Clojure developers.  
 
 
 
