@@ -17,7 +17,7 @@ If you are not interested in applying, but know someone who should, please feel 
 Thanks all and good luck! 
 
 ### PROCESS
-**Apply:** Anyone interested in receiving annual funding submits the [application](https://forms.gle/6kbiJTms2c2J97J3A) outlining what they intend to work on and how that work will benefit the Clojure community.  **The deadline for applications is Dec. 7, 2026 midnight Pacific Time. Please note that past grantees must re-apply each year.**  
+**Apply:** Anyone interested in receiving annual funding submits the [**APPLICATION**](https://forms.gle/6kbiJTms2c2J97J3A) outlining what they intend to work on and how that work will benefit the Clojure community.  **The deadline for applications is Dec. 7, 2026 midnight Pacific Time. Please note that past grantees must re-apply each year.**  
 
 **Board Review:** The Clojurists Together board will review the applications and select finalists to present to the members by **Dec. 9th**.  
 
